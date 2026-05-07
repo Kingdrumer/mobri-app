@@ -447,17 +447,17 @@ function formatKoreanDate(dateStr) {
   return `${d.getMonth() + 1}월 ${d.getDate()}일 (${days[d.getDay()]})`;
 }
 
-// 이벤트 type → 이모지·라벨 매핑
+// 이벤트 type → 이모지·친근한 라벨 매핑
 function eventTypeMeta(type) {
   const map = {
     positive:   { icon: '🟢', kind: '호재' },
     negative:   { icon: '🔴', kind: '악재' },
-    earnings:   { icon: '⭐', kind: '실적' },
-    report:     { icon: '📊', kind: '보고서' },
-    indicator:  { icon: '📈', kind: '경제지표' },
-    schedule:   { icon: '📅', kind: '주요일정' },
-    asia:       { icon: '🌏', kind: '아시아장' },
-    'us-open':  { icon: '🇺🇸', kind: '미국 개장' },
+    earnings:   { icon: '⭐', kind: '실적 발표' },
+    report:     { icon: '📊', kind: '주간 보고서' },
+    indicator:  { icon: '📈', kind: '경제 지표' },
+    schedule:   { icon: '📅', kind: '주요 일정' },
+    asia:       { icon: '🌏', kind: '아시아장 마감' },
+    'us-open':  { icon: '🇺🇸', kind: '미국장 개장' },
     subscription: { icon: '🏠', kind: '청약' },
     rate:       { icon: '💰', kind: '금리' },
     policy:     { icon: '📜', kind: '정책' },
@@ -465,35 +465,260 @@ function eventTypeMeta(type) {
   return map[type] || { icon: '•', kind: '일정' };
 }
 
-function renderEventDetailCard(ev) {
+// 이벤트 카테고리 분류
+function classifyEvent(ev) {
+  if (ev.color === 'green' || ev.type === 'positive') return 'positive';
+  if (ev.color === 'red' || ev.type === 'negative') return 'negative';
+  if (ev.type === 'earnings') return 'earnings';
+  return 'schedule';
+}
+
+function groupEvents(events) {
+  return events.reduce((g, e) => {
+    const k = classifyEvent(e);
+    g[k] = g[k] || [];
+    g[k].push(e);
+    return g;
+  }, {});
+}
+
+// 뉴스 → 한국/미국 분류
+function newsCountry(news) {
+  if (news.country) return news.country;
+  const text = (news.sources || []).map((s) => s.name || '').join(' ');
+  const krKeywords = ['한국경제', '한경', '매일경제', '매경', '조선', '머니투데이',
+    '이데일리', '네이버', '다음', '서울경제', '뉴시스', '연합', '뉴스1',
+    '아시아경제', '아주경제', '인포스탁', '파이낸셜', '데일리안', '머니S'];
+  return krKeywords.some((k) => text.includes(k)) ? 'kr' : 'us';
+}
+
+function renderEventTile(ev, idx) {
   const meta = eventTypeMeta(ev.type);
   const colorClass = ev.color || 'gray';
-  const hasDetails = ev.title || ev.description || ev.impact || ev.ourImpact;
+  const hasMore = !!(ev.impact || ev.ourImpact);
+  const desc = ev.description || (ev.title && ev.title !== ev.label ? ev.title : '');
 
   return `
-    <div class="event-detail-card color-${colorClass}">
-      <div class="ed-head">
-        <span class="ed-dot ${colorClass}"></span>
-        <span class="ed-kind">${meta.icon} ${escapeHtml(meta.kind)}</span>
-        ${ev.time ? `<span class="ed-time">${escapeHtml(ev.time)}</span>` : ''}
+    <div class="etile color-${colorClass} ${hasMore ? 'has-more' : ''}" data-idx="${idx}">
+      <div class="etile-icon">${meta.icon}</div>
+      <div class="etile-body">
+        <div class="etile-meta">
+          <span class="etile-badge">${escapeHtml(meta.kind)}</span>
+          ${ev.time ? `<span class="etile-time">${escapeHtml(ev.time)}</span>` : ''}
+        </div>
+        <div class="etile-title">${escapeHtml(ev.label || ev.title || '')}</div>
+        ${desc ? `<div class="etile-desc">${escapeHtml(desc)}</div>` : ''}
+
+        ${hasMore ? `
+          <div class="etile-more">
+            ${ev.impact ? `
+              <div class="erow">
+                <div class="erow-label">💡 무슨 영향?</div>
+                <div class="erow-text">${escapeHtml(ev.impact)}</div>
+              </div>
+            ` : ''}
+            ${ev.ourImpact ? `
+              <div class="erow">
+                <div class="erow-label">📌 내 종목엔?</div>
+                <div class="erow-text">${escapeHtml(ev.ourImpact)}</div>
+              </div>
+            ` : ''}
+          </div>
+          <div class="etile-toggle">
+            <span class="t-c">자세히 보기</span>
+            <span class="t-o">접기</span>
+          </div>
+        ` : ''}
       </div>
-      <div class="ed-label">${escapeHtml(ev.label || '')}</div>
-      ${ev.title && ev.title !== ev.label ? `<div class="ed-title">${escapeHtml(ev.title)}</div>` : ''}
-      ${ev.description ? `<div class="ed-desc">${escapeHtml(ev.description)}</div>` : ''}
-      ${ev.impact ? `
-        <div class="ed-row">
-          <span class="ed-row-label impact">📊 시장 영향</span>
-          <span class="ed-row-text">${escapeHtml(ev.impact)}</span>
-        </div>
-      ` : ''}
-      ${ev.ourImpact ? `
-        <div class="ed-row">
-          <span class="ed-row-label our">🎯 우리 포트폴리오</span>
-          <span class="ed-row-text">${escapeHtml(ev.ourImpact)}</span>
-        </div>
-      ` : ''}
-      ${!hasDetails ? `<div class="ed-desc" style="color:var(--text-tertiary);font-style:italic;">상세 정보가 곧 업데이트됩니다</div>` : ''}
     </div>
+  `;
+}
+
+// ── Box 1: 오늘의 일정 ──
+function renderEventsBox(dayEvents) {
+  if (!dayEvents.length) {
+    return `
+      <section class="day-box">
+        <div class="db-head">
+          <div class="db-title">📅 오늘의 일정</div>
+        </div>
+        <div class="db-empty">큰 이벤트 없는 평범한 날이에요</div>
+      </section>
+    `;
+  }
+
+  const groups = groupEvents(dayEvents);
+  const order = [
+    { key: 'positive', label: '🟢 호재' },
+    { key: 'negative', label: '🔴 악재' },
+    { key: 'earnings', label: '⭐ 실적' },
+    { key: 'schedule', label: '📅 일정' },
+  ].filter((g) => groups[g.key]?.length);
+
+  const stats = order.map((g) => `${g.label.split(' ')[1]} ${groups[g.key].length}`).join(' · ');
+
+  return `
+    <section class="day-box">
+      <div class="db-head">
+        <div class="db-title">📅 오늘의 일정</div>
+        <div class="db-stat">${stats}</div>
+      </div>
+      ${order.map((g) => `
+        <div class="db-group">
+          <div class="dbg-label">
+            <span>${g.label}</span>
+            <span class="dbg-count">${groups[g.key].length}</span>
+          </div>
+          <div class="event-tiles">
+            ${groups[g.key].map(renderEventTile).join('')}
+          </div>
+        </div>
+      `).join('')}
+    </section>
+  `;
+}
+
+// ── Box 2: 오늘의 핵심 뉴스 (한국 / 미국 탭) ──
+function renderNewsBox(report) {
+  if (!report?.news?.length) return '';
+
+  const news = report.news;
+  const us = news.filter((n) => newsCountry(n) === 'us');
+  const kr = news.filter((n) => newsCountry(n) === 'kr');
+
+  const item = (n) => `
+    <div class="news-item ${n.impact || 'neutral'}">
+      <div class="ni-bar"></div>
+      <div class="ni-body">
+        <div class="ni-headline">${escapeHtml(n.headline)}</div>
+        ${n.summary ? `<div class="ni-summary">${escapeHtml(n.summary)}</div>` : ''}
+        ${(n.sources && n.sources.length) ? `
+          <div class="ni-sources">${n.sources.map((s) => escapeHtml(s.name || '')).filter(Boolean).join(' · ')}</div>
+        ` : ''}
+      </div>
+    </div>
+  `;
+
+  // 기본 탭은 더 많은 뉴스 있는 쪽
+  const defaultTab = us.length >= kr.length ? 'us' : 'kr';
+
+  return `
+    <section class="day-box">
+      <div class="db-head">
+        <div class="db-title">📰 오늘의 핵심 뉴스</div>
+        <div class="db-stat">${news.length}건</div>
+      </div>
+      <div class="news-tabs">
+        <button class="ntab ${defaultTab === 'us' ? 'active' : ''}" data-tab="us">🇺🇸 미국 ${us.length}</button>
+        <button class="ntab ${defaultTab === 'kr' ? 'active' : ''}" data-tab="kr">🇰🇷 한국 ${kr.length}</button>
+      </div>
+      <div class="news-list ${defaultTab === 'us' ? '' : 'hidden'}" data-tab-content="us">
+        ${us.length ? us.map(item).join('') : '<div class="db-empty">미국 뉴스 없음</div>'}
+      </div>
+      <div class="news-list ${defaultTab === 'kr' ? '' : 'hidden'}" data-tab-content="kr">
+        ${kr.length ? kr.map(item).join('') : '<div class="db-empty">한국 뉴스 없음</div>'}
+      </div>
+    </section>
+  `;
+}
+
+// ── Box 3: 내 포트폴리오 (시장별 → 섹터별 섹션) ──
+function renderPortfolioBox() {
+  const us = State.portfolio.us || [];
+  const kr = State.portfolio.kr || [];
+
+  const groupBySector = (list) => {
+    const out = {};
+    list.forEach((s) => {
+      const sec = s.sector || '기타';
+      out[sec] = out[sec] || [];
+      out[sec].push(s);
+    });
+    return out;
+  };
+
+  const renderRow = (s, market) => {
+    const change = s.change1D ?? s.change1W ?? 0;
+    const color = change > 0 ? 'var(--positive)' : change < 0 ? 'var(--negative)' : 'var(--text-tertiary)';
+    return `
+      <div class="port-row" data-ticker="${escapeHtml(s.ticker)}" data-market="${market}">
+        <span class="dot ${s.signal || 'gray'}"></span>
+        <div class="pr-info">
+          <div class="pr-ticker">${escapeHtml(s.ticker)}</div>
+          <div class="pr-name">${escapeHtml(s.name || '')}</div>
+        </div>
+        <div class="pr-right">
+          <div class="pr-price">${market === 'us' ? '$' : '₩'}${s.price ? s.price.toLocaleString() : '—'}</div>
+          <div class="pr-change" style="color: ${color}">${pct(change)}</div>
+        </div>
+      </div>
+    `;
+  };
+
+  const renderMarketBlock = (list, market, flag, label) => {
+    if (!list.length) {
+      return `
+        <div class="port-block">
+          <div class="pb-flag"><span>${flag} ${label}</span><span class="pb-count">0</span></div>
+          <div class="db-empty">등록된 종목이 없어요</div>
+        </div>
+      `;
+    }
+    const bySector = groupBySector(list);
+    const sectorKeys = Object.keys(bySector);
+    return `
+      <div class="port-block">
+        <div class="pb-flag"><span>${flag} ${label}</span><span class="pb-count">${list.length}</span></div>
+        ${sectorKeys.map((sec) => `
+          <div class="port-sector">
+            <div class="ps-label">
+              <span>${escapeHtml(sec)}</span>
+              <span class="ps-count">${bySector[sec].length}</span>
+            </div>
+            <div class="port-rows">
+              ${bySector[sec].map((s) => renderRow(s, market)).join('')}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  };
+
+  return `
+    <section class="day-box">
+      <div class="db-head">
+        <div class="db-title">📊 내 포트폴리오</div>
+        <div class="db-stat">미국 ${us.length} · 한국 ${kr.length}</div>
+      </div>
+      ${renderMarketBlock(us, 'us', '🇺🇸', '미국 주식')}
+      ${renderMarketBlock(kr, 'kr', '🇰🇷', '한국 주식')}
+    </section>
+  `;
+}
+
+// ── Box 4: 오늘의 학습 ──
+function renderTermsBox(report) {
+  if (!report?.terms?.length && !report?.tip) return '';
+
+  return `
+    <section class="day-box">
+      <div class="db-head">
+        <div class="db-title">📚 오늘의 학습</div>
+        ${report.terms?.length ? `<div class="db-stat">${report.terms.length}개 용어</div>` : ''}
+      </div>
+      ${report.terms?.length ? `
+        <div class="terms-list">
+          ${report.terms.map((t) => `
+            <div class="term-card-v2">
+              <div class="tc-term">${escapeHtml(t.term)}</div>
+              <div class="tc-def">${escapeHtml(t.definition || '')}</div>
+              ${t.example ? `<div class="tc-ex">${escapeHtml(t.example)}</div>` : ''}
+            </div>
+          `).join('')}
+        </div>
+      ` : ''}
+      ${report.tip ? `<div class="tip-box-v2">💡 ${escapeHtml(report.tip)}</div>` : ''}
+    </section>
   `;
 }
 
@@ -503,113 +728,61 @@ async function renderSelectedDayPanel() {
 
   const dayEvents = (State.calendarEvents[State.calMode] || {})[State.selectedDate] || [];
 
+  // ── 부동산 모드 ──
   if (State.calMode === 'realestate') {
-    if (!dayEvents.length) {
-      panel.innerHTML = `
-        <div class="placeholder">
-          <div class="ico">🏠</div>
-          <div>${formatKoreanDate(State.selectedDate)} 부동산 일정 없음</div>
-          <div style="margin-top: 4px; font-size: 11px;">청약·금리·정책 일정이 등록되면 여기 표시돼요</div>
-        </div>
-      `;
-      return;
-    }
     panel.innerHTML = `
-      <div class="event-detail-section">
-        <div class="eds-head">
-          <span class="eds-pill">📅 ${formatKoreanDate(State.selectedDate)}</span>
-          <span class="eds-count">${dayEvents.length}건</span>
-        </div>
-        <div class="eds-list">
-          ${dayEvents.map(renderEventDetailCard).join('')}
-        </div>
+      <div class="day-panel">
+        ${renderEventsBox(dayEvents)}
       </div>
     `;
+    attachEventTileHandlers();
     return;
   }
 
-  // 주식 모드: 보고서 + 이벤트 상세 병행 렌더
+  // ── 주식 모드: 4박스 ──
   const report = await loadReport(State.selectedDate);
 
-  // 이벤트도 보고서도 없는 경우만 placeholder
-  if (!report && !dayEvents.length) {
-    panel.innerHTML = `
-      <div class="placeholder">
-        <div class="ico">📊</div>
-        <div>${formatKoreanDate(State.selectedDate)} 일정·보고서 없음</div>
-        <div style="margin-top: 4px; font-size: 11px;">매일 오전 7:37에 자동 생성돼요</div>
-      </div>
-    `;
-    return;
-  }
-
-  // 이벤트 상세 카드 (NEW: 캘린더 점에 대한 풀이)
-  const eventsBlock = dayEvents.length ? `
-    <div class="event-detail-section">
-      <div class="eds-head">
-        <span class="eds-pill">📌 오늘의 일정·이벤트</span>
-        <span class="eds-count">${dayEvents.length}건</span>
-      </div>
-      <div class="eds-list">
-        ${dayEvents.map(renderEventDetailCard).join('')}
-      </div>
+  panel.innerHTML = `
+    <div class="day-panel">
+      ${renderEventsBox(dayEvents)}
+      ${renderNewsBox(report)}
+      ${renderPortfolioBox()}
+      ${renderTermsBox(report)}
     </div>
-  ` : '';
+  `;
 
-  // 보고서 카드 (기존 시장 한눈에 + 핵심 뉴스 요약)
-  const reportBlock = report ? (() => {
-    const market = (report.marketSummary || []).slice(0, 4);
-    const news = (report.news || []).slice(0, 3);
-    return `
-      <div class="selected-day-card">
-        <div class="sd-header">
-          <div class="row1">
-            <span class="date-pill">📅 ${formatKoreanDate(State.selectedDate)} 보고서</span>
-            <span class="view-all" id="viewFullReport">전체보기 ›</span>
-          </div>
-          <div class="title">${escapeHtml(report.title)}</div>
-        </div>
+  attachEventTileHandlers();
+  attachNewsTabHandlers();
+  attachPortfolioRowHandlers();
+}
 
-        ${market.length ? `
-          <div class="sd-section">
-            <div class="sd-section-label">시장 한눈에</div>
-            <div class="sd-market-row">
-              ${market.map((it) => `
-                <div class="sd-market-pill">
-                  <div class="l">${escapeHtml(it.label)}</div>
-                  <div class="v">
-                    <span>${escapeHtml(it.value)}</span>
-                    <span class="c" style="color: ${it.trend === 'up' ? 'var(--positive)' : it.trend === 'down' ? 'var(--negative)' : 'var(--text-tertiary)'}">${escapeHtml(it.change)}</span>
-                  </div>
-                </div>
-              `).join('')}
-            </div>
-          </div>
-        ` : ''}
+function attachEventTileHandlers() {
+  $$('.etile.has-more').forEach((tile) => {
+    tile.addEventListener('click', () => tile.classList.toggle('expanded'));
+  });
+}
 
-        ${news.length ? `
-          <div class="sd-section">
-            <div class="sd-section-label">핵심 뉴스</div>
-            <div class="sd-news-list">
-              ${news.map((n) => `
-                <div class="sd-news-row">
-                  <div class="impact-bar ${n.impact || 'neutral'}"></div>
-                  <div class="news-body">
-                    <div class="h">${escapeHtml(n.headline)}</div>
-                    <div class="src">${(n.sources || []).map((s) => `· ${escapeHtml(s.name)}`).join(' ')}</div>
-                  </div>
-                </div>
-              `).join('')}
-            </div>
-          </div>
-        ` : ''}
-      </div>
-    `;
-  })() : '';
+function attachNewsTabHandlers() {
+  $$('.day-box').forEach((box) => {
+    const tabs = $$('.ntab', box);
+    if (!tabs.length) return;
+    const lists = $$('[data-tab-content]', box);
+    tabs.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const tab = btn.dataset.tab;
+        tabs.forEach((b) => b.classList.toggle('active', b === btn));
+        lists.forEach((l) => l.classList.toggle('hidden', l.dataset.tabContent !== tab));
+      });
+    });
+  });
+}
 
-  panel.innerHTML = eventsBlock + reportBlock;
-
-  $('#viewFullReport')?.addEventListener('click', () => openReportModal(State.selectedDate));
+function attachPortfolioRowHandlers() {
+  $$('.port-row').forEach((row) => {
+    row.addEventListener('click', () => {
+      openStockDetail(row.dataset.ticker, row.dataset.market);
+    });
+  });
 }
 
 async function loadReport(dateStr) {

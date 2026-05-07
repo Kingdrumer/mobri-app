@@ -72,14 +72,69 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
   <script src="app.js"></script>
   <script>
-    if ('serviceWorker' in navigator) {
+    // 로컬 개발 모드 감지 (localhost / LAN IP / file:) → SW 비활성화 + 캐시 우회
+    const __isDev = (
+      location.hostname === 'localhost' ||
+      location.hostname === '127.0.0.1' ||
+      location.hostname === '' ||
+      /^192\.168\./.test(location.hostname) ||
+      /^10\./.test(location.hostname) ||
+      /^172\.(1[6-9]|2\d|3[0-1])\./.test(location.hostname)
+    );
+
+    if (__isDev) {
+      // 개발 중에는 등록된 SW 모두 해제 + 캐시 비우기 (한 번)
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then((regs) => {
+          regs.forEach((r) => r.unregister());
+        });
+      }
+      if (window.caches) {
+        caches.keys().then((keys) => keys.forEach((k) => caches.delete(k)));
+      }
+      console.log('[Mobri] 로컬 개발 모드 — SW/캐시 비활성화 + 파일 변경 감지 시작');
+
+      // === 브라우저 측 자동 새로고침 (live-server 없이도 동작) ===
+      // 1.5초마다 핵심 파일 Last-Modified 폴링 → 변경 감지
+      // CSS는 페이지 리로드 없이 link 태그만 교체 (캐시 회피 + UX)
+      const __watchFiles = ['app.js', 'styles.css', 'index.html', 'data/calendar-events.json', 'data/portfolio.json'];
+      const __mtimes = {};
+      let __reloading = false;
+      setInterval(async () => {
+        if (__reloading) return;
+        for (const f of __watchFiles) {
+          try {
+            const r = await fetch(f + '?_=' + Date.now(), { method: 'HEAD', cache: 'no-store' });
+            const m = r.headers.get('Last-Modified') || r.headers.get('ETag') || '';
+            if (__mtimes[f] && __mtimes[f] !== m) {
+              if (f === 'styles.css') {
+                // CSS만 핫 스왑 (페이지 리로드 없이 스타일만 갈아끼움)
+                const link = document.querySelector('link[rel="stylesheet"][href*="styles.css"]');
+                if (link) {
+                  const newLink = link.cloneNode();
+                  newLink.href = 'styles.css?_=' + Date.now();
+                  newLink.onload = () => link.remove();
+                  link.parentNode.insertBefore(newLink, link.nextSibling);
+                  console.log('[Mobri] 🎨 styles.css 핫 스왑');
+                  __mtimes[f] = m;
+                  continue;
+                }
+              }
+              __reloading = true;
+              console.log('[Mobri] 🔄 ' + f + ' 변경 감지 — 새로고침');
+              location.reload();
+              return;
+            }
+            __mtimes[f] = m;
+          } catch (e) { /* 서버 잠깐 끊김은 무시 */ }
+        }
+      }, 1500);
+    } else if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('service-worker.js').catch(() => {});
       });
-      // SW가 새 버전 알리면 즉시 새로고침
       navigator.serviceWorker.addEventListener('message', (event) => {
         if (event.data && event.data.type === 'NEW_VERSION') {
-          // 한 번만 리로드 (중복 방지)
           if (!window.__reloadingForUpdate) {
             window.__reloadingForUpdate = true;
             window.location.reload();
