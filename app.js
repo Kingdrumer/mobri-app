@@ -272,7 +272,7 @@ function renderCalendar(app) {
 
   app.innerHTML = `
     <header class="app-header">
-      <div class="meta">Mobri · 월간 기록 · ⚡ GitHub 연동</div>
+      <div class="meta">Mobri · 월간 기록 · ⚡ GitHub 연동 v2</div>
       <h1>${monthLabel}</h1>
     </header>
 
