@@ -602,7 +602,84 @@ body {
 .erow-text {
   font-size: 12px;
   color: var(--text-primary);
-  line-height: 1.6;
+  line-height: 1.65;
+  white-space: pre-line;
+}
+
+/* 종목별 영향 리스트 */
+.stock-impacts {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.si-label {
+  font-size: 10px;
+  color: var(--text-tertiary);
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  padding: 0 2px;
+}
+
+.si-row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--bg-card);
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  width: 100%;
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.12s;
+}
+.si-row:active { background: var(--bg-secondary); }
+.si-row.not-held { opacity: 0.55; cursor: default; }
+
+.si-tone {
+  font-size: 11px;
+  flex-shrink: 0;
+  width: 14px;
+  text-align: center;
+  margin-top: 1px;
+  line-height: 1.4;
+}
+
+.si-body { flex: 1; min-width: 0; }
+
+.si-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 3px;
+}
+
+.si-ticker {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.1px;
+}
+
+.si-magnitude {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
+}
+.si-row.positive .si-magnitude { color: var(--positive); }
+.si-row.negative .si-magnitude { color: var(--negative); }
+
+.si-text {
+  font-size: 11px;
+  color: var(--text-secondary);
+  line-height: 1.55;
 }
 
 /* 토글 텍스트 */
@@ -720,19 +797,36 @@ body {
   padding: 14px 14px 12px;
 }
 
-.db-head {
+/* 박스 헤더 — 클릭 가능한 버튼 */
+.db-head-btn {
+  background: transparent;
+  border: none;
+  padding: 0 2px;
+  margin: 0 0 12px;
+  width: 100%;
+  text-align: left;
+  font-family: inherit;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  margin-bottom: 12px;
-  padding: 0 2px;
+  cursor: default;
+  -webkit-tap-highlight-color: transparent;
+  color: inherit;
 }
+.day-box.collapsible .db-head-btn { cursor: pointer; }
+.day-box.collapsible .db-head-btn:active { opacity: 0.65; }
 
 .db-title {
   font-size: 14px;
   font-weight: 700;
   color: var(--text-primary);
   letter-spacing: -0.2px;
+}
+
+.db-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .db-stat {
@@ -742,11 +836,83 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
+.db-chevron {
+  font-size: 9px;
+  color: var(--text-tertiary);
+  transition: transform 0.25s ease;
+  display: inline-block;
+}
+.day-box.expanded .db-chevron { transform: rotate(180deg); }
+
 .db-empty {
   padding: 16px 12px;
   text-align: center;
   color: var(--text-tertiary);
   font-size: 12px;
+}
+
+/* 헤드라인 영역 — 항상 보이는 핵심 1개 */
+.db-headline-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 8px;
+  letter-spacing: 0.3px;
+  padding: 0 2px;
+}
+.db-headline-label.red    { color: var(--negative); }
+.db-headline-label.amber  { color: #F59E0B; }
+.db-headline-label.green  { color: var(--positive); }
+
+/* 더보기 힌트 — 박스 펼침 트리거 */
+.db-more-hint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 9px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent);
+  background: rgba(99,102,241,0.06);
+  border: 0.5px dashed rgba(99,102,241,0.25);
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.12s;
+}
+.db-more-hint:active { background: rgba(99,102,241,0.14); }
+.db-more-hint .mh-arrow {
+  font-size: 9px;
+  transition: transform 0.25s ease;
+}
+
+.day-box.expanded .db-more-hint { display: none; }
+
+/* 펼쳐지는 본문 */
+.db-content {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 0.5px dashed var(--border);
+}
+.day-box.collapsible:not(.expanded) .db-content { display: none; }
+
+/* 안전 배너 (포트폴리오 모두 안전 상태) */
+.safe-banner {
+  padding: 12px;
+  font-size: 12px;
+  color: var(--positive);
+  text-align: center;
+  background: rgba(74,222,128,0.06);
+  border: 0.5px solid rgba(74,222,128,0.18);
+  border-radius: 12px;
+  font-weight: 500;
 }
 
 /* ── Box 1: 이벤트 그룹 ── */

@@ -7,9 +7,101 @@
         "color": "red",
         "time": "21:30 KST",
         "title": "Fed 핵심 물가지표 PCE 발표 (3.5%)",
-        "description": "미국 중앙은행이 가장 신뢰하는 물가 지표가 3.5%로 튀어 올랐어요. 연준 목표(2%)보다 한참 높습니다.",
-        "impact": "물가가 안 잡히면 Fed가 금리를 못 내려요. → 기술주에 부담.",
-        "ourImpact": "AI 성장주(NVDA, MU 등) 단기 변동성 ↑. 우리 포트 베타 평균 2.1이라 충격이 평소 2배."
+        "description": "Fed가 가장 신뢰하는 물가 지표 PCE가 3.5%로 발표 (적정 2%).",
+        "impact": "PCE는 미국 사람들이 한 달간 물건·서비스에 얼마나 더 비싸게 썼는지 보여주는 물가 지표입니다. Fed(미국 중앙은행)는 물가 안정이 우선 목표라서, 물가가 안 잡히면 금리(은행이 돈을 빌려줄 때 받는 이자)를 내릴 수 없습니다. 금리가 내려가지 않으면 빚을 많이 쓰는 기술 회사들에 부담이 큽니다.",
+        "ourImpact": "AI 성장주 14개는 베타(시장 평균 대비 흔들리는 정도) 평균 2.1입니다. 시장이 1% 떨어지면 우리 종목들은 약 2% 더 떨어질 수 있습니다.",
+        "stockImpacts": [
+          {
+            "ticker": "CRDO",
+            "tone": "negative",
+            "magnitude": "베타 3.43",
+            "text": "보유 중 가장 큰 변동성. 시장 1% 하락 시 약 3.4% 하락 가능"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "negative",
+            "magnitude": "베타 2.44",
+            "text": "큰 변동성 — 시장 충격 두 배 이상 반영"
+          },
+          {
+            "ticker": "CLS",
+            "tone": "negative",
+            "magnitude": "베타 2.42",
+            "text": "큰 변동성"
+          },
+          {
+            "ticker": "MU",
+            "tone": "negative",
+            "magnitude": "베타 2.43",
+            "text": "큰 변동성 + 메모리 수요 둔화 우려"
+          },
+          {
+            "ticker": "SNDK",
+            "tone": "negative",
+            "magnitude": "베타 2.41",
+            "text": "큰 변동성"
+          },
+          {
+            "ticker": "LITE",
+            "tone": "negative",
+            "magnitude": "베타 2.38",
+            "text": "큰 변동성"
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "negative",
+            "magnitude": "베타 2.34",
+            "text": "큰 변동성"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "negative",
+            "magnitude": "베타 2.07",
+            "text": "AI 인프라 투자 위축 우려"
+          },
+          {
+            "ticker": "DELL",
+            "tone": "negative",
+            "magnitude": "베타 1.96",
+            "text": "약 두 배 변동"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "negative",
+            "magnitude": "베타 1.85",
+            "text": "약 두 배 변동"
+          },
+          {
+            "ticker": "TLN",
+            "tone": "negative",
+            "magnitude": "베타 1.54",
+            "text": "AI 전력 — 상대적으로 안정"
+          },
+          {
+            "ticker": "META",
+            "tone": "negative",
+            "magnitude": "베타 1.49",
+            "text": "광고 매출 의존, 빅테크 부담"
+          },
+          {
+            "ticker": "AMZN",
+            "tone": "negative",
+            "magnitude": "베타 1.47",
+            "text": "AWS·소비재, 빅테크 부담"
+          },
+          {
+            "ticker": "GOOG",
+            "tone": "negative",
+            "magnitude": "베타 1.15",
+            "text": "보유 중 가장 안정적 — 클라우드 안정"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "negative",
+            "magnitude": "베타 1.12",
+            "text": "보유 중 가장 안정적 — 파운드리 안정"
+          }
+        ]
       }
     ],
     "2026-05-01": [
@@ -19,9 +111,53 @@
         "color": "green",
         "time": "익일 05:00 KST 마감",
         "title": "미국 3대 지수 사상 최고가 마감",
-        "description": "S&P 7,230, 나스닥 25,114로 사상 최고가 경신.",
-        "impact": "AI 어닝 호조 + 유가 안정 + Fed 의장 교체 변수 정리, 4박자가 맞아 떨어진 결과.",
-        "ourImpact": "우리 빅테크·반도체 종목 전반 동반 강세. GOOG·AMD·TSM·MU 신고가 동조."
+        "description": "미국 3대 지수 사상 최고가 마감 (S&P 7,230, 나스닥 25,114).",
+        "impact": "AI 기업들의 좋은 실적, 안정된 유가, Fed 의장 교체 변수 해소 등 4가지 호재가 동시에 작용하며 기록을 다시 썼습니다.",
+        "ourImpact": "GOOG·AMD·TSM·MU 등 우리 보유 종목 전반이 동반 강세입니다.",
+        "stockImpacts": [
+          {
+            "ticker": "GOOG",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "빅테크 대장주 — 신고가 그룹 선두"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "AI 반도체 호실적 직격 수혜"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "파운드리(반도체 위탁생산) 신고가"
+          },
+          {
+            "ticker": "MU",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "AI 메모리 수요 호조"
+          },
+          {
+            "ticker": "AMZN",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "AWS 가속 + 소비재 안정"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "AI 칩 수요 지속"
+          },
+          {
+            "ticker": "META",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "광고 매출 안정"
+          }
+        ]
       }
     ],
     "2026-05-02": [
@@ -31,7 +167,7 @@
         "color": "indigo",
         "time": "08:00 KST",
         "title": "주말 정리 — 신고가 마감, 5/5 실적 대기",
-        "description": "한 주 결산 + 다음 주 핵심 이벤트 미리보기."
+        "description": "S&P가 4월 한 달 +12.8% 마감, 코로나 이후 가장 강한 4월. 이번 주에만 신고가 두 번 갱신."
       },
       {
         "type": "positive",
@@ -39,7 +175,27 @@
         "color": "green",
         "time": "—",
         "title": "5월 첫 주 마감 — 4월 +6% 강세",
-        "description": "S&P 4월 +12.8%로 코로나 이후 최고. 한 주 동안 신고가 두 번."
+        "description": "S&P 4월 +12.8%로 코로나 이후 최고. 한 주 동안 신고가 두 번.",
+        "stockImpacts": [
+          {
+            "ticker": "GOOG",
+            "tone": "positive",
+            "magnitude": "월간 강세",
+            "text": "4월 빅테크 동반 강세"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "positive",
+            "magnitude": "월간 강세",
+            "text": "AI 반도체 호조"
+          },
+          {
+            "ticker": "AMZN",
+            "tone": "positive",
+            "magnitude": "월간 강세",
+            "text": "AWS 가속"
+          }
+        ]
       }
     ],
     "2026-05-04": [
@@ -48,7 +204,8 @@
         "label": "프리마켓 보고서",
         "color": "indigo",
         "time": "08:00 KST",
-        "title": "월요일 프리마켓 — '슈퍼 주간' 시작"
+        "title": "월요일 프리마켓 — '슈퍼 주간' 시작",
+        "description": "월요일 프리마켓(미국 정규장 직전 거래) — '슈퍼 주간' 시작. AMD 실적, NFP, Fed 의장 표결 등 큰 이벤트가 줄줄이 예정."
       },
       {
         "type": "schedule",
@@ -56,9 +213,65 @@
         "color": "amber",
         "time": "23:00 KST",
         "title": "ISM 제조업 PMI 발표",
-        "description": "미국 제조업 경기를 1점 단위로 발표. 50 위면 확장, 아래면 위축.",
-        "impact": "제조업 둔화 시 → 경기 침체 우려, 반도체에 직접 부담.",
-        "ourImpact": "우리 반도체 종목(NVDA, AMD, TSM 등 7개) 영향 가능성."
+        "description": "ISM 제조업 지수 발표. 미국 공장이 잘 돌아가는지 보는 점수.",
+        "impact": "50점 이상이면 공장이 활발히 돌아간다는 뜻이고, 50 미만이면 위축되고 있다는 뜻입니다. 지수가 떨어지면 경기 침체 우려로 이어져 반도체 같은 산업재 회사들이 직접 타격을 받습니다.",
+        "ourImpact": "보유 반도체 7개 종목(NVDA, AMD, TSM 등)이 함께 흔들릴 수 있습니다.",
+        "stockImpacts": [
+          {
+            "ticker": "NVDA",
+            "tone": "neutral",
+            "magnitude": "직접",
+            "text": "공장 둔화 시 AI 칩 수요 우려"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "neutral",
+            "magnitude": "직접",
+            "text": "공장 둔화 시 칩 출하 감소"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "neutral",
+            "magnitude": "직접",
+            "text": "파운드리 매출 직접 영향"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "neutral",
+            "magnitude": "직접",
+            "text": "산업용 반도체 영향"
+          },
+          {
+            "ticker": "MU",
+            "tone": "neutral",
+            "magnitude": "직접",
+            "text": "메모리 수요 둔화 우려"
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "neutral",
+            "magnitude": "직접",
+            "text": "데이터센터 칩 영향"
+          },
+          {
+            "ticker": "SNDK",
+            "tone": "neutral",
+            "magnitude": "직접",
+            "text": "스토리지 수요 영향"
+          },
+          {
+            "ticker": "DELL",
+            "tone": "neutral",
+            "magnitude": "동조",
+            "text": "서버 수요 간접 영향"
+          },
+          {
+            "ticker": "LITE",
+            "tone": "neutral",
+            "magnitude": "동조",
+            "text": "광통신 부품 영향"
+          }
+        ]
       },
       {
         "type": "schedule",
@@ -66,7 +279,33 @@
         "color": "amber",
         "time": "—",
         "title": "이란 호르무즈 호위 작전 개시",
-        "description": "유가·지정학 리스크 변동성 확대 가능."
+        "description": "트럼프, 호르무즈 해협(중동 원유가 통과하는 길목) 호위 작전 개시. 유가와 중동 정세 변동성 확대 가능.",
+        "stockImpacts": [
+          {
+            "ticker": "GOOG",
+            "tone": "neutral",
+            "magnitude": "간접",
+            "text": "유가 변동 → 인플레 연동 → 빅테크 동조"
+          },
+          {
+            "ticker": "META",
+            "tone": "neutral",
+            "magnitude": "간접",
+            "text": "유가 변동 → 광고 시장 영향"
+          },
+          {
+            "ticker": "AMZN",
+            "tone": "neutral",
+            "magnitude": "간접",
+            "text": "물류·소비재 마진 영향"
+          },
+          {
+            "ticker": "TLN",
+            "tone": "neutral",
+            "magnitude": "간접",
+            "text": "에너지 가격 변동 동조"
+          }
+        ]
       }
     ],
     "2026-05-05": [
@@ -76,9 +315,77 @@
         "color": "indigo",
         "time": "익일 05:00 KST 발표 (4:00 PM ET)",
         "title": "AMD Q1 FY26 실적 발표",
-        "description": "데이터센터 매출 +57% YoY 폭증, EPS 컨센 큰 폭 상회.",
-        "impact": "메타 6GW GPU 계약 가시화. NVDA 의존도 분산 가속.",
-        "ourImpact": "AMD 시간외 +16%. TSM·AVGO·MU 등 동반 후광 효과."
+        "description": "AMD Q1 실적 발표. 데이터센터 매출 전년 대비 +57%, 주당순익(EPS) 시장 예상 큰 폭 상회.",
+        "impact": "AMD가 메타(페이스북)와 6GW 규모 GPU 공급 계약을 체결할 가능성이 가시화됐습니다. 그동안 NVDA가 거의 독점하던 AI 반도체 시장이 분산되고 있다는 신호입니다.",
+        "ourImpact": "AMD가 시간외 거래(정규장 마감 후 거래)에서 +16% 급등. 같은 반도체 그룹의 TSM·AVGO·MU도 후광 효과를 받습니다.",
+        "stockImpacts": [
+          {
+            "ticker": "AMD",
+            "tone": "positive",
+            "magnitude": "+16%",
+            "text": "메타 6GW GPU 계약 가시화로 시간외 급등"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "positive",
+            "magnitude": "+2~3%",
+            "text": "AMD GPU 위탁생산(파운드리) 매출 동반 증가 기대"
+          },
+          {
+            "ticker": "MU",
+            "tone": "positive",
+            "magnitude": "+1~2%",
+            "text": "AI 메모리 수요 확대 후광"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "positive",
+            "magnitude": "+1~2%",
+            "text": "AI 반도체 그룹 후광"
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "positive",
+            "magnitude": "+1%",
+            "text": "데이터센터 인터커넥트 동조"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "neutral",
+            "magnitude": "혼합",
+            "text": "경쟁사 약진이지만 AI 시장 자체 확대로 동반 가능"
+          },
+          {
+            "ticker": "LITE",
+            "tone": "positive",
+            "magnitude": "+1~2%",
+            "text": "AI 인프라 광통신 후광"
+          },
+          {
+            "ticker": "DELL",
+            "tone": "positive",
+            "magnitude": "+1~2%",
+            "text": "AMD 서버 수요 동반 증가"
+          },
+          {
+            "ticker": "CLS",
+            "tone": "positive",
+            "magnitude": "+1%",
+            "text": "AI 인프라 EMS 후광"
+          },
+          {
+            "ticker": "CRDO",
+            "tone": "positive",
+            "magnitude": "+1~2%",
+            "text": "AI 데이터센터 케이블 수요"
+          },
+          {
+            "ticker": "TLN",
+            "tone": "positive",
+            "magnitude": "+1%",
+            "text": "AI 전력 수요 동반 증가"
+          }
+        ]
       },
       {
         "type": "earnings",
@@ -86,8 +393,40 @@
         "color": "indigo",
         "time": "익일 05:00 KST",
         "title": "루멘텀 Q3 FY26 실적",
-        "description": "매출 +90% YoY. 데이터센터 광통신 폭증 직접 수혜.",
-        "ourImpact": "AI 인프라 그룹 전반 자신감 상승."
+        "description": "루멘텀(LITE) Q3 매출 전년 대비 +90%. 데이터센터 광통신 부품 폭증.",
+        "ourImpact": "AI 인프라 분야 전반에 대한 시장 자신감이 올라갑니다.",
+        "stockImpacts": [
+          {
+            "ticker": "LITE",
+            "tone": "positive",
+            "magnitude": "직접 호재",
+            "text": "분기 매출 +90% YoY, 직접 수혜"
+          },
+          {
+            "ticker": "CRDO",
+            "tone": "positive",
+            "magnitude": "+1~2%",
+            "text": "데이터센터 광통신 그룹 후광"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "positive",
+            "magnitude": "+1%",
+            "text": "광통신 ASIC 수요 동조"
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "positive",
+            "magnitude": "+1%",
+            "text": "데이터센터 인터커넥트 동조"
+          },
+          {
+            "ticker": "CLS",
+            "tone": "positive",
+            "magnitude": "+1%",
+            "text": "AI 인프라 후광"
+          }
+        ]
       },
       {
         "type": "earnings",
@@ -95,15 +434,49 @@
         "color": "indigo",
         "time": "익일 06:00 KST",
         "title": "탈렌에너지 Q1 2026 실적",
-        "description": "AWS 1.92GW 17년 계약으로 EBITDA 2배 가이던스 상향.",
-        "ourImpact": "AI 전력 테마 핵심 종목, +73% YTD."
+        "description": "탈렌에너지(TLN) Q1 실적. AWS와 17년 1.92GW 전력 공급 계약으로 영업이익(EBITDA, 본업으로 번 돈) 가이던스(회사가 시장에 제시하는 향후 예상치) 2배 상향.",
+        "ourImpact": "AI 전력 테마의 핵심 종목, 연초 대비 +73%.",
+        "stockImpacts": [
+          {
+            "ticker": "TLN",
+            "tone": "positive",
+            "magnitude": "직접 호재",
+            "text": "AWS 17년 1.92GW 계약, EBITDA 가이던스 2배 상향"
+          }
+        ]
       },
       {
         "type": "positive",
         "label": "AMD AH +16%",
         "color": "green",
         "title": "AMD 시간외 +16% 급등",
-        "description": "어닝 서프라이즈 즉시 반영, 다음날 상승 출발 예상."
+        "description": "AMD 시간외 거래 +16% 급등. 어닝 서프라이즈(시장 예상보다 훨씬 좋은 실적)에 즉시 반응. 다음날 정규장 상승 출발 예상.",
+        "stockImpacts": [
+          {
+            "ticker": "AMD",
+            "tone": "positive",
+            "magnitude": "+16% AH",
+            "text": "어닝 서프라이즈로 시간외 급등, 다음날 정규장 상승 출발 예상"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "positive",
+            "magnitude": "동조",
+            "text": "AMD 호조 후광"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "positive",
+            "magnitude": "동조",
+            "text": "반도체 그룹 동조"
+          },
+          {
+            "ticker": "MU",
+            "tone": "positive",
+            "magnitude": "동조",
+            "text": "AI 메모리 후광"
+          }
+        ]
       }
     ],
     "2026-05-06": [
@@ -113,8 +486,28 @@
         "color": "blue",
         "time": "장중·장 마감 후",
         "title": "Disney·Uber·ARM 실적 발표",
-        "description": "ARM은 스마트폰·AI 칩 라이센스 회사로 NVDA·AAPL 공급망 영향.",
-        "ourImpact": "ARM 실적 → 반도체 섹터 단기 sentiment에 영향."
+        "description": "Disney(+6%), Uber(+8%), ARM 실적 발표. ARM은 스마트폰·AI 칩 라이센스 회사로 NVDA·AAPL의 공급망에 영향.",
+        "ourImpact": "ARM 실적이 좋게 나오면 반도체 섹터 단기 분위기에 긍정적 영향이 갑니다.",
+        "stockImpacts": [
+          {
+            "ticker": "NVDA",
+            "tone": "neutral",
+            "magnitude": "약함",
+            "text": "ARM 라이센스 동향 — NVDA 공급망 간접 영향"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "neutral",
+            "magnitude": "약함",
+            "text": "반도체 섹터 분위기 동조"
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "neutral",
+            "magnitude": "약함",
+            "text": "반도체 섹터 분위기 동조"
+          }
+        ]
       },
       {
         "type": "schedule",
@@ -122,16 +515,81 @@
         "color": "amber",
         "time": "23:00 KST",
         "title": "ISM 서비스업 PMI",
-        "description": "미국 GDP 70%+를 차지하는 서비스 업황 지표.",
-        "ourImpact": "AMZN·GOOG 등 빅테크 영향. 둔화 시 광고·클라우드 매출 우려."
+        "description": "ISM 서비스업 지수 발표. 미국 GDP의 70% 이상을 차지하는 서비스업 경기 지표.",
+        "ourImpact": "AMZN·GOOG 등 빅테크에 영향. 둔화 시 광고·클라우드 매출 우려.",
+        "impact": "서비스업이 식으면 광고도 줄고 클라우드 사용도 줄어요.\n→ AMZN, GOOG 같은 빅테크에 영향이 커요.",
+        "stockImpacts": [
+          {
+            "ticker": "AMZN",
+            "tone": "negative",
+            "magnitude": "직접",
+            "text": "AWS·e커머스 직격 — 서비스업 둔화 시 광고·클라우드 매출 우려"
+          },
+          {
+            "ticker": "GOOG",
+            "tone": "negative",
+            "magnitude": "직접",
+            "text": "구글 광고·클라우드 직접 영향"
+          },
+          {
+            "ticker": "META",
+            "tone": "negative",
+            "magnitude": "직접",
+            "text": "광고 매출 직접 영향"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "neutral",
+            "magnitude": "간접",
+            "text": "클라우드 수요 둔화 시 AI 칩 발주 영향"
+          }
+        ]
       },
       {
         "type": "positive",
         "label": "S&P·나스닥 사상 최고 (이란 평화 임박)",
         "color": "green",
         "title": "이란-미국 평화 협상 임박 보도",
-        "description": "유가 급락(-3%) → 인플레 압력 완화 → 성장주 강세.",
-        "ourImpact": "AI 성장주 14개 모두 +1~5% 동반 상승."
+        "description": "이란-미국 평화 협상 임박 보도. 유가 -3% 급락 → 인플레이션(물가 상승) 압력 완화 → 성장주 강세.",
+        "ourImpact": "AI 성장주 14개 모두 +1~5% 동반 상승.",
+        "stockImpacts": [
+          {
+            "ticker": "GOOG",
+            "tone": "positive",
+            "magnitude": "+1~2%",
+            "text": "유가 -3% → 인플레 완화 → 빅테크 동반 상승"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "positive",
+            "magnitude": "+3~5%",
+            "text": "성장주 강세, 베타 1.85"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "positive",
+            "magnitude": "+3~5%",
+            "text": "AI 성장주 강세, 베타 2.07"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "positive",
+            "magnitude": "+3~5%",
+            "text": "고베타 종목 큰 반등"
+          },
+          {
+            "ticker": "MU",
+            "tone": "positive",
+            "magnitude": "+3~5%",
+            "text": "고베타 + 메모리 호조"
+          },
+          {
+            "ticker": "TLN",
+            "tone": "neutral",
+            "magnitude": "혼합",
+            "text": "에너지 — 유가 하락은 마진엔 부정적, 시장 분위기엔 긍정적"
+          }
+        ]
       }
     ],
     "2026-05-07": [
@@ -140,7 +598,8 @@
         "label": "오늘의 보고서",
         "color": "indigo",
         "time": "08:00 KST",
-        "title": "5/7 프리마켓 — AMD 폭발 + 평화 임박, 신고가"
+        "title": "5/7 프리마켓 — AMD 폭발 + 평화 임박, 신고가",
+        "description": "AMD 폭발 + 이란 평화 모멘텀 지속, 신고가 갱신 분위기."
       },
       {
         "type": "asia",
@@ -148,8 +607,52 @@
         "color": "blue",
         "time": "15:30 KST",
         "title": "코스피 사상 최고가 7,490.05 마감 (+1.43%)",
-        "description": "AMD 후광 + 외국인 순매수 + 반도체 섹터 강세.",
-        "ourImpact": "TSM·삼성·SK하이닉스 동조 흐름. 미국 프리마켓 긍정 출발 시그널."
+        "description": "한국 코스피 사상 최고가 7,490.05 마감 (+1.43%). AMD 호재 + 외국인 순매수 + 반도체 강세.",
+        "ourImpact": "TSM·삼성·SK하이닉스 동조. 미국 프리마켓 긍정 출발 가능성.",
+        "stockImpacts": [
+          {
+            "ticker": "GOOG",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "빅테크 대장주 — 신고가 그룹 선두"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "AI 반도체 호실적 직격 수혜"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "파운드리(반도체 위탁생산) 신고가"
+          },
+          {
+            "ticker": "MU",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "AI 메모리 수요 호조"
+          },
+          {
+            "ticker": "AMZN",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "AWS 가속 + 소비재 안정"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "AI 칩 수요 지속"
+          },
+          {
+            "ticker": "META",
+            "tone": "positive",
+            "magnitude": "동반 상승",
+            "text": "광고 매출 안정"
+          }
+        ]
       },
       {
         "type": "positive",
@@ -157,7 +660,21 @@
         "color": "green",
         "time": "16:00 KST 마감",
         "title": "니케이225 +5.6% 폭등 (골든위크 따라잡기)",
-        "description": "일본 골든위크(5/3~5) 휴장 동안 쌓인 미국 호재 한꺼번에 반영."
+        "description": "일본 니케이225 +5.6% 폭등. 일본 골든위크 휴장(5/3~5) 동안 쌓인 미국 호재를 한꺼번에 반영.",
+        "stockImpacts": [
+          {
+            "ticker": "TSM",
+            "tone": "positive",
+            "magnitude": "동조",
+            "text": "아시아 반도체 강세 동조"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "positive",
+            "magnitude": "약한 호재",
+            "text": "글로벌 반도체 분위기 후광"
+          }
+        ]
       },
       {
         "type": "us-open",
@@ -165,8 +682,40 @@
         "color": "amber",
         "time": "22:30 KST",
         "title": "미국 정규장 +1% 강세 출발",
-        "description": "AMD 후광 + 평화 모멘텀으로 신고가 추가 갱신.",
-        "ourImpact": "GOOG·NVDA·TSM·AVGO 등 빅캡 동반 +1~2%."
+        "description": "미국 정규장 +1% 강세 출발. AMD 호재 + 평화 모멘텀 지속.",
+        "ourImpact": "GOOG·NVDA·TSM·AVGO 등 빅캡 동반 +1~2%.",
+        "stockImpacts": [
+          {
+            "ticker": "GOOG",
+            "tone": "positive",
+            "magnitude": "+1~2%",
+            "text": "빅캡 동반 강세 출발"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "positive",
+            "magnitude": "+1~2%",
+            "text": "빅캡 동반 강세 출발"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "positive",
+            "magnitude": "+1~2%",
+            "text": "빅캡 동반 강세 출발"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "positive",
+            "magnitude": "+1~2%",
+            "text": "빅캡 동반 강세 출발"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "positive",
+            "magnitude": "+1~2%",
+            "text": "AMD 모멘텀 지속"
+          }
+        ]
       },
       {
         "type": "indicator",
@@ -174,8 +723,29 @@
         "color": "amber",
         "time": "21:30 KST",
         "title": "주간 실업청구건수 + Q1 노동생산성·단위노동비용",
-        "description": "고용시장 + 임금 인플레 가늠.",
-        "ourImpact": "5/8 NFP의 선행 지표. 약하면 금리 인하 기대 ↑."
+        "description": "주간 신규 실업수당 청구건수 + Q1 노동생산성·단위노동비용 발표.",
+        "ourImpact": "내일(5/8) NFP 발표의 선행 지표 역할입니다.",
+        "impact": "이 지표들이 약하게 나오면(실업 증가, 생산성 둔화) Fed가 금리를 내릴 명분이 생겨 시장에 호재로 작용합니다.",
+        "stockImpacts": [
+          {
+            "ticker": "GOOG",
+            "tone": "neutral",
+            "magnitude": "약한 호재",
+            "text": "Fed 금리 인하 기대 시 빅테크 후광"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "neutral",
+            "magnitude": "약한 호재",
+            "text": "성장주 일반 후광"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "neutral",
+            "magnitude": "약한 호재",
+            "text": "성장주 일반 후광"
+          }
+        ]
       },
       {
         "type": "schedule",
@@ -183,15 +753,56 @@
         "color": "amber",
         "time": "21:30 KST",
         "title": "Challenger 감원 보고서 (4월)",
-        "description": "기업 해고 발표를 집계. 빅테크 감원 동향 가늠."
+        "description": "Challenger 보고서 발표. 미국 기업이 한 달간 직원을 얼마나 잘랐는지 집계한 자료.",
+        "impact": "감원이 많이 일어나면 경기 둔화 신호로 해석됩니다.",
+        "stockImpacts": [
+          {
+            "ticker": "GOOG",
+            "tone": "neutral",
+            "magnitude": "약함",
+            "text": "빅테크 감원 동향 가늠"
+          },
+          {
+            "ticker": "META",
+            "tone": "neutral",
+            "magnitude": "약함",
+            "text": "빅테크 감원 동향 가늠"
+          },
+          {
+            "ticker": "AMZN",
+            "tone": "neutral",
+            "magnitude": "약함",
+            "text": "빅테크 감원 동향 가늠"
+          }
+        ]
       },
       {
         "type": "positive",
         "label": "AMD 분석가 목표가 줄상향 ($500+)",
         "color": "green",
         "title": "AMD 분석가 줄상향, 평균 목표가 $500+",
-        "description": "Susquehanna $375 → $500, Bernstein $450 → $520 등.",
-        "ourImpact": "AMD 보유 시 추가 상승 모멘텀. 단기 +15% 후 차익실현 주의."
+        "description": "AMD 분석가 목표가 줄상향. Susquehanna $375→$500, Bernstein $450→$520 등 평균 $500+.",
+        "ourImpact": "AMD 보유 시 추가 상승 모멘텀. 단, 단기 +15% 후엔 차익실현 매물에 주의.",
+        "stockImpacts": [
+          {
+            "ticker": "AMD",
+            "tone": "positive",
+            "magnitude": "직접 +",
+            "text": "목표가 평균 $500+. 추가 상승 모멘텀, 단 단기 +15% 후 차익실현 매물 주의"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "positive",
+            "magnitude": "약한 호재",
+            "text": "AMD 위탁생산 매출 기대 강화"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "positive",
+            "magnitude": "약한 호재",
+            "text": "반도체 그룹 분위기 후광"
+          }
+        ]
       }
     ],
     "2026-05-08": [
@@ -201,9 +812,101 @@
         "color": "amber",
         "time": "21:30 KST",
         "title": "4월 비농업 신규고용(NFP) — 시장 최대 단일 지표",
-        "description": "월간 신규 고용 변화. 시장이 가장 주시하는 지표.",
-        "impact": "강하면(+250K) → 경기 견조하지만 금리 인하 늦춰짐. 약하면(+100K 미만) → 경기 둔화 + 금리 인하 기대 ↑.",
-        "ourImpact": "AI 성장주 14개 큰 변동성 예상. 발표 직후 ±3% 흔들림 가능."
+        "description": "지난달 미국에서 새로 늘어난 일자리 수 발표. 시장이 가장 주시하는 지표.",
+        "impact": "일자리가 25만 개 이상 늘어나면 경기는 양호하지만, Fed(미국 중앙은행)가 금리(은행이 돈을 빌려줄 때 받는 이자)를 내릴 시점이 늦춰져 빚을 많이 쓰는 기술주에 부담이 됩니다. 반대로 10만 개 미만이면 경기 둔화 신호이지만, 시장은 'Fed가 곧 금리를 내릴 것'으로 기대해 오히려 호재로 받아들이기도 합니다.",
+        "ourImpact": "AI 성장주 14개가 발표 직후 ±3% 변동할 가능성이 큽니다. 평소보다 변동성이 큰 날입니다.",
+        "stockImpacts": [
+          {
+            "ticker": "CRDO",
+            "tone": "neutral",
+            "magnitude": "±3.4% 변동",
+            "text": "베타 3.43 — 발표 직후 가장 큰 변동"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "neutral",
+            "magnitude": "±2.4% 변동",
+            "text": "베타 2.44 — 큰 변동성"
+          },
+          {
+            "ticker": "MU",
+            "tone": "neutral",
+            "magnitude": "±2.4% 변동",
+            "text": "베타 2.43"
+          },
+          {
+            "ticker": "CLS",
+            "tone": "neutral",
+            "magnitude": "±2.4% 변동",
+            "text": "베타 2.42"
+          },
+          {
+            "ticker": "SNDK",
+            "tone": "neutral",
+            "magnitude": "±2.4% 변동",
+            "text": "베타 2.41"
+          },
+          {
+            "ticker": "LITE",
+            "tone": "neutral",
+            "magnitude": "±2.4% 변동",
+            "text": "베타 2.38"
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "neutral",
+            "magnitude": "±2.3% 변동",
+            "text": "베타 2.34"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "neutral",
+            "magnitude": "±2.0% 변동",
+            "text": "베타 2.07"
+          },
+          {
+            "ticker": "DELL",
+            "tone": "neutral",
+            "magnitude": "±2.0% 변동",
+            "text": "베타 1.96"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "neutral",
+            "magnitude": "±1.9% 변동",
+            "text": "베타 1.85"
+          },
+          {
+            "ticker": "TLN",
+            "tone": "neutral",
+            "magnitude": "±1.5% 변동",
+            "text": "베타 1.54"
+          },
+          {
+            "ticker": "META",
+            "tone": "neutral",
+            "magnitude": "±1.5% 변동",
+            "text": "베타 1.49"
+          },
+          {
+            "ticker": "AMZN",
+            "tone": "neutral",
+            "magnitude": "±1.5% 변동",
+            "text": "베타 1.47"
+          },
+          {
+            "ticker": "GOOG",
+            "tone": "neutral",
+            "magnitude": "±1.2% 변동",
+            "text": "베타 1.15 — 가장 안정"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "neutral",
+            "magnitude": "±1.1% 변동",
+            "text": "베타 1.12 — 가장 안정"
+          }
+        ]
       }
     ],
     "2026-05-12": [
@@ -213,9 +916,41 @@
         "color": "amber",
         "time": "—",
         "title": "워시 Fed 의장 인준 본회의 표결",
-        "description": "상원 본회의 표결 → 5/15 취임 예정.",
-        "impact": "시장은 워시를 *AI 생산성 → 금리 인하 여지* 시각으로 파악, 비둘기 성향 평가.",
-        "ourImpact": "통과 시 성장주에 호재 확정. 부결 시 큰 변동성."
+        "description": "워시(Warsh) Fed 의장 후보 상원 본회의 인준 표결. 통과 시 5/15 취임.",
+        "impact": "워시는 'AI로 생산성이 좋아졌으니 금리를 내려도 된다'는 입장이라 비둘기파(금리 인하에 우호적)로 평가받습니다. 통과 시 성장주에 호재로 작용할 가능성이 큽니다.",
+        "ourImpact": "통과 시 AI 성장주 우호적 환경 확정. 부결 시 큰 변동성 예상.",
+        "stockImpacts": [
+          {
+            "ticker": "AMD",
+            "tone": "positive",
+            "magnitude": "통과 시 +",
+            "text": "고베타 성장주, 통과 시 큰 반등"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "positive",
+            "magnitude": "통과 시 +",
+            "text": "AI 성장주 호재"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "positive",
+            "magnitude": "통과 시 +",
+            "text": "고베타 — 큰 변동"
+          },
+          {
+            "ticker": "CRDO",
+            "tone": "positive",
+            "magnitude": "통과 시 +",
+            "text": "베타 3.43 — 가장 큰 반응"
+          },
+          {
+            "ticker": "GOOG",
+            "tone": "positive",
+            "magnitude": "통과 시 +",
+            "text": "빅테크 안정적 호재"
+          }
+        ]
       }
     ],
     "2026-05-15": [
@@ -225,8 +960,34 @@
         "color": "amber",
         "time": "—",
         "title": "워시 신임 Fed 의장 취임",
-        "description": "파월 8년 임기 종료 → 워시 취임. 통화정책 기조 변화 가능.",
-        "ourImpact": "첫 발언·입장에 따라 시장 변동. 비둘기 성향 확인 시 성장주 강세 지속."
+        "description": "파월 8년 임기 종료, 워시 신임 Fed 의장 취임. 통화정책 기조 변화 가능.",
+        "ourImpact": "취임 직후 첫 발언과 입장에 따라 시장이 움직입니다. 비둘기파(금리 인하 우호) 성향 확인 시 성장주 강세가 이어질 전망.",
+        "stockImpacts": [
+          {
+            "ticker": "GOOG",
+            "tone": "neutral",
+            "magnitude": "발언 의존",
+            "text": "비둘기파 첫 발언 시 빅테크 강세 기대"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "neutral",
+            "magnitude": "발언 의존",
+            "text": "성장주 변동성 확대 가능"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "neutral",
+            "magnitude": "발언 의존",
+            "text": "AI 성장주 변동성"
+          },
+          {
+            "ticker": "TLN",
+            "tone": "neutral",
+            "magnitude": "발언 의존",
+            "text": "장기 금리 영향 — AI 전력 인프라 평가 영향"
+          }
+        ]
       }
     ],
     "2026-05-18": [
@@ -236,8 +997,34 @@
         "color": "blue",
         "time": "—",
         "title": "Dell World 2026 컨퍼런스 (5/18~5/21)",
-        "description": "DELL의 연례 행사. AI 서버 신제품 발표 가능.",
-        "ourImpact": "DELL 단기 변동성. 신제품 호재 시 주가 상승."
+        "description": "DELL 연례 컨퍼런스 (5/18~5/21). AI 서버 신제품 발표 가능.",
+        "ourImpact": "DELL 단기 변동성. 신제품 호재 시 주가 상승.",
+        "stockImpacts": [
+          {
+            "ticker": "DELL",
+            "tone": "positive",
+            "magnitude": "직접",
+            "text": "AI 서버 신제품 발표 가능 — 단기 모멘텀"
+          },
+          {
+            "ticker": "LITE",
+            "tone": "positive",
+            "magnitude": "동조",
+            "text": "AI 인프라 그룹 후광"
+          },
+          {
+            "ticker": "CLS",
+            "tone": "positive",
+            "magnitude": "동조",
+            "text": "AI 인프라 EMS 후광"
+          },
+          {
+            "ticker": "CRDO",
+            "tone": "positive",
+            "magnitude": "동조",
+            "text": "AI 데이터센터 케이블 수요"
+          }
+        ]
       }
     ],
     "2026-05-20": [
@@ -247,9 +1034,77 @@
         "color": "amber",
         "time": "익일 05:00 KST 발표",
         "title": "NVIDIA Q1 FY27 실적 — 시장 최대 단일 이벤트",
-        "description": "AI 시대 절대강자 NVDA의 분기 실적. 시장 컨센서스 매출 +79% 성장.",
-        "impact": "+80% 미만 → 실망 매물 + 시장 전체 하락. +85%+ → 신고가 추가 갱신.",
-        "ourImpact": "직접 영향: NVDA 자체 ±5% 가능. 간접: TSM·AVGO·MRVL·MU·AMD 동조."
+        "description": "엔비디아 분기 실적 발표. AI 시대 절대강자, 시장 최대 단일 이벤트. 컨센서스(시장 평균 예상치) 매출 +79%.",
+        "impact": "매출이 +85% 이상이면 시장 신고가 추가 갱신 가능. +80% 미만이면 실망 매물이 쏟아지면서 시장 전체가 하락할 수 있습니다.",
+        "ourImpact": "직접 영향: NVDA 자체 ±5% 가능. 간접 영향: TSM·AVGO·MRVL·MU·AMD 등 다른 반도체 종목도 동조해 움직입니다.",
+        "stockImpacts": [
+          {
+            "ticker": "NVDA",
+            "tone": "neutral",
+            "magnitude": "직접 ±5%",
+            "text": "분기 실적 결과에 따라 ±5% — 시장 최대 단일 이벤트"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "neutral",
+            "magnitude": "동조 ±2~3%",
+            "text": "NVDA GPU 위탁생산 — 동반 변동"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "neutral",
+            "magnitude": "동조 ±2~3%",
+            "text": "반도체 그룹 동조"
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "neutral",
+            "magnitude": "동조 ±2~3%",
+            "text": "데이터센터 인터커넥트 — NVDA와 협업"
+          },
+          {
+            "ticker": "MU",
+            "tone": "neutral",
+            "magnitude": "동조 ±2~3%",
+            "text": "AI 메모리 수요 — 함께 움직임"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "neutral",
+            "magnitude": "동조 ±2~3%",
+            "text": "경쟁사이지만 AI 시장 분위기 동조"
+          },
+          {
+            "ticker": "LITE",
+            "tone": "neutral",
+            "magnitude": "동조 ±1~2%",
+            "text": "AI 인프라 광통신"
+          },
+          {
+            "ticker": "CLS",
+            "tone": "neutral",
+            "magnitude": "동조 ±1~2%",
+            "text": "AI 인프라 EMS"
+          },
+          {
+            "ticker": "CRDO",
+            "tone": "neutral",
+            "magnitude": "동조 ±2~3%",
+            "text": "고베타 — NVDA 변동에 큰 반응"
+          },
+          {
+            "ticker": "DELL",
+            "tone": "neutral",
+            "magnitude": "동조 ±1~2%",
+            "text": "AI 서버 — NVDA 칩 의존"
+          },
+          {
+            "ticker": "TLN",
+            "tone": "neutral",
+            "magnitude": "동조 ±1%",
+            "text": "AI 전력 수요 — NVDA 발주 연동"
+          }
+        ]
       }
     ],
     "2026-05-28": [
@@ -259,8 +1114,34 @@
         "color": "amber",
         "time": "익일 05:00 KST",
         "title": "마벨 Q1 FY27 실적",
-        "description": "데이터센터 인터커넥트 + AI 칩 협업 매출 가늠.",
-        "ourImpact": "Google TPU·NVDA $2B 투자 효과 확인 분기."
+        "description": "마벨테크놀로지 Q1 실적. 데이터센터 인터커넥트(서버 사이를 잇는 부품)와 AI 칩 협업 매출이 핵심.",
+        "ourImpact": "Google TPU(구글 자체 AI 칩) 협업과 NVDA의 $20억 투자 효과를 확인하는 분기입니다.",
+        "stockImpacts": [
+          {
+            "ticker": "MRVL",
+            "tone": "neutral",
+            "magnitude": "직접",
+            "text": "Q1 실적 — Google TPU 협업 + NVDA $20억 투자 효과 확인"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "neutral",
+            "magnitude": "동조",
+            "text": "인터커넥트 그룹 동조"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "neutral",
+            "magnitude": "약한 호재",
+            "text": "협업 매출 확인 시 후광"
+          },
+          {
+            "ticker": "LITE",
+            "tone": "neutral",
+            "magnitude": "동조",
+            "text": "데이터센터 광통신 그룹"
+          }
+        ]
       }
     ]
   },

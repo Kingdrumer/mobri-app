@@ -492,11 +492,52 @@ function newsCountry(news) {
   return krKeywords.some((k) => text.includes(k)) ? 'kr' : 'us';
 }
 
+// 이벤트의 종목별 영향 리스트 렌더 (stockImpacts 배열)
+function renderStockImpacts(impacts) {
+  if (!impacts || !impacts.length) return '';
+
+  // 보유 종목인지 확인 (US/KR 모두 검색)
+  const isHeld = (ticker) => {
+    const all = [...(State.portfolio.us || []), ...(State.portfolio.kr || [])];
+    return all.some((s) => s.ticker === ticker);
+  };
+
+  const toneIcon = { positive: '🟢', negative: '🔴', neutral: '⚪' };
+
+  const rows = impacts.map((it) => {
+    const tone = it.tone || 'neutral';
+    const market = (State.portfolio.us || []).some((s) => s.ticker === it.ticker) ? 'us'
+                : (State.portfolio.kr || []).some((s) => s.ticker === it.ticker) ? 'kr'
+                : null;
+    const heldCls = market ? '' : 'not-held';
+    return `
+      <button class="si-row ${tone} ${heldCls}" type="button" data-ticker="${escapeHtml(it.ticker)}" ${market ? `data-market="${market}"` : ''}>
+        <span class="si-tone">${toneIcon[tone]}</span>
+        <div class="si-body">
+          <div class="si-head">
+            <span class="si-ticker">${escapeHtml(it.ticker)}</span>
+            ${it.magnitude ? `<span class="si-magnitude">${escapeHtml(it.magnitude)}</span>` : ''}
+          </div>
+          ${it.text ? `<div class="si-text">${escapeHtml(it.text)}</div>` : ''}
+        </div>
+      </button>
+    `;
+  }).join('');
+
+  return `
+    <div class="stock-impacts">
+      <div class="si-label">종목별 영향</div>
+      ${rows}
+    </div>
+  `;
+}
+
 function renderEventTile(ev, idx) {
   const meta = eventTypeMeta(ev.type);
   const colorClass = ev.color || 'gray';
-  const hasMore = !!(ev.impact || ev.ourImpact);
+  const hasMore = !!(ev.impact || ev.ourImpact || (ev.stockImpacts && ev.stockImpacts.length));
   const desc = ev.description || (ev.title && ev.title !== ev.label ? ev.title : '');
+  const stockImpactsHtml = renderStockImpacts(ev.stockImpacts);
 
   return `
     <div class="etile color-${colorClass} ${hasMore ? 'has-more' : ''}" data-idx="${idx}">
@@ -513,14 +554,15 @@ function renderEventTile(ev, idx) {
           <div class="etile-more">
             ${ev.impact ? `
               <div class="erow">
-                <div class="erow-label">💡 무슨 영향?</div>
+                <div class="erow-label">💡 자세히</div>
                 <div class="erow-text">${escapeHtml(ev.impact)}</div>
               </div>
             ` : ''}
-            ${ev.ourImpact ? `
+            ${(ev.ourImpact || stockImpactsHtml) ? `
               <div class="erow">
-                <div class="erow-label">📌 내 종목엔?</div>
-                <div class="erow-text">${escapeHtml(ev.ourImpact)}</div>
+                <div class="erow-label">📌 내 종목엔</div>
+                ${ev.ourImpact ? `<div class="erow-text">${escapeHtml(ev.ourImpact)}</div>` : ''}
+                ${stockImpactsHtml}
               </div>
             ` : ''}
           </div>
@@ -534,20 +576,64 @@ function renderEventTile(ev, idx) {
   `;
 }
 
-// ── Box 1: 오늘의 일정 ──
+// 이벤트 우선순위 (가장 주목할 헤드라인 1개 결정)
+function eventPriority(e) {
+  let p = 0;
+  if ((e.label || '').includes('★')) p += 100;
+  if (e.type === 'earnings') p += 50;
+  if (e.color === 'red')     p += 45;
+  if (e.color === 'green')   p += 30;
+  if (e.color === 'amber')   p += 20;
+  if (e.color === 'indigo')  p += 25;
+  if (e.impact)              p += 15;
+  if (e.ourImpact)           p += 10;
+  return p;
+}
+
+// 박스 헤더 버튼 (제목 + 통계 + 셰브론) — 클릭하면 펼침/접힘
+function dbHead(title, stat, hasMore) {
+  return `
+    <button class="db-head-btn" type="button">
+      <div class="db-title">${title}</div>
+      <div class="db-meta">
+        ${stat ? `<span class="db-stat">${stat}</span>` : ''}
+        ${hasMore ? `<span class="db-chevron">▼</span>` : ''}
+      </div>
+    </button>
+  `;
+}
+
+function moreHint(text) {
+  return `<button class="db-more-hint" type="button">${escapeHtml(text)} <span class="mh-arrow">▼</span></button>`;
+}
+
+// ── Box 1: 오늘의 일정 (헤드라인 1개 + 나머지 펼치기) ──
 function renderEventsBox(dayEvents) {
   if (!dayEvents.length) {
     return `
       <section class="day-box">
-        <div class="db-head">
-          <div class="db-title">📅 오늘의 일정</div>
-        </div>
+        ${dbHead('📅 오늘의 일정', '', false)}
         <div class="db-empty">큰 이벤트 없는 평범한 날이에요</div>
       </section>
     `;
   }
 
-  const groups = groupEvents(dayEvents);
+  const sorted = dayEvents.slice().sort((a, b) => eventPriority(b) - eventPriority(a));
+  const top = sorted[0];
+  const rest = sorted.slice(1);
+
+  const counts = { positive: 0, negative: 0, earnings: 0, schedule: 0 };
+  dayEvents.forEach((e) => {
+    counts[classifyEvent(e)]++;
+  });
+  const statParts = [];
+  if (counts.positive) statParts.push(`호재 ${counts.positive}`);
+  if (counts.negative) statParts.push(`악재 ${counts.negative}`);
+  if (counts.earnings) statParts.push(`실적 ${counts.earnings}`);
+  if (counts.schedule) statParts.push(`일정 ${counts.schedule}`);
+  const stat = statParts.join(' · ');
+
+  const groups = groupEvents(rest);
   const order = [
     { key: 'positive', label: '🟢 호재' },
     { key: 'negative', label: '🔴 악재' },
@@ -555,36 +641,44 @@ function renderEventsBox(dayEvents) {
     { key: 'schedule', label: '📅 일정' },
   ].filter((g) => groups[g.key]?.length);
 
-  const stats = order.map((g) => `${g.label.split(' ')[1]} ${groups[g.key].length}`).join(' · ');
+  const hasMore = rest.length > 0;
 
   return `
-    <section class="day-box">
-      <div class="db-head">
-        <div class="db-title">📅 오늘의 일정</div>
-        <div class="db-stat">${stats}</div>
+    <section class="day-box ${hasMore ? 'collapsible' : ''}" data-box="events">
+      ${dbHead('📅 오늘의 일정', stat, hasMore)}
+      <div class="db-headline">
+        <div class="db-headline-label">⭐ 가장 주목할 이벤트</div>
+        ${renderEventTile(top, 0)}
+        ${hasMore ? moreHint(`외 ${rest.length}건 더보기`) : ''}
       </div>
-      ${order.map((g) => `
-        <div class="db-group">
-          <div class="dbg-label">
-            <span>${g.label}</span>
-            <span class="dbg-count">${groups[g.key].length}</span>
-          </div>
-          <div class="event-tiles">
-            ${groups[g.key].map(renderEventTile).join('')}
-          </div>
+      ${hasMore ? `
+        <div class="db-content">
+          ${order.map((g) => `
+            <div class="db-group">
+              <div class="dbg-label">
+                <span>${g.label}</span>
+                <span class="dbg-count">${groups[g.key].length}</span>
+              </div>
+              <div class="event-tiles">
+                ${groups[g.key].map(renderEventTile).join('')}
+              </div>
+            </div>
+          `).join('')}
         </div>
-      `).join('')}
+      ` : ''}
     </section>
   `;
 }
 
-// ── Box 2: 오늘의 핵심 뉴스 (한국 / 미국 탭) ──
+// ── Box 2: 오늘의 핵심 뉴스 (헤드라인 1개 + 한국/미국 탭) ──
 function renderNewsBox(report) {
   if (!report?.news?.length) return '';
 
   const news = report.news;
-  const us = news.filter((n) => newsCountry(n) === 'us');
-  const kr = news.filter((n) => newsCountry(n) === 'kr');
+  const top = news[0];
+  const rest = news.slice(1);
+  const us = rest.filter((n) => newsCountry(n) === 'us');
+  const kr = rest.filter((n) => newsCountry(n) === 'kr');
 
   const item = (n) => `
     <div class="news-item ${n.impact || 'neutral'}">
@@ -599,43 +693,59 @@ function renderNewsBox(report) {
     </div>
   `;
 
-  // 기본 탭은 더 많은 뉴스 있는 쪽
+  const hasMore = rest.length > 0;
   const defaultTab = us.length >= kr.length ? 'us' : 'kr';
 
   return `
-    <section class="day-box">
-      <div class="db-head">
-        <div class="db-title">📰 오늘의 핵심 뉴스</div>
-        <div class="db-stat">${news.length}건</div>
+    <section class="day-box ${hasMore ? 'collapsible' : ''}" data-box="news">
+      ${dbHead('📰 오늘의 핵심 뉴스', `${news.length}건`, hasMore)}
+      <div class="db-headline">
+        <div class="db-headline-label">📌 톱 헤드라인</div>
+        ${item(top)}
+        ${hasMore ? moreHint(`외 ${rest.length}건 더보기`) : ''}
       </div>
-      <div class="news-tabs">
-        <button class="ntab ${defaultTab === 'us' ? 'active' : ''}" data-tab="us">🇺🇸 미국 ${us.length}</button>
-        <button class="ntab ${defaultTab === 'kr' ? 'active' : ''}" data-tab="kr">🇰🇷 한국 ${kr.length}</button>
-      </div>
-      <div class="news-list ${defaultTab === 'us' ? '' : 'hidden'}" data-tab-content="us">
-        ${us.length ? us.map(item).join('') : '<div class="db-empty">미국 뉴스 없음</div>'}
-      </div>
-      <div class="news-list ${defaultTab === 'kr' ? '' : 'hidden'}" data-tab-content="kr">
-        ${kr.length ? kr.map(item).join('') : '<div class="db-empty">한국 뉴스 없음</div>'}
-      </div>
+      ${hasMore ? `
+        <div class="db-content">
+          <div class="news-tabs">
+            <button class="ntab ${defaultTab === 'us' ? 'active' : ''}" data-tab="us">🇺🇸 미국 ${us.length}</button>
+            <button class="ntab ${defaultTab === 'kr' ? 'active' : ''}" data-tab="kr">🇰🇷 한국 ${kr.length}</button>
+          </div>
+          <div class="news-list ${defaultTab === 'us' ? '' : 'hidden'}" data-tab-content="us">
+            ${us.length ? us.map(item).join('') : '<div class="db-empty">미국 뉴스 없음</div>'}
+          </div>
+          <div class="news-list ${defaultTab === 'kr' ? '' : 'hidden'}" data-tab-content="kr">
+            ${kr.length ? kr.map(item).join('') : '<div class="db-empty">한국 뉴스 없음</div>'}
+          </div>
+        </div>
+      ` : ''}
     </section>
   `;
 }
 
-// ── Box 3: 내 포트폴리오 (시장별 → 섹터별 섹션) ──
+// ── Box 3: 내 포트폴리오 (위험 종목 헤드라인 + 전체 펼치기) ──
 function renderPortfolioBox() {
   const us = State.portfolio.us || [];
   const kr = State.portfolio.kr || [];
+  const all = [
+    ...us.map((s) => ({ ...s, _market: 'us' })),
+    ...kr.map((s) => ({ ...s, _market: 'kr' })),
+  ];
 
-  const groupBySector = (list) => {
-    const out = {};
-    list.forEach((s) => {
-      const sec = s.sector || '기타';
-      out[sec] = out[sec] || [];
-      out[sec].push(s);
-    });
-    return out;
-  };
+  if (!all.length) {
+    return `
+      <section class="day-box">
+        ${dbHead('📊 내 포트폴리오', '', false)}
+        <div class="db-empty">아직 등록된 종목이 없어요</div>
+      </section>
+    `;
+  }
+
+  // 위험도 분류
+  const isRisky = (s) => s.signal === 'red' || (s.change1D ?? 0) <= -5;
+  const isCaution = (s) => !isRisky(s) && (s.signal === 'yellow' || (s.change1D ?? 0) <= -3);
+
+  const risky = all.filter(isRisky);
+  const caution = all.filter(isCaution);
 
   const renderRow = (s, market) => {
     const change = s.change1D ?? s.change1W ?? 0;
@@ -653,6 +763,44 @@ function renderPortfolioBox() {
         </div>
       </div>
     `;
+  };
+
+  // 헤드라인: 위험 → 주의 → 모두 안전
+  let headlineHtml;
+  if (risky.length) {
+    headlineHtml = `
+      <div class="db-headline risky">
+        <div class="db-headline-label red">🔴 위험 — 점검 필요 ${risky.length}개</div>
+        <div class="port-rows">${risky.map((s) => renderRow(s, s._market)).join('')}</div>
+        ${moreHint(`나머지 ${all.length - risky.length}개 종목 보기`)}
+      </div>
+    `;
+  } else if (caution.length) {
+    headlineHtml = `
+      <div class="db-headline caution">
+        <div class="db-headline-label amber">🟡 주의 — 모니터링 필요 ${caution.length}개</div>
+        <div class="port-rows">${caution.map((s) => renderRow(s, s._market)).join('')}</div>
+        ${moreHint(`나머지 ${all.length - caution.length}개 종목 보기`)}
+      </div>
+    `;
+  } else {
+    headlineHtml = `
+      <div class="db-headline safe">
+        <div class="db-headline-label green">✅ 오늘 모두 안전</div>
+        <div class="safe-banner">위험 신호 없음 · 전체 ${all.length}개 종목 정상</div>
+        ${moreHint(`전체 ${all.length}개 종목 보기`)}
+      </div>
+    `;
+  }
+
+  const groupBySector = (list) => {
+    const out = {};
+    list.forEach((s) => {
+      const sec = s.sector || '기타';
+      out[sec] = out[sec] || [];
+      out[sec].push(s);
+    });
+    return out;
   };
 
   const renderMarketBlock = (list, market, flag, label) => {
@@ -685,39 +833,56 @@ function renderPortfolioBox() {
   };
 
   return `
-    <section class="day-box">
-      <div class="db-head">
-        <div class="db-title">📊 내 포트폴리오</div>
-        <div class="db-stat">미국 ${us.length} · 한국 ${kr.length}</div>
+    <section class="day-box collapsible" data-box="portfolio">
+      ${dbHead('📊 내 포트폴리오', `미국 ${us.length} · 한국 ${kr.length}`, true)}
+      ${headlineHtml}
+      <div class="db-content">
+        ${renderMarketBlock(us, 'us', '🇺🇸', '미국 주식')}
+        ${renderMarketBlock(kr, 'kr', '🇰🇷', '한국 주식')}
       </div>
-      ${renderMarketBlock(us, 'us', '🇺🇸', '미국 주식')}
-      ${renderMarketBlock(kr, 'kr', '🇰🇷', '한국 주식')}
     </section>
   `;
 }
 
-// ── Box 4: 오늘의 학습 ──
+// ── Box 4: 오늘의 학습 (용어 1개 헤드라인 + 나머지 펼치기) ──
 function renderTermsBox(report) {
   if (!report?.terms?.length && !report?.tip) return '';
 
+  const terms = report.terms || [];
+  const top = terms[0];
+  const rest = terms.slice(1);
+  const hasMore = rest.length > 0 || !!report.tip;
+
+  const renderTerm = (t) => `
+    <div class="term-card-v2">
+      <div class="tc-term">${escapeHtml(t.term)}</div>
+      <div class="tc-def">${escapeHtml(t.definition || '')}</div>
+      ${t.example ? `<div class="tc-ex">${escapeHtml(t.example)}</div>` : ''}
+    </div>
+  `;
+
+  const stat = terms.length ? `${terms.length}개 용어` : '';
+
   return `
-    <section class="day-box">
-      <div class="db-head">
-        <div class="db-title">📚 오늘의 학습</div>
-        ${report.terms?.length ? `<div class="db-stat">${report.terms.length}개 용어</div>` : ''}
-      </div>
-      ${report.terms?.length ? `
-        <div class="terms-list">
-          ${report.terms.map((t) => `
-            <div class="term-card-v2">
-              <div class="tc-term">${escapeHtml(t.term)}</div>
-              <div class="tc-def">${escapeHtml(t.definition || '')}</div>
-              ${t.example ? `<div class="tc-ex">${escapeHtml(t.example)}</div>` : ''}
-            </div>
-          `).join('')}
+    <section class="day-box ${hasMore ? 'collapsible' : ''}" data-box="terms">
+      ${dbHead('📚 오늘의 학습', stat, hasMore)}
+      ${top ? `
+        <div class="db-headline">
+          <div class="db-headline-label">📖 오늘의 핵심 용어</div>
+          ${renderTerm(top)}
+          ${hasMore ? moreHint(`나머지 ${rest.length}개 용어${report.tip ? ' + 팁' : ''} 보기`) : ''}
         </div>
       ` : ''}
-      ${report.tip ? `<div class="tip-box-v2">💡 ${escapeHtml(report.tip)}</div>` : ''}
+      ${hasMore ? `
+        <div class="db-content">
+          ${rest.length ? `
+            <div class="terms-list">
+              ${rest.map(renderTerm).join('')}
+            </div>
+          ` : ''}
+          ${report.tip ? `<div class="tip-box-v2">💡 ${escapeHtml(report.tip)}</div>` : ''}
+        </div>
+      ` : ''}
     </section>
   `;
 }
@@ -751,14 +916,37 @@ async function renderSelectedDayPanel() {
     </div>
   `;
 
+  attachBoxCollapseHandlers();
   attachEventTileHandlers();
   attachNewsTabHandlers();
   attachPortfolioRowHandlers();
 }
 
+// 박스 헤더 / "더보기" 힌트 클릭 → 펼침/접힘 토글
+function attachBoxCollapseHandlers() {
+  $$('.day-box.collapsible').forEach((box) => {
+    const toggle = (e) => {
+      e?.stopPropagation();
+      box.classList.toggle('expanded');
+    };
+    const head = $('.db-head-btn', box);
+    if (head) head.addEventListener('click', toggle);
+    $$('.db-more-hint', box).forEach((h) => h.addEventListener('click', toggle));
+  });
+}
+
 function attachEventTileHandlers() {
   $$('.etile.has-more').forEach((tile) => {
     tile.addEventListener('click', () => tile.classList.toggle('expanded'));
+  });
+  // 종목별 영향 행 클릭 → 종목 상세 (이벤트 펼침은 막음)
+  $$('.si-row').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const ticker = btn.dataset.ticker;
+      const market = btn.dataset.market;
+      if (ticker && market) openStockDetail(ticker, market);
+    });
   });
 }
 
