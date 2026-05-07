@@ -1237,3 +1237,13 @@ function renderArchive(app) {
 
 // ------------- 시작 -------------
 init();
+
+// Service Worker가 새 버전 활성화 시 자동 새로고침
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.addEventListener('message', (event) => {
+    if (event.data?.type === 'NEW_VERSION') {
+      console.log('새 버전 감지, 새로고침');
+      window.location.reload();
+    }
+  });
+}
