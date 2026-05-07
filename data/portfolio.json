@@ -1,0 +1,222 @@
+{
+  "lastUpdated": "2026-05-07T22:30:00+09:00",
+  "us": [
+    {
+      "ticker": "GOOG", "name": "알파벳 (구글)", "sector": "빅테크",
+      "price": 399.45, "change1D": 1.2, "change1W": 4.0, "change1M": 32.1, "changeYTD": 26.8,
+      "beta": 1.15, "signal": "green", "note": "5/15 안에 NVDA 시총 추월 가능성",
+      "todayWhy": "개장 직후 +1.2% — 이란 평화 + AMD 후광으로 빅테크 동반 상승. 클라우드 백로그 462B$ 이슈는 그대로.",
+      "outlook": { "rating": "Buy", "targetPrice": 425, "summary": "구글 클라우드 백로그 4,620억$, 자체 TPU 칩 외부 판매로 신규 매출원 확보" },
+      "recentNews": [
+        { "date": "2026-05-06", "headline": "GOOG NVDA 시총 추월 시나리오 옵션시장 반영 지속", "source": "CNBC", "url": "https://www.cnbc.com/2026/05/01/a-major-mag-7-shift-with-alphabets-market-cap-set-to-pass-nvidias.html" },
+        { "date": "2026-05-02", "headline": "구글 클라우드 백로그 460B$ 도달", "source": "CNBC", "url": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html" },
+        { "date": "2026-04-30", "headline": "TPU 외부 판매 시작 — 빅테크 수요 직격", "source": "Motley Fool", "url": "https://www.fool.com/investing/2026/04/30/" }
+      ],
+      "keyDates": [
+        { "date": "2026-07-29", "event": "Q2 실적 발표 (예상)" }
+      ]
+    },
+    {
+      "ticker": "META", "name": "메타", "sector": "빅테크",
+      "price": 619.01, "change1D": 1.0, "change1W": 2.3, "change1M": 13.1, "changeYTD": -5.8,
+      "beta": 1.49, "signal": "yellow", "note": "트레이드 휴전 +7.9% 랠리 후 안정",
+      "todayWhy": "개장 +1.0% 안정 출발. AMD MI400 6GW 계약 + 광고 매출 안정. CapEx 145B$ 부담은 잔존.",
+      "outlook": { "rating": "Buy", "targetPrice": 725, "summary": "장기 광고 강자 지위 유지. AI 투자가 수익화로 이어질 시점이 분수령" },
+      "recentNews": [
+        { "date": "2026-05-06", "headline": "트레이드 휴전 7.9% 랠리, $612 종가", "source": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/05/06/meta-meta-stock-analysis-may-6-2026-605-falling-wedge-gains-trade-truce-catalyst-650-gap-fill-in-play/" },
+        { "date": "2026-05-02", "headline": "JPMorgan 목표가 725$로 하향 (이전 825$)", "source": "JPMorgan", "url": "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html" }
+      ],
+      "keyDates": [
+        { "date": "2026-07-30", "event": "Q2 실적 발표 (예상)" }
+      ]
+    },
+    {
+      "ticker": "AMZN", "name": "아마존", "sector": "빅테크",
+      "price": 278.57, "change1D": 1.3, "change1W": 3.2, "change1M": 35.1, "changeYTD": 19.2,
+      "beta": 1.47, "signal": "green", "note": "AWS +28% + 트레이드 휴전 수혜",
+      "todayWhy": "개장 +1.3% — 평화 임박 + WTI -7%로 e커머스 마진 호재. AWS 모멘텀 지속.",
+      "outlook": { "rating": "Buy", "targetPrice": 290, "summary": "Mag7 4월 +27% 1위. AWS 재가속이 핵심 동력" },
+      "recentNews": [
+        { "date": "2026-05-06", "headline": "트레이드 휴전 +8.1% 랠리, AWS+China 노출로 가장 큰 관세 수혜주", "source": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/05/06/amazon-amzn-stock-analysis-8-1-trade-truce-surge-aws-china-exposure-makes-amzn-the-biggest-tariff-winner/" },
+        { "date": "2026-05-01", "headline": "AWS 1Q 매출 +28% — 3년 만 최고 성장", "source": "CNBC", "url": "https://www.cnbc.com/2026/04/29/aws-earnings-q1-2026.html" },
+        { "date": "2026-04-29", "headline": "OpenAI와 AWS 100B$ 추가 8년 계약, OpenAI에 50B$ 투자", "source": "CNBC", "url": "https://www.cnbc.com/2026/04/29/amazon-amzn-q1-earnings-report-2026.html" }
+      ],
+      "keyDates": [
+        { "date": "2026-07-30", "event": "Q2 실적 발표 (예상)" }
+      ]
+    },
+    {
+      "ticker": "NVDA", "name": "엔비디아", "sector": "반도체",
+      "price": 208.52, "change1D": 1.0, "change1W": 3.7, "change1M": 19.9, "changeYTD": 12.4,
+      "beta": 2.07, "signal": "yellow", "note": "5/20 실적, Vera Rubin 출하 시작",
+      "todayWhy": "개장 +1.0% — Corning 2.7B$ 광학소재 파트너십 후속 모멘텀. 5/20 실적까지 박스권 가능성.",
+      "outlook": { "rating": "Strong Buy", "targetPrice": 266, "summary": "Bank of America 2027년까지 누적 FCF 400B$ 전망. 블랙웰 울트라 GB300 출하 본격화" },
+      "recentNews": [
+        { "date": "2026-05-07", "headline": "Corning 2.7B$ 투자 — AI 인프라 광학소재 장기파트너십", "source": "Motley Fool", "url": "https://www.fool.com/investing/2026/05/06/stock-market-today-live-coverage/" },
+        { "date": "2026-05-06", "headline": "Corning과 AI 인프라 광학소재 협력 발표 — +5.4%", "source": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-may-6-fresh-records-231128701.html" },
+        { "date": "2026-05-05", "headline": "5/20 Q1 FY27 실적 — 컨센 +79% 매출 성장", "source": "Motley Fool", "url": "https://www.fool.com/investing/2026/05/05/prediction-nvidia-stock-going-to-soar-after-may-20/" }
+      ],
+      "keyDates": [
+        { "date": "2026-05-20", "event": "★ Q1 FY27 실적 발표 (시장 최대 이벤트)" }
+      ]
+    },
+    {
+      "ticker": "TSM", "name": "TSMC", "sector": "반도체",
+      "price": 422.54, "change1D": 1.5, "change1W": 6.2, "change1M": 28.5, "changeYTD": 38.4,
+      "beta": 1.12, "signal": "green", "note": "AMD 후광 +5.6% 신고가, 2nm CAGR 70%",
+      "todayWhy": "개장 +1.5% — AMD 분기 가이던스 +46% 후광 + 2nm CapEx $56B 가시성 그대로. 위탁생산 매출 가시성 ↑.",
+      "outlook": { "rating": "Strong Buy", "targetPrice": 470, "summary": "AI 호황의 가장 안전한 노출. 베타 1.12로 변동성도 가장 낮음" },
+      "recentNews": [
+        { "date": "2026-05-06", "headline": "TSMC +5.6% 신고가 — AMD 후광·56B$ AI 확장", "source": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/05/52337222/tsmc-stock-rallies-56-billion-ai-expansion-crushes-apple-supply-chain-fears" },
+        { "date": "2026-05-05", "headline": "Barclays 목표가 $470 상향 (Overweight)", "source": "Investing.com", "url": "https://www.investing.com/news/company-news/why-is-taiwan-semiconductor-manufacturing-stock-surging-today-93CH-4664204" }
+      ],
+      "keyDates": [
+        { "date": "2026-07-17", "event": "Q2 실적 발표 (예상)" },
+        { "date": "2026-06-11", "event": "배당 지급일" }
+      ]
+    },
+    {
+      "ticker": "AVGO", "name": "브로드컴", "sector": "반도체",
+      "price": 433.95, "change1D": 2.0, "change1W": 3.2, "change1M": 42.5, "changeYTD": 24.1,
+      "beta": 2.44, "signal": "green", "note": "메타 CapEx $145B 직접 수혜",
+      "todayWhy": "개장 +2.0% — 어제 보합 후 AMD 데이터센터 +57% 후광으로 따라잡기 매수. AI 매출 +106% YoY 펀더멘털 그대로.",
+      "outlook": { "rating": "Strong Buy", "targetPrice": 435, "summary": "1Q AI 매출 +106% YoY, 2Q 가이던스 +140%. 시총 1.8조$ 돌파" },
+      "recentNews": [
+        { "date": "2026-05-07", "headline": "AVGO 따라잡기 매수 — AMD 후광 + 메타 6GW 계약 연관성", "source": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/AVGO/" },
+        { "date": "2026-05-01", "headline": "메타와 다년 자체 AI 칩 공동개발 계약", "source": "Seeking Alpha", "url": "https://seekingalpha.com/article/4855981-broadcom-my-best-ai-investment-idea-for-2026" }
+      ],
+      "keyDates": [
+        { "date": "2026-06-12", "event": "Q2 실적 발표 (예상)" }
+      ]
+    },
+    {
+      "ticker": "MU", "name": "마이크론", "sector": "반도체",
+      "price": 588.70, "change1D": 1.5, "change1W": 15.6, "change1M": 53.2, "changeYTD": 96.9,
+      "beta": 2.43, "signal": "yellow", "note": "$600 근접, HBM 매진 + 단기 과열",
+      "todayWhy": "개장 +1.5% — AMD 데이터센터 +57% → 메모리 동반 강세. $600 코앞.",
+      "outlook": { "rating": "Buy", "targetPrice": 660, "summary": "DA Davidson PT $1,000, TD Cowen $660. 메모리 슈퍼사이클 진입" },
+      "recentNews": [
+        { "date": "2026-05-06", "headline": "MU $592 터치, AI HBM 매진 + 캐파 확장 6.4B$/분기", "source": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/05/04/mu-stock-marches-toward-600-on-hbm-demand-but-the-valuation-risks-start-to-bite/" },
+        { "date": "2026-05-01", "headline": "HBM 2026년 캐파 완전 매진, NVDA·AMD 장기계약", "source": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/04/23/" }
+      ],
+      "keyDates": [
+        { "date": "2026-06-25", "event": "Q3 FY26 실적 발표 (예상)" }
+      ]
+    },
+    {
+      "ticker": "MRVL", "name": "마벨", "sector": "반도체",
+      "price": 173.60, "change1D": 2.0, "change1W": 5.3, "change1M": 78.0, "changeYTD": 104.4,
+      "beta": 2.34, "signal": "green", "note": "GOOG TPU 협력 + NVDA $2B 투자 동력",
+      "todayWhy": "개장 +2.0% 신고가 갱신 — AMD 후광 + Google TPU 협력 모멘텀. 5/28 실적 대기.",
+      "outlook": { "rating": "Strong Buy", "targetPrice": 220, "summary": "AI 인프라 핵심 수혜주, 1년 +75% 모멘텀 강함. 5/28 실적 분수령" },
+      "recentNews": [
+        { "date": "2026-05-06", "headline": "MRVL +5% 신고가 — Google TPU 협력 + NVDA 투자 모멘텀", "source": "Motley Fool", "url": "https://www.fool.com/investing/2026/05/05/mtvl-stock-ai-chip-stocks-custom-ai-chips-nvidia/" },
+        { "date": "2026-04-30", "headline": "알파벳과 자체 MPU·차세대 TPU 공동개발 협상", "source": "CNBC", "url": "https://www.cnbc.com/2026/04/20/marvell-stock-google-custom-ai-chips.html" }
+      ],
+      "keyDates": [
+        { "date": "2026-05-28", "event": "★ Q1 FY27 실적 발표" }
+      ]
+    },
+    {
+      "ticker": "AMD", "name": "AMD", "sector": "반도체",
+      "price": 430.36, "change1D": 3.5, "change1W": 24.6, "change1M": 98.0, "changeYTD": 97.6,
+      "beta": 1.85, "signal": "green", "note": "★ 어닝 후 분석가 줄목표가 상향 ($500+ 컨센)",
+      "todayWhy": "개장 +3.5% — KeyBanc PT $530, TD Cowen $500, DA Davidson $375(이전 $220, +70%) 등 어닝 후 줄목표가 상향. Lisa Su '구조적 변곡점' 발언.",
+      "outlook": { "rating": "Strong Buy", "targetPrice": 510, "summary": "어닝 후 컨센 PT $508 (TD Cowen·KeyBanc·Bernstein 평균). 메타 6GW GPU 계약 + Q2 +46% 가이던스" },
+      "recentNews": [
+        { "date": "2026-05-07", "headline": "KeyBanc $530, TD Cowen $500 — 어닝 후 분석가 컨센 PT 상향", "source": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/da-davidson-resets-amd-stock-price-target-for-the-rest-of-2026-intel-earning" },
+        { "date": "2026-05-07", "headline": "DA Davidson Buy 상향 + PT $375 (이전 $220, +70%)", "source": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/da-davidson-resets-amd-stock-price-target-for-the-rest-of-2026-intel-earning" },
+        { "date": "2026-05-06", "headline": "Lisa Su CNBC 인터뷰 — '분기마다 가이던스 깨는 것이 새 표준'", "source": "CNBC", "url": "https://www.cnbc.com/2026/05/06/amd-lisa-su-stock-forecast-earnings.html" }
+      ],
+      "keyDates": [
+        { "date": "2026-08-05", "event": "Q2 FY26 실적 발표 (예상)" }
+      ]
+    },
+    {
+      "ticker": "SNDK", "name": "샌디스크", "sector": "반도체",
+      "price": 1399.27, "change1D": -0.5, "change1W": 17.6, "change1M": 92.3, "changeYTD": 444.2,
+      "beta": 2.41, "signal": "red", "note": "★ 1년 +3,300% — 단기 차익실현 신호",
+      "todayWhy": "개장 -0.5% — 어제 +13% 신고가 후 단기 숨고르기. 1년 +3,300% 차익실현 위험 그대로.",
+      "outlook": { "rating": "Hold", "targetPrice": 1700, "summary": "Bernstein PT $1,700, Goldman $1,200(도달). HBF 신아키텍처 잠재력 vs 과열 위험" },
+      "recentNews": [
+        { "date": "2026-05-06", "headline": "Motley Fool 12개월 PT $4,000 시나리오 제시", "source": "Motley Fool", "url": "https://www.fool.com/investing/2026/05/06/prediction-sandisk-stock-is-going-to-4000-in-1-yea/" },
+        { "date": "2026-05-05", "headline": "+13% 폭등 신고가 $1,406 — Q3 매출 3.5배 +5.95B$", "source": "Forex Leaders", "url": "https://www.fxleaders.com/news/" }
+      ],
+      "keyDates": [
+        { "date": "2026-08-06", "event": "Q4 FY26 실적 발표 (예상)" }
+      ]
+    },
+    {
+      "ticker": "DELL", "name": "델", "sector": "AI 인프라",
+      "price": 216.20, "change1D": 1.5, "change1W": 2.3, "change1M": 25.8, "changeYTD": 70.7,
+      "beta": 1.96, "signal": "green", "note": "AI 서버 백로그 18.4B$, 5/18~21 Dell World",
+      "todayWhy": "개장 +1.5% — AMD·NVDA 동반 강세로 AI 서버 OEM 수혜. Dell World 2026 (5/18) 대기.",
+      "outlook": { "rating": "Buy", "targetPrice": 246, "summary": "FY27 AI 서버 50B$ 가이던스. 3개월 +75%, BofA PT $246" },
+      "recentNews": [
+        { "date": "2026-05-06", "headline": "Dell World 2026 (5/18~21) 모멘텀 대기 — AI 서버 백로그 견조", "source": "TS2 Tech", "url": "https://ts2.tech/en/dell-technologies-stock-jumps-as-ai-server-rally-and-texas-move-put-june-vote-in-focus/" },
+        { "date": "2026-04-30", "headline": "AI 서버 백로그 18.4B$ — 미래 매출 가시성 최강", "source": "Seeking Alpha", "url": "https://seekingalpha.com/news/4526096-dell-targets-25b-in-ai-server-shipments-for-fy26-as-ai-backlog-pipeline-hit-records" }
+      ],
+      "keyDates": [
+        { "date": "2026-05-18", "event": "Dell World 2026 시작" },
+        { "date": "2026-05-29", "event": "Q1 FY27 실적 발표 (예상)" }
+      ]
+    },
+    {
+      "ticker": "LITE", "name": "루멘텀", "sector": "AI 인프라",
+      "price": 984.74, "change1D": 1.0, "change1W": 10.2, "change1M": 31.9, "changeYTD": 154.0,
+      "beta": 2.38, "signal": "green", "note": "★ Q3 매출 +90%, Q4 EPS 가이던스 $3.05 상회",
+      "todayWhy": "개장 +1.0% — NVDA-Corning 광학 협력 후광 가세, CPO 광학 핵심 공급사 가치 재평가.",
+      "outlook": { "rating": "Buy", "targetPrice": 1270, "summary": "OCS 다년 수십억$ 계약, CPO 광학 핵심 공급사. Q4 매출 +22% sequential" },
+      "recentNews": [
+        { "date": "2026-05-05", "headline": "Q3 매출 +90% YoY $808M, EPS $2.37 비트, Q4 가이던스 상회", "source": "Seeking Alpha", "url": "https://seekingalpha.com/news/4586129-lumentum-q3-revenue-surges-90-q4-outlook-tops-estimates" },
+        { "date": "2026-05-05", "headline": "Cloud/AI 90% 매출 성장 → 운영마진 32.2% (+2,140bp YoY)", "source": "Investing.com", "url": "https://www.investing.com/news/company-news/lumentum-q3-fy26-slides-cloudai-surge-drives-90-revenue-growth-93CH-4661499" }
+      ],
+      "keyDates": [
+        { "date": "2026-08-04", "event": "Q4 FY26 실적 발표 (예상)" }
+      ]
+    },
+    {
+      "ticker": "CLS", "name": "셀레스티카", "sector": "AI 인프라",
+      "price": 425.21, "change1D": 1.0, "change1W": 6.0, "change1M": 59.4, "changeYTD": 40.6,
+      "beta": 2.42, "signal": "green", "note": "Q1 매출 +53%, 2026 가이던스 19B$",
+      "todayWhy": "개장 +1.0% — AMD/AVGO 동반 강세 후광. 1.6T CPO 스위치 수주 모멘텀 그대로.",
+      "outlook": { "rating": "Strong Buy", "targetPrice": 480, "summary": "CCS +70%, 1.6T CPO 이더넷 스위치 수주 (2027 양산), 운영마진 8.0% 사상 최고" },
+      "recentNews": [
+        { "date": "2026-05-06", "headline": "Q1 매출 $5.51B (+53% YoY), CCS +76%, 운영마진 8.0% 사상 최고", "source": "GuruFocus", "url": "https://www.gurufocus.com/news/8825778/" },
+        { "date": "2026-04-28", "headline": "하이퍼스케일러용 1.6T CPO 이더넷 스위치 수주", "source": "QuiverQuant", "url": "https://www.quiverquant.com/news/" }
+      ],
+      "keyDates": [
+        { "date": "2026-07-23", "event": "Q2 FY26 실적 발표 (예상)" }
+      ]
+    },
+    {
+      "ticker": "CRDO", "name": "크레도", "sector": "AI 인프라",
+      "price": 190.82, "change1D": 1.5, "change1W": 0.3, "change1M": 98.9, "changeYTD": 25.1,
+      "beta": 3.43, "signal": "red", "note": "베타 3.43 — 포트폴리오 최고 변동성",
+      "todayWhy": "개장 +1.5% — AMD·MRVL 동반 강세 후광. BNP Paribas 2026 톱픽 유지.",
+      "outlook": { "rating": "Moderate Buy", "targetPrice": 208, "summary": "Q2 매출 +272% YoY, DustPhotonics 7.5억$ 인수로 실리콘 포토닉스 수직통합" },
+      "recentNews": [
+        { "date": "2026-05-06", "headline": "BNP Paribas 2026 AI 톱픽 유지 (CLS·ANET와 함께)", "source": "Seeking Alpha", "url": "https://seekingalpha.com/news/4541049-celestica-arista-credo-among-bnp-paribas-top-ai-stocks-for-2026" },
+        { "date": "2026-04-29", "headline": "DustPhotonics 750M$ 인수 발표 — 광통신 수직통합", "source": "Investor Relations", "url": "https://investors.credosemi.com/news-events/news/news-details/2026/" }
+      ],
+      "keyDates": [
+        { "date": "2026-06-04", "event": "Q4 FY26 실적 발표 (예상)" }
+      ]
+    },
+    {
+      "ticker": "TLN", "name": "탈렌에너지", "sector": "AI 전력",
+      "price": 391.61, "change1D": 0.8, "change1W": 10.5, "change1M": 21.5, "changeYTD": 4.5,
+      "beta": 1.54, "signal": "green", "note": "★ Q1 EBITDA $473M (전년 2배), AWS 18B$ 본격 램프",
+      "todayWhy": "개장 +0.8% — 안정 출발. AWS PPA 풀 램프 + Cornerstone 인수 모멘텀 그대로.",
+      "outlook": { "rating": "Buy", "targetPrice": 420, "summary": "장기 계약 매출 35% → 50% 목표. X-energy SMR Xe-100 4기 LOI로 차세대 원전 모멘텀" },
+      "recentNews": [
+        { "date": "2026-05-06", "headline": "Q1 EBITDA $473M·FCF $350M (전년 4배), 2026 가이던스 재확인", "source": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/05/05/3288253/0/en/Talen-Energy-Reports-First-Quarter-2026-Results-Reaffirms-2026-Guidance.html" },
+        { "date": "2026-05-05", "headline": "Q1 콜 — AWS PPA 풀 램프 시 35% 장기계약 마진, 1GW 추가 시 50%", "source": "Motley Fool", "url": "https://www.fool.com/earnings/call-transcripts/2026/05/05/talen-energy-tln-q1-2026-earnings-transcript/" }
+      ],
+      "keyDates": [
+        { "date": "2026-08-05", "event": "Q2 2026 실적 발표 (예상)" }
+      ]
+    }
+  ],
+  "kr": []
+}

@@ -1,0 +1,25 @@
+{
+  "lastUpdated": "2026-05-02T07:37:00+09:00",
+  "categories": {
+    "subscription": {
+      "title": "청약 공고",
+      "description": "민영·공공 청약 일정과 가점·특공 정보",
+      "items": []
+    },
+    "loan": {
+      "title": "주택담보대출",
+      "description": "금리 변동, 대출 한도, DSR 규제 변화",
+      "items": []
+    },
+    "policy": {
+      "title": "정책·뉴스",
+      "description": "부동산 정책, 세제 변화, 시장 동향",
+      "items": []
+    },
+    "memo": {
+      "title": "내 메모",
+      "description": "직접 추가하는 관심 매물·공고",
+      "items": []
+    }
+  }
+}

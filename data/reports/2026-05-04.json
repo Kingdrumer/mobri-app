@@ -1,0 +1,92 @@
+{
+  "date": "2026-05-04",
+  "title": "5월 4일 (월) 프리마켓 — '슈퍼 주간' 시작, 화 AMD/LITE/TLN, 금 고용보고서",
+  "session": 4,
+  "terms": [
+    { "term": "호가", "definition": "시장에 '이 가격에 사겠다/팔겠다'고 외친 가격", "example": "AMD '359.50 / 359.60'은 매수 359.50, 매도 359.60" },
+    { "term": "체결", "definition": "사려는 가격과 팔려는 가격이 만나 거래가 성사된 것", "example": "359.55 매수 주문 → 누가 359.55에 팔면 체결 완료" },
+    { "term": "매수/매도호가 (스프레드)", "definition": "매수자가 부른 가격과 매도자가 부른 가격, 그 사이 차이가 스프레드", "example": "스프레드 좁으면 인기 종목, 넓으면 거래량 적은 종목" },
+    { "term": "시장가 vs 지정가", "definition": "지금 가격에 무조건(시장가) vs 내가 정한 가격일 때만(지정가)", "example": "실적 직후 변동 클 땐 지정가가 안전 — 시장가는 의도와 다른 가격에 체결될 수 있음" },
+    { "term": "VI / LULD", "definition": "가격이 너무 갑자기 튀면 강제로 거래를 잠깐 멈추는 안전벨트", "example": "미국 LULD = 5분 내 ±5~10% 튀면 5분 일시정지" }
+  ],
+  "tip": "실적 발표 직후 애프터마켓은 거래량이 정규장의 1/100 수준이라 호가 스프레드가 매우 넓어집니다(매수 359 / 매도 367 같은 식). 시장가로 따라잡지 마세요 — 다음 날 정규장 22:30(한국)이 진짜 가격이 결정되는 시간입니다.",
+  "marketSummary": [
+    { "label": "다우 (5/1 마감)", "value": "49,499.27", "change": "-0.31%", "trend": "down" },
+    { "label": "S&P 500 (5/1 마감)", "value": "7,230.12", "change": "+0.29% (사상 최고)", "trend": "up" },
+    { "label": "나스닥 (5/1 마감)", "value": "25,114.44", "change": "+0.89% (사상 최고)", "trend": "up" },
+    { "label": "S&P 500 선물 (5/3 야간)", "value": "+0.1~0.2%", "change": "보합 → 소폭 상승", "trend": "up" },
+    { "label": "VIX", "value": "16.88", "change": "안정", "trend": "neutral" },
+    { "label": "WTI 유가", "value": "$101.94 → $103~106", "change": "Hormuz로 다시 상승", "trend": "up" },
+    { "label": "10년 국채", "value": "4.39%", "change": "변동 없음", "trend": "neutral" },
+    { "label": "Fear & Greed", "value": "70 (탐욕)", "change": "유지", "trend": "neutral" }
+  ],
+  "news": [
+    {
+      "headline": "트럼프 '프로젝트 프리덤' — 미 해군이 호르무즈 통과 화물선 호위 (5/4 월 시작)",
+      "impact": "neutral",
+      "summary": "구축함 + 항공기 100대 + 무인기 + 병력 1.5만 명 동원, 분쟁 비당사국 화물선 호위",
+      "explain": "전 세계 원유의 20%가 지나는 호르무즈를 미국이 강제로 뚫겠다는 작전. 성공하면 유가 ↓ → 인플레 ↓ → 6월 인하 명분 ↑로 우리 포트폴리오 호재. 실패/충돌 시 유가 폭등 + VIX 폭등.",
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html" },
+        { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-may-4-231452685.html" }
+      ]
+    },
+    {
+      "headline": "★ AMD · LITE · TLN 동시 실적 발표 (5/5 화 장 마감 후)",
+      "impact": "neutral",
+      "summary": "우리 포트폴리오 3종목, 같은 날 발표 → 시장 분위기 한꺼번에 좌우",
+      "explain": "AMD 매출 컨센 $9.88B(+33% YoY), MI400 일정 + OpenAI 매출 핵심. LITE EPS $2.15~2.35 가이던스, NVIDIA 옵티컬 수혜. TLN AWS 1.92GW 17년 PPA $18B 보장. 셋 다 좋으면 화요일 밤 큰 폭 상승, 하나라도 가이던스 깎이면 AI 인프라 전반 조정.",
+      "sources": [
+        { "name": "TradingKey AMD Preview", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261847386-amd-earnings-gross-margin-openai-ai-chip-valuation-tradingkey" },
+        { "name": "Lumentum IR", "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-to-Announce-Fiscal-Third-Quarter-2026-Financial-Results-on-May-5-2026/default.aspx" },
+        { "name": "Talen Energy", "url": "https://www.globenewswire.com/news-release/2026/04/14/3273204/0/en/Talen-Energy-to-Report-First-Quarter-2026-Financial-Results-on-May-5-2026.html" }
+      ]
+    },
+    {
+      "headline": "ISM 제조업 PMI (5/4 월 23:00) + ISM 서비스업 PMI (5/6 수)",
+      "impact": "neutral",
+      "summary": "50 위면 확장, 밑이면 위축 — 매월 첫 영업일의 경기 체온계",
+      "explain": "유가 급등으로 4월 PCE 인플레가 3.5%까지 튄 상황. PMI까지 50 밑으로 내려가면 '스태그플레이션' 우려 부각. 50 위 유지면 시장 안도.",
+      "sources": [
+        { "name": "ISM World", "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/" }
+      ]
+    },
+    {
+      "headline": "★ 4월 고용보고서 NFP (5/8 금 21:30 KST)",
+      "impact": "neutral",
+      "summary": "컨센 +12만~15만 명 — 워시 신임 의장 취임 직전 마지막 데이터",
+      "explain": "고용 둔화 → 6월 인하 가능성 ↑ → 빅테크/AI주 호재. 반대로 고용이 너무 강하면 인하 베팅이 깨짐. 5/15 워시 취임 직전 마지막 핵심 매크로 데이터.",
+      "sources": [
+        { "name": "CoinCentral", "url": "https://coincentral.com/the-week-ahead-april-jobs-report-and-amd-earnings-what-investors-are-watching/" }
+      ]
+    },
+    {
+      "headline": "알파벳, NVIDIA 시총 추월 가능성 — 5/15 이전",
+      "impact": "positive",
+      "summary": "GOOG 4월 +34%, 시총 $4.6T, 옵션시장은 5/15 추월 시나리오 가격에 반영",
+      "explain": "'AI 인프라 1위 = NVDA' → 'AI 활용 1위 = GOOG'로 무게중심 이동. 우리 포트폴리오에서 GOOG가 YTD +22%로 빅테크 중 가장 안정적인 이유.",
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/05/01/a-major-mag-7-shift-with-alphabets-market-cap-set-to-pass-nvidias.html" }
+      ]
+    },
+    {
+      "headline": "캐시 우드, AMD $79.9M 매도 — 실적 직전 차익실현",
+      "impact": "negative",
+      "summary": "아크인베스트가 1주일간 약 1,100억 원어치 AMD 처분",
+      "explain": "AMD가 YTD +65% 올라온 만큼 '실적 직전 차익실현' 매물 가능성 신호. 단, 4/30 사상 최고가 갱신은 유지 — 강세 자체는 꺾이지 않음.",
+      "sources": [
+        { "name": "TipRanks", "url": "https://www.tipranks.com/news/cathie-wood-sheds-over-70m-in-amd-stock-while-wall-street-remains-divided-ahead-of-q1-results" }
+      ]
+    }
+  ],
+  "upcoming": [
+    { "date": "2026-05-04", "label": "미국 시장 개장 (월 22:30 KST) + ISM 제조업 PMI + 프로젝트 프리덤 시작", "type": "schedule" },
+    { "date": "2026-05-05", "label": "★ AMD · LITE · TLN 동시 실적 (한국 5/6 새벽)", "type": "earnings" },
+    { "date": "2026-05-06", "label": "Disney · Uber · ARM 실적 + ISM 서비스업 PMI", "type": "earnings" },
+    { "date": "2026-05-08", "label": "★ 4월 고용보고서 NFP (21:30 KST)", "type": "indicator" },
+    { "date": "2026-05-12", "label": "워시 Fed 의장 인준 본회의 표결 (예상)", "type": "schedule" },
+    { "date": "2026-05-15", "label": "파월 임기 만료 → 워시 취임", "type": "schedule" },
+    { "date": "2026-05-20", "label": "NVDA 실적 (시장 최대 이벤트)", "type": "earnings" },
+    { "date": "2026-05-28", "label": "MRVL 실적", "type": "earnings" }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "stock": {
+    "2026-04-30": [
+      { "type": "negative", "label": "PCE 3.5% 급등", "color": "red" }
+    ],
+    "2026-05-01": [
+      { "type": "positive", "label": "S&P·나스닥 사상 최고가", "color": "green" }
+    ],
+    "2026-05-02": [
+      { "type": "report", "label": "주말 정리 보고서", "color": "indigo" },
+      { "type": "positive", "label": "주말 정리 (신고가)", "color": "green" }
+    ],
+    "2026-05-04": [
+      { "type": "report", "label": "프리마켓 보고서", "color": "indigo" },
+      { "type": "schedule", "label": "장 개장 + ISM 제조업 PMI", "color": "amber" },
+      { "type": "schedule", "label": "트럼프 '프로젝트 프리덤' 시작", "color": "amber" }
+    ],
+    "2026-05-05": [
+      { "type": "earnings", "label": "★ AMD 실적 (어닝 서프라이즈)", "color": "indigo" },
+      { "type": "earnings", "label": "★ LITE 실적 (+90% YoY)", "color": "indigo" },
+      { "type": "earnings", "label": "★ TLN 실적 (EBITDA 2배)", "color": "indigo" },
+      { "type": "positive", "label": "AMD AH +16%", "color": "green" }
+    ],
+    "2026-05-06": [
+      { "type": "earnings", "label": "Disney +6% / Uber +8% / ARM 실적", "color": "blue" },
+      { "type": "schedule", "label": "ISM 서비스업 PMI", "color": "amber" },
+      { "type": "positive", "label": "S&P·나스닥 사상 최고 (이란 평화 임박)", "color": "green" }
+    ],
+    "2026-05-07": [
+      { "type": "report", "label": "오늘의 보고서", "color": "indigo" },
+      { "type": "asia", "label": "아시아 마감 (코스피 7,490.05 사상최고 +1.43%)", "color": "blue" },
+      { "type": "positive", "label": "니케이 +5.6% 폭등 (골든위크 따라잡기)", "color": "green" },
+      { "type": "us-open", "label": "미국 개장 (3대 지수 +1% 신고가 갱신)", "color": "amber" },
+      { "type": "indicator", "label": "주간 실업청구건수 + Q1 생산성·ULC", "color": "amber" },
+      { "type": "schedule", "label": "Challenger 4월 감원 + 라이트 실적", "color": "amber" },
+      { "type": "positive", "label": "AMD 분석가 목표가 줄상향 ($500+)", "color": "green" }
+    ],
+    "2026-05-08": [
+      { "type": "schedule", "label": "★ 4월 고용보고서 NFP (21:30 KST)", "color": "amber" }
+    ],
+    "2026-05-12": [
+      { "type": "schedule", "label": "워시 Fed 의장 본회의 표결 (예상)", "color": "amber" }
+    ],
+    "2026-05-15": [
+      { "type": "schedule", "label": "Fed 의장 교체 (워시 취임)", "color": "amber" }
+    ],
+    "2026-05-18": [
+      { "type": "schedule", "label": "Dell World 2026 시작 (~5/21)", "color": "blue" }
+    ],
+    "2026-05-20": [
+      { "type": "earnings", "label": "★ NVDA 실적 (시장 최대 이벤트)", "color": "amber" }
+    ],
+    "2026-05-28": [
+      { "type": "earnings", "label": "MRVL 실적", "color": "amber" }
+    ]
+  },
+  "realestate": {}
+}

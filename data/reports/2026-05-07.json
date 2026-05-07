@@ -1,0 +1,189 @@
+{
+  "date": "2026-05-07",
+  "title": "5월 7일 (목) 프리마켓 — AMD 어닝 서프라이즈 + 미·이란 평화 임박, S&P·나스닥 동반 신고가",
+  "session": 5,
+  "terms": [
+    { "term": "어닝 서프라이즈 (Earnings Surprise)", "definition": "회사가 발표한 실적이 시장이 예상한 것(컨센서스)보다 더 좋게 나온 것. 반대는 어닝 쇼크.", "example": "AMD가 매출 컨센 $9.85B을 깨고 $10.3B 발표 → +16% 폭등" },
+    { "term": "가이던스 (Guidance)", "definition": "회사가 다음 분기 매출·이익이 어느 정도일 것 같다고 시장에 알려주는 자기 예상치. 실적 자체보다 이게 더 중요할 때가 많음.", "example": "AMD Q2 가이던스 $11.2B (컨센 $10.5B 대비 +7%) — 진짜 +16% 날린 핵심" },
+    { "term": "컨센서스 (Consensus)", "definition": "월가 애널리스트들의 예상치 평균. '시장이 기대하는 숫자'.", "example": "AMD 컨센 $9.85B = 약 30~40명 분석가 평균 매출 예상치" },
+    { "term": "애프터마켓 (After-hours)", "definition": "정규장(미 동부 9:30~16:00) 이후 16:00~20:00에 열리는 추가 거래시간. 거래량이 정규장의 1/100 수준이라 가격이 급격히 튐.", "example": "AMD가 5/5 정규장 마감 후 실적 발표 → AH에서 +16% 점프" },
+    { "term": "백로그 (Backlog, 수주잔고)", "definition": "이미 받아놨지만 아직 매출로 안 잡힌 주문. 미래 매출의 가시성을 보여주는 지표.", "example": "DELL AI 서버 백로그 18.4B$ = 앞으로 1~2년치 매출 보장된 상태" }
+  ],
+  "tip": "어닝 서프라이즈가 나도 가이던스가 약하면 주가는 빠집니다. 반대로 실적이 살짝 미스해도 가이던스가 좋으면 오릅니다. '실적'보다 '가이던스'를 보세요.",
+  "marketSummary": [
+    { "label": "다우 (5/7 개장)", "value": "≈50,560", "change": "+1.29% (장중)", "trend": "up" },
+    { "label": "S&P 500 (5/7 개장)", "value": "≈7,447", "change": "+1.12% (★ 신고가 갱신)", "trend": "up" },
+    { "label": "나스닥 (5/7 개장)", "value": "≈26,185", "change": "+1.34% (★ 신고가 갱신)", "trend": "up" },
+    { "label": "AMD 시초가", "value": "≈$430", "change": "+3.5% (어닝 후속 + 분석가 줄목표가 상향)", "trend": "up" },
+    { "label": "VIX", "value": "≈16.8", "change": "-3.3%", "trend": "down" },
+    { "label": "WTI 유가", "value": "≈$93~94", "change": "-8~10% (이란 평화 임박)", "trend": "down" },
+    { "label": "10년 국채", "value": "4.33%", "change": "-2bp", "trend": "down" },
+    { "label": "달러인덱스", "value": "97.89", "change": "-0.42% (2.5개월 저점)", "trend": "down" }
+  ],
+  "asiaSummary": {
+    "captureKST": "15:45",
+    "indices": [
+      { "label": "코스피 (5/7 마감)", "value": "7,490.05", "change": "+1.43% (+105.49p, ★ 종가 사상 최고)", "trend": "up", "note": "장중 7,531.88까지 터치 → 7,500선 첫 돌파. 한국 시총 세계 7위 도약 (캐나다·영국 추월)." },
+      { "label": "코스닥 (5/7 마감)", "value": "1,199.18", "change": "-0.91% (2거래일 연속 ↓)", "trend": "down", "note": "1,200선 답보. 알테오젠·에이피알 등 바이오·화장품 약세, 중소형주 소외 심화." },
+      { "label": "니케이225 (5/7 마감)", "value": "≈62,889", "change": "+5.6% (★ 폭등)", "trend": "up", "note": "골든위크(5/1~6) 6일 연휴분 한꺼번에 반영. AMD 어닝 + AI 반도체 후광 + 이란 평화로 일본 AI/반도체주 일제 급등." },
+      { "label": "대만 가권 (TWI)", "value": "—", "change": "+1.9%", "trend": "up", "note": "TSMC 5/6 +6.36% 강세 흐름 이어감 — AMD 위탁생산 직접 수혜." },
+      { "label": "홍콩 항셍", "value": "—", "change": "+1.6%", "trend": "up", "note": "중화권 동반 상승, 위험자산 선호 회복." },
+      { "label": "원/달러 (서울 15:30)", "value": "1,454.0원", "change": "-1.1원 (전일比)", "trend": "down", "note": "이란 평화 임박 → 달러 약세 → 원화 강세. 다만 1,450원대 후반 박스권 지속." },
+      { "label": "외국인 (코스피)", "value": "−7.15조원", "change": "차익실현 매도", "trend": "down", "note": "삼전·하이닉스 합산 5조원어치 매도. 5월 첫 2거래일 +6.9조 매수 후 차익실현 전환. 그래도 개인 +5.99조·기관 +1.10조가 받아내며 신고가." }
+    ],
+    "summary": "코스피 사상 최고 + 니케이 5%대 폭등 — '아시아 AI 동반 랠리'. 코스닥만 따로 약세."
+  },
+  "economicIndicators": [
+    {
+      "name": "주간 신규 실업청구건수 (5/2 종료 주)",
+      "scheduledKST": "21:30",
+      "consensus": "215K~220K 컨센",
+      "previous": "189K (4/25 종료 주, 1969년 이래 최저)",
+      "result": "발표 직후 — 정확한 수치 다음 캡처에서 확정",
+      "impact": "neutral",
+      "explain": "전주 189K가 1969년 이래 최저였기 때문에 정상화(=상승) 흐름이 자연스러움. 컨센 부근이면 노동시장 견조 유지로 해석. 250K 위로 튀면 'NFP 약화 시그널'로 채권 강세·달러 약세."
+    },
+    {
+      "name": "Q1 2026 비농업 생산성·단위노동비용 (예비)",
+      "scheduledKST": "21:30",
+      "consensus": "생산성 +2.0%/QoQ 컨센, ULC +2.5%/QoQ 컨센",
+      "previous": "Q4 2025: 생산성 +1.5%, ULC +3.4%",
+      "result": "BLS 공식 발표 — 정확 수치 다음 캡처에서 확정",
+      "impact": "neutral",
+      "explain": "생산성이 컨센 상회하면 'AI 생산성 효과 시작' 내러티브 강화 → Fed에 인플레 우려 완화 신호. ULC 둔화도 인하 명분 ↑."
+    }
+  ],
+  "news": [
+    {
+      "headline": "🟢 [15:30 코스피 마감] 7,490.05 사상 최고 + 한국 증시 세계 7위 도약 (캐나다 추월)",
+      "impact": "positive",
+      "summary": "코스피 +1.43% (105.49p) 7,490.05 종가 사상 최고. 장중 7,531.88까지 첫 7,500선 돌파. 외국인 7.15조 매도에도 개인 5.99조·기관 1.10조가 받아냄. 한국 시총 세계 7위로 영국·캐나다 추월.",
+      "explain": "외국인 차익실현(특히 삼전·하이닉스 5조원 매도)에도 시장이 신고가로 마감했다는 건 '바이코리아'가 외국인 매수 일변도가 아니라 국내 수급으로 확장됐다는 뜻. AMD 어닝 → TSMC 6.36% → 삼전·하이닉스 동반 상승의 글로벌 AI 공급망 라인이 그대로 살아있음. 다만 코스닥(-0.91%, 1,199.18)은 2거래일 연속 하락 — '대형 반도체만 가는 장세' 양극화 신호.",
+      "sources": [
+        { "name": "한국일보", "url": "https://n.news.naver.com/mnews/article/469/0000929518" },
+        { "name": "이데일리", "url": "https://n.news.naver.com/mnews/article/018/0006275208" },
+        { "name": "아주경제", "url": "https://www.ajunews.com/view/20260507152439935" }
+      ]
+    },
+    {
+      "headline": "🟢 [아시아 마감] 니케이 +5.6% 폭등 (62,889) — 골든위크 연휴분 한꺼번에 반영",
+      "impact": "positive",
+      "summary": "일본 닛케이225 +5.67% (장중 한때) ≈62,889. 5/1~6 골든위크 6일 연휴 동안 미국 AMD 어닝·이란 평화 호재가 누적된 채 5/7 개장하며 일본 AI·반도체주 일제 급등. 대만 가권 +1.9%, 홍콩 항셍 +1.6%.",
+      "explain": "TSMC가 5/6 +6.36% 마감한 이후 5/7 일본·대만이 AI 반도체 공급망 후광을 그대로 흡수. 우리 포트폴리오의 TSM(대만 ADR), NVDA·AMD·AVGO·MRVL 등 미국 반도체와 같은 흐름. 일본 폭등은 단발성(연휴 따라잡기) 측면이 있어 내일도 같은 강도는 어려울 수 있지만, 아시아 전반에서 'AI 사이클 살아있다' 시그널은 견조.",
+      "sources": [
+        { "name": "초이스뉴스 (장중)", "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=164931" },
+        { "name": "헬로스톡", "url": "https://www.hellot.net/news/article.html?no=112451" }
+      ]
+    },
+    {
+      "headline": "🟡 [원/달러 1,454원] 이란 평화 → 달러 약세, 원화 소폭 강세 (-1.1원)",
+      "impact": "neutral",
+      "summary": "5/7 서울 외환시장 15:30 마감 1,454.0원 (-1.1원). 달러인덱스 97.89(-0.42%, 2.5개월 저점)와 연동. 다만 1,450원대 후반 박스권 잔존.",
+      "explain": "달러 약세는 미국 보유주식 환산 수익에 마이너스 요인이지만, 신흥국·아시아 자산엔 호재. WTI -7~10% + 10년 4.33%로 모든 매크로 변수가 동시에 위험자산 선호 방향으로 정렬된 하루.",
+      "sources": [
+        { "name": "서울신문", "url": "https://n.news.naver.com/mnews/article/081/0003641824" }
+      ]
+    },
+    {
+      "headline": "🟢 [22:30 미국 개장] 3대 지수 동반 +1% 신고가 갱신, AMD 분석가 목표가 줄상향",
+      "impact": "positive",
+      "summary": "Dow +1.29%, S&P +1.12%, Nasdaq +1.34% 개장 직후 신고가 갱신. AMD 어닝 후 KeyBanc PT $530, TD Cowen $500, DA Davidson Buy로 상향 + PT $375(이전 $220)",
+      "explain": "어제(5/6) AMD가 +17% 점프해 모든 후광주를 끌어올린 뒤, 오늘(5/7)도 분석가 줄목표가 상향이 후속 매수를 유도. KeyBanc·TD Cowen 평균 PT $508로 컨센 자체가 점프. 우리 포트폴리오의 AMD·TSM·MRVL·AVGO가 다 같은 흐름. WTI -8~10%·10년 4.33%로 채권·원유 모두 우호적. 시장 전체가 'Iran 평화 + AMD 가이던스'라는 두 호재를 그대로 소화 중.",
+      "sources": [
+        { "name": "TheStreet (Live)", "url": "https://www.thestreet.com/latest-news/stock-market-today-may-7-2026-updates" },
+        { "name": "DA Davidson 상향", "url": "https://www.thestreet.com/investing/stocks/da-davidson-resets-amd-stock-price-target-for-the-rest-of-2026-intel-earning" },
+        { "name": "Yahoo Finance Live", "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-thursday-may-7-iran-peace-records-231446268.html" }
+      ]
+    },
+    {
+      "headline": "🟡 [21:30 발표] 주간 실업청구건수 + Q1 생산성·ULC 동시 발표",
+      "impact": "neutral",
+      "summary": "전주 189K(1969년 이래 최저) → 정상화 컨센 215K~220K 부근. Q1 2026 비농업 생산성·단위노동비용(ULC) 예비치 동시 발표 (BLS 8:30 ET).",
+      "explain": "이번 주 빅이벤트는 내일 NFP라 오늘 청구건수는 사이드 데이터. 다만 Q1 생산성이 컨센 상회면 'AI 효과 시작' 내러티브가 강해져 빅테크 멀티플에 호재. ULC가 컨센 하회면 인플레 우려 완화 → Fed 인하 명분 ↑.",
+      "sources": [
+        { "name": "DOL (실업청구)", "url": "https://www.dol.gov/newsroom/releases/eta" },
+        { "name": "BLS 발표일정", "url": "https://www.bls.gov/schedule/news_release/prod2.htm" }
+      ]
+    },
+    {
+      "headline": "🟢 AMD 어닝 서프라이즈 폭발 — 데이터센터 +57%, Q2 가이던스 $11.2B",
+      "impact": "positive",
+      "summary": "Q1 매출 $10.3B (컨센 $9.85B), 데이터센터 $5.8B (+57% YoY), Q2 가이던스 $11.2B (컨센 $10.5B). AH +16% → 정규장 추가 +15%",
+      "explain": "AMD가 NVDA 옆에서 'AI 칩 2위' 자리를 굳혔다는 신호. 데이터센터(서버) 매출이 절반 넘게 뛴 건 메타·OpenAI 같은 큰손들이 AMD MI400 시리즈를 같이 쓴다는 뜻. 우리 포트폴리오의 TSM(위탁생산), MRVL(보조 칩), AVGO(네트워킹), CLS(서버 조립)까지 줄줄이 올라탄 핵심 트리거.",
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/05/05/amd-q1-2026-earnings-report.html" },
+        { "name": "TradingKey", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261863081-amd-earnings-beat-data-center-ai-gpu-guidance-technical-tradingkey" }
+      ]
+    },
+    {
+      "headline": "🟢 미국·이란 평화 임박 보도 — WTI -7%, S&P·나스닥 신고가",
+      "impact": "positive",
+      "summary": "미·이란 1페이지 14항목 MOU 임박, 호르무즈 봉쇄 해제 + 미 제재 완화 윤곽. WTI -7%, Brent -7.83%",
+      "explain": "'프로젝트 프리덤'(미 해군 호위작전)이 압박이 되어 협상이 빠르게 굴러간 모양새. 유가 하락 → 인플레 약화 → Fed 인하 명분 회복 → 빅테크/성장주 호재. 다만 트럼프가 동시에 '협상 안 풀리면 더 큰 폭격'을 언급해 완전 종결 전까지는 변동성 잔존.",
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/05/06/oil-prices-trump-pauses-strait-of-hormuz-escort-effort.html" },
+        { "name": "NBC News", "url": "https://www.nbcnews.com/business/business-news/oil-markets-gas-prices-450-us-iran-near-deal-end-war-hormuz-rcna343819" },
+        { "name": "CNBC Treasury", "url": "https://www.cnbc.com/2026/05/06/treasury-yields-tumble-on-report-of-us-iran-peace-plan-.html" }
+      ]
+    },
+    {
+      "headline": "🟢 LITE Q3 매출 +90%, TLN Q1 EBITDA 2배 — AI 인프라 라인 합격",
+      "impact": "positive",
+      "summary": "LITE Q3 매출 $808M·EPS $2.37 비트, Q4 가이던스 EPS $3.05까지 상회. TLN Q1 EBITDA $473M·FCF $350M (전년 4배)",
+      "explain": "5/5 'AMD·LITE·TLN 트리플 실적'에서 셋 다 합격점. AMD 폭발 + LITE/TLN 견조로 우리 AI 인프라 라인이 한 번에 검증됐어요. 다만 LITE는 1년 +1,474% 누적 상승 부담으로 주가 반응은 약함 — '좋은 결과인데 안 오르네' 경계감 필요.",
+      "sources": [
+        { "name": "Seeking Alpha LITE", "url": "https://seekingalpha.com/news/4586129-lumentum-q3-revenue-surges-90-q4-outlook-tops-estimates" },
+        { "name": "GlobeNewswire TLN", "url": "https://www.globenewswire.com/news-release/2026/05/05/3288253/0/en/Talen-Energy-Reports-First-Quarter-2026-Results-Reaffirms-2026-Guidance.html" }
+      ]
+    },
+    {
+      "headline": "🟢 Disney +6%·Uber +8% — 소비주도 합세 (5/6 발표)",
+      "impact": "positive",
+      "summary": "Disney Q2 매출 $25.17B (+7%), 신임 CEO 첫 분기 비트. Uber 트립 +20% YoY, 비GAAP EPS $0.72",
+      "explain": "AI주만 가는 게 아니라 소비·서비스 영역까지 실적이 받쳐준다는 신호. 시장 전반 폭이 넓어졌다는 건 단순 AI 버블이 아니라는 방증. 우리 포트폴리오엔 직접 종목은 없지만 시장 분위기엔 '+'.",
+      "sources": [
+        { "name": "CNBC Disney", "url": "https://www.cnbc.com/amp/2026/05/06/disney-dis-earnings-q2-2026.html" },
+        { "name": "Axios", "url": "https://www.axios.com/2026/05/06/uber-disney-cvs-earnings" }
+      ]
+    },
+    {
+      "headline": "🟢 NVDA-Corning 신규 협력 + AMD 후광 효과",
+      "impact": "positive",
+      "summary": "NVDA-Corning AI 인프라 광학소재 협력 발표, 5/6 +4.4%. 5/20 자체 실적 모멘텀 재가동",
+      "explain": "AMD 결과가 좋으면 'AI 시장 자체가 더 크게 성장 중'이라는 뜻이라 NVDA에도 호재. 일종의 동반 상승. 우리 포트폴리오의 NVDA·AVGO·MRVL·DELL 모두 같은 흐름 탔어요.",
+      "sources": [
+        { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-may-6-fresh-records-231128701.html" },
+        { "name": "Motley Fool NVDA", "url": "https://www.fool.com/investing/2026/05/05/prediction-nvidia-stock-going-to-soar-after-may-20/" }
+      ]
+    },
+    {
+      "headline": "🟡 ADP 4월 민간 고용 +109K — 컨센 살짝 상회",
+      "impact": "neutral",
+      "summary": "4월 ADP 민간 고용 +109K (컨센 +90~100K 부근). 정부 NFP는 5/8 금 21:30 KST 발표",
+      "explain": "ADP는 NFP 예고편 격. 컨센보다 약간 강해 '경기 죽지 않았다' 안도 + '인하 기대 너무 강하면 위험' 양면성. 핵심은 내일 NFP. +12만~+15만이 'Goldilocks(연착륙)' 구간, +20만 넘으면 인하 기대 깨지고 +5만 밑이면 침체 우려.",
+      "sources": [
+        { "name": "CNBC ADP", "url": "https://www.cnbc.com/2026/05/06/private-payrolls-rose-by-109000-in-april-topping-expectations-adp-says.html" },
+        { "name": "Kiplinger Preview", "url": "https://www.kiplinger.com/investing/economy/jobs-report-april-2026-what-to-expect" }
+      ]
+    },
+    {
+      "headline": "🟢 SNDK·MU 메모리 이중 폭주 지속 — 단, 단기 과열 신호",
+      "impact": "positive",
+      "summary": "SNDK 5/5 +13% 신고가 → 5/6 종가 $1,406. MU $592 터치 후 약 $580 유지. NAND 슈퍼사이클+HBM 매진",
+      "explain": "AMD 데이터센터 +57%는 곧 'GPU 옆 메모리도 더 필요'하다는 뜻. SNDK는 1년 +3,300%로 변동성 극단 — 베타 2.4 이상의 고변동 종목은 신호등 빨강(차익실현 위험). 가격은 더 갈 수 있어도 한 번 흔들리면 -30% 같은 조정은 평범하게 나옵니다.",
+      "sources": [
+        { "name": "Motley Fool SNDK", "url": "https://www.fool.com/investing/2026/05/06/prediction-sandisk-stock-is-going-to-4000-in-1-yea/" },
+        { "name": "FX Leaders MU", "url": "https://www.fxleaders.com/news/2026/05/04/mu-stock-marches-toward-600-on-hbm-demand-but-the-valuation-risks-start-to-bite/" }
+      ]
+    }
+  ],
+  "upcoming": [
+    { "date": "2026-05-07", "label": "Challenger 4월 감원 + McDonald's·Shake Shack 실적 (가벼운 날)", "type": "indicator" },
+    { "date": "2026-05-08", "label": "★ 4월 고용보고서 NFP (21:30 KST, 컨센 +55K~+165K)", "type": "indicator" },
+    { "date": "2026-05-12", "label": "워시 Fed 의장 인준 본회의 표결 (예상)", "type": "schedule" },
+    { "date": "2026-05-15", "label": "파월 임기 만료 → 워시 취임", "type": "schedule" },
+    { "date": "2026-05-18", "label": "Dell World 2026 시작 (~5/21)", "type": "schedule" },
+    { "date": "2026-05-20", "label": "★ NVDA Q1 FY27 실적 (5월 최대 이벤트)", "type": "earnings" },
+    { "date": "2026-05-28", "label": "MRVL Q1 FY27 실적", "type": "earnings" }
+  ]
+}

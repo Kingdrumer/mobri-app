@@ -1,0 +1,88 @@
+{
+  "date": "2026-05-02",
+  "title": "5월 2일 (토) 주말 정리 — 신고가 마감, 다음 주 AMD/LITE/TLN 실적 대기",
+  "session": 3,
+  "terms": [
+    { "term": "분산투자", "definition": "한 종목/한 업종에 몰빵하지 않고 여러 곳에 나눠 담는 것", "example": "우리 포트폴리오: 빅테크·반도체·AI 인프라·전력 4계열로 분산" },
+    { "term": "분할매수", "definition": "한 번에 다 사지 않고 여러 차례 나눠 사는 방법", "example": "100만 원 살 거면 25만 원씩 4번에 나눠 사기" },
+    { "term": "손절 / 익절", "definition": "손해를 끊는 매도(손절) / 이익을 챙기는 매도(익절)", "example": "-15%면 손절, +50%면 절반 익절 — 미리 룰 정하기" },
+    { "term": "ETF (상장지수펀드)", "definition": "여러 종목을 한 바구니에 담은 펀드를 주식처럼 사는 것", "example": "SOXX 1주 = NVDA·AMD·AVGO 등 30종목에 동시 투자" },
+    { "term": "배당락", "definition": "배당받을 권리가 사라지는 날 — 이날 주가는 배당금만큼 떨어짐", "example": "배당 5,000원 종목이 배당락일 5,000원 빠지면 정상" }
+  ],
+  "tip": "우리 포트폴리오는 베타 2 이상 고변동 종목이 9개나 됩니다. 시장 살짝만 흔들려도 -20%가 평범하게 나와요. 분할매수와 분산투자가 멘탈 지키는 안전벨트.",
+  "marketSummary": [
+    { "label": "다우", "value": "49,499.27", "change": "-0.31%", "trend": "down" },
+    { "label": "S&P 500", "value": "7,230.12", "change": "+0.29% (사상 최고)", "trend": "up" },
+    { "label": "나스닥", "value": "25,114.44", "change": "+0.89% (사상 최고)", "trend": "up" },
+    { "label": "VIX", "value": "16.88", "change": "-0.88%", "trend": "down" },
+    { "label": "WTI 유가", "value": "$101.94", "change": "-3.0%", "trend": "down" },
+    { "label": "10년 국채", "value": "4.39%", "change": "+1.5bp", "trend": "neutral" },
+    { "label": "Fear & Greed", "value": "70 (탐욕)", "change": "▲", "trend": "up" }
+  ],
+  "news": [
+    {
+      "headline": "애플, 사상 최대 분기 매출 + $1,000억 자사주 매입 발표",
+      "impact": "positive",
+      "summary": "Q2 매출 $1,112억(+17%), 서비스 사상 최고, 자사주 $100B 매입",
+      "explain": "애플이 회계 2분기에 사상 최대 매출을 찍고, 거기에 1,000억 달러 자사주 매입까지 발표했어요. 자사주 매입은 회사가 자기 주식을 사들이는 거라, 시장에 풀린 주식 수가 줄어 1주당 가치가 올라가는 효과. 우리 종목 중 TSM은 애플 칩을 만들기 때문에 직접 수혜.",
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/04/30/apple-aapl-q2-2026-earnings-report.html" },
+        { "name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/05/01/stock-market-today-may-1-apple-jumps-after-record-quarter-and-100-billion-share-buyback/" }
+      ]
+    },
+    {
+      "headline": "이란, 파키스탄 통해 평화 제안 → 유가 -3%",
+      "impact": "positive",
+      "summary": "WTI $105 → $101.94, 인플레 압력 완화 기대",
+      "explain": "이란이 종전 최종안을 미국에 전달하면서 유가가 3% 빠졌어요. 유가가 떨어지면 인플레가 잡히고, 그러면 Fed가 금리 인하 카드를 꺼낼 명분이 생깁니다. 성장주(우리 종목 대다수)에 호재.",
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/05/01/oil-prices-today-brent-wti-us-iran-war-trump-war-powers-deadline.html" }
+      ]
+    },
+    {
+      "headline": "S&P 500·나스닥 다시 사상 최고가 마감",
+      "impact": "positive",
+      "summary": "S&P 7,230 / 나스닥 25,114, 4월 2020년 이후 최고의 한 달",
+      "explain": "AI 어닝 호조 + 유가 안정 + 금리 동결 + Fed 의장 교체 변수 정리, 4박자가 맞아 떨어진 결과. 한 달 기준으로 코로나 이후 가장 좋은 4월이었어요.",
+      "sources": [
+        { "name": "TheStreet", "url": "https://www.thestreet.com/latest-news/stock-market-today-may-1-2026-updates" },
+        { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-friday-may-1-records-apple-iran-231056146.html" }
+      ]
+    },
+    {
+      "headline": "워시 Fed 의장 인준안, 5/11 본회의 표결 예정",
+      "impact": "neutral",
+      "summary": "상원 위원회 13-11 통과, 5/15 파월 임기 만료 후 취임",
+      "explain": "Fed 사령탑이 바뀝니다. 워시는 'AI 생산성 덕분에 금리 인하 여지 있다'는 비둘기 성향. 시장은 일단 우호적으로 봤지만, 정치색 우려도 잔존.",
+      "sources": [
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/4/29/senate-panel-advances-kevin-warshs-nomination-for-us-fed-chair" }
+      ]
+    },
+    {
+      "headline": "Fed, 금리 3.6% 동결 — 파월의 마지막 결정",
+      "impact": "neutral",
+      "summary": "PCE 인플레 3.5% 부담으로 인하 못함",
+      "explain": "유가 급등으로 물가가 다시 튀어 인하 못 한 셈. 시장은 '예상대로'라며 큰 충격 없이 받아들였습니다. 워시 신임 의장이 6월에 인하 카드 꺼낼 가능성에 베팅 중.",
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/04/29/treasury-yields-fed-decision-powell-warsh-mpc.html" }
+      ]
+    },
+    {
+      "headline": "메타 CapEx $145B 후폭풍, 1주일 -7%",
+      "impact": "negative",
+      "summary": "AI 투자 우려 지속, 단 NVDA·AVGO·MRVL엔 호재",
+      "explain": "메타가 'AI에 1년에 $125B~$145B 쓰겠다'고 한 게 4/30 -8.5%, 1주일 누적 -7.2% 후퇴 원인. 다만 그 돈을 받는 NVDA·AVGO·MRVL·MU·CLS·DELL·LITE에는 매출 보장.",
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html" }
+      ]
+    }
+  ],
+  "upcoming": [
+    { "date": "2026-05-04", "label": "미국 시장 개장 (월)", "type": "schedule" },
+    { "date": "2026-05-05", "label": "AMD · LITE · TLN 동시 실적 (한국 5/6 새벽)", "type": "earnings" },
+    { "date": "2026-05-11", "label": "워시 Fed 의장 인준 본회의 표결 (예상)", "type": "schedule" },
+    { "date": "2026-05-15", "label": "파월 임기 만료 → 워시 취임", "type": "schedule" },
+    { "date": "2026-05-20", "label": "NVDA 실적 (시장 최대 이벤트)", "type": "earnings" },
+    { "date": "2026-05-28", "label": "MRVL 실적", "type": "earnings" }
+  ]
+}
