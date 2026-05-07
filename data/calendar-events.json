@@ -1,57 +1,267 @@
 {
   "stock": {
     "2026-04-30": [
-      { "type": "negative", "label": "PCE 3.5% 급등", "color": "red" }
+      {
+        "type": "negative",
+        "label": "PCE 3.5% 급등",
+        "color": "red",
+        "time": "21:30 KST",
+        "title": "Fed 핵심 물가지표 PCE 발표 (3.5%)",
+        "description": "미국 중앙은행이 가장 신뢰하는 물가 지표가 3.5%로 튀어 올랐어요. 연준 목표(2%)보다 한참 높습니다.",
+        "impact": "물가가 안 잡히면 Fed가 금리를 못 내려요. → 기술주에 부담.",
+        "ourImpact": "AI 성장주(NVDA, MU 등) 단기 변동성 ↑. 우리 포트 베타 평균 2.1이라 충격이 평소 2배."
+      }
     ],
     "2026-05-01": [
-      { "type": "positive", "label": "S&P·나스닥 사상 최고가", "color": "green" }
+      {
+        "type": "positive",
+        "label": "S&P·나스닥 사상 최고가",
+        "color": "green",
+        "time": "익일 05:00 KST 마감",
+        "title": "미국 3대 지수 사상 최고가 마감",
+        "description": "S&P 7,230, 나스닥 25,114로 사상 최고가 경신.",
+        "impact": "AI 어닝 호조 + 유가 안정 + Fed 의장 교체 변수 정리, 4박자가 맞아 떨어진 결과.",
+        "ourImpact": "우리 빅테크·반도체 종목 전반 동반 강세. GOOG·AMD·TSM·MU 신고가 동조."
+      }
     ],
     "2026-05-02": [
-      { "type": "report", "label": "주말 정리 보고서", "color": "indigo" },
-      { "type": "positive", "label": "주말 정리 (신고가)", "color": "green" }
+      {
+        "type": "report",
+        "label": "주말 정리 보고서",
+        "color": "indigo",
+        "time": "08:00 KST",
+        "title": "주말 정리 — 신고가 마감, 5/5 실적 대기",
+        "description": "한 주 결산 + 다음 주 핵심 이벤트 미리보기."
+      },
+      {
+        "type": "positive",
+        "label": "주말 정리 (신고가)",
+        "color": "green",
+        "time": "—",
+        "title": "5월 첫 주 마감 — 4월 +6% 강세",
+        "description": "S&P 4월 +12.8%로 코로나 이후 최고. 한 주 동안 신고가 두 번."
+      }
     ],
     "2026-05-04": [
-      { "type": "report", "label": "프리마켓 보고서", "color": "indigo" },
-      { "type": "schedule", "label": "장 개장 + ISM 제조업 PMI", "color": "amber" },
-      { "type": "schedule", "label": "트럼프 '프로젝트 프리덤' 시작", "color": "amber" }
+      {
+        "type": "report",
+        "label": "프리마켓 보고서",
+        "color": "indigo",
+        "time": "08:00 KST",
+        "title": "월요일 프리마켓 — '슈퍼 주간' 시작"
+      },
+      {
+        "type": "schedule",
+        "label": "장 개장 + ISM 제조업 PMI",
+        "color": "amber",
+        "time": "23:00 KST",
+        "title": "ISM 제조업 PMI 발표",
+        "description": "미국 제조업 경기를 1점 단위로 발표. 50 위면 확장, 아래면 위축.",
+        "impact": "제조업 둔화 시 → 경기 침체 우려, 반도체에 직접 부담.",
+        "ourImpact": "우리 반도체 종목(NVDA, AMD, TSM 등 7개) 영향 가능성."
+      },
+      {
+        "type": "schedule",
+        "label": "트럼프 '프로젝트 프리덤' 시작",
+        "color": "amber",
+        "time": "—",
+        "title": "이란 호르무즈 호위 작전 개시",
+        "description": "유가·지정학 리스크 변동성 확대 가능."
+      }
     ],
     "2026-05-05": [
-      { "type": "earnings", "label": "★ AMD 실적 (어닝 서프라이즈)", "color": "indigo" },
-      { "type": "earnings", "label": "★ LITE 실적 (+90% YoY)", "color": "indigo" },
-      { "type": "earnings", "label": "★ TLN 실적 (EBITDA 2배)", "color": "indigo" },
-      { "type": "positive", "label": "AMD AH +16%", "color": "green" }
+      {
+        "type": "earnings",
+        "label": "★ AMD 실적 (어닝 서프라이즈)",
+        "color": "indigo",
+        "time": "익일 05:00 KST 발표 (4:00 PM ET)",
+        "title": "AMD Q1 FY26 실적 발표",
+        "description": "데이터센터 매출 +57% YoY 폭증, EPS 컨센 큰 폭 상회.",
+        "impact": "메타 6GW GPU 계약 가시화. NVDA 의존도 분산 가속.",
+        "ourImpact": "AMD 시간외 +16%. TSM·AVGO·MU 등 동반 후광 효과."
+      },
+      {
+        "type": "earnings",
+        "label": "★ LITE 실적 (+90% YoY)",
+        "color": "indigo",
+        "time": "익일 05:00 KST",
+        "title": "루멘텀 Q3 FY26 실적",
+        "description": "매출 +90% YoY. 데이터센터 광통신 폭증 직접 수혜.",
+        "ourImpact": "AI 인프라 그룹 전반 자신감 상승."
+      },
+      {
+        "type": "earnings",
+        "label": "★ TLN 실적 (EBITDA 2배)",
+        "color": "indigo",
+        "time": "익일 06:00 KST",
+        "title": "탈렌에너지 Q1 2026 실적",
+        "description": "AWS 1.92GW 17년 계약으로 EBITDA 2배 가이던스 상향.",
+        "ourImpact": "AI 전력 테마 핵심 종목, +73% YTD."
+      },
+      {
+        "type": "positive",
+        "label": "AMD AH +16%",
+        "color": "green",
+        "title": "AMD 시간외 +16% 급등",
+        "description": "어닝 서프라이즈 즉시 반영, 다음날 상승 출발 예상."
+      }
     ],
     "2026-05-06": [
-      { "type": "earnings", "label": "Disney +6% / Uber +8% / ARM 실적", "color": "blue" },
-      { "type": "schedule", "label": "ISM 서비스업 PMI", "color": "amber" },
-      { "type": "positive", "label": "S&P·나스닥 사상 최고 (이란 평화 임박)", "color": "green" }
+      {
+        "type": "earnings",
+        "label": "Disney +6% / Uber +8% / ARM 실적",
+        "color": "blue",
+        "time": "장중·장 마감 후",
+        "title": "Disney·Uber·ARM 실적 발표",
+        "description": "ARM은 스마트폰·AI 칩 라이센스 회사로 NVDA·AAPL 공급망 영향.",
+        "ourImpact": "ARM 실적 → 반도체 섹터 단기 sentiment에 영향."
+      },
+      {
+        "type": "schedule",
+        "label": "ISM 서비스업 PMI",
+        "color": "amber",
+        "time": "23:00 KST",
+        "title": "ISM 서비스업 PMI",
+        "description": "미국 GDP 70%+를 차지하는 서비스 업황 지표.",
+        "ourImpact": "AMZN·GOOG 등 빅테크 영향. 둔화 시 광고·클라우드 매출 우려."
+      },
+      {
+        "type": "positive",
+        "label": "S&P·나스닥 사상 최고 (이란 평화 임박)",
+        "color": "green",
+        "title": "이란-미국 평화 협상 임박 보도",
+        "description": "유가 급락(-3%) → 인플레 압력 완화 → 성장주 강세.",
+        "ourImpact": "AI 성장주 14개 모두 +1~5% 동반 상승."
+      }
     ],
     "2026-05-07": [
-      { "type": "report", "label": "오늘의 보고서", "color": "indigo" },
-      { "type": "asia", "label": "아시아 마감 (코스피 7,490.05 사상최고 +1.43%)", "color": "blue" },
-      { "type": "positive", "label": "니케이 +5.6% 폭등 (골든위크 따라잡기)", "color": "green" },
-      { "type": "us-open", "label": "미국 개장 (3대 지수 +1% 신고가 갱신)", "color": "amber" },
-      { "type": "indicator", "label": "주간 실업청구건수 + Q1 생산성·ULC", "color": "amber" },
-      { "type": "schedule", "label": "Challenger 4월 감원 + 라이트 실적", "color": "amber" },
-      { "type": "positive", "label": "AMD 분석가 목표가 줄상향 ($500+)", "color": "green" }
+      {
+        "type": "report",
+        "label": "오늘의 보고서",
+        "color": "indigo",
+        "time": "08:00 KST",
+        "title": "5/7 프리마켓 — AMD 폭발 + 평화 임박, 신고가"
+      },
+      {
+        "type": "asia",
+        "label": "아시아 마감 (코스피 7,490.05 사상최고)",
+        "color": "blue",
+        "time": "15:30 KST",
+        "title": "코스피 사상 최고가 7,490.05 마감 (+1.43%)",
+        "description": "AMD 후광 + 외국인 순매수 + 반도체 섹터 강세.",
+        "ourImpact": "TSM·삼성·SK하이닉스 동조 흐름. 미국 프리마켓 긍정 출발 시그널."
+      },
+      {
+        "type": "positive",
+        "label": "니케이 +5.6% 폭등",
+        "color": "green",
+        "time": "16:00 KST 마감",
+        "title": "니케이225 +5.6% 폭등 (골든위크 따라잡기)",
+        "description": "일본 골든위크(5/3~5) 휴장 동안 쌓인 미국 호재 한꺼번에 반영."
+      },
+      {
+        "type": "us-open",
+        "label": "미국 개장 (3대 지수 +1% 신고가 갱신)",
+        "color": "amber",
+        "time": "22:30 KST",
+        "title": "미국 정규장 +1% 강세 출발",
+        "description": "AMD 후광 + 평화 모멘텀으로 신고가 추가 갱신.",
+        "ourImpact": "GOOG·NVDA·TSM·AVGO 등 빅캡 동반 +1~2%."
+      },
+      {
+        "type": "indicator",
+        "label": "주간 실업청구건수 + Q1 생산성·ULC",
+        "color": "amber",
+        "time": "21:30 KST",
+        "title": "주간 실업청구건수 + Q1 노동생산성·단위노동비용",
+        "description": "고용시장 + 임금 인플레 가늠.",
+        "ourImpact": "5/8 NFP의 선행 지표. 약하면 금리 인하 기대 ↑."
+      },
+      {
+        "type": "schedule",
+        "label": "Challenger 4월 감원 + 라이트 실적",
+        "color": "amber",
+        "time": "21:30 KST",
+        "title": "Challenger 감원 보고서 (4월)",
+        "description": "기업 해고 발표를 집계. 빅테크 감원 동향 가늠."
+      },
+      {
+        "type": "positive",
+        "label": "AMD 분석가 목표가 줄상향 ($500+)",
+        "color": "green",
+        "title": "AMD 분석가 줄상향, 평균 목표가 $500+",
+        "description": "Susquehanna $375 → $500, Bernstein $450 → $520 등.",
+        "ourImpact": "AMD 보유 시 추가 상승 모멘텀. 단기 +15% 후 차익실현 주의."
+      }
     ],
     "2026-05-08": [
-      { "type": "schedule", "label": "★ 4월 고용보고서 NFP (21:30 KST)", "color": "amber" }
+      {
+        "type": "indicator",
+        "label": "★ 4월 고용보고서 NFP",
+        "color": "amber",
+        "time": "21:30 KST",
+        "title": "4월 비농업 신규고용(NFP) — 시장 최대 단일 지표",
+        "description": "월간 신규 고용 변화. 시장이 가장 주시하는 지표.",
+        "impact": "강하면(+250K) → 경기 견조하지만 금리 인하 늦춰짐. 약하면(+100K 미만) → 경기 둔화 + 금리 인하 기대 ↑.",
+        "ourImpact": "AI 성장주 14개 큰 변동성 예상. 발표 직후 ±3% 흔들림 가능."
+      }
     ],
     "2026-05-12": [
-      { "type": "schedule", "label": "워시 Fed 의장 본회의 표결 (예상)", "color": "amber" }
+      {
+        "type": "schedule",
+        "label": "워시 Fed 의장 본회의 표결 (예상)",
+        "color": "amber",
+        "time": "—",
+        "title": "워시 Fed 의장 인준 본회의 표결",
+        "description": "상원 본회의 표결 → 5/15 취임 예정.",
+        "impact": "시장은 워시를 *AI 생산성 → 금리 인하 여지* 시각으로 파악, 비둘기 성향 평가.",
+        "ourImpact": "통과 시 성장주에 호재 확정. 부결 시 큰 변동성."
+      }
     ],
     "2026-05-15": [
-      { "type": "schedule", "label": "Fed 의장 교체 (워시 취임)", "color": "amber" }
+      {
+        "type": "schedule",
+        "label": "Fed 의장 교체 (워시 취임)",
+        "color": "amber",
+        "time": "—",
+        "title": "워시 신임 Fed 의장 취임",
+        "description": "파월 8년 임기 종료 → 워시 취임. 통화정책 기조 변화 가능.",
+        "ourImpact": "첫 발언·입장에 따라 시장 변동. 비둘기 성향 확인 시 성장주 강세 지속."
+      }
     ],
     "2026-05-18": [
-      { "type": "schedule", "label": "Dell World 2026 시작 (~5/21)", "color": "blue" }
+      {
+        "type": "schedule",
+        "label": "Dell World 2026 시작 (~5/21)",
+        "color": "blue",
+        "time": "—",
+        "title": "Dell World 2026 컨퍼런스 (5/18~5/21)",
+        "description": "DELL의 연례 행사. AI 서버 신제품 발표 가능.",
+        "ourImpact": "DELL 단기 변동성. 신제품 호재 시 주가 상승."
+      }
     ],
     "2026-05-20": [
-      { "type": "earnings", "label": "★ NVDA 실적 (시장 최대 이벤트)", "color": "amber" }
+      {
+        "type": "earnings",
+        "label": "★ NVDA 실적 (시장 최대 이벤트)",
+        "color": "amber",
+        "time": "익일 05:00 KST 발표",
+        "title": "NVIDIA Q1 FY27 실적 — 시장 최대 단일 이벤트",
+        "description": "AI 시대 절대강자 NVDA의 분기 실적. 시장 컨센서스 매출 +79% 성장.",
+        "impact": "+80% 미만 → 실망 매물 + 시장 전체 하락. +85%+ → 신고가 추가 갱신.",
+        "ourImpact": "직접 영향: NVDA 자체 ±5% 가능. 간접: TSM·AVGO·MRVL·MU·AMD 동조."
+      }
     ],
     "2026-05-28": [
-      { "type": "earnings", "label": "MRVL 실적", "color": "amber" }
+      {
+        "type": "earnings",
+        "label": "MRVL 실적",
+        "color": "amber",
+        "time": "익일 05:00 KST",
+        "title": "마벨 Q1 FY27 실적",
+        "description": "데이터센터 인터커넥트 + AI 칩 협업 매출 가늠.",
+        "ourImpact": "Google TPU·NVDA $2B 투자 효과 확인 분기."
+      }
     ]
   },
   "realestate": {}

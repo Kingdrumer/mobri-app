@@ -394,6 +394,142 @@ body {
 }
 .sd-news-row .src a { color: var(--text-tertiary); text-decoration: none; margin-right: 4px; }
 
+/* === 캘린더 이벤트 상세 카드 (점에 대한 풀이) === */
+.event-detail-section {
+  margin: 4px 16px 14px;
+}
+
+.eds-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4px 8px;
+}
+
+.eds-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.eds-count {
+  font-size: 10px;
+  color: var(--text-tertiary);
+  background: var(--bg-card);
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 0.5px solid var(--border);
+}
+
+.eds-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.event-detail-card {
+  background: var(--bg-secondary);
+  border: 0.5px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 14px;
+  position: relative;
+  border-left: 3px solid var(--text-tertiary);
+}
+.event-detail-card.color-green  { border-left-color: var(--positive); }
+.event-detail-card.color-red    { border-left-color: var(--negative); }
+.event-detail-card.color-amber  { border-left-color: #F59E0B; }
+.event-detail-card.color-indigo { border-left-color: var(--accent); }
+.event-detail-card.color-blue   { border-left-color: #3B82F6; }
+
+.ed-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.ed-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: var(--text-tertiary);
+}
+.ed-dot.green  { background: var(--positive); }
+.ed-dot.red    { background: var(--negative); }
+.ed-dot.amber  { background: #F59E0B; }
+.ed-dot.indigo { background: var(--accent); }
+.ed-dot.blue   { background: #3B82F6; }
+
+.ed-kind {
+  font-size: 10px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.ed-time {
+  margin-left: auto;
+  font-size: 10px;
+  color: var(--text-tertiary);
+  background: var(--bg-card);
+  padding: 2px 7px;
+  border-radius: 8px;
+  font-variant-numeric: tabular-nums;
+}
+
+.ed-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.35;
+  margin-bottom: 2px;
+}
+
+.ed-title {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+.ed-desc {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin: 6px 0 4px;
+}
+
+.ed-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 0.5px dashed var(--border);
+}
+
+.ed-row-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.ed-row-label.impact { color: #F59E0B; }
+.ed-row-label.our    { color: var(--accent); }
+
+.ed-row-text {
+  font-size: 12px;
+  color: var(--text-primary);
+  line-height: 1.55;
+}
+
 /* === 포트폴리오 (그룹 카드형) === */
 .portfolio-section {
   margin: 0 16px 12px;

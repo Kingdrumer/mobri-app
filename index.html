@@ -76,6 +76,16 @@
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('service-worker.js').catch(() => {});
       });
+      // SW가 새 버전 알리면 즉시 새로고침
+      navigator.serviceWorker.addEventListener('message', (event) => {
+        if (event.data && event.data.type === 'NEW_VERSION') {
+          // 한 번만 리로드 (중복 방지)
+          if (!window.__reloadingForUpdate) {
+            window.__reloadingForUpdate = true;
+            window.location.reload();
+          }
+        }
+      });
     }
   </script>
 </body>

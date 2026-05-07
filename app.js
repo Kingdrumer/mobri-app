@@ -447,82 +447,167 @@ function formatKoreanDate(dateStr) {
   return `${d.getMonth() + 1}월 ${d.getDate()}일 (${days[d.getDay()]})`;
 }
 
+// 이벤트 type → 이모지·라벨 매핑
+function eventTypeMeta(type) {
+  const map = {
+    positive:   { icon: '🟢', kind: '호재' },
+    negative:   { icon: '🔴', kind: '악재' },
+    earnings:   { icon: '⭐', kind: '실적' },
+    report:     { icon: '📊', kind: '보고서' },
+    indicator:  { icon: '📈', kind: '경제지표' },
+    schedule:   { icon: '📅', kind: '주요일정' },
+    asia:       { icon: '🌏', kind: '아시아장' },
+    'us-open':  { icon: '🇺🇸', kind: '미국 개장' },
+    subscription: { icon: '🏠', kind: '청약' },
+    rate:       { icon: '💰', kind: '금리' },
+    policy:     { icon: '📜', kind: '정책' },
+  };
+  return map[type] || { icon: '•', kind: '일정' };
+}
+
+function renderEventDetailCard(ev) {
+  const meta = eventTypeMeta(ev.type);
+  const colorClass = ev.color || 'gray';
+  const hasDetails = ev.title || ev.description || ev.impact || ev.ourImpact;
+
+  return `
+    <div class="event-detail-card color-${colorClass}">
+      <div class="ed-head">
+        <span class="ed-dot ${colorClass}"></span>
+        <span class="ed-kind">${meta.icon} ${escapeHtml(meta.kind)}</span>
+        ${ev.time ? `<span class="ed-time">${escapeHtml(ev.time)}</span>` : ''}
+      </div>
+      <div class="ed-label">${escapeHtml(ev.label || '')}</div>
+      ${ev.title && ev.title !== ev.label ? `<div class="ed-title">${escapeHtml(ev.title)}</div>` : ''}
+      ${ev.description ? `<div class="ed-desc">${escapeHtml(ev.description)}</div>` : ''}
+      ${ev.impact ? `
+        <div class="ed-row">
+          <span class="ed-row-label impact">📊 시장 영향</span>
+          <span class="ed-row-text">${escapeHtml(ev.impact)}</span>
+        </div>
+      ` : ''}
+      ${ev.ourImpact ? `
+        <div class="ed-row">
+          <span class="ed-row-label our">🎯 우리 포트폴리오</span>
+          <span class="ed-row-text">${escapeHtml(ev.ourImpact)}</span>
+        </div>
+      ` : ''}
+      ${!hasDetails ? `<div class="ed-desc" style="color:var(--text-tertiary);font-style:italic;">상세 정보가 곧 업데이트됩니다</div>` : ''}
+    </div>
+  `;
+}
+
 async function renderSelectedDayPanel() {
   const panel = $('#selectedDayPanel');
   if (!panel) return;
 
+  const dayEvents = (State.calendarEvents[State.calMode] || {})[State.selectedDate] || [];
+
   if (State.calMode === 'realestate') {
+    if (!dayEvents.length) {
+      panel.innerHTML = `
+        <div class="placeholder">
+          <div class="ico">🏠</div>
+          <div>${formatKoreanDate(State.selectedDate)} 부동산 일정 없음</div>
+          <div style="margin-top: 4px; font-size: 11px;">청약·금리·정책 일정이 등록되면 여기 표시돼요</div>
+        </div>
+      `;
+      return;
+    }
     panel.innerHTML = `
-      <div class="placeholder">
-        <div class="ico">🏠</div>
-        <div>${formatKoreanDate(State.selectedDate)} 부동산 일정 없음</div>
-        <div style="margin-top: 4px; font-size: 11px;">청약·금리·정책 일정이 등록되면 여기 표시돼요</div>
+      <div class="event-detail-section">
+        <div class="eds-head">
+          <span class="eds-pill">📅 ${formatKoreanDate(State.selectedDate)}</span>
+          <span class="eds-count">${dayEvents.length}건</span>
+        </div>
+        <div class="eds-list">
+          ${dayEvents.map(renderEventDetailCard).join('')}
+        </div>
       </div>
     `;
     return;
   }
 
-  // 주식 모드: 해당 날짜 보고서 카드
+  // 주식 모드: 보고서 + 이벤트 상세 병행 렌더
   const report = await loadReport(State.selectedDate);
-  if (!report) {
+
+  // 이벤트도 보고서도 없는 경우만 placeholder
+  if (!report && !dayEvents.length) {
     panel.innerHTML = `
       <div class="placeholder">
         <div class="ico">📊</div>
-        <div>${formatKoreanDate(State.selectedDate)} 보고서 없음</div>
+        <div>${formatKoreanDate(State.selectedDate)} 일정·보고서 없음</div>
         <div style="margin-top: 4px; font-size: 11px;">매일 오전 7:37에 자동 생성돼요</div>
       </div>
     `;
     return;
   }
 
-  const market = (report.marketSummary || []).slice(0, 4);
-  const news = (report.news || []).slice(0, 3);
-
-  panel.innerHTML = `
-    <div class="selected-day-card">
-      <div class="sd-header">
-        <div class="row1">
-          <span class="date-pill">📅 ${formatKoreanDate(State.selectedDate)}</span>
-          <span class="view-all" id="viewFullReport">전체보기 ›</span>
-        </div>
-        <div class="title">${escapeHtml(report.title)}</div>
+  // 이벤트 상세 카드 (NEW: 캘린더 점에 대한 풀이)
+  const eventsBlock = dayEvents.length ? `
+    <div class="event-detail-section">
+      <div class="eds-head">
+        <span class="eds-pill">📌 오늘의 일정·이벤트</span>
+        <span class="eds-count">${dayEvents.length}건</span>
       </div>
-
-      ${market.length ? `
-        <div class="sd-section">
-          <div class="sd-section-label">시장 한눈에</div>
-          <div class="sd-market-row">
-            ${market.map((it) => `
-              <div class="sd-market-pill">
-                <div class="l">${escapeHtml(it.label)}</div>
-                <div class="v">
-                  <span>${escapeHtml(it.value)}</span>
-                  <span class="c" style="color: ${it.trend === 'up' ? 'var(--positive)' : it.trend === 'down' ? 'var(--negative)' : 'var(--text-tertiary)'}">${escapeHtml(it.change)}</span>
-                </div>
-              </div>
-            `).join('')}
-          </div>
-        </div>
-      ` : ''}
-
-      ${news.length ? `
-        <div class="sd-section">
-          <div class="sd-section-label">핵심 뉴스</div>
-          <div class="sd-news-list">
-            ${news.map((n) => `
-              <div class="sd-news-row">
-                <div class="impact-bar ${n.impact || 'neutral'}"></div>
-                <div class="news-body">
-                  <div class="h">${escapeHtml(n.headline)}</div>
-                  <div class="src">${(n.sources || []).map((s) => `· ${escapeHtml(s.name)}`).join(' ')}</div>
-                </div>
-              </div>
-            `).join('')}
-          </div>
-        </div>
-      ` : ''}
+      <div class="eds-list">
+        ${dayEvents.map(renderEventDetailCard).join('')}
+      </div>
     </div>
-  `;
+  ` : '';
+
+  // 보고서 카드 (기존 시장 한눈에 + 핵심 뉴스 요약)
+  const reportBlock = report ? (() => {
+    const market = (report.marketSummary || []).slice(0, 4);
+    const news = (report.news || []).slice(0, 3);
+    return `
+      <div class="selected-day-card">
+        <div class="sd-header">
+          <div class="row1">
+            <span class="date-pill">📅 ${formatKoreanDate(State.selectedDate)} 보고서</span>
+            <span class="view-all" id="viewFullReport">전체보기 ›</span>
+          </div>
+          <div class="title">${escapeHtml(report.title)}</div>
+        </div>
+
+        ${market.length ? `
+          <div class="sd-section">
+            <div class="sd-section-label">시장 한눈에</div>
+            <div class="sd-market-row">
+              ${market.map((it) => `
+                <div class="sd-market-pill">
+                  <div class="l">${escapeHtml(it.label)}</div>
+                  <div class="v">
+                    <span>${escapeHtml(it.value)}</span>
+                    <span class="c" style="color: ${it.trend === 'up' ? 'var(--positive)' : it.trend === 'down' ? 'var(--negative)' : 'var(--text-tertiary)'}">${escapeHtml(it.change)}</span>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        ` : ''}
+
+        ${news.length ? `
+          <div class="sd-section">
+            <div class="sd-section-label">핵심 뉴스</div>
+            <div class="sd-news-list">
+              ${news.map((n) => `
+                <div class="sd-news-row">
+                  <div class="impact-bar ${n.impact || 'neutral'}"></div>
+                  <div class="news-body">
+                    <div class="h">${escapeHtml(n.headline)}</div>
+                    <div class="src">${(n.sources || []).map((s) => `· ${escapeHtml(s.name)}`).join(' ')}</div>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        ` : ''}
+      </div>
+    `;
+  })() : '';
+
+  panel.innerHTML = eventsBlock + reportBlock;
 
   $('#viewFullReport')?.addEventListener('click', () => openReportModal(State.selectedDate));
 }
