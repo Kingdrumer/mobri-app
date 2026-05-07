@@ -272,7 +272,7 @@ function renderCalendar(app) {
 
   app.innerHTML = `
     <header class="app-header">
-      <div class="meta">Mobri · 월간 기록 · ⚡ GitHub 연동 ✅</div>
+      <div class="meta">Mobri · 월간 기록</div>
       <h1>${monthLabel}</h1>
     </header>
 
@@ -1237,13 +1237,3 @@ function renderArchive(app) {
 
 // ------------- 시작 -------------
 init();
-
-// Service Worker가 새 버전 활성화 시 자동 새로고침
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.addEventListener('message', (event) => {
-    if (event.data?.type === 'NEW_VERSION') {
-      console.log('새 버전 감지, 새로고침');
-      window.location.reload();
-    }
-  });
-}

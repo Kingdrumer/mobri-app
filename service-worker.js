@@ -1,7 +1,7 @@
 // 포트폴리오 데일리 PWA — Service Worker
 // 캐시 전략: 앱 셸은 cache-first, 데이터는 network-first
 
-const CACHE_VERSION = 'pwa-v2';
+const CACHE_VERSION = 'pwa-v1';
 const APP_SHELL_CACHE = `app-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `data-${CACHE_VERSION}`;
 
@@ -36,11 +36,7 @@ self.addEventListener('activate', (event) => {
       )
     )
   );
-  self.clients.claim().then(() => {
-    self.clients.matchAll().then((clients) => {
-      clients.forEach((client) => client.postMessage({ type: 'NEW_VERSION' }));
-    });
-  });
+  self.clients.claim();
 });
 
 self.addEventListener('fetch', (event) => {
