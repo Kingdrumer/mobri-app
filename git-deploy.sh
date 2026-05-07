@@ -63,11 +63,8 @@ if [[ -d "$PWA_DIR/icons" ]]; then
   cp -r "$PWA_DIR/icons" "$WORK_DIR/icons"
 fi
 
-# .github 폴더 (workflow 등)
-if [[ -d "$PWA_DIR/.github" ]]; then
-  rm -rf "$WORK_DIR/.github"
-  cp -r "$PWA_DIR/.github" "$WORK_DIR/.github"
-fi
+# .github 폴더는 의도적으로 제외 (workflow scope 토큰 권한 필요)
+# Netlify-GitHub 직접 연결 사용 중이라 GitHub Actions 불필요
 
 # 3. git 작성자 (Netlify가 인식하는 noreply 이메일)
 cd "$WORK_DIR"
