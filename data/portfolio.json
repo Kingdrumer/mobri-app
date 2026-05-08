@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-07T22:30:00+09:00",
+  "lastUpdated": "2026-05-08T15:45:00+09:00",
   "us": [
     {
       "ticker": "GOOG", "name": "알파벳 (구글)", "sector": "빅테크",
       "price": 399.45, "change1D": 1.2, "change1W": 4.0, "change1M": 32.1, "changeYTD": 26.8,
       "beta": 1.15, "signal": "green", "note": "5/15 안에 NVDA 시총 추월 가능성",
-      "todayWhy": "개장 직후 +1.2% — 이란 평화 + AMD 후광으로 빅테크 동반 상승. 클라우드 백로그 462B$ 이슈는 그대로.",
+      "todayWhy": "5/7 마감 후 호르무즈 교전 보도로 빅테크 동반 약세. 클라우드 백로그 462B$ 펀더멘털은 그대로, 21:30 NFP 대기.",
       "outlook": { "rating": "Buy", "targetPrice": 425, "summary": "구글 클라우드 백로그 4,620억$, 자체 TPU 칩 외부 판매로 신규 매출원 확보" },
       "recentNews": [
         { "date": "2026-05-06", "headline": "GOOG NVDA 시총 추월 시나리오 옵션시장 반영 지속", "source": "CNBC", "url": "https://www.cnbc.com/2026/05/01/a-major-mag-7-shift-with-alphabets-market-cap-set-to-pass-nvidias.html" },
@@ -49,11 +49,11 @@
       "ticker": "NVDA", "name": "엔비디아", "sector": "반도체",
       "price": 208.52, "change1D": 1.0, "change1W": 3.7, "change1M": 19.9, "changeYTD": 12.4,
       "beta": 2.07, "signal": "yellow", "note": "5/20 실적, Vera Rubin 출하 시작",
-      "todayWhy": "개장 +1.0% — Corning 2.7B$ 광학소재 파트너십 후속 모멘텀. 5/20 실적까지 박스권 가능성.",
+      "todayWhy": "5/7 마감 후 아이렌(Iren) AI 인프라 투자 발표로 시간외 +10%. 5/20 실적까지 모멘텀 누적, 호르무즈 교전 변수 상존.",
       "outlook": { "rating": "Strong Buy", "targetPrice": 266, "summary": "Bank of America 2027년까지 누적 FCF 400B$ 전망. 블랙웰 울트라 GB300 출하 본격화" },
       "recentNews": [
+        { "date": "2026-05-08", "headline": "NVDA, AI 데이터 인프라 스타트업 아이렌(Iren) 투자 — 시간외 +10%", "source": "Newspim/Bloomberg", "url": "https://www.newspim.com/news/view/20260508000074" },
         { "date": "2026-05-07", "headline": "Corning 2.7B$ 투자 — AI 인프라 광학소재 장기파트너십", "source": "Motley Fool", "url": "https://www.fool.com/investing/2026/05/06/stock-market-today-live-coverage/" },
-        { "date": "2026-05-06", "headline": "Corning과 AI 인프라 광학소재 협력 발표 — +5.4%", "source": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-may-6-fresh-records-231128701.html" },
         { "date": "2026-05-05", "headline": "5/20 Q1 FY27 실적 — 컨센 +79% 매출 성장", "source": "Motley Fool", "url": "https://www.fool.com/investing/2026/05/05/prediction-nvidia-stock-going-to-soar-after-may-20/" }
       ],
       "keyDates": [
@@ -64,7 +64,7 @@
       "ticker": "TSM", "name": "TSMC", "sector": "반도체",
       "price": 422.54, "change1D": 1.5, "change1W": 6.2, "change1M": 28.5, "changeYTD": 38.4,
       "beta": 1.12, "signal": "green", "note": "AMD 후광 +5.6% 신고가, 2nm CAGR 70%",
-      "todayWhy": "개장 +1.5% — AMD 분기 가이던스 +46% 후광 + 2nm CapEx $56B 가시성 그대로. 위탁생산 매출 가시성 ↑.",
+      "todayWhy": "한국·대만 동반 강세 — SK하이닉스 +1.93%로 아시아 반도체 라인 견조. 다만 5/7 미국 마감 약세로 5/8 프리마켓 변동성 ↑.",
       "outlook": { "rating": "Strong Buy", "targetPrice": 470, "summary": "AI 호황의 가장 안전한 노출. 베타 1.12로 변동성도 가장 낮음" },
       "recentNews": [
         { "date": "2026-05-06", "headline": "TSMC +5.6% 신고가 — AMD 후광·56B$ AI 확장", "source": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/05/52337222/tsmc-stock-rallies-56-billion-ai-expansion-crushes-apple-supply-chain-fears" },
@@ -93,7 +93,7 @@
       "ticker": "MU", "name": "마이크론", "sector": "반도체",
       "price": 588.70, "change1D": 1.5, "change1W": 15.6, "change1M": 53.2, "changeYTD": 96.9,
       "beta": 2.43, "signal": "yellow", "note": "$600 근접, HBM 매진 + 단기 과열",
-      "todayWhy": "개장 +1.5% — AMD 데이터센터 +57% → 메모리 동반 강세. $600 코앞.",
+      "todayWhy": "5/7 마감 후 반도체주 차익실현 흐름에 휩쓸림. 호르무즈 교전 재발 + NFP 대기로 단기 변동성 ↑.",
       "outlook": { "rating": "Buy", "targetPrice": 660, "summary": "DA Davidson PT $1,000, TD Cowen $660. 메모리 슈퍼사이클 진입" },
       "recentNews": [
         { "date": "2026-05-06", "headline": "MU $592 터치, AI HBM 매진 + 캐파 확장 6.4B$/분기", "source": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/05/04/mu-stock-marches-toward-600-on-hbm-demand-but-the-valuation-risks-start-to-bite/" },
