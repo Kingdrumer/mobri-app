@@ -1163,6 +1163,62 @@
           }
         ]
       }
+    ],
+    "2026-05-09": [
+      {
+        "type": "us_close",
+        "label": "미국 5/8 마감 + 5/9 모닝브리핑",
+        "color": "green",
+        "time": "08:00 KST",
+        "title": "S&P·나스닥 사상 최고 — NFP +115K 강세, 메모리 슈퍼사이클 폭발 (MU +14%, SNDK +16%)",
+        "description": "S&P 7,398.93(+0.84% ATH), 나스닥 26,247.08(+1.71% ATH), 다우 49,609.16(+0.02%). 4월 NFP +115K(컨센 +65K 대비 +77% 서프라이즈), 실업률 4.3% 안정. F&G 68 'Greed' 진입.",
+        "impact": "NFP가 컨센보다 두 배 가까이 강하게 나왔는데도 채권 수익률이 안정(10년 4.34%). 시장은 '경기는 식지 않으면서 너무 뜨겁지도 않은' 골디락스 구간으로 해석 → Fed 7월 인하 시나리오 살아있음. 동시에 F&G 68(Greed) 진입은 추격매수 본능 최강 구간 → 단기 차익실현도 동시 출현 가능.",
+        "ourImpact": "메모리 라인(MU +14%, SNDK +16%) 폭발. AI 인프라 라인(NVDA +1.75% IREN 파트너십, AVGO +3.86%, DELL +7.2% ATH NVDA·TotalEnergies 슈퍼컴) 동반 강세. MRVL -7.1%만 차익실현 매물. 15개 중 13개 그린. 다음 주 5/12 CPI·5/13 PPI·5/15 OpEx 트리플 이벤트로 베타 2.0+ 종목 변동성 확대 예상.",
+        "stockImpacts": [
+          {
+            "ticker": "MU",
+            "tone": "positive",
+            "magnitude": "+14.0%",
+            "text": "★ 슈퍼사이클 폭발 — 시총 $700B 돌파, 신고가 $743.79"
+          },
+          {
+            "ticker": "SNDK",
+            "tone": "positive",
+            "magnitude": "+16.5%",
+            "text": "★ 신고가 $1,561.61 — 단, YTD +507% 차익실현 위험 1순위"
+          },
+          {
+            "ticker": "DELL",
+            "tone": "positive",
+            "magnitude": "+7.2% ATH",
+            "text": "NVDA·TotalEnergies 슈퍼컴 계약, Dell World 5/18"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "positive",
+            "magnitude": "+3.86%",
+            "text": "AMD 후광 따라잡기 매수, 메타 CapEx 직접 수혜"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "positive",
+            "magnitude": "+1.75%",
+            "text": "IREN 다년 파트너십, 5/20 실적 D-11 모멘텀"
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "negative",
+            "magnitude": "-7.1%",
+            "text": "1개월 +50% 후 OpEx 앞두고 차익실현, 5/28 실적 대기"
+          },
+          {
+            "ticker": "AMZN",
+            "tone": "negative",
+            "magnitude": "-2.7%",
+            "text": "AWS Virginia 데이터센터 12시간+ 정전 — 단발성"
+          }
+        ]
+      }
     ]
   },
   "realestate": {}

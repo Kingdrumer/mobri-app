@@ -1,0 +1,122 @@
+{
+  "date": "2026-05-09",
+  "title": "5월 9일 (토) 08:00 모닝브리핑 — NFP +115K 깜짝 강세에 S&P·나스닥 사상 최고, 메모리 슈퍼사이클 폭발 (MU +14%, SNDK +16%)",
+  "session": 7,
+  "terms": [
+    { "term": "CPI (Consumer Price Index, 소비자물가지수)", "definition": "소비자가 사는 생필품·서비스 가격이 전월 대비 얼마나 올랐는지 보여주는 지표. Fed 금리 결정의 1순위 변수.", "example": "5/12(화) 21:30 KST 4월 CPI 발표 — 컨센 3.2%, 결과에 따라 6월 FOMC 인하 기대가 강화/약화" },
+    { "term": "PPI (Producer Price Index, 생산자물가지수)", "definition": "제품을 만드는 회사들이 받는 출하 가격 변동. CPI보다 한 발 앞서서 미래 소비자물가를 예측하는 선행지표.", "example": "5/13(수) 21:30 KST 4월 PPI 발표 — CPI와 함께 'Fed 인하 시점 갈림길' 주간 빅이벤트" },
+    { "term": "베타 (Beta, 시장민감도)", "definition": "특정 종목이 시장 전체보다 얼마나 더 흔들리는지 보여주는 숫자. 1.0이면 시장과 동일, 2.0이면 시장이 1% 움직일 때 그 종목은 약 2% 움직인다는 의미.", "example": "우리 포트폴리오 CRDO(3.43)·AVGO(2.44)·MU(2.43)는 시장이 1% 빠지면 2.4~3.4% 빠질 가능성" },
+    { "term": "52주 신고가 (52-Week High)", "definition": "최근 1년(약 52주) 중 가장 높았던 가격. 신고가 갱신은 보통 모멘텀 강세 신호이지만, 동시에 차익실현 압력도 커지는 가격대.", "example": "5/8 DELL $260.46 ATH(All-Time High) — TotalEnergies·NVDA 슈퍼컴 계약이 트리거" },
+    { "term": "OpEx 위크 (Options Expiration Week, 옵션만기 주간)", "definition": "매월 셋째 금요일에 주식·인덱스 옵션이 동시에 만료되는 주. 마감 전 주가 변동성이 평소보다 커지는 경향.", "example": "다음 주는 OpEx + CPI/PPI 동시 진입 → 베타 2.0+ 종목들 변동성 평소의 1.5배 가능" }
+  ],
+  "tip": "5/8 NFP +115K(컨센 +65K 대비 +77% 서프라이즈)에 S&P/나스닥 사상 최고. 동시에 F&G 68(Greed) 진입 — 추격매수 본능이 가장 강해지는 구간. '신규 비중 확대'보다 '분할 청산 + 베타 균형 점검'이 우선순위. 다음 주는 CPI(5/12)·PPI(5/13)·OpEx(5/15) 트리플 빅이벤트.",
+  "marketSummary": [
+    { "label": "다우 (5/8 마감)", "value": "49,609.16", "change": "+0.02% (+12.19p, 보합)", "trend": "neutral" },
+    { "label": "S&P 500 (5/8 마감)", "value": "7,398.93", "change": "+0.84% (★ 사상 최고)", "trend": "up" },
+    { "label": "나스닥 (5/8 마감)", "value": "26,247.08", "change": "+1.71% (★ 사상 최고)", "trend": "up" },
+    { "label": "VIX (변동성지수)", "value": "≈17", "change": "-0.3 (저변동성)", "trend": "down" },
+    { "label": "WTI (6월물)", "value": "≈$91", "change": "-3% (한 주, 호르무즈 변수에도 약세)", "trend": "down" },
+    { "label": "10년 국채", "value": "4.34%", "change": "-2bp (NFP 강세 흡수)", "trend": "down" },
+    { "label": "달러인덱스", "value": "≈98.5", "change": "+0.1%", "trend": "up" },
+    { "label": "Fear & Greed", "value": "68 (Greed)", "change": "전주 +5p — '탐욕' 진입", "trend": "up" }
+  ],
+  "economicIndicators": [
+    {
+      "name": "4월 NFP (비농업 고용지수) — 발표 완료",
+      "scheduledKST": "5/8 21:30 → 발표",
+      "consensus": "+65K",
+      "previous": "3월 +228K",
+      "result": "+115K (★ 컨센 +77% 서프라이즈, 실업률 4.3% 안정)",
+      "impact": "positive",
+      "explain": "고용 11.5만 증가 — 컨센 6.5만 대비 깜짝 강세. 의료(+37K), 운송·창고(+30K), 소매(+22K) 주도. '경기는 식지 않았는데 너무 뜨겁지도 않은' 골디락스 구간 → Fed 7월 인하 시나리오 살아있음. 시장은 'AI 투자가 실물 일자리로 연결되고 있다'는 해석으로 수용."
+    },
+    {
+      "name": "★ 4월 CPI (소비자물가지수) — 다음 주 화 빅이벤트",
+      "scheduledKST": "5/12(화) 21:30",
+      "consensus": "3.2% (전년 대비)",
+      "previous": "3월 3.4%",
+      "result": "발표 대기",
+      "impact": "neutral",
+      "explain": "다음 주 CPI·PPI·OpEx 트리플 이벤트의 1순위. 3.0% 아래로 떨어지면 6월 인하 베팅 강화, 3.5% 위로 튀면 인하 후퇴 → 빅테크 멀티플 직격."
+    }
+  ],
+  "news": [
+    {
+      "headline": "🟢 4월 NFP +115K — 컨센 +65K 대비 깜짝 서프라이즈, 'Goldilocks' 모드 확인",
+      "impact": "positive",
+      "summary": "미국 4월 비농업 고용 +115K(컨센 +65K 대비 +77% 서프라이즈), 실업률 4.3% 안정. 의료(+37K), 운송·창고(+30K), 소매(+22K) 주도.",
+      "explain": "'경기는 식지 않았는데, 너무 뜨겁지도 않은' 골디락스. Fed 입장에선 '7월 인하 가능성'을 살릴 수 있는 결과. 시장은 'AI 투자가 실물 일자리로 연결'된다는 신호로 해석. 호르무즈 군사 교전 재발에도 매수 우위.",
+      "sources": [
+        { "name": "BLS Employment Situation", "url": "https://www.bls.gov/news.release/empsit.nr0.htm" },
+        { "name": "TheStreet 5/8 마감", "url": "https://www.thestreet.com/latest-news/stock-market-today-may-8-2026-updates" }
+      ]
+    },
+    {
+      "headline": "🟢 메모리 슈퍼사이클 폭발 — MU +14% ($743.79), SNDK +16% ($1,562)",
+      "impact": "positive",
+      "summary": "마이크론 +14% 폭등 신고가 $743.79, 시총 $700B 돌파. 샌디스크 +16% 추가 상승. 한 주 단위 메모리 ETF DRAM +30%.",
+      "explain": "AI 모델이 매년 더 큰 메모리(HBM)를 요구하면서 메모리 회사들이 '돈 찍어내는 단계' 진입. 우리 포트폴리오 MU·SNDK 양쪽 다 직격 수혜. 다만 SNDK는 1년 +500% 누적 — 차익실현 위험도 1순위.",
+      "sources": [
+        { "name": "CNBC Micron $700B", "url": "https://www.cnbc.com/2026/05/05/micron-zooms-past-700-billion-market-cap-rally-in-memory-stocks-.html" },
+        { "name": "Motley Fool SanDisk Boom or Bubble", "url": "https://www.fool.com/investing/2026/05/08/boom-or-bubble-heres-where-sandisk-stock-could-be/" }
+      ]
+    },
+    {
+      "headline": "🟢 DELL ATH $260.46 (+7.2%) — NVDA·TotalEnergies 슈퍼컴 계약",
+      "impact": "positive",
+      "summary": "DELL이 NVDA와 함께 TotalEnergies와 신규 슈퍼컴퓨터 구축 계약 체결, 사상 최고가 $260.46. 5/18(월)~5/21 Dell World 2026 모멘텀 누적.",
+      "explain": "'AI 인프라 = 클라우드' 공식이 깨지고 온프레미스(자체 데이터센터) 수요가 살아나는 신호. DELL의 AI 서버 백로그 $18.4B에 신규 계약 추가 — FY27 가이던스 $50B 견조.",
+      "sources": [
+        { "name": "FinancialContent Dell Soaring", "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-5-8-why-is-dell-dell-stock-soaring-today" }
+      ]
+    },
+    {
+      "headline": "🔴 MRVL -7.1% — 50% 랠리 후 차익실현, 5/28 실적 대기",
+      "impact": "negative",
+      "summary": "마벨 -7.1% $160.01 마감, 직전 1개월 +50% 후 OpEx 앞두고 매도. 5/28 Q1 FY27 실적까지 변동성 확대 가능.",
+      "explain": "'GOOG TPU 협력 + NVDA $2B 투자' 호재에 1개월간 너무 빨리 올라, 단기 차익실현이 나오는 자연스러운 구간. 펀더멘털 훼손 아닌 'OpEx + 실적 대기' 조합.",
+      "sources": [
+        { "name": "Trefis MRVL -7.1%", "url": "https://www.trefis.com/stock/mrvl/articles/598791/marvell-technology-7-1-profit-taking-hits-after-50-rally/2026-05-08" }
+      ]
+    },
+    {
+      "headline": "🟡 미·이란 호르무즈 군사 교전 재발 — 시장은 무시, WTI 한 주 -3%",
+      "impact": "neutral",
+      "summary": "미국·이란이 호르무즈 해협 인근 군사 교전 → 단기 휴전 흔들림. 그러나 NFP 강세에 묻혀 영향 제한적. WTI 한 주 -3%.",
+      "explain": "시장은 '실제 원유 공급 차질로 이어지지 않는 한 지정학 리스크는 매수 기회'로 받아들이는 단계. 다만 다음 주 봉쇄 시도 등 발생 시 WTI $100 재돌파 + 빅테크 멀티플 압박 가능.",
+      "sources": [
+        { "name": "CNBC Oil prices today", "url": "https://www.cnbc.com/2026/05/08/oil-prices-today-wti-brent-us-iran-fire-war-hormuz-ceasefire.html" }
+      ]
+    },
+    {
+      "headline": "🟢 IREN +7.65% ($61.20) — NVDA 다년 파트너십 발표, NVDA +1.75%",
+      "impact": "positive",
+      "summary": "AI 데이터센터 스타트업 아이렌(IREN)이 NVDA와 다년 클라우드·인프라 파트너십 발표 → +7.65% 폭등. NVDA도 +1.75% $215.20 마감.",
+      "explain": "NVDA 5/20 실적까지 'NVDA 생태계 확장' 모멘텀이 누적. 우리 포트폴리오 NVDA·LITE·CLS·DELL 라인 모두 후광 수혜. 거래량 평균 187% 초과.",
+      "sources": [
+        { "name": "Yahoo IREN NVDA Partnership", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-may-8-211142137.html" },
+        { "name": "Motley Fool Why IREN Stock Jumped", "url": "https://www.fool.com/investing/2026/05/08/why-iren-stock-is-up-today/" }
+      ]
+    },
+    {
+      "headline": "🔴 AMZN -2.7% — AWS Virginia 데이터센터 12시간+ 정전",
+      "impact": "negative",
+      "summary": "AMZN -2.7% $271.17 약세. AWS 버지니아 데이터센터가 발열로 12시간+ 정전 → Coinbase·FanDuel 등 일부 고객 서비스 영향. 단발성 사고로 평가.",
+      "explain": "AWS 매출 성장세 +28% 펀더멘털엔 영향 미미. 다만 'AI 인프라 신뢰성' 단기 의문은 잔존 — AMZN 한 종목보다 AI 데이터센터 전력·냉각 테마(TLN·CLS)에 오히려 +.",
+      "sources": [
+        { "name": "Yahoo AMZN AWS outage", "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-shares-dip-aws-outage-160040423.html" }
+      ]
+    }
+  ],
+  "upcoming": [
+    { "date": "2026-05-11", "label": "4월 미국 기존주택매매, S&P Global 서비스 PMI", "type": "indicator" },
+    { "date": "2026-05-12", "label": "★ 4월 미국 CPI (소비자물가) — 21:30 KST", "type": "indicator" },
+    { "date": "2026-05-13", "label": "★ 4월 미국 PPI + Cisco(CSCO) 실적", "type": "indicator" },
+    { "date": "2026-05-14", "label": "신규 실업수당, 4월 소매판매 + Applied Materials(AMAT) 실적", "type": "earnings" },
+    { "date": "2026-05-15", "label": "★ OpEx 옵션만기일 + 파월 임기 만료 → 워시 취임", "type": "schedule" },
+    { "date": "2026-05-18", "label": "Dell World 2026 시작 (~5/21)", "type": "schedule" },
+    { "date": "2026-05-20", "label": "★★★ NVDA Q1 FY27 실적 (5월 최대 이벤트)", "type": "earnings" },
+    { "date": "2026-05-28", "label": "MRVL Q1 FY27 실적", "type": "earnings" },
+    { "date": "2026-05-29", "label": "DELL Q1 FY27 실적", "type": "earnings" }
+  ]
+}
