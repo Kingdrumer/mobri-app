@@ -68,6 +68,38 @@ function escapeHtml(str) {
   return String(str || '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
+// 긴 본문에 자동 단락 분리 — 문장 끝(. ? !) 다음 공백을 두 줄 띄움으로
+function paraBreak(text) {
+  if (!text) return text;
+  // 이미 명시적 \n\n 있으면 그대로 유지
+  if (text.includes('\n\n')) return text;
+  // 한 줄 짧은 텍스트는 그대로
+  if (text.length < 60) return text;
+  return text.replace(/([.!?]) (?=[가-힣A-Z🟢🔴🟡⚪])/g, '$1\n\n');
+}
+
+// 뉴스 헤드라인의 선두 컬러 이모지를 제거하면서 톤 자동 감지
+// 데이터에 ⚪🟢🔴🟡🟠🔵 prefix가 있으면 그걸로 impact 결정
+function parseNewsHeadline(headline, explicitImpact) {
+  if (!headline) return { headline: '', impact: explicitImpact || 'neutral' };
+  const m = headline.match(/^([🟢🔴🟡🟠⚪🔵])\s*/u);
+  if (!m) return { headline, impact: explicitImpact || 'neutral' };
+  const emojiMap = {
+    '🟢': 'positive',
+    '🔴': 'negative',
+    '🟡': 'warning',
+    '🟠': 'warning',
+    '⚪': 'neutral',
+    '🔵': 'neutral',
+  };
+  const detected = emojiMap[m[1]];
+  return {
+    headline: headline.slice(m[0].length),
+    // 명시적 impact 있으면 그쪽 우선, 없으면 이모지에서 추출
+    impact: explicitImpact || detected || 'neutral',
+  };
+}
+
 // ------------- 데이터 로드 -------------
 async function loadJSON(path) {
   try {
@@ -161,15 +193,91 @@ function mergePortfolio(local, fresh) {
   };
 }
 
-function updateLastUpdatedDisplay() {
-  const el = document.querySelector('.last-updated-text');
-  if (!el) return;
-  const ts = State.portfolio?.lastUpdated;
-  if (!ts) {
-    el.textContent = '갱신 중...';
-    return;
+// KST 기준 현재 시각 정보
+function getKSTNow() {
+  const fmt = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Asia/Seoul',
+    weekday: 'short',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false,
+  });
+  const parts = fmt.formatToParts(new Date());
+  const weekday = parts.find((p) => p.type === 'weekday').value;
+  const hour = parseInt(parts.find((p) => p.type === 'hour').value, 10);
+  const minute = parseInt(parts.find((p) => p.type === 'minute').value, 10);
+  const map = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+  return { dayOfWeek: map[weekday], hour, minute, totalMinutes: hour * 60 + minute };
+}
+
+// 시장 상태 + 다음 데이터 갱신 시점 (KST)
+// 갱신 스케줄: 평일 08:00, 22:30 KST (portfolio.json 직접 갱신)
+function getMarketStatus() {
+  const now = getKSTNow();
+  const T_0800 = 8 * 60;
+  const T_2230 = 22 * 60 + 30;
+
+  // 토(6), 일(0) — 미국 시장 휴장
+  if (now.dayOfWeek === 0 || now.dayOfWeek === 6) {
+    return {
+      isWeekend: true,
+      isMarketOpen: false,
+      tone: 'weekend',
+      label: '주말 휴장 중',
+      nextUpdate: '월요일 08:00 KST',
+    };
   }
-  el.textContent = `마지막 갱신: ${formatTimeAgo(new Date(ts))}`;
+
+  // 평일
+  let nextUpdate;
+  if (now.totalMinutes < T_0800) {
+    nextUpdate = '오늘 08:00 KST';
+  } else if (now.totalMinutes < T_2230) {
+    nextUpdate = '오늘 22:30 KST';
+  } else {
+    nextUpdate = (now.dayOfWeek === 5) ? '월요일 08:00 KST' : '내일 08:00 KST';
+  }
+
+  // 미국 정규장 시간(KST 22:30~익일 05:00)
+  const isMarketOpen = (now.totalMinutes >= T_2230) || (now.totalMinutes < 5 * 60 && now.dayOfWeek !== 1);
+
+  return {
+    isWeekend: false,
+    isMarketOpen,
+    tone: isMarketOpen ? 'live' : 'pre',
+    label: isMarketOpen ? '정규장 진행 중' : '평일 휴장 중',
+    nextUpdate,
+  };
+}
+
+function updateLastUpdatedDisplay() {
+  const els = document.querySelectorAll('.last-updated-text');
+  const bars = document.querySelectorAll('.refresh-bar');
+  if (!els.length) return;
+
+  const ts = State.portfolio?.lastUpdated;
+  const status = getMarketStatus();
+
+  // refresh-bar 톤 클래스
+  bars.forEach((b) => {
+    b.classList.remove('weekend', 'live', 'pre');
+    b.classList.add(status.tone);
+  });
+
+  let html;
+  if (!ts) {
+    html = `<span class="lu-status">갱신 중...</span>`;
+  } else {
+    const ago = formatTimeAgo(new Date(ts));
+    const stale = (Date.now() - new Date(ts).getTime()) > 24 * 60 * 60 * 1000;
+    html = `
+      <span class="lu-status">${escapeHtml(status.label)}</span>
+      <span class="lu-sep">·</span>
+      <span class="lu-ago ${stale ? 'stale' : ''}">${escapeHtml(ago)} 갱신</span>
+      <span class="lu-next">다음: ${escapeHtml(status.nextUpdate)}</span>
+    `;
+  }
+  els.forEach((el) => { el.innerHTML = html; });
 }
 
 function formatTimeAgo(date) {
@@ -502,8 +610,6 @@ function renderStockImpacts(impacts) {
     return all.some((s) => s.ticker === ticker);
   };
 
-  const toneIcon = { positive: '🟢', negative: '🔴', neutral: '⚪' };
-
   const rows = impacts.map((it) => {
     const tone = it.tone || 'neutral';
     const market = (State.portfolio.us || []).some((s) => s.ticker === it.ticker) ? 'us'
@@ -512,7 +618,6 @@ function renderStockImpacts(impacts) {
     const heldCls = market ? '' : 'not-held';
     return `
       <button class="si-row ${tone} ${heldCls}" type="button" data-ticker="${escapeHtml(it.ticker)}" ${market ? `data-market="${market}"` : ''}>
-        <span class="si-tone">${toneIcon[tone]}</span>
         <div class="si-body">
           <div class="si-head">
             <span class="si-ticker">${escapeHtml(it.ticker)}</span>
@@ -541,10 +646,9 @@ function renderEventTile(ev, idx) {
 
   return `
     <div class="etile color-${colorClass} ${hasMore ? 'has-more' : ''}" data-idx="${idx}">
-      <div class="etile-icon">${meta.icon}</div>
       <div class="etile-body">
         <div class="etile-meta">
-          <span class="etile-badge">${escapeHtml(meta.kind)}</span>
+          <span class="etile-badge">${meta.icon} ${escapeHtml(meta.kind)}</span>
           ${ev.time ? `<span class="etile-time">${escapeHtml(ev.time)}</span>` : ''}
         </div>
         <div class="etile-title">${escapeHtml(ev.label || ev.title || '')}</div>
@@ -555,13 +659,13 @@ function renderEventTile(ev, idx) {
             ${ev.impact ? `
               <div class="erow">
                 <div class="erow-label">💡 자세히</div>
-                <div class="erow-text">${escapeHtml(ev.impact)}</div>
+                <div class="erow-text">${escapeHtml(paraBreak(ev.impact))}</div>
               </div>
             ` : ''}
             ${(ev.ourImpact || stockImpactsHtml) ? `
               <div class="erow">
                 <div class="erow-label">📌 내 종목엔</div>
-                ${ev.ourImpact ? `<div class="erow-text">${escapeHtml(ev.ourImpact)}</div>` : ''}
+                ${ev.ourImpact ? `<div class="erow-text">${escapeHtml(paraBreak(ev.ourImpact))}</div>` : ''}
                 ${stockImpactsHtml}
               </div>
             ` : ''}
@@ -680,18 +784,21 @@ function renderNewsBox(report) {
   const us = rest.filter((n) => newsCountry(n) === 'us');
   const kr = rest.filter((n) => newsCountry(n) === 'kr');
 
-  const item = (n) => `
-    <div class="news-item ${n.impact || 'neutral'}">
-      <div class="ni-bar"></div>
-      <div class="ni-body">
-        <div class="ni-headline">${escapeHtml(n.headline)}</div>
-        ${n.summary ? `<div class="ni-summary">${escapeHtml(n.summary)}</div>` : ''}
-        ${(n.sources && n.sources.length) ? `
-          <div class="ni-sources">${n.sources.map((s) => escapeHtml(s.name || '')).filter(Boolean).join(' · ')}</div>
-        ` : ''}
+  const item = (n) => {
+    const parsed = parseNewsHeadline(n.headline, n.impact);
+    return `
+      <div class="news-item ${parsed.impact}">
+        <div class="ni-bar"></div>
+        <div class="ni-body">
+          <div class="ni-headline">${escapeHtml(parsed.headline)}</div>
+          ${n.summary ? `<div class="ni-summary">${escapeHtml(paraBreak(n.summary))}</div>` : ''}
+          ${(n.sources && n.sources.length) ? `
+            <div class="ni-sources">${n.sources.map((s) => escapeHtml(s.name || '')).filter(Boolean).join(' · ')}</div>
+          ` : ''}
+        </div>
       </div>
-    </div>
-  `;
+    `;
+  };
 
   const hasMore = rest.length > 0;
   const defaultTab = us.length >= kr.length ? 'us' : 'kr';
@@ -754,7 +861,10 @@ function renderPortfolioBox() {
       <div class="port-row" data-ticker="${escapeHtml(s.ticker)}" data-market="${market}">
         <span class="dot ${s.signal || 'gray'}"></span>
         <div class="pr-info">
-          <div class="pr-ticker">${escapeHtml(s.ticker)}</div>
+          <div class="pr-ticker">
+            ${escapeHtml(s.ticker)}
+            ${s.dataQualityNote ? `<span class="data-warning" title="${escapeHtml(s.dataQualityNote)}">⚠</span>` : ''}
+          </div>
           <div class="pr-name">${escapeHtml(s.name || '')}</div>
         </div>
         <div class="pr-right">
@@ -844,33 +954,137 @@ function renderPortfolioBox() {
   `;
 }
 
-// ── Box 4: 오늘의 학습 (용어 1개 헤드라인 + 나머지 펼치기) ──
-function renderTermsBox(report) {
-  if (!report?.terms?.length && !report?.tip) return '';
+// ── 주식 용어 사전 — 그날 이벤트·뉴스에서 자동 추출용 ──
+const GLOSSARY = [
+  { term: 'Fed', def: '미국 중앙은행 (Federal Reserve System)', example: '금리 결정 + 통화 정책 관리. 시장이 가장 주시하는 기관.' },
+  { term: 'FOMC', def: '미국 연방공개시장위원회 — Fed 안에서 금리를 결정하는 회의', example: '연 8회 열리며 결과가 시장을 크게 흔든다.' },
+  { term: '금리', def: '은행이 돈을 빌려줄 때 받는 이자율', example: '금리가 오르면 빚을 많이 쓰는 회사에 부담.' },
+  { term: '베타', def: '시장 평균 대비 흔들리는 정도', example: '베타 2 = 시장이 1% 빠지면 그 종목은 2% 빠질 수 있음.' },
+  { term: '컨센서스', def: '시장(분석가 평균) 예상치', example: '월가 분석가 30명의 평균 매출·EPS 예상.' },
+  { term: 'EBITDA', def: '본업으로 번 돈 (이자·세금·감가상각 차감 전 영업이익)', example: '회사 본질적인 수익성을 보는 지표.' },
+  { term: '시간외 거래', def: '미국 정규장(KST 22:30~05:00) 마감 후 추가 거래 시간', example: '실적 발표 직후 큰 변동이 자주 발생.' },
+  { term: '어닝 서프라이즈', def: '시장 예상보다 훨씬 좋은 실적', example: 'EPS·매출이 컨센서스를 큰 폭 상회.' },
+  { term: '가이던스', def: '회사가 시장에 제시하는 향후 매출·이익 예상치', example: '가이던스 상향 = 회사가 더 자신 있다는 신호.' },
+  { term: '파운드리', def: '반도체 위탁 생산 (남의 칩 설계를 받아서 만들어주는 사업)', example: 'TSMC가 대표적. 애플·NVDA·AMD 칩을 모두 생산.' },
+  { term: 'TPU', def: '구글이 자체 개발한 AI 칩', example: 'NVDA의 GPU와 경쟁하는 자리.' },
+  { term: '인터커넥트', def: '서버 사이를 잇는 고속 통신 부품', example: 'AVGO·MRVL의 핵심 사업 영역.' },
+  { term: '비둘기파', def: '금리 인하·통화 완화에 우호적인 입장', example: '비둘기파 발언 → 성장주 호재.' },
+  { term: '매파', def: '금리 인상·통화 긴축에 우호적인 입장', example: '매파 발언 → 성장주 부담.' },
+  { term: '백로그', def: '이미 수주했지만 아직 매출로 잡히지 않은 주문', example: 'GOOG 클라우드 백로그 460B$ = 향후 매출 가능성.' },
+  { term: 'PMI', def: '제조업/서비스업 경기 지수 (50 기준)', example: '50 이상 = 경기 활발, 미만 = 위축.' },
+  { term: 'ISM', def: '미국 공급관리자협회 — PMI를 발표하는 기관', example: 'ISM 제조업·ISM 서비스업 두 가지가 핵심.' },
+  { term: 'NFP', def: '미국 비농업 신규 고용 (월간 일자리 수 발표)', example: '시장이 가장 주시하는 고용 지표.' },
+  { term: 'PCE', def: 'Fed가 가장 신뢰하는 미국 물가 지표', example: '적정 수준 2%, 높을수록 인플레.' },
+  { term: 'CPI', def: '소비자물가지수 (미국 인플레 측정)', example: 'PCE보다 자주 발표되어 시장이 민감.' },
+  { term: 'VIX', def: '시장 변동성 지수 (공포 지수)', example: '20 이하 안정, 30 이상 불안.' },
+  { term: 'WTI', def: '서부텍사스산 원유 — 미국 대표 유가', example: '유가가 오르면 인플레 압력 ↑.' },
+  { term: '프리마켓', def: '미국 정규장 직전 거래 시간 (KST 17:00~22:30)', example: '실적 영향이 미리 반영되는 시간.' },
+  { term: '신고가', def: '사상 최고가 갱신', example: '강한 상승 흐름 신호.' },
+  { term: '분할매수', def: '한 번에 사지 않고 시간을 두고 나눠서 매수', example: '평균 단가를 안정적으로 만드는 전략.' },
+  { term: 'YoY', def: '전년 동기 대비 (Year over Year)', example: '매출 +57% YoY = 1년 전보다 57% 성장.' },
+  { term: 'EPS', def: '주당 순이익 (Earnings Per Share)', example: '순이익을 발행 주식 수로 나눈 값.' },
+  { term: 'CapEx', def: '설비 투자 (장비·시설에 쓰는 돈)', example: '메타 145B$ CapEx = AI 인프라에 1,450억$ 투입.' },
+  { term: '빅테크', def: '미국 대형 기술 기업 (GOOG·META·AMZN·MSFT 등)', example: 'AI·클라우드 시대 핵심 그룹.' },
+  { term: 'AI 인프라', def: 'AI 학습·서비스에 필요한 서버·전력·통신 시설', example: 'DELL·LITE·CLS·CRDO 등이 해당.' },
+  { term: 'GPU', def: '그래픽 처리 장치 — AI 학습에 핵심 부품', example: 'NVDA가 절대 강자, AMD가 경쟁 시작.' },
+  { term: 'ASIC', def: '특정 용도에 맞춤 설계된 반도체', example: 'AVGO·MRVL이 빅테크에 맞춤 칩 공급.' },
+  { term: '인플레', def: '물가 상승 (Inflation)', example: '월급 그대로인데 물건값 오르면 실질 구매력 하락.' },
+  { term: '인플레이션', def: '물가 상승 (Inflation)', example: '월급 그대로인데 물건값 오르면 실질 구매력 하락.' },
+  { term: '디플레', def: '물가 하락 (Deflation)', example: '오히려 경기 침체 신호.' },
+  { term: '컨퍼런스 콜', def: '실적 발표 후 분석가·투자자와 회사 경영진의 전화 회의', example: '추가 가이던스·정보가 여기서 나옴.' },
+  { term: '단위노동비용', def: '기업이 한 단위 생산하는 데 드는 인건비', example: '오르면 인플레 압력, 내리면 완화.' },
+  { term: '실업청구건수', def: '주간 신규 실업수당 신청 수', example: '많아지면 고용 둔화 신호.' },
+  { term: '신호등', def: 'Mobri의 종목 위험도 표시 — 🟢 안전 / 🟡 주의 / 🔴 위험', example: '베타·최근 변동성·신호를 종합해서 판단.' },
+  { term: '모멘텀', def: '주가가 한 방향으로 계속 움직이는 힘', example: '상승 모멘텀 = 추세 지속, 약화되면 조정 가능.' },
+  { term: '광통신', def: '빛으로 데이터를 전송하는 기술', example: 'LITE가 데이터센터 광통신 부품을 만듦.' },
+  { term: '클라우드', def: '인터넷으로 빌려 쓰는 컴퓨팅·저장 자원', example: 'AWS(아마존)·구글 클라우드·애저(MS) 3대 강자.' },
+];
 
-  const terms = report.terms || [];
-  const top = terms[0];
-  const rest = terms.slice(1);
-  const hasMore = rest.length > 0 || !!report.tip;
+function extractTodayTerms(events, news) {
+  const texts = [];
+  (events || []).forEach((e) => {
+    [e.label, e.title, e.description, e.impact, e.ourImpact].forEach((t) => t && texts.push(t));
+    (e.stockImpacts || []).forEach((s) => s.text && texts.push(s.text));
+  });
+  (news || []).forEach((n) => {
+    [n.headline, n.summary, n.explain].forEach((t) => t && texts.push(t));
+  });
+  const all = texts.join(' ');
+  if (!all) return [];
+
+  const found = [];
+  const seen = new Set();
+  GLOSSARY.forEach((g) => {
+    if (seen.has(g.term)) return;
+    let pattern;
+    if (/^[A-Za-z]+$/.test(g.term)) {
+      pattern = new RegExp('\\b' + g.term + '\\b', 'g');
+    } else {
+      pattern = new RegExp(g.term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
+    }
+    const count = (all.match(pattern) || []).length;
+    if (count > 0) {
+      found.push({ ...g, count });
+      seen.add(g.term);
+    }
+  });
+  return found.sort((a, b) => b.count - a.count);
+}
+
+// ── Box 1: 오늘의 학습 (그날 이벤트·뉴스에서 자동 추출, 최대 5개) ──
+const TERMS_LIMIT = 5;
+
+function renderTermsBox(report, dayEvents) {
+  const auto = extractTodayTerms(dayEvents, report?.news);
+
+  // 큐레이션된 용어는 자동 추출 결과를 보강(example을 더 풍부하게)하는 데만 사용
+  const curatedMap = new Map();
+  (report?.terms || []).forEach((t) => {
+    curatedMap.set((t.term || '').toLowerCase(), t);
+  });
+
+  // 오늘 본문에 등장한 용어만, 큐레이션이 있으면 example 보강 — 빈도순 상위 5개
+  const enriched = auto.slice(0, TERMS_LIMIT).map((t) => {
+    const c = curatedMap.get(t.term.toLowerCase());
+    return {
+      term: t.term,
+      definition: c?.definition || t.def,
+      example: c?.example || t.example,
+      count: t.count,
+    };
+  });
+
+  // 등장 용어가 0개면 큐레이션 fallback (얘도 5개로 제한)
+  const allTerms = enriched.length > 0
+    ? enriched
+    : (report?.terms || []).slice(0, TERMS_LIMIT).map((t) => ({ ...t }));
+
+  if (!allTerms.length && !report?.tip) return '';
 
   const renderTerm = (t) => `
     <div class="term-card-v2">
-      <div class="tc-term">${escapeHtml(t.term)}</div>
-      <div class="tc-def">${escapeHtml(t.definition || '')}</div>
+      <div class="tc-term">
+        <span>${escapeHtml(t.term)}</span>
+        ${t.count ? `<span class="tc-count">오늘 ${t.count}회 언급</span>` : ''}
+      </div>
+      <div class="tc-def">${escapeHtml(paraBreak(t.definition || t.def || ''))}</div>
       ${t.example ? `<div class="tc-ex">${escapeHtml(t.example)}</div>` : ''}
     </div>
   `;
 
-  const stat = terms.length ? `${terms.length}개 용어` : '';
+  const top = allTerms[0];
+  const rest = allTerms.slice(1);
+  const hasMore = rest.length > 0 || !!report?.tip;
+  const stat = allTerms.length ? `${allTerms.length}개 용어` : '';
 
   return `
     <section class="day-box ${hasMore ? 'collapsible' : ''}" data-box="terms">
       ${dbHead('📚 오늘의 학습', stat, hasMore)}
       ${top ? `
         <div class="db-headline">
-          <div class="db-headline-label">📖 오늘의 핵심 용어</div>
+          <div class="db-headline-label">📖 오늘 등장한 용어</div>
           ${renderTerm(top)}
-          ${hasMore ? moreHint(`나머지 ${rest.length}개 용어${report.tip ? ' + 팁' : ''} 보기`) : ''}
+          ${hasMore ? moreHint(`나머지 ${rest.length}개 용어${report?.tip ? ' + 팁' : ''} 보기`) : ''}
         </div>
       ` : ''}
       ${hasMore ? `
@@ -880,7 +1094,7 @@ function renderTermsBox(report) {
               ${rest.map(renderTerm).join('')}
             </div>
           ` : ''}
-          ${report.tip ? `<div class="tip-box-v2">💡 ${escapeHtml(report.tip)}</div>` : ''}
+          ${report?.tip ? `<div class="tip-box-v2">💡 ${escapeHtml(report.tip)}</div>` : ''}
         </div>
       ` : ''}
     </section>
@@ -909,10 +1123,10 @@ async function renderSelectedDayPanel() {
 
   panel.innerHTML = `
     <div class="day-panel">
+      ${renderTermsBox(report, dayEvents)}
       ${renderEventsBox(dayEvents)}
       ${renderNewsBox(report)}
       ${renderPortfolioBox()}
-      ${renderTermsBox(report)}
     </div>
   `;
 
@@ -1074,6 +1288,17 @@ function renderPortfolio(app) {
       <h1>포트폴리오</h1>
     </header>
 
+    <div class="refresh-bar">
+      <div class="last-updated">
+        <span class="live-dot"></span>
+        <span class="last-updated-text">갱신 중...</span>
+      </div>
+      <button class="refresh-btn" id="refreshBtnPort">
+        <span class="ico">↻</span>
+        <span>새로고침</span>
+      </button>
+    </div>
+
     <div class="portfolio-section">
       <h2>
         <span>🇺🇸 미국 주식 <span class="count">${State.portfolio.us.length}</span></span>
@@ -1097,6 +1322,18 @@ function renderPortfolio(app) {
 
   $('#addUsStock').addEventListener('click', () => openAddStockModal('us'));
   $('#addKrStock').addEventListener('click', () => openAddStockModal('kr'));
+
+  $('#refreshBtnPort')?.addEventListener('click', async () => {
+    const btn = $('#refreshBtnPort');
+    btn.classList.add('refreshing');
+    await refreshAllData();
+    btn.classList.remove('refreshing');
+  });
+
+  // 갱신 시간 즉시 + 1분마다
+  updateLastUpdatedDisplay();
+  if (window._timeAgoTimer) clearInterval(window._timeAgoTimer);
+  window._timeAgoTimer = setInterval(updateLastUpdatedDisplay, 60000);
 
   $$('.holding-menu-btn').forEach((btn) => {
     btn.addEventListener('click', (e) => {
@@ -1129,7 +1366,10 @@ function renderHoldings(items, market) {
         <div class="left">
           <span class="dot ${it.signal || 'gray'}"></span>
           <div class="info">
-            <div class="ticker">${escapeHtml(it.ticker)}</div>
+            <div class="ticker">
+              ${escapeHtml(it.ticker)}
+              ${it.dataQualityNote ? `<span class="data-warning" title="${escapeHtml(it.dataQualityNote)}">⚠</span>` : ''}
+            </div>
             <div class="name">${escapeHtml(it.name || '')}${it.note ? ' · ' + escapeHtml(it.note) : ''}</div>
           </div>
         </div>
@@ -1199,6 +1439,20 @@ function openStockDetail(ticker, market) {
           <canvas id="stockDetailChart" style="width: 100%; height: 100px;" role="img" aria-label="${escapeHtml(it.ticker)} 1개월 차트"></canvas>
         </div>
       </div>
+
+      ${it.dataQualityNote ? `
+        <div class="data-quality-banner">
+          <span class="dq-icon">⚠</span>
+          <div class="dq-body">
+            <div class="dq-title">데이터 정확도 경고</div>
+            <div class="dq-text">${escapeHtml(it.dataQualityNote)}</div>
+          </div>
+        </div>
+      ` : ''}
+
+      ${(it.priceSourcedFrom && it.priceSourcedFrom.length) ? `
+        <div class="price-sources">출처: ${it.priceSourcedFrom.map((s) => escapeHtml(s)).join(' · ')}</div>
+      ` : ''}
 
       ${it.simpleExplain ? `
         <div class="simple-explain">
