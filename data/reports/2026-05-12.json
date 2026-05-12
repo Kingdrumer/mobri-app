@@ -1,0 +1,96 @@
+{
+  "date": "2026-05-12",
+  "title": "5월 12일 (화) 06:00 라이트 — 미국 마감 캡처: S&P·나스닥·러셀 동반 신고가, 인텔·애플 딜 후속",
+  "summary": "5/11(월) 미국 정규장 S&P 7,412.84(+0.19%), 나스닥 26,274.13(+0.10%), 다우 49,704.47(+0.19%) — S&P·러셀 2000 신고가. SOX 12,037 52주 신고가 터치. NVDA $219.51(+2.0%) 시총 5.38조$, 인텔에 $5B 투자 효과 가시화. 인텔·애플 칩 딜 보도 후속 영향으로 TSM 단기 부담(-0.2%). 메모리 슈퍼사이클 지속 — MU +1.1%, SNDK +1.2%. 5/11 대형 빅테크 애프터아워 실적 발표 없음 (NVDA Q1은 5/20 예정). 5/12 미국 CPI 발표 대기.",
+  "generatedAt": "2026-05-12T06:00:00+09:00",
+  "type": "after-hours-light",
+  "marketSummary": {
+    "us": {
+      "sp500": {
+        "close": 7412.84,
+        "changePct": 0.19,
+        "ath": true
+      },
+      "nasdaq": {
+        "close": 26274.13,
+        "changePct": 0.1,
+        "ath": true
+      },
+      "dow": {
+        "close": 49704.47,
+        "changePct": 0.19
+      },
+      "russell2000": {
+        "changePct": 0.78,
+        "ath": true
+      },
+      "sox": {
+        "close": 12037.21,
+        "note": "52주 신고가 터치"
+      }
+    },
+    "highlights": [
+      "S&P 500 7,412.84 사상 최고 — 7,400 첫 돌파",
+      "Russell 2000 +0.78% 신고가, 소형주 회복",
+      "SOX 52주 신고가 12,037 터치",
+      "NVDA $219.51 +2.0%, 시총 5.38조$ — 인텔 50억$ 투자 효과 가시화",
+      "INTC +5% 추가 상승, 애플 파운드리 딜 효과 지속"
+    ]
+  },
+  "news": [
+    {
+      "category": "빅테크",
+      "headline": "NVDA $5B 인텔 투자 효과 가시화, 시총 5.38조$ 안착",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/11/stock-market-today-live-coverage/",
+      "impact": "NVDA 보유자에 긍정 — 인텔 파운드리에 50억$ 투자가 NVDA 칩 미국 내 제조 분산 효과로 작용"
+    },
+    {
+      "category": "반도체",
+      "headline": "인텔·애플 칩 딜 보도 추가, INTC 4번째 신고가 + AAPL 동반 강세",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/08/intel-stock-apple-chip-deal.html",
+      "impact": "TSM 단기 부담(-0.2%), 그러나 3나노 점유율 우위는 유지"
+    },
+    {
+      "category": "AI",
+      "headline": "Wedbush Ives: 빅테크 실적이 AI 강세론 검증",
+      "source": "CNBC Video",
+      "url": "https://www.cnbc.com/video/2026/05/11/big-tech-earnings-have-validated-the-ai-bulls-thesis-wedbushs-ives.html",
+      "impact": "AI 인프라 테마 보유 종목 전반(NVDA·AMD·AVGO·MU·SNDK)에 우호적 코멘트"
+    },
+    {
+      "category": "메모리",
+      "headline": "MU 시총 800B$ 첫 돌파, 메모리 슈퍼사이클 지속",
+      "source": "StockTwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/mu-avgo-mrvl-stocks-hit-52-week-highs-amid-hot-chip-rally/cZQyrfzRead",
+      "impact": "MU·SNDK 보유자에 긍정 — AI 메모리 수요·HBM 가격 강세 지속"
+    },
+    {
+      "category": "기타",
+      "headline": "디즈니 FCC 라이선스 조사 — 미디어 섹터 단기 부담",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/11/stock-market-today-live-coverage/",
+      "impact": "보유 종목 직접 영향 없음"
+    }
+  ],
+  "afterHoursEarnings": {
+    "note": "5/11(월) 4:30 PM ET 대형 빅테크 애프터아워 실적 발표 없음. NVDA Q1(분기 종료 4/26)은 5/20(수) 예정.",
+    "upcoming": [
+      {
+        "ticker": "NVDA",
+        "date": "2026-05-20",
+        "session": "after-hours"
+      }
+    ]
+  },
+  "watchlist": {
+    "nextSession": "5/12(화) 미국 CPI 21:30 KST — 인플레이션 데이터 따라 빅테크 변동성 ↑ 가능",
+    "thisWeek": [
+      "5/12(화) 미국 CPI",
+      "5/13(수) 미국 PPI",
+      "5/15(금) 미국 OpEx (트리플위칭)",
+      "5/20(수) NVDA Q1 실적 (애프터아워)"
+    ]
+  }
+}

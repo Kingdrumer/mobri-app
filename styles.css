@@ -489,6 +489,91 @@ body {
 }
 .sd-news-row .src a { color: var(--text-tertiary); text-decoration: none; margin-right: 4px; }
 
+/* === 바텀 시트 — 날짜 상세 (슬라이드 업) === */
+.day-sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 95;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.day-sheet-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.day-sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 480px;
+  margin: 0 auto;
+  height: 88vh;
+  max-height: 88vh;
+  background: var(--bg-primary);
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  transform: translateY(100%);
+  transition: transform 0.32s cubic-bezier(0.32, 0.72, 0, 1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-top: 0.5px solid var(--border-strong);
+}
+.day-sheet.open {
+  transform: translateY(0);
+}
+
+/* 드래그 핸들 영역 — 위 아래로 끌어내려서 닫기 */
+.ds-handle-area {
+  flex-shrink: 0;
+  padding: 10px 0 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: grab;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: none;
+}
+.ds-handle-area:active { cursor: grabbing; }
+
+.ds-handle {
+  width: 40px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--text-tertiary);
+  opacity: 0.6;
+}
+
+/* 시트 내부 스크롤 영역 */
+.ds-content {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: calc(20px + env(safe-area-inset-bottom, 0));
+  overscroll-behavior: contain;
+}
+
+/* 시트 상단의 날짜 라벨 (핸들 바로 아래) */
+.ds-date-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 0 16px 8px;
+  letter-spacing: -0.1px;
+}
+
+/* 시트 열린 동안 body는 스크롤 잠금 */
+body.sheet-open {
+  overflow: hidden;
+}
+
 /* === 캘린더 날짜 패널 — 앱 스타일 (Hero + Tiles + FAB) === */
 .day-panel {
   margin: 4px 16px 14px;
@@ -1056,6 +1141,22 @@ body {
   gap: 8px;
 }
 .news-list.hidden { display: none; }
+
+/* 카테고리별 뉴스 그룹 */
+.news-cat + .news-cat {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 0.5px dashed var(--border);
+}
+
+.news-cat-label {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--accent-light);
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+  padding: 0 2px;
+}
 
 .news-item {
   display: flex;

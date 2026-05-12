@@ -349,6 +349,7 @@ async function init() {
 
   setupTabs();
   render();
+  initDaySheetGestures();
   startAutoRefresh();
 }
 
@@ -431,8 +432,6 @@ function renderCalendar(app) {
       <div><span class="dot indigo"></span>실적·보고서</div>
       <div><span class="dot blue"></span>부동산 일정</div>
     </div>
-
-    <div id="selectedDayPanel"></div>
   `;
 
   $$('.toggle-option').forEach((el) => {
@@ -507,19 +506,110 @@ function renderCalendarGrid() {
   grid.innerHTML = html;
 
   $$('.cal-day', grid).forEach((el) => {
-    el.addEventListener('click', () => {
+    el.addEventListener('click', async () => {
       const date = el.dataset.date;
       if (!date) return;
       State.selectedDate = date;
       localStorage.setItem(STORAGE_KEYS.selectedDate, date);
-      // 다른 달이면 그 달로 이동
+      // 다른 달이면 그 달로 이동 후 캘린더만 다시 그림 (전체 render 안 함)
       const d = new Date(date);
       if (d.getMonth() !== State.currentMonth.getMonth() || d.getFullYear() !== State.currentMonth.getFullYear()) {
         State.currentMonth = new Date(d.getFullYear(), d.getMonth(), 1);
+        render();
+      } else {
+        // 같은 달이면 셀 강조만 다시 처리
+        $$('.cal-day', grid).forEach((c) => {
+          c.classList.toggle('selected', c.dataset.date === date && !c.classList.contains('today'));
+        });
+        // 선택 날짜 라벨 갱신
+        const monthInfo = $('.calendar-nav .month');
+        if (monthInfo) monthInfo.textContent = formatKoreanDate(date);
       }
-      render();
+      // 시트 내용 채우고 슬라이드 업
+      await renderSelectedDayPanel();
+      openDaySheet();
     });
   });
+}
+
+// 바텀 시트 열기/닫기
+function openDaySheet() {
+  const sheet = $('#daySheet');
+  const backdrop = $('#daySheetBackdrop');
+  if (!sheet) return;
+  sheet.classList.add('open');
+  backdrop?.classList.add('open');
+  document.body.classList.add('sheet-open');
+}
+
+function closeDaySheet() {
+  const sheet = $('#daySheet');
+  const backdrop = $('#daySheetBackdrop');
+  if (!sheet) return;
+  sheet.classList.remove('open');
+  backdrop?.classList.remove('open');
+  document.body.classList.remove('sheet-open');
+  // 시트 닫을 때 컨텐츠는 위로 스크롤 리셋
+  setTimeout(() => {
+    const content = $('#selectedDayPanel');
+    if (content) content.scrollTop = 0;
+  }, 300);
+}
+
+// 시트 핸들 드래그 다운으로 닫기 + 백드롭 탭으로 닫기 (한 번만 바인딩)
+let _sheetInitDone = false;
+function initDaySheetGestures() {
+  if (_sheetInitDone) return;
+  _sheetInitDone = true;
+  const sheet = $('#daySheet');
+  const handleArea = $('#dsHandleArea');
+  const backdrop = $('#daySheetBackdrop');
+  if (!sheet || !handleArea) return;
+
+  let startY = null;
+  let currentDelta = 0;
+
+  const onStart = (clientY) => {
+    startY = clientY;
+    currentDelta = 0;
+    sheet.style.transition = 'none';
+  };
+  const onMove = (clientY) => {
+    if (startY === null) return;
+    const delta = clientY - startY;
+    if (delta > 0) {
+      currentDelta = delta;
+      sheet.style.transform = `translateY(${delta}px)`;
+      if (backdrop) backdrop.style.opacity = String(Math.max(0, 1 - delta / 400));
+    }
+  };
+  const onEnd = () => {
+    if (startY === null) return;
+    sheet.style.transition = '';
+    sheet.style.transform = '';
+    if (backdrop) backdrop.style.opacity = '';
+    if (currentDelta > 100) closeDaySheet();
+    startY = null;
+    currentDelta = 0;
+  };
+
+  handleArea.addEventListener('touchstart', (e) => onStart(e.touches[0].clientY), { passive: true });
+  handleArea.addEventListener('touchmove',  (e) => onMove(e.touches[0].clientY),  { passive: true });
+  handleArea.addEventListener('touchend',   onEnd);
+  handleArea.addEventListener('mousedown', (e) => {
+    onStart(e.clientY);
+    const move = (ev) => onMove(ev.clientY);
+    const up = () => {
+      onEnd();
+      document.removeEventListener('mousemove', move);
+      document.removeEventListener('mouseup', up);
+    };
+    document.addEventListener('mousemove', move);
+    document.addEventListener('mouseup', up);
+  });
+  handleArea.addEventListener('click', () => closeDaySheet());
+
+  backdrop?.addEventListener('click', closeDaySheet);
 }
 
 function renderDay(d, muted, events) {
@@ -774,15 +864,49 @@ function renderEventsBox(dayEvents) {
   `;
 }
 
-// ── Box 2: 오늘의 핵심 뉴스 (헤드라인 1개 + 한국/미국 탭) ──
+// 뉴스 카테고리 자동 분류 (data에 category 필드 있으면 우선)
+function detectNewsCategory(n) {
+  if (n.category) return n.category;
+  const text = ((n.headline || '') + ' ' + (n.summary || '') + ' ' + (n.explain || '')).toLowerCase();
+  if (/(fed|fomc|금리|cpi|pce|pmi|nfp|연준|중앙은행|파월|워시|기준금리|통화정책|관세)/i.test(text)) return '정책·금리';
+  if (/(이란|중동|호르무즈|러시아|우크라|중국|북한|지정학|유가|wti|opec|전쟁|군사|트럼프)/i.test(text)) return '글로벌·지정학';
+  if (/(amd|nvda|nvidia|tsm|googl?|alphabet|meta|amzn|amazon|msft|aapl|apple|tsla|tesla|avgo|broadcom|micron|\bmu\b|mrvl|marvell|sndk|sandisk|dell|lite|lumentum|cls|celestica|crdo|credo|tln|talen|실적|어닝|어닝서프라이즈|분석가|컨센서스|가이던스|상향|하향)/i.test(text)) return '개별 종목';
+  if (/(코스피|kospi|nikkei|니케이|항셍|상해|섹터|industrial)/i.test(text)) return '아시아 증시';
+  if (/(s&p|sp500|나스닥|nasdaq|다우|dow|vix|러셀|미증시|월스트리트|사상최고|신고가|반도체 섹터|성장주|기술주)/i.test(text)) return '미국 증시';
+  return '기타';
+}
+
+// ── Box 2: 오늘의 핵심 뉴스 (카테고리별 그룹, 카테고리당 최대 2개) ──
 function renderNewsBox(report) {
   if (!report?.news?.length) return '';
 
   const news = report.news;
+  const LIMIT_PER_CAT = 2;
+
+  // 카테고리별 그룹핑 (각 최대 2개)
+  const grouped = {};
+  news.forEach((n) => {
+    const cat = detectNewsCategory(n);
+    grouped[cat] = grouped[cat] || [];
+    if (grouped[cat].length < LIMIT_PER_CAT) grouped[cat].push(n);
+  });
+
+  // 카테고리 표시 순서
+  const order = ['미국 증시', '아시아 증시', '개별 종목', '정책·금리', '글로벌·지정학', '기타'];
+  const cats = order.filter((k) => grouped[k]?.length);
+
+  // 헤드라인 (보통 가장 첫 항목)
   const top = news[0];
-  const rest = news.slice(1);
-  const us = rest.filter((n) => newsCountry(n) === 'us');
-  const kr = rest.filter((n) => newsCountry(n) === 'kr');
+  const topCat = detectNewsCategory(top);
+
+  // 헤드라인 제외한 나머지를 카테고리별로 다시 정리
+  const restGrouped = {};
+  cats.forEach((cat) => {
+    restGrouped[cat] = grouped[cat].filter((n) => n !== top);
+  });
+  const restCats = cats.filter((cat) => restGrouped[cat].length > 0);
+  const restCount = restCats.reduce((sum, cat) => sum + restGrouped[cat].length, 0);
+  const totalCount = cats.reduce((sum, cat) => sum + grouped[cat].length, 0);
 
   const item = (n) => {
     const parsed = parseNewsHeadline(n.headline, n.impact);
@@ -800,29 +924,24 @@ function renderNewsBox(report) {
     `;
   };
 
-  const hasMore = rest.length > 0;
-  const defaultTab = us.length >= kr.length ? 'us' : 'kr';
+  const hasMore = restCount > 0;
 
   return `
     <section class="day-box ${hasMore ? 'collapsible' : ''}" data-box="news">
-      ${dbHead('📰 오늘의 핵심 뉴스', `${news.length}건`, hasMore)}
+      ${dbHead('📰 오늘의 핵심 뉴스', `${totalCount}건 · ${cats.length}개 카테고리`, hasMore)}
       <div class="db-headline">
-        <div class="db-headline-label">📌 톱 헤드라인</div>
+        <div class="db-headline-label">&lt;${escapeHtml(topCat)}&gt; 톱 헤드라인</div>
         ${item(top)}
-        ${hasMore ? moreHint(`외 ${rest.length}건 더보기`) : ''}
+        ${hasMore ? moreHint(`외 ${restCount}건 카테고리별 보기`) : ''}
       </div>
       ${hasMore ? `
         <div class="db-content">
-          <div class="news-tabs">
-            <button class="ntab ${defaultTab === 'us' ? 'active' : ''}" data-tab="us">🇺🇸 미국 ${us.length}</button>
-            <button class="ntab ${defaultTab === 'kr' ? 'active' : ''}" data-tab="kr">🇰🇷 한국 ${kr.length}</button>
-          </div>
-          <div class="news-list ${defaultTab === 'us' ? '' : 'hidden'}" data-tab-content="us">
-            ${us.length ? us.map(item).join('') : '<div class="db-empty">미국 뉴스 없음</div>'}
-          </div>
-          <div class="news-list ${defaultTab === 'kr' ? '' : 'hidden'}" data-tab-content="kr">
-            ${kr.length ? kr.map(item).join('') : '<div class="db-empty">한국 뉴스 없음</div>'}
-          </div>
+          ${restCats.map((cat) => `
+            <div class="news-cat">
+              <div class="news-cat-label">&lt;${escapeHtml(cat)}&gt;</div>
+              <div class="news-list">${restGrouped[cat].map(item).join('')}</div>
+            </div>
+          `).join('')}
         </div>
       ` : ''}
     </section>
@@ -1101,6 +1220,13 @@ function renderTermsBox(report, dayEvents) {
   `;
 }
 
+// 시트 상단에 보일 날짜 라벨 (드래그 핸들 옆)
+function dayPanelHeader() {
+  return `
+    <div class="ds-date-label">${formatKoreanDate(State.selectedDate)}</div>
+  `;
+}
+
 async function renderSelectedDayPanel() {
   const panel = $('#selectedDayPanel');
   if (!panel) return;
@@ -1110,6 +1236,7 @@ async function renderSelectedDayPanel() {
   // ── 부동산 모드 ──
   if (State.calMode === 'realestate') {
     panel.innerHTML = `
+      ${dayPanelHeader()}
       <div class="day-panel">
         ${renderEventsBox(dayEvents)}
       </div>
@@ -1122,6 +1249,7 @@ async function renderSelectedDayPanel() {
   const report = await loadReport(State.selectedDate);
 
   panel.innerHTML = `
+    ${dayPanelHeader()}
     <div class="day-panel">
       ${renderTermsBox(report, dayEvents)}
       ${renderEventsBox(dayEvents)}
@@ -1132,7 +1260,6 @@ async function renderSelectedDayPanel() {
 
   attachBoxCollapseHandlers();
   attachEventTileHandlers();
-  attachNewsTabHandlers();
   attachPortfolioRowHandlers();
 }
 
