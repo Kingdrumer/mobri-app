@@ -877,37 +877,44 @@ function detectNewsCategory(n) {
   return '기타';
 }
 
-// ── Box 2: 오늘의 핵심 뉴스 (카테고리별 그룹, 카테고리당 최대 2개) ──
+// 뉴스 지역 분류 (kr | global)
+//  - 아시아 증시 카테고리는 기본 국내(한국 관점, 사용자 위치 기준)
+//  - 미국 증시·정책·금리는 국제
+//  - 개별 종목·글로벌·지정학은 본문에서 한국 키워드 감지하여 분류
+function detectNewsRegion(n) {
+  const cat = n.category || detectNewsCategory(n);
+  if (cat === '아시아 증시') return 'kr';
+  if (cat === '미국 증시' || cat === '정책·금리') return 'global';
+  const text = ((n.headline || '') + ' ' + (n.summary || '') + ' ' + (n.oneLineSummary || '') + ' ' + (n.ourImpact || '')).toLowerCase();
+  if (/(한국|코스피|kospi|원화|sk하이닉스|삼성전자|네이버|카카오|현대차|lg|기아|포스코|한국은행|kosdaq|코스닥)/i.test(text)) return 'kr';
+  return 'global';
+}
+
+// ── Box 2: 오늘의 핵심 뉴스 (국내/국제 탭 → 카테고리별 그룹, 카테고리당 최대 2개) ──
 function renderNewsBox(report) {
   if (!report?.news?.length) return '';
 
   const news = report.news;
   const LIMIT_PER_CAT = 2;
-
-  // 카테고리별 그룹핑 (각 최대 2개)
-  const grouped = {};
-  news.forEach((n) => {
-    const cat = detectNewsCategory(n);
-    grouped[cat] = grouped[cat] || [];
-    if (grouped[cat].length < LIMIT_PER_CAT) grouped[cat].push(n);
-  });
-
-  // 카테고리 표시 순서
   const order = ['미국 증시', '아시아 증시', '개별 종목', '정책·금리', '글로벌·지정학', '기타'];
-  const cats = order.filter((k) => grouped[k]?.length);
 
-  // 헤드라인 (보통 가장 첫 항목)
-  const top = news[0];
-  const topCat = detectNewsCategory(top);
-
-  // 헤드라인 제외한 나머지를 카테고리별로 다시 정리
-  const restGrouped = {};
-  cats.forEach((cat) => {
-    restGrouped[cat] = grouped[cat].filter((n) => n !== top);
+  // 지역별로 먼저 나누고, 그 안에서 카테고리별 그룹 (카테고리당 최대 2)
+  const regions = {
+    kr: { grouped: {}, all: [] },
+    global: { grouped: {}, all: [] },
+  };
+  news.forEach((n) => {
+    const region = detectNewsRegion(n);
+    const cat = detectNewsCategory(n);
+    regions[region].grouped[cat] = regions[region].grouped[cat] || [];
+    if (regions[region].grouped[cat].length < LIMIT_PER_CAT) {
+      regions[region].grouped[cat].push(n);
+      regions[region].all.push(n);
+    }
   });
-  const restCats = cats.filter((cat) => restGrouped[cat].length > 0);
-  const restCount = restCats.reduce((sum, cat) => sum + restGrouped[cat].length, 0);
-  const totalCount = cats.reduce((sum, cat) => sum + grouped[cat].length, 0);
+  const krCount = regions.kr.all.length;
+  const globalCount = regions.global.all.length;
+  const totalCount = krCount + globalCount;
 
   const item = (n) => {
     const parsed = parseNewsHeadline(n.headline, n.impact);
@@ -944,17 +951,26 @@ function renderNewsBox(report) {
     `;
   };
 
-  const hasMore = restCount > 0;
-
-  return `
-    <section class="day-box ${hasMore ? 'collapsible' : ''}" data-box="news">
-      ${dbHead('📰 오늘의 핵심 뉴스', `${totalCount}건 · ${cats.length}개 카테고리`, hasMore)}
+  // 각 지역 내부 렌더: 헤드라인 1개 + 나머지 카테고리별 그룹
+  const renderRegion = (regKey) => {
+    const r = regions[regKey];
+    if (!r.all.length) {
+      return `<div class="region-empty">${regKey === 'kr' ? '오늘 국내 관련 뉴스가 없어요.' : '오늘 국제 관련 뉴스가 없어요.'}</div>`;
+    }
+    const cats = order.filter((k) => r.grouped[k]?.length);
+    const top = r.all[0];
+    const topCat = detectNewsCategory(top);
+    const restGrouped = {};
+    cats.forEach((cat) => { restGrouped[cat] = r.grouped[cat].filter((n) => n !== top); });
+    const restCats = cats.filter((cat) => restGrouped[cat].length > 0);
+    const restCount = restCats.reduce((sum, cat) => sum + restGrouped[cat].length, 0);
+    return `
       <div class="db-headline">
         <div class="db-headline-label">&lt;${escapeHtml(topCat)}&gt; 톱 헤드라인</div>
         ${item(top)}
-        ${hasMore ? moreHint(`외 ${restCount}건 카테고리별 보기`) : ''}
+        ${restCount ? moreHint(`외 ${restCount}건 카테고리별 보기`) : ''}
       </div>
-      ${hasMore ? `
+      ${restCount ? `
         <div class="db-content">
           ${restCats.map((cat) => `
             <div class="news-cat">
@@ -964,6 +980,27 @@ function renderNewsBox(report) {
           `).join('')}
         </div>
       ` : ''}
+    `;
+  };
+
+  // 더보기 토글 가능 여부: 어느 한쪽 지역이라도 헤드라인 외 1건 이상 더 있으면 ON
+  const hasMore = (krCount > 1) || (globalCount > 1);
+  // 기본 활성 탭: 컨텐츠 있는 쪽 우선, 둘 다 있으면 국내 (사용자가 한국에 있음)
+  const defaultTab = krCount > 0 ? 'kr' : 'global';
+
+  return `
+    <section class="day-box ${hasMore ? 'collapsible' : ''}" data-box="news">
+      ${dbHead('📰 오늘의 핵심 뉴스', `${totalCount}건`, hasMore)}
+      <div class="news-region-tabs">
+        <button class="ntab ${defaultTab === 'kr' ? 'active' : ''}" data-tab="kr" ${krCount === 0 ? 'disabled' : ''}>🇰🇷 국내 <span class="ntab-count">${krCount}</span></button>
+        <button class="ntab ${defaultTab === 'global' ? 'active' : ''}" data-tab="global" ${globalCount === 0 ? 'disabled' : ''}>🌐 국제 <span class="ntab-count">${globalCount}</span></button>
+      </div>
+      <div data-tab-content="kr" class="news-region-pane ${defaultTab === 'kr' ? '' : 'hidden'}">
+        ${renderRegion('kr')}
+      </div>
+      <div data-tab-content="global" class="news-region-pane ${defaultTab === 'global' ? '' : 'hidden'}">
+        ${renderRegion('global')}
+      </div>
     </section>
   `;
 }
@@ -1274,6 +1311,7 @@ async function renderSelectedDayPanel() {
       ${renderTermsBox(report, dayEvents)}
       ${renderEventsBox(dayEvents)}
       ${renderNewsBox(report)}
+      ${renderSignalsBox(report)}
       ${renderPortfolioBox()}
     </div>
   `;
@@ -1281,6 +1319,7 @@ async function renderSelectedDayPanel() {
   attachBoxCollapseHandlers();
   attachEventTileHandlers();
   attachPortfolioRowHandlers();
+  attachNewsTabHandlers();
 }
 
 // 박스 헤더 / "더보기" 힌트 클릭 → 펼침/접힘 토글
@@ -1378,16 +1417,36 @@ async function openReportModal(dateStr) {
 
       ${report.news?.length ? `
         <h3>📰 오늘의 핵심 뉴스</h3>
-        ${report.news.map((n) => `
+        ${report.news.map((n) => {
+          const hasOneLine = !!(n.oneLineSummary && n.oneLineSummary.trim());
+          const hasSummary = !!(n.summary && n.summary.trim());
+          const hasOurImpact = !!(n.ourImpact && n.ourImpact.trim());
+          const showDetailToggle = hasOneLine && hasSummary && n.oneLineSummary !== n.summary;
+          return `
           <div class="news-detail ${n.impact || 'neutral'}">
-            <div class="h">${escapeHtml(n.headline)}</div>
-            <div class="s">${escapeHtml(n.summary || '')}</div>
-            <div class="e">${escapeHtml(n.explain || '')}</div>
+            ${n.category ? `<div class="cat">&lt;${escapeHtml(n.category)}&gt;</div>` : ''}
+            <div class="h">${escapeHtml(n.headline || '')}</div>
+            ${hasOneLine ? `
+              <div class="oneline">${escapeHtml(paraBreak(n.oneLineSummary))}</div>
+            ` : (hasSummary ? `
+              <div class="s">${escapeHtml(paraBreak(n.summary))}</div>
+            ` : '')}
+            ${showDetailToggle ? `
+              <details class="detail">
+                <summary>📰 자세히 보기</summary>
+                <div class="s">${escapeHtml(paraBreak(n.summary))}</div>
+              </details>
+            ` : ''}
+            ${hasOurImpact ? `
+              <div class="ourimpact"><span class="label">👉 내 종목엔</span> ${escapeHtml(paraBreak(n.ourImpact))}</div>
+            ` : ''}
+            ${n.explain ? `<div class="e">${escapeHtml(n.explain)}</div>` : ''}
             <div class="sources">
-              ${(n.sources || []).map((s) => `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">· ${escapeHtml(s.name)}</a>`).join('')}
+              ${(n.sources || []).map((s) => `<a href="${escapeHtml(s.url || '')}" target="_blank" rel="noopener">· ${escapeHtml(s.name || '')}</a>`).join('')}
             </div>
           </div>
-        `).join('')}
+          `;
+        }).join('')}
       ` : ''}
 
       ${report.upcoming?.length ? `
@@ -2049,6 +2108,195 @@ function openAddRealEstateModal(catKey) {
     closeModal();
     render();
   });
+}
+
+// ── Box 5: 🎯 오늘의 추천 (캘린더 바텀시트 내부) ──
+function renderSignalsBox(report) {
+  const signals = report?.signals;
+  if (!signals) return '';
+  const kr = signals.kr || [];
+  const us = signals.us || [];
+  const krFlow = signals.krForeignFlow;
+  if (!kr.length && !us.length) return '';
+
+  const defaultTab = kr.length ? 'kr' : 'us';
+  const totalCount = kr.length + us.length;
+
+  // 🌍 외국인 동향 패널 (국내 탭에만)
+  const renderForeignFlow = () => {
+    if (!krFlow || !krFlow.rows?.length) return '';
+    const fmtShares = (n) => {
+      const sign = n >= 0 ? '+' : '';
+      const abs = Math.abs(n);
+      if (abs >= 1000000) return `${sign}${(n / 10000).toFixed(0)}만`;
+      if (abs >= 10000) return `${sign}${(n / 10000).toFixed(1)}만`;
+      return `${sign}${n.toLocaleString()}`;
+    };
+    return `
+      <details class="fflow-panel" open>
+        <summary class="fflow-head">
+          <span class="fflow-title">🌍 외국인 5일 동향 (국내 종목)</span>
+          <span class="fflow-sub">${escapeHtml(krFlow.lookbackDays)} · ${escapeHtml(krFlow.asOf)} 기준</span>
+        </summary>
+        <div class="fflow-body">
+          <div class="fflow-table">
+            <div class="fflow-row fflow-row-header">
+              <span class="fflow-name">종목</span>
+              <span class="fflow-hold">보유율</span>
+              <span class="fflow-total">5일 합계</span>
+              <span class="fflow-trend">추세</span>
+            </div>
+            ${krFlow.rows.map((r) => `
+              <div class="fflow-row" data-tone="${r.trendTone}">
+                <span class="fflow-name">${escapeHtml(r.name)}</span>
+                <span class="fflow-hold">${r.foreignHoldRatio.toFixed(2)}%</span>
+                <span class="fflow-total ${r.netBuy5d >= 0 ? 'pos' : 'neg'}">${fmtShares(r.netBuy5d)}주</span>
+                <span class="fflow-trend">${escapeHtml(r.trend)}</span>
+              </div>
+              <div class="fflow-daily">
+                ${r.dailyNetBuy.map((d) => `
+                  <span class="fflow-day ${d.shares >= 0 ? 'pos' : 'neg'}">
+                    <span class="fflow-day-date">${escapeHtml(d.date)}</span>
+                    <span class="fflow-day-val">${fmtShares(d.shares)}</span>
+                  </span>
+                `).join('')}
+              </div>
+            `).join('')}
+          </div>
+          ${krFlow.insights?.length ? `
+            <div class="fflow-insights">
+              <div class="fflow-insights-title">📌 핵심 인사이트</div>
+              ${krFlow.insights.map((i) => `<div class="fflow-insight">• ${escapeHtml(i)}</div>`).join('')}
+            </div>
+          ` : ''}
+          ${krFlow.sources?.length ? `
+            <div class="fflow-sources">
+              출처: ${krFlow.sources.map((s) => escapeHtml(s.name)).join(' · ')}
+            </div>
+          ` : ''}
+        </div>
+      </details>
+    `;
+  };
+
+  return `
+    <section class="day-box collapsible" data-box="signals">
+      ${dbHead('🎯 오늘의 추천', `국내 ${kr.length} · 미국 ${us.length}`, true)}
+      <div class="db-headline">
+        <div class="sig-mini-note">📌 ${signalCardBrief(kr[0] || us[0])}</div>
+        ${moreHint(`외 ${totalCount - 1}건 자세히 보기`)}
+      </div>
+      <div class="db-content">
+        <div class="sig-disclaimer">정보·분석 제공이며 매수 추천이 아닙니다. 투자 판단·책임은 본인에게 있어요.</div>
+        <div class="sig-region-tabs">
+          <button class="ntab ${defaultTab === 'kr' ? 'active' : ''}" data-tab="kr-sig" ${kr.length === 0 ? 'disabled' : ''}>🇰🇷 국내 <span class="ntab-count">${kr.length}</span></button>
+          <button class="ntab ${defaultTab === 'us' ? 'active' : ''}" data-tab="us-sig" ${us.length === 0 ? 'disabled' : ''}>🇺🇸 미국 <span class="ntab-count">${us.length}</span></button>
+        </div>
+        <div data-tab-content="kr-sig" class="sig-list ${defaultTab === 'kr' ? '' : 'hidden'}">
+          ${renderForeignFlow()}
+          ${kr.map(signalCard).join('') || '<div class="region-empty">국내 추천이 없어요.</div>'}
+        </div>
+        <div data-tab-content="us-sig" class="sig-list ${defaultTab === 'us' ? '' : 'hidden'}">
+          ${us.map(signalCard).join('') || '<div class="region-empty">미국 추천이 없어요.</div>'}
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+// 카드 1줄짜리 미니 (박스 collapsed 시 헤드라인용)
+function signalCardBrief(s) {
+  if (!s) return '';
+  const ticker = escapeHtml(s.ticker || '');
+  const name = escapeHtml(s.name || '');
+  const cat = escapeHtml(s.category || '주목');
+  return `<strong>${ticker} ${name}</strong> · <span class="sig-mini-cat">${cat}</span>`;
+}
+
+// 시그널 카드 한 장 — 간략 모드 default, 클릭하면 4-블록 펼침
+function signalCard(s) {
+  const catColor = {
+    '관련주': 'rel',
+    '성장주': 'growth',
+    '이슈주': 'issue',
+    '실적기대': 'earn',
+  }[s.category] || 'neutral';
+
+  const priceStr = s.currentPrice != null
+    ? (typeof s.currentPrice === 'number'
+        ? (s.market && /KOSPI|KOSDAQ/i.test(s.market) ? s.currentPrice.toLocaleString() + '원' : '$' + s.currentPrice.toLocaleString())
+        : String(s.currentPrice))
+    : '';
+  const changeStr = (s.change1D != null)
+    ? `<span class="sig-change ${s.change1D >= 0 ? 'pos' : 'neg'}">${pct(s.change1D)}</span>`
+    : '';
+
+  const hasDetail = s.financials || s.comparable || s.risk || s.horizon || s.outlook || s.outlookEasy || s.company;
+
+  return `
+    <div class="sig-card cat-${catColor}" data-sig-card>
+      <div class="sig-card-top">
+        <div class="sig-id">
+          <span class="sig-cat-badge cat-${catColor}">${escapeHtml(s.category || '주목')}</span>
+          <div class="sig-name-row">
+            <span class="sig-ticker">${escapeHtml(s.ticker || '')}</span>
+            <span class="sig-name">${escapeHtml(s.name || '')}</span>
+          </div>
+        </div>
+        <div class="sig-meta">
+          ${s.market ? `<span class="sig-market">${escapeHtml(s.market)}</span>` : ''}
+          ${priceStr ? `<span class="sig-price">${escapeHtml(priceStr)}</span>` : ''}
+          ${changeStr}
+        </div>
+      </div>
+      ${s.thesis ? `<div class="sig-thesis">${escapeHtml(paraBreak(s.thesis))}</div>` : ''}
+      ${hasDetail ? `
+        <details class="sig-detail">
+          <summary><span class="sig-detail-label">📋 자세히 보기</span></summary>
+          <div class="sig-blocks">
+            ${s.company ? `
+              <div class="sig-block sig-block-company">
+                <span class="sig-block-lbl">🏢 회사 정보</span>
+                <div class="sig-block-val">
+                  ${s.company.business ? `<div class="sig-co-row"><span class="sig-co-lbl">사업</span><span class="sig-co-val">${escapeHtml(s.company.business)}</span></div>` : ''}
+                  ${s.company.ceo ? `<div class="sig-co-row"><span class="sig-co-lbl">대표</span><span class="sig-co-val">${escapeHtml(s.company.ceo)}</span></div>` : ''}
+                  ${s.company.hq ? `<div class="sig-co-row"><span class="sig-co-lbl">본사</span><span class="sig-co-val">${escapeHtml(s.company.hq)}</span></div>` : ''}
+                  ${s.company.employees ? `<div class="sig-co-row"><span class="sig-co-lbl">직원</span><span class="sig-co-val">${escapeHtml(s.company.employees)}</span></div>` : ''}
+                  ${s.company.homepage ? `<div class="sig-co-row"><span class="sig-co-lbl">홈페이지</span><span class="sig-co-val"><a href="${escapeHtml(s.company.homepage)}" target="_blank" rel="noopener">${escapeHtml(s.company.homepage)}</a></span></div>` : ''}
+                  ${s.company.ceoSource ? `<div class="sig-co-source">출처: ${escapeHtml(s.company.ceoSource)}</div>` : ''}
+                </div>
+              </div>
+            ` : ''}
+            ${s.financials ? `<div class="sig-block"><span class="sig-block-lbl">💰 재무</span><span class="sig-block-val">${escapeHtml(s.financials)}</span></div>` : ''}
+            ${s.comparable ? `<div class="sig-block"><span class="sig-block-lbl">📊 과거 사례</span><span class="sig-block-val">${escapeHtml(s.comparable)}</span></div>` : ''}
+            ${(s.outlookEasy || s.outlook) ? `
+              <div class="sig-block sig-block-outlook">
+                <span class="sig-block-lbl">🔮 앞으로 전망</span>
+                <div class="sig-block-val">
+                  ${s.outlookEasy ? `<div class="sig-outlook-easy">💬 ${escapeHtml(paraBreak(s.outlookEasy))}</div>` : ''}
+                  ${s.outlook ? `
+                    <details class="sig-outlook-detail">
+                      <summary>📊 분석가·숫자로 자세히 보기</summary>
+                      <div class="sig-outlook-tech">${escapeHtml(paraBreak(s.outlook))}</div>
+                    </details>
+                  ` : ''}
+                </div>
+              </div>
+            ` : ''}
+            ${s.risk ? `<div class="sig-block"><span class="sig-block-lbl">⚠️ 리스크</span><span class="sig-block-val">${escapeHtml(s.risk)}</span></div>` : ''}
+            ${s.horizon ? `<div class="sig-block"><span class="sig-block-lbl">⏱️ 예상 기간</span><span class="sig-block-val">${escapeHtml(s.horizon)}</span></div>` : ''}
+          </div>
+          ${(s.sources && s.sources.length) ? `
+            <div class="sig-sources">
+              ${s.sources.map((src) => src.url
+                ? `<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">${escapeHtml(src.name || '출처')}</a>`
+                : `<span>${escapeHtml(src.name || '')}</span>`).join(' · ')}
+            </div>
+          ` : ''}
+        </details>
+      ` : ''}
+    </div>
+  `;
 }
 
 // ------------- 아카이브 탭 -------------
