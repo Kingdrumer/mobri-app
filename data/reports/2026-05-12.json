@@ -82,52 +82,78 @@
       "headline": "🟢 [동시 ATH] S&P 500·나스닥·다우 5/11 모두 사상 최고가 마감",
       "summary": "5월 11일(월) 뉴욕 3대 지수가 모두 사상 최고가로 마감했으며, S&P 500은 7,412.84(+0.19%), 나스닥은 26,274.13(+0.10%), 다우는 49,704.47(+0.19%)로 트럼프의 이란 강경 발언과 유가 급등이라는 부담에도 반도체·인텔·애플 합작 모멘텀이 시장을 지지하면서 사상 처음으로 3대 지수 동시 ATH 마감을 기록했습니다.",
       "impact": "positive",
-      "ourImpact": "보유 15개 중 NVDA·MU·MRVL·CRDO·AMD가 인덱스 ATH에 가세, 베타(시장 평균 대비 흔들리는 정도) 2.0+ 종목들이 단기 추가 모멘텀 확보. 단 CPI(소비자물가지수) 결과에 따라 빠른 반전 가능.",
+      "ourImpact": "보유 종목 대부분 분위기 좋음. 다만 오늘 21:30 미국 물가 발표(CPI) 결과에 따라 분위기가 바뀔 수 있어요.",
       "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/05/10/stock-market-today-live-updates.html"},
-        {"name": "TheStreet", "url": "https://www.thestreet.com/latest-news/stock-market-today-may-11-2026-updates"}
-      ]
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/05/10/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "TheStreet",
+          "url": "https://www.thestreet.com/latest-news/stock-market-today-may-11-2026-updates"
+        }
+      ],
+      "oneLineSummary": "어제 미국 3대 지수(S&P·나스닥·다우)가 다 같이 역대 최고가로 마감했어요. 처음 있는 일이에요."
     },
     {
       "category": "미국 증시",
       "headline": "🟡 [반도체 주도, 에너지·유틸리티 부담] WTI $97.89 +2.59%, 10년물 4.41% +5bp",
       "summary": "인텔(+5.7%)·마이크론·엔비디아 등 반도체 종목이 인덱스를 끌어올린 반면 트럼프의 이란 휴전 거부로 WTI(서부 텍사스산 원유) 가격이 2.59% 오른 $97.89, 브렌트유는 $104를 넘어서며 미 10년 국채 금리가 4.41%까지 오르며 채권은 약세를 보였습니다.",
       "impact": "neutral",
-      "ourImpact": "TLN(원전·천연가스) 단기 변동성, NVDA·AMD·MU 등 반도체는 강세 지속. 빅테크는 차익실현 압력.",
+      "ourImpact": "반도체 보유 종목(NVDA·AMD·MU)은 분위기 좋고, 전력 종목 TLN은 변동 클 수 있어요. 빅테크는 차익 매물 주의.",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap"}
-      ]
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap"
+        }
+      ],
+      "oneLineSummary": "어제 반도체는 강세였지만, 유가가 +2.6% 오르고 국채 금리도 살짝 올랐어요."
     },
     {
       "category": "아시아 증시",
       "headline": "🟢 [KOSPI 5/12 +1.68% 7,953.41 — 8,000선 임박]",
       "summary": "한국 코스피가 화요일 개장과 동시에 7,953.41까지 +1.68%(+131.17p) 급등하며 사상 처음으로 7,900선을 돌파, 7거래일 연속 ATH 행진을 이어갔으며 5/11 +4.32%·시총 7,000조 첫 돌파에 이어 SK하이닉스·삼성전자가 미국 메모리 ATH(MU+6.35%)에 동조해 8,000선 돌파를 노립니다.",
       "impact": "positive",
-      "ourImpact": "한국 반도체 강세는 우리 미국 반도체 보유(NVDA·MU·SNDK·MRVL)와 동조 — 야간 ES/NQ 선물 추가 강세 지지 가능. 단 7거래일 연속 ATH로 추격매수 부담은 누적.",
+      "ourImpact": "한국 반도체(SK하이닉스·삼성) 강세는 미국 반도체 보유 종목(NVDA·MU·SNDK·MRVL)에도 좋은 신호예요.",
       "sources": [
-        {"name": "Korea Times", "url": "https://www.koreatimes.co.kr/economy/20260512/kospi-opens-again-at-fresh-high-of-above-7900-on-extended-chip-rally-amid-iran-deadlock"},
-        {"name": "Korea Herald", "url": "https://www.koreaherald.com/article/10735744"}
-      ]
+        {
+          "name": "Korea Times",
+          "url": "https://www.koreatimes.co.kr/economy/20260512/kospi-opens-again-at-fresh-high-of-above-7900-on-extended-chip-rally-amid-iran-deadlock"
+        },
+        {
+          "name": "Korea Herald",
+          "url": "https://www.koreaherald.com/article/10735744"
+        }
+      ],
+      "oneLineSummary": "오늘 한국 코스피가 +1.68%로 7,953을 찍었어요. 8,000선 코앞이에요."
     },
     {
       "category": "아시아 증시",
       "headline": "🟢 [니케이·항셍 강보합] 미국 ATH 호조 + 트럼프 베이징 방중 기대 동조",
       "summary": "일본 니케이225가 5/12 +0.20%, 토픽스 +0.54%로 견조하게 출발했고 홍콩 항셍지수 선물도 26,421로 직전 종가(26,406.84) 위에서 거래되며 미국 신고가 흐름과 트럼프 5/14 베이징 방중 기대로 아시아 전반이 위험선호 분위기를 이어갔습니다.",
       "impact": "positive",
-      "ourImpact": "아시아 위험선호 분위기는 미국 정규장 갭에 우호적. 단 트럼프 베이징 방중은 미·중 양국 빅테크에 양방향 변동성 가능.",
+      "ourImpact": "아시아 분위기 좋아서 오늘 밤 미국 정규장 개장도 우호적일 가능성. 단, 미·중 빅테크는 양방향 변동 가능.",
       "sources": [
-        {"name": "CNBC Asia", "url": "https://www.cnbc.com/2026/05/12/asia-markets-today-live-updates-kospi-hang-seng-index-nikkei-225-sensex-csi-300.html"}
-      ]
+        {
+          "name": "CNBC Asia",
+          "url": "https://www.cnbc.com/2026/05/12/asia-markets-today-live-updates-kospi-hang-seng-index-nikkei-225-sensex-csi-300.html"
+        }
+      ],
+      "oneLineSummary": "일본·홍콩 시장도 오늘 살짝 상승. 트럼프 5/14 베이징 방문 기대감도 한몫했어요."
     },
     {
       "category": "개별 종목",
       "headline": "🟢 [CRDO +11.52% $210.22 폭등] AI 옵틱스 모멘텀 재점화 + 6/4 실적 옵션 베팅",
       "summary": "보유 중인 크레도 테크놀로지(CRDO)가 5/11 +11.52% $210.22로 마감, 인텐시티 베타 3.43(시장이 1% 빠지면 약 3.4% 빠지는 변동성)답게 최근 AI 광통신(차세대 데이터센터에서 GPU 사이를 광케이블로 잇는 기술) 수요 급증과 다음 주 6/4 실적 콜 옵션 베팅에 힘입어 폭등했으며, 4월에 발표한 DustPhotonics 7.5억$ 인수가 실리콘 포토닉스 수직통합 기대를 자극했습니다.",
       "impact": "positive",
-      "ourImpact": "CRDO 단독 폭등 — 같은 옵틱스 섹터의 LITE/CLS는 동반 매도된 상황에서 차별화. 6/4 실적까지 OpEx 변동성 큼.",
+      "ourImpact": "CRDO 단독 강세 — 같은 광케이블 분야인 LITE·CLS는 어제 떨어졌어요. 6/4 실적 발표 전까지 변동성 클 수 있어요.",
       "sources": [
-        {"name": "QuiverQuant", "url": "https://www.quiverquant.com/news/Credo+Technology+jumps+as+bullish+options+flow+and+AI+networking+optimism+build+ahead+of+next+earnings"}
-      ]
+        {
+          "name": "QuiverQuant",
+          "url": "https://www.quiverquant.com/news/Credo+Technology+jumps+as+bullish+options+flow+and+AI+networking+optimism+build+ahead+of+next+earnings"
+        }
+      ],
+      "oneLineSummary": "보유 종목 CRDO(크레도)가 어제 +11.5% 크게 올랐어요. AI 데이터센터용 광케이블 칩 만드는 회사예요."
     },
     {
       "category": "개별 종목",
@@ -136,8 +162,14 @@
       "impact": "negative",
       "ourImpact": "펀더멘털 의구심이 아닌 '가치 평가 부담' — 5/18 Dell World·5/29 실적까지 단기 변동성 확대. AI 서버 백로그 18.4B$는 그대로.",
       "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/05/11/dell-has-been-on-fire-this-year-why-ubs-is-downgrading-the-pc-maker.html"},
-        {"name": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/ubs-downgrades-dell-stock-price-target-ahead-of-earnings"}
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/05/11/dell-has-been-on-fire-this-year-why-ubs-is-downgrading-the-pc-maker.html"
+        },
+        {
+          "name": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/ubs-downgrades-dell-stock-price-target-ahead-of-earnings"
+        }
       ]
     },
     {
@@ -145,44 +177,72 @@
       "headline": "🟡 [4월 CPI 21:30 KST 발표] 컨센 헤드라인 3.7%·코어 2.7% — 이번 주 최대 트리거",
       "summary": "오늘 미국 노동통계국이 4월 소비자물가지수(CPI, 한 달간 물가 변동을 보여주는 지표)를 발표하며 시장 평균 예상은 헤드라인 3.7%·코어 2.7%로, 중동발 유가 상승이 본격 반영되는 시기라 컨센보다 높게 나오면 Fed의 2026년 금리 인하 기대가 더 멀어지면서 빚을 많이 쓰는 성장주에 단기 부담으로 작용할 가능성이 큽니다.",
       "impact": "negative",
-      "ourImpact": "컨센 상회 시 베타 2.0+ 종목 (CRDO 3.43 / MU 2.43 / AVGO 2.44 / SNDK 2.41 / CLS 2.42 / LITE 2.38 / MRVL 2.34) 변동성 1.3~1.5배 확대 가능.",
+      "ourImpact": "예상보다 높으면 금리 인하 시점이 늦춰져서 반도체·빅테크 같은 변동 큰 종목에 단기 부담될 수 있어요.",
       "sources": [
-        {"name": "Kiplinger", "url": "https://www.kiplinger.com/investing/economy/cpi-report-april-2026-what-to-expect"},
-        {"name": "FactSet Insight", "url": "https://insight.factset.com/consumer-price-index-cpi-for-april-2026-is-projected-to-rise-3.7-year-over-year?hs_amp=true"}
-      ]
+        {
+          "name": "Kiplinger",
+          "url": "https://www.kiplinger.com/investing/economy/cpi-report-april-2026-what-to-expect"
+        },
+        {
+          "name": "FactSet Insight",
+          "url": "https://insight.factset.com/consumer-price-index-cpi-for-april-2026-is-projected-to-rise-3.7-year-over-year?hs_amp=true"
+        }
+      ],
+      "oneLineSummary": "오늘 밤 21:30에 미국 4월 물가(CPI) 발표돼요. 예상보다 높게 나오면 시장이 흔들릴 수 있어요."
     },
     {
       "category": "정책·금리",
       "headline": "🟢 [워시 Fed 의장 표결 임박] 5/11 종결투표 49–44 통과 — 5/15 취임 유력",
       "summary": "트럼프가 지명한 케빈 워시 차기 Fed 의장이 5/11 종결투표(클로처, 본회의 토론 종결)를 49–44로 통과하며 오늘(화) Fed 이사 14년 임기 인준 → 내일(수) 의장 4년 임기 인준이 예상되고, 워시는 'AI 생산성 향상으로 금리 인하 여지가 있다'는 비둘기파(금리 인하 우호)로 평가받기에 통과 확정 시 성장주에 호재로 작용할 전망입니다.",
       "impact": "positive",
-      "ourImpact": "통과 확정 시 AI 성장주(NVDA·AMD·CRDO·AVGO) 우호적 환경 확정. 단 첫 발언이 더 중요.",
+      "ourImpact": "워시는 금리 인하에 우호적이라 빅테크·성장주에 장기적으론 좋아요. 단기엔 시장 반응 지켜봐야 해요.",
       "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/04/29/trump-fed-nominee-kevin-warsh-senate-approval.html"},
-        {"name": "The Hill", "url": "https://thehill.com/homenews/senate/5873160-warsh-federal-reserve/"}
-      ]
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/04/29/trump-fed-nominee-kevin-warsh-senate-approval.html"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/homenews/senate/5873160-warsh-federal-reserve/"
+        }
+      ],
+      "oneLineSummary": "트럼프가 지명한 워시가 새 Fed(미국 중앙은행) 의장으로 5/15 취임 유력해요."
     },
     {
       "category": "글로벌·지정학",
       "headline": "🔴 [트럼프 '이란 답변 쓰레기'] 휴전 '생명유지장치 위' — WTI $98 임박",
       "summary": "트럼프 대통령이 5/11 '이란의 답변은 1% 생존 확률의 환자처럼 휴전이 생명유지장치 위에 있다'며 14개 항목 협상안을 거부하고 호르무즈 해협의 봉쇄가 더 길어질 것으로 보이자 WTI 유가는 +2.59% $97.89, 브렌트는 $100을 넘어서며 인플레와 안전자산 수요를 동시에 자극했습니다.",
       "impact": "negative",
-      "ourImpact": "TLN(원전) 단기 변동성, 빅테크 단기 부담. CPI 컨센 상회 가능성도 함께 자극 — 이중 부담.",
+      "ourImpact": "유가 상승은 에너지 종목엔 호재지만, 인플레 우려로 빅테크·반도체엔 단기 부담.",
       "sources": [
-        {"name": "CNN", "url": "https://www.cnn.com/2026/05/11/world/live-news/iran-war-proposal-trump"},
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/05/11/trump-iran-war-ceasefire-life-support.html"}
-      ]
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/05/11/world/live-news/iran-war-proposal-trump"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/05/11/trump-iran-war-ceasefire-life-support.html"
+        }
+      ],
+      "oneLineSummary": "트럼프가 이란 휴전 답변을 비판했고, 유가가 배럴당 $98 가까이 올랐어요."
     },
     {
       "category": "글로벌·지정학",
       "headline": "🟡 [트럼프 5/14~15 베이징 국빈 방문] 시진핑 회담 — 보잉·마스터카드 CEO 동행",
       "summary": "트럼프 대통령과 멜라니아 여사의 5/14~15 중국 베이징 국빈 방문이 확정됐고 시진핑과의 정상회담에서 무역·반도체·희토류·대만·이란 전쟁·AI까지 광범위한 의제가 다뤄지며 트럼프는 시진핑에게 이란을 압박하도록 설득할 계획이라 보잉·마스터카드 등 미국 CEO 대표단도 동행, 단기 미·중 긴장 완화 가능성이 시장에 호재로 작용할 전망입니다.",
       "impact": "positive",
-      "ourImpact": "중국 노출 빅테크(GOOG·META·AMZN) 단기 변동성. AI 칩 수출 규제 완화 가능성은 NVDA·AMD·AVGO 모두 호재.",
+      "ourImpact": "결과에 따라 TSM(대만)·AMD·NVDA 등 중국 수출 관련 종목 변동 가능. 결과 나올 때까지 지켜봐야 해요.",
       "sources": [
-        {"name": "CSIS", "url": "https://www.csis.org/analysis/trump-xi-summit-beijing-managing-worlds-most-important-relationship"},
-        {"name": "SCMP", "url": "https://www.scmp.com/news/china/diplomacy/article/3353075/china-confirms-dates-donald-trumps-state-visit-beijing"}
-      ]
+        {
+          "name": "CSIS",
+          "url": "https://www.csis.org/analysis/trump-xi-summit-beijing-managing-worlds-most-important-relationship"
+        },
+        {
+          "name": "SCMP",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3353075/china-confirms-dates-donald-trumps-state-visit-beijing"
+        }
+      ],
+      "oneLineSummary": "트럼프가 5/14~15 베이징 방문해서 시진핑 만나요. 미·중 무역 분위기 변할 가능성."
     }
   ],
   "preview": {

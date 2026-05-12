@@ -1190,11 +1190,60 @@ body.sheet-open {
   letter-spacing: -0.1px;
 }
 
+.ni-oneline {
+  font-size: 13.5px;
+  color: var(--text-primary);
+  line-height: 1.65;
+  margin-bottom: 8px;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+}
+
 .ni-summary {
   font-size: 12.5px;
   color: var(--text-secondary);
   line-height: 1.65;
   margin-bottom: 6px;
+}
+
+.ni-detail {
+  margin-bottom: 8px;
+}
+.ni-detail > summary {
+  font-size: 11.5px;
+  color: var(--accent, #8b5cf6);
+  cursor: pointer;
+  padding: 4px 0;
+  list-style: none;
+  user-select: none;
+}
+.ni-detail > summary::-webkit-details-marker { display: none; }
+.ni-detail[open] > summary {
+  margin-bottom: 4px;
+  opacity: 0.7;
+}
+.ni-detail .ni-summary {
+  padding: 8px 10px;
+  background: rgba(255,255,255,0.03);
+  border-left: 2px solid var(--border-soft, rgba(255,255,255,0.1));
+  border-radius: 4px;
+  margin-bottom: 0;
+}
+
+.ni-ourimpact {
+  font-size: 12.5px;
+  color: var(--text-primary);
+  line-height: 1.6;
+  margin-bottom: 6px;
+  padding: 6px 10px;
+  background: rgba(99, 102, 241, 0.08);
+  border-left: 2px solid rgba(99, 102, 241, 0.5);
+  border-radius: 4px;
+}
+.ni-ourimpact .ni-label {
+  font-weight: 600;
+  color: var(--accent, #8b5cf6);
+  margin-right: 4px;
 }
 
 .ni-sources {

@@ -359,6 +359,7 @@ function setupTabs() {
     btn.addEventListener('click', () => {
       State.tab = btn.dataset.tab;
       $$('.tab-btn').forEach((b) => b.classList.toggle('active', b === btn));
+      closeDaySheet();   // 바텀시트가 열려 있으면 닫고 탭 전환
       render();
       window.scrollTo(0, 0);
     });
@@ -910,12 +911,31 @@ function renderNewsBox(report) {
 
   const item = (n) => {
     const parsed = parseNewsHeadline(n.headline, n.impact);
+    // 새 구조: oneLineSummary(한 줄로) → summary(자세히, 토글) → ourImpact(내 종목엔)
+    // 하위호환: oneLineSummary 없으면 summary를 그대로 표시 (옛 보고서)
+    const hasOneLine = !!(n.oneLineSummary && n.oneLineSummary.trim());
+    const hasSummary = !!(n.summary && n.summary.trim());
+    const hasOurImpact = !!(n.ourImpact && n.ourImpact.trim());
+    const showDetailToggle = hasOneLine && hasSummary && n.oneLineSummary !== n.summary;
     return `
       <div class="news-item ${parsed.impact}">
         <div class="ni-bar"></div>
         <div class="ni-body">
           <div class="ni-headline">${escapeHtml(parsed.headline)}</div>
-          ${n.summary ? `<div class="ni-summary">${escapeHtml(paraBreak(n.summary))}</div>` : ''}
+          ${hasOneLine ? `
+            <div class="ni-oneline">${escapeHtml(paraBreak(n.oneLineSummary))}</div>
+          ` : (hasSummary ? `
+            <div class="ni-summary">${escapeHtml(paraBreak(n.summary))}</div>
+          ` : '')}
+          ${showDetailToggle ? `
+            <details class="ni-detail">
+              <summary>📰 자세히 보기</summary>
+              <div class="ni-summary">${escapeHtml(paraBreak(n.summary))}</div>
+            </details>
+          ` : ''}
+          ${hasOurImpact ? `
+            <div class="ni-ourimpact"><span class="ni-label">👉 내 종목엔</span> ${escapeHtml(paraBreak(n.ourImpact))}</div>
+          ` : ''}
           ${(n.sources && n.sources.length) ? `
             <div class="ni-sources">${n.sources.map((s) => escapeHtml(s.name || '')).filter(Boolean).join(' · ')}</div>
           ` : ''}
