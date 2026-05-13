@@ -59,7 +59,16 @@
         "CNBC",
         "Yahoo"
       ],
-      "dataQualityNote": null
+      "dataQualityNote": null,
+      "company": {
+        "ceo": "Sundar Pichai",
+        "business": "알파벳은 지주 회사다. 사업 부문은 Google Services, Google Cloud 및 Other Bets 등이다. Google Services 부문은 광고, Android, Chrome, 장치, Google Maps, Google Play, Search, YouTube 등의 제품 및 서비스를 제공한다. Google Cloud 부문은 기업 고객을 위한",
+        "hq": "MOUNTAIN VIEW, CA",
+        "employees": "194668명 (2026-03-31 기준)",
+        "homepage": "https://abc.xyz/",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $395.00로 지금 가격($386.77) 근처에 거의 도달했어요(+2%). 추가 상승 여력은 제한적. 추천 등급은 매수 (4.35)예요. 분석가별 의견은 $185.00~$450.00 범위에 있어요."
     },
     {
       "ticker": "META",
@@ -114,7 +123,16 @@
         "CNBC",
         "Yahoo"
       ],
-      "dataQualityNote": null
+      "dataQualityNote": null,
+      "company": {
+        "ceo": "Mark Zuckerberg",
+        "business": "이 회사는 사람들이 연결하고 공유하고, 커뮤니티를 찾고, 비즈니스를 성장시키는 데 도움이 되는 기술을 개발한다. 이 회사의 제품은 사람들이 모바일 장치, 개인용 컴퓨터, 가상현실(VR) 및 혼합현실(MR) 헤드셋, 웨어러블을 통해 친구 및 가족과 연결하고 공유할 수 있도록 지원한다. 이 회사는 2개의 부문인 Family of Apps(FoA)와 Realit",
+        "hq": "MENLO PARK, CA",
+        "employees": "77986명 (2026-03-31 기준)",
+        "homepage": "https://www.meta.com/",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $825.72로 지금 가격($603.84)에서 +37% 더 오를 여력이 크다고 봐요. 추천 등급은 매수 (4.18)예요. 분석가별 의견은 $614.00~$1,015.00 범위에 있어요."
     },
     {
       "ticker": "AMZN",
@@ -174,7 +192,16 @@
         "CNBC",
         "TheStreet"
       ],
-      "dataQualityNote": null
+      "dataQualityNote": null,
+      "company": {
+        "ceo": "Jeffrey P. Bezos",
+        "business": "아마존닷컴은 고객에게 다양한 제품과 서비스를 제공한다. 스토어를 통해 제공되는 제품에는 재판매를 위해 구매한 상품 및 콘텐츠와 타사 판매자가 제공하는 제품이 포함된다. 사업 부문은 북미, 국제, 아마존 웹 서비스(AWS)로 나뉜다. 온라인 및 오프라인 스토어를 통해 소비자에게 서비스를 제공하며 선택, 가격, 편의성에 중점을 둔다. 고객은 웹사이트, 모바일",
+        "hq": "SEATTLE, WA",
+        "employees": "1575000명 (2026-03-31 기준)",
+        "homepage": "https://www.amazon.com/",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $306.15로 지금 가격($269.00)에서 +14% 더 오를 여력이 있어요. 추천 등급은 매수 (4.21)예요. 분석가별 의견은 $207.00~$370.00 범위에 있어요."
     },
     {
       "ticker": "NVDA",
@@ -240,7 +267,16 @@
         "CNBC",
         "Motley Fool"
       ],
-      "dataQualityNote": null
+      "dataQualityNote": null,
+      "company": {
+        "ceo": "Jen-Hsun Huang",
+        "business": "이 회사는 인공지능(AI) 인프라 업체로 고난도 연산 문제 해결을 지원하기 위한 가속 컴퓨팅 사업을 영위한다. 사업부문은 Compute & Networking 부문과 Graphics 부문으로 구성된다. Compute & Networking 부문에는 데이터센터용 가속 컴퓨팅 및 네트워킹 플랫폼, AI 솔루션 및 소프트웨어, 자동차 플랫폼 및 자율주행·전기차",
+        "hq": "SANTA CLARA, CA",
+        "employees": "42000명 (2026-01-25 기준)",
+        "homepage": "https://www.nvidia.com/",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $264.95로 지금 가격($221.98)에서 +19% 더 오를 여력이 있어요. 추천 등급은 매수 (4.26)예요. 분석가별 의견은 $138.00~$432.78 범위에 있어요."
     },
     {
       "ticker": "TSM",
@@ -304,7 +340,16 @@
         "Yahoo",
         "StockAnalysis"
       ],
-      "dataQualityNote": null
+      "dataQualityNote": null,
+      "company": {
+        "ceo": "C.C. Wei",
+        "business": "타이완 반도체 매뉴팩처링은 주로 회로 제조 서비스 제공에 종사하는 대만 기반의 회사이다. 이 회사의 집적 회로 제조 서비스에는 공정 기술, 특수 공정 기술, 설계 생태계 지원, 마스크 기술, 3DFabricTM 고급 패키징 및 실리콘 적층 기술 서비스가 포함된다. 이 회사는 5nm 기술의 이전 및 양산을 완료했으며, 3nm 공정 기술과 2nm 공정 기술의",
+        "hq": "HSINCHU",
+        "employees": "52045명 (2020-12-31 기준)",
+        "homepage": "https://www.tsmc.com/",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $446.18로 지금 가격($404.54)에서 +10% 더 오를 여력이 있어요. 추천 등급은 매수 (4.32)예요. 분석가별 의견은 $205.00~$600.00 범위에 있어요."
     },
     {
       "ticker": "AVGO",
@@ -364,7 +409,16 @@
         "Yahoo",
         "CNBC"
       ],
-      "dataQualityNote": null
+      "dataQualityNote": null,
+      "company": {
+        "ceo": "Hock E. Tan",
+        "business": "이 회사는 광범위한 반도체, 엔터프라이즈 소프트웨어 및 보안 솔루션을 설계, 개발, 공급하는 글로벌 기술 기업이다. 반도체 솔루션과 인프라 소프트웨어의 두 가지 부문으로 운영된다. 반도체 솔루션 부문에는 모든 제품 라인과 지적 재산권(IP) 라이선싱이 포함된다. 데이터 센터, 서비스 제공업체 및 엔터프라이즈 네트워킹 애플리케이션에서 데이터 이동을 관리하기",
+        "hq": "PALO ALTO, CA",
+        "employees": "33000명 (2025-11-02 기준)",
+        "homepage": "https://www.broadcom.com",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $468.31로 지금 가격($427.83) 근처에 거의 도달했어요(+9%). 추가 상승 여력은 제한적. 추천 등급은 매수 (4.24)예요. 분석가별 의견은 $360.00~$630.00 범위에 있어요."
     },
     {
       "ticker": "MU",
@@ -425,7 +479,16 @@
         "CNBC",
         "Yahoo"
       ],
-      "dataQualityNote": "CNBC $788.73 / Yahoo $795.33 — 0.83% 편차로 평균값 사용"
+      "dataQualityNote": "CNBC $788.73 / Yahoo $795.33 — 0.83% 편차로 평균값 사용",
+      "company": {
+        "ceo": "Sanjay Mehrotra",
+        "business": "이 회사는 메모리 및 스토리지 솔루션 제공업체다. 이 회사는 마이크론 및 크루셜 브랜드를 통해 고성능 동적 랜덤 액세스 메모리(DRAM), NAND, NOR 메모리 및 스토리지 제품 포트폴리오를 제공한다. 회사의 사업 부문에는 컴퓨팅 및 네트워킹 사업부(CNBU), 모바일 사업부(MBU), 임베디드 사업부(EBU), 스토리지 사업부(SBU)가 있다. CNB",
+        "hq": "BOISE, ID",
+        "employees": "53000명 (2025-08-28 기준)",
+        "homepage": "https://www.micron.com/",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $540.54인데 지금 가격($791.00)이 이미 그보다 비싸요(-32%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.22)예요. 분석가별 의견은 $125.00~$1,000.00 범위에 있어요."
     },
     {
       "ticker": "MRVL",
@@ -486,7 +549,16 @@
         "Yahoo",
         "CNBC"
       ],
-      "dataQualityNote": null
+      "dataQualityNote": null,
+      "company": {
+        "ceo": "Matthew J. Murphy",
+        "business": "이 회사는 자회사를 통해 데이터 인프라 반도체 솔루션을 공급하는 업체다. 이 회사는 집적 회로의 설계, 개발 및 판매에 종사한다. 이 회사의 제품 솔루션은 데이터 센터, 엔터프라이즈 네트워킹, 통신사 인프라, 소비자, 자동차/산업 등 5가지 최종 시장에 서비스를 제공한다. 이 회사의 제품에는 맞춤형 애플리케이션별 집적 회로(ASIC), 전자 광학, 이더넷",
+        "hq": "WILMINGTON, DE",
+        "employees": "7480명 (2026-01-31 기준)",
+        "homepage": "https://www.marvell.com/",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $127.69인데 지금 가격($168.75)이 이미 그보다 비싸요(-24%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.09)예요. 분석가별 의견은 $85.00~$195.00 범위에 있어요."
     },
     {
       "ticker": "AMD",
@@ -546,7 +618,16 @@
         "CNBC",
         "Yahoo"
       ],
-      "dataQualityNote": "5/8 close 정확치 $455.19 (이전 portfolio 데이터 $415는 stale)"
+      "dataQualityNote": "5/8 close 정확치 $455.19 (이전 portfolio 데이터 $415는 stale)",
+      "company": {
+        "ceo": "Lisa T. Su",
+        "business": "이 회사는 글로벌 반도체 회사다. 고성능 컴퓨팅, 그래픽 및 시각화 기술에 중점을 둔다. 데이터 센터, 클라이언트, 게임 및 임베디드 부문이 있다. 데이터 센터 부문에는 서버 중앙 처리 장치(CPU), 그래픽 처리 장치(GPU), 가속 처리 장치(APU), 데이터 처리 장치(DPU), 필드 프로그래머블 게이트 어레이(FPGA), 스마트 네트워크 인터페이스",
+        "hq": "SANTA CLARA, CA",
+        "employees": "31000명 (2025-12-27 기준)",
+        "homepage": "https://www.amd.com/",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $410.94인데 지금 가격($460.00)이 이미 그보다 비싸요(-11%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.09)예요. 분석가별 의견은 $134.20~$625.00 범위에 있어요."
     },
     {
       "ticker": "SNDK",
@@ -607,7 +688,16 @@
         "Yahoo",
         "Investing.com"
       ],
-      "dataQualityNote": null
+      "dataQualityNote": null,
+      "company": {
+        "ceo": "David V. Goeckeler",
+        "business": "이 회사는 낸드 플래시 기술을 기반으로 한 데이터 저장 장치 및 솔루션을 개발, 제조, 공급하는 회사로 전 세계에 소비자 브랜드와 프랜차이즈를 보유하고 있다. 이 회사의 솔루션으로는 다양한 SSD(솔리드 스테이트 드라이브) 임베디드 제품, 이동식 카드, USB 드라이브, 웨이퍼 및 부품이 있다. 광범위한 기술 및 제품 포트폴리오는 클라우드, 클라이언트, 소",
+        "hq": "MILPITAS, CA",
+        "employees": "11000명 (2025-06-27 기준)",
+        "homepage": "https://www.sandisk.com/",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $1,199.42인데 지금 가격($1542.87)이 이미 그보다 비싸요(-22%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.09)예요. 분석가별 의견은 $250.00~$2,000.00 범위에 있어요."
     },
     {
       "ticker": "DELL",
@@ -671,7 +761,16 @@
         "CNBC",
         "Yahoo"
       ],
-      "dataQualityNote": null
+      "dataQualityNote": null,
+      "company": {
+        "ceo": "Michael S. Dell",
+        "business": "이 회사는 광범위한 종합적이고 통합적인 솔루션, 제품 및 서비스를 설계, 개발, 제조, 마케팅, 판매 및 지원하는 사업을 한다. 인프라 솔루션 그룹(ISG)과 클라이언트 솔루션 그룹(CSG)의 두 부문으로 운영된다. ISG 부문은 AI, 머신 러닝, 데이터 분석, 멀티 클라우드 환경을 지원하는 솔루션으로 고객의 디지털 트랜스포메이션을 지원한다. 올플래시 어",
+        "hq": "ROUND ROCK, TX",
+        "employees": "97000명 (2026-01-30 기준)",
+        "homepage": "https://www.dell.com/en-in",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $185.97인데 지금 가격($244.49)이 이미 그보다 비싸요(-24%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (3.89)예요. 분석가별 의견은 $110.00~$260.00 범위에 있어요."
     },
     {
       "ticker": "LITE",
@@ -725,7 +824,16 @@
         "WallStreetZen",
         "Yahoo"
       ],
-      "dataQualityNote": "출처 간 큰 편차 — $901.50(시총 $70.31B 검증) vs $1,053(인트라데이 일시 고점 가능성). 5/12 정규장 재검증 필요."
+      "dataQualityNote": "출처 간 큰 편차 — $901.50(시총 $70.31B 검증) vs $1,053(인트라데이 일시 고점 가능성). 5/12 정규장 재검증 필요.",
+      "company": {
+        "ceo": "Michael E. Hurlston",
+        "business": "이 회사는 제조, 검사 및 생명과학 애플리케이션을 위한 광통신(OpComms) 및 상업용 레이저(레이저)를 비롯한 다양한 최종 시장 애플리케이션을 다루는 광학 및 광자 제품 공급업체다. 사업 부문은 광통신과 레이저로 나뉜다. 광통신 부문에는 액세스(로컬), 지하철(도심), 장거리(도시 간 및 전 세계), 해저(수중) 애플리케이션을 위한 통신사 네트워크를 비",
+        "hq": "SAN JOSE, CA",
+        "employees": "10562명 (2025-06-28 기준)",
+        "homepage": "https://investor.lumentum.com/",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $1,065.07로 지금 가격($901.50)에서 +18% 더 오를 여력이 있어요. 추천 등급은 매수 (4.04)예요. 분석가별 의견은 $560.11~$1,400.00 범위에 있어요."
     },
     {
       "ticker": "CLS",
@@ -779,7 +887,16 @@
         "Yahoo",
         "StockAnalysis"
       ],
-      "dataQualityNote": null
+      "dataQualityNote": null,
+      "company": {
+        "ceo": "Robert Andrew Mionis",
+        "business": "이 회사는 설계, 제조, 하드웨어 플랫폼 및 공급망 솔루션에 종사한다. 이 회사는 첨단 기술 솔루션(ATS)과 커넥티비티 및 클라우드 솔루션(CCS)의 두 부문으로 운영된다. ATS 부문은 ATS 최종 시장으로 구성되며 항공우주 및 방위(A&D), 산업, 헬스 테크 및 자본 장비 사업으로 구성된다. 자본 장비 사업은 반도체, 디스플레이 및 로봇 장비 사업으",
+        "hq": "TORONTO, ON",
+        "employees": "29591명 (2025-12-31 기준)",
+        "homepage": "https://www.celestica.com/",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $427.29로 지금 가격($380.63)에서 +12% 더 오를 여력이 있어요. 추천 등급은 매수 (4.25)예요. 분석가별 의견은 $176.00~$550.00 범위에 있어요."
     },
     {
       "ticker": "CRDO",
@@ -839,7 +956,16 @@
         "Yahoo",
         "Perplexity"
       ],
-      "dataQualityNote": null
+      "dataQualityNote": null,
+      "company": {
+        "ceo": "William Brennan",
+        "business": "이 회사는 케이맨 제도에 기반을 둔 지주 회사다. 데이터 인프라 시장의 모든 유선 연결에서 대역폭 장벽을 허무는 고속 솔루션을 제공한다. 데이터 인프라 시장에서 데이터 속도와 그에 따른 대역폭 요구 사항이 기하급수적으로 증가함에 따라 전력 효율을 개선하는 고속 연결 솔루션을 제공한다. 이 회사의 연결 솔루션은 새롭게 부상하는 초당 100기가비트(G), 20",
+        "hq": "GRAND CAYMAN",
+        "employees": "622명 (2025-05-03 기준)",
+        "homepage": "https://investors.credosemi.com/",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $209.71인데 지금 가격($210.22)이 이미 그보다 비싸요(-0%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.30)예요. 분석가별 의견은 $170.00~$260.00 범위에 있어요."
     },
     {
       "ticker": "TLN",
@@ -893,7 +1019,16 @@
         "Yahoo",
         "CNBC"
       ],
-      "dataQualityNote": null
+      "dataQualityNote": null,
+      "company": {
+        "ceo": "Terry L. Nutt",
+        "business": "이 회사는 독립적인 전력 생산 및 인프라 회사다. 미국에서 약 10.7기가와트의 전력 인프라를 소유 및 운영한다. 중부 대서양과 몬태나에 위치한 발전소를 통해 전력, 용량 및 보조 서비스를 생산하여 PJM 및 WECC를 포함한 미국 도매 전력 시장에 판매한다. 이미 대부분의 전력을 무탄소 원자력 및 저탄소 가스 연소 시설에서 생산하고 있지만, 저탄소 연료로",
+        "hq": "HOUSTON, TX",
+        "employees": "1880명 (2025-12-31 기준)",
+        "homepage": "https://www.talenenergy.com/",
+        "ceoSource": "네이버 금융 integration API summaries"
+      },
+      "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $452.39로 지금 가격($386.87)에서 +17% 더 오를 여력이 있어요. 추천 등급은 매수 (4.21)예요. 분석가별 의견은 $307.00~$548.00 범위에 있어요."
     }
   ],
   "kr": []

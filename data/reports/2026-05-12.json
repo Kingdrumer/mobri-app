@@ -689,7 +689,21 @@
             }
           ],
           "trend": "매도세 (3일 순매도)",
-          "trendTone": "negative"
+          "trendTone": "negative",
+          "flowReason": {
+            "summary": "단기 +30% 급등 후 차익실현 + CPI 경계심리",
+            "detail": "5/4 144.7만원 → 5/11 188만원으로 8영업일 +30% 단기 급등한 뒤 차익실현 매물이 출회됐어요. 여기에 오늘 밤 21:30 미국 4월 CPI(물가) 발표 경계심리와 트럼프의 이란 군사작전 재점화 우려가 겹쳐서 외인 매도세가 빨라졌어요.",
+            "sources": [
+              {
+                "name": "미래에셋 서상영 연구원 (연합뉴스 5/12)",
+                "url": "https://n.news.naver.com/mnews/article/001/0016072424"
+              },
+              {
+                "name": "키움증권 분석 (큰빅데이터 5/12)",
+                "url": "http://www.thebigdata.co.kr/view.php?ud=202605121556374388c808fa9903_23"
+              }
+            ]
+          }
         },
         {
           "ticker": "012450",
@@ -719,7 +733,21 @@
             }
           ],
           "trend": "매도→매수 전환 (5/11)",
-          "trendTone": "positive"
+          "trendTone": "positive",
+          "flowReason": {
+            "summary": "5/7 -8% 큰 조정 후 저점 매수 + 유안타 매수 의견",
+            "detail": "5/7 -8% 큰 폭 조정으로 단기 저점 권역에 들어왔고, 5/11 유안타증권이 NDR(투자자 미팅) 후기에서 '슬슬 보셔야 합니다' 매수 의견을 내며 외인이 다시 진입했어요. 4월 30일 1Q26 실적도 영업이익 +21% 호조였어요.",
+            "sources": [
+              {
+                "name": "유안타증권 5/11 NDR 후기 리포트",
+                "url": "https://m.stock.naver.com/domestic/stock/012450"
+              },
+              {
+                "name": "1Q26 실적 공시 (4/30)",
+                "url": "http://www.fntimes.com/html/view.php?ud=2026043014362225510d260cda75_18"
+              }
+            ]
+          }
         },
         {
           "ticker": "034020",
@@ -749,7 +777,21 @@
             }
           ],
           "trend": "매도세",
-          "trendTone": "negative"
+          "trendTone": "negative",
+          "flowReason": {
+            "summary": "5/7~5/8 코스피 외인 12조 대규모 매도세 + PER 944배 부담",
+            "detail": "5/7~5/8 코스피 전체 외인이 12조원 대규모 순매도한 흐름의 일환이에요. 두산에너빌리티는 5/8 당일 -4.99% 큰 폭 하락하며 외인 순매도 상위 10개 종목(두산로보틱스·두산에너빌리티·SKC 등)에 포함됐고, PER 944배라는 높은 평가 부담도 작용했어요.",
+            "sources": [
+              {
+                "name": "키움 한지영 분석 (동아일보 5/8)",
+                "url": "https://n.news.naver.com/mnews/article/037/0000038124"
+              },
+              {
+                "name": "5/8 마감 시황 (EBN)",
+                "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1708072"
+              }
+            ]
+          }
         },
         {
           "ticker": "377300",
@@ -779,7 +821,21 @@
             }
           ],
           "trend": "매도→매수 전환 (5/11)",
-          "trendTone": "positive"
+          "trendTone": "positive",
+          "flowReason": {
+            "summary": "1Q26 실적 후 3개 증권사 양호 평가 (5/7)",
+            "detail": "1Q26 실적 발표 후 5/7에 교보증권·신한투자증권·키움증권 3사가 잇따라 리포트를 내며 '매출 고성장 속 에이전트 전략 전개', '본원 경쟁력 발현' 등으로 평가했어요. 흑자 전환 기대로 추정 PER이 169배 → 66배로 빠르게 정상화되는 흐름이라 외인이 5/11 매수 전환했어요.",
+            "sources": [
+              {
+                "name": "교보증권 5/7 리포트",
+                "url": "https://m.stock.naver.com/domestic/stock/377300"
+              },
+              {
+                "name": "신한투자증권·키움증권 5/7 리포트",
+                "url": "https://m.stock.naver.com/domestic/stock/377300"
+              }
+            ]
+          }
         },
         {
           "ticker": "035900",
@@ -809,7 +865,21 @@
             }
           ],
           "trend": "매도→매수 전환 (5/11)",
-          "trendTone": "positive"
+          "trendTone": "positive",
+          "flowReason": {
+            "summary": "5/14 1Q 실적 발표 D-2 + 52주 최저점 도달",
+            "detail": "5/14에 1Q26 실적 발표가 예정돼 있어서(D-2) 발표 기대감 + 오늘 저가 56,500원이 정확히 52주 최저점에 도달해 단기 바닥 매수가 시작됐어요. PER 12.68배로 K-pop 4사 중 가장 저평가 상태인 점도 매수 근거예요.",
+            "sources": [
+              {
+                "name": "JYP 1Q26 실적 발표 일정 5/14 (네이버 IR)",
+                "url": "https://m.stock.naver.com/domestic/stock/035900"
+              },
+              {
+                "name": "유안타증권 1Q26 프리뷰 리포트 4/3",
+                "url": "https://m.stock.naver.com/domestic/stock/035900"
+              }
+            ]
+          }
         }
       ],
       "insights": [

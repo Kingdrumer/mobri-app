@@ -5,7 +5,92 @@ const STORAGE_KEYS = {
   selectedDate: 'pwa.selectedDate.v1',
   calMode: 'pwa.calMode.v1',
   realEstate: 'pwa.realEstate.v1',
+  realEstateFilter: 'pwa.realEstateFilter.v1',
 };
+
+// ── 부동산 맞춤설정 기본값 ──
+const DEFAULT_RE_FILTER = {
+  // 본인 상황
+  housing: null,             // 부모님댁 | 월세 | 전세 | 기숙사 | 자가
+  household: [],             // 1인_청년, 1인_일반, 신혼, 예비_신혼, 신생아, 다자녀, 한부모, 고령자
+  age: null,                 // ~24 | 25-29 | 30-34 | 35-39 | 40-64 | 65+
+  householdHead: null,       // 세대주 | 세대원
+  supportType: null,         // 일반 | 수급자 | 차상위 | 한부모 | 보호종료청년 | 국가유공자
+  // 가족 상황
+  marriageDuration: null,    // 미혼 | 예비 | 1년이내 | 1-3년 | 3-5년 | 5-7년 | 7년초과
+  children: null,            // 없음 | 신생아 | 1명 | 2명 | 3명이상
+  dependents: null,          // 1명(본인만) | 2명 | 3명 | 4명 | 5명이상
+  childPlan: null,           // 임신중 | 출산예정 | 계획있음 | 계획없음
+  // 자격 / 재정
+  housingNoneYears: null,    // 보유 | 미만3년 | 3-5년 | 5-10년 | 10-15년 | 15년이상
+  income: null,              // 50%이하 | 70%이하 | 100%이하 | 120%이하 | 120%초과 | 모름
+  savingsAccount: null,      // 없음 | 6개월미만 | 6개월-2년 | 2년이상
+  savingsCount: null,        // 12회미만 | 12-24회 | 24-60회 | 60회이상
+  budget: null,              // 1천이하 | 1천-5천 | 5천-1억 | 1억-3억 | 3억이상
+  // 선호
+  region: [],
+  type: [],
+  alerts: ['new', 'deadline_3'],
+};
+
+// 맞춤설정 옵션 메타 (UI에 표시할 라벨)
+// 라벨은 칩에 짧게, 자세한 설명은 RE_GROUP_HINTS 에 따로
+const RE_FILTER_OPTIONS = {
+  housing:           [['parent','부모님 댁'],['monthly','자취 월세'],['jeonse','자취 전세'],['dorm','기숙사 (학교·회사)'],['own','자가 (내 명의)']],
+  household:         [['1인_청년','1인 청년 (19~39세)'],['1인_일반','1인 일반 (40세+)'],['예비_신혼','예비 신혼'],['신혼','신혼부부 (혼인 7년 이내)'],['신생아','신생아 가구 (2년 내 출산)'],['다자녀','다자녀 (미성년 2명+)'],['한부모','한부모'],['고령자','고령자 (65세+)']],
+  age:               [['~24','~24세'],['25-29','25-29세'],['30-34','30-34세'],['35-39','35-39세'],['40-64','40-64세'],['65+','65세+']],
+  householdHead:     [['세대주','세대주 (등본 대표)'],['세대원','세대원 (부모 등본에 포함)']],
+  supportType:       [['일반','일반 (해당없음)'],['수급자','수급자 (기초생활)'],['차상위','차상위 (수급 바로 위)'],['한부모','한부모 (지원법 대상)'],['보호종료청년','보호종료청년 (시설 퇴소 5년 내)'],['국가유공자','국가유공자 (본인·유족)']],
+  marriageDuration:  [['미혼','미혼'],['예비','예비 (혼인신고 전)'],['1년이내','1년 이내'],['1-3년','1~3년'],['3-5년','3~5년'],['5-7년','5~7년'],['7년초과','7년 초과']],
+  children:          [['없음','없음'],['신생아','신생아 (출산 2년 내)'],['1명','미성년 1명'],['2명','미성년 2명'],['3명이상','미성년 3명+']],
+  dependents:        [['1명','본인만 (1명)'],['2명','2명 (예: 본인+배우자)'],['3명','3명 (예: 부부+자녀1)'],['4명','4명 (예: 부부+자녀2)'],['5명이상','5명 이상']],
+  childPlan:         [['계획없음','계획 없음'],['계획있음','계획 있음'],['임신중','임신 중'],['출산예정','출산 예정 (2년 내)']],
+  housingNoneYears:  [['보유','주택 보유 (현재 있음)'],['미만3년','3년 미만'],['3-5년','3~5년'],['5-10년','5~10년 (가점↑)'],['10-15년','10~15년 (가점↑↑)'],['15년이상','15년 이상 (만점)']],
+  income:            [['50%이하','50% 이하 (예: 3인 월 360만↓)'],['70%이하','70% 이하 (월 500만↓)'],['100%이하','100% 이하 (월 720만↓)'],['120%이하','120% 이하 (월 860만↓)'],['120%초과','120% 초과'],['모름','모름']],
+  savingsAccount:    [['없음','없음'],['6개월미만','6개월 미만'],['6개월-2년','6개월~2년'],['2년이상','2년 이상 (수도권 1순위)']],
+  savingsCount:      [['12회미만','12회 미만'],['12-24회','12~24회 (1~2년)'],['24-60회','24~60회 (2~5년)'],['60회이상','60회 이상 (5년+, 생애최초 자격)']],
+  budget:            [['1천이하','1천만 이하'],['1천-5천','1천~5천만'],['5천-1억','5천~1억'],['1억-3억','1억~3억'],['3억이상','3억 이상']],
+  region:            [['서울','서울'],['경기','경기'],['인천','인천'],['부산','부산'],['대구','대구'],['광주','광주'],['전국','전국']],
+  type:              [['매입임대','매입임대 (LH가 산 빌라)'],['행복주택','행복주택 (새로 지은 임대)'],['전세임대','전세임대 (LH가 대신 계약)'],['장기전세','장기전세 (10~20년, 미리내집)'],['공공분양','공공분양 (살 수 있는 분양)'],['신혼희망타운','신혼희망타운 (신혼 전용 분양)']],
+  alerts:            [['new','신규 공고'],['deadline_3','마감 D-3'],['winner','당첨자 발표']],
+};
+
+// 그룹 아래에 표시할 💡 도움말 (긴 안내)
+const RE_GROUP_HINTS = {
+  household:        '한 사람이 여러 카테고리에 해당될 수 있어요. 예: 신혼+신생아 → 둘 다 선택',
+  supportType:      '"수급자/차상위/한부모"는 임대주택에서 1순위(가점 최고)예요. 행정복지센터에서 본인 자격 확인 가능합니다.',
+  marriageDuration: '"신혼부부 7년 이내" 기준은 청약·임대 모두 동일해요. 7년 넘으면 일반공급으로 분류됩니다.',
+  housingNoneYears: '본인+배우자 합산 무주택 기간이에요. 부모님과 같이 살아도 본인 명의 집 없으면 무주택.',
+  income:           '도시근로자 월평균소득 기준. 부부 모두 일하면 합산 금액으로 계산해요. 예시는 3인 가구 기준 대략값입니다.',
+  savingsAccount:   '청약통장(주택청약종합저축) 가입 후 경과 기간. 수도권 공공분양 1순위는 2년+ 가입 필요.',
+  savingsCount:     '매달 입금한 횟수. 생애최초 특별공급은 보통 60회 이상 납입해야 자격이 생겨요.',
+  childPlan:        '임신·출산 계획이 있으면 신혼희망타운·미리내집 가점에 영향을 줍니다.',
+  dependents:       '주민등록표상 같이 사는 가족 수 (본인 포함). 청약 가점에 영향.',
+  householdHead:    '세대주는 등본의 대표자. 부모님 집 등본에 같이 있으면 보통 세대원이에요.',
+};
+
+// 필터 라벨 한국어 매핑
+const RE_FILTER_LABELS = {
+  housing: '거주 형태', household: '가구 형태', age: '연령',
+  householdHead: '세대주 여부', supportType: '지원자격',
+  marriageDuration: '혼인 기간', children: '자녀 (미성년)',
+  dependents: '부양가족 수', childPlan: '자녀 계획',
+  housingNoneYears: '무주택 기간', income: '소득 (도시근로자 %)',
+  savingsAccount: '청약통장 가입기간', savingsCount: '청약 납입회수',
+  budget: '자금 (보증금 가용)',
+  region: '관심 지역', type: '주거 유형', alerts: '알림',
+};
+
+// 섹션 그룹 (UI 그룹화용)
+const RE_FILTER_SECTIONS = [
+  { title: '👤 본인 상황', keys: ['housing', 'household', 'age', 'householdHead', 'supportType'] },
+  { title: '👨‍👩‍👧 가족 상황', keys: ['marriageDuration', 'children', 'dependents', 'childPlan'] },
+  { title: '🏠 자격·재정', keys: ['housingNoneYears', 'income', 'savingsAccount', 'savingsCount', 'budget'] },
+  { title: '🎯 선호 (필터링)', keys: ['region', 'type', 'alerts'] },
+];
+
+// 다중선택(multi) 키 셋
+const RE_MULTI_KEYS = new Set(['household', 'region', 'type', 'alerts']);
 
 // 한국 시간(KST, UTC+9) 기준 YYYY-MM-DD 반환
 function getKSTToday() {
@@ -36,10 +121,223 @@ const State = {
   portfolio: { us: [], kr: [] },
   calendarEvents: { stock: {}, realestate: {} },
   realEstate: null,
+  realEstateFilter: { ...DEFAULT_RE_FILTER },
   reportsIndex: [],
   reportCache: {},
   charts: {},
 };
+
+// 부동산 맞춤설정 로드 (localStorage)
+function loadRealEstateFilter() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEYS.realEstateFilter);
+    if (raw) {
+      State.realEstateFilter = { ...DEFAULT_RE_FILTER, ...JSON.parse(raw) };
+    }
+  } catch (e) { /* ignore */ }
+}
+
+function saveRealEstateFilter() {
+  try {
+    localStorage.setItem(STORAGE_KEYS.realEstateFilter, JSON.stringify(State.realEstateFilter));
+  } catch (e) { /* ignore */ }
+}
+
+// 맞춤설정이 비어있는지 (초기 상태) 판단
+function isFilterEmpty() {
+  const f = State.realEstateFilter;
+  const singles = ['housing','age','income','savingsAccount','budget','householdHead','supportType','marriageDuration','children','dependents','childPlan','housingNoneYears','savingsCount'];
+  const arrays = ['household','region','type'];
+  const anySingle = singles.some(k => !!f[k]);
+  const anyArr = arrays.some(k => (f[k] || []).length > 0);
+  return !anySingle && !anyArr;
+}
+
+// 맞춤설정 요약 배지 텍스트 (예: "1인 청년 · 서울 · 매입임대")
+function filterSummaryBadge() {
+  const f = State.realEstateFilter;
+  const parts = [];
+  if (f.household?.length) {
+    const hh = RE_FILTER_OPTIONS.household.find(o => o[0] === f.household[0]);
+    if (hh) parts.push(hh[1]);
+  }
+  if (f.region?.length) parts.push(f.region.slice(0, 2).join('·'));
+  if (f.type?.length) parts.push(f.type[0]);
+  return parts.slice(0, 3).join(' · ') || '설정 안함';
+}
+
+// ── 공고 순위 판별 ──
+// 사용자 필터에 기반해 해당 공고에서 몇 순위로 신청 가능한지 판단
+// 반환: { rank, label, hint, confidence: 'high'|'low' } 또는 null
+function computeUserPriority(notice, filter) {
+  if (!notice?.priorityRules?.length) return null;
+  // 필터에서 의미있는 입력이 거의 없으면 신뢰도 낮음
+  const hasMinimal = !!(filter.household?.length || filter.supportType || filter.children || filter.marriageDuration || filter.housingNoneYears);
+  if (!hasMinimal) {
+    return { rank: '미확정', label: '맞춤설정에 가구·자녀·지원자격 입력 필요', hint: '🎯 내 맞춤 설정에서 정보를 채워주세요', confidence: 'low' };
+  }
+  for (const rule of notice.priorityRules) {
+    if (matchPriorityRule(rule.match || {}, filter)) {
+      return {
+        rank: rule.rank,
+        label: rule.label,
+        hint: rule.hint || '',
+        confidence: 'high',
+      };
+    }
+  }
+  // 어떤 규칙에도 매치 안 됨 — 자격 미충족 가능성
+  return { rank: '자격 미충족', label: '현재 입력 기준으로는 해당 없음', hint: '맞춤설정을 점검해 보세요', confidence: 'low' };
+}
+
+// 한 규칙의 match 조건이 사용자 필터에 통과하는지
+function matchPriorityRule(match, filter) {
+  // $or: 하위 조건들 중 하나라도 통과하면 OK
+  if (match.$or && Array.isArray(match.$or)) {
+    return match.$or.some(sub => matchPriorityRule(sub, filter));
+  }
+  // household — 교집합 있어야
+  if (match.household?.length) {
+    const userHH = filter.household || [];
+    if (!userHH.some(h => match.household.includes(h))) return false;
+  }
+  // 단일값 필드들 — 리스트에 사용자 값이 있어야
+  const singleFields = [
+    'supportType', 'children', 'income', 'savingsAccount', 'savingsCount',
+    'marriageDuration', 'housingNoneYears', 'dependents', 'childPlan', 'householdHead',
+  ];
+  for (const f of singleFields) {
+    if (match[f]?.length) {
+      if (!filter[f] || !match[f].includes(filter[f])) return false;
+    }
+  }
+  // ageGroup: '청년' → 사용자 age가 청년 범위인지
+  if (match.ageGroup === '청년') {
+    if (!filter.age || !['~24','25-29','30-34','35-39'].includes(filter.age)) return false;
+  }
+  if (match.ageGroup === '고령') {
+    if (filter.age !== '65+') return false;
+  }
+  return true;
+}
+
+// 순위 표시용 배지 정보
+function getPriorityBadge(priority) {
+  if (!priority) return null;
+  if (priority.rank === '1순위' || priority.rank === '우선공급') {
+    return { icon: '🥇', cls: 'pri-1', text: priority.rank };
+  }
+  if (priority.rank === '2순위') return { icon: '🥈', cls: 'pri-2', text: '2순위' };
+  if (priority.rank === '3순위') return { icon: '🥉', cls: 'pri-3', text: '3순위' };
+  if (priority.rank === '일반공급') return { icon: '📋', cls: 'pri-2', text: '일반공급' };
+  if (priority.rank === '별도배정') return { icon: '✨', cls: 'pri-2', text: '별도배정' };
+  if (priority.rank?.startsWith('특별공급')) return { icon: '⭐', cls: 'pri-1', text: priority.rank };
+  if (priority.rank === '신청불가') return { icon: '🚫', cls: 'pri-no', text: '신청불가' };
+  if (priority.rank === '자격 미충족') return { icon: '⚠️', cls: 'pri-no', text: '자격검토 필요' };
+  if (priority.rank === '미확정') return { icon: '❓', cls: 'pri-unk', text: '설정 필요' };
+  return { icon: '📌', cls: 'pri-unk', text: priority.rank };
+}
+
+// 공고가 사용자 필터에 매칭되는지 판단 (0~100 점수)
+function matchNoticeToFilter(notice, filter) {
+  if (!notice) return 0;
+  let score = 0; let total = 0;
+
+  // 지역 (가중치 3)
+  if (filter.region?.length) {
+    total += 3;
+    const ok = filter.region.includes('전국') || notice.region?.some(r => filter.region.includes(r) || r === '전국');
+    if (ok) score += 3;
+  }
+  // 가구 형태 (가중치 3)
+  if (filter.household?.length) {
+    total += 3;
+    const ok = notice.household?.some(h => filter.household.includes(h));
+    if (ok) score += 3;
+  }
+  // 주거 유형 (가중치 2)
+  if (filter.type?.length) {
+    total += 2;
+    const ok = filter.type.includes(notice.type);
+    if (ok) score += 2;
+  }
+  // 연령 (가중치 2)
+  if (filter.age && notice.ageRange) {
+    total += 2;
+    const ageMap = { '~24': 22, '25-29': 27, '30-34': 32, '35-39': 37, '40-64': 50, '65+': 70 };
+    const userAge = ageMap[filter.age];
+    const [min, max] = notice.ageRange;
+    if (userAge >= min && userAge <= max) score += 2;
+  }
+  if (total === 0) return 100; // 필터 안 했으면 전체 통과
+  return Math.round((score / total) * 100);
+}
+
+// 공고 → 캘린더 이벤트로 변환 (접수기간 매일 + 시작·마감일은 강조)
+function noticesToCalendarEvents(notices, filter) {
+  const events = {};
+  if (!notices) return events;
+  const today = TODAY_KST;
+
+  notices.forEach((n) => {
+    if (!n.applicationStart) return;
+    const score = matchNoticeToFilter(n, filter);
+    if (score < 50) return; // 매칭 50% 미만은 캘린더에서 제외
+
+    // 시작일 · 마감일에만 점 표시 (너무 많으면 캘린더 더러워짐)
+    const dates = new Set();
+    if (n.applicationStart) dates.add(n.applicationStart);
+    if (n.applicationEnd && n.applicationEnd !== n.applicationStart) dates.add(n.applicationEnd);
+
+    dates.forEach((date) => {
+      const isStart = date === n.applicationStart;
+      const isEnd = date === n.applicationEnd;
+      const isClosingSoon = isEnd && date >= today;
+      const isDday = date === today && isEnd;
+
+      events[date] = events[date] || [];
+      events[date].push({
+        type: 'subscription',
+        label: `${isDday ? '⏰ ' : isStart ? '📋 ' : '⏳ '}${n.shortTitle || n.title}`,
+        color: isDday ? 'red' : isStart ? 'blue' : 'amber',
+        time: isStart ? '접수 시작' : isDday ? 'D-day 마감' : '마감일',
+        title: n.title,
+        description: `${n.agency} · ${n.type} · ${n.supplyCount ? n.supplyCount + '세대 · ' : ''}${(n.region || []).join('·')}`,
+        impact: (n.highlights || []).join(' / '),
+        noticeId: n.id,
+        agency: n.agency,
+        matchScore: score,
+      });
+    });
+  });
+
+  return events;
+}
+
+// 진행 중인 공고 리스트 (마감 임박 순 정렬)
+function filteredOpenNotices() {
+  const notices = State.realEstate?.notices || [];
+  const today = TODAY_KST;
+  return notices
+    .filter(n => {
+      // 종료된 공고 제외
+      if (n.applicationEnd && n.applicationEnd < today) return false;
+      return true;
+    })
+    .map(n => ({ ...n, _matchScore: matchNoticeToFilter(n, State.realEstateFilter) }))
+    .filter(n => n._matchScore >= 50)
+    .sort((a, b) => {
+      // 1) 오늘 마감 (closing-today) 최우선
+      if (a.status === 'closing-today' && b.status !== 'closing-today') return -1;
+      if (b.status === 'closing-today' && a.status !== 'closing-today') return 1;
+      // 2) 마감일 빠른 순 (rolling은 뒤로)
+      const aEnd = a.rolling ? '9999-12-31' : (a.applicationEnd || '9999-12-31');
+      const bEnd = b.rolling ? '9999-12-31' : (b.applicationEnd || '9999-12-31');
+      if (aEnd !== bEnd) return aEnd.localeCompare(bEnd);
+      // 3) 매칭 점수 높은 순
+      return b._matchScore - a._matchScore;
+    });
+}
 
 // ------------- 유틸 -------------
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -149,6 +447,14 @@ async function refreshAllData(silent = false) {
     if (events) State.calendarEvents = events;
     if (reportsIdx) State.reportsIndex = reportsIdx.reports || [];
     if (realEstate) State.realEstate = realEstate;
+
+    // 부동산 공고를 캘린더 이벤트로 변환 (사용자 맞춤설정 반영)
+    if (State.realEstate?.notices) {
+      State.calendarEvents.realestate = noticesToCalendarEvents(
+        State.realEstate.notices,
+        State.realEstateFilter
+      );
+    }
 
     // 보고서 캐시 비우기 (새 데이터 받기 위해)
     State.reportCache = {};
@@ -328,15 +634,37 @@ async function init() {
     if (fresh?.lastUpdated) State.portfolio.lastUpdated = fresh.lastUpdated;
   }
 
-  const savedRealEstate = localStorage.getItem(STORAGE_KEYS.realEstate);
-  if (savedRealEstate) {
-    try { State.realEstate = JSON.parse(savedRealEstate); } catch (e) {}
-  } else {
-    State.realEstate = await loadJSON('data/real-estate.json');
+  // 부동산 데이터는 항상 서버 최신본 우선 (스키마 v2 마이그레이션 위해)
+  // — userMemos만 localStorage에서 보존
+  const fetchedRealEstate = await loadJSON('data/real-estate.json');
+  const savedRealEstateRaw = localStorage.getItem(STORAGE_KEYS.realEstate);
+  let savedUserMemos = [];
+  if (savedRealEstateRaw) {
+    try {
+      const parsed = JSON.parse(savedRealEstateRaw);
+      savedUserMemos = parsed.userMemos || [];
+      // 구버전 schema (categories.memo.items)도 회수
+      if (!savedUserMemos.length && parsed.categories?.memo?.items?.length) {
+        savedUserMemos = parsed.categories.memo.items;
+      }
+    } catch (e) {}
   }
+  State.realEstate = fetchedRealEstate || { notices: [], userMemos: [] };
+  if (savedUserMemos.length) State.realEstate.userMemos = savedUserMemos;
+
+  // 부동산 맞춤설정 로드
+  loadRealEstateFilter();
 
   const calEvents = await loadJSON('data/calendar-events.json');
   if (calEvents) State.calendarEvents = calEvents;
+
+  // 부동산 공고를 캘린더 이벤트로 변환
+  if (State.realEstate?.notices) {
+    State.calendarEvents.realestate = noticesToCalendarEvents(
+      State.realEstate.notices,
+      State.realEstateFilter
+    );
+  }
 
   const reportsIdx = await loadJSON('data/reports/index.json');
   if (reportsIdx) State.reportsIndex = reportsIdx.reports || [];
@@ -402,6 +730,8 @@ function renderCalendar(app) {
       <div class="toggle-option ${State.calMode === 'realestate' ? 'active' : ''}" data-mode="realestate">부동산</div>
     </div>
 
+    ${State.calMode === 'realestate' ? renderCustomFilterBar() : ''}
+
     <div class="calendar-nav">
       <div class="month-info">
         <div class="label">선택된 날짜</div>
@@ -465,8 +795,134 @@ function renderCalendar(app) {
     render();
   });
 
+  // 부동산 맞춤설정 작은줄 클릭 → 바텀시트 열기
+  $('#reCustomBar')?.addEventListener('click', openRealEstateFilterSheet);
+
   renderCalendarGrid();
   renderSelectedDayPanel();
+}
+
+// ── 부동산 맞춤설정 작은줄 ──
+function renderCustomFilterBar() {
+  const isEmpty = isFilterEmpty();
+  const summary = isEmpty ? '👋 5초만에 설정하기' : filterSummaryBadge();
+  const cls = isEmpty ? 're-custom-bar is-empty' : 're-custom-bar';
+  return `
+    <button class="${cls}" id="reCustomBar" type="button">
+      <span class="left">
+        <span class="icon">🎯</span>
+        <span class="label">내 맞춤 설정</span>
+        <span class="badge">${escapeHtml(summary)}</span>
+      </span>
+      <span class="arrow">›</span>
+    </button>
+  `;
+}
+
+// ── 부동산 맞춤설정 바텀시트 모달 ──
+function openRealEstateFilterSheet() {
+  // 임시 상태 (저장 전까지 누적)
+  let temp = JSON.parse(JSON.stringify(State.realEstateFilter));
+
+  const renderGroup = (key, multi) => {
+    const opts = RE_FILTER_OPTIONS[key];
+    const hint = RE_GROUP_HINTS[key];
+    return `
+      <div class="qgroup">
+        <div class="qtitle">
+          ${escapeHtml(RE_FILTER_LABELS[key])}
+          ${multi ? '<span class="qhint">중복 선택</span>' : ''}
+        </div>
+        <div class="qopts" data-key="${key}" data-multi="${multi}">
+          ${opts.map(([v, label]) => {
+            const isSel = multi
+              ? (temp[key] || []).includes(v)
+              : temp[key] === v;
+            return `<button type="button" class="qopt ${isSel ? 'on' : ''}" data-val="${v}">${escapeHtml(label)}</button>`;
+          }).join('')}
+        </div>
+        ${hint ? `<div class="qgroup-hint">💡 ${escapeHtml(hint)}</div>` : ''}
+      </div>
+    `;
+  };
+
+  const matchedCount = () => {
+    const notices = State.realEstate?.notices || [];
+    return notices.filter(n => matchNoticeToFilter(n, temp) >= 50).length;
+  };
+
+  const html = `
+    <div class="re-filter-sheet">
+      <div class="rfs-head">
+        <div>
+          <div class="rfs-title">🎯 내 맞춤 설정</div>
+          <div class="rfs-sub">선택한 조건에 맞는 공고만 캘린더에 보여드려요</div>
+        </div>
+        <button class="rfs-reset" id="rfsReset" type="button">초기화</button>
+      </div>
+      <div class="rfs-body" id="rfsBody">
+        ${RE_FILTER_SECTIONS.map(section => `
+          <div class="qsection-head">${section.title}</div>
+          ${section.keys.map(k => renderGroup(k, RE_MULTI_KEYS.has(k))).join('')}
+        `).join('')}
+      </div>
+      <div class="rfs-footer">
+        <button class="rfs-save" id="rfsSave" type="button">맞춤 설정 저장 <span id="rfsCount">(${matchedCount()}개 공고 매칭)</span></button>
+      </div>
+    </div>
+  `;
+  showModal(html);
+
+  // 옵션 칩 클릭 핸들러
+  $$('.qopt', $('#rfsBody')).forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const group = btn.closest('.qopts');
+      const key = group.dataset.key;
+      const multi = group.dataset.multi === 'true';
+      const val = btn.dataset.val;
+      if (multi) {
+        const arr = temp[key] || [];
+        const idx = arr.indexOf(val);
+        if (idx === -1) arr.push(val); else arr.splice(idx, 1);
+        temp[key] = arr;
+        btn.classList.toggle('on');
+      } else {
+        // 단일선택: 같은 값 누르면 해제, 다른 값이면 변경
+        if (temp[key] === val) {
+          temp[key] = null;
+          btn.classList.remove('on');
+        } else {
+          temp[key] = val;
+          $$('.qopt', group).forEach(b => b.classList.toggle('on', b === btn));
+        }
+      }
+      // 매칭 카운트 갱신
+      const cnt = $('#rfsCount');
+      if (cnt) cnt.textContent = `(${matchedCount()}개 공고 매칭)`;
+    });
+  });
+
+  // 초기화 버튼
+  $('#rfsReset')?.addEventListener('click', () => {
+    temp = JSON.parse(JSON.stringify(DEFAULT_RE_FILTER));
+    closeModal();
+    setTimeout(openRealEstateFilterSheet, 50);
+  });
+
+  // 저장 버튼
+  $('#rfsSave')?.addEventListener('click', () => {
+    State.realEstateFilter = temp;
+    saveRealEstateFilter();
+    // 캘린더 이벤트 재생성
+    if (State.realEstate?.notices) {
+      State.calendarEvents.realestate = noticesToCalendarEvents(
+        State.realEstate.notices,
+        State.realEstateFilter
+      );
+    }
+    closeModal();
+    render();
+  });
 }
 
 function renderCalendarGrid() {
@@ -731,15 +1187,20 @@ function renderStockImpacts(impacts) {
 function renderEventTile(ev, idx) {
   const meta = eventTypeMeta(ev.type);
   const colorClass = ev.color || 'gray';
-  const hasMore = !!(ev.impact || ev.ourImpact || (ev.stockImpacts && ev.stockImpacts.length));
+  const isNotice = !!ev.noticeId;
+  const hasMore = !!(ev.impact || ev.ourImpact || (ev.stockImpacts && ev.stockImpacts.length) || isNotice);
   const desc = ev.description || (ev.title && ev.title !== ev.label ? ev.title : '');
   const stockImpactsHtml = renderStockImpacts(ev.stockImpacts);
+  const agencyChip = ev.agency ? `<span class="etile-agency ag-${ev.agency.toLowerCase()}">${escapeHtml(ev.agency)}</span>` : '';
+  const matchChip = ev.matchScore !== undefined ? `<span class="etile-match">매칭 ${ev.matchScore}%</span>` : '';
 
   return `
     <div class="etile color-${colorClass} ${hasMore ? 'has-more' : ''}" data-idx="${idx}">
       <div class="etile-body">
         <div class="etile-meta">
           <span class="etile-badge">${meta.icon} ${escapeHtml(meta.kind)}</span>
+          ${agencyChip}
+          ${matchChip}
           ${ev.time ? `<span class="etile-time">${escapeHtml(ev.time)}</span>` : ''}
         </div>
         <div class="etile-title">${escapeHtml(ev.label || ev.title || '')}</div>
@@ -759,6 +1220,9 @@ function renderEventTile(ev, idx) {
                 ${ev.ourImpact ? `<div class="erow-text">${escapeHtml(paraBreak(ev.ourImpact))}</div>` : ''}
                 ${stockImpactsHtml}
               </div>
+            ` : ''}
+            ${isNotice ? `
+              <button class="etile-detail-btn" type="button" data-notice-id="${escapeHtml(ev.noticeId)}">📋 공고 상세 보기</button>
             ` : ''}
           </div>
           <div class="etile-toggle">
@@ -1298,6 +1762,7 @@ async function renderSelectedDayPanel() {
         ${renderEventsBox(dayEvents)}
       </div>
     `;
+    attachBoxCollapseHandlers();
     attachEventTileHandlers();
     return;
   }
@@ -1348,7 +1813,149 @@ function attachEventTileHandlers() {
       if (ticker && market) openStockDetail(ticker, market);
     });
   });
+  // 공고 상세 보기 버튼 (펼침 토글은 막음)
+  $$('.etile-detail-btn').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      openNoticeDetail(btn.dataset.noticeId);
+    });
+  });
 }
+
+// ── 공고 상세 모달 ──
+function openNoticeDetail(noticeId) {
+  const notice = (State.realEstate?.notices || []).find(n => n.id === noticeId);
+  if (!notice) return;
+
+  const today = TODAY_KST;
+  const dDay = (() => {
+    if (!notice.applicationEnd || notice.rolling) return null;
+    const diff = Math.floor((new Date(notice.applicationEnd) - new Date(today)) / 86400000);
+    if (diff < 0) return '마감';
+    if (diff === 0) return 'D-day';
+    return `D-${diff}`;
+  })();
+
+  const score = matchNoticeToFilter(notice, State.realEstateFilter);
+  const priority = computeUserPriority(notice, State.realEstateFilter);
+  const priBadge = getPriorityBadge(priority);
+
+  const html = `
+    <div class="notice-detail">
+      <div class="nd-head">
+        <div class="nd-chips">
+          <span class="nd-agency ag-${notice.agency.toLowerCase()}">${escapeHtml(notice.agency)}</span>
+          <span class="nd-type">${escapeHtml(notice.type)}</span>
+          ${dDay ? `<span class="nd-dday ${dDay === 'D-day' ? 'urgent' : ''}">${dDay}</span>` : ''}
+          ${notice.rolling ? `<span class="nd-rolling">수시모집</span>` : ''}
+          ${priBadge ? `<span class="nd-priority ${priBadge.cls}">${priBadge.icon} ${escapeHtml(priBadge.text)}</span>` : ''}
+        </div>
+        <h2>${escapeHtml(notice.title)}</h2>
+        ${score < 100 ? `<div class="nd-match-bar"><span class="nd-match-fill" style="width:${score}%"></span><span class="nd-match-text">내 조건 매칭 ${score}%</span></div>` : ''}
+      </div>
+
+      ${notice.priorityRules?.length ? `
+        <div class="nd-priority-section">
+          <div class="nd-section-title">📊 내 순위 분석</div>
+          ${priority ? `
+            <div class="nd-pri-result ${priBadge?.cls || ''}">
+              <div class="nd-pri-rank">${priBadge?.icon || ''} ${escapeHtml(priority.rank)}</div>
+              <div class="nd-pri-label">${escapeHtml(priority.label)}</div>
+              ${priority.hint ? `<div class="nd-pri-hint">💡 ${escapeHtml(priority.hint)}</div>` : ''}
+              ${priority.confidence === 'low' ? `<div class="nd-pri-warn">⚠ 맞춤설정 정보가 부족해 정확도가 낮습니다. 🎯 내 맞춤 설정에서 추가 입력해 주세요.</div>` : ''}
+            </div>
+          ` : ''}
+          <div class="nd-pri-rules">
+            <div class="nd-pri-rules-title">전체 순위 기준</div>
+            ${notice.priorityRules.map(rule => `
+              <div class="nd-pri-rule">
+                <span class="nd-pri-rule-rank">${escapeHtml(rule.rank)}</span>
+                <span class="nd-pri-rule-label">${escapeHtml(rule.label)}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      ` : ''}
+
+      <div class="nd-info-grid">
+        <div class="nd-info-row">
+          <span class="nd-info-label">📅 접수기간</span>
+          <span class="nd-info-val">
+            ${notice.applicationStart ? formatKoreanDate(notice.applicationStart) : '—'}
+            ${notice.applicationEnd && notice.applicationEnd !== notice.applicationStart ? ' ~ ' + formatKoreanDate(notice.applicationEnd) : ''}
+            ${notice.rolling ? ' (수시)' : ''}
+          </span>
+        </div>
+        ${notice.announcementDate ? `
+          <div class="nd-info-row">
+            <span class="nd-info-label">📢 공고일</span>
+            <span class="nd-info-val">${formatKoreanDate(notice.announcementDate)}</span>
+          </div>
+        ` : ''}
+        ${notice.supplyCount ? `
+          <div class="nd-info-row">
+            <span class="nd-info-label">🏠 공급세대</span>
+            <span class="nd-info-val">${notice.supplyCount.toLocaleString()}세대</span>
+          </div>
+        ` : ''}
+        ${notice.region?.length ? `
+          <div class="nd-info-row">
+            <span class="nd-info-label">📍 지역</span>
+            <span class="nd-info-val">${notice.region.join(' · ')}</span>
+          </div>
+        ` : ''}
+        ${notice.districts?.length ? `
+          <div class="nd-info-row">
+            <span class="nd-info-label">🗺 세부지역</span>
+            <span class="nd-info-val">${notice.districts.join(', ')}</span>
+          </div>
+        ` : ''}
+        ${notice.ageRange ? `
+          <div class="nd-info-row">
+            <span class="nd-info-label">👤 연령</span>
+            <span class="nd-info-val">만 ${notice.ageRange[0]}~${notice.ageRange[1]}세</span>
+          </div>
+        ` : ''}
+        ${notice.maritalRequired ? `
+          <div class="nd-info-row">
+            <span class="nd-info-label">💑 혼인</span>
+            <span class="nd-info-val">혼인 ${notice.marriedYears || 7}년 이내 (예비신혼 포함)</span>
+          </div>
+        ` : ''}
+        ${notice.maritalForbidden ? `
+          <div class="nd-info-row">
+            <span class="nd-info-label">💑 결혼상태</span>
+            <span class="nd-info-val">미혼만 가능</span>
+          </div>
+        ` : ''}
+        ${notice.applyMethod ? `
+          <div class="nd-info-row">
+            <span class="nd-info-label">📝 신청방법</span>
+            <span class="nd-info-val">${escapeHtml(notice.applyMethod)}</span>
+          </div>
+        ` : ''}
+      </div>
+
+      ${notice.highlights?.length ? `
+        <div class="nd-highlights">
+          <div class="nd-section-title">✨ 특징</div>
+          <ul>${notice.highlights.map(h => `<li>${escapeHtml(h)}</li>`).join('')}</ul>
+        </div>
+      ` : ''}
+
+      ${notice.uncertain ? `
+        <div class="nd-warning">⚠️ 일부 정보는 공고문 원본에서 최종 확인하세요.</div>
+      ` : ''}
+
+      <div class="modal-actions">
+        <button class="btn" onclick="closeModal()">닫기</button>
+        ${notice.url ? `<a class="btn primary" href="${escapeHtml(notice.url)}" target="_blank" rel="noopener">🔗 공고문 원본 열기</a>` : ''}
+      </div>
+    </div>
+  `;
+  showModal(html);
+}
+window.openNoticeDetail = openNoticeDetail;
 
 function attachNewsTabHandlers() {
   $$('.day-box').forEach((box) => {
@@ -1605,8 +2212,14 @@ function openStockDetail(ticker, market) {
   const changeYTD = it.changeYTD ?? 0;
 
   const trendColorOf = (v) => v > 0 ? 'var(--positive)' : v < 0 ? 'var(--negative)' : 'var(--text-tertiary)';
-  const symbol = market === 'us' ? '$' : '₩';
+  const symbol = market === 'us' ? '$' : '';
+  const priceUnit = market === 'kr' ? '원' : '';
   const price = it.price ? it.price.toLocaleString() : '—';
+  const chartImgUrl = naverChartUrl(it.ticker, market);
+  const chartFallbacks = naverChartFallbackChain(it.ticker, market);
+  const chartOnerrorAttr = chartFallbacks.length
+    ? `onerror="if(this.dataset.fbi===undefined)this.dataset.fbi='0';else this.dataset.fbi=String(parseInt(this.dataset.fbi)+1);const fbs=${JSON.stringify(chartFallbacks).replace(/"/g, '&quot;')};const i=parseInt(this.dataset.fbi);if(i<fbs.length){this.src=fbs[i];}else{this.onerror=null;this.style.display='none';this.parentElement.classList.add('chart-img-failed');}"`
+    : `onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('chart-img-failed');"`;
 
   const html = `
     <div class="stock-detail">
@@ -1617,7 +2230,7 @@ function openStockDetail(ticker, market) {
             <div class="t-name">${escapeHtml(it.name || '')} · ${escapeHtml(it.sector || '')}</div>
           </div>
           <div class="t-price-block">
-            <div class="t-price">${symbol}${price}</div>
+            <div class="t-price">${symbol}${price}${priceUnit}</div>
             <div class="t-1d" style="color: ${trendColorOf(change1D)}">${pct(change1D)} 오늘</div>
           </div>
         </div>
@@ -1641,8 +2254,10 @@ function openStockDetail(ticker, market) {
           </div>
         </div>
 
-        <div style="margin-top: 10px;">
-          <canvas id="stockDetailChart" style="width: 100%; height: 100px;" role="img" aria-label="${escapeHtml(it.ticker)} 1개월 차트"></canvas>
+        <div class="stock-detail-chart-wrap">
+          <img class="stock-detail-chart" src="${chartImgUrl}" alt="${escapeHtml(it.ticker)} 3개월 차트" loading="lazy" ${chartOnerrorAttr}>
+          <div class="chart-img-fail-msg">차트 불러오기 실패</div>
+          <div class="chart-period-tag">최근 3개월 · 네이버 금융</div>
         </div>
       </div>
 
@@ -1731,12 +2346,34 @@ function openStockDetail(ticker, market) {
         </div>
       ` : ''}
 
+      ${it.outlookEasy ? `
+        <div class="sd-card sd-card-outlook">
+          <div class="sd-card-title">🔮 앞으로 어떻게 될까? <span class="sd-card-sub">(쉬운 설명)</span></div>
+          <div class="sd-outlook-easy">${escapeHtml(paraBreak(it.outlookEasy))}</div>
+        </div>
+      ` : ''}
+
+      ${it.company ? `
+        <div class="sd-card">
+          <div class="sd-card-title">🏢 회사 정보</div>
+          <div class="sd-company">
+            ${it.company.business ? `<div class="sd-co-row"><span class="sd-co-lbl">사업</span><span class="sd-co-val">${escapeHtml(it.company.business)}</span></div>` : ''}
+            ${it.company.ceo ? `<div class="sd-co-row"><span class="sd-co-lbl">대표</span><span class="sd-co-val">${escapeHtml(it.company.ceo)}</span></div>` : ''}
+            ${it.company.hq ? `<div class="sd-co-row"><span class="sd-co-lbl">본사</span><span class="sd-co-val">${escapeHtml(it.company.hq)}</span></div>` : ''}
+            ${it.company.employees ? `<div class="sd-co-row"><span class="sd-co-lbl">직원</span><span class="sd-co-val">${escapeHtml(it.company.employees)}</span></div>` : ''}
+            ${it.company.homepage ? `<div class="sd-co-row"><span class="sd-co-lbl">홈페이지</span><span class="sd-co-val"><a href="${escapeHtml(it.company.homepage)}" target="_blank" rel="noopener">${escapeHtml(it.company.homepage)}</a></span></div>` : ''}
+            ${it.company.ceoSource ? `<div class="sd-co-source">출처: ${escapeHtml(it.company.ceoSource)}</div>` : ''}
+          </div>
+        </div>
+      ` : ''}
+
       ${(it.recentNews && it.recentNews.length) ? `
         <div class="sd-card">
-          <div class="sd-card-title">📰 최근 뉴스</div>
+          <div class="sd-card-title">📰 최근 뉴스 <span class="sd-card-sub">(매일 08:00 갱신)</span></div>
           ${it.recentNews.map((n) => `
             <div class="stock-news" style="background: transparent; padding: 8px 0; margin: 0; border-bottom: 0.5px solid var(--border);">
               <div class="sn-h">${escapeHtml(n.headline)}</div>
+              ${n.easySummary ? `<div class="sn-easy">💬 ${escapeHtml(n.easySummary)}</div>` : ''}
               <div class="sn-meta">
                 ${n.url ? `<a href="${escapeHtml(n.url)}" target="_blank" rel="noopener">· ${escapeHtml(n.source || '출처')}</a>` : `<span>· ${escapeHtml(n.source || '출처')}</span>`}
                 <span class="sn-date">· ${escapeHtml(n.date || '')}</span>
@@ -1759,37 +2396,6 @@ function openStockDetail(ticker, market) {
   `;
 
   showModal(html);
-
-  // 차트 그리기
-  setTimeout(() => {
-    const canvas = document.getElementById('stockDetailChart');
-    if (!canvas || !window.Chart) return;
-    const seed = hashString(it.ticker);
-    const points = generateMockChart(20, change1M, seed);
-    const change = change1M;
-    new Chart(canvas.getContext('2d'), {
-      type: 'line',
-      data: {
-        labels: points.map((_, i) => i),
-        datasets: [{
-          data: points,
-          borderColor: change > 0 ? '#4ADE80' : change < 0 ? '#EF4444' : '#9CA3B5',
-          backgroundColor: change > 0 ? 'rgba(74, 222, 128, 0.12)' : change < 0 ? 'rgba(239, 68, 68, 0.12)' : 'rgba(156, 163, 181, 0.1)',
-          borderWidth: 1.5,
-          tension: 0.3,
-          pointRadius: 0,
-          fill: true,
-        }],
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false }, tooltip: { enabled: false } },
-        scales: { x: { display: false }, y: { display: false } },
-        animation: { duration: 400 },
-      },
-    });
-  }, 50);
 
   // 메모 저장
   const saveBtn = document.getElementById('saveMemoBtn');
@@ -1920,7 +2526,7 @@ function renderCharts(app) {
   const us = State.portfolio.us;
   app.innerHTML = `
     <header class="app-header">
-      <div class="meta">최근 1개월</div>
+      <div class="meta">최근 3개월 · 네이버 금융 실시간</div>
       <h1>차트</h1>
     </header>
 
@@ -1952,55 +2558,74 @@ function renderCharts(app) {
   }, 50);
 }
 
+// 네이버 금융 종목별 suffix 매핑 — 정확히 알려진 케이스
+// '' = base ticker (no suffix), '.K' = NYSE/AMEX 일부, '.O' = NASDAQ 기본
+const NAVER_SUFFIX_OVERRIDE = {
+  // NYSE — base ticker
+  'TSM': '', 'CLS': '', 'NU': '', 'BABA': '',
+  // NYSE — .K suffix
+  'DELL': '.K', 'ORCL': '.K',
+};
+
+// 종목 차트 이미지 URL — 네이버 금융 3개월 영역 차트
+function naverChartUrl(ticker, market) {
+  const bucket = Math.floor(Date.now() / 600000); // 10분 단위 캐시 무효화
+  if (market === 'kr') {
+    return `https://ssl.pstatic.net/imgfinance/chart/mobile/area/month3/${ticker}_end.png?t=${bucket}`;
+  }
+  // 미국: 매핑에 명시된 suffix → 없으면 NASDAQ 기본 .O
+  const suffix = ticker in NAVER_SUFFIX_OVERRIDE ? NAVER_SUFFIX_OVERRIDE[ticker] : '.O';
+  return `https://ssl.pstatic.net/imgfinance/chart/mobile/world/item/area/month3/${ticker}${suffix}_end.png?t=${bucket}`;
+}
+
+// 폴백 체인 — 첫 URL이 404일 때 시도할 대안들
+function naverChartFallbackChain(ticker, market) {
+  if (market === 'kr') return [];
+  const primary = ticker in NAVER_SUFFIX_OVERRIDE ? NAVER_SUFFIX_OVERRIDE[ticker] : '.O';
+  const candidates = ['.O', '', '.K', '.N'];
+  return candidates
+    .filter((s) => s !== primary)
+    .map((s) => `https://ssl.pstatic.net/imgfinance/chart/mobile/world/item/area/month3/${ticker}${s}_end.png`);
+}
+
+// 가격 포맷 — 시장에 맞게 통화 단위
+function fmtStockPrice(price, market) {
+  if (price == null) return '—';
+  if (market === 'kr') return `${price.toLocaleString()}원`;
+  return `$${price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+}
+
 function renderThumbChart(id, item) {
   const containerId = id.startsWith('us-') ? 'usCharts' : 'krCharts';
   const container = document.getElementById(containerId);
   if (!container) return;
 
+  const market = id.startsWith('us-') ? 'us' : 'kr';
   const div = document.createElement('div');
   div.className = 'chart-thumb';
   div.dataset.ticker = item.ticker;
-  div.dataset.market = id.startsWith('us-') ? 'us' : 'kr';
+  div.dataset.market = market;
   const change = item.change1M ?? 0;
   const changeColor = change > 0 ? 'var(--positive)' : change < 0 ? 'var(--negative)' : 'var(--text-tertiary)';
+
+  const chartUrl = naverChartUrl(item.ticker, market);
+  const fallbacks = naverChartFallbackChain(item.ticker, market);
+  const onerrorAttr = fallbacks.length
+    ? `onerror="if(this.dataset.fbi===undefined)this.dataset.fbi='0';else this.dataset.fbi=String(parseInt(this.dataset.fbi)+1);const fbs=${JSON.stringify(fallbacks)};const i=parseInt(this.dataset.fbi);if(i<fbs.length){this.src=fbs[i];}else{this.onerror=null;this.style.display='none';this.parentElement.classList.add('chart-img-failed');}"`
+    : `onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('chart-img-failed');"`;
 
   div.innerHTML = `
     <div class="head">
       <div class="ticker">${escapeHtml(item.ticker)}</div>
       <div class="change" style="color: ${changeColor}">${pct(change)}</div>
     </div>
-    <canvas id="chart-${id}" role="img" aria-label="${escapeHtml(item.ticker)} 1개월 차트"></canvas>
-    <div class="price">$${item.price ? item.price.toLocaleString() : '—'}</div>
+    <div class="chart-img-wrap">
+      <img class="chart-img" src="${chartUrl}" alt="${escapeHtml(item.ticker)} 3개월 차트" loading="lazy" ${onerrorAttr}>
+      <div class="chart-img-fail-msg">차트 불러오기 실패</div>
+    </div>
+    <div class="price">${fmtStockPrice(item.price, market)}</div>
   `;
   container.appendChild(div);
-
-  // 가짜 시세 데이터 생성 (시드: ticker 해시)
-  const seed = hashString(item.ticker);
-  const points = generateMockChart(20, item.change1M ?? 0, seed);
-
-  const ctx = document.getElementById('chart-' + id).getContext('2d');
-  new Chart(ctx, {
-    type: 'line',
-    data: {
-      labels: points.map((_, i) => i),
-      datasets: [{
-        data: points,
-        borderColor: change > 0 ? '#4ADE80' : change < 0 ? '#EF4444' : '#9CA3B5',
-        backgroundColor: change > 0 ? 'rgba(74, 222, 128, 0.12)' : change < 0 ? 'rgba(239, 68, 68, 0.12)' : 'rgba(156, 163, 181, 0.1)',
-        borderWidth: 1.5,
-        tension: 0.3,
-        pointRadius: 0,
-        fill: true,
-      }],
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: { enabled: false } },
-      scales: { x: { display: false }, y: { display: false } },
-      animation: { duration: 400 },
-    },
-  });
 }
 
 function hashString(s) {
@@ -2026,88 +2651,178 @@ function generateMockChart(n, totalChangePct, seed) {
   return arr;
 }
 
-// ------------- 부동산 탭 -------------
+// ------------- 부동산 탭 (캘린더 위주 개편) -------------
 function renderRealEstate(app) {
-  const re = State.realEstate || { categories: {} };
+  const re = State.realEstate || { notices: [], userMemos: [] };
+  const today = TODAY_KST;
+
+  // 마감 임박 순으로 정렬된 매칭 공고
+  const matchedNotices = filteredOpenNotices();
+  const memos = re.userMemos || [];
+
+  // D-day 카운트
+  const dDayCount = matchedNotices.filter(n => n.applicationEnd === today && !n.rolling).length;
+  const upcomingCount = matchedNotices.filter(n => n.applicationStart > today).length;
+  const openCount = matchedNotices.filter(n => {
+    return (!n.applicationStart || n.applicationStart <= today) &&
+           (!n.applicationEnd || n.applicationEnd >= today);
+  }).length;
+
   app.innerHTML = `
     <header class="app-header">
-      <div class="meta">청약 · 대출 · 정책</div>
-      <h1>부동산</h1>
+      <div class="meta">청약 · 임대 · 전세임대</div>
+      <h1>부동산 공고</h1>
     </header>
 
+    ${renderCustomFilterBar()}
+
+    <div class="re-stats">
+      <div class="re-stat ${dDayCount ? 'urgent' : ''}">
+        <div class="re-stat-num">${dDayCount}</div>
+        <div class="re-stat-label">⏰ 오늘 마감</div>
+      </div>
+      <div class="re-stat">
+        <div class="re-stat-num">${openCount}</div>
+        <div class="re-stat-label">📋 접수 중</div>
+      </div>
+      <div class="re-stat">
+        <div class="re-stat-num">${upcomingCount}</div>
+        <div class="re-stat-label">🔜 곧 시작</div>
+      </div>
+    </div>
+
     <div class="section">
-      ${Object.entries(re.categories).map(([key, cat]) => `
-        <div class="realestate-cat">
-          <div class="head">
-            <div>
-              <div class="title">${escapeHtml(cat.title)}</div>
-              <div class="desc">${escapeHtml(cat.description)}</div>
-            </div>
-          </div>
-          ${(cat.items || []).length === 0
-            ? `<div class="empty">아직 등록된 정보가 없어요</div>`
-            : (cat.items || []).map((it) => `
-              <div class="card">
-                <div style="font-size: 13px; font-weight: 500; margin-bottom: 4px;">${escapeHtml(it.title)}</div>
-                <div style="font-size: 11px; color: var(--text-tertiary);">${escapeHtml(it.date || '')} ${it.summary ? ' · ' + escapeHtml(it.summary) : ''}</div>
-              </div>
-            `).join('')}
-          <button class="add-here" data-cat="${key}">+ 정보 추가</button>
+      <div class="re-list-head">
+        <div class="re-list-title">📌 진행 중인 공고 <span class="re-list-count">${matchedNotices.length}건</span></div>
+        <div class="re-list-sort">마감 임박순</div>
+      </div>
+
+      ${matchedNotices.length === 0 ? `
+        <div class="re-empty">
+          <div class="re-empty-icon">🔍</div>
+          <div class="re-empty-title">조건에 맞는 공고가 없어요</div>
+          <div class="re-empty-sub">맞춤 설정을 다시 조정해보세요</div>
+        </div>
+      ` : matchedNotices.map(n => renderNoticeCard(n, today)).join('')}
+    </div>
+
+    <div class="section">
+      <div class="re-list-head">
+        <div class="re-list-title">📝 내 메모 <span class="re-list-count">${memos.length}건</span></div>
+        <button class="re-add-memo-btn" id="reAddMemoBtn">+ 메모 추가</button>
+      </div>
+      ${memos.length === 0 ? `
+        <div class="re-empty subtle">
+          <div class="re-empty-sub">관심 매물·공고를 직접 메모해두세요</div>
+        </div>
+      ` : memos.map((m, i) => `
+        <div class="card re-memo-card" data-idx="${i}">
+          <div style="font-size: 13px; font-weight: 500; margin-bottom: 4px;">${escapeHtml(m.title)}</div>
+          <div style="font-size: 11px; color: var(--text-tertiary);">${escapeHtml(m.date || '')} ${m.summary ? ' · ' + escapeHtml(m.summary) : ''}</div>
         </div>
       `).join('')}
     </div>
+
+    <div class="re-tip">
+      💡 더 자세한 월간 캘린더 뷰는 <b>캘린더 탭 → 부동산 토글</b>에서 보세요
+    </div>
   `;
 
-  $$('.add-here').forEach((btn) => {
-    btn.addEventListener('click', () => openAddRealEstateModal(btn.dataset.cat));
+  // 맞춤설정 작은줄
+  $('#reCustomBar')?.addEventListener('click', openRealEstateFilterSheet);
+
+  // 공고 카드 클릭 → 상세 모달
+  $$('.notice-card').forEach((card) => {
+    card.addEventListener('click', () => openNoticeDetail(card.dataset.noticeId));
   });
+
+  // 메모 추가
+  $('#reAddMemoBtn')?.addEventListener('click', openAddMemoModal);
 }
 
-function openAddRealEstateModal(catKey) {
-  const cat = State.realEstate.categories[catKey];
+// 진행 중 공고 카드
+function renderNoticeCard(n, today) {
+  const dDay = (() => {
+    if (n.rolling) return { text: '수시', cls: 'rolling' };
+    if (!n.applicationEnd) return null;
+    const diff = Math.floor((new Date(n.applicationEnd) - new Date(today)) / 86400000);
+    if (diff < 0) return null;
+    if (diff === 0) return { text: 'D-day', cls: 'dday' };
+    if (diff <= 3) return { text: `D-${diff}`, cls: 'soon' };
+    return { text: `D-${diff}`, cls: '' };
+  })();
+
+  const isUpcoming = n.applicationStart > today;
+  const score = matchNoticeToFilter(n, State.realEstateFilter);
+  const priority = computeUserPriority(n, State.realEstateFilter);
+  const priBadge = getPriorityBadge(priority);
+
+  return `
+    <div class="card notice-card" data-notice-id="${escapeHtml(n.id)}">
+      <div class="nc-top">
+        <span class="nc-agency ag-${n.agency.toLowerCase()}">${escapeHtml(n.agency)}</span>
+        <span class="nc-type">${escapeHtml(n.type)}</span>
+        ${dDay ? `<span class="nc-dday ${dDay.cls}">${escapeHtml(dDay.text)}</span>` : ''}
+        ${isUpcoming ? `<span class="nc-upcoming">곧 시작</span>` : ''}
+        ${priBadge ? `<span class="nc-priority ${priBadge.cls}">${priBadge.icon} ${escapeHtml(priBadge.text)}</span>` : ''}
+        ${score < 100 && score >= 50 ? `<span class="nc-match">매칭 ${score}%</span>` : ''}
+      </div>
+      <div class="nc-title">${escapeHtml(n.shortTitle || n.title)}</div>
+      <div class="nc-meta">
+        📅 ${n.applicationStart ? formatShortDate(n.applicationStart) : '—'}${n.applicationEnd && n.applicationEnd !== n.applicationStart ? ' ~ ' + formatShortDate(n.applicationEnd) : ''}${n.rolling ? ' (수시)' : ''}
+        ${n.supplyCount ? ` · 🏠 ${n.supplyCount.toLocaleString()}세대` : ''}
+        ${n.region?.length ? ` · 📍 ${n.region.join('·')}` : ''}
+      </div>
+      ${priority && priority.confidence === 'high' && priority.label ? `<div class="nc-pri-detail">→ ${escapeHtml(priority.label)}</div>` : ''}
+      ${n.highlights?.length ? `<div class="nc-highlight">${escapeHtml(n.highlights[0])}</div>` : ''}
+    </div>
+  `;
+}
+
+// 메모 추가 모달
+function openAddMemoModal() {
   const html = `
-    <h2>${escapeHtml(cat.title)} 추가</h2>
+    <h2>📝 메모 추가</h2>
     <div class="field">
       <label>제목</label>
-      <input type="text" id="reTitle" placeholder="${catKey === 'subscription' ? '예: 강남구 OO아파트 1순위' : '제목'}" />
+      <input type="text" id="memoTitle" placeholder="예: 강남구 OO아파트 1순위" />
     </div>
     <div class="field">
-      <label>날짜 (YYYY-MM-DD)</label>
-      <input type="date" id="reDate" value="${State.todayDate}" />
+      <label>날짜</label>
+      <input type="date" id="memoDate" value="${State.todayDate}" />
     </div>
     <div class="field">
       <label>요약 (선택)</label>
-      <input type="text" id="reSummary" placeholder="간단한 메모" />
+      <input type="text" id="memoSummary" placeholder="간단한 메모" />
     </div>
     <div class="modal-actions">
       <button class="btn" onclick="closeModal()">취소</button>
-      <button class="btn primary" id="confirmReAdd">추가</button>
+      <button class="btn primary" id="confirmMemoAdd">추가</button>
     </div>
   `;
   showModal(html);
 
-  $('#confirmReAdd').addEventListener('click', () => {
-    const title = $('#reTitle').value.trim();
-    const date = $('#reDate').value;
-    const summary = $('#reSummary').value.trim();
+  $('#confirmMemoAdd').addEventListener('click', () => {
+    const title = $('#memoTitle').value.trim();
+    const date = $('#memoDate').value;
+    const summary = $('#memoSummary').value.trim();
     if (!title) { alert('제목은 필수입니다'); return; }
 
-    cat.items = cat.items || [];
-    cat.items.push({ title, date, summary });
-
-    // 캘린더에도 점 추가
-    if (date) {
-      State.calendarEvents.realestate = State.calendarEvents.realestate || {};
-      State.calendarEvents.realestate[date] = State.calendarEvents.realestate[date] || [];
-      State.calendarEvents.realestate[date].push({
-        type: catKey, label: title, color: 'blue'
-      });
-    }
+    State.realEstate.userMemos = State.realEstate.userMemos || [];
+    State.realEstate.userMemos.unshift({ title, date, summary, createdAt: new Date().toISOString() });
 
     localStorage.setItem(STORAGE_KEYS.realEstate, JSON.stringify(State.realEstate));
     closeModal();
     render();
   });
+}
+
+// 짧은 날짜 포맷 (5/6)
+function formatShortDate(dateStr) {
+  if (!dateStr) return '';
+  const parts = dateStr.split('-');
+  if (parts.length !== 3) return dateStr;
+  return `${parseInt(parts[1])}/${parseInt(parts[2])}`;
 }
 
 // ── Box 5: 🎯 오늘의 추천 (캘린더 바텀시트 내부) ──
@@ -2122,53 +2837,139 @@ function renderSignalsBox(report) {
   const defaultTab = kr.length ? 'kr' : 'us';
   const totalCount = kr.length + us.length;
 
-  // 🌍 외국인 동향 패널 (국내 탭에만)
+  // 🌍 외국인 동향 패널 (국내 탭에만) — 그룹핑된 간단 카드 뷰
   const renderForeignFlow = () => {
     if (!krFlow || !krFlow.rows?.length) return '';
+
     const fmtShares = (n) => {
       const sign = n >= 0 ? '+' : '';
       const abs = Math.abs(n);
-      if (abs >= 1000000) return `${sign}${(n / 10000).toFixed(0)}만`;
-      if (abs >= 10000) return `${sign}${(n / 10000).toFixed(1)}만`;
-      return `${sign}${n.toLocaleString()}`;
+      if (abs >= 10000) return `${sign}${(n / 10000).toFixed(1)}만 주`;
+      return `${sign}${n.toLocaleString()}주`;
     };
+
+    // 종목별 한 줄 요약 작성
+    const summarize = (r) => {
+      const last = r.dailyNetBuy[r.dailyNetBuy.length - 1];
+      const lastStr = fmtShares(last.shares);
+      const totalStr = fmtShares(r.netBuy5d);
+      if (r.trendTone === 'positive') {
+        return `어제 ${lastStr} 매수로 돌아섰어요 (5일 합계 ${totalStr})`;
+      }
+      if (r.trendTone === 'negative') {
+        // 연속 매도일수
+        const seq = [];
+        for (let i = r.dailyNetBuy.length - 1; i >= 0; i--) {
+          if (r.dailyNetBuy[i].shares < 0) seq.push(i);
+          else break;
+        }
+        const n = seq.length;
+        if (n >= 2) return `${n}일 연속 매도 중 (5일 합계 ${totalStr})`;
+        return `어제 ${lastStr} 매도 (5일 합계 ${totalStr})`;
+      }
+      return `5일 합계 ${totalStr} — 거의 중립`;
+    };
+
+    // 그룹: 매수 전환/매수 (positive) vs 매도 (negative) vs 중립
+    const buying = krFlow.rows.filter((r) => r.trendTone === 'positive');
+    const selling = krFlow.rows.filter((r) => r.trendTone === 'negative');
+    const neutral = krFlow.rows.filter((r) => r.trendTone === 'neutral');
+
+    // 한 줄 결론 자동 생성
+    const conclusion = (() => {
+      if (buying.length >= 3 && selling.length <= 1) {
+        return `${buying.length}종목이 매수로 돌아섰어요 — 외국인이 다시 사기 시작하는 분위기`;
+      }
+      if (selling.length >= 3 && buying.length <= 1) {
+        return `${selling.length}종목 매도세 지속 — 외국인이 신중하게 빠지는 중`;
+      }
+      if (buying.length >= 2 && selling.length >= 2) {
+        return `${buying.length}종목 매수 / ${selling.length}종목 매도 — 외국인이 종목을 골라가며 사고팔고 있어요`;
+      }
+      return `매수 ${buying.length} · 매도 ${selling.length} · 중립 ${neutral.length}`;
+    })();
+
+    const renderStockLine = (r) => {
+      const reason = r.flowReason || {};
+      const hasReason = reason.summary || reason.detail;
+      return `
+        <div class="fflow-stock">
+          <div class="fflow-stock-head">
+            <span class="fflow-stock-name">${escapeHtml(r.name)}</span>
+            <span class="fflow-stock-hold">외국인 ${r.foreignHoldRatio.toFixed(1)}% 보유</span>
+          </div>
+          <div class="fflow-stock-line">${escapeHtml(summarize(r))}</div>
+          ${hasReason ? `
+            <div class="fflow-reason">
+              <div class="fflow-reason-summary">💡 ${escapeHtml(reason.summary || '')}</div>
+              ${reason.detail ? `
+                <details class="fflow-reason-detail">
+                  <summary>왜 그런지 자세히 보기</summary>
+                  <div class="fflow-reason-text">${escapeHtml(paraBreak(reason.detail))}</div>
+                  ${(reason.sources && reason.sources.length) ? `
+                    <div class="fflow-reason-sources">
+                      출처: ${reason.sources.map((s) => s.url
+                        ? `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.name)}</a>`
+                        : escapeHtml(s.name)).join(' · ')}
+                    </div>
+                  ` : ''}
+                </details>
+              ` : ''}
+            </div>
+          ` : ''}
+        </div>
+      `;
+    };
+
     return `
       <details class="fflow-panel" open>
         <summary class="fflow-head">
-          <span class="fflow-title">🌍 외국인 5일 동향 (국내 종목)</span>
-          <span class="fflow-sub">${escapeHtml(krFlow.lookbackDays)} · ${escapeHtml(krFlow.asOf)} 기준</span>
+          <span class="fflow-title">🌍 외국인은 어떻게 움직이고 있을까?</span>
+          <span class="fflow-sub">국내 5종목, 최근 5거래일 (${escapeHtml(krFlow.asOf)} 기준)</span>
         </summary>
         <div class="fflow-body">
-          <div class="fflow-table">
-            <div class="fflow-row fflow-row-header">
-              <span class="fflow-name">종목</span>
-              <span class="fflow-hold">보유율</span>
-              <span class="fflow-total">5일 합계</span>
-              <span class="fflow-trend">추세</span>
-            </div>
-            ${krFlow.rows.map((r) => `
-              <div class="fflow-row" data-tone="${r.trendTone}">
-                <span class="fflow-name">${escapeHtml(r.name)}</span>
-                <span class="fflow-hold">${r.foreignHoldRatio.toFixed(2)}%</span>
-                <span class="fflow-total ${r.netBuy5d >= 0 ? 'pos' : 'neg'}">${fmtShares(r.netBuy5d)}주</span>
-                <span class="fflow-trend">${escapeHtml(r.trend)}</span>
-              </div>
-              <div class="fflow-daily">
-                ${r.dailyNetBuy.map((d) => `
-                  <span class="fflow-day ${d.shares >= 0 ? 'pos' : 'neg'}">
-                    <span class="fflow-day-date">${escapeHtml(d.date)}</span>
-                    <span class="fflow-day-val">${fmtShares(d.shares)}</span>
-                  </span>
-                `).join('')}
-              </div>
-            `).join('')}
-          </div>
-          ${krFlow.insights?.length ? `
-            <div class="fflow-insights">
-              <div class="fflow-insights-title">📌 핵심 인사이트</div>
-              ${krFlow.insights.map((i) => `<div class="fflow-insight">• ${escapeHtml(i)}</div>`).join('')}
+          <div class="fflow-conclusion">💬 ${escapeHtml(conclusion)}</div>
+
+          ${buying.length ? `
+            <div class="fflow-group fflow-group-buy">
+              <div class="fflow-group-title">🟢 사기 시작했어요 (${buying.length})</div>
+              ${buying.map(renderStockLine).join('')}
             </div>
           ` : ''}
+
+          ${selling.length ? `
+            <div class="fflow-group fflow-group-sell">
+              <div class="fflow-group-title">🔴 계속 팔고 있어요 (${selling.length})</div>
+              ${selling.map(renderStockLine).join('')}
+            </div>
+          ` : ''}
+
+          ${neutral.length ? `
+            <div class="fflow-group fflow-group-neutral">
+              <div class="fflow-group-title">⚪ 거의 중립 (${neutral.length})</div>
+              ${neutral.map(renderStockLine).join('')}
+            </div>
+          ` : ''}
+
+          <details class="fflow-raw">
+            <summary>📊 5일 일별 매매 자세히 보기</summary>
+            <div class="fflow-raw-body">
+              ${krFlow.rows.map((r) => `
+                <div class="fflow-raw-row">
+                  <div class="fflow-raw-name">${escapeHtml(r.name)}</div>
+                  <div class="fflow-raw-daily">
+                    ${r.dailyNetBuy.map((d) => `
+                      <span class="fflow-day ${d.shares >= 0 ? 'pos' : 'neg'}">
+                        <span class="fflow-day-date">${escapeHtml(d.date)}</span>
+                        <span class="fflow-day-val">${fmtShares(d.shares)}</span>
+                      </span>
+                    `).join('')}
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </details>
+
           ${krFlow.sources?.length ? `
             <div class="fflow-sources">
               출처: ${krFlow.sources.map((s) => escapeHtml(s.name)).join(' · ')}
