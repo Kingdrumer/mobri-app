@@ -1,7 +1,7 @@
 // 포트폴리오 데일리 PWA — Service Worker
 // 캐시 전략: 앱 셸은 cache-first, 데이터는 network-first
 
-const CACHE_VERSION = 'pwa-v6';
+const CACHE_VERSION = 'pwa-v7';
 const APP_SHELL_CACHE = `app-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `data-${CACHE_VERSION}`;
 
@@ -24,6 +24,13 @@ self.addEventListener('install', (event) => {
     })
   );
   self.skipWaiting();
+});
+
+// 메인 페이지에서 보낸 SKIP_WAITING 메시지 → 즉시 활성화
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });
 
 self.addEventListener('activate', (event) => {
@@ -65,8 +72,35 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 앱 셸 — cache-first
+  // 앱 셸 — stale-while-revalidate (캐시 즉시 반환 + 백그라운드에서 새 버전 갱신)
+  // index.html / app.js / styles.css 는 network-first (새로고침 시 즉시 새 버전)
+  const path = url.pathname;
+  const isCriticalAsset = path === '/' || path.endsWith('/index.html') ||
+                          path.endsWith('/app.js') || path.endsWith('/styles.css');
+
+  if (isCriticalAsset) {
+    // network-first — 네트워크 우선, 실패 시 캐시
+    event.respondWith(
+      fetch(request)
+        .then((res) => {
+          const clone = res.clone();
+          caches.open(APP_SHELL_CACHE).then((cache) => cache.put(request, clone));
+          return res;
+        })
+        .catch(() => caches.match(request))
+    );
+    return;
+  }
+
+  // 그 외 자원 — stale-while-revalidate
   event.respondWith(
-    caches.match(request).then((cached) => cached || fetch(request))
+    caches.match(request).then((cached) => {
+      const fetchPromise = fetch(request).then((res) => {
+        const clone = res.clone();
+        caches.open(APP_SHELL_CACHE).then((cache) => cache.put(request, clone));
+        return res;
+      }).catch(() => cached);
+      return cached || fetchPromise;
+    })
   );
 });

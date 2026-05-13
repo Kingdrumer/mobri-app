@@ -139,13 +139,64 @@
         }
       }, 1500);
     } else if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('service-worker.js').catch(() => {});
+      // === 적극적인 서비스워커 업데이트 전략 ===
+      // 1) load 시 SW 등록
+      // 2) 등록 즉시 update() 한 번 + 다음 reg에 update listener
+      // 3) waiting SW가 있으면 SKIP_WAITING 보내서 즉시 활성화
+      // 4) controllerchange 발생하면 페이지 reload (새 SW가 control)
+      // 5) 페이지 visible 될 때마다 update() 호출
+
+      let __sw_refreshing = false;
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (__sw_refreshing) return;
+        __sw_refreshing = true;
+        window.location.reload();
       });
+
+      const __sw_promptUpdate = (reg) => {
+        if (reg.waiting) {
+          reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+        }
+      };
+
+      window.addEventListener('load', async () => {
+        try {
+          const reg = await navigator.serviceWorker.register('service-worker.js');
+          // 즉시 한 번 강제 체크
+          reg.update().catch(() => {});
+
+          // 이미 waiting 중인 새 SW가 있으면 활성화 트리거
+          __sw_promptUpdate(reg);
+
+          // updatefound — 새 SW 설치 진행 시
+          reg.addEventListener('updatefound', () => {
+            const nw = reg.installing;
+            if (!nw) return;
+            nw.addEventListener('statechange', () => {
+              if (nw.state === 'installed' && navigator.serviceWorker.controller) {
+                // 새 SW 설치 완료 + 이미 controller가 있는 상황 = 업데이트
+                reg.waiting && reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+              }
+            });
+          });
+
+          // 페이지가 보이는 상태가 될 때마다 업데이트 체크
+          document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState === 'visible') {
+              reg.update().catch(() => {});
+            }
+          });
+
+          // 5분마다 자동 체크 (열어둔 채로 깜빡잊을 때 대비)
+          setInterval(() => reg.update().catch(() => {}), 5 * 60 * 1000);
+        } catch (e) { /* SW 등록 실패는 조용히 무시 */ }
+      });
+
+      // (옵션) 옛 NEW_VERSION 메시지 호환 — 이전 버전 SW에서 보내는 경우
       navigator.serviceWorker.addEventListener('message', (event) => {
         if (event.data && event.data.type === 'NEW_VERSION') {
-          if (!window.__reloadingForUpdate) {
-            window.__reloadingForUpdate = true;
+          if (!__sw_refreshing) {
+            __sw_refreshing = true;
             window.location.reload();
           }
         }
