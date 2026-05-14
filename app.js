@@ -1013,24 +1013,37 @@ function closeDaySheet() {
   }, 300);
 }
 
-// 시트 핸들 드래그 다운으로 닫기 + 백드롭 탭으로 닫기 (한 번만 바인딩)
+// 시트 드래그 다운으로 닫기 — 핸들 + 컨텐츠 상단 모두에서 인식 + 속도 감지 + 낮은 임계값
 let _sheetInitDone = false;
 function initDaySheetGestures() {
   if (_sheetInitDone) return;
   _sheetInitDone = true;
   const sheet = $('#daySheet');
   const handleArea = $('#dsHandleArea');
+  const content = $('#selectedDayPanel');
   const backdrop = $('#daySheetBackdrop');
+  const closeBtn = $('#dsCloseBtn');
   if (!sheet || !handleArea) return;
 
   let startY = null;
+  let startTime = 0;
   let currentDelta = 0;
+  let activeFrom = null; // 'handle' | 'content'
 
-  const onStart = (clientY) => {
+  const CLOSE_THRESHOLD = 60;     // 60px 끌면 닫기 (이전 100 → 완화)
+  const FAST_CLOSE_THRESHOLD = 20; // 빠르게 끌면 20px만 끌어도 닫기
+  const FAST_VELOCITY = 0.35;      // px/ms — 빠른 플릭 기준
+
+  const onStart = (clientY, from) => {
+    // content에서 시작했으면 스크롤이 맨 위에 있을 때만 닫기 제스처 시작
+    if (from === 'content' && content && content.scrollTop > 0) return;
     startY = clientY;
+    startTime = Date.now();
     currentDelta = 0;
+    activeFrom = from;
     sheet.style.transition = 'none';
   };
+
   const onMove = (clientY) => {
     if (startY === null) return;
     const delta = clientY - startY;
@@ -1038,23 +1051,45 @@ function initDaySheetGestures() {
       currentDelta = delta;
       sheet.style.transform = `translateY(${delta}px)`;
       if (backdrop) backdrop.style.opacity = String(Math.max(0, 1 - delta / 400));
+    } else if (delta < -5 && activeFrom === 'content') {
+      // content에서 위로 스크롤하려고 한 거면 제스처 취소 (스크롤 양보)
+      sheet.style.transform = '';
+      if (backdrop) backdrop.style.opacity = '';
+      startY = null;
+      currentDelta = 0;
+      activeFrom = null;
     }
   };
+
   const onEnd = () => {
     if (startY === null) return;
     sheet.style.transition = '';
     sheet.style.transform = '';
     if (backdrop) backdrop.style.opacity = '';
-    if (currentDelta > 100) closeDaySheet();
+    const dt = Date.now() - startTime;
+    const velocity = currentDelta / Math.max(dt, 1);
+    const shouldClose =
+      currentDelta > CLOSE_THRESHOLD ||
+      (currentDelta > FAST_CLOSE_THRESHOLD && velocity > FAST_VELOCITY);
+    if (shouldClose) closeDaySheet();
     startY = null;
     currentDelta = 0;
+    activeFrom = null;
   };
 
-  handleArea.addEventListener('touchstart', (e) => onStart(e.touches[0].clientY), { passive: true });
-  handleArea.addEventListener('touchmove',  (e) => onMove(e.touches[0].clientY),  { passive: true });
-  handleArea.addEventListener('touchend',   onEnd);
+  const bindTouch = (el, from) => {
+    el.addEventListener('touchstart', (e) => onStart(e.touches[0].clientY, from), { passive: true });
+    el.addEventListener('touchmove',  (e) => onMove(e.touches[0].clientY),  { passive: true });
+    el.addEventListener('touchend',   onEnd);
+    el.addEventListener('touchcancel', onEnd);
+  };
+
+  bindTouch(handleArea, 'handle');
+  if (content) bindTouch(content, 'content');
+
+  // 마우스 드래그(데스크톱) — 핸들에서만
   handleArea.addEventListener('mousedown', (e) => {
-    onStart(e.clientY);
+    onStart(e.clientY, 'handle');
     const move = (ev) => onMove(ev.clientY);
     const up = () => {
       onEnd();
@@ -1064,9 +1099,25 @@ function initDaySheetGestures() {
     document.addEventListener('mousemove', move);
     document.addEventListener('mouseup', up);
   });
-  handleArea.addEventListener('click', () => closeDaySheet());
 
+  // 핸들 단순 탭(클릭) — 드래그 안 했을 때만 닫기
+  handleArea.addEventListener('click', () => {
+    if (currentDelta < 5) closeDaySheet();
+  });
+
+  // 명시적 X 닫기 버튼
+  closeBtn?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    closeDaySheet();
+  });
+
+  // 백드롭 탭
   backdrop?.addEventListener('click', closeDaySheet);
+
+  // ESC 키 (데스크톱)
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && sheet.classList.contains('open')) closeDaySheet();
+  });
 }
 
 function renderDay(d, muted, events) {
