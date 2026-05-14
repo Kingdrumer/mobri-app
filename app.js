@@ -3128,7 +3128,12 @@ function signalCard(s) {
           ${changeStr}
         </div>
       </div>
-      ${s.thesis ? `<div class="sig-thesis">${escapeHtml(paraBreak(s.thesis))}</div>` : ''}
+      ${s.thesis ? `
+        <div class="sig-why">
+          <div class="sig-why-label">💡 왜 추천하나요?</div>
+          <div class="sig-thesis">${escapeHtml(paraBreak(s.thesis))}</div>
+        </div>
+      ` : ''}
       ${hasDetail ? `
         <details class="sig-detail">
           <summary><span class="sig-detail-label">📋 자세히 보기</span></summary>

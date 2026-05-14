@@ -2466,12 +2466,26 @@ body.sheet-open {
 .sig-cat-badge.cat-issue  { background: rgba(255, 180, 84, 0.14); color: #FFC97A; }
 .sig-cat-badge.cat-earn   { background: rgba(199, 146, 234, 0.16); color: #DEB6F2; }
 
+.sig-why {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  background: rgba(255, 200, 100, 0.06);
+  border-left: 2px solid #FFC97A;
+  border-radius: 6px;
+}
+.sig-why-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #FFC97A;
+  margin-bottom: 4px;
+  letter-spacing: 0.02em;
+}
 .sig-thesis {
   font-size: 12.5px;
   line-height: 1.6;
   color: var(--text-primary);
   white-space: pre-line;
-  margin-bottom: 4px;
 }
 
 /* 자세히 보기 토글 */
