@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-05-14T15:45:00+09:00",
+  "lastUpdated": "2026-05-14T16:05:00+09:00",
   "us": [
     {
       "ticker": "GOOG",
       "name": "알파벳 (구글)",
       "sector": "빅테크",
-      "price": 384.84,
-      "change1D": -0.5,
-      "change1W": 0.7,
-      "change1M": 27.6,
-      "changeYTD": 22.7,
+      "price": 399.04,
+      "change1D": 3.97,
+      "change1W": 5.17,
+      "change1M": 32.07,
+      "changeYTD": 27.17,
       "beta": 1.15,
       "signal": "green",
-      "note": "5/12 베이징 회담 앞두고 빅테크 차익실현 -2.46%, 펀더멘털 그대로",
+      "note": "5/13 +3.97% $399.04 — PPI 핫쇼크에도 빅테크 반등 주도, 베이징 회담 우호적 분위기",
       "simpleExplain": "구글 모회사. 검색·광고에서 안정적인 캐시카우, 클라우드+AI에서 구조적 성장 동력. 변동성은 빅테크 평균 수준.",
-      "todayWhy": "5/12 약 -0.50% $384.84 추정 — CPI 핫쇼크에 빅테크 약한 매도. 베이징 회담 5/14~15 임박 + 분위기 수비.",
+      "todayWhy": "5/13 +3.97% $399.04 — 어젯밤 미 PPI +6% 핫쇼크에도 S&P 사상 최고로 반등, 빅테크가 지수 견인. 베이징 트럼프-시진핑 정상회담 우호 분위기.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 425,
@@ -57,9 +57,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo"
+        "Yahoo",
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정",
+      "dataQualityNote": null,
       "company": {
         "ceo": "Sundar Pichai",
         "business": "알파벳은 지주 회사다. 사업 부문은 Google Services, Google Cloud 및 Other Bets 등이다. Google Services 부문은 광고, Android, Chrome, 장치, Google Maps, Google Play, Search, YouTube 등의 제품 및 서비스를 제공한다. Google Cloud 부문은 기업 고객을 위한",
@@ -74,16 +75,16 @@
       "ticker": "META",
       "name": "메타",
       "sector": "빅테크",
-      "price": 599.01,
-      "change1D": -0.8,
-      "change1W": -0.2,
-      "change1M": 10.4,
-      "changeYTD": -8.1,
+      "price": 616.63,
+      "change1D": 2.26,
+      "change1W": 2.86,
+      "change1M": 13.46,
+      "changeYTD": -5.04,
       "beta": 1.49,
       "signal": "yellow",
-      "note": "빅테크 차익실현 -2.62% — CapEx 145B$ 부담 vs 광고 강세 갈림 그대로",
+      "note": "5/13 +2.26% $616.63 — 빅테크 반등 동참, CapEx $145B 부담은 그대로",
       "simpleExplain": "페이스북·인스타그램 모회사. 광고 매출이 본업, AI·메타버스 투자가 미래. 광고 사이클·AI 수익화 시점이 핵심.",
-      "todayWhy": "5/12 약 -0.80% $599.01 추정 — CPI 컨센 상회 + 빅테크 차익실현 동조 약세.",
+      "todayWhy": "5/13 +2.26% $616.63 — 빅테크 반등 흐름에 동참. 4월 PPI 핫쇼크에도 광고 펀더멘털 강세 유지.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 725,
@@ -121,9 +122,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo"
+        "Yahoo",
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정",
+      "dataQualityNote": null,
       "company": {
         "ceo": "Mark Zuckerberg",
         "business": "이 회사는 사람들이 연결하고 공유하고, 커뮤니티를 찾고, 비즈니스를 성장시키는 데 도움이 되는 기술을 개발한다. 이 회사의 제품은 사람들이 모바일 장치, 개인용 컴퓨터, 가상현실(VR) 및 혼합현실(MR) 헤드셋, 웨어러블을 통해 친구 및 가족과 연결하고 공유할 수 있도록 지원한다. 이 회사는 2개의 부문인 Family of Apps(FoA)와 Realit",
@@ -138,16 +140,16 @@
       "ticker": "AMZN",
       "name": "아마존",
       "sector": "빅테크",
-      "price": 267.39,
-      "change1D": -0.6,
-      "change1W": -0.3,
-      "change1M": 30.5,
-      "changeYTD": 15.1,
+      "price": 270.13,
+      "change1D": 1.62,
+      "change1W": 1.92,
+      "change1M": 32.72,
+      "changeYTD": 17.32,
       "beta": 1.47,
       "signal": "yellow",
-      "note": "AWS Virginia 정전 여진 + 빅테크 차익실현 -0.80%",
+      "note": "5/13 +1.62% $270.13 — AWS 정전 여진 회복, 빅테크 반등 동참",
       "simpleExplain": "이커머스+AWS 클라우드. AI 시대엔 AWS가 캐시카우 + 성장엔진 동시 역할. 단기 사고는 단발성, 펀더멘털 견조.",
-      "todayWhy": "5/12 약 -0.60% $267.39 추정 — 빅테크 약세 동조, AWS 정전 여파 일부 잔존.",
+      "todayWhy": "5/13 +1.62% $270.13 — AWS Virginia 정전 영향에서 회복하며 빅테크 반등 흐름 동참.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 290,
@@ -190,9 +192,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "TheStreet"
+        "Yahoo",
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정",
+      "dataQualityNote": null,
       "company": {
         "ceo": "Jeffrey P. Bezos",
         "business": "아마존닷컴은 고객에게 다양한 제품과 서비스를 제공한다. 스토어를 통해 제공되는 제품에는 재판매를 위해 구매한 상품 및 콘텐츠와 타사 판매자가 제공하는 제품이 포함된다. 사업 부문은 북미, 국제, 아마존 웹 서비스(AWS)로 나뉜다. 온라인 및 오프라인 스토어를 통해 소비자에게 서비스를 제공하며 선택, 가격, 편의성에 중점을 둔다. 고객은 웹사이트, 모바일",
@@ -207,16 +210,16 @@
       "ticker": "NVDA",
       "name": "엔비디아",
       "sector": "반도체",
-      "price": 216.43,
-      "change1D": -2.5,
-      "change1W": 8.9,
-      "change1M": 27.6,
-      "changeYTD": 19.7,
+      "price": 225.83,
+      "change1D": 2.29,
+      "change1W": 13.69,
+      "change1M": 32.39,
+      "changeYTD": 24.49,
       "beta": 2.07,
       "signal": "green",
-      "note": "★ 5/20 실적 D-8 — 인텔-애플 합작 + 반도체 사이클 강세 +3.15%",
+      "note": "★ 5/13 +2.29% $225.83 신고가 임박 — 5/20 실적 D-7, 52주 최고 $223.75 돌파",
       "simpleExplain": "AI GPU 압도적 1위. AI 시대의 핵심 인프라 공급사. 5/20 Q1 실적이 단기 가장 큰 이벤트.",
-      "todayWhy": "5/12 약 -2.50% $216.43 추정 — QCOM -12%·INTC -9% 칩 바다 빨갛게 동조 약세. 5/20 실적 D-7.",
+      "todayWhy": "5/13 +2.29% $225.83 — 52주 최고 $223.75 돌파, 5/20 실적 D-7 기대감. 반도체 사이클 강세 지속.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 266,
@@ -271,9 +274,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Motley Fool"
+        "Yahoo",
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정",
+      "dataQualityNote": null,
       "company": {
         "ceo": "Jen-Hsun Huang",
         "business": "이 회사는 인공지능(AI) 인프라 업체로 고난도 연산 문제 해결을 지원하기 위한 가속 컴퓨팅 사업을 영위한다. 사업부문은 Compute & Networking 부문과 Graphics 부문으로 구성된다. Compute & Networking 부문에는 데이터센터용 가속 컴퓨팅 및 네트워킹 플랫폼, AI 솔루션 및 소프트웨어, 자동차 플랫폼 및 자율주행·전기차",
@@ -288,16 +292,16 @@
       "ticker": "TSM",
       "name": "TSMC",
       "sector": "반도체",
-      "price": 396.45,
-      "change1D": -2.0,
-      "change1W": 3.5,
-      "change1M": 25.4,
-      "changeYTD": 32.5,
+      "price": 399.8,
+      "change1D": 0.63,
+      "change1W": 6.13,
+      "change1M": 28.03,
+      "changeYTD": 35.13,
       "beta": 1.12,
       "signal": "green",
-      "note": "AMD 후광 신고가 후 차익실현 -1.73%, 2nm CAGR 70% 그대로",
+      "note": "5/13 +0.63% $399.80 — AMD 후광 + 2nm CAGR 70% 펀더멘털 그대로",
       "simpleExplain": "세계 최대 반도체 위탁생산. NVDA·AMD·AAPL이 모두 고객. AI 호황의 가장 안전한 노출 — 변동성도 가장 낮음.",
-      "todayWhy": "5/12 약 -2.00% $396.45 추정 — 칩 섹터 동반 약세, 베타 1.12로 가장 안정적 내림.",
+      "todayWhy": "5/13 +0.63% $399.80 — 보합권 마감. 2nm 공정 CAGR 70% 펀더멘털 변함 없음. 미중 회담 관세 우려 일부 해소.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 470,
@@ -343,10 +347,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "CNBC",
         "Yahoo",
-        "StockAnalysis"
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정",
+      "dataQualityNote": null,
       "company": {
         "ceo": "C.C. Wei",
         "business": "타이완 반도체 매뉴팩처링은 주로 회로 제조 서비스 제공에 종사하는 대만 기반의 회사이다. 이 회사의 집적 회로 제조 서비스에는 공정 기술, 특수 공정 기술, 설계 생태계 지원, 마스크 기술, 3DFabricTM 고급 패키징 및 실리콘 적층 기술 서비스가 포함된다. 이 회사는 5nm 기술의 이전 및 양산을 완료했으며, 3nm 공정 기술과 2nm 공정 기술의",
@@ -361,16 +366,16 @@
       "ticker": "AVGO",
       "name": "브로드컴",
       "sector": "반도체",
-      "price": 417.13,
-      "change1D": -2.5,
-      "change1W": 6.7,
-      "change1M": 47.4,
-      "changeYTD": 22.4,
+      "price": 416.79,
+      "change1D": -0.6,
+      "change1W": 8.6,
+      "change1M": 49.3,
+      "changeYTD": 24.3,
       "beta": 2.44,
-      "signal": "green",
-      "note": "사실상 보합 -0.15%, 메타 6GW 자체 AI 칩 다년 계약 그대로",
+      "signal": "yellow",
+      "note": "5/13 -0.60% $416.79 — 메타 6GW 자체 AI 칩 계약 그대로, 차익실현 매물",
       "simpleExplain": "맞춤형 AI 칩 설계 회사. 메타·구글의 자체 AI 칩 핵심 파트너. 베타 2.44로 변동성 큼.",
-      "todayWhy": "5/12 약 -2.50% $417.13 추정 — 칩 바다 빨갛게 동조, 베타 2.44 고변동성 영향.",
+      "todayWhy": "5/13 -0.60% $416.79 — 약보합. 메타 6GW AI 칩 다년 계약 펀더멘털 강하지만 단기 차익실현 매물.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 460,
@@ -412,10 +417,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "CNBC",
         "Yahoo",
-        "CNBC"
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정",
+      "dataQualityNote": null,
       "company": {
         "ceo": "Hock E. Tan",
         "business": "이 회사는 광범위한 반도체, 엔터프라이즈 소프트웨어 및 보안 솔루션을 설계, 개발, 공급하는 글로벌 기술 기업이다. 반도체 솔루션과 인프라 소프트웨어의 두 가지 부문으로 운영된다. 반도체 솔루션 부문에는 모든 제품 라인과 지적 재산권(IP) 라이선싱이 포함된다. 데이터 센터, 서비스 제공업체 및 엔터프라이즈 네트워킹 애플리케이션에서 데이터 이동을 관리하기",
@@ -430,16 +436,16 @@
       "ticker": "MU",
       "name": "마이크론",
       "sector": "반도체",
-      "price": 763.31,
-      "change1D": -3.5,
-      "change1W": 39.0,
-      "change1M": 84.9,
-      "changeYTD": 164.5,
+      "price": 803.63,
+      "change1D": 4.83,
+      "change1W": 47.33,
+      "change1M": 93.23,
+      "changeYTD": 172.83,
       "beta": 2.43,
-      "signal": "yellow",
-      "note": "★ +6.35% — NAND 가격 Q1 +60%, 현 분기 +70~75% 전망",
+      "signal": "green",
+      "note": "★ 5/13 +4.83% $803.63 신고가 임박 — NAND 가격 Q1 +60%, 현 분기 +70~75% 전망",
       "simpleExplain": "메모리 반도체. NVDA·AMD GPU에 들어가는 HBM 메모리 핵심 공급. AI 호황 = 메모리 호황 공식.",
-      "todayWhy": "5/12 약 -3.50% $763.31 추정 — CPI 핫쇼크 + 메모리 고밸류 차익실현. 한국 삼전·하이닉스 동조 약세 영향.",
+      "todayWhy": "5/13 +4.83% $803.63 — NAND 가격 +60% Q1, +70~75% 전망 지속. 메모리 사이클 강세 모멘텀 유지.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 800,
@@ -489,9 +495,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo"
+        "Yahoo",
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정",
+      "dataQualityNote": null,
       "company": {
         "ceo": "Sanjay Mehrotra",
         "business": "이 회사는 메모리 및 스토리지 솔루션 제공업체다. 이 회사는 마이크론 및 크루셜 브랜드를 통해 고성능 동적 랜덤 액세스 메모리(DRAM), NAND, NOR 메모리 및 스토리지 제품 포트폴리오를 제공한다. 회사의 사업 부문에는 컴퓨팅 및 네트워킹 사업부(CNBU), 모바일 사업부(MBU), 임베디드 사업부(EBU), 스토리지 사업부(SBU)가 있다. CNB",
@@ -506,16 +513,16 @@
       "ticker": "MRVL",
       "name": "마벨",
       "sector": "반도체",
-      "price": 173.81,
-      "change1D": 3.0,
-      "change1W": 2.4,
-      "change1M": 69.2,
-      "changeYTD": 98.8,
+      "price": 177.95,
+      "change1D": 8.18,
+      "change1W": 7.58,
+      "change1M": 74.38,
+      "changeYTD": 103.98,
       "beta": 2.34,
-      "signal": "yellow",
-      "note": "★ 5/28 실적 D-16, 차익실현 후 +5.46% 매수 회복",
+      "signal": "green",
+      "note": "★ 5/13 +8.18% $177.95 — 5/28 실적 D-15, 광통신·DC 모멘텀 폭발",
       "simpleExplain": "맞춤형 칩(ASIC) 설계. 구글 TPU 공동개발 + NVDA $2B 투자. 1개월 +50% 폭주 후 단기 차익실현 정상.",
-      "todayWhy": "5/12 약 +3.00% $173.81 추정 — LITE 나스닥100 편입 옵틱스 테마 동조 강세. 5/28 실적 D-16.",
+      "todayWhy": "5/13 +8.18% $177.95 — 5/28 실적 D-15 앞두고 광통신·데이터센터 모멘텀 폭발. AI 인프라 빌더 수혜.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 220,
@@ -558,10 +565,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "CNBC",
         "Yahoo",
-        "CNBC"
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정",
+      "dataQualityNote": null,
       "company": {
         "ceo": "Matthew J. Murphy",
         "business": "이 회사는 자회사를 통해 데이터 인프라 반도체 솔루션을 공급하는 업체다. 이 회사는 집적 회로의 설계, 개발 및 판매에 종사한다. 이 회사의 제품 솔루션은 데이터 센터, 엔터프라이즈 네트워킹, 통신사 인프라, 소비자, 자동차/산업 등 5가지 최종 시장에 서비스를 제공한다. 이 회사의 제품에는 맞춤형 애플리케이션별 집적 회로(ASIC), 전자 광학, 이더넷",
@@ -576,16 +584,16 @@
       "ticker": "AMD",
       "name": "AMD",
       "sector": "반도체",
-      "price": 446.2,
-      "change1D": -3.0,
-      "change1W": 33.2,
-      "change1M": 111.8,
-      "changeYTD": 111.0,
+      "price": 445.5,
+      "change1D": -0.62,
+      "change1W": 35.58,
+      "change1M": 114.18,
+      "changeYTD": 113.38,
       "beta": 1.85,
-      "signal": "green",
-      "note": "어닝 후 분석가 PT 줄상향 — KeyBanc $530, TD Cowen $500, 5/11 +1.06%",
+      "signal": "yellow",
+      "note": "5/13 -0.62% $445.50 — 약보합, KeyBanc $530·TD Cowen $500 목표가 그대로",
       "simpleExplain": "NVDA의 직접 경쟁사. MI 시리즈 GPU로 AI 시장 점유율 빠르게 확대 중. 5/7 어닝 폭발, 1개월 +91%.",
-      "todayWhy": "5/12 약 -3.00% $446.20 추정 — 칩 섹터 동반 약세, CPI 핫쇼크 후 고밸류 차익실현.",
+      "todayWhy": "5/13 -0.62% $445.50 — 약보합 마감. 분석가 PT 상향($530/$500) 그대로지만 신고가 영역 차익실현.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 510,
@@ -628,9 +636,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo"
+        "Yahoo",
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정",
+      "dataQualityNote": null,
       "company": {
         "ceo": "Lisa T. Su",
         "business": "이 회사는 글로벌 반도체 회사다. 고성능 컴퓨팅, 그래픽 및 시각화 기술에 중점을 둔다. 데이터 센터, 클라이언트, 게임 및 임베디드 부문이 있다. 데이터 센터 부문에는 서버 중앙 처리 장치(CPU), 그래픽 처리 장치(GPU), 가속 처리 장치(APU), 데이터 처리 장치(DPU), 필드 프로그래머블 게이트 어레이(FPGA), 스마트 네트워크 인터페이스",
@@ -645,16 +654,16 @@
       "ticker": "SNDK",
       "name": "샌디스크",
       "sector": "반도체",
-      "price": 1504.3,
-      "change1D": -2.5,
-      "change1W": 28.4,
-      "change1M": 113.0,
-      "changeYTD": 499.9,
+      "price": 1447.23,
+      "change1D": -0.33,
+      "change1W": 30.57,
+      "change1M": 115.17,
+      "changeYTD": 502.07,
       "beta": 2.41,
       "signal": "red",
-      "note": "★ -1.20% 소폭 차익실현, 인사이더 매도 11건 + 평균 PT $551 한참 아래",
+      "note": "★ 5/13 -0.33% $1,447.23 — 인사이더 매도 11건 + 평균 PT $551 한참 아래",
       "simpleExplain": "낸드 플래시 메모리 회사. AI 데이터센터 스토리지 수요 폭발의 1차 수혜. 1년 +3,300% 누적 차익실현 위험.",
-      "todayWhy": "5/12 약 -2.50% $1,504.30 추정 — 메모리·NAND 고밸류 차익실현, YTD +500% 후 매물 누적.",
+      "todayWhy": "5/13 -0.33% $1,447.23 — 약보합. 인사이더 매도 11건 + 평균 PT $551 한참 아래 부담 지속.",
       "outlook": {
         "rating": "Hold",
         "targetPrice": 1700,
@@ -697,10 +706,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "CNBC",
         "Yahoo",
-        "Investing.com"
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정",
+      "dataQualityNote": null,
       "company": {
         "ceo": "David V. Goeckeler",
         "business": "이 회사는 낸드 플래시 기술을 기반으로 한 데이터 저장 장치 및 솔루션을 개발, 제조, 공급하는 회사로 전 세계에 소비자 브랜드와 프랜차이즈를 보유하고 있다. 이 회사의 솔루션으로는 다양한 SSD(솔리드 스테이트 드라이브) 임베디드 제품, 이동식 카드, USB 드라이브, 웨이퍼 및 부품이 있다. 광범위한 기술 및 제품 포트폴리오는 클라우드, 클라이언트, 소",
@@ -715,16 +725,16 @@
       "ticker": "DELL",
       "name": "델",
       "sector": "AI 인프라",
-      "price": 239.11,
-      "change1D": -2.2,
-      "change1W": 13.1,
-      "change1M": 42.2,
-      "changeYTD": 93.0,
+      "price": 243.87,
+      "change1D": 2.06,
+      "change1W": 17.36,
+      "change1M": 46.46,
+      "changeYTD": 97.26,
       "beta": 1.96,
-      "signal": "yellow",
-      "note": "★ UBS Buy→Neutral 다운그레이드 -6.11%, PT는 $167→$243 상향 (가치 평가 이슈)",
+      "signal": "green",
+      "note": "★ 5/13 +2.06% $243.87 — UBS 다운그레이드 충격 일부 회복",
       "simpleExplain": "AI 서버 OEM. NVDA GPU를 받아 기업 데이터센터에 납품하는 시스템 통합사. AI 백로그 $18.4B 사상 최대.",
-      "todayWhy": "5/12 약 -2.20% $239.11 추정 — UBS 다운그레이드 잔존 + 칩·기술주 동반 차익실현. 인트라데이 $228.50~$242.50.",
+      "todayWhy": "5/13 +2.06% $243.87 — UBS Buy→Neutral 다운그레이드 충격에서 일부 회복. PT $243 도달.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 280,
@@ -777,9 +787,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo"
+        "Yahoo",
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정 (TheStreet 하이/로 데이터 기반)",
+      "dataQualityNote": null,
       "company": {
         "ceo": "Michael S. Dell",
         "business": "이 회사는 광범위한 종합적이고 통합적인 솔루션, 제품 및 서비스를 설계, 개발, 제조, 마케팅, 판매 및 지원하는 사업을 한다. 인프라 솔루션 그룹(ISG)과 클라이언트 솔루션 그룹(CSG)의 두 부문으로 운영된다. ISG 부문은 AI, 머신 러닝, 데이터 분석, 멀티 클라우드 환경을 지원하는 솔루션으로 고객의 디지털 트랜스포메이션을 지원한다. 올플래시 어",
@@ -794,16 +805,16 @@
       "ticker": "LITE",
       "name": "루멘텀",
       "sector": "AI 인프라",
-      "price": 1053.09,
-      "change1D": 16.82,
-      "change1W": 0.7,
-      "change1M": 20.6,
-      "changeYTD": 132.5,
+      "price": 1030.37,
+      "change1D": 3.83,
+      "change1W": -12.29,
+      "change1M": 7.61,
+      "changeYTD": 119.51,
       "beta": 2.38,
-      "signal": "yellow",
-      "note": "옵틱스 섹터 매도 노출 -9.85%, Q3 +90% 펀더멘털·Q4 가이던스 상향 그대로",
+      "signal": "green",
+      "note": "★ 5/13 +3.83% $1,030.37 — 나스닥100 편입 5/18 모멘텀 + 옵틱스 강세",
       "simpleExplain": "AI 데이터센터 광통신 핵심 부품. NVDA GPU와 GPU를 연결하는 광학 모듈 공급. CPO·OCS 수직 진출.",
-      "todayWhy": "5/12 +16.82% $1,053.09 ATH ★ — Nasdaq이 5/18부터 LITE를 Nasdaq-100에 편입(CSGP 대체) 발표. 패시브 ETF 강제 매수 폭발. COHR +13%·GLW +11% 동반 폭등으로 옵틱스 트리오가 S&P 500 일일 상위 1·2·3위 독식. 5/5 발표한 FY3Q 매출 $808.4M(+90% YoY 회사 신기록)이 펀더멘털 뒷배.",
+      "todayWhy": "5/13 +3.83% $1,030.37 — 5/18 나스닥100 편입 발표 모멘텀 지속. 광통신 섹터 강세 흐름 동참.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 1270,
@@ -845,8 +856,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "WallStreetZen",
-        "Yahoo"
+        "CNBC",
+        "Yahoo",
+        "네이버금융"
       ],
       "dataQualityNote": null,
       "company": {
@@ -863,16 +875,16 @@
       "ticker": "CLS",
       "name": "셀레스티카",
       "sector": "AI 인프라",
-      "price": 399.66,
-      "change1D": 5.0,
-      "change1W": -5.1,
-      "change1M": 42.4,
-      "changeYTD": 25.9,
+      "price": 372.55,
+      "change1D": -0.41,
+      "change1W": -10.51,
+      "change1M": 36.99,
+      "changeYTD": 20.49,
       "beta": 2.42,
       "signal": "yellow",
-      "note": "★ -12.50% 옵틱스 매도 직격, 1.6T CPO 스위치 펀더멘털 영향 미미",
+      "note": "5/13 -0.41% $372.55 — 옵틱스 매도 여진, 1.6T CPO 펀더멘털 미반영",
       "simpleExplain": "AI 서버·스위치 시스템 통합 제조. 하이퍼스케일러(아마존·구글·메타) 맞춤형 인프라 공급. 1.6T CPO 이더넷 스위치 양산 대기.",
-      "todayWhy": "5/12 약 +5.00% $399.66 추정 — LITE 나스닥100 편입에 옵틱스/AI 인프라 테마 동반 강세 추정. 5/11 -12.50% 충격에서 회복 시도.",
+      "todayWhy": "5/13 -0.41% $372.55 — 약보합. 옵틱스 매도 여진 일부 잔존하나 1.6T CPO 스위치 펀더멘털 변함 없음.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 480,
@@ -908,10 +920,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "CNBC",
         "Yahoo",
-        "StockAnalysis"
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정",
+      "dataQualityNote": null,
       "company": {
         "ceo": "Robert Andrew Mionis",
         "business": "이 회사는 설계, 제조, 하드웨어 플랫폼 및 공급망 솔루션에 종사한다. 이 회사는 첨단 기술 솔루션(ATS)과 커넥티비티 및 클라우드 솔루션(CCS)의 두 부문으로 운영된다. ATS 부문은 ATS 최종 시장으로 구성되며 항공우주 및 방위(A&D), 산업, 헬스 테크 및 자본 장비 사업으로 구성된다. 자본 장비 사업은 반도체, 디스플레이 및 로봇 장비 사업으",
@@ -926,16 +939,16 @@
       "ticker": "CRDO",
       "name": "크레도",
       "sector": "AI 인프라",
-      "price": 213.37,
-      "change1D": 1.5,
-      "change1W": 13.1,
-      "change1M": 121.3,
-      "changeYTD": 37.8,
+      "price": 189.36,
+      "change1D": -4.64,
+      "change1W": 6.96,
+      "change1M": 115.16,
+      "changeYTD": 31.66,
       "beta": 3.43,
       "signal": "red",
-      "note": "★ +11.52% 단독 폭등 — 6/4 실적 옵션 베팅 + DustPhotonics 인수 모멘텀",
+      "note": "★ 5/13 -4.64% $189.36 — 6/4 실적 옵션 베팅 단기 차익실현",
       "simpleExplain": "AI 데이터센터 고속 데이터 전송 칩. NVDA·AMD GPU 클러스터 연결의 핵심 부품. 베타 3.43으로 우리 포트폴리오 변동성 1위.",
-      "todayWhy": "5/12 약 +1.50% $213.37 추정 — 옵틱스 테마 단독 강세 모멘텀 잔존. 6/4 실적 D-22.",
+      "todayWhy": "5/13 -4.64% $189.36 — 6/4 실적 앞두고 옵션 베팅 단기 차익실현 매물. DustPhotonics 인수 호재는 그대로.",
       "outlook": {
         "rating": "Moderate Buy",
         "targetPrice": 208,
@@ -977,10 +990,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "CNBC",
         "Yahoo",
-        "Perplexity"
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정",
+      "dataQualityNote": null,
       "company": {
         "ceo": "William Brennan",
         "business": "이 회사는 케이맨 제도에 기반을 둔 지주 회사다. 데이터 인프라 시장의 모든 유선 연결에서 대역폭 장벽을 허무는 고속 솔루션을 제공한다. 데이터 인프라 시장에서 데이터 속도와 그에 따른 대역폭 요구 사항이 기하급수적으로 증가함에 따라 전력 효율을 개선하는 고속 연결 솔루션을 제공한다. 이 회사의 연결 솔루션은 새롭게 부상하는 초당 100기가비트(G), 20",
@@ -995,16 +1009,16 @@
       "ticker": "TLN",
       "name": "탈렌에너지",
       "sector": "AI 전력",
-      "price": 384.94,
-      "change1D": -0.5,
-      "change1W": 9.0,
-      "change1M": 20.0,
-      "changeYTD": 3.2,
+      "price": 351.03,
+      "change1D": -6.29,
+      "change1W": 3.21,
+      "change1M": 14.21,
+      "changeYTD": -2.59,
       "beta": 1.54,
-      "signal": "green",
-      "note": "★ AI 전력 테마 차익실현 -3.28%, AWS PPA 풀 램프 펀더멘털 그대로",
+      "signal": "yellow",
+      "note": "★ 5/13 -6.29% $351.03 — AI 전력 테마 강한 차익실현, AWS PPA 펀더멘털 그대로",
       "simpleExplain": "원전·천연가스 발전사. AI 데이터센터가 늘수록 전력 수요도 같이 폭발. AWS와 18B$ 장기 PPA(전력 공급) 계약 체결.",
-      "todayWhy": "5/12 약 -0.50% $384.94 추정 — WTI $103+ 유가 상승 부분 수혜 vs 기술주 약세 혼조. OKLO Q1 실적 같은 AI 전력 테마 분위기 안정.",
+      "todayWhy": "5/13 -6.29% $351.03 — AI 전력 테마 강한 차익실현 매물. AWS PPA 풀 램프 펀더멘털 변함 없음.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 420,
@@ -1040,10 +1054,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "CNBC",
         "Yahoo",
-        "CNBC"
+        "네이버금융"
       ],
-      "dataQualityNote": "추정치 — 정확한 종가는 다음 갱신에서 확정",
+      "dataQualityNote": null,
       "company": {
         "ceo": "Terry L. Nutt",
         "business": "이 회사는 독립적인 전력 생산 및 인프라 회사다. 미국에서 약 10.7기가와트의 전력 인프라를 소유 및 운영한다. 중부 대서양과 몬태나에 위치한 발전소를 통해 전력, 용량 및 보조 서비스를 생산하여 PJM 및 WECC를 포함한 미국 도매 전력 시장에 판매한다. 이미 대부분의 전력을 무탄소 원자력 및 저탄소 가스 연소 시설에서 생산하고 있지만, 저탄소 연료로",
