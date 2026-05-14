@@ -3107,7 +3107,7 @@ function signalCard(s) {
     ? `<span class="sig-change ${s.change1D >= 0 ? 'pos' : 'neg'}">${pct(s.change1D)}</span>`
     : '';
 
-  const hasDetail = s.financials || s.comparable || s.risk || s.horizon || s.outlook || s.outlookEasy || s.company || s.financialStatements;
+  const hasDetail = s.financials || s.comparable || s.risk || s.horizon || s.outlook || s.outlookEasy || s.company || s.financialStatements || (s.relatedStocks && s.relatedStocks.length);
 
   return `
     <div class="sig-card cat-${catColor}" data-sig-card>
@@ -3197,6 +3197,35 @@ function signalCard(s) {
             ` : ''}
             ${s.risk ? `<div class="sig-block"><span class="sig-block-lbl">⚠️ 리스크</span><span class="sig-block-val">${escapeHtml(s.risk)}</span></div>` : ''}
             ${s.horizon ? `<div class="sig-block"><span class="sig-block-lbl">⏱️ 예상 기간</span><span class="sig-block-val">${escapeHtml(s.horizon)}</span></div>` : ''}
+            ${(s.relatedStocks && s.relatedStocks.length) ? `
+              <div class="sig-block sig-block-related">
+                <span class="sig-block-lbl">🔗 같이 볼 종목</span>
+                <div class="sig-block-val">
+                  <div class="sig-related-list">
+                    ${s.relatedStocks.map((r) => {
+                      const isKr = /^A?\d+$/.test(r.code);
+                      const unit = isKr ? '원' : '$';
+                      const priceStr = r.currentPrice
+                        ? (isKr ? `${r.currentPrice}${unit}` : `${unit}${r.currentPrice}`)
+                        : '—';
+                      const changeCls = r.change1D == null ? '' : (r.change1D >= 0 ? 'pos' : 'neg');
+                      const changeStr = r.change1D == null ? '' : pct(r.change1D);
+                      return `
+                        <div class="sig-related-item">
+                          <div class="sig-related-head">
+                            <span class="sig-related-name">${escapeHtml(r.name)}</span>
+                            <span class="sig-related-price">${escapeHtml(priceStr)}
+                              ${changeStr ? `<span class="sig-related-change ${changeCls}">${changeStr}</span>` : ''}
+                            </span>
+                          </div>
+                          <div class="sig-related-relation">${escapeHtml(r.relation)}</div>
+                        </div>
+                      `;
+                    }).join('')}
+                  </div>
+                </div>
+              </div>
+            ` : ''}
           </div>
           ${(s.sources && s.sources.length) ? `
             <div class="sig-sources">

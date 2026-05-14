@@ -424,7 +424,33 @@
             }
           ]
         },
-        "financialStatementsEasy": "SK하이닉스 매출이 2024.12. 66.2조원에서 2025.12. 97.1조원으로 +47% 변했어요. 영업이익은 +101% 변동. 증권사 분석가들은 2026.12. 매출이 331.6조원(+241%) 갈 거라고 추정해요. 영업이익률(매출에서 영업이익 비율)이 48.6%로 굉장히 높아요."
+        "financialStatementsEasy": "SK하이닉스 매출이 2024.12. 66.2조원에서 2025.12. 97.1조원으로 +47% 변했어요. 영업이익은 +101% 변동. 증권사 분석가들은 2026.12. 매출이 331.6조원(+241%) 갈 거라고 추정해요. 영업이익률(매출에서 영업이익 비율)이 48.6%로 굉장히 높아요.",
+        "relatedStocks": [
+          {
+            "code": "005930",
+            "name": "삼성전자",
+            "market": "KOSPI",
+            "relation": "HBM 경쟁사 — 메모리 사이클 같이 움직임",
+            "currentPrice": "292,000",
+            "change1D": 2.82
+          },
+          {
+            "code": "042700",
+            "name": "한미반도체",
+            "market": "KOSPI",
+            "relation": "HBM 본더 장비 — 하이닉스 매출 직접 수혜",
+            "currentPrice": "401,000",
+            "change1D": 0.12
+          },
+          {
+            "code": "445090",
+            "name": "한솔원자력",
+            "market": "KOSPI",
+            "relation": "AI 데이터센터 전력 — 메모리 수요와 동행",
+            "currentPrice": "29,450",
+            "change1D": -2.64
+          }
+        ]
       },
       {
         "ticker": "012450",
@@ -506,7 +532,33 @@
             }
           ]
         },
-        "financialStatementsEasy": "한화에어로스페이스 매출이 2024.12. 11.2조원에서 2025.12. 26.7조원으로 +138% 변했어요. 영업이익은 +78% 변동. 증권사 분석가들은 2026.12. 매출이 30.2조원(+13%) 갈 거라고 추정해요. 영업이익률은 11.6%로 평균 수준이에요."
+        "financialStatementsEasy": "한화에어로스페이스 매출이 2024.12. 11.2조원에서 2025.12. 26.7조원으로 +138% 변했어요. 영업이익은 +78% 변동. 증권사 분석가들은 2026.12. 매출이 30.2조원(+13%) 갈 거라고 추정해요. 영업이익률은 11.6%로 평균 수준이에요.",
+        "relatedStocks": [
+          {
+            "code": "272210",
+            "name": "한화시스템",
+            "market": "KOSPI",
+            "relation": "한화 그룹 방산 자회사 — 같은 모멘텀",
+            "currentPrice": "113,900",
+            "change1D": 3.92
+          },
+          {
+            "code": "047810",
+            "name": "한국항공우주",
+            "market": "KOSPI",
+            "relation": "KAI — 한화에어로가 지분 5% 보유",
+            "currentPrice": "169,800",
+            "change1D": 3.85
+          },
+          {
+            "code": "079550",
+            "name": "LIG넥스원",
+            "market": "KOSPI",
+            "relation": "미사일·유도무기 방산 — 정책 동조",
+            "currentPrice": "874,000",
+            "change1D": 0.11
+          }
+        ]
       },
       {
         "ticker": "034020",
@@ -588,7 +640,33 @@
             }
           ]
         },
-        "financialStatementsEasy": "두산에너빌리티 매출이 2024.12. 16.2조원에서 2025.12. 17.1조원으로 +5% 변했어요. 영업이익은 -25% 변동. 증권사 분석가들은 2026.12. 매출이 18.1조원(+6%) 갈 거라고 추정해요. 영업이익률은 4.5%로 낮은 편이에요."
+        "financialStatementsEasy": "두산에너빌리티 매출이 2024.12. 16.2조원에서 2025.12. 17.1조원으로 +5% 변했어요. 영업이익은 -25% 변동. 증권사 분석가들은 2026.12. 매출이 18.1조원(+6%) 갈 거라고 추정해요. 영업이익률은 4.5%로 낮은 편이에요.",
+        "relatedStocks": [
+          {
+            "code": "454910",
+            "name": "두산로보틱스",
+            "market": "KOSPI",
+            "relation": "두산 그룹 동일 — 같은 자금 흐름",
+            "currentPrice": "105,300",
+            "change1D": 2.63
+          },
+          {
+            "code": "241560",
+            "name": "두산밥캣",
+            "market": "KOSPI",
+            "relation": "두산 그룹 — 동행 가능성",
+            "currentPrice": "70,400",
+            "change1D": 0.14
+          },
+          {
+            "code": "329180",
+            "name": "HD현대중공업",
+            "market": "KOSPI",
+            "relation": "원전·발전 설비 동종 — SMR 동조",
+            "currentPrice": "671,000",
+            "change1D": -8.46
+          }
+        ]
       },
       {
         "ticker": "377300",
@@ -670,7 +748,33 @@
             }
           ]
         },
-        "financialStatementsEasy": "카카오페이 매출이 2024.12. 7,662억원에서 2025.12. 9,584억원으로 +25% 변했어요. 영업이익은 2024.12. 적자에서 2025.12. 504억원 흑자로 돌아섰어요. 증권사 분석가들은 2026.12. 매출이 1.3조원(+35%) 갈 거라고 추정해요. 영업이익률은 5.3%로 평균 수준이에요."
+        "financialStatementsEasy": "카카오페이 매출이 2024.12. 7,662억원에서 2025.12. 9,584억원으로 +25% 변했어요. 영업이익은 2024.12. 적자에서 2025.12. 504억원 흑자로 돌아섰어요. 증권사 분석가들은 2026.12. 매출이 1.3조원(+35%) 갈 거라고 추정해요. 영업이익률은 5.3%로 평균 수준이에요.",
+        "relatedStocks": [
+          {
+            "code": "323410",
+            "name": "카카오뱅크",
+            "market": "KOSPI",
+            "relation": "카카오 그룹 동종 — 흑자 전환 흐름 같음",
+            "currentPrice": "22,750",
+            "change1D": 3.17
+          },
+          {
+            "code": "035720",
+            "name": "카카오",
+            "market": "KOSPI",
+            "relation": "카카오 본사 — 페이 실적 모멘텀 동조",
+            "currentPrice": "45,150",
+            "change1D": 5.12
+          },
+          {
+            "code": "105560",
+            "name": "KB금융",
+            "market": "KOSPI",
+            "relation": "핀테크 경쟁 + 디지털 전환",
+            "currentPrice": "155,500",
+            "change1D": 2.3
+          }
+        ]
       },
       {
         "ticker": "035900",
@@ -752,7 +856,33 @@
             }
           ]
         },
-        "financialStatementsEasy": "JYP Ent. 매출이 2024.12. 6,018억원에서 2025.12. 8,219억원으로 +37% 변했어요. 영업이익은 +21% 변동. 증권사 분석가들은 2026.12. 매출이 8,568억원(+4%) 갈 거라고 추정해요. 영업이익률이 18.9%로 양호한 편이에요."
+        "financialStatementsEasy": "JYP Ent. 매출이 2024.12. 6,018억원에서 2025.12. 8,219억원으로 +37% 변했어요. 영업이익은 +21% 변동. 증권사 분석가들은 2026.12. 매출이 8,568억원(+4%) 갈 거라고 추정해요. 영업이익률이 18.9%로 양호한 편이에요.",
+        "relatedStocks": [
+          {
+            "code": "352820",
+            "name": "하이브",
+            "market": "KOSPI",
+            "relation": "K-pop 1위 (BTS 소속사) — 동종 모멘텀",
+            "currentPrice": "245,000",
+            "change1D": 6.29
+          },
+          {
+            "code": "041510",
+            "name": "에스엠",
+            "market": "KOSDAQ",
+            "relation": "SM (NCT·에스파) — K-pop 4사",
+            "currentPrice": "92,000",
+            "change1D": 8.11
+          },
+          {
+            "code": "122870",
+            "name": "와이지엔터테인먼트",
+            "market": "KOSDAQ",
+            "relation": "YG (블랙핑크) — K-pop 4사 비교",
+            "currentPrice": "50,200",
+            "change1D": 1.52
+          }
+        ]
       }
     ],
     "us": [
@@ -832,7 +962,33 @@
             }
           ]
         },
-        "financialStatementsEasy": "팰런티어 매출이 2024.12.31 4.3조원에서 2025.12.31 6.7조원으로 +56% 변했어요. 영업이익은 +356% 변동. 영업이익률(매출에서 영업이익 비율)이 31.6%로 굉장히 높아요."
+        "financialStatementsEasy": "팰런티어 매출이 2024.12.31 4.3조원에서 2025.12.31 6.7조원으로 +56% 변했어요. 영업이익은 +356% 변동. 영업이익률(매출에서 영업이익 비율)이 31.6%로 굉장히 높아요.",
+        "relatedStocks": [
+          {
+            "code": "SNOW.K",
+            "name": "Snowflake",
+            "market": "NYSE",
+            "relation": "AI 데이터 분석 SW — 엔터프라이즈 경쟁",
+            "currentPrice": "152.37",
+            "change1D": 0.26
+          },
+          {
+            "code": "MSFT.O",
+            "name": "Microsoft",
+            "market": "NASDAQ",
+            "relation": "Azure AI 플랫폼 — 정부·국방 SW 경쟁",
+            "currentPrice": "405.21",
+            "change1D": -0.63
+          },
+          {
+            "code": "ORCL.K",
+            "name": "Oracle",
+            "market": "NYSE",
+            "relation": "OCI 클라우드 — 엔터프라이즈 인프라",
+            "currentPrice": "189.76",
+            "change1D": 1.57
+          }
+        ]
       },
       {
         "ticker": "SMCI",
@@ -910,7 +1066,33 @@
             }
           ]
         },
-        "financialStatementsEasy": "수퍼마이크로 매출이 2024.06.30 22.3조원에서 2025.06.30 32.8조원으로 +47% 변했어요. 영업이익률은 5.6%로 평균 수준이에요."
+        "financialStatementsEasy": "수퍼마이크로 매출이 2024.06.30 22.3조원에서 2025.06.30 32.8조원으로 +47% 변했어요. 영업이익률은 5.6%로 평균 수준이에요.",
+        "relatedStocks": [
+          {
+            "code": "DELL.K",
+            "name": "Dell",
+            "market": "NYSE",
+            "relation": "AI 서버 동종 — DELL 등급 회복 시 동조",
+            "currentPrice": "243.87",
+            "change1D": 2.06
+          },
+          {
+            "code": "HPE",
+            "name": "HP Enterprise",
+            "market": "NYSE",
+            "relation": "AI 서버 시장 3대장",
+            "currentPrice": "32.07",
+            "change1D": 6.16
+          },
+          {
+            "code": "NVDA.O",
+            "name": "Nvidia",
+            "market": "NASDAQ",
+            "relation": "서버 GPU 공급사 — 출하 사이클 동행",
+            "currentPrice": "225.83",
+            "change1D": 2.29
+          }
+        ]
       },
       {
         "ticker": "ARM",
@@ -988,7 +1170,33 @@
             }
           ]
         },
-        "financialStatementsEasy": "ARM 홀딩스 매출이 2025.03.31 6.0조원에서 2026.03.31 7.3조원으로 +23% 변했어요. 영업이익은 +8% 변동. 영업이익률이 18.3%로 양호한 편이에요."
+        "financialStatementsEasy": "ARM 홀딩스 매출이 2025.03.31 6.0조원에서 2026.03.31 7.3조원으로 +23% 변했어요. 영업이익은 +8% 변동. 영업이익률이 18.3%로 양호한 편이에요.",
+        "relatedStocks": [
+          {
+            "code": "NVDA.O",
+            "name": "Nvidia",
+            "market": "NASDAQ",
+            "relation": "Arm CPU 기반 차세대 칩 — 직접 매출",
+            "currentPrice": "225.83",
+            "change1D": 2.29
+          },
+          {
+            "code": "AVGO.O",
+            "name": "Broadcom",
+            "market": "NASDAQ",
+            "relation": "IP 라이선스 경쟁 + AI 칩 시장",
+            "currentPrice": "416.79",
+            "change1D": -0.6
+          },
+          {
+            "code": "QCOM.O",
+            "name": "Qualcomm",
+            "market": "NASDAQ",
+            "relation": "Arm 기반 모바일 SoC 1위",
+            "currentPrice": "213.17",
+            "change1D": 1.36
+          }
+        ]
       },
       {
         "ticker": "NU",
@@ -1066,7 +1274,33 @@
             }
           ]
         },
-        "financialStatementsEasy": "누 홀딩스 매출이 2024.12.31 17.2조원에서 2025.12.31 23.6조원으로 +37% 변했어요. 영업이익은 +38% 변동. 영업이익률이 24.5%로 양호한 편이에요."
+        "financialStatementsEasy": "누 홀딩스 매출이 2024.12.31 17.2조원에서 2025.12.31 23.6조원으로 +37% 변했어요. 영업이익은 +38% 변동. 영업이익률이 24.5%로 양호한 편이에요.",
+        "relatedStocks": [
+          {
+            "code": "SOFI.O",
+            "name": "SoFi",
+            "market": "NASDAQ",
+            "relation": "미국 디지털 뱅킹 — 동종 모델",
+            "currentPrice": "15.31",
+            "change1D": -3.71
+          },
+          {
+            "code": "MELI.O",
+            "name": "MercadoLibre",
+            "market": "NASDAQ",
+            "relation": "라틴아메리카 핀테크 동종",
+            "currentPrice": "1,562.00",
+            "change1D": -1.06
+          },
+          {
+            "code": "PYPL.O",
+            "name": "PayPal",
+            "market": "NASDAQ",
+            "relation": "글로벌 디지털 페이먼츠",
+            "currentPrice": "45.23",
+            "change1D": -0.46
+          }
+        ]
       },
       {
         "ticker": "RKLB",
@@ -1144,7 +1378,33 @@
             }
           ]
         },
-        "financialStatementsEasy": "로켓랩 매출이 2024.12.31 6,507억원에서 2025.12.31 8,978억원으로 +38% 변했어요. 영업이익은 2025.12.31 기준 3,502억원 적자예요."
+        "financialStatementsEasy": "로켓랩 매출이 2024.12.31 6,507억원에서 2025.12.31 8,978억원으로 +38% 변했어요. 영업이익은 2025.12.31 기준 3,502억원 적자예요.",
+        "relatedStocks": [
+          {
+            "code": "ASTS.O",
+            "name": "AST SpaceMobile",
+            "market": "NASDAQ",
+            "relation": "우주·위성통신 — 동종 성장주",
+            "currentPrice": "74.81",
+            "change1D": 2.54
+          },
+          {
+            "code": "LUNR.O",
+            "name": "Intuitive Machines",
+            "market": "NASDAQ",
+            "relation": "달 착륙 우주 회사 — 우주 테마",
+            "currentPrice": "35.68",
+            "change1D": 11.19
+          },
+          {
+            "code": "LMT",
+            "name": "Lockheed Martin",
+            "market": "NYSE",
+            "relation": "대형 방산·항공 — 우주군 예산 수혜",
+            "currentPrice": "519.94",
+            "change1D": -0.2
+          }
+        ]
       }
     ],
     "krForeignFlow": {
@@ -1447,6 +1707,32 @@
               "name": "네이버 금융 (실시간)",
               "url": "https://m.stock.naver.com/domestic/stock/279570"
             }
+          ],
+          "relatedStocks": [
+            {
+              "code": "323410",
+              "name": "카카오뱅크",
+              "market": "KOSPI",
+              "relation": "인터넷은행 1위 비교 대상",
+              "currentPrice": "22,750",
+              "change1D": 3.17
+            },
+            {
+              "code": "105560",
+              "name": "KB금융",
+              "market": "KOSPI",
+              "relation": "대형은행 vs 인터넷은행 경쟁",
+              "currentPrice": "155,500",
+              "change1D": 2.3
+            },
+            {
+              "code": "071050",
+              "name": "한국금융지주",
+              "market": "KOSPI",
+              "relation": "증권·금융 그룹",
+              "currentPrice": "254,500",
+              "change1D": 1.19
+            }
           ]
         },
         {
@@ -1515,6 +1801,32 @@
               "name": "네이버 금융 (실시간)",
               "url": "https://m.stock.naver.com/domestic/stock/473980"
             }
+          ],
+          "relatedStocks": [
+            {
+              "code": "352820",
+              "name": "하이브",
+              "market": "KOSPI",
+              "relation": "K-pop·엔터 대장주",
+              "currentPrice": "245,000",
+              "change1D": 6.29
+            },
+            {
+              "code": "041510",
+              "name": "에스엠",
+              "market": "KOSDAQ",
+              "relation": "K-pop 동종",
+              "currentPrice": "92,000",
+              "change1D": 8.11
+            },
+            {
+              "code": "035900",
+              "name": "JYP Ent.",
+              "market": "KOSDAQ",
+              "relation": "K-pop 4사 비교",
+              "currentPrice": "59,100",
+              "change1D": 4.42
+            }
           ]
         },
         {
@@ -1573,6 +1885,32 @@
             {
               "name": "네이버 금융 (실시간)",
               "url": "https://m.stock.naver.com/domestic/stock/439960"
+            }
+          ],
+          "relatedStocks": [
+            {
+              "code": "454910",
+              "name": "두산로보틱스",
+              "market": "KOSPI",
+              "relation": "협동 로봇 1위 — 로봇 테마 대장",
+              "currentPrice": "105,300",
+              "change1D": 2.63
+            },
+            {
+              "code": "277810",
+              "name": "레인보우로보틱스",
+              "market": "KOSDAQ",
+              "relation": "휴머노이드 로봇 — 삼성전자 지분 보유",
+              "currentPrice": "836,000",
+              "change1D": -4.78
+            },
+            {
+              "code": "108490",
+              "name": "로보티즈",
+              "market": "KOSDAQ",
+              "relation": "로봇 부품 — IPO 광풍 같이 움직임",
+              "currentPrice": "337,500",
+              "change1D": -5.06
             }
           ]
         },
@@ -1633,6 +1971,24 @@
               "name": "네이버 금융 (실시간)",
               "url": "https://m.stock.naver.com/domestic/stock/487580"
             }
+          ],
+          "relatedStocks": [
+            {
+              "code": "439960",
+              "name": "코스모로보틱스",
+              "market": "KOSDAQ",
+              "relation": "같은 5월 신규상장 종목 — 따따블 흐름",
+              "currentPrice": "52,700",
+              "change1D": 29.96
+            },
+            {
+              "code": "473980",
+              "name": "노머스",
+              "market": "KOSDAQ",
+              "relation": "중소형 IPO 가격 모멘텀 비교",
+              "currentPrice": "17,150",
+              "change1D": 5.8
+            }
           ]
         },
         {
@@ -1691,6 +2047,32 @@
             {
               "name": "네이버 금융 (실시간)",
               "url": "https://m.stock.naver.com/domestic/stock/424870"
+            }
+          ],
+          "relatedStocks": [
+            {
+              "code": "068270",
+              "name": "셀트리온",
+              "market": "KOSPI",
+              "relation": "한국 바이오 대장주",
+              "currentPrice": "193,700",
+              "change1D": 1.68
+            },
+            {
+              "code": "096530",
+              "name": "씨젠",
+              "market": "KOSDAQ",
+              "relation": "진단·바이오 동종",
+              "currentPrice": "31,750",
+              "change1D": 13.8
+            },
+            {
+              "code": "328130",
+              "name": "루닛",
+              "market": "KOSDAQ",
+              "relation": "AI 의료 바이오",
+              "currentPrice": "18,470",
+              "change1D": 3.18
             }
           ]
         }
@@ -1770,6 +2152,32 @@
               "name": "네이버 금융 (실시간)",
               "url": "https://m.stock.naver.com/worldstock/stock/CRCL.K"
             }
+          ],
+          "relatedStocks": [
+            {
+              "code": "COIN.O",
+              "name": "Coinbase",
+              "market": "NASDAQ",
+              "relation": "암호화폐 거래소 1위 — USDC 파트너",
+              "currentPrice": "201.80",
+              "change1D": -2.81
+            },
+            {
+              "code": "MSTR.O",
+              "name": "MicroStrategy",
+              "market": "NASDAQ",
+              "relation": "비트코인 보유 대표 종목",
+              "currentPrice": "178.03",
+              "change1D": -3.46
+            },
+            {
+              "code": "PYPL.O",
+              "name": "PayPal",
+              "market": "NASDAQ",
+              "relation": "스테이블코인 PYUSD 경쟁",
+              "currentPrice": "45.23",
+              "change1D": -0.46
+            }
           ]
         },
         {
@@ -1845,6 +2253,32 @@
             {
               "name": "네이버 금융 (실시간)",
               "url": "https://m.stock.naver.com/worldstock/stock/CHYM.O"
+            }
+          ],
+          "relatedStocks": [
+            {
+              "code": "SOFI.O",
+              "name": "SoFi",
+              "market": "NASDAQ",
+              "relation": "미국 디지털 뱅킹 경쟁사",
+              "currentPrice": "15.31",
+              "change1D": -3.71
+            },
+            {
+              "code": "NU",
+              "name": "Nu Holdings",
+              "market": "NYSE",
+              "relation": "라틴아메리카 디지털 뱅킹",
+              "currentPrice": "12.82",
+              "change1D": -3.39
+            },
+            {
+              "code": "HOOD.O",
+              "name": "Robinhood",
+              "market": "NASDAQ",
+              "relation": "디지털 금융 핀테크",
+              "currentPrice": "76.75",
+              "change1D": -1.94
             }
           ]
         },
@@ -1922,6 +2356,32 @@
               "name": "네이버 금융 (실시간)",
               "url": "https://m.stock.naver.com/worldstock/stock/KLAR.K"
             }
+          ],
+          "relatedStocks": [
+            {
+              "code": "AFRM.O",
+              "name": "Affirm",
+              "market": "NASDAQ",
+              "relation": "BNPL 미국 1위 — 직접 경쟁",
+              "currentPrice": "63.53",
+              "change1D": -2.9
+            },
+            {
+              "code": "PYPL.O",
+              "name": "PayPal",
+              "market": "NASDAQ",
+              "relation": "BNPL 진출 — 글로벌 경쟁",
+              "currentPrice": "45.23",
+              "change1D": -0.46
+            },
+            {
+              "code": "SOFI.O",
+              "name": "SoFi",
+              "market": "NASDAQ",
+              "relation": "핀테크 BNPL 인접",
+              "currentPrice": "15.31",
+              "change1D": -3.71
+            }
           ]
         },
         {
@@ -1998,6 +2458,24 @@
               "name": "네이버 금융 (실시간)",
               "url": "https://m.stock.naver.com/worldstock/stock/RDDT.K"
             }
+          ],
+          "relatedStocks": [
+            {
+              "code": "SNAP.K",
+              "name": "Snap",
+              "market": "NYSE",
+              "relation": "소셜 광고 동종",
+              "currentPrice": "5.61",
+              "change1D": 1.08
+            },
+            {
+              "code": "META.O",
+              "name": "Meta",
+              "market": "NASDAQ",
+              "relation": "소셜 광고 대장주",
+              "currentPrice": "616.63",
+              "change1D": 2.26
+            }
           ]
         },
         {
@@ -2073,6 +2551,16 @@
             {
               "name": "네이버 금융 (실시간)",
               "url": "https://m.stock.naver.com/worldstock/stock/BIRK.K"
+            }
+          ],
+          "relatedStocks": [
+            {
+              "code": "LULU.O",
+              "name": "Lululemon",
+              "market": "NASDAQ",
+              "relation": "프리미엄 운동 의류",
+              "currentPrice": "121.21",
+              "change1D": -3.13
             }
           ]
         }
