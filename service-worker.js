@@ -1,7 +1,7 @@
 // 포트폴리오 데일리 PWA — Service Worker
 // 캐시 전략: 앱 셸은 cache-first, 데이터는 network-first
 
-const CACHE_VERSION = 'pwa-v7';
+const CACHE_VERSION = 'pwa-v8';
 const APP_SHELL_CACHE = `app-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `data-${CACHE_VERSION}`;
 
@@ -75,7 +75,8 @@ self.addEventListener('fetch', (event) => {
   // 앱 셸 — stale-while-revalidate (캐시 즉시 반환 + 백그라운드에서 새 버전 갱신)
   // index.html / app.js / styles.css 는 network-first (새로고침 시 즉시 새 버전)
   const path = url.pathname;
-  const isCriticalAsset = path === '/' || path.endsWith('/index.html') ||
+  const isCriticalAsset = path === '/' || path.endsWith('/') ||
+                          path.endsWith('/index.html') ||
                           path.endsWith('/app.js') || path.endsWith('/styles.css');
 
   if (isCriticalAsset) {
