@@ -375,7 +375,56 @@
           "employees": null,
           "homepage": "https://www.skhynix.com/",
           "ceoSource": "네이버 뉴스 검증 (2026/05/07 다수 보도)"
-        }
+        },
+        "financialStatements": {
+          "currency": "원",
+          "unit": "억원",
+          "annual": [
+            {
+              "period": "2023.12.",
+              "sales": 327657,
+              "salesFmt": "32.8조원",
+              "operatingIncome": -77303,
+              "operatingIncomeFmt": "-7.7조원",
+              "operatingMargin": -23.6,
+              "isConsensus": false
+            },
+            {
+              "period": "2024.12.",
+              "sales": 661930,
+              "salesFmt": "66.2조원",
+              "operatingIncome": 234673,
+              "operatingIncomeFmt": "23.5조원",
+              "operatingMargin": 35.5,
+              "isConsensus": false
+            },
+            {
+              "period": "2025.12.",
+              "sales": 971467,
+              "salesFmt": "97.1조원",
+              "operatingIncome": 472063,
+              "operatingIncomeFmt": "47.2조원",
+              "operatingMargin": 48.6,
+              "isConsensus": false
+            },
+            {
+              "period": "2026.12.",
+              "sales": 3315693,
+              "salesFmt": "331.6조원",
+              "operatingIncome": 2516563,
+              "operatingIncomeFmt": "251.7조원",
+              "operatingMargin": 75.9,
+              "isConsensus": true
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 finance/summary API",
+              "url": "https://m.stock.naver.com/domestic/stock/000660"
+            }
+          ]
+        },
+        "financialStatementsEasy": "SK하이닉스 매출이 2024.12. 66.2조원에서 2025.12. 97.1조원으로 +47% 변했어요. 영업이익은 +101% 변동. 증권사 분석가들은 2026.12. 매출이 331.6조원(+241%) 갈 거라고 추정해요. 영업이익률(매출에서 영업이익 비율)이 48.6%로 굉장히 높아요."
       },
       {
         "ticker": "012450",
@@ -408,7 +457,56 @@
           "employees": null,
           "homepage": "https://www.hanwhaaerospace.co.kr/",
           "ceoSource": "네이버 뉴스 검증 (2026/05/07 브랜드평판, 1Q 실적 공시)"
-        }
+        },
+        "financialStatements": {
+          "currency": "원",
+          "unit": "억원",
+          "annual": [
+            {
+              "period": "2023.12.",
+              "sales": 78897,
+              "salesFmt": "7.9조원",
+              "operatingIncome": 5943,
+              "operatingIncomeFmt": "5,943억원",
+              "operatingMargin": 7.5,
+              "isConsensus": false
+            },
+            {
+              "period": "2024.12.",
+              "sales": 112401,
+              "salesFmt": "11.2조원",
+              "operatingIncome": 17319,
+              "operatingIncomeFmt": "1.7조원",
+              "operatingMargin": 15.4,
+              "isConsensus": false
+            },
+            {
+              "period": "2025.12.",
+              "sales": 267029,
+              "salesFmt": "26.7조원",
+              "operatingIncome": 30893,
+              "operatingIncomeFmt": "3.1조원",
+              "operatingMargin": 11.6,
+              "isConsensus": false
+            },
+            {
+              "period": "2026.12.",
+              "sales": 301665,
+              "salesFmt": "30.2조원",
+              "operatingIncome": 42355,
+              "operatingIncomeFmt": "4.2조원",
+              "operatingMargin": 14.0,
+              "isConsensus": true
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 finance/summary API",
+              "url": "https://m.stock.naver.com/domestic/stock/012450"
+            }
+          ]
+        },
+        "financialStatementsEasy": "한화에어로스페이스 매출이 2024.12. 11.2조원에서 2025.12. 26.7조원으로 +138% 변했어요. 영업이익은 +78% 변동. 증권사 분석가들은 2026.12. 매출이 30.2조원(+13%) 갈 거라고 추정해요. 영업이익률은 11.6%로 평균 수준이에요."
       },
       {
         "ticker": "034020",
@@ -441,7 +539,56 @@
           "employees": null,
           "homepage": "https://www.doosanenerbility.com/",
           "ceoSource": "네이버 뉴스 검증 (2026/04/29 1Q 실적 공시)"
-        }
+        },
+        "financialStatements": {
+          "currency": "원",
+          "unit": "억원",
+          "annual": [
+            {
+              "period": "2023.12.",
+              "sales": 175899,
+              "salesFmt": "17.6조원",
+              "operatingIncome": 14673,
+              "operatingIncomeFmt": "1.5조원",
+              "operatingMargin": 8.3,
+              "isConsensus": false
+            },
+            {
+              "period": "2024.12.",
+              "sales": 162331,
+              "salesFmt": "16.2조원",
+              "operatingIncome": 10176,
+              "operatingIncomeFmt": "1.0조원",
+              "operatingMargin": 6.3,
+              "isConsensus": false
+            },
+            {
+              "period": "2025.12.",
+              "sales": 170579,
+              "salesFmt": "17.1조원",
+              "operatingIncome": 7627,
+              "operatingIncomeFmt": "7,627억원",
+              "operatingMargin": 4.5,
+              "isConsensus": false
+            },
+            {
+              "period": "2026.12.",
+              "sales": 180926,
+              "salesFmt": "18.1조원",
+              "operatingIncome": 11280,
+              "operatingIncomeFmt": "1.1조원",
+              "operatingMargin": 6.2,
+              "isConsensus": true
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 finance/summary API",
+              "url": "https://m.stock.naver.com/domestic/stock/034020"
+            }
+          ]
+        },
+        "financialStatementsEasy": "두산에너빌리티 매출이 2024.12. 16.2조원에서 2025.12. 17.1조원으로 +5% 변했어요. 영업이익은 -25% 변동. 증권사 분석가들은 2026.12. 매출이 18.1조원(+6%) 갈 거라고 추정해요. 영업이익률은 4.5%로 낮은 편이에요."
       },
       {
         "ticker": "377300",
@@ -474,7 +621,56 @@
           "employees": null,
           "homepage": "https://www.kakaopay.com/",
           "ceoSource": "네이버 뉴스 검증 (2026/03/23 3연임 확정)"
-        }
+        },
+        "financialStatements": {
+          "currency": "원",
+          "unit": "억원",
+          "annual": [
+            {
+              "period": "2023.12.",
+              "sales": 6154,
+              "salesFmt": "6,154억원",
+              "operatingIncome": -566,
+              "operatingIncomeFmt": "-566억원",
+              "operatingMargin": -9.2,
+              "isConsensus": false
+            },
+            {
+              "period": "2024.12.",
+              "sales": 7662,
+              "salesFmt": "7,662억원",
+              "operatingIncome": -575,
+              "operatingIncomeFmt": "-575억원",
+              "operatingMargin": -7.5,
+              "isConsensus": false
+            },
+            {
+              "period": "2025.12.",
+              "sales": 9584,
+              "salesFmt": "9,584억원",
+              "operatingIncome": 504,
+              "operatingIncomeFmt": "504억원",
+              "operatingMargin": 5.3,
+              "isConsensus": false
+            },
+            {
+              "period": "2026.12.",
+              "sales": 12960,
+              "salesFmt": "1.3조원",
+              "operatingIncome": 1388,
+              "operatingIncomeFmt": "1,388억원",
+              "operatingMargin": 10.7,
+              "isConsensus": true
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 finance/summary API",
+              "url": "https://m.stock.naver.com/domestic/stock/377300"
+            }
+          ]
+        },
+        "financialStatementsEasy": "카카오페이 매출이 2024.12. 7,662억원에서 2025.12. 9,584억원으로 +25% 변했어요. 영업이익은 2024.12. 적자에서 2025.12. 504억원 흑자로 돌아섰어요. 증권사 분석가들은 2026.12. 매출이 1.3조원(+35%) 갈 거라고 추정해요. 영업이익률은 5.3%로 평균 수준이에요."
       },
       {
         "ticker": "035900",
@@ -507,7 +703,56 @@
           "employees": null,
           "homepage": "https://www.jype.com/",
           "ceoSource": "네이버 뉴스 검증 (2026/04/20 임팩트 리포트, 박진영 사내이사 사임 2026/03)"
-        }
+        },
+        "financialStatements": {
+          "currency": "원",
+          "unit": "억원",
+          "annual": [
+            {
+              "period": "2023.12.",
+              "sales": 5665,
+              "salesFmt": "5,665억원",
+              "operatingIncome": 1694,
+              "operatingIncomeFmt": "1,694억원",
+              "operatingMargin": 29.9,
+              "isConsensus": false
+            },
+            {
+              "period": "2024.12.",
+              "sales": 6018,
+              "salesFmt": "6,018억원",
+              "operatingIncome": 1283,
+              "operatingIncomeFmt": "1,283억원",
+              "operatingMargin": 21.3,
+              "isConsensus": false
+            },
+            {
+              "period": "2025.12.",
+              "sales": 8219,
+              "salesFmt": "8,219억원",
+              "operatingIncome": 1552,
+              "operatingIncomeFmt": "1,552억원",
+              "operatingMargin": 18.9,
+              "isConsensus": false
+            },
+            {
+              "period": "2026.12.",
+              "sales": 8568,
+              "salesFmt": "8,568억원",
+              "operatingIncome": 1690,
+              "operatingIncomeFmt": "1,690억원",
+              "operatingMargin": 19.7,
+              "isConsensus": true
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 finance/summary API",
+              "url": "https://m.stock.naver.com/domestic/stock/035900"
+            }
+          ]
+        },
+        "financialStatementsEasy": "JYP Ent. 매출이 2024.12. 6,018억원에서 2025.12. 8,219억원으로 +37% 변했어요. 영업이익은 +21% 변동. 증권사 분석가들은 2026.12. 매출이 8,568억원(+4%) 갈 거라고 추정해요. 영업이익률이 18.9%로 양호한 편이에요."
       }
     ],
     "us": [
@@ -538,7 +783,56 @@
           "employees": "4,395명 (2026-03-31 기준)",
           "homepage": "https://www.palantir.com/",
           "ceoSource": "네이버 금융 integration API summaries"
-        }
+        },
+        "financialStatements": {
+          "currency": "USD환산원",
+          "unit": "억원",
+          "annual": [
+            {
+              "period": "2022.12.31",
+              "sales": 28456,
+              "salesFmt": "2.8조원",
+              "operatingIncome": -2406,
+              "operatingIncomeFmt": "-2,406억원",
+              "operatingMargin": -8.5,
+              "isConsensus": false
+            },
+            {
+              "period": "2023.12.31",
+              "sales": 33221,
+              "salesFmt": "3.3조원",
+              "operatingIncome": 1791,
+              "operatingIncomeFmt": "1,791억원",
+              "operatingMargin": 5.4,
+              "isConsensus": false
+            },
+            {
+              "period": "2024.12.31",
+              "sales": 42784,
+              "salesFmt": "4.3조원",
+              "operatingIncome": 4634,
+              "operatingIncomeFmt": "4,634억원",
+              "operatingMargin": 10.8,
+              "isConsensus": false
+            },
+            {
+              "period": "2025.12.31",
+              "sales": 66822,
+              "salesFmt": "6.7조원",
+              "operatingIncome": 21112,
+              "operatingIncomeFmt": "2.1조원",
+              "operatingMargin": 31.6,
+              "isConsensus": false
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 finance/summary API",
+              "url": "https://m.stock.naver.com/worldstock/stock/PLTR"
+            }
+          ]
+        },
+        "financialStatementsEasy": "팰런티어 매출이 2024.12.31 4.3조원에서 2025.12.31 6.7조원으로 +56% 변했어요. 영업이익은 +356% 변동. 영업이익률(매출에서 영업이익 비율)이 31.6%로 굉장히 높아요."
       },
       {
         "ticker": "SMCI",
@@ -567,7 +861,56 @@
           "employees": "6,238명 (2025-06-30 기준)",
           "homepage": "https://www.supermicro.com/en/",
           "ceoSource": "네이버 금융 integration API summaries"
-        }
+        },
+        "financialStatements": {
+          "currency": "USD환산원",
+          "unit": "억원",
+          "annual": [
+            {
+              "period": "2022.06.30",
+              "sales": 77520,
+              "salesFmt": "7.8조원",
+              "operatingIncome": 5000,
+              "operatingIncomeFmt": "5,000억원",
+              "operatingMargin": 6.4,
+              "isConsensus": false
+            },
+            {
+              "period": "2023.06.30",
+              "sales": 106275,
+              "salesFmt": "10.6조원",
+              "operatingIncome": 11355,
+              "operatingIncomeFmt": "1.1조원",
+              "operatingMargin": 10.7,
+              "isConsensus": false
+            },
+            {
+              "period": "2024.06.30",
+              "sales": 222932,
+              "salesFmt": "22.3조원",
+              "operatingIncome": 18882,
+              "operatingIncomeFmt": "1.9조원",
+              "operatingMargin": 8.5,
+              "isConsensus": false
+            },
+            {
+              "period": "2025.06.30",
+              "sales": 327800,
+              "salesFmt": "32.8조원",
+              "operatingIncome": 18241,
+              "operatingIncomeFmt": "1.8조원",
+              "operatingMargin": 5.6,
+              "isConsensus": false
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 finance/summary API",
+              "url": "https://m.stock.naver.com/worldstock/stock/SMCI"
+            }
+          ]
+        },
+        "financialStatementsEasy": "수퍼마이크로 매출이 2024.06.30 22.3조원에서 2025.06.30 32.8조원으로 +47% 변했어요. 영업이익률은 5.6%로 평균 수준이에요."
       },
       {
         "ticker": "ARM",
@@ -596,7 +939,56 @@
           "employees": "9,584명 (2026-03-31 기준)",
           "homepage": "https://www.arm.com/",
           "ceoSource": "네이버 금융 integration API summaries"
-        }
+        },
+        "financialStatements": {
+          "currency": "USD환산원",
+          "unit": "억원",
+          "annual": [
+            {
+              "period": "2023.03.31",
+              "sales": 39992,
+              "salesFmt": "4.0조원",
+              "operatingIncome": 10016,
+              "operatingIncomeFmt": "1.0조원",
+              "operatingMargin": 25.0,
+              "isConsensus": false
+            },
+            {
+              "period": "2024.03.31",
+              "sales": 48262,
+              "salesFmt": "4.8조원",
+              "operatingIncome": 1657,
+              "operatingIncomeFmt": "1,657억원",
+              "operatingMargin": 3.4,
+              "isConsensus": false
+            },
+            {
+              "period": "2025.03.31",
+              "sales": 59816,
+              "salesFmt": "6.0조원",
+              "operatingIncome": 12405,
+              "operatingIncomeFmt": "1.2조원",
+              "operatingMargin": 20.7,
+              "isConsensus": false
+            },
+            {
+              "period": "2026.03.31",
+              "sales": 73445,
+              "salesFmt": "7.3조원",
+              "operatingIncome": 13435,
+              "operatingIncomeFmt": "1.3조원",
+              "operatingMargin": 18.3,
+              "isConsensus": false
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 finance/summary API",
+              "url": "https://m.stock.naver.com/worldstock/stock/ARM"
+            }
+          ]
+        },
+        "financialStatementsEasy": "ARM 홀딩스 매출이 2025.03.31 6.0조원에서 2026.03.31 7.3조원으로 +23% 변했어요. 영업이익은 +8% 변동. 영업이익률이 18.3%로 양호한 편이에요."
       },
       {
         "ticker": "NU",
@@ -625,7 +1017,56 @@
           "employees": "10,027명 (2025-12-31 기준)",
           "homepage": null,
           "ceoSource": "네이버 금융 integration API summaries"
-        }
+        },
+        "financialStatements": {
+          "currency": "USD환산원",
+          "unit": "억원",
+          "annual": [
+            {
+              "period": "2022.12.31",
+              "sales": 71552,
+              "salesFmt": "7.2조원",
+              "operatingIncome": -4612,
+              "operatingIncomeFmt": "-4,612억원",
+              "operatingMargin": -6.4,
+              "isConsensus": false
+            },
+            {
+              "period": "2023.12.31",
+              "sales": 119880,
+              "salesFmt": "12.0조원",
+              "operatingIncome": 22979,
+              "operatingIncomeFmt": "2.3조원",
+              "operatingMargin": 19.2,
+              "isConsensus": false
+            },
+            {
+              "period": "2024.12.31",
+              "sales": 171961,
+              "salesFmt": "17.2조원",
+              "operatingIncome": 41735,
+              "operatingIncomeFmt": "4.2조원",
+              "operatingMargin": 24.3,
+              "isConsensus": false
+            },
+            {
+              "period": "2025.12.31",
+              "sales": 235532,
+              "salesFmt": "23.6조원",
+              "operatingIncome": 57759,
+              "operatingIncomeFmt": "5.8조원",
+              "operatingMargin": 24.5,
+              "isConsensus": false
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 finance/summary API",
+              "url": "https://m.stock.naver.com/worldstock/stock/NU"
+            }
+          ]
+        },
+        "financialStatementsEasy": "누 홀딩스 매출이 2024.12.31 17.2조원에서 2025.12.31 23.6조원으로 +37% 변했어요. 영업이익은 +38% 변동. 영업이익률이 24.5%로 양호한 편이에요."
       },
       {
         "ticker": "RKLB",
@@ -654,7 +1095,56 @@
           "employees": "2,600명 (2025-12-31 기준)",
           "homepage": "https://rocketlabcorp.com/",
           "ceoSource": "네이버 금융 integration API summaries"
-        }
+        },
+        "financialStatements": {
+          "currency": "USD환산원",
+          "unit": "억원",
+          "annual": [
+            {
+              "period": "2022.12.31",
+              "sales": 3147,
+              "salesFmt": "3,147억원",
+              "operatingIncome": -2017,
+              "operatingIncomeFmt": "-2,017억원",
+              "operatingMargin": -64.1,
+              "isConsensus": false
+            },
+            {
+              "period": "2023.12.31",
+              "sales": 3649,
+              "salesFmt": "3,649억원",
+              "operatingIncome": -2654,
+              "operatingIncomeFmt": "-2,654억원",
+              "operatingMargin": -72.7,
+              "isConsensus": false
+            },
+            {
+              "period": "2024.12.31",
+              "sales": 6507,
+              "salesFmt": "6,507억원",
+              "operatingIncome": -2831,
+              "operatingIncomeFmt": "-2,831억원",
+              "operatingMargin": -43.5,
+              "isConsensus": false
+            },
+            {
+              "period": "2025.12.31",
+              "sales": 8978,
+              "salesFmt": "8,978억원",
+              "operatingIncome": -3502,
+              "operatingIncomeFmt": "-3,502억원",
+              "operatingMargin": -39.0,
+              "isConsensus": false
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 finance/summary API",
+              "url": "https://m.stock.naver.com/worldstock/stock/RKLB"
+            }
+          ]
+        },
+        "financialStatementsEasy": "로켓랩 매출이 2024.12.31 6,507억원에서 2025.12.31 8,978억원으로 +38% 변했어요. 영업이익은 2025.12.31 기준 3,502억원 적자예요."
       }
     ],
     "krForeignFlow": {
@@ -894,6 +1384,697 @@
         {
           "name": "네이버 금융 dealTrendInfos API",
           "url": "https://m.stock.naver.com/domestic/stock/000660"
+        }
+      ]
+    },
+    "newListings": {
+      "description": "상장 후 1~12개월 된 종목들. 변동이 매우 큰 종목이라 신중히 봐야 해요.",
+      "kr": [
+        {
+          "ticker": "279570",
+          "name": "케이뱅크",
+          "market": "KOSPI",
+          "listedAt": "2026-03-05",
+          "category": "이슈주",
+          "thesis": "2026/3/5 코스피 신규 상장한 인터넷 은행이에요. 공모가 8,000원에서 현재 5,510원으로 -31% 하회. 업비트 의존 구조·스테이블코인 기대감·오버행 우려가 복합적으로 작용 중. 1Q 순익은 2배 늘었지만 주가는 부진.",
+          "flowReason": "공모가 -31% 하회 상태에서 실적 개선 vs 사업 구조 우려 양면 평가. 단기 반등 시도 있을 가능성.",
+          "currentPrice": 5510,
+          "change1D": -1.43,
+          "financials": "PER 18.40배 / 추정 PER N/A. 시총 2조 2,394억. 52주 최고 9,880, 최저 5,430. 외인 0.02%.",
+          "financialStatements": {
+            "currency": "원",
+            "unit": "억원",
+            "annual": [
+              {
+                "period": "2023.12.",
+                "sales": 9465,
+                "salesFmt": "9,465억원",
+                "operatingIncome": 165,
+                "operatingIncomeFmt": "165억원",
+                "operatingMargin": 1.7,
+                "isConsensus": false
+              },
+              {
+                "period": "2024.12.",
+                "sales": 12285,
+                "salesFmt": "1.2조원",
+                "operatingIncome": 1330,
+                "operatingIncomeFmt": "1,330억원",
+                "operatingMargin": 10.8,
+                "isConsensus": false
+              },
+              {
+                "period": "2025.12.",
+                "sales": 13348,
+                "salesFmt": "1.3조원",
+                "operatingIncome": 1171,
+                "operatingIncomeFmt": "1,171억원",
+                "operatingMargin": 8.8,
+                "isConsensus": false
+              }
+            ],
+            "sources": [
+              {
+                "name": "네이버 금융 finance/summary API",
+                "url": "https://m.stock.naver.com/domestic/stock/279570"
+              }
+            ]
+          },
+          "financialStatementsEasy": "케이뱅크 매출이 2024.12. 1.2조원에서 2025.12. 1.3조원으로 +9% 변했어요. 영업이익은 -12% 변동. 영업이익률은 8.8%로 평균 수준이에요.",
+          "outlookEasy": "분석가 평균 목표가 9,000원로 지금 가격(5,510원)에서 +63% 더 오를 여력이 크다고 봐요. 추천 등급은 보유 (3.50)예요.",
+          "sources": [
+            {
+              "name": "네이버 금융 (실시간)",
+              "url": "https://m.stock.naver.com/domestic/stock/279570"
+            }
+          ]
+        },
+        {
+          "ticker": "473980",
+          "name": "노머스",
+          "market": "KOSDAQ",
+          "listedAt": "2024",
+          "category": "성장주",
+          "thesis": "2024년 코스닥 상장한 엔터·콘텐츠 회사예요. 시총 1,904억 소형주로 PER 12.67배는 저평가 영역. 오늘 +6.23% 강세.",
+          "flowReason": "PER 12.67배로 동종 대비 저평가. 소형주라 단기 변동 클 수 있어요.",
+          "currentPrice": 17220,
+          "change1D": 6.23,
+          "financials": "PER 12.67배 / 추정 PER N/A. 시총 1,904억. 52주 최고 39,200, 최저 15,420. 외인 1.76%.",
+          "financialStatements": {
+            "currency": "원",
+            "unit": "억원",
+            "annual": [
+              {
+                "period": "2023.12.",
+                "sales": 423,
+                "salesFmt": "423억원",
+                "operatingIncome": -2,
+                "operatingIncomeFmt": "-2억원",
+                "operatingMargin": -0.5,
+                "isConsensus": false
+              },
+              {
+                "period": "2024.12.",
+                "sales": 689,
+                "salesFmt": "689억원",
+                "operatingIncome": 82,
+                "operatingIncomeFmt": "82억원",
+                "operatingMargin": 11.9,
+                "isConsensus": false
+              },
+              {
+                "period": "2025.12.",
+                "sales": 757,
+                "salesFmt": "757억원",
+                "operatingIncome": 123,
+                "operatingIncomeFmt": "123억원",
+                "operatingMargin": 16.2,
+                "isConsensus": false
+              },
+              {
+                "period": "2026.12.",
+                "sales": 1020,
+                "salesFmt": "1,020억원",
+                "operatingIncome": 210,
+                "operatingIncomeFmt": "210억원",
+                "operatingMargin": 20.6,
+                "isConsensus": true
+              }
+            ],
+            "sources": [
+              {
+                "name": "네이버 금융 finance/summary API",
+                "url": "https://m.stock.naver.com/domestic/stock/473980"
+              }
+            ]
+          },
+          "financialStatementsEasy": "노머스 매출이 2024.12. 689억원에서 2025.12. 757억원으로 +10% 변했어요. 영업이익은 +50% 변동. 증권사 분석가들은 2026.12. 매출이 1,020억원(+35%) 갈 거라고 추정해요. 영업이익률이 16.2%로 양호한 편이에요.",
+          "outlookEasy": "분석가 평균 목표가 27,500원로 지금 가격(17,220원)에서 +60% 더 오를 여력이 크다고 봐요. 추천 등급은 매수 (4.00)예요.",
+          "sources": [
+            {
+              "name": "네이버 금융 (실시간)",
+              "url": "https://m.stock.naver.com/domestic/stock/473980"
+            }
+          ]
+        },
+        {
+          "ticker": "439960",
+          "name": "코스모로보틱스",
+          "market": "KOSDAQ",
+          "listedAt": "2026-05-11",
+          "category": "이슈주",
+          "thesis": "웨어러블 의료·재활 로봇 회사예요. 2026/5/11 코스닥 신규 상장 첫날 공모가 대비 +300% '따따블'을 기록한 뒤 5/12에도 상한가, 오늘(5/13) 또 상한가 흐름이에요. 마키나락스·폴레드 등 로봇주 IPO 흥행 분위기의 대표 종목.",
+          "flowReason": "상장 첫날 공모가 6,000원 대비 +300%, 시총 1.7조원까지 단기 폭등. 6조원 청약 자금 몰리며 로봇 테마 광풍.",
+          "currentPrice": 52700,
+          "change1D": 29.96,
+          "financials": "PER N/A / 추정 PER N/A. 시총 1조 6,921억. 52주 최고 52,700, 최저 20,100. 외인 0.00%.",
+          "financialStatements": {
+            "currency": "원",
+            "unit": "억원",
+            "annual": [
+              {
+                "period": "2023.12.",
+                "sales": 62,
+                "salesFmt": "62억원",
+                "operatingIncome": -47,
+                "operatingIncomeFmt": "-47억원",
+                "operatingMargin": -75.8,
+                "isConsensus": false
+              },
+              {
+                "period": "2024.12.",
+                "sales": 70,
+                "salesFmt": "70억원",
+                "operatingIncome": -89,
+                "operatingIncomeFmt": "-89억원",
+                "operatingMargin": -127.1,
+                "isConsensus": false
+              },
+              {
+                "period": "2025.12.",
+                "sales": 89,
+                "salesFmt": "89억원",
+                "operatingIncome": -82,
+                "operatingIncomeFmt": "-82억원",
+                "operatingMargin": -92.1,
+                "isConsensus": false
+              }
+            ],
+            "sources": [
+              {
+                "name": "네이버 금융 finance/summary API",
+                "url": "https://m.stock.naver.com/domestic/stock/439960"
+              }
+            ]
+          },
+          "financialStatementsEasy": "코스모로보틱스 매출이 2024.12. 70억원에서 2025.12. 89억원으로 +27% 변했어요. 영업이익은 2025.12. 기준 82억원 적자예요.",
+          "outlookEasy": "이 종목은 상장한 지 얼마 안 돼서 증권사 컨센서스가 아직 안 모였어요. 52주 범위 20,100 ~ 52,700 안에서 현재 52,700 위치예요. 신규 상장주는 변동이 매우 큰 종목이라 신중히 봐야 해요.",
+          "sources": [
+            {
+              "name": "네이버 금융 (실시간)",
+              "url": "https://m.stock.naver.com/domestic/stock/439960"
+            }
+          ]
+        },
+        {
+          "ticker": "487580",
+          "name": "폴레드",
+          "market": "KOSDAQ",
+          "listedAt": "2026-05",
+          "category": "이슈주",
+          "thesis": "2026/5월 코스닥 신규 상장한 유아용품 회사예요. 상장 첫날 +300% 따따블 기록. 시총 5천억대 소형주로 변동이 매우 큰 종목.",
+          "flowReason": "신규 상장 첫날 흥행 종목. 단기 차익매물 출회 가능성과 추가 모멘텀 사이.",
+          "currentPrice": 20000,
+          "change1D": 300.0,
+          "financials": "PER 52.49배 / 추정 PER N/A. 시총 5,037억. 52주 최고 20,000, 최저 16,500. 외인 1.16%.",
+          "financialStatements": {
+            "currency": "원",
+            "unit": "억원",
+            "annual": [
+              {
+                "period": "2023.12.",
+                "sales": 224,
+                "salesFmt": "224억원",
+                "operatingIncome": 12,
+                "operatingIncomeFmt": "12억원",
+                "operatingMargin": 5.4,
+                "isConsensus": false
+              },
+              {
+                "period": "2024.12.",
+                "sales": 528,
+                "salesFmt": "528억원",
+                "operatingIncome": 62,
+                "operatingIncomeFmt": "62억원",
+                "operatingMargin": 11.7,
+                "isConsensus": false
+              },
+              {
+                "period": "2025.12.",
+                "sales": 799,
+                "salesFmt": "799억원",
+                "operatingIncome": 104,
+                "operatingIncomeFmt": "104억원",
+                "operatingMargin": 13.0,
+                "isConsensus": false
+              }
+            ],
+            "sources": [
+              {
+                "name": "네이버 금융 finance/summary API",
+                "url": "https://m.stock.naver.com/domestic/stock/487580"
+              }
+            ]
+          },
+          "financialStatementsEasy": "폴레드 매출이 2024.12. 528억원에서 2025.12. 799억원으로 +51% 변했어요. 영업이익은 +68% 변동. 영업이익률은 13.0%로 평균 수준이에요.",
+          "outlookEasy": "이 종목은 상장한 지 얼마 안 돼서 증권사 컨센서스가 아직 안 모였어요. 52주 범위 16,500 ~ 20,000 안에서 현재 20,000 위치예요. 신규 상장주는 변동이 매우 큰 종목이라 신중히 봐야 해요.",
+          "sources": [
+            {
+              "name": "네이버 금융 (실시간)",
+              "url": "https://m.stock.naver.com/domestic/stock/487580"
+            }
+          ]
+        },
+        {
+          "ticker": "424870",
+          "name": "이뮨온시아",
+          "market": "KOSDAQ",
+          "listedAt": "2025-05-13",
+          "category": "성장주",
+          "thesis": "2025/5/13 코스닥 상장한 면역항암 바이오 회사예요. 상장 1주년 시점. 신약 임상 단계라 PER 미산정. 시총 4,298억 중소형 바이오.",
+          "flowReason": "임상 결과 발표·기술 이전 계약이 단기 모멘텀이 될 수 있는 시점. 바이오 IPO는 변동성이 극대.",
+          "currentPrice": 5780,
+          "change1D": -3.67,
+          "financials": "PER N/A / 추정 PER N/A. 시총 4,298억. 52주 최고 15,499, 최저 4,286. 외인 0.57%.",
+          "financialStatements": {
+            "currency": "원",
+            "unit": "억원",
+            "annual": [
+              {
+                "period": "2023.12.",
+                "sales": 1,
+                "salesFmt": "1억원",
+                "operatingIncome": -118,
+                "operatingIncomeFmt": "-118억원",
+                "operatingMargin": -11800.0,
+                "isConsensus": false
+              },
+              {
+                "period": "2024.12.",
+                "sales": 7,
+                "salesFmt": "7억원",
+                "operatingIncome": -126,
+                "operatingIncomeFmt": "-126억원",
+                "operatingMargin": -1800.0,
+                "isConsensus": false
+              },
+              {
+                "period": "2025.12.",
+                "sales": 1,
+                "salesFmt": "1억원",
+                "operatingIncome": -280,
+                "operatingIncomeFmt": "-280억원",
+                "operatingMargin": -28000.0,
+                "isConsensus": false
+              }
+            ],
+            "sources": [
+              {
+                "name": "네이버 금융 finance/summary API",
+                "url": "https://m.stock.naver.com/domestic/stock/424870"
+              }
+            ]
+          },
+          "financialStatementsEasy": "이뮨온시아 매출이 2024.12. 7억원에서 2025.12. 1억원으로 -86% 변했어요. 영업이익은 2025.12. 기준 280억원 적자예요.",
+          "outlookEasy": "이 종목은 상장한 지 얼마 안 돼서 증권사 컨센서스가 아직 안 모였어요. 52주 범위 4,286 ~ 15,499 안에서 현재 5,780 위치예요. 신규 상장주는 변동이 매우 큰 종목이라 신중히 봐야 해요.",
+          "sources": [
+            {
+              "name": "네이버 금융 (실시간)",
+              "url": "https://m.stock.naver.com/domestic/stock/424870"
+            }
+          ]
+        }
+      ],
+      "us": [
+        {
+          "ticker": "CRCL",
+          "name": "써클 인터넷 그룹",
+          "market": "NYSE",
+          "listedAt": "2025-06",
+          "category": "성장주",
+          "thesis": "스테이블코인 USDC를 발행하는 회사예요. 2025년 NYSE 상장. 트럼프 행정부의 친(親) 암호화폐 정책 수혜주로 거론. 시총 315억$로 대형주 영역.",
+          "flowReason": "스테이블코인 시장 성장 + 미국 정책 우호로 IPO 후 자리잡는 중. 암호화폐 시장 변동성 위험 노출.",
+          "currentPrice": 126.57,
+          "change1D": 2.36,
+          "financials": "PER N/A. 시총 315억 USD. 52주 최고 $298.99, 최저 $49.90.",
+          "financialStatements": {
+            "currency": "USD환산원",
+            "unit": "억원",
+            "annual": [
+              {
+                "period": "2022.12.31",
+                "sales": 11522,
+                "salesFmt": "1.2조원",
+                "operatingIncome": -234,
+                "operatingIncomeFmt": "-234억원",
+                "operatingMargin": -2.0,
+                "isConsensus": false
+              },
+              {
+                "period": "2023.12.31",
+                "sales": 21646,
+                "salesFmt": "2.2조원",
+                "operatingIncome": 4140,
+                "operatingIncomeFmt": "4,140억원",
+                "operatingMargin": 19.1,
+                "isConsensus": false
+              },
+              {
+                "period": "2024.12.31",
+                "sales": 25016,
+                "salesFmt": "2.5조원",
+                "operatingIncome": 2592,
+                "operatingIncomeFmt": "2,592억원",
+                "operatingMargin": 10.4,
+                "isConsensus": false
+              },
+              {
+                "period": "2025.12.31",
+                "sales": 40990,
+                "salesFmt": "4.1조원",
+                "operatingIncome": -1439,
+                "operatingIncomeFmt": "-1,439억원",
+                "operatingMargin": -3.5,
+                "isConsensus": false
+              }
+            ],
+            "sources": [
+              {
+                "name": "네이버 금융 finance/summary API",
+                "url": "https://m.stock.naver.com/worldstock/stock/CRCL.K"
+              }
+            ]
+          },
+          "financialStatementsEasy": "써클 인터넷 그룹 매출이 2024.12.31 2.5조원에서 2025.12.31 4.1조원으로 +64% 변했어요. 영업이익은 2025.12.31 기준 1,439억원 적자예요.",
+          "outlookEasy": "분석가 평균 목표가 $130.43로 지금 가격($126.57)에서 +3% 여력이 있어요. 추천 등급은 보유 (3.48)예요.",
+          "company": {
+            "ceo": "Jeremy D. Allaire",
+            "business": "이 회사는 글로벌 금융 테크 회사이다. 스테이블코인 및 블록체인 애플리케이션을 위한 플랫폼, 네트워크, 시장 인프라를 운영하고 있으며, 미 달러 페깅 스테이블코인인 USDC와 유로 페깅 스테이블코인인 EURC(총칭 Circle 스테이블코인)의 발행사이다. 이 회사는 스테이블코인 네트워크 및 다양한 블록체인 전용 소프트웨어 인프라를 제공한다. 상품에는 스테이블코인, 개발자 서비스, 통합 서비스, 토큰화 펀드 등이 있다. 개발자 서비스에서는 개발자가 바로 사용 가능한 다양한 엔터프라이즈급 인프라 서비스를 개발하는데, 개발자가 자신의 애",
+            "hq": "NEW YORK, NY",
+            "employees": "1100명",
+            "homepage": "https://www.circle.com/",
+            "ceoSource": "네이버 금융 integration API summaries"
+          },
+          "sources": [
+            {
+              "name": "네이버 금융 (실시간)",
+              "url": "https://m.stock.naver.com/worldstock/stock/CRCL.K"
+            }
+          ]
+        },
+        {
+          "ticker": "CHYM",
+          "name": "차임 파이낸셜",
+          "market": "NASDAQ",
+          "listedAt": "2025",
+          "category": "성장주",
+          "thesis": "미국 디지털 뱅킹 1위 핀테크. 2025년 NASDAQ 상장. 시총 66억$. 라틴아메리카 NU와 비슷한 사업 모델이지만 미국 시장 타깃.",
+          "flowReason": "디지털 뱅킹 침투율 상승 + 1Q 실적 모멘텀. 미국 금리 정책에 민감.",
+          "currentPrice": 17.39,
+          "change1D": -3.92,
+          "financials": "PER N/A. 시총 66.3억 USD. 52주 최고 $44.94, 최저 $16.17.",
+          "financialStatements": {
+            "currency": "USD환산원",
+            "unit": "억원",
+            "annual": [
+              {
+                "period": "2022.12.31",
+                "sales": 15062,
+                "salesFmt": "1.5조원",
+                "operatingIncome": -7147,
+                "operatingIncomeFmt": "-7,147억원",
+                "operatingMargin": -47.5,
+                "isConsensus": false
+              },
+              {
+                "period": "2023.12.31",
+                "sales": 19088,
+                "salesFmt": "1.9조원",
+                "operatingIncome": -3520,
+                "operatingIncomeFmt": "-3,520억원",
+                "operatingMargin": -18.4,
+                "isConsensus": false
+              },
+              {
+                "period": "2024.12.31",
+                "sales": 24983,
+                "salesFmt": "2.5조원",
+                "operatingIncome": -928,
+                "operatingIncomeFmt": "-928억원",
+                "operatingMargin": -3.7,
+                "isConsensus": false
+              },
+              {
+                "period": "2025.12.31",
+                "sales": 32650,
+                "salesFmt": "3.3조원",
+                "operatingIncome": -15527,
+                "operatingIncomeFmt": "-1.6조원",
+                "operatingMargin": -47.6,
+                "isConsensus": false
+              }
+            ],
+            "sources": [
+              {
+                "name": "네이버 금융 finance/summary API",
+                "url": "https://m.stock.naver.com/worldstock/stock/CHYM.O"
+              }
+            ]
+          },
+          "financialStatementsEasy": "차임 파이낸셜 매출이 2024.12.31 2.5조원에서 2025.12.31 3.3조원으로 +31% 변했어요. 영업이익은 2025.12.31 기준 1.6조원 적자예요.",
+          "outlookEasy": "분석가 평균 목표가 $31.00로 지금 가격($17.39)에서 +78% 더 오를 여력이 크다고 봐요. 추천 등급은 매수 (4.00)예요.",
+          "company": {
+            "ceo": "Christopher Britt",
+            "business": "이 회사는 소비자 금융 기술 회사이다. Federal Deposit Insurance Corporation(FDIC) 보험에 가입한 은행 파트너가 제공하는 뱅킹 서비스를 통해 보통의 미국인이 다양한 상품을 이용할 수 있도록 한다. 이 회사의 플랫폼을 통해 회원들은 FDIC 보험에 가입된 당좌 예금 계좌 및 연결된 직불 카드, 보안 신용 카드 및 기타 모바일 뱅킹 기능을 이용해 자금을 관리하고 일상적인 비용을 지불할 수 있다. 플랫폼을 통해 제공되는 유동성 상품은 자격을 갖춘 회원들이 필요에 따라 단기 유동성을 무료로 이용할 수 있도",
+            "hq": "San Francisco, CA",
+            "employees": "1519명",
+            "homepage": "https://www.chime.com/",
+            "ceoSource": "네이버 금융 integration API summaries"
+          },
+          "sources": [
+            {
+              "name": "네이버 금융 (실시간)",
+              "url": "https://m.stock.naver.com/worldstock/stock/CHYM.O"
+            }
+          ]
+        },
+        {
+          "ticker": "KLAR",
+          "name": "클라나 그룹",
+          "market": "NYSE",
+          "listedAt": "2025",
+          "category": "이슈주",
+          "thesis": "스웨덴 발 BNPL(후불 결제) 핀테크. 2025년 NYSE 상장 직후 부진. 시총 51.7억$. 글로벌 핀테크 IPO 약세 분위기 대표 사례.",
+          "flowReason": "IPO 직후 부진 흐름. 회복 시점 미정.",
+          "currentPrice": 13.69,
+          "change1D": -3.11,
+          "financials": "PER N/A. 시총 51.7억 USD. 52주 최고 $57.20, 최저 $12.06.",
+          "financialStatements": {
+            "currency": "USD환산원",
+            "unit": "억원",
+            "annual": [
+              {
+                "period": "2022.12.31",
+                "sales": 28424,
+                "salesFmt": "2.8조원",
+                "operatingIncome": -14630,
+                "operatingIncomeFmt": "-1.5조원",
+                "operatingMargin": -51.5,
+                "isConsensus": false
+              },
+              {
+                "period": "2023.12.31",
+                "sales": 33978,
+                "salesFmt": "3.4조원",
+                "operatingIncome": -4822,
+                "operatingIncomeFmt": "-4,822억원",
+                "operatingMargin": -14.2,
+                "isConsensus": false
+              },
+              {
+                "period": "2024.12.31",
+                "sales": 41965,
+                "salesFmt": "4.2조원",
+                "operatingIncome": -1806,
+                "operatingIncomeFmt": "-1,806억원",
+                "operatingMargin": -4.3,
+                "isConsensus": false
+              },
+              {
+                "period": "2025.12.31",
+                "sales": 52385,
+                "salesFmt": "5.2조원",
+                "operatingIncome": -3433,
+                "operatingIncomeFmt": "-3,433억원",
+                "operatingMargin": -6.6,
+                "isConsensus": false
+              }
+            ],
+            "sources": [
+              {
+                "name": "네이버 금융 finance/summary API",
+                "url": "https://m.stock.naver.com/worldstock/stock/KLAR.K"
+              }
+            ]
+          },
+          "financialStatementsEasy": "클라나 그룹 매출이 2024.12.31 4.2조원에서 2025.12.31 5.2조원으로 +25% 변했어요. 영업이익은 2025.12.31 기준 3,433억원 적자예요.",
+          "outlookEasy": "분석가 평균 목표가 $21.25로 지금 가격($13.69)에서 +55% 더 오를 여력이 크다고 봐요. 추천 등급은 매수 (3.90)예요.",
+          "company": {
+            "ceo": "Michael J. Moritz",
+            "business": "이 회사는 영국 기반의 테크 회사로 커머스 네트워크 개발에 주력하고 있다. 인공지능 기반의 글로벌 결제 네트워크 및 쇼핑 어시스턴트이다. 여러 채널을 통해 소비자 및 가맹점에 결제, 광고, 디지털 소매 뱅킹 등의 다양한 솔루션을 제공한다. 온라인 결제 솔루션은 소비자에게 단기 신용을 무이자로 제공하여 소비자와 가맹점 간의 거래의 불확실성을 해소하도록 설계되었다. 다양한 결제 옵션을 통해 소비자는 온라인과 오프라인 모두에서 원하는 상품을 구매할 수 있다. 이 회사의 결제 솔루션은 Pay in Full, Pay Later, Fair F",
+            "hq": "LONDON",
+            "employees": "2831명",
+            "homepage": "https://www.klarna.com",
+            "ceoSource": "네이버 금융 integration API summaries"
+          },
+          "sources": [
+            {
+              "name": "네이버 금융 (실시간)",
+              "url": "https://m.stock.naver.com/worldstock/stock/KLAR.K"
+            }
+          ]
+        },
+        {
+          "ticker": "RDDT",
+          "name": "레딧",
+          "market": "NYSE",
+          "listedAt": "2024-03",
+          "category": "성장주",
+          "thesis": "글로벌 커뮤니티 플랫폼 Reddit. 2024/3 NYSE 상장 후 +XX% 급등 흐름. PER 44배, 시총 297억$. AI 학습 데이터 제공 수익이 신규 매출원.",
+          "flowReason": "AI 데이터 라이선싱 매출 성장 + 글로벌 사용자 증가. 광고 시장 의존도 위험.",
+          "currentPrice": 154.12,
+          "change1D": 1.16,
+          "financials": "PER 44.11배. 시총 297억 USD. 52주 최고 $282.95, 최저 $94.89.",
+          "financialStatements": {
+            "currency": "USD환산원",
+            "unit": "억원",
+            "annual": [
+              {
+                "period": "2022.12.31",
+                "sales": 9953,
+                "salesFmt": "9,953억원",
+                "operatingIncome": -2570,
+                "operatingIncomeFmt": "-2,570억원",
+                "operatingMargin": -25.8,
+                "isConsensus": false
+              },
+              {
+                "period": "2023.12.31",
+                "sales": 12003,
+                "salesFmt": "1.2조원",
+                "operatingIncome": -2092,
+                "operatingIncomeFmt": "-2,092억원",
+                "operatingMargin": -17.4,
+                "isConsensus": false
+              },
+              {
+                "period": "2024.12.31",
+                "sales": 19410,
+                "salesFmt": "1.9조원",
+                "operatingIncome": -8368,
+                "operatingIncomeFmt": "-8,368억원",
+                "operatingMargin": -43.1,
+                "isConsensus": false
+              },
+              {
+                "period": "2025.12.31",
+                "sales": 32881,
+                "salesFmt": "3.3조원",
+                "operatingIncome": 6598,
+                "operatingIncomeFmt": "6,598억원",
+                "operatingMargin": 20.1,
+                "isConsensus": false
+              }
+            ],
+            "sources": [
+              {
+                "name": "네이버 금융 finance/summary API",
+                "url": "https://m.stock.naver.com/worldstock/stock/RDDT.K"
+              }
+            ]
+          },
+          "financialStatementsEasy": "레딧 매출이 2024.12.31 1.9조원에서 2025.12.31 3.3조원으로 +69% 변했어요. 영업이익은 적자에서 흑자로 돌아섰어요. 영업이익률이 20.1%로 양호한 편이에요.",
+          "outlookEasy": "분석가 평균 목표가 $228.61로 지금 가격($154.12)에서 +48% 더 오를 여력이 크다고 봐요. 추천 등급은 매수 (3.83)예요.",
+          "company": {
+            "ceo": "Steven L. Huffman",
+            "business": "이 회사는 소셜 플랫폼인 Reddit을 운영한다. 사용자가 커뮤니티를 형성하고 콘텐츠를 제작 및 공유할 수 있는 모바일 애플리케이션과 웹사이트를 운영한다. Reddit은 전 세계 모든 사람에게 커뮤니티, 소속감, 권한을 부여하고자 한다. Reddit은 전 세계 누구나 커뮤니티에 가입하여 서로 배우고, 진정성 있는 대화에 참여하고, 열정을 탐구하고, 새로운 취미를 찾고, 상품과 서비스를 교환하고, 새로운 커뮤니티와 경험을 만들고, 웃음을 나누고, 소속감을 찾을 수 있는 글로벌 디지털 도시다. Reddit에는 수천 개의 커뮤니티, 끝없",
+            "hq": "SAN FRANCISCO, CA",
+            "employees": "2555명",
+            "homepage": "https://www.redditinc.com/",
+            "ceoSource": "네이버 금융 integration API summaries"
+          },
+          "sources": [
+            {
+              "name": "네이버 금융 (실시간)",
+              "url": "https://m.stock.naver.com/worldstock/stock/RDDT.K"
+            }
+          ]
+        },
+        {
+          "ticker": "BIRK",
+          "name": "버컨스톡 홀딩",
+          "market": "NYSE",
+          "listedAt": "2023-10",
+          "category": "이슈주",
+          "thesis": "프리미엄 신발 브랜드. 2023/10 NYSE 상장. 오늘 -12.86% 큰 폭 하락. PER 13.89배. 시총 60.8억$. 소비 트렌드 변화 민감.",
+          "flowReason": "오늘 -12.86% 큰 폭 하락 — 실적 발표 후 매물 추정. 단기 변동 큰 종목.",
+          "currentPrice": 33.07,
+          "change1D": -12.86,
+          "financials": "PER 13.89배. 시총 60.8억 USD. 52주 최고 $59.50, 최저 $33.06.",
+          "financialStatements": {
+            "currency": "USD환산원",
+            "unit": "억원",
+            "annual": [
+              {
+                "period": "2022.09.30",
+                "sales": 21736,
+                "salesFmt": "2.2조원",
+                "operatingIncome": 6319,
+                "operatingIncomeFmt": "6,319억원",
+                "operatingMargin": 29.1,
+                "isConsensus": false
+              },
+              {
+                "period": "2023.09.30",
+                "sales": 26092,
+                "salesFmt": "2.6조원",
+                "operatingIncome": 4590,
+                "operatingIncomeFmt": "4,590억원",
+                "operatingMargin": 17.6,
+                "isConsensus": false
+              },
+              {
+                "period": "2024.09.30",
+                "sales": 31562,
+                "salesFmt": "3.2조원",
+                "operatingIncome": 7364,
+                "operatingIncomeFmt": "7,364억원",
+                "operatingMargin": 23.3,
+                "isConsensus": false
+              },
+              {
+                "period": "2025.09.30",
+                "sales": 36682,
+                "salesFmt": "3.7조원",
+                "operatingIncome": 9611,
+                "operatingIncomeFmt": "9,611억원",
+                "operatingMargin": 26.2,
+                "isConsensus": false
+              }
+            ],
+            "sources": [
+              {
+                "name": "네이버 금융 finance/summary API",
+                "url": "https://m.stock.naver.com/worldstock/stock/BIRK.K"
+              }
+            ]
+          },
+          "financialStatementsEasy": "버컨스톡 홀딩 매출이 2024.09.30 3.2조원에서 2025.09.30 3.7조원으로 +16% 변했어요. 영업이익은 +31% 변동. 영업이익률이 26.2%로 양호한 편이에요.",
+          "outlookEasy": "분석가 평균 목표가 $58.90로 지금 가격($33.07)에서 +78% 더 오를 여력이 크다고 봐요. 추천 등급은 매수 (4.24)예요.",
+          "company": {
+            "ceo": "Oliver Reichert",
+            "business": "이 회사는 Birkenstock Group B.V. & Co. KG 및 그 자회사의 모회사다. 이 회사는 상징적인 Core Silhouettes인 마드리드, 애리조나, 보스턴, 지제, 마야리를 중심으로 남녀 공용 풋베드 기반 제품 포트폴리오를 개발해 온 글로벌 브랜드다. 이 회사는 샌들, 클로즈드 토 실루엣, 스킨케어 및 액세서리와 같은 기타 제품 등 일상, 레저 및 업무용 풋베드 기반 제품을 제조 및 판매한다. 이 회사는 두 가지 주요 채널을 통해 제품을 판매한다. 기존 타사 매장 네트워크에 대한 판매로 구성된 B2B(기업 간 거",
+            "hq": "LONDON",
+            "employees": "6800명",
+            "homepage": "https://www.birkenstock-holding.com",
+            "ceoSource": "네이버 금융 integration API summaries"
+          },
+          "sources": [
+            {
+              "name": "네이버 금융 (실시간)",
+              "url": "https://m.stock.naver.com/worldstock/stock/BIRK.K"
+            }
+          ]
         }
       ]
     }

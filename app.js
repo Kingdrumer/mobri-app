@@ -2883,7 +2883,10 @@ function renderSignalsBox(report) {
   const kr = signals.kr || [];
   const us = signals.us || [];
   const krFlow = signals.krForeignFlow;
-  if (!kr.length && !us.length) return '';
+  const newListings = signals.newListings || null;
+  const newKr = newListings?.kr || [];
+  const newUs = newListings?.us || [];
+  if (!kr.length && !us.length && !newKr.length && !newUs.length) return '';
 
   const defaultTab = kr.length ? 'kr' : 'us';
   const totalCount = kr.length + us.length;
@@ -3051,6 +3054,27 @@ function renderSignalsBox(report) {
         <div data-tab-content="us-sig" class="sig-list ${defaultTab === 'us' ? '' : 'hidden'}">
           ${us.map(signalCard).join('') || '<div class="region-empty">미국 추천이 없어요.</div>'}
         </div>
+
+        ${(newKr.length || newUs.length) ? `
+          <div class="new-listings-section">
+            <div class="new-listings-head">
+              <span class="new-listings-title">🆕 신규 상장주 (IPO)</span>
+              <span class="new-listings-sub">상장한 지 얼마 안 된 종목 · 변동이 매우 큰 종목이라 신중히 보세요</span>
+            </div>
+            ${newKr.length ? `
+              <div class="new-listings-region">
+                <div class="new-listings-region-title">🇰🇷 국내 (${newKr.length})</div>
+                ${newKr.map(signalCard).join('')}
+              </div>
+            ` : ''}
+            ${newUs.length ? `
+              <div class="new-listings-region">
+                <div class="new-listings-region-title">🇺🇸 미국 (${newUs.length})</div>
+                ${newUs.map(signalCard).join('')}
+              </div>
+            ` : ''}
+          </div>
+        ` : ''}
       </div>
     </section>
   `;
@@ -3083,13 +3107,16 @@ function signalCard(s) {
     ? `<span class="sig-change ${s.change1D >= 0 ? 'pos' : 'neg'}">${pct(s.change1D)}</span>`
     : '';
 
-  const hasDetail = s.financials || s.comparable || s.risk || s.horizon || s.outlook || s.outlookEasy || s.company;
+  const hasDetail = s.financials || s.comparable || s.risk || s.horizon || s.outlook || s.outlookEasy || s.company || s.financialStatements;
 
   return `
     <div class="sig-card cat-${catColor}" data-sig-card>
       <div class="sig-card-top">
         <div class="sig-id">
-          <span class="sig-cat-badge cat-${catColor}">${escapeHtml(s.category || '주목')}</span>
+          <div class="sig-badges">
+            <span class="sig-cat-badge cat-${catColor}">${escapeHtml(s.category || '주목')}</span>
+            ${s.listedAt ? `<span class="sig-ipo-badge">🆕 ${escapeHtml(s.listedAt)} 상장</span>` : ''}
+          </div>
           <div class="sig-name-row">
             <span class="sig-ticker">${escapeHtml(s.ticker || '')}</span>
             <span class="sig-name">${escapeHtml(s.name || '')}</span>
@@ -3120,6 +3147,34 @@ function signalCard(s) {
               </div>
             ` : ''}
             ${s.financials ? `<div class="sig-block"><span class="sig-block-lbl">💰 재무</span><span class="sig-block-val">${escapeHtml(s.financials)}</span></div>` : ''}
+            ${s.financialStatements && s.financialStatements.annual?.length ? `
+              <div class="sig-block sig-block-fs">
+                <span class="sig-block-lbl">📊 재무재표 (연간)</span>
+                <div class="sig-block-val">
+                  ${s.financialStatementsEasy ? `<div class="sig-fs-easy">💬 ${escapeHtml(paraBreak(s.financialStatementsEasy))}</div>` : ''}
+                  <details class="sig-fs-detail">
+                    <summary>📊 연간 매출·영업이익 표 보기</summary>
+                    <div class="sig-fs-table">
+                      <div class="sig-fs-row sig-fs-row-head">
+                        <span class="sig-fs-year">연도</span>
+                        <span class="sig-fs-val">매출</span>
+                        <span class="sig-fs-val">영업이익</span>
+                        <span class="sig-fs-margin">마진</span>
+                      </div>
+                      ${s.financialStatements.annual.map((r) => `
+                        <div class="sig-fs-row ${r.isConsensus ? 'sig-fs-row-est' : ''}">
+                          <span class="sig-fs-year">${escapeHtml(r.period)}${r.isConsensus ? ' (추정)' : ''}</span>
+                          <span class="sig-fs-val">${escapeHtml(r.salesFmt)}</span>
+                          <span class="sig-fs-val ${r.operatingIncome < 0 ? 'neg' : 'pos'}">${escapeHtml(r.operatingIncomeFmt)}</span>
+                          <span class="sig-fs-margin ${r.operatingMargin != null && r.operatingMargin < 0 ? 'neg' : ''}">${r.operatingMargin != null ? r.operatingMargin.toFixed(1) + '%' : '—'}</span>
+                        </div>
+                      `).join('')}
+                    </div>
+                    <div class="sig-fs-note">단위: ${escapeHtml(s.financialStatements.unit)} · 출처: ${(s.financialStatements.sources || []).map((src) => escapeHtml(src.name)).join(' · ')}</div>
+                  </details>
+                </div>
+              </div>
+            ` : ''}
             ${s.comparable ? `<div class="sig-block"><span class="sig-block-lbl">📊 과거 사례</span><span class="sig-block-val">${escapeHtml(s.comparable)}</span></div>` : ''}
             ${(s.outlookEasy || s.outlook) ? `
               <div class="sig-block sig-block-outlook">
