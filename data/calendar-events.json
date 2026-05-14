@@ -1745,6 +1745,90 @@
     ],
     "2026-05-14": [
       {
+        "type": "positive",
+        "label": "美 S&P/나스닥 ATH",
+        "color": "green",
+        "time": "06:00 KST 마감",
+        "title": "5/13 美 증시 사상 최고 + 오늘 코스피 사상 최고 동시",
+        "description": "어젯밤 미 S&P 7,444.23(+0.58%)·나스닥 26,402.34(+1.20%) 사상 최고. 오늘 코스피 7,981.41(+1.75%) 사상 최고 마감. PPI(생산자물가, 기업이 받는 가격) +6.0% 핫쇼크에도 반도체가 끌어올림.",
+        "impact": "S&P 500 사상 최고는 미국 500개 대기업 평균 가격이 가장 높다는 뜻이에요. 나스닥은 기술주 중심 지수예요. 코스피 사상 최고는 한국 시장 전체가 역대 가장 좋은 상태. 다만 4월 PPI +6.0%는 컨센서스(시장 평균 예상치)보다 훨씬 높아서 금리 인하 기대는 후퇴했어요.",
+        "ourImpact": "보유 15개 중 GOOG·META·AMZN·NVDA·TSM·MU·MRVL·DELL·LITE 9개 상승. NVDA(엔비디아) +2.29% $225.83로 52주 최고 돌파, 5/20 실적 D-7. MU +4.83%·MRVL +8.18% 동반 강세. 반면 CRDO -4.64%·TLN -6.29% 차익실현 매도.",
+        "stockImpacts": [
+          {
+            "ticker": "NVDA",
+            "tone": "positive",
+            "magnitude": "high",
+            "note": "+2.29% $225.83 ATH(지금까지 본 적 없는 최고가) 임박"
+          },
+          {
+            "ticker": "MU",
+            "tone": "positive",
+            "magnitude": "high",
+            "note": "+4.83% $803.63 NAND 가격 강세"
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "positive",
+            "magnitude": "high",
+            "note": "+8.18% $177.95 5/28 실적 D-15"
+          },
+          {
+            "ticker": "GOOG",
+            "tone": "positive",
+            "magnitude": "medium",
+            "note": "+3.97% $399.04 빅테크 반등"
+          },
+          {
+            "ticker": "META",
+            "tone": "positive",
+            "magnitude": "medium",
+            "note": "+2.26% $616.63 광고 강세"
+          },
+          {
+            "ticker": "LITE",
+            "tone": "positive",
+            "magnitude": "medium",
+            "note": "+3.83% 5/18 나스닥100 편입"
+          },
+          {
+            "ticker": "DELL",
+            "tone": "positive",
+            "magnitude": "medium",
+            "note": "+2.06% UBS 다운그레이드 충격 일부 회복"
+          },
+          {
+            "ticker": "TLN",
+            "tone": "negative",
+            "magnitude": "high",
+            "note": "-6.29% AI 전력 차익실현"
+          },
+          {
+            "ticker": "CRDO",
+            "tone": "negative",
+            "magnitude": "medium",
+            "note": "-4.64% 6/4 실적 옵션 베팅 정리"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "negative",
+            "magnitude": "low",
+            "note": "-0.60% 약보합"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "negative",
+            "magnitude": "low",
+            "note": "-0.62% 약보합"
+          },
+          {
+            "ticker": "CLS",
+            "tone": "negative",
+            "magnitude": "low",
+            "note": "-0.41% 옵틱스 매도 여진"
+          }
+        ]
+      },
+      {
         "type": "asia",
         "label": "아시아 마감 — KOSPI +1.75% 7,981.41 사상 최고 (8천피 임박)",
         "color": "blue",
