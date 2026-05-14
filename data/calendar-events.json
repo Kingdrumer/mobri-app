@@ -1231,6 +1231,41 @@
     ],
     "2026-05-15": [
       {
+        "type": "us_close",
+        "label": "[美 5/14 마감] 다우 5만 탈환·S&P·나스닥 ATH",
+        "color": "green",
+        "time": "익일 05:00 KST 마감",
+        "title": "美 다우 50,063.46(+0.75%) 5만선 재탈환·S&P 7,501.24(+0.77%) ATH·나스닥 26,635.22(+0.88%) ATH",
+        "description": "CSCO 분기 실적 호조 후 정규장 +20% 급등이 다우를 견인. AI 트레이드 재점화로 NVDA +4.39% $235.74·AVGO +5.58% $440.05 52주 최고·MRVL +5.83% $188.32 사상 최고·TSM +4.49% $417.76 폭발. SOX 12,073.78(+0.46%) 강보합·VIX 17.79 안정.",
+        "ourImpact": "보유 15개 중 9개 상승·6개 약세 양극화. NVDA·AVGO·MRVL·TSM·DELL·CLS·META·GOOG 강세 vs MU -3.21%·SNDK -2.34%·LITE -2.58%·CRDO -1.76% 차익실현. 빅캡 칩 주도 → 한국 칩 갭상승 출발 가능성."
+      },
+      {
+        "type": "earnings",
+        "label": "AMAT 시간외 +4% (분기 더블 비트)",
+        "color": "green",
+        "time": "익일 05:00 KST 직후 (4:30 PM ET)",
+        "title": "Applied Materials Q2 FY26 더블 비트 — 시간외 +3.96% $458",
+        "description": "EPS $2.86 (컨센 $2.68 비트)·매출 $7.91B (컨센 $7.69B 비트, 사상 최고). Q3 가이던스 매출 ~$8.95B ±$500M·EPS ~$3.36 ±$0.20로 컨센 크게 상회. 2026년 반도체 장비 산업 성장 전망을 '+20% 이상'에서 '+30% 이상'으로 상향.",
+        "ourImpact": "AMAT은 보유 종목 아니지만, 반도체 장비 호실적은 NVDA·TSM·AVGO·MU·SNDK 등 칩 전반에 호재. AI 칩 수요 신호로 5/20 NVDA 실적 분위기에 우호적."
+      },
+      {
+        "type": "schedule",
+        "label": "옵션만기일 (OpEx)",
+        "color": "amber",
+        "time": "—",
+        "title": "5월 OpEx — 옵션만기일",
+        "description": "셋째 주 금요일 옵션만기일. 빅테크·반도체 옵션 거래량 집중 종목 단기 가격 흔들림 가능. 워시 Fed 의장 취임 발언과 겹쳐 변동성 확대 구간.",
+        "ourImpact": "5/15 정규장 변동성 평소보다 큼. 큰 결정 안 하고 흐름만 가볍게 지켜보는 게 좋아요."
+      },
+      {
+        "type": "report",
+        "label": "오늘의 보고서 (06:00 라이트)",
+        "color": "indigo",
+        "time": "06:00 KST",
+        "title": "5/15 06:00 라이트 — 美 마감 + AMAT 시간외 캡처",
+        "description": "어젯밤 미국 정규장 마감과 AMAT 시간외 실적을 라이트로 캡처. 다우 5만 탈환·S&P·나스닥 ATH, AMAT 더블 비트로 시간외 +4%."
+      },
+      {
         "type": "schedule",
         "label": "Fed 의장 교체 (워시 취임)",
         "color": "amber",

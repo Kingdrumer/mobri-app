@@ -1,0 +1,199 @@
+{
+  "date": "2026-05-15",
+  "title": "5월 15일 (금) 06:00 라이트 — 美 다우 5만 탈환·S&P 7,501 ATH·나스닥 26,635 ATH, AMAT 시간외 +4% 호실적",
+  "session": 14,
+  "lightUpdate": true,
+  "lightUpdateAt": "2026-05-15T06:00:00+09:00",
+  "marketStatus": "LIGHT_BRIEF_US_DOW_50K_RECLAIMED_AMAT_BEAT",
+  "tip": "어젯밤 美 다우가 50,063.46(+0.75%)으로 다시 5만선 탈환했고 S&P 500 7,501.24(+0.77%)·나스닥 26,635.22(+0.88%)도 사상 최고치를 또 갈아치웠어요. CSCO(시스코) 실적 호조 발표 후 +20% 급등이 다우를 끌어올렸고 AI 트레이드가 다시 살아나면서 NVDA +4.39% $235.74·AVGO +5.58% $440.05 52주 최고·MRVL +5.83% $188.32 사상 최고가 동반 폭발했어요. 보유 양극화는 여전 — NVDA·TSM·AVGO·MRVL·DELL·CLS·META·GOOG 강세 vs MU -3.21%·SNDK -2.34%·LITE -2.58%·CRDO -1.76% 차익실현. 미장 마감 후 AMAT(어플라이드) 분기 실적 발표 — EPS $2.86(컨센 $2.68)·매출 $7.91B(컨센 $7.69B) 더블 비트로 시간외 +4% $458 강세, Q3 가이던스도 시장 기대치 크게 상회. 오늘은 워시(Warsh) 신임 Fed 의장 취임 + 옵션만기일(OpEx) 더블 이벤트 — 비둘기파(=금리 빨리 내려줄) 색깔 시 칩 매수 추가 유입 가능성. NVDA 5/20 실적 D-5.",
+  "marketSummary": {
+    "us": {
+      "dow": {
+        "close": 50063.46,
+        "change": 0.75,
+        "changePoint": 370.26,
+        "note": "5만선 탈환, CSCO +20% 급등이 견인"
+      },
+      "sp500": {
+        "close": 7501.24,
+        "change": 0.77,
+        "note": "사상 최고치 또 경신, AI 트레이드 재점화"
+      },
+      "nasdaq": {
+        "close": 26635.22,
+        "change": 0.88,
+        "note": "사상 최고치 또 경신, 빅테크·반도체 동반 강세"
+      },
+      "sox": {
+        "close": 12073.78,
+        "change": 0.46,
+        "changePoint": 55.8,
+        "note": "필반 강보합 — NVDA·AVGO·MRVL·TSM 강세 vs MU·MRVL 반대 종목 차별화"
+      },
+      "vix": {
+        "close": 17.79,
+        "change": -0.45,
+        "note": "공포지수 안정, 위험선호 강화"
+      }
+    },
+    "afterHoursEarnings": [
+      {
+        "ticker": "AMAT",
+        "name": "Applied Materials (어플라이드)",
+        "result": "EPS $2.86 (컨센 $2.68 비트) · 매출 $7.91B (컨센 $7.69B 비트, 사상 최고)",
+        "guidance": "Q3 매출 ~$8.95B ±$500M, EPS ~$3.36 ±$0.20 (시장 기대치 크게 상회)",
+        "afterHoursMove": "+3.96% $458.00 (정규장 종가 $440.56 → 시간외 $458)",
+        "comment": "반도체 장비 산업 성장 전망 +30% 이상으로 상향(2월 +20%에서). 우리 보유 종목 중 NVDA·TSM·AVGO·MU 등 반도체 전반에 호재"
+      }
+    ]
+  },
+  "asiaSummary": {
+    "note": "5/15(금) 아시아장 개장 전 — 코스피 8천피 임박(7,981.41) 상태에서 美 ATH·반도체 강세 갭상승 출발 가능성. 환율 1,491원 → 美 위험선호 강화로 단기 안정 시도, 워시 Fed 발언이 변수."
+  },
+  "news": [
+    {
+      "category": "미국 증시",
+      "headline": "🟢 다우 5만 탈환 + S&P·나스닥 사상 최고 — CSCO +20% 급등이 견인",
+      "oneLineSummary": "어젯밤 미국 다우가 50,063.46(+0.75%)으로 다시 5만선을 되찾았어요. 시스코(CSCO·네트워크 장비 회사)가 실적 잘 내면서 +20% 폭등한 게 다우를 끌어올렸고, S&P 500과 나스닥도 사상 최고치를 또 갈아치웠어요. AI 거래(=AI 관련 주식 매수세)가 다시 살아나는 분위기예요.",
+      "summary": "5/14 美 정규장 마감 — 다우 50,063.46(+0.75%, +370.26p) 5만선 재탈환, S&P 500 7,501.24(+0.77%) ATH 경신, 나스닥 26,635.22(+0.88%) ATH 경신. CSCO 분기 실적 호조 발표(EPS $1.06 vs 컨센 $1.04, 매출 $15.84B vs $15.56B, AI 매출 가이던스 $4B로 상향) → 정규장 +20% 급등이 다우를 견인. SOX(필라델피아 반도체) 12,073.78(+0.46%) 강보합. VIX 17.79 안정.",
+      "ourImpact": "보유 15개 중 9개 상승·6개 약세로 양극화. NVDA·AVGO·MRVL·TSM 반도체 빅 위너 vs MU·SNDK·LITE·CRDO 차익실현. 다우 5만 탈환은 위험선호 강화 신호 — 우리 보유 빅테크에 우호적 흐름이에요.",
+      "impact": "positive",
+      "sources": [
+        {
+          "name": "TheStreet",
+          "url": "https://www.thestreet.com/latest-news/stock-market-may-14-2026-sp-futures-rise-after-closing-at-record-high"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-retakes-50000-level-sp-500-and-nasdaq-surge-as-ai-trade-roars-back-223230523.html"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/05/13/stock-market-today-live-updates.html"
+        }
+      ]
+    },
+    {
+      "category": "미국 증시",
+      "headline": "🟢 SOX 필반 +0.46% 12,073.78 — 빅캡 강세, MU·SNDK는 차익실현",
+      "oneLineSummary": "필라델피아 반도체 지수(SOX·미국 반도체 30개 종목 묶음)는 +0.46%로 강보합 마감했어요. NVDA·AVGO·TSM·MRVL 같은 큰 회사들이 끌어올렸지만 MU(마이크론)·SNDK(샌디스크) 같은 메모리 회사들은 어제 너무 많이 올라서 잠깐 식는(차익실현) 분위기였어요.",
+      "summary": "SOX 12,073.78(+0.46%, +55.80p) 강보합. 빅캡 칩(NVDA +4.39%·AVGO +5.58% 52주 최고·MRVL +5.83% ATH·TSM +4.49%) 강세 vs 메모리(MU -3.21%·SNDK -2.34%) 차익실현. AI 칩 정책 우려는 단기 노이즈로 작용하며 종목 차별화 심화.",
+      "ourImpact": "보유 반도체 중 NVDA·AVGO·MRVL·TSM·CLS는 강세, MU·SNDK·LITE·CRDO는 약세로 단기 양극화. AMAT 시간외 호실적이 반도체 장비·전공정 전반에 우호적이라 5/15 한국 칩 종목 갭상승 출발 가능성.",
+      "impact": "positive",
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/%5ESOX/"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/indices/phlx-semiconductor"
+        }
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "🟢 AMAT 시간외 +4% — 분기 더블 비트, 장비 산업 성장률 +30% 이상으로 상향",
+      "oneLineSummary": "AMAT(어플라이드 머티리얼즈·반도체 만드는 장비를 파는 회사)이 어제 미국장 마감 후(시간외) 분기 실적을 발표했는데, 매출($7.91B)과 EPS($2.86) 둘 다 시장 평균 예상치를 크게 넘었어요. 다음 분기 가이던스(=회사가 직접 한 다음 분기 예상)도 매출 $8.95B로 시장 기대치보다 훨씬 높게 제시해서 시간외에서 +4% 올랐어요.",
+      "summary": "5/14 美 정규장 마감 후 AMAT 분기 실적 발표 — EPS $2.86 (컨센 $2.68 비트) · 매출 $7.91B (컨센 $7.69B 비트, 사상 최고). Q3 가이던스 매출 ~$8.95B ±$500M, EPS ~$3.36 ±$0.20로 컨센 크게 상회. 회사는 2026년 반도체 장비 산업 성장 전망을 '+20% 이상'에서 '+30% 이상'으로 상향. 시간외 정규 종가 $440.56 → $458.00(+3.96%) 강세.",
+      "ourImpact": "AMAT은 우리 보유 종목은 아니지만, 반도체 장비 호실적은 우리가 들고 있는 NVDA·TSM·AVGO·MU·SNDK 같은 칩 회사들에 전반적 호재예요. 특히 AI 칩 수요 증가 신호라서 NVDA 5/20 실적 발표 전 분위기 띄우는 효과가 클 거예요.",
+      "impact": "positive",
+      "sources": [
+        {
+          "name": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/14/live-applied-materials-q2-earnings-tonight-can-the-stock-continue-its-meteoric-run/"
+        },
+        {
+          "name": "Stocktitan",
+          "url": "https://www.stocktitan.net/news/AMAT/applied-materials-announces-second-quarter-2026-y205hrnxvpxb.html"
+        },
+        {
+          "name": "Applied Materials IR",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-second-quarter-2026-results"
+        }
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "🟢 보유 NVDA +4.39% $235.74·MRVL +5.83% ATH·AVGO +5.58% 52주 최고",
+      "oneLineSummary": "보유 종목 중 NVDA(엔비디아)·MRVL(마벨)·AVGO(브로드컴)이 어제 같이 크게 올랐어요. 특히 MRVL은 사상 최고가, AVGO는 52주(최근 1년) 최고가를 새로 썼어요. 5/20 NVDA 분기 실적 발표 기대감이 모이면서 AI 칩 관련 매수세가 다시 강해진 거예요.",
+      "summary": "5/14 보유 종목 강세 종목 — NVDA $235.74(+4.39%) 사상 최고치 근접, MRVL $188.32(+5.83%) 사상 최고(장중 $192.15 ATH), AVGO $440.05(+5.58%) 52주 최고(분석가 6곳 PT 일제히 상향 — Wells Fargo 545$, Wolfe·Citi 500$, AI 매출 30~40% 더 높을 전망 인용). TSM $417.76(+4.49%)·DELL $247.75(+1.59%)·CLS $379.90(+1.97%) 동반 강세. NVDA 시간외는 -0.27% $235.10 약보합.",
+      "ourImpact": "보유 15개 중 NVDA·AVGO·MRVL·TSM 등 빅캡 칩이 일제히 폭발 — 포트폴리오 큰 비중이라 어제 평가액 큰 폭 증가 흐름이에요. 5/20 NVDA 실적까지 변동이 큰 구간이라 흐름만 가볍게 지켜보면 좋아요.",
+      "impact": "positive",
+      "sources": [
+        {
+          "name": "Yahoo Finance NVDA",
+          "url": "https://finance.yahoo.com/quote/NVDA/"
+        },
+        {
+          "name": "Rolling Out MRVL",
+          "url": "https://rollingout.com/2026/05/14/marvell-hits-high-on-alphabet-chip/"
+        },
+        {
+          "name": "FinancialContent AVGO",
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-5-14-why-broadcom-avgo-stock-is-up-today"
+        }
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "🔴 보유 MU -3.21% $777.80·SNDK -2.34% — 메모리 차익실현",
+      "oneLineSummary": "보유 종목 중 메모리(메모리 반도체) 회사인 MU(마이크론)와 SNDK(샌디스크)는 어제 빠졌어요. 5/13에 너무 많이 올라서 잠깐 식는(차익실현) 매도세 + AI 칩 정책 우려가 짧은 노이즈로 작용한 거예요.",
+      "summary": "5/14 보유 종목 약세 — MU $777.80(-3.21%, 5/13 +4.83% 후 차익실현), SNDK $1,413.31(-2.34%), LITE $1,003.82(-2.58%, 5/18 Nasdaq-100 편입 호재 선반영 + MRVL ATH로 자금 이동), CRDO $186.04(-1.76%, 광통신 차익실현 동조). AMD $447.00(+0.34%)는 장중 변동성 큰 보합 회복.",
+      "ourImpact": "메모리·광통신 단기 차익실현으로 양극화. MU·SNDK는 AMAT 호실적이 다시 매수 모멘텀을 살릴 가능성 있어 5/15 정규장 흐름 관찰 포인트. LITE는 5/18 Nasdaq-100 편입 인덱스 매수 자금 유입이 추가 변수예요.",
+      "impact": "negative",
+      "sources": [
+        {
+          "name": "Robinhood MU",
+          "url": "https://robinhood.com/us/en/stocks/MU/"
+        },
+        {
+          "name": "Yahoo Finance LITE",
+          "url": "https://finance.yahoo.com/quote/LITE/"
+        }
+      ]
+    },
+    {
+      "category": "정책·금리",
+      "headline": "🟡 5/15 워시(Warsh) 신임 Fed 의장 취임 + OpEx(옵션만기일) 더블 이벤트",
+      "oneLineSummary": "오늘 5/15 미국에서 두 가지 큰 이벤트가 겹쳐요. 첫째, 워시 새 Fed(연방준비제도·미국 중앙은행) 의장이 취임해요. 둘째, OpEx(옵션만기일·매월 셋째 주 금요일에 옵션이 한꺼번에 만료되는 날)이라 변동이 클 수 있어요. 워시 의장이 비둘기파(=금리 빨리 내려줄 사람) 발언을 하면 칩 주식에 매수가 추가로 들어올 가능성이 있어요.",
+      "summary": "5/15(금) 더블 이벤트 — (1) 워시 신임 Fed 의장 취임 (2) 5월 옵션만기일(OpEx, 셋째 주 금요일). 워시는 매파~중도 성향으로 알려졌으나 취임 일성에 비둘기파 색깔이 묻어나면 금리 인하 기대 강화 → 성장주(반도체·빅테크) 추가 매수 유인. OpEx는 변동성 확대 구간 — 빅테크·반도체 옵션 거래량 집중 종목 단기 가격 흔들림 가능.",
+      "ourImpact": "워시 발언 색깔이 우리 보유 빅테크·반도체에 직격 — 비둘기파면 추가 강세, 매파면 차익실현 빌미. OpEx 구간이라 5/15 정규장 변동성 평소보다 큼. 이런 날은 큰 결정 안 하고 흐름만 가볍게 지켜보는 게 좋아요.",
+      "impact": "neutral",
+      "sources": [
+        {
+          "name": "FRED VIX",
+          "url": "https://fred.stlouisfed.org/series/VIXCLS"
+        }
+      ]
+    },
+    {
+      "category": "글로벌·지정학",
+      "headline": "🟡 美·이란 협상 진전 — WTI $107로 상승, 중동 지정학 변동성 지속",
+      "oneLineSummary": "어제 미국과 이란 사이 협상 진전 소식이 나왔지만 동시에 WTI(미국 대표 원유 가격)는 $107까지 올랐어요. 중동 지정학(=정치·지역 갈등) 변동성이 계속되면서 유가가 흔들리는 중이에요.",
+      "summary": "5/14 WTI 원유 $107로 상승, 미·이란 협상 진전 헤드라인에도 단기 공급 우려와 호르무즈 긴장 잔존으로 유가 견조. 골드·실버 약세, 비트코인 $81K 부근 후퇴.",
+      "ourImpact": "유가 상승은 인플레이션 압력으로 단기 매파 색깔 자극 가능 — Fed 금리 결정·반도체 매수 흐름에 단기 노이즈. 우리 보유 종목엔 직접 영향 작지만 NVDA의 호르무즈 지정학 리스크는 잔존.",
+      "impact": "neutral",
+      "sources": [
+        {
+          "name": "Sunday Guardian",
+          "url": "https://sundayguardianlive.com/business/us-stock-market-today-14-may-2026-dow-dips-nasdaq-sp-500-edge-higher-as-cisco-rally-oil-surges-107-on-us-iran-deal-gold-silver-hit-bitcoin-retreats-81k-what-investors-should-watch-192258/"
+        }
+      ]
+    }
+  ],
+  "preview": {
+    "tonight": "5/15(금) 밤 美 정규장 — 워시 Fed 취임 + OpEx 옵션만기일 더블 이벤트로 변동성 확대 구간. AMAT 호실적 동조 칩 매수 vs OpEx 헤지 매도 줄다리기.",
+    "tomorrow": "5/16(토) — 美 휴장(주말). 5/19 PCE(개인소비지출) 인플레 지표 + 5/20 NVDA Q1 FY27 실적이 주말 후 메가 이벤트.",
+    "thisWeek": "5/15 워시 Fed 취임 + OpEx · 5/19 PCE · 5/20 NVDA 실적",
+    "watchTickers": [
+      "NVDA",
+      "AVGO",
+      "MRVL",
+      "AMAT",
+      "TSM",
+      "MU"
+    ]
+  },
+  "lastUpdated": "2026-05-15T06:00:00+09:00"
+}
