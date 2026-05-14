@@ -2,8 +2,8 @@
   "date": "2026-05-14",
   "title": "5월 14일 (목) 풀 모닝브리핑 — 어젯밤 美 S&P·나스닥 사상 최고 (NVDA +2.29% ATH 임박, MU +4.83%·MRVL +8.18%), 코스피 +1.75% 7,981.41 8천피 임박",
   "session": 13,
-  "lightUpdate": false,
-  "lightUpdateAt": "2026-05-14T15:45:00+09:00",
+  "lightUpdate": true,
+  "lightUpdateAt": "2026-05-14T22:35:00+09:00",
   "marketStatus": "FULL_MORNING_BRIEF_US_ATH_KR_NEAR_ATH",
   "tip": "어젯밤 미국은 S&P 500 7,444.23(+0.58%)·나스닥 26,402.34(+1.20%) 사상 최고치 동시 경신했어요. 다우만 -0.14%로 빠지며 기술주 쏠림 심화. PPI +6.0% 핫쇼크에도 엔비디아·반도체가 끌어올렸어요. 보유 종목은 양극화 — NVDA +2.29% $225.83 ATH(지금까지 본 적 없는 최고가) 임박, MU +4.83% $803.63, MRVL +8.18% $177.95 폭발, GOOG +3.97%·META +2.26% 빅테크 반등. 반면 CRDO -4.64%·TLN -6.29% AI 인프라 차익실현. 오늘 한국 시장은 코스피 7,981.41(+1.75%) 사상 최고 마감, 8천피까지 18.59p 남음. 삼성전자 296,000원(+4.23%) 30만전자 임박, SK하이닉스는 -0.30% 차익실현. 오늘 베이징에서 트럼프-시진핑 135분 정상회담 종료('훌륭했다' 평가). 오늘 밤 미국 4월 PPI 후폭풍, 어플라이드 머티리얼즈(AMAT) 실적 주시.",
   "asiaSummary": {
@@ -89,6 +89,72 @@
     ]
   },
   "news": [
+    {
+      "category": "미국 증시",
+      "headline": "🟢 美 정규장 개장 — S&P/NASDAQ 사상 최고 행진, NVDA $231 ATH 임박",
+      "oneLineSummary": "5/14 22:30 KST(미 9:30 ET) 미국 정규장이 사상 최고 행진을 이어가며 출발했어요. NVDA는 H200(엔비디아 두 번째로 강한 AI칩) 중국 10개 기업 수출 허용 호재로 $231 부근(+2.3%)까지 올라 역대 최고가에 한 발짝 더 다가갔어요. TSM(대만 반도체)도 +3.8% 갭상승해서 미중 회담 화해 분위기 직접 수혜를 받았어요.",
+      "summary": "5/14 미 정규장 개장. S&P 500은 어제 사상 최고 7,444 이후 추가 강세 출발, 나스닥도 26,400대에서 출발. NVDA $231.00(+2.29%) 52주 최고가 임박, TSM $415.00(+3.80%) 갭상승, SNDK $1,488(+2.82%)·DELL $248(+1.69%)·LITE $1,050(+1.91%) 동반 강세. 반면 MRVL $169(-5.03%)·AMD $437(-1.91%)·AMZN $264.50(-2.08%) 차익실현 매도. 시스코(CSCO) +15% 프리마켓 폭등(실적 호조).",
+      "ourImpact": "보유 15개 중 9개 상승·6개 약세 출발. NVDA·TSM은 H200 中 수출 허용 호재 직접 수혜, MRVL·AMD는 어제 강세 후 차익실현. 어플라이드(AMAT) 오늘 밤 실적·NVDA 5/20 실적 D-6 — 반도체 가이던스가 다음 분수령.",
+      "impact": "positive",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/us-clears-h200-chip-sales-10-china-firms-nvidia-ceo-looks-breakthrough-2026-05-14/"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-climb-as-high-stakes-trump-xi-summit-kicks-off-223230887.html"
+        },
+        {
+          "name": "U.S. News",
+          "url": "https://money.usnews.com/investing/news/articles/2026-05-14/s-p-500-nasdaq-futures-rise-to-new-highs-as-nvidia-jumps"
+        }
+      ]
+    },
+    {
+      "category": "정책·금리",
+      "headline": "🟢 美 4월 소매판매 +0.5% 컨센 부합 + 신규 실업수당 211K (예상 205K)",
+      "oneLineSummary": "5/14 21:30 KST(미 8:30 ET) 발표된 미국 4월 소매판매(미국 사람들이 한 달간 가게·온라인에 쓴 돈)가 +0.5%로 시장 평균 예상치(컨센서스)에 딱 맞게 나왔어요. 같은 시각 주간 신규 실업수당 청구건수는 21.1만 건으로 예상(20.5만)을 약간 웃돌았지만 여전히 낮은 수준이라 노동시장은 여전히 견조해요.",
+      "summary": "美 인구조사국·노동부 동시 발표 — 4월 소매판매 +0.5%(컨센서스 +0.5%, 전월 +1.7%), 주간 신규 실업수당 211K(컨센서스 205K, 직전 200K), 연속 실업수당 1,782K(컨센서스 1,790K). 휘발유 가격 상승으로 비필수 소비 둔화 우려는 있지만 전체적으로 컨센서스 부합 수준.",
+      "ourImpact": "지표가 컨센에 부합해 정규장 출발에 큰 충격은 없어요. 다만 어제 PPI +6% 핫쇼크 + 오늘 노동시장 견조까지 합치면 Fed(미국 중앙은행) 금리 인하 시점이 더 늦춰질 수 있어요. AMZN 같은 소비주는 보합, NVDA·TSM 같은 반도체는 별개 호재(H200)로 강세 출발.",
+      "impact": "neutral",
+      "sources": [
+        {
+          "name": "Reuters/KELO-AM",
+          "url": "https://kelo.com/2026/05/14/us-weekly-jobless-claims-increase-moderately-labor-market-remains-stable/"
+        },
+        {
+          "name": "Las Vegas Sun",
+          "url": "https://lasvegassun.com/news/2026/may/14/retail-sales-rose-05-in-april-from-march-as-the-ri/"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/retail-sales-jobless-claims-among-economic-data-due-thursday-93CH-4685820"
+        }
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "🟢 NVDA H200 中 10개 기업 수출 허용 + 황 CEO 베이징 동행 — $5.5T 시총 첫 돌파",
+      "oneLineSummary": "엔비디아 황 CEO가 트럼프 대통령의 중국 방문에 합류했어요. 미국이 중국 10개 기업에 NVDA의 두 번째로 강한 AI칩 H200을 팔 수 있도록 허용했다는 보도가 나왔고, 시가총액은 사상 처음 5조 5,000억 달러(약 7,700조원)를 돌파했어요.",
+      "summary": "Reuters 단독 보도 — 美, 中 10개 기업에 NVDA H200 수출 허용(단 실제 배송은 아직 0건). 황 CEO 트럼프 중국 방문 동행, CCTV 인터뷰로 미중 화해 기대 표명. NVDA 시총 5.5조 달러 사상 처음 돌파(빅테크 첫 사례). Culper Research는 NVDA에 대해 '심각한 중국 문제' 지적하며 숏 리포트 공개. 5/20 NVDA FY27 Q1 실적 D-6.",
+      "ourImpact": "NVDA $231 ATH 임박, 단일 종목 기여도가 가장 큰 보유. TSM도 H200 中 수출의 직접 수혜로 +3.8% 갭상승. 다만 숏 리포트·중국 의존도 우려는 단기 변동성 요인 — 실적 발표 전까지 변동 폭 확대 가능.",
+      "impact": "positive",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/us-clears-h200-chip-sales-10-china-firms-nvidia-ceo-looks-breakthrough-2026-05-14/"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/05/14/nvidias-jensen-huang-on-china-trip-trump.html"
+        },
+        {
+          "name": "Forbes",
+          "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/05/13/nvidia-hits-record-55-trillion-value-first-company-to-ever-reach-mark/"
+        }
+      ]
+    },
     {
       "category": "미국 증시",
       "headline": "🟢 어젯밤 美 S&P·나스닥 동시 사상 최고 — PPI 핫쇼크도 엔비디아가 끌어올림",

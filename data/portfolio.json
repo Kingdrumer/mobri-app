@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-05-14T16:15:00+09:00",
+  "lastUpdated": "2026-05-14T22:35:00+09:00",
   "us": [
     {
       "ticker": "GOOG",
       "name": "알파벳 (구글)",
       "sector": "빅테크",
-      "price": 399.04,
-      "change1D": 3.97,
-      "change1W": 5.17,
-      "change1M": 32.07,
-      "changeYTD": 27.17,
+      "price": 400.5,
+      "change1D": 0.37,
+      "change1W": 5.54,
+      "change1M": 32.44,
+      "changeYTD": 27.54,
       "beta": 1.15,
       "signal": "green",
       "note": "5/13 +3.97% $399.04 — PPI 핫쇼크에도 빅테크 반등 주도, 베이징 회담 우호적 분위기",
       "simpleExplain": "구글 모회사. 검색·광고에서 안정적인 캐시카우, 클라우드+AI에서 구조적 성장 동력. 변동성은 빅테크 평균 수준.",
-      "todayWhy": "5/13 +3.97% $399.04 — 어젯밤 미 PPI +6% 핫쇼크에도 S&P 사상 최고로 반등, 빅테크가 지수 견인. 베이징 트럼프-시진핑 정상회담 우호 분위기.",
+      "todayWhy": "5/14 정규장 개장 +0.37% $400.50 — 빅테크 동반 강세, 트럼프-시진핑 회담 우호 분위기 지속",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 425,
@@ -58,7 +58,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {
@@ -75,16 +75,16 @@
       "ticker": "META",
       "name": "메타",
       "sector": "빅테크",
-      "price": 616.63,
-      "change1D": 2.26,
-      "change1W": 2.86,
-      "change1M": 13.46,
-      "changeYTD": -5.04,
+      "price": 617.0,
+      "change1D": 0.06,
+      "change1W": 2.92,
+      "change1M": 13.52,
+      "changeYTD": -4.98,
       "beta": 1.49,
       "signal": "yellow",
       "note": "5/13 +2.26% $616.63 — 빅테크 반등 동참, CapEx $145B 부담은 그대로",
       "simpleExplain": "페이스북·인스타그램 모회사. 광고 매출이 본업, AI·메타버스 투자가 미래. 광고 사이클·AI 수익화 시점이 핵심.",
-      "todayWhy": "5/13 +2.26% $616.63 — 빅테크 반등 흐름에 동참. 4월 PPI 핫쇼크에도 광고 펀더멘털 강세 유지.",
+      "todayWhy": "5/14 개장 +0.06% $617.00 — 어제 +2.26% 후 보합 출발, CapEx 부담은 그대로",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 725,
@@ -123,7 +123,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {
@@ -140,16 +140,16 @@
       "ticker": "AMZN",
       "name": "아마존",
       "sector": "빅테크",
-      "price": 270.13,
-      "change1D": 1.62,
-      "change1W": 1.92,
-      "change1M": 32.72,
-      "changeYTD": 17.32,
+      "price": 264.5,
+      "change1D": -2.08,
+      "change1W": -0.16,
+      "change1M": 30.64,
+      "changeYTD": 15.24,
       "beta": 1.47,
       "signal": "yellow",
       "note": "5/13 +1.62% $270.13 — AWS 정전 여진 회복, 빅테크 반등 동참",
       "simpleExplain": "이커머스+AWS 클라우드. AI 시대엔 AWS가 캐시카우 + 성장엔진 동시 역할. 단기 사고는 단발성, 펀더멘털 견조.",
-      "todayWhy": "5/13 +1.62% $270.13 — AWS Virginia 정전 영향에서 회복하며 빅테크 반등 흐름 동참.",
+      "todayWhy": "5/14 개장 -2.08% $264.50 — 어제 +1.62% 후 차익실현 매도, 빅테크 단기 조정",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 290,
@@ -193,9 +193,9 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "오픈가 추정치(±1%) — 변동성 큰 구간",
       "company": {
         "ceo": "Jeffrey P. Bezos",
         "business": "아마존닷컴은 고객에게 다양한 제품과 서비스를 제공한다. 스토어를 통해 제공되는 제품에는 재판매를 위해 구매한 상품 및 콘텐츠와 타사 판매자가 제공하는 제품이 포함된다. 사업 부문은 북미, 국제, 아마존 웹 서비스(AWS)로 나뉜다. 온라인 및 오프라인 스토어를 통해 소비자에게 서비스를 제공하며 선택, 가격, 편의성에 중점을 둔다. 고객은 웹사이트, 모바일",
@@ -210,16 +210,16 @@
       "ticker": "NVDA",
       "name": "엔비디아",
       "sector": "반도체",
-      "price": 225.83,
+      "price": 231.0,
       "change1D": 2.29,
-      "change1W": 13.69,
-      "change1M": 32.39,
-      "changeYTD": 24.49,
+      "change1W": 15.98,
+      "change1M": 34.68,
+      "changeYTD": 26.78,
       "beta": 2.07,
       "signal": "green",
       "note": "★ 5/13 +2.29% $225.83 신고가 임박 — 5/20 실적 D-7, 52주 최고 $223.75 돌파",
       "simpleExplain": "AI GPU 압도적 1위. AI 시대의 핵심 인프라 공급사. 5/20 Q1 실적이 단기 가장 큰 이벤트.",
-      "todayWhy": "5/13 +2.29% $225.83 — 52주 최고 $223.75 돌파, 5/20 실적 D-7 기대감. 반도체 사이클 강세 지속.",
+      "todayWhy": "5/14 개장 +2.29% $231.00 — 프리마켓 +2.4% 강세. H200 中 10개 기업 수출 허용 호재 + 황 CEO 베이징 동행. 5/20 실적 D-6",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 266,
@@ -275,7 +275,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {
@@ -292,16 +292,16 @@
       "ticker": "TSM",
       "name": "TSMC",
       "sector": "반도체",
-      "price": 399.8,
-      "change1D": 0.63,
-      "change1W": 6.13,
-      "change1M": 28.03,
-      "changeYTD": 35.13,
+      "price": 415.0,
+      "change1D": 3.8,
+      "change1W": 9.93,
+      "change1M": 31.83,
+      "changeYTD": 38.93,
       "beta": 1.12,
       "signal": "green",
       "note": "5/13 +0.63% $399.80 — AMD 후광 + 2nm CAGR 70% 펀더멘털 그대로",
       "simpleExplain": "세계 최대 반도체 위탁생산. NVDA·AMD·AAPL이 모두 고객. AI 호황의 가장 안전한 노출 — 변동성도 가장 낮음.",
-      "todayWhy": "5/13 +0.63% $399.80 — 보합권 마감. 2nm 공정 CAGR 70% 펀더멘털 변함 없음. 미중 회담 관세 우려 일부 해소.",
+      "todayWhy": "5/14 개장 +3.80% $415.00 — 갭상승, H200 中 수출 허용 + 미중 회담 화해 분위기 직접 수혜",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 470,
@@ -349,7 +349,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {
@@ -366,16 +366,16 @@
       "ticker": "AVGO",
       "name": "브로드컴",
       "sector": "반도체",
-      "price": 416.79,
-      "change1D": -0.6,
-      "change1W": 8.6,
-      "change1M": 49.3,
-      "changeYTD": 24.3,
+      "price": 414.0,
+      "change1D": -0.67,
+      "change1W": 7.93,
+      "change1M": 48.63,
+      "changeYTD": 23.63,
       "beta": 2.44,
       "signal": "yellow",
       "note": "5/13 -0.60% $416.79 — 메타 6GW 자체 AI 칩 계약 그대로, 차익실현 매물",
       "simpleExplain": "맞춤형 AI 칩 설계 회사. 메타·구글의 자체 AI 칩 핵심 파트너. 베타 2.44로 변동성 큼.",
-      "todayWhy": "5/13 -0.60% $416.79 — 약보합. 메타 6GW AI 칩 다년 계약 펀더멘털 강하지만 단기 차익실현 매물.",
+      "todayWhy": "5/14 개장 -0.67% $414.00 — 보합 출발, AI 인프라 모멘텀은 유지",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 460,
@@ -419,7 +419,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {
@@ -436,16 +436,16 @@
       "ticker": "MU",
       "name": "마이크론",
       "sector": "반도체",
-      "price": 803.63,
-      "change1D": 4.83,
-      "change1W": 47.33,
-      "change1M": 93.23,
-      "changeYTD": 172.83,
+      "price": 800.0,
+      "change1D": -0.45,
+      "change1W": 46.88,
+      "change1M": 92.78,
+      "changeYTD": 172.38,
       "beta": 2.43,
       "signal": "green",
       "note": "★ 5/13 +4.83% $803.63 신고가 임박 — NAND 가격 Q1 +60%, 현 분기 +70~75% 전망",
       "simpleExplain": "메모리 반도체. NVDA·AMD GPU에 들어가는 HBM 메모리 핵심 공급. AI 호황 = 메모리 호황 공식.",
-      "todayWhy": "5/13 +4.83% $803.63 — NAND 가격 +60% Q1, +70~75% 전망 지속. 메모리 사이클 강세 모멘텀 유지.",
+      "todayWhy": "5/14 개장 -0.45% $800.00 — 어제 +4.83% 폭등 후 숨고르기, HBM 모멘텀 유지",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 800,
@@ -496,7 +496,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {
@@ -513,16 +513,16 @@
       "ticker": "MRVL",
       "name": "마벨",
       "sector": "반도체",
-      "price": 177.95,
-      "change1D": 8.18,
-      "change1W": 7.58,
-      "change1M": 74.38,
-      "changeYTD": 103.98,
+      "price": 169.0,
+      "change1D": -5.03,
+      "change1W": 2.55,
+      "change1M": 69.35,
+      "changeYTD": 98.95,
       "beta": 2.34,
-      "signal": "green",
+      "signal": "yellow",
       "note": "★ 5/13 +8.18% $177.95 — 5/28 실적 D-15, 광통신·DC 모멘텀 폭발",
       "simpleExplain": "맞춤형 칩(ASIC) 설계. 구글 TPU 공동개발 + NVDA $2B 투자. 1개월 +50% 폭주 후 단기 차익실현 정상.",
-      "todayWhy": "5/13 +8.18% $177.95 — 5/28 실적 D-15 앞두고 광통신·데이터센터 모멘텀 폭발. AI 인프라 빌더 수혜.",
+      "todayWhy": "5/14 개장 -5.03% $169.00 — 어제 +8.18% 폭등 후 차익실현 매도, 5/28 실적 D-14",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 220,
@@ -567,7 +567,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {
@@ -584,16 +584,16 @@
       "ticker": "AMD",
       "name": "AMD",
       "sector": "반도체",
-      "price": 445.5,
-      "change1D": -0.62,
-      "change1W": 35.58,
-      "change1M": 114.18,
-      "changeYTD": 113.38,
+      "price": 437.0,
+      "change1D": -1.91,
+      "change1W": 33.67,
+      "change1M": 112.27,
+      "changeYTD": 111.47,
       "beta": 1.85,
       "signal": "yellow",
       "note": "5/13 -0.62% $445.50 — 약보합, KeyBanc $530·TD Cowen $500 목표가 그대로",
       "simpleExplain": "NVDA의 직접 경쟁사. MI 시리즈 GPU로 AI 시장 점유율 빠르게 확대 중. 5/7 어닝 폭발, 1개월 +91%.",
-      "todayWhy": "5/13 -0.62% $445.50 — 약보합 마감. 분석가 PT 상향($530/$500) 그대로지만 신고가 영역 차익실현.",
+      "todayWhy": "5/14 개장 -1.91% $437.00 — 어제 약보합 후 추가 조정, 반도체 단기 양극화",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 510,
@@ -637,7 +637,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {
@@ -654,16 +654,16 @@
       "ticker": "SNDK",
       "name": "샌디스크",
       "sector": "반도체",
-      "price": 1447.23,
-      "change1D": -0.33,
-      "change1W": 30.57,
-      "change1M": 115.17,
-      "changeYTD": 502.07,
+      "price": 1488.0,
+      "change1D": 2.82,
+      "change1W": 33.39,
+      "change1M": 117.99,
+      "changeYTD": 504.89,
       "beta": 2.41,
-      "signal": "red",
+      "signal": "yellow",
       "note": "★ 5/13 -0.33% $1,447.23 — 인사이더 매도 11건 + 평균 PT $551 한참 아래",
       "simpleExplain": "낸드 플래시 메모리 회사. AI 데이터센터 스토리지 수요 폭발의 1차 수혜. 1년 +3,300% 누적 차익실현 위험.",
-      "todayWhy": "5/13 -0.33% $1,447.23 — 약보합. 인사이더 매도 11건 + 평균 PT $551 한참 아래 부담 지속.",
+      "todayWhy": "5/14 개장 +2.82% $1488.00 — 어제 약보합 후 반등 출발, NAND 가격 강세 지속",
       "outlook": {
         "rating": "Hold",
         "targetPrice": 1700,
@@ -708,7 +708,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {
@@ -725,16 +725,16 @@
       "ticker": "DELL",
       "name": "델",
       "sector": "AI 인프라",
-      "price": 243.87,
-      "change1D": 2.06,
-      "change1W": 17.36,
-      "change1M": 46.46,
-      "changeYTD": 97.26,
+      "price": 248.0,
+      "change1D": 1.69,
+      "change1W": 19.05,
+      "change1M": 48.15,
+      "changeYTD": 98.95,
       "beta": 1.96,
       "signal": "green",
       "note": "★ 5/13 +2.06% $243.87 — UBS 다운그레이드 충격 일부 회복",
       "simpleExplain": "AI 서버 OEM. NVDA GPU를 받아 기업 데이터센터에 납품하는 시스템 통합사. AI 백로그 $18.4B 사상 최대.",
-      "todayWhy": "5/13 +2.06% $243.87 — UBS Buy→Neutral 다운그레이드 충격에서 일부 회복. PT $243 도달.",
+      "todayWhy": "5/14 개장 +1.69% $248.00 — UBS 다운그레이드 충격 추가 회복, AI 서버 수요 견조",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 280,
@@ -788,7 +788,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {
@@ -805,16 +805,16 @@
       "ticker": "LITE",
       "name": "루멘텀",
       "sector": "AI 인프라",
-      "price": 1030.37,
-      "change1D": 3.83,
-      "change1W": -12.29,
-      "change1M": 7.61,
-      "changeYTD": 119.51,
+      "price": 1050.0,
+      "change1D": 1.91,
+      "change1W": -10.38,
+      "change1M": 9.52,
+      "changeYTD": 121.42,
       "beta": 2.38,
       "signal": "green",
       "note": "★ 5/13 +3.83% $1,030.37 — 나스닥100 편입 5/18 모멘텀 + 옵틱스 강세",
       "simpleExplain": "AI 데이터센터 광통신 핵심 부품. NVDA GPU와 GPU를 연결하는 광학 모듈 공급. CPO·OCS 수직 진출.",
-      "todayWhy": "5/13 +3.83% $1,030.37 — 5/18 나스닥100 편입 발표 모멘텀 지속. 광통신 섹터 강세 흐름 동참.",
+      "todayWhy": "5/14 개장 +1.91% $1050.00 — 5/18 나스닥100 편입 D-4 패시브 매수 흐름 지속",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 1270,
@@ -858,7 +858,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {
@@ -875,16 +875,16 @@
       "ticker": "CLS",
       "name": "셀레스티카",
       "sector": "AI 인프라",
-      "price": 372.55,
-      "change1D": -0.41,
-      "change1W": -10.51,
-      "change1M": 36.99,
-      "changeYTD": 20.49,
+      "price": 370.5,
+      "change1D": -0.55,
+      "change1W": -11.06,
+      "change1M": 36.44,
+      "changeYTD": 19.94,
       "beta": 2.42,
       "signal": "yellow",
       "note": "5/13 -0.41% $372.55 — 옵틱스 매도 여진, 1.6T CPO 펀더멘털 미반영",
       "simpleExplain": "AI 서버·스위치 시스템 통합 제조. 하이퍼스케일러(아마존·구글·메타) 맞춤형 인프라 공급. 1.6T CPO 이더넷 스위치 양산 대기.",
-      "todayWhy": "5/13 -0.41% $372.55 — 약보합. 옵틱스 매도 여진 일부 잔존하나 1.6T CPO 스위치 펀더멘털 변함 없음.",
+      "todayWhy": "5/14 개장 -0.55% $370.50 — 보합 출발, 옵틱스 매도 여진 잔존",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 480,
@@ -922,7 +922,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {
@@ -939,16 +939,16 @@
       "ticker": "CRDO",
       "name": "크레도",
       "sector": "AI 인프라",
-      "price": 189.36,
-      "change1D": -4.64,
-      "change1W": 6.96,
-      "change1M": 115.16,
-      "changeYTD": 31.66,
+      "price": 192.0,
+      "change1D": 1.39,
+      "change1W": 8.35,
+      "change1M": 116.55,
+      "changeYTD": 33.05,
       "beta": 3.43,
       "signal": "red",
       "note": "★ 5/13 -4.64% $189.36 — 6/4 실적 옵션 베팅 단기 차익실현",
       "simpleExplain": "AI 데이터센터 고속 데이터 전송 칩. NVDA·AMD GPU 클러스터 연결의 핵심 부품. 베타 3.43으로 우리 포트폴리오 변동성 1위.",
-      "todayWhy": "5/13 -4.64% $189.36 — 6/4 실적 앞두고 옵션 베팅 단기 차익실현 매물. DustPhotonics 인수 호재는 그대로.",
+      "todayWhy": "5/14 개장 +1.39% $192.00 — 어제 -4.64% 매도 후 반등 출발, 6/4 실적 옵션 베팅 정리 흐름은 지속",
       "outlook": {
         "rating": "Moderate Buy",
         "targetPrice": 208,
@@ -992,7 +992,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {
@@ -1009,16 +1009,16 @@
       "ticker": "TLN",
       "name": "탈렌에너지",
       "sector": "AI 전력",
-      "price": 351.03,
-      "change1D": -6.29,
-      "change1W": 3.21,
-      "change1M": 14.21,
-      "changeYTD": -2.59,
+      "price": 349.0,
+      "change1D": -0.58,
+      "change1W": 2.63,
+      "change1M": 13.63,
+      "changeYTD": -3.17,
       "beta": 1.54,
       "signal": "yellow",
       "note": "★ 5/13 -6.29% $351.03 — AI 전력 테마 강한 차익실현, AWS PPA 펀더멘털 그대로",
       "simpleExplain": "원전·천연가스 발전사. AI 데이터센터가 늘수록 전력 수요도 같이 폭발. AWS와 18B$ 장기 PPA(전력 공급) 계약 체결.",
-      "todayWhy": "5/13 -6.29% $351.03 — AI 전력 테마 강한 차익실현 매물. AWS PPA 풀 램프 펀더멘털 변함 없음.",
+      "todayWhy": "5/14 개장 -0.58% $349.00 — 어제 -6.29% 차익실현 후 보합 출발, 데이터센터 PPA 모멘텀은 유지",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 420,
@@ -1056,7 +1056,7 @@
       "priceSourcedFrom": [
         "CNBC",
         "Yahoo",
-        "네이버금융"
+        "StockAnalysis"
       ],
       "dataQualityNote": null,
       "company": {

@@ -1745,6 +1745,120 @@
     ],
     "2026-05-14": [
       {
+        "type": "indicator",
+        "label": "美 4월 소매판매 +0.5% 컨센 부합",
+        "color": "green",
+        "time": "21:30 KST",
+        "title": "美 4월 소매판매 +0.5% 발표 (예상 +0.5%, 전월 +1.7%) + 신규 실업수당 211K (예상 205K)",
+        "description": "미국 인구조사국이 5/14 21:30 KST(미 8:30 ET)에 4월 소매판매를 +0.5%(전월대비)로 발표했어요. 시장 평균 예상치(컨센서스) +0.5%에 정확히 부합. 같은 시각 발표된 주간 신규 실업수당 청구건수는 21.1만 건으로 예상(20.5만)을 약간 웃돌았지만 여전히 낮은 수준이에요.",
+        "impact": "소매판매(미국 사람들이 한 달간 가게·온라인에서 쓴 돈)가 예상에 딱 맞게 나와서 시장에 큰 충격은 없어요. 다만 휘발유 가격 상승으로 다른 소비에 쓸 돈이 줄어드는 건 부담. 실업수당이 약간 늘었지만 노동시장이 여전히 견조해서 Fed(미국 중앙은행) 금리 인하 압박은 약함.",
+        "ourImpact": "지표가 컨센서스에 부합해 정규장 출발은 어제 흐름(반도체 양극화) 이어질 가능성. NVDA·TSM은 H200 中 수출 허용 호재로 강하게 출발, MRVL·AMD는 어제 폭등 후 차익실현 매도 흐름.",
+        "stockImpacts": [
+          {
+            "ticker": "NVDA",
+            "tone": "positive",
+            "magnitude": "+2~3%",
+            "text": "H200 中 수출 허용 + 황 CEO 베이징 동행 호재"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "positive",
+            "magnitude": "+3~4%",
+            "text": "미중 회담 화해 + 칩 수출 허용 직접 수혜"
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "negative",
+            "magnitude": "-4~5%",
+            "text": "어제 +8.18% 폭등 후 차익실현"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "negative",
+            "magnitude": "-1~2%",
+            "text": "반도체 단기 양극화"
+          },
+          {
+            "ticker": "AMZN",
+            "tone": "neutral",
+            "magnitude": "보합",
+            "text": "소매판매 부합, 빅테크 단기 차익실현"
+          }
+        ]
+      },
+      {
+        "type": "positive",
+        "label": "美 정규장 개장 +S&P/NASDAQ 사상 최고 행진",
+        "color": "green",
+        "time": "22:30 KST",
+        "title": "美 정규장 개장 — S&P 7,400대 출발, NVDA $231 ATH 임박 (H200 中 수출 허용)",
+        "description": "5/14 22:30 KST 美 정규장 개장. 어제 S&P 7,444·NASDAQ 26,402 사상 최고 마감 후 추가 강세 출발. NVDA $231(+2.3%) ATH 임박, TSM $415(+3.8%) 갭상승. 반면 MRVL $169(-5.0%)·AMD $437(-1.9%) 차익실현 매도. 시스코(CSCO) +15% 프리마켓 폭등(실적 호조). 트럼프 베이징에서 시진핑 회담 화해 분위기 + 美, 中 10개 기업에 NVDA H200 수출 허용.",
+        "impact": "S&P 500·나스닥 사상 최고 행진은 미국 대형주가 가장 좋은 상태라는 뜻. 다만 베타(시장 1% 움직일 때 종목이 몇 % 움직이는지) 평균 2.1인 우리 종목들은 시장보다 더 흔들리는 구간. 미중 화해 시그널은 반도체 빅테크에 직접 호재.",
+        "ourImpact": "보유 15개 중 NVDA·TSM·LITE·DELL·GOOG·CRDO 강세 출발, MRVL·AMD·AMZN·AVGO 차익실현 매도 흐름. NVDA 5/20 실적 D-6, AMAT(어플라이드) 오늘 밤 실적 — 반도체 장비주 가이던스 주시.",
+        "stockImpacts": [
+          {
+            "ticker": "NVDA",
+            "tone": "positive",
+            "magnitude": "+2.29%",
+            "text": "$231.00 ATH 임박 + H200 中 수출 허용"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "positive",
+            "magnitude": "+3.80%",
+            "text": "$415.00 갭상승, 미중 회담 화해 직접 수혜"
+          },
+          {
+            "ticker": "SNDK",
+            "tone": "positive",
+            "magnitude": "+2.82%",
+            "text": "$1,488.00 NAND 가격 강세"
+          },
+          {
+            "ticker": "LITE",
+            "tone": "positive",
+            "magnitude": "+1.91%",
+            "text": "$1,050.00 5/18 NDX 편입 D-4"
+          },
+          {
+            "ticker": "DELL",
+            "tone": "positive",
+            "magnitude": "+1.69%",
+            "text": "$248.00 AI 서버 수요"
+          },
+          {
+            "ticker": "CRDO",
+            "tone": "positive",
+            "magnitude": "+1.39%",
+            "text": "$192.00 어제 -4.64% 반등"
+          },
+          {
+            "ticker": "GOOG",
+            "tone": "positive",
+            "magnitude": "+0.37%",
+            "text": "$400.50 빅테크 강세"
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "negative",
+            "magnitude": "-5.03%",
+            "text": "$169.00 어제 +8.18% 후 차익실현"
+          },
+          {
+            "ticker": "AMZN",
+            "tone": "negative",
+            "magnitude": "-2.08%",
+            "text": "$264.50 빅테크 차익실현"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "negative",
+            "magnitude": "-1.91%",
+            "text": "$437.00 반도체 단기 양극화"
+          }
+        ]
+      },
+      {
         "type": "positive",
         "label": "美 S&P/나스닥 ATH",
         "color": "green",
