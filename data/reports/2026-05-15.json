@@ -1,18 +1,18 @@
 {
   "date": "2026-05-15",
-  "title": "5월 15일 (금) 06:00 라이트 — 美 다우 5만 탈환·S&P 7,501 ATH·나스닥 26,635 ATH, AMAT 시간외 +4% 호실적",
+  "title": "5월 15일 (금) 08:00 풀 모닝브리핑 — 美 다우 5만 탈환·S&P·나스닥 ATH, NVDA +4.39%·AVGO 52주 최고·MRVL ATH, AMAT 시간외 +3.5% 호실적, 오늘 워시 Fed 취임 + OpEx 더블 이벤트",
   "session": 14,
-  "lightUpdate": true,
+  "lightUpdate": false,
   "lightUpdateAt": "2026-05-15T06:00:00+09:00",
-  "marketStatus": "LIGHT_BRIEF_US_DOW_50K_RECLAIMED_AMAT_BEAT",
-  "tip": "어젯밤 美 다우가 50,063.46(+0.75%)으로 다시 5만선 탈환했고 S&P 500 7,501.24(+0.77%)·나스닥 26,635.22(+0.88%)도 사상 최고치를 또 갈아치웠어요. CSCO(시스코) 실적 호조 발표 후 +20% 급등이 다우를 끌어올렸고 AI 트레이드가 다시 살아나면서 NVDA +4.39% $235.74·AVGO +5.58% $440.05 52주 최고·MRVL +5.83% $188.32 사상 최고가 동반 폭발했어요. 보유 양극화는 여전 — NVDA·TSM·AVGO·MRVL·DELL·CLS·META·GOOG 강세 vs MU -3.21%·SNDK -2.34%·LITE -2.58%·CRDO -1.76% 차익실현. 미장 마감 후 AMAT(어플라이드) 분기 실적 발표 — EPS $2.86(컨센 $2.68)·매출 $7.91B(컨센 $7.69B) 더블 비트로 시간외 +4% $458 강세, Q3 가이던스도 시장 기대치 크게 상회. 오늘은 워시(Warsh) 신임 Fed 의장 취임 + 옵션만기일(OpEx) 더블 이벤트 — 비둘기파(=금리 빨리 내려줄) 색깔 시 칩 매수 추가 유입 가능성. NVDA 5/20 실적 D-5.",
+  "marketStatus": "FULL_MORNING_BRIEF_US_ATH_AMAT_BEAT_WARSH_OPEX_DAY",
+  "tip": "어젯밤 美 다우가 50,063.46(+0.75%)으로 다시 5만선을 탈환했고 S&P 500 7,501.24(+0.77%)·나스닥 26,635.22(+0.88%)도 사상 최고치를 또 갈아치웠어요. CSCO(시스코) 분기 실적 호조 발표 후 +13.41% 급등이 다우를 끌어올렸고 AI 거래(=AI 관련 주식 매수세)가 다시 살아나면서 NVDA +4.39% $235.74·AVGO +5.58% $439.79 52주 최고·MRVL +2.60% $182.58·TSM +4.48% $417.72 동반 강세였어요. 보유 양극화는 여전 — NVDA·TSM·AVGO·MRVL·DELL·CLS·AMD 강세 vs MU -3.44%·SNDK -4.46%·GOOG -0.47%·AMZN -1.08%·LITE -2.77%·CRDO -2.55%·META +0.29% 약보합. 미장 마감 후 AMAT(어플라이드) 분기 실적 발표 — EPS $2.86(컨센 $2.68)·매출 $7.91B(컨센 $7.69B) 더블 비트로 시간외 +3.5% $455.99 강세, Q3 가이던스 $8.95B로 시장 기대치 크게 상회. 오늘은 워시(Warsh) 신임 Fed 의장 취임 + 옵션만기일(OpEx) 더블 이벤트 — 비둘기파(=금리 빨리 내려줄) 색깔 시 칩 매수 추가 유입 가능성. 한국 시장은 어제 코스피 7,981.41(+1.75%) 사상 최고 마감(8천피 18.59p 남음), 외국인 6일 매도 끝 5/14 +757,349주 매수 전환 큰 신호. 5/19 PCE · 5/20 NVDA 실적까지 빅 이벤트 줄줄이.",
   "marketSummary": {
     "us": {
       "dow": {
         "close": 50063.46,
         "change": 0.75,
         "changePoint": 370.26,
-        "note": "5만선 탈환, CSCO +20% 급등이 견인"
+        "note": "5만선 탈환, CSCO +13.41% 급등이 견인"
       },
       "sp500": {
         "close": 7501.24,
@@ -28,12 +28,22 @@
         "close": 12073.78,
         "change": 0.46,
         "changePoint": 55.8,
-        "note": "필반 강보합 — NVDA·AVGO·MRVL·TSM 강세 vs MU·MRVL 반대 종목 차별화"
+        "note": "필반 강보합 — NVDA·AVGO·MRVL·TSM 강세 vs MU·SNDK 메모리 차익실현"
       },
       "vix": {
         "close": 17.79,
         "change": -0.45,
         "note": "공포지수 안정, 위험선호 강화"
+      },
+      "wti": {
+        "close": 107.0,
+        "change": null,
+        "note": "美·이란 협상 진전에도 호르무즈 긴장 잔존, $107로 상승"
+      },
+      "us10y": {
+        "close": 4.42,
+        "change": null,
+        "note": "10년물 4.42% — 금리 인하 기대 회복"
       }
     },
     "afterHoursEarnings": [
@@ -42,82 +52,98 @@
         "name": "Applied Materials (어플라이드)",
         "result": "EPS $2.86 (컨센 $2.68 비트) · 매출 $7.91B (컨센 $7.69B 비트, 사상 최고)",
         "guidance": "Q3 매출 ~$8.95B ±$500M, EPS ~$3.36 ±$0.20 (시장 기대치 크게 상회)",
-        "afterHoursMove": "+3.96% $458.00 (정규장 종가 $440.56 → 시간외 $458)",
+        "afterHoursMove": "+3.50% $455.99 (정규장 종가 $440.56 → 시간외 ~$455.99)",
         "comment": "반도체 장비 산업 성장 전망 +30% 이상으로 상향(2월 +20%에서). 우리 보유 종목 중 NVDA·TSM·AVGO·MU 등 반도체 전반에 호재"
       }
     ]
   },
   "asiaSummary": {
-    "note": "5/15(금) 아시아장 개장 전 — 코스피 8천피 임박(7,981.41) 상태에서 美 ATH·반도체 강세 갭상승 출발 가능성. 환율 1,491원 → 美 위험선호 강화로 단기 안정 시도, 워시 Fed 발언이 변수."
+    "indices": {
+      "kospi": {
+        "close": 7981.41,
+        "change": 1.75,
+        "changePoint": 137.4,
+        "note": "어제(5/14) 사상 최고 마감, 8,000선 18.59p 남음 — 개인 +2.0조 순매수가 외국인 6연속 매도(-2.17조) 흡수"
+      },
+      "kosdaq": {
+        "close": 1191.09,
+        "change": 1.2,
+        "changePoint": 14.16,
+        "note": "어제 동반 상승, 개인 +922억 순매수"
+      },
+      "usdkrw": {
+        "close": 1491.0,
+        "note": "1500원 위협 — 외국인 누적 매도 -23.98조 영향"
+      },
+      "vkospi": {
+        "close": 76.16,
+        "note": "공포지수 이란전 이후 최고 영역 — 변동성 확대 신호"
+      }
+    },
+    "flows5_14": {
+      "samsungForeign": 757349,
+      "samsungNote": "삼성전자 외국인 6일 연속 매도 끝 — 5/14 +757,349주 매수 전환! 큰 신호",
+      "skhynixForeign": -917859,
+      "skhynixNote": "SK하이닉스는 여전히 -917,859주 매도세 (5일 누적 -5.65M주)"
+    },
+    "preview": "5/15(금) 아시아장 — 코스피 8천피 임박(7,981.41) 상태에서 美 ATH·반도체 강세 + AMAT 시간외 +3.5% 호실적 호재로 갭상승 출발 가능성. 환율 1,491원 → 美 위험선호 강화로 단기 안정 시도, 오늘 밤 워시 Fed 발언이 변수. 옵션만기일(OpEx)이라 코스피·코스닥 변동성 평소보다 확대 예상."
   },
   "news": [
     {
       "category": "미국 증시",
-      "headline": "🟢 다우 5만 탈환 + S&P·나스닥 사상 최고 — CSCO +20% 급등이 견인",
-      "oneLineSummary": "어젯밤 미국 다우가 50,063.46(+0.75%)으로 다시 5만선을 되찾았어요. 시스코(CSCO·네트워크 장비 회사)가 실적 잘 내면서 +20% 폭등한 게 다우를 끌어올렸고, S&P 500과 나스닥도 사상 최고치를 또 갈아치웠어요. AI 거래(=AI 관련 주식 매수세)가 다시 살아나는 분위기예요.",
-      "summary": "5/14 美 정규장 마감 — 다우 50,063.46(+0.75%, +370.26p) 5만선 재탈환, S&P 500 7,501.24(+0.77%) ATH 경신, 나스닥 26,635.22(+0.88%) ATH 경신. CSCO 분기 실적 호조 발표(EPS $1.06 vs 컨센 $1.04, 매출 $15.84B vs $15.56B, AI 매출 가이던스 $4B로 상향) → 정규장 +20% 급등이 다우를 견인. SOX(필라델피아 반도체) 12,073.78(+0.46%) 강보합. VIX 17.79 안정.",
-      "ourImpact": "보유 15개 중 9개 상승·6개 약세로 양극화. NVDA·AVGO·MRVL·TSM 반도체 빅 위너 vs MU·SNDK·LITE·CRDO 차익실현. 다우 5만 탈환은 위험선호 강화 신호 — 우리 보유 빅테크에 우호적 흐름이에요.",
+      "headline": "🟢 다우 5만 탈환 + S&P·나스닥 사상 최고 — CSCO +13.41% 급등이 견인",
+      "oneLineSummary": "어젯밤 미국 다우가 50,063.46(+0.75%)으로 다시 5만선을 되찾았어요. 시스코(CSCO·네트워크 장비 회사)가 실적 잘 내면서 +13.41% 폭등한 게 다우를 끌어올렸고, S&P 500과 나스닥도 사상 최고치를 또 갈아치웠어요. AI 거래(=AI 관련 주식 매수세)가 다시 살아나는 분위기예요.",
+      "summary": "5/14 美 정규장 마감 — 다우 50,063.46(+0.75%, +370.26p) 5만선 재탈환, S&P 500 7,501.24(+0.77%) ATH 경신, 나스닥 26,635.22(+0.88%) ATH 경신. CSCO 분기 실적 호조(EPS $1.06 vs 컨센 $1.04, 매출 $15.84B vs $15.56B, FY26 매출 가이던스 $62.8~$63.0B로 상향) → 정규장 +13.41% 급등이 다우를 견인. SOX(필라델피아 반도체) 12,073.78(+0.46%) 강보합. VIX 17.79 안정.",
+      "ourImpact": "보유 15개 중 8개 상승·7개 약세로 양극화. NVDA·AVGO·MRVL·TSM 반도체 빅 위너 vs MU·SNDK·GOOG·AMZN 약세. 다우 5만 탈환은 위험선호 강화 신호 — 우리 보유 빅테크에 우호적 흐름이에요.",
       "impact": "positive",
       "sources": [
-        {
-          "name": "TheStreet",
-          "url": "https://www.thestreet.com/latest-news/stock-market-may-14-2026-sp-futures-rise-after-closing-at-record-high"
-        },
         {
           "name": "Yahoo Finance",
           "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-retakes-50000-level-sp-500-and-nasdaq-surge-as-ai-trade-roars-back-223230523.html"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/05/13/stock-market-today-live-updates.html"
+          "name": "Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/05/14/stock-market-today-may-14-cisco-systems-surges-after-blowout-earnings-and-raised-guidance/"
         }
       ]
     },
     {
       "category": "미국 증시",
-      "headline": "🟢 SOX 필반 +0.46% 12,073.78 — 빅캡 강세, MU·SNDK는 차익실현",
-      "oneLineSummary": "필라델피아 반도체 지수(SOX·미국 반도체 30개 종목 묶음)는 +0.46%로 강보합 마감했어요. NVDA·AVGO·TSM·MRVL 같은 큰 회사들이 끌어올렸지만 MU(마이크론)·SNDK(샌디스크) 같은 메모리 회사들은 어제 너무 많이 올라서 잠깐 식는(차익실현) 분위기였어요.",
-      "summary": "SOX 12,073.78(+0.46%, +55.80p) 강보합. 빅캡 칩(NVDA +4.39%·AVGO +5.58% 52주 최고·MRVL +5.83% ATH·TSM +4.49%) 강세 vs 메모리(MU -3.21%·SNDK -2.34%) 차익실현. AI 칩 정책 우려는 단기 노이즈로 작용하며 종목 차별화 심화.",
+      "headline": "🟢 SOX 필반 +0.46% 12,073.78 — 빅캡 칩 강세, MU·SNDK는 차익실현",
+      "oneLineSummary": "필라델피아 반도체 지수(SOX·미국 반도체 30개 종목 묶음)는 +0.46%로 강보합 마감했어요. NVDA·AVGO·TSM 같은 큰 회사들이 끌어올렸지만 MU(마이크론)·SNDK(샌디스크) 같은 메모리 회사들은 어제 너무 많이 올라서 잠깐 식는(차익실현) 분위기였어요.",
+      "summary": "SOX 12,073.78(+0.46%, +55.80p) 강보합. 빅캡 칩(NVDA +4.39%·AVGO +5.52% 52주 최고·MRVL +2.60% ATH·TSM +4.48%) 강세 vs 메모리(MU -3.44%·SNDK -4.46%) 차익실현. AMAT 시간외 +3.5% $455.99 호재로 5/15 매수 추가 유입 가능성.",
       "ourImpact": "보유 반도체 중 NVDA·AVGO·MRVL·TSM·CLS는 강세, MU·SNDK·LITE·CRDO는 약세로 단기 양극화. AMAT 시간외 호실적이 반도체 장비·전공정 전반에 우호적이라 5/15 한국 칩 종목 갭상승 출발 가능성.",
       "impact": "positive",
       "sources": [
         {
-          "name": "Yahoo Finance",
+          "name": "Yahoo Finance SOX",
           "url": "https://finance.yahoo.com/quote/%5ESOX/"
-        },
-        {
-          "name": "Investing.com",
-          "url": "https://www.investing.com/indices/phlx-semiconductor"
         }
       ]
     },
     {
       "category": "개별 종목",
-      "headline": "🟢 AMAT 시간외 +4% — 분기 더블 비트, 장비 산업 성장률 +30% 이상으로 상향",
-      "oneLineSummary": "AMAT(어플라이드 머티리얼즈·반도체 만드는 장비를 파는 회사)이 어제 미국장 마감 후(시간외) 분기 실적을 발표했는데, 매출($7.91B)과 EPS($2.86) 둘 다 시장 평균 예상치를 크게 넘었어요. 다음 분기 가이던스(=회사가 직접 한 다음 분기 예상)도 매출 $8.95B로 시장 기대치보다 훨씬 높게 제시해서 시간외에서 +4% 올랐어요.",
-      "summary": "5/14 美 정규장 마감 후 AMAT 분기 실적 발표 — EPS $2.86 (컨센 $2.68 비트) · 매출 $7.91B (컨센 $7.69B 비트, 사상 최고). Q3 가이던스 매출 ~$8.95B ±$500M, EPS ~$3.36 ±$0.20로 컨센 크게 상회. 회사는 2026년 반도체 장비 산업 성장 전망을 '+20% 이상'에서 '+30% 이상'으로 상향. 시간외 정규 종가 $440.56 → $458.00(+3.96%) 강세.",
+      "headline": "🟢 AMAT 시간외 +3.5% — 분기 더블 비트, 장비 산업 성장률 +30% 이상으로 상향",
+      "oneLineSummary": "AMAT(어플라이드 머티리얼즈·반도체 만드는 장비를 파는 회사)이 어제 미국장 마감 후(시간외) 분기 실적을 발표했는데, 매출($7.91B)과 EPS($2.86) 둘 다 시장 평균 예상치를 크게 넘었어요. 다음 분기 가이던스(=회사가 직접 한 다음 분기 예상)도 매출 $8.95B로 시장 기대치보다 훨씬 높게 제시해서 시간외에서 +3.5% 올랐어요.",
+      "summary": "5/14 美 정규장 마감 후 AMAT 분기 실적 발표 — EPS $2.86 (컨센 $2.68 비트) · 매출 $7.91B (컨센 $7.69B 비트, 사상 최고). Q3 가이던스 매출 ~$8.95B ±$500M, EPS ~$3.36 ±$0.20로 컨센 크게 상회. 회사는 2026년 반도체 장비 산업 성장 전망을 '+20% 이상'에서 '+30% 이상'으로 상향. 시간외 정규 종가 $440.56 → $455.99(+3.50%) 강세.",
       "ourImpact": "AMAT은 우리 보유 종목은 아니지만, 반도체 장비 호실적은 우리가 들고 있는 NVDA·TSM·AVGO·MU·SNDK 같은 칩 회사들에 전반적 호재예요. 특히 AI 칩 수요 증가 신호라서 NVDA 5/20 실적 발표 전 분위기 띄우는 효과가 클 거예요.",
       "impact": "positive",
       "sources": [
         {
+          "name": "Benzinga AMAT 실적",
+          "url": "https://www.benzinga.com/markets/earnings/26/05/52581063/applied-materials-tops-q2-earnings-expectations-shares-surge-on-strong-outlook"
+        },
+        {
           "name": "24/7 Wall St.",
           "url": "https://247wallst.com/investing/2026/05/14/live-applied-materials-q2-earnings-tonight-can-the-stock-continue-its-meteoric-run/"
-        },
-        {
-          "name": "Stocktitan",
-          "url": "https://www.stocktitan.net/news/AMAT/applied-materials-announces-second-quarter-2026-y205hrnxvpxb.html"
-        },
-        {
-          "name": "Applied Materials IR",
-          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-second-quarter-2026-results"
         }
       ]
     },
     {
       "category": "개별 종목",
-      "headline": "🟢 보유 NVDA +4.39% $235.74·MRVL +5.83% ATH·AVGO +5.58% 52주 최고",
-      "oneLineSummary": "보유 종목 중 NVDA(엔비디아)·MRVL(마벨)·AVGO(브로드컴)이 어제 같이 크게 올랐어요. 특히 MRVL은 사상 최고가, AVGO는 52주(최근 1년) 최고가를 새로 썼어요. 5/20 NVDA 분기 실적 발표 기대감이 모이면서 AI 칩 관련 매수세가 다시 강해진 거예요.",
-      "summary": "5/14 보유 종목 강세 종목 — NVDA $235.74(+4.39%) 사상 최고치 근접, MRVL $188.32(+5.83%) 사상 최고(장중 $192.15 ATH), AVGO $440.05(+5.58%) 52주 최고(분석가 6곳 PT 일제히 상향 — Wells Fargo 545$, Wolfe·Citi 500$, AI 매출 30~40% 더 높을 전망 인용). TSM $417.76(+4.49%)·DELL $247.75(+1.59%)·CLS $379.90(+1.97%) 동반 강세. NVDA 시간외는 -0.27% $235.10 약보합.",
+      "headline": "🟢 보유 NVDA +4.39% $235.74·MRVL +2.60% ATH·AVGO +5.52% 52주 최고",
+      "oneLineSummary": "보유 종목 중 NVDA(엔비디아)·MRVL(마벨)·AVGO(브로드컴)이 어제 같이 크게 올랐어요. MRVL은 장중 사상 최고 찍었다가 차익실현 매도에 종가 +2.60%로 안착했고, AVGO는 52주(최근 1년) 최고가를 새로 썼어요. 5/20 NVDA 분기 실적 발표 기대감이 모이면서 AI 칩 관련 매수세가 다시 강해진 거예요.",
+      "summary": "5/14 보유 종목 강세 종목 — NVDA $235.74(+4.39%) 사상 최고치 근접, MRVL $182.58(+2.60%) 장중 ATH $192.15 후 차익실현, AVGO $439.79(+5.52%) 52주 최고(분석가 6곳 PT 일제히 상향 — Wells Fargo 545$, Wolfe·Citi 500$). TSM $417.72(+4.48%)·DELL $247.89(+1.65%)·CLS $381.59(+2.43%) 동반 강세. AMD $449.70(+0.94%) 보합 회복.",
       "ourImpact": "보유 15개 중 NVDA·AVGO·MRVL·TSM 등 빅캡 칩이 일제히 폭발 — 포트폴리오 큰 비중이라 어제 평가액 큰 폭 증가 흐름이에요. 5/20 NVDA 실적까지 변동이 큰 구간이라 흐름만 가볍게 지켜보면 좋아요.",
       "impact": "positive",
       "sources": [
@@ -128,24 +154,20 @@
         {
           "name": "Rolling Out MRVL",
           "url": "https://rollingout.com/2026/05/14/marvell-hits-high-on-alphabet-chip/"
-        },
-        {
-          "name": "FinancialContent AVGO",
-          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-5-14-why-broadcom-avgo-stock-is-up-today"
         }
       ]
     },
     {
       "category": "개별 종목",
-      "headline": "🔴 보유 MU -3.21% $777.80·SNDK -2.34% — 메모리 차익실현",
-      "oneLineSummary": "보유 종목 중 메모리(메모리 반도체) 회사인 MU(마이크론)와 SNDK(샌디스크)는 어제 빠졌어요. 5/13에 너무 많이 올라서 잠깐 식는(차익실현) 매도세 + AI 칩 정책 우려가 짧은 노이즈로 작용한 거예요.",
-      "summary": "5/14 보유 종목 약세 — MU $777.80(-3.21%, 5/13 +4.83% 후 차익실현), SNDK $1,413.31(-2.34%), LITE $1,003.82(-2.58%, 5/18 Nasdaq-100 편입 호재 선반영 + MRVL ATH로 자금 이동), CRDO $186.04(-1.76%, 광통신 차익실현 동조). AMD $447.00(+0.34%)는 장중 변동성 큰 보합 회복.",
+      "headline": "🔴 보유 MU -3.44% $776.01·SNDK -4.46% — 메모리 차익실현 가속",
+      "oneLineSummary": "보유 종목 중 메모리(메모리 반도체) 회사인 MU(마이크론)와 SNDK(샌디스크)는 어제 빠졌어요. 5/13에 너무 많이 올라서 잠깐 식는(차익실현) 매도세 + AI 칩 정책 우려가 짧은 노이즈로 작용한 거예요. SNDK는 -4.46%로 더 크게 빠졌어요.",
+      "summary": "5/14 보유 종목 약세 — MU $776.01(-3.44%, 5/13 +4.83% 후 차익실현), SNDK $1,382.72(-4.46%), LITE $1,001.81(-2.77%, 5/18 Nasdaq-100 편입 호재 선반영), CRDO $184.54(-2.55%, 광통신 차익실현 동조). GOOG $397.17(-0.47%)·AMZN $267.22(-1.08%) 빅테크 일부 약보합.",
       "ourImpact": "메모리·광통신 단기 차익실현으로 양극화. MU·SNDK는 AMAT 호실적이 다시 매수 모멘텀을 살릴 가능성 있어 5/15 정규장 흐름 관찰 포인트. LITE는 5/18 Nasdaq-100 편입 인덱스 매수 자금 유입이 추가 변수예요.",
       "impact": "negative",
       "sources": [
         {
-          "name": "Robinhood MU",
-          "url": "https://robinhood.com/us/en/stocks/MU/"
+          "name": "Yahoo Finance MU",
+          "url": "https://finance.yahoo.com/quote/MU/"
         },
         {
           "name": "Yahoo Finance LITE",
@@ -154,22 +176,44 @@
       ]
     },
     {
+      "category": "아시아 증시",
+      "headline": "🟢 코스피 어제 사상 최고 7,981.41(+1.75%) — 외국인 삼성전자 6일 매도 끝 매수 전환",
+      "oneLineSummary": "어제 코스피가 7,981.41(+1.75%)로 사상 최고치를 또 갈아치웠어요. 더 중요한 건 외국인이 삼성전자를 6일 연속 팔다가 어제 +757,349주 매수로 전환한 거예요. 큰 흐름 변화 신호일 수 있어요. 8000선까지 18.59p 남았어요.",
+      "summary": "5/14 KOSPI 7,981.41(+1.75%, +137.4p) 2거래일 연속 사상 최고. 외국인 -2.17조원 6일 누적 매도지만 5/14 종가 기준 삼성전자만 +757,349주 매수 전환(개별 큰 신호). LG전자 +13.38% $217,000 20만원 첫 돌파, 이마트 +11% 등 개별 강세. 코스닥 1,191.09(+1.20%). 환율 1,491원 1,500원 위협.",
+      "ourImpact": "보유 종목은 미국 주식만 있어 직접 영향은 없지만, 한국 칩(삼전·SK하이닉스)·AI 인프라 흐름이 미국 AI 트레이드와 동조하는 분위기. AMAT 호실적이 5/15 한국 칩 갭상승 출발에 우호적이에요.",
+      "impact": "positive",
+      "sources": [
+        {
+          "name": "g-enews 코스피",
+          "url": "https://www.g-enews.com/view.php?ud=20260514155956834df2f5bc1bc_1"
+        },
+        {
+          "name": "헤럴드 8천피 임박",
+          "url": "https://biz.heraldcorp.com/article/10737832"
+        }
+      ]
+    },
+    {
       "category": "정책·금리",
-      "headline": "🟡 5/15 워시(Warsh) 신임 Fed 의장 취임 + OpEx(옵션만기일) 더블 이벤트",
+      "headline": "🟡 오늘 5/15 워시(Warsh) 신임 Fed 의장 취임 + OpEx(옵션만기일) 더블 이벤트",
       "oneLineSummary": "오늘 5/15 미국에서 두 가지 큰 이벤트가 겹쳐요. 첫째, 워시 새 Fed(연방준비제도·미국 중앙은행) 의장이 취임해요. 둘째, OpEx(옵션만기일·매월 셋째 주 금요일에 옵션이 한꺼번에 만료되는 날)이라 변동이 클 수 있어요. 워시 의장이 비둘기파(=금리 빨리 내려줄 사람) 발언을 하면 칩 주식에 매수가 추가로 들어올 가능성이 있어요.",
-      "summary": "5/15(금) 더블 이벤트 — (1) 워시 신임 Fed 의장 취임 (2) 5월 옵션만기일(OpEx, 셋째 주 금요일). 워시는 매파~중도 성향으로 알려졌으나 취임 일성에 비둘기파 색깔이 묻어나면 금리 인하 기대 강화 → 성장주(반도체·빅테크) 추가 매수 유인. OpEx는 변동성 확대 구간 — 빅테크·반도체 옵션 거래량 집중 종목 단기 가격 흔들림 가능.",
+      "summary": "5/15(금) 더블 이벤트 — (1) 케빈 워시 신임 Fed 의장 취임 (상원 5/13 인준 통과, 파월 5/15 임기 만료) (2) 5월 옵션만기일(OpEx, 셋째 주 금요일). 워시는 친트럼프 성향으로 알려져 있으나 첫 일성에 비둘기파 색깔이 묻어나면 금리 인하 기대 강화 → 성장주(반도체·빅테크) 추가 매수 유인. OpEx는 변동성 확대 구간 — 빅테크·반도체 옵션 거래량 집중 종목 단기 가격 흔들림 가능.",
       "ourImpact": "워시 발언 색깔이 우리 보유 빅테크·반도체에 직격 — 비둘기파면 추가 강세, 매파면 차익실현 빌미. OpEx 구간이라 5/15 정규장 변동성 평소보다 큼. 이런 날은 큰 결정 안 하고 흐름만 가볍게 지켜보는 게 좋아요.",
       "impact": "neutral",
       "sources": [
         {
-          "name": "FRED VIX",
-          "url": "https://fred.stlouisfed.org/series/VIXCLS"
+          "name": "Joongang 워시 연준",
+          "url": "https://www.joongang.co.kr/article/25428386"
+        },
+        {
+          "name": "Asia Today 인준 통과",
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260514010003703"
         }
       ]
     },
     {
       "category": "글로벌·지정학",
-      "headline": "🟡 美·이란 협상 진전 — WTI $107로 상승, 중동 지정학 변동성 지속",
+      "headline": "🟡 美·이란 협상 진전에도 WTI $107로 상승 — 호르무즈 긴장 잔존",
       "oneLineSummary": "어제 미국과 이란 사이 협상 진전 소식이 나왔지만 동시에 WTI(미국 대표 원유 가격)는 $107까지 올랐어요. 중동 지정학(=정치·지역 갈등) 변동성이 계속되면서 유가가 흔들리는 중이에요.",
       "summary": "5/14 WTI 원유 $107로 상승, 미·이란 협상 진전 헤드라인에도 단기 공급 우려와 호르무즈 긴장 잔존으로 유가 견조. 골드·실버 약세, 비트코인 $81K 부근 후퇴.",
       "ourImpact": "유가 상승은 인플레이션 압력으로 단기 매파 색깔 자극 가능 — Fed 금리 결정·반도체 매수 흐름에 단기 노이즈. 우리 보유 종목엔 직접 영향 작지만 NVDA의 호르무즈 지정학 리스크는 잔존.",
@@ -182,6 +226,478 @@
       ]
     }
   ],
+  "signals": {
+    "asOf": "2026-05-15T08:15:00+09:00",
+    "kr": [
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "market": "KOSPI",
+        "category": "이슈주",
+        "thesis": "어제 +0.00% 296,000원 보합으로 마감했지만 외국인이 6거래일 연속 매도를 깨고 +757,349주 매수 전환한 게 큰 신호예요. 30만전자(300,000원)까지 +1.35% 남았고, AMAT 시간외 +3.5% 호재로 5/15 한국 칩 갭상승 출발 가능성이 높아요.",
+        "currentPrice": 296000,
+        "change1D": 0.0,
+        "company": {
+          "ceo": "이재용 (회장)",
+          "business": "글로벌 반도체·스마트폰·가전 1위 회사. DRAM·NAND 메모리, 파운드리, 갤럭시 스마트폰, TV·가전 4대 사업부",
+          "hq": "수원, 대한민국",
+          "homepage": "https://www.samsung.com/",
+          "ceoSource": "공시 (정기주총 2024)"
+        },
+        "financials": "주가 296,000원(±0.00%, 5/14 마감), 시총 1,730조 4,985억, PER 45.09배, PBR 4.63배, 외인소진율 48.85%, 52주 최고 299,500원·최저 53,500원 (출처: 네이버 금융 totalInfos).",
+        "comparable": "어제 LG전자 +13.38% 217,000원 첫 20만원 돌파, SK하이닉스는 197만원 신고가 후 차익실현. 삼성전자만 외인 매수 전환 — 단독 신호.",
+        "outlookEasy": "분석가들이 본 평균 목표가는 334,800원으로 지금 가격(296,000원)에서 +13% 더 오를 여력이 있어요. 추천 등급은 매수(4.04)예요. 가장 중요한 건 외국인이 6일 매도 끝에 어제 +757,349주 매수 전환한 거예요. 30만전자까지 1.35% 남았고 AMAT 호실적이 5/15 갭상승 출발에 우호적이에요.",
+        "outlook": "컨센서스 평균 334,800원(Buy 4.04) 대비 +13% 갭. 외국인 6일 누적 -41.4M주 매도 후 5/14 +0.76M주 매수 전환(추세 변곡 신호). 단기 트리거: 오늘 AMAT 호실적 동조 + 5/20 NVDA 실적. 시나리오: 30만전자 도달 시 +1.4%, AMAT 동조로 +3~5% 갭상승 가능.",
+        "risk": "외국인 6일 누적 -23.98조원 매도 부담은 잔존, 환율 1,491원 1,500원 위협. 30만전자 도달 후 단기 차익실현 매물 가능. PER 45배로 5년 평균 위 영역이라 변동이 큰 종목이에요.",
+        "horizon": "1~3개월 (단기)",
+        "relatedStocks": [
+          {
+            "code": "000660",
+            "name": "SK하이닉스",
+            "market": "KOSPI",
+            "relation": "HBM 메모리 경쟁사 — 메모리 사이클 같이 움직임",
+            "currentPrice": "1,970,000",
+            "change1D": 0.0
+          },
+          {
+            "code": "066570",
+            "name": "LG전자",
+            "market": "KOSPI",
+            "relation": "코스피 빅캡 동조 — AI 가전·로봇 모멘텀 신주도주",
+            "currentPrice": "217,000",
+            "change1D": 0.0
+          }
+        ],
+        "sources": [
+          {
+            "name": "네이버 금융 (실시간)",
+            "url": "https://m.stock.naver.com/domestic/stock/005930/total"
+          }
+        ]
+      },
+      {
+        "ticker": "012450",
+        "name": "한화에어로스페이스",
+        "market": "KOSPI",
+        "category": "관련주",
+        "thesis": "어제 +1.56% 1,306,000원 마감, 외국인이 2거래일 연속 +7,022·+1,021주 매수로 전환했어요. 5거래일 누적은 약세지만 마지막 2일 연속 매수 전환이 의미 있는 신호예요. K-방산 수출 모멘텀과 안보 이슈가 같이 작용 중이에요.",
+        "currentPrice": 1306000,
+        "change1D": 1.56,
+        "company": {
+          "ceo": "손재일 (사장)",
+          "business": "K-방산 대표 종합 방위산업체. 항공기 엔진·우주발사체·정밀유도무기·로봇·자주포 등. 폴란드·중동·동남아 K-9 자주포 등 방산 수출 강자",
+          "hq": "성남, 대한민국",
+          "homepage": "https://www.hanwhaaerospace.co.kr/",
+          "ceoSource": "공시 (정기주총 2025)"
+        },
+        "financials": "주가 1,306,000원(+1.56%, 5/14 마감), 시총 67조 3,418억, PER 45.71배, PBR 6.94배, 외인소진율 45.13%, 52주 최고 1,655,000원·최저 760,000원 (출처: 네이버 금융 totalInfos).",
+        "comparable": "두산에너빌리티(-2.42%) 약세 vs 한화에어로스페이스(+1.56%) 강세. 방산 vs AI 전력 테마 차별화.",
+        "outlookEasy": "분석가들이 본 평균 목표가는 1,821,333원으로 지금 가격(1,306,000원)에서 +39% 더 오를 여력이 크다고 봐요. 추천 등급은 매수(4.00)예요. 외국인이 2일 연속 매수 전환한 게 핵심 신호. K-방산 수출 모멘텀이 살아있고 중동 지정학 변동성도 우호적이에요.",
+        "outlook": "컨센서스 평균 1,821,333원(Buy 4.00) 대비 +39% 갭. 외국인 5/13~5/14 2일 연속 매수 전환(+1,021·+7,022주). 단기 트리거: 미중 정상회담 결과(대만 침묵으로 안보 이슈 잠재), 이란전 재점화 가능성. 시나리오: 안보 이슈 부각 시 +5~10% 가능, 52주 최고 1,655,000원까지 +27% 추가 여력.",
+        "risk": "전체 5일 매도 누적은 -144,784주로 여전히 부담. 미중 회담 우호 분위기가 길어지면 안보 테마 둔화 가능. PER 45배·PBR 6.94배 고밸류로 변동이 큰 종목이에요.",
+        "horizon": "1~3개월 (단기)",
+        "relatedStocks": [
+          {
+            "code": "079550",
+            "name": "LIG넥스원",
+            "market": "KOSPI",
+            "relation": "K-방산 동행 — 미사일·유도무기 분야 경쟁사",
+            "currentPrice": null,
+            "change1D": null
+          },
+          {
+            "code": "047810",
+            "name": "한국항공우주",
+            "market": "KOSPI",
+            "relation": "방산·항공 동종 — KAI FA-50 수출 모멘텀 공동 영향",
+            "currentPrice": null,
+            "change1D": null
+          }
+        ],
+        "sources": [
+          {
+            "name": "네이버 금융 (실시간)",
+            "url": "https://m.stock.naver.com/domestic/stock/012450/total"
+          }
+        ]
+      },
+      {
+        "ticker": "066570",
+        "name": "LG전자",
+        "market": "KOSPI",
+        "category": "이슈주",
+        "thesis": "어제 +13.38% 217,000원 첫 20만원 돌파했어요. 로봇·데이터센터 신사업 가치 재평가 + 5월 들어 52주 신고가 연속 경신 중이에요. 다만 외국인은 어제 -333,528주 매도로 차익실현 시작 — 단기 변동성 확대 구간이에요.",
+        "currentPrice": 217000,
+        "change1D": 13.38,
+        "company": {
+          "ceo": "조주완 (사장)",
+          "business": "글로벌 가전 빅3. TV·생활가전·전장(자동차 부품)·로봇·데이터센터 인프라. 2028년 가전회사에서 로봇·B2B 솔루션 회사로 전환 비전",
+          "hq": "서울 영등포구, 대한민국",
+          "homepage": "https://www.lge.co.kr/",
+          "ceoSource": "공시 (정기주총 2025)"
+        },
+        "financials": "주가 217,000원(+13.38%, 5/14 마감), 시총 35조 3,460억, PER 40.78배, PBR 1.64배, 외인소진율 34.96%, 52주 최고 238,500원·최저 68,300원 (출처: 네이버 금융 totalInfos).",
+        "comparable": "이마트(+11%)·이번 주 빅캡 폭등 동조. 코스피 신주도주로 거론 — 반도체 외 다음 주도주 후보.",
+        "outlookEasy": "분석가들이 본 평균 목표가는 163,250원인데 지금 가격(217,000원)이 이미 그보다 비싸요(-25%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수(4.00)예요. 다만 로봇·B2B 사업 가치 재평가가 빠르게 진행 중이라 컨센서스가 늦게 따라잡힐 수도 있어요. 외국인이 어제 -333,528주 차익실현 시작.",
+        "outlook": "컨센서스 평균 163,250원(Buy 4.00) 대비 -25% 이미 비싼 영역(컨센이 펀더멘털 변화를 못 따라잡은 케이스 가능). 외국인 5/14 -333,528주 매도 전환(5/12 +637,454 강매수 후). 단기 트리거: 5/15 OpEx 변동성, 로봇 자회사 가치 평가 뉴스. 시나리오: 차익실현 -5~10% 가능, 신고가 추가 시도 시 +3~5%.",
+        "risk": "어제 +13.38% 단기 급등 후 차익실현 매물 임박. 외국인이 5/14 매도 전환한 게 신호. 52주 최저 68,300원 대비 +218% 누적이라 변동이 매우 큰 종목이에요.",
+        "horizon": "1~2주 (단기)",
+        "relatedStocks": [
+          {
+            "code": "005930",
+            "name": "삼성전자",
+            "market": "KOSPI",
+            "relation": "코스피 빅캡 동조 — 외국인 매수 전환 흐름 같이 봐야",
+            "currentPrice": "296,000",
+            "change1D": 0.0
+          },
+          {
+            "code": "373220",
+            "name": "LG에너지솔루션",
+            "market": "KOSPI",
+            "relation": "LG 그룹사 — 그룹 가치 재평가 동행 가능",
+            "currentPrice": null,
+            "change1D": null
+          }
+        ],
+        "sources": [
+          {
+            "name": "네이버 금융 (실시간)",
+            "url": "https://m.stock.naver.com/domestic/stock/066570/total"
+          },
+          {
+            "name": "이코노미스트 신주도주",
+            "url": "https://economist.co.kr/article/view/ecn202605130040"
+          }
+        ]
+      }
+    ],
+    "us": [
+      {
+        "ticker": "AMAT",
+        "name": "어플라이드 머티리얼즈 (Applied Materials)",
+        "market": "NASDAQ",
+        "category": "실적기대",
+        "thesis": "어제 정규장 +0.90% $440.56 마감 후 분기 실적 발표 — 매출·EPS 모두 컨센서스 더블 비트, Q3 가이던스도 시장 기대 크게 상회로 시간외 +3.5% $455.99 강세예요. 반도체 장비 산업 성장 전망을 +20%→+30% 이상으로 상향한 것도 큰 신호예요.",
+        "currentPrice": 440.56,
+        "change1D": 0.9,
+        "company": {
+          "ceo": "Gary E. Dickerson",
+          "business": "글로벌 반도체 장비 1위 회사. 반도체 시스템(IC 제조 장비), AGS(서비스·소프트), 디스플레이 부문. 미국 NVDA·인텔·TSMC·삼성·SK하이닉스 등 모든 칩 제조사에 장비 공급",
+          "hq": "SANTA CLARA, CA",
+          "employees": "35,500명",
+          "homepage": "https://www.appliedmaterials.com/",
+          "ceoSource": "네이버 금융 integration API summaries"
+        },
+        "financials": "Q2 EPS $2.86 vs 컨센 $2.68(+7% 비트), 매출 $7.91B vs 컨센 $7.69B(+3% 비트, 사상 최고). Q3 가이던스 매출 $8.95B ±$500M, EPS $3.36 ±$0.20로 컨센 크게 상회. 반도체 장비 산업 성장률 전망 +20%→+30%로 상향 (출처: Applied Materials IR).",
+        "comparable": "보유 종목 중 NVDA·TSM·AVGO·MU·SNDK 같은 칩 회사들이 모두 AMAT 장비로 칩 만듬. 장비사 호실적 = 칩 회사 호황 신호 (선행 지표).",
+        "outlookEasy": "분석가들이 본 평균 목표가는 $426.04로 지금 가격($440.56)이 이미 그보다 비싸요(-3%). 분석가들 관점에선 거의 도달했지만 어제 시간외 +3.5% 호실적으로 컨센서스가 빠르게 상향 조정될 거예요. 추천 등급은 매수(4.08). 분석가별 의견은 $280~$500 범위에 있어요.",
+        "outlook": "컨센서스 평균 $426.04(Buy 4.08) 대비 -3% 이미 도달, 분포 $280~$500 넓은 의견. 단기 트리거: 어제 분기 더블 비트 + Q3 가이던스 상향 → 분석가 PT 상향 임박. 시나리오: 컨센 상단 $500 도달 시 +13%, 어제 시간외 $455.99 갭상승 출발 시 +3.5% 즉시.",
+        "risk": "5/15 OpEx 변동성 큰 날이라 시간외 +3.5% 갭이 정규장 시작 시 약화 가능. 반도체 사이클이 정점이라는 우려는 잔존 — 변동이 큰 종목이에요.",
+        "horizon": "3~6개월 (중기)",
+        "relatedStocks": [
+          {
+            "ticker": "ASML",
+            "name": "ASML",
+            "market": "NASDAQ",
+            "relation": "반도체 장비 동종 — EUV 노광장비 독점, AMAT와 함께 칩 산업 선행 지표",
+            "currentPrice": null,
+            "change1D": null
+          },
+          {
+            "ticker": "LRCX",
+            "name": "Lam Research",
+            "market": "NASDAQ",
+            "relation": "반도체 장비 동종 — 식각·증착 분야 1위, AMAT와 시장 분점",
+            "currentPrice": null,
+            "change1D": null
+          }
+        ],
+        "sources": [
+          {
+            "name": "Benzinga AMAT 실적",
+            "url": "https://www.benzinga.com/markets/earnings/26/05/52581063/applied-materials-tops-q2-earnings-expectations-shares-surge-on-strong-outlook"
+          },
+          {
+            "name": "Applied Materials IR",
+            "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-second-quarter-2026-results"
+          }
+        ]
+      },
+      {
+        "ticker": "CSCO",
+        "name": "시스코 (Cisco Systems)",
+        "market": "NASDAQ",
+        "category": "이슈주",
+        "thesis": "어제 +13.41% $115.53 폭등하며 다우 5만 탈환을 이끌었어요. AI 주문이 전년 대비 2배 이상 늘었고, FY26 매출 가이던스도 $62.8~$63.0B로 크게 상향됐어요. Wall Street 6곳이 일제히 목표가 상향한 게 분위기를 띄웠어요.",
+        "currentPrice": 115.53,
+        "change1D": 13.41,
+        "company": {
+          "ceo": "Charles H. Robbins",
+          "business": "글로벌 네트워크 장비·보안·클라우드 솔루션 1위 회사. 인터넷 라우터·스위치·5G·옵틱스·실리콘. 데이터센터 AI 인프라 핵심 공급사",
+          "hq": "SAN JOSE, CA",
+          "employees": "86,200명",
+          "homepage": "https://www.cisco.com/",
+          "ceoSource": "네이버 금융 integration API summaries"
+        },
+        "financials": "Q3 EPS $1.06 vs 컨센 $1.04 비트, 매출 $15.84B vs 컨센 $15.56B 비트(+12% YoY). 제품 주문 +35% YoY, 하이퍼스케일러 AI 주문 2배 이상 증가. FY26 매출 가이던스 $62.8~$63.0B·EPS $4.27~$4.29로 상향 (출처: CNBC, Motley Fool).",
+        "comparable": "AVGO와 함께 AI 네트워크 인프라 핵심 — 보유 AVGO도 어제 +5.52% 52주 최고치 동조 강세.",
+        "outlookEasy": "분석가들이 본 평균 목표가는 $89.14인데 지금 가격($115.53)이 이미 그보다 비싸요(-23%). 어제 +13.41% 폭등으로 분석가 컨센이 빠르게 따라잡혀 6곳 일제히 목표가 상향했어요. 추천 등급은 매수(3.89). 분석가별 의견은 $75~$110 범위에 있어요.",
+        "outlook": "컨센서스 평균 $89.14(Buy 3.89) 대비 -23% 이미 도달, 분포 $75~$110. 6곳 PT 일제 상향으로 컨센 빠른 리프라이싱 중. 단기 트리거: AI 주문 가속 + 5/20 NVDA 실적 동조. 시나리오: 컨센 상단 $110 영역에서 단기 저항, $120 돌파 시 +5% 추가 여력.",
+        "risk": "어제 +13.41% 단기 급등 후 차익실현 매물 가능. PER이 빠르게 올라가는 구간이라 단기 변동이 큰 종목이에요.",
+        "horizon": "3~6개월 (중기)",
+        "relatedStocks": [
+          {
+            "ticker": "ANET",
+            "name": "Arista Networks",
+            "market": "NYSE",
+            "relation": "AI 네트워크 인프라 경쟁사 — 하이퍼스케일러 스위치 강자",
+            "currentPrice": null,
+            "change1D": null
+          },
+          {
+            "ticker": "JNPR",
+            "name": "Juniper Networks",
+            "market": "NYSE",
+            "relation": "네트워크 장비 경쟁사 — CSCO와 시장 분점",
+            "currentPrice": null,
+            "change1D": null
+          }
+        ],
+        "sources": [
+          {
+            "name": "Motley Fool CSCO",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/05/14/stock-market-today-may-14-cisco-systems-surges-after-blowout-earnings-and-raised-guidance/"
+          },
+          {
+            "name": "CNBC CSCO 실적",
+            "url": "https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html"
+          }
+        ]
+      }
+    ],
+    "krForeignFlow": {
+      "asOf": "2026-05-14",
+      "lookbackDays": "5거래일 (5/8~5/14)",
+      "rows": [
+        {
+          "ticker": "005930",
+          "name": "삼성전자",
+          "foreignHoldRatio": 48.85,
+          "netBuy5d": -33336587,
+          "dailyNetBuy": [
+            {"date": "5/8", "shares": -9595937},
+            {"date": "5/11", "shares": -7997922},
+            {"date": "5/12", "shares": -7824233},
+            {"date": "5/13", "shares": -5675844},
+            {"date": "5/14", "shares": 757349}
+          ],
+          "trend": "매도→매수 전환 (5/14)",
+          "trendTone": "positive",
+          "flowReason": {
+            "summary": "30만전자 임박 + 외인 매도 정점 통과 신호",
+            "detail": "5일 누적 -33.3M주(-약 9.9조원) 매도지만 5/14 +757,349주 매수 전환. 매도 폭이 일별로 점차 줄어드는 추세(5/8 -9.6M → 5/13 -5.7M → 5/14 +0.76M) 후 마지막 거래일 매수로 전환했어요. 30만전자(300,000원) 1.35% 남은 상태에서 AMAT 시간외 호실적이 5/15 추가 매수 유인.",
+            "sources": [
+              {
+                "name": "네이버 금융 dealTrendInfos API (5/14)",
+                "url": "https://m.stock.naver.com/api/stock/005930/integration"
+              }
+            ]
+          }
+        },
+        {
+          "ticker": "000660",
+          "name": "SK하이닉스",
+          "foreignHoldRatio": null,
+          "netBuy5d": -5649198,
+          "dailyNetBuy": [
+            {"date": "5/8", "shares": -1567838},
+            {"date": "5/11", "shares": -1074329},
+            {"date": "5/12", "shares": -454579},
+            {"date": "5/13", "shares": -1634593},
+            {"date": "5/14", "shares": -917859}
+          ],
+          "trend": "매도세 (5일 순매도)",
+          "trendTone": "negative",
+          "flowReason": {
+            "summary": "신고가 197.6만원 후 차익실현 + HBM 모멘텀 단기 정점 우려",
+            "detail": "5일 누적 -5.65M주 매도. 5/12 신고가 197.6만원 도달 후 차익실현 매물 출회. PER이 삼성전자를 사상 처음 역전한 상태에서 5/13 다시 -1.63M주 매도 가속. 5/20 NVDA 실적이 HBM 매출 가이던스로 단기 변수.",
+            "sources": [
+              {
+                "name": "네이버 금융 dealTrendInfos API (5/14)",
+                "url": "https://m.stock.naver.com/api/stock/000660/integration"
+              }
+            ]
+          }
+        },
+        {
+          "ticker": "012450",
+          "name": "한화에어로스페이스",
+          "foreignHoldRatio": 45.13,
+          "netBuy5d": -12990,
+          "dailyNetBuy": [
+            {"date": "5/8", "shares": -37090},
+            {"date": "5/11", "shares": 42800},
+            {"date": "5/12", "shares": -25743},
+            {"date": "5/13", "shares": 1021},
+            {"date": "5/14", "shares": 7022}
+          ],
+          "trend": "매수세 (2일 연속 매수)",
+          "trendTone": "positive",
+          "flowReason": {
+            "summary": "K-방산 모멘텀 + 외인 2일 연속 매수 전환",
+            "detail": "5/13~5/14 2거래일 연속 외인 매수(+1,021·+7,022주). 5일 누적은 -12,990주로 거의 보합 회복. K-방산 수출 모멘텀과 미중 정상회담 후 대만 안보 이슈 잠재가 매수 전환 배경. 52주 최고 1,655,000원 대비 -21% 영역에서 추가 상승 여력 인식.",
+            "sources": [
+              {
+                "name": "네이버 금융 dealTrendInfos API (5/14)",
+                "url": "https://m.stock.naver.com/api/stock/012450/integration"
+              }
+            ]
+          }
+        },
+        {
+          "ticker": "066570",
+          "name": "LG전자",
+          "foreignHoldRatio": 34.96,
+          "netBuy5d": 296824,
+          "dailyNetBuy": [
+            {"date": "5/8", "shares": 241403},
+            {"date": "5/11", "shares": -12596},
+            {"date": "5/12", "shares": 637454},
+            {"date": "5/13", "shares": -235909},
+            {"date": "5/14", "shares": -333528}
+          ],
+          "trend": "매도세 (2일 연속 매도)",
+          "trendTone": "negative",
+          "flowReason": {
+            "summary": "어제 +13.38% 첫 20만원 돌파 후 차익실현 가속",
+            "detail": "5/14 -333,528주 매도. 5/12 +637,454주 강매수 후 5/13~5/14 연속 매도 전환. 어제 +13.38% 217,000원 첫 20만원 돌파 단기 급등에 차익실현 매물 출회. 5일 누적은 +296,824주로 여전히 순매수지만 모멘텀 약화 신호.",
+            "sources": [
+              {
+                "name": "네이버 금융 dealTrendInfos API (5/14)",
+                "url": "https://m.stock.naver.com/api/stock/066570/integration"
+              }
+            ]
+          }
+        }
+      ],
+      "insights": [
+        "삼성전자 외국인 6일 연속 매도 끝에 5/14 +757,349주 매수 전환 — 가장 의미 있는 신호. 외인소진율 48.85%.",
+        "SK하이닉스는 5일 연속 매도 -5.65M주 지속 — HBM 신고가 후 차익실현 흐름 유지.",
+        "한화에어로스페이스 5/13~5/14 2일 연속 매수 전환 — K-방산 모멘텀 + 안보 이슈 우호.",
+        "LG전자는 +13.38% 폭등 후 2일 연속 매도 전환 — 단기 차익실현 가속, 변동성 확대.",
+        "전반 흐름: 반도체 사이클에서 빅캡(삼전) 매수 전환 + 미드캡(LG전자) 차익실현 + 방산(한화에어로) 매수 전환으로 종목별 차별화 심화."
+      ],
+      "sources": [
+        {
+          "name": "네이버 금융 dealTrendInfos API",
+          "url": "https://m.stock.naver.com/api/stock/005930/integration"
+        }
+      ]
+    },
+    "newListings": {
+      "kr": [
+        {
+          "ticker": "439960",
+          "name": "코스모로보틱스",
+          "market": "KOSDAQ",
+          "category": "이슈주",
+          "listedAt": "2026-05-11",
+          "thesis": "5/11 코스닥 상장 첫날 따따블(공모가 6,000원 대비 +300%) 후 5/12~5/13 연속 상한가로 5/14까지 공모가 대비 +735% 폭등했어요. 다만 5/15부터 1일 투자주의종목 지정 — 단기 과열 경고 신호예요.",
+          "currentPrice": 52700,
+          "change1D": 0.0,
+          "company": {
+            "ceo": "검증 필요",
+            "business": "웨어러블 로봇(외골격) 기업. 산업·재활·국방용 외골격 로봇 개발. 코스닥 신규 상장",
+            "hq": "대한민국",
+            "homepage": "확인 필요",
+            "ceoSource": "네이버 뉴스 검증 (2026/5/15 KBS 보도)"
+          },
+          "financials": "주가 52,700원(5/14 마감), 시총 1조 6,921억, PER N/A(적자 회사 — EPS -843원), PBR 100.57배 매우 높음, 외인소진율 0.00% (출처: 네이버 금융 totalInfos).",
+          "comparable": "5/15 투자주의종목 지정 예고 — 신규 상장주 단기 과열의 전형적 패턴.",
+          "outlookEasy": "신규 상장주라 컨센서스 미수신 — 52주 범위 기반으로만 평가. 5거래일 만에 공모가 6,000원에서 52,700원으로 +778% 폭등 후 5/15 투자주의종목 지정. 단기 과열 위험이 매우 커요. 변동이 매우 큰 종목이라 신중히 보세요.",
+          "outlook": "컨센서스 데이터 미수신 — 52주 범위 기반으로만 평가. 5/15 투자주의종목 지정으로 단기 변동성 확대 + 차익실현 매물 가능. 시나리오: 투자경고종목 추가 지정 시 -15~30% 가능, 차익실현 후 안정화 가능.",
+          "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. PBR 100배·적자 회사라 펀더멘털 측면 위험 매우 큼. 5/15 투자주의 지정 + 따따블 후 +735% 누적이라 차익실현 매물 임박.",
+          "horizon": "1~2주 (단기, 매우 짧음)",
+          "sources": [
+            {
+              "name": "KBS 코스모로보틱스 보도",
+              "url": "https://n.news.naver.com/mnews/article/056/0012181548"
+            },
+            {
+              "name": "Topstar News 투자경고종목 예고",
+              "url": "https://www.topstarnews.net/news/articleView.html?idxno=16060702"
+            }
+          ]
+        },
+        {
+          "ticker": "279570",
+          "name": "케이뱅크",
+          "market": "KOSPI",
+          "category": "이슈주",
+          "listedAt": "2026-03-05",
+          "thesis": "코스피 상장 후 부진해서 공모가 대비 -45% 빠진 상태예요. 어제 5,550원 보합으로 52주 저점(5,430원) 근처. 다만 분석가 평균 목표가가 9,000원이라 +62% 여력 인식이 있어요. 카뱅과 비교해 밸류에이션 압박과 유통 물량 부담이 컸어요.",
+          "currentPrice": 5550,
+          "change1D": 0.0,
+          "company": {
+            "ceo": "최우형 (행장)",
+            "business": "국내 1호 인터넷 전문은행. KT 자회사로 가상자산 거래 연계·여신·예금·간편결제. 카카오뱅크에 이은 인터넷뱅크 2위",
+            "hq": "서울 영등포구, 대한민국",
+            "homepage": "https://www.kbanknow.com/",
+            "ceoSource": "네이버 뉴스 검증 (2026/5/15 Consumernews 보도)"
+          },
+          "financials": "주가 5,550원(±0.00%, 5/14 마감), 시총 2조 2,516억, PER 18.50배, PBR 0.96배, 외인소진율 0.00%, 52주 최고 9,880원·최저 5,430원 (출처: 네이버 금융 totalInfos).",
+          "comparable": "카카오뱅크 23,600원(5/14)과 양극화. 카뱅은 보합, 케뱅은 52주 저점 근처에서 시도.",
+          "outlookEasy": "분석가들이 본 평균 목표가는 9,000원으로 지금 가격(5,550원)에서 +62% 더 오를 여력이 크다고 봐요. 추천 등급은 매수(3.50). 다만 상장 후 -45% 빠진 상태라 신중히 봐야 해요. PBR 0.96배로 저평가 영역.",
+          "outlook": "컨센서스 평균 9,000원(Hold 3.50) 대비 +62% 갭. 52주 저점 5,430원 근처에서 매수 시도. 단기 트리거: 인터넷뱅크 산업 모멘텀(가상자산 거래 활성화 등). 시나리오: 컨센 평균 도달 시 +62%, 52주 저점 돌파 시 -3~5% 추가 하락 가능.",
+          "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 상장 후 -45% 빠진 부진 + 유통 물량 부담 잔존. 외인소진율 0%로 외국인 관심도 낮음.",
+          "horizon": "3~6개월 (중기)",
+          "sources": [
+            {
+              "name": "Consumernews 케뱅 부진",
+              "url": "http://www.consumernews.co.kr/news/articleView.html?idxno=755708"
+            },
+            {
+              "name": "네이버 금융 (실시간)",
+              "url": "https://m.stock.naver.com/domestic/stock/279570/total"
+            }
+          ]
+        }
+      ],
+      "us": [
+        {
+          "ticker": "CRCL",
+          "name": "써클 인터넷 그룹 (Circle Internet Group)",
+          "market": "NYSE",
+          "category": "이슈주",
+          "listedAt": "2025-06",
+          "thesis": "USDC 스테이블코인 발행사로 2025년 6월 NYSE IPO. 어제 -2.13% $123.88 마감, 상장 후 1년 차에 스테이블코인 규제·블록체인 결제 모멘텀이 단기 변수예요. 분석가 의견이 $50~$280으로 극단적으로 갈려서 단기 변동성 큰 종목이에요.",
+          "currentPrice": 123.88,
+          "change1D": -2.13,
+          "company": {
+            "ceo": "Jeremy D. Allaire",
+            "business": "글로벌 핀테크. 미 달러 페깅 스테이블코인 USDC와 유로 페깅 스테이블코인 EURC 발행사. 블록체인 결제·송금 인프라 제공",
+            "hq": "NEW YORK, NY",
+            "employees": "1,100명",
+            "homepage": "https://www.circle.com/",
+            "ceoSource": "네이버 금융 integration API summaries"
+          },
+          "financials": "주가 $123.88(-2.13%, 5/14 마감, 출처: 네이버 금융). 자세한 PER·시총 정보는 미수신 — 추후 갱신 예정.",
+          "comparable": "비트코인 $81K 부근(어제 후퇴), 스테이블코인·블록체인 결제 시장 전반 분위기와 동조.",
+          "outlookEasy": "분석가들이 본 평균 목표가는 $130.43으로 지금 가격($123.88) 근처에 거의 도달했어요(+5%). 추가 상승 여력은 제한적. 다만 분석가별 의견이 $50~$280으로 너무 갈려서 누구 말이 맞을지 모르는 상태예요. 추천 등급은 보유(중립, 3.48).",
+          "outlook": "컨센서스 평균 $130.43(Hold 3.48) 대비 +5% 여력, 분포 $50~$280 매우 넓은 의견. 단기 트리거: 스테이블코인 규제 정책, 비트코인 가격 동조. 시나리오: 컨센 상단 도달 시 +126%, 하단 도달 시 -60% 변동성 매우 큼.",
+          "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 스테이블코인 규제·암호화폐 가격 동조로 단기 변동성 매우 큼. 분석가 의견 분산이 $50~$280으로 극단적이라 단기 방향성 예측 어려움.",
+          "horizon": "3~6개월 (중기)",
+          "sources": [
+            {
+              "name": "네이버 금융 (실시간)",
+              "url": "https://m.stock.naver.com/worldstock/stock/CRCL.K"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "preview": {
     "tonight": "5/15(금) 밤 美 정규장 — 워시 Fed 취임 + OpEx 옵션만기일 더블 이벤트로 변동성 확대 구간. AMAT 호실적 동조 칩 매수 vs OpEx 헤지 매도 줄다리기.",
     "tomorrow": "5/16(토) — 美 휴장(주말). 5/19 PCE(개인소비지출) 인플레 지표 + 5/20 NVDA Q1 FY27 실적이 주말 후 메가 이벤트.",
@@ -192,8 +708,9 @@
       "MRVL",
       "AMAT",
       "TSM",
-      "MU"
+      "MU",
+      "CSCO"
     ]
   },
-  "lastUpdated": "2026-05-15T06:00:00+09:00"
+  "lastUpdated": "2026-05-15T08:15:00+09:00"
 }

@@ -1241,10 +1241,10 @@
       },
       {
         "type": "earnings",
-        "label": "AMAT 시간외 +4% (분기 더블 비트)",
+        "label": "AMAT 시간외 +3.5% (분기 더블 비트)",
         "color": "green",
         "time": "익일 05:00 KST 직후 (4:30 PM ET)",
-        "title": "Applied Materials Q2 FY26 더블 비트 — 시간외 +3.96% $458",
+        "title": "Applied Materials Q2 FY26 더블 비트 — 시간외 +3.50% $455.99",
         "description": "EPS $2.86 (컨센 $2.68 비트)·매출 $7.91B (컨센 $7.69B 비트, 사상 최고). Q3 가이던스 매출 ~$8.95B ±$500M·EPS ~$3.36 ±$0.20로 컨센 크게 상회. 2026년 반도체 장비 산업 성장 전망을 '+20% 이상'에서 '+30% 이상'으로 상향.",
         "ourImpact": "AMAT은 보유 종목 아니지만, 반도체 장비 호실적은 NVDA·TSM·AVGO·MU·SNDK 등 칩 전반에 호재. AI 칩 수요 신호로 5/20 NVDA 실적 분위기에 우호적."
       },
@@ -1259,11 +1259,11 @@
       },
       {
         "type": "report",
-        "label": "오늘의 보고서 (06:00 라이트)",
+        "label": "오늘의 보고서 (08:00 풀 모닝)",
         "color": "indigo",
         "time": "06:00 KST",
-        "title": "5/15 06:00 라이트 — 美 마감 + AMAT 시간외 캡처",
-        "description": "어젯밤 미국 정규장 마감과 AMAT 시간외 실적을 라이트로 캡처. 다우 5만 탈환·S&P·나스닥 ATH, AMAT 더블 비트로 시간외 +4%."
+        "title": "5/15 08:00 풀 모닝브리핑 — 美 ATH + 워시 Fed 취임 + OpEx 더블 이벤트",
+        "description": "어젯밤 美 다우 50,063.46(+0.75%) 5만선 재탈환·S&P·나스닥 ATH. AMAT 시간외 +3.5% 분기 더블 비트 호실적. 오늘 워시 Fed 의장 취임 + 옵션만기일(OpEx) 더블 이벤트. 보유 양극화: NVDA +4.39%·AVGO +5.52% 52주 최고·MRVL ATH 강세 vs MU·SNDK 메모리 차익실현. 5/19 PCE · 5/20 NVDA 실적 D-5."
       },
       {
         "type": "schedule",
