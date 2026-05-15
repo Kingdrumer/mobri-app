@@ -1259,7 +1259,7 @@ function renderEventTile(ev, idx) {
 
         ${ev.ourImpact ? `
           <div class="etile-easy">
-            <div class="etile-easy-label">📌 내 종목엔</div>
+            <div class="etile-easy-label">내 종목엔</div>
             <div class="etile-easy-text">${escapeHtml(paraBreak(ev.ourImpact))}</div>
           </div>
         ` : ''}
@@ -1268,18 +1268,18 @@ function renderEventTile(ev, idx) {
           <div class="etile-more">
             ${ev.impact ? `
               <div class="erow">
-                <div class="erow-label">💡 시장 영향</div>
+                <div class="erow-label">시장 영향</div>
                 <div class="erow-text">${escapeHtml(paraBreak(ev.impact))}</div>
               </div>
             ` : ''}
             ${stockImpactsHtml ? `
               <div class="erow">
-                <div class="erow-label">📊 종목별 영향</div>
+                <div class="erow-label">종목별 영향</div>
                 ${stockImpactsHtml}
               </div>
             ` : ''}
             ${isNotice ? `
-              <button class="etile-detail-btn" type="button" data-notice-id="${escapeHtml(ev.noticeId)}">📋 공고 상세 보기</button>
+              <button class="etile-detail-btn" type="button" data-notice-id="${escapeHtml(ev.noticeId)}">공고 상세 보기</button>
             ` : ''}
           </div>
           <div class="etile-toggle">
@@ -1468,7 +1468,7 @@ function renderNewsBox(report) {
           <div class="ni-headline">${escapeHtml(parsed.headline)}</div>
           ${hasOneLine ? `
             <div class="ni-easy">
-              <div class="ni-easy-label">💬 쉽게 한 줄로</div>
+              <div class="ni-easy-label">쉽게 한 줄로</div>
               <div class="ni-oneline">${escapeHtml(paraBreak(n.oneLineSummary))}</div>
             </div>
           ` : (hasSummary ? `
@@ -1476,12 +1476,12 @@ function renderNewsBox(report) {
           ` : '')}
           ${showDetailToggle ? `
             <details class="ni-detail">
-              <summary>📰 자세히 보기</summary>
+              <summary>자세히 보기</summary>
               <div class="ni-summary">${escapeHtml(paraBreak(n.summary))}</div>
             </details>
           ` : ''}
           ${hasOurImpact ? `
-            <div class="ni-ourimpact"><span class="ni-label">👉 내 종목엔</span> ${escapeHtml(paraBreak(n.ourImpact))}</div>
+            <div class="ni-ourimpact"><span class="ni-label">내 종목엔</span><span class="ni-ourimpact-text">${escapeHtml(paraBreak(n.ourImpact))}</span></div>
           ` : ''}
           ${(n.sources && n.sources.length) ? `
             <div class="ni-sources">${n.sources.map((s) => escapeHtml(s.name || '')).filter(Boolean).join(' · ')}</div>
@@ -3132,29 +3132,29 @@ function signalCard(s) {
       </div>
       ${s.thesis ? `
         <div class="sig-why">
-          <div class="sig-why-label">💡 왜 추천하나요?</div>
+          <div class="sig-why-label">왜 추천</div>
           <div class="sig-thesis">${escapeHtml(paraBreak(s.thesis))}</div>
         </div>
       ` : ''}
       ${s.outlookEasy ? `
         <div class="sig-easy sig-easy-outlook">
-          <div class="sig-easy-label">🔮 앞으로 어떻게 될까?</div>
+          <div class="sig-easy-label">앞으로 전망</div>
           <div class="sig-easy-text">${escapeHtml(paraBreak(s.outlookEasy))}</div>
         </div>
       ` : ''}
       ${s.financialStatementsEasy ? `
         <div class="sig-easy sig-easy-fs">
-          <div class="sig-easy-label">📊 재무재표 한 줄</div>
+          <div class="sig-easy-label">재무재표 한 줄</div>
           <div class="sig-easy-text">${escapeHtml(paraBreak(s.financialStatementsEasy))}</div>
         </div>
       ` : ''}
       ${hasDetail ? `
         <details class="sig-detail">
-          <summary><span class="sig-detail-label">📋 자세히 보기</span></summary>
+          <summary><span class="sig-detail-label">자세히 보기</span></summary>
           <div class="sig-blocks">
             ${s.company ? `
               <div class="sig-block sig-block-company">
-                <span class="sig-block-lbl">🏢 회사 정보</span>
+                <span class="sig-block-lbl">회사 정보</span>
                 <div class="sig-block-val">
                   ${s.company.business ? `<div class="sig-co-row"><span class="sig-co-lbl">사업</span><span class="sig-co-val">${escapeHtml(s.company.business)}</span></div>` : ''}
                   ${s.company.ceo ? `<div class="sig-co-row"><span class="sig-co-lbl">대표</span><span class="sig-co-val">${escapeHtml(s.company.ceo)}</span></div>` : ''}
@@ -3165,10 +3165,10 @@ function signalCard(s) {
                 </div>
               </div>
             ` : ''}
-            ${s.financials ? `<div class="sig-block"><span class="sig-block-lbl">💰 재무</span><span class="sig-block-val">${escapeHtml(s.financials)}</span></div>` : ''}
+            ${s.financials ? `<div class="sig-block"><span class="sig-block-lbl">재무 지표</span><span class="sig-block-val">${escapeHtml(s.financials)}</span></div>` : ''}
             ${s.financialStatements && s.financialStatements.annual?.length ? `
               <div class="sig-block sig-block-fs">
-                <span class="sig-block-lbl">📊 연간 매출·영업이익 (4년치)</span>
+                <span class="sig-block-lbl">연간 매출·영업이익 (4년치)</span>
                 <div class="sig-block-val">
                   <div class="sig-fs-table">
                       <div class="sig-fs-row sig-fs-row-head">
@@ -3190,18 +3190,18 @@ function signalCard(s) {
                 </div>
               </div>
             ` : ''}
-            ${s.comparable ? `<div class="sig-block"><span class="sig-block-lbl">📊 과거 사례</span><span class="sig-block-val">${escapeHtml(s.comparable)}</span></div>` : ''}
+            ${s.comparable ? `<div class="sig-block"><span class="sig-block-lbl">과거 사례</span><span class="sig-block-val">${escapeHtml(s.comparable)}</span></div>` : ''}
             ${s.outlook ? `
               <div class="sig-block sig-block-outlook">
-                <span class="sig-block-lbl">🔮 앞으로 전망 (분석가·숫자)</span>
+                <span class="sig-block-lbl">분석가 시나리오</span>
                 <span class="sig-block-val">${escapeHtml(paraBreak(s.outlook))}</span>
               </div>
             ` : ''}
-            ${s.risk ? `<div class="sig-block"><span class="sig-block-lbl">⚠️ 리스크</span><span class="sig-block-val">${escapeHtml(s.risk)}</span></div>` : ''}
-            ${s.horizon ? `<div class="sig-block"><span class="sig-block-lbl">⏱️ 예상 기간</span><span class="sig-block-val">${escapeHtml(s.horizon)}</span></div>` : ''}
+            ${s.risk ? `<div class="sig-block"><span class="sig-block-lbl">리스크</span><span class="sig-block-val">${escapeHtml(s.risk)}</span></div>` : ''}
+            ${s.horizon ? `<div class="sig-block"><span class="sig-block-lbl">예상 기간</span><span class="sig-block-val">${escapeHtml(s.horizon)}</span></div>` : ''}
             ${(s.relatedStocks && s.relatedStocks.length) ? `
               <div class="sig-block sig-block-related">
-                <span class="sig-block-lbl">🔗 같이 볼 종목</span>
+                <span class="sig-block-lbl">같이 볼 종목</span>
                 <div class="sig-block-val">
                   <div class="sig-related-list">
                     ${s.relatedStocks.map((r) => {

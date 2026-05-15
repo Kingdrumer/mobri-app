@@ -779,24 +779,34 @@ body.sheet-open {
   line-height: 1.65;
 }
 
-/* 📌 내 종목엔 — 카드 본문에 항상 보이는 쉬운 설명 */
+/* 일정 카드 — '내 종목엔' 항상 보이는 쉬운 설명 */
 .etile-easy {
   margin-top: 8px;
-  padding: 8px 10px;
-  background: rgba(95, 212, 154, 0.08);
-  border-left: 2px solid #5FD49A;
-  border-radius: 6px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.025);
+  border-radius: 8px;
+  --label-color: #5FD49A;
 }
 .etile-easy-label {
-  font-size: 11px;
-  font-weight: 600;
-  color: #84E4B5;
-  margin-bottom: 3px;
-  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--label-color);
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+.etile-easy-label::before {
+  content: '';
+  width: 3px;
+  height: 11px;
+  background: var(--label-color);
+  border-radius: 2px;
 }
 .etile-easy-text {
   font-size: 12.5px;
-  line-height: 1.6;
+  line-height: 1.65;
   color: var(--text-primary);
   white-space: pre-line;
 }
@@ -819,11 +829,22 @@ body.sheet-open {
 .erow + .erow { margin-top: 16px; padding-top: 16px; border-top: 0.5px dashed var(--border); }
 
 .erow-label {
-  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10.5px;
   font-weight: 700;
-  color: var(--accent);
+  color: var(--text-tertiary);
   margin-bottom: 7px;
-  letter-spacing: -0.1px;
+  letter-spacing: 0.06em;
+}
+.erow-label::before {
+  content: '';
+  width: 3px;
+  height: 11px;
+  background: currentColor;
+  border-radius: 2px;
+  opacity: 0.5;
 }
 
 .erow-text {
@@ -1396,20 +1417,30 @@ body.sheet-open {
   letter-spacing: -0.1px;
 }
 
-/* 💬 쉽게 한 줄로 — 뉴스 카드 본문 항상 보이는 쉬운 설명 */
+/* 뉴스 카드 — '쉽게 한 줄로' 항상 보이는 쉬운 설명 */
 .ni-easy {
   margin-bottom: 8px;
-  padding: 8px 10px;
-  background: rgba(165, 180, 252, 0.08);
-  border-left: 2px solid #A5B4FC;
-  border-radius: 6px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.025);
+  border-radius: 8px;
+  --label-color: #A5B4FC;
 }
 .ni-easy-label {
-  font-size: 11px;
-  font-weight: 600;
-  color: #A5B4FC;
-  margin-bottom: 4px;
-  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--label-color);
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+.ni-easy-label::before {
+  content: '';
+  width: 3px;
+  height: 11px;
+  background: var(--label-color);
+  border-radius: 2px;
 }
 .ni-easy .ni-oneline {
   margin-bottom: 0;
@@ -1455,25 +1486,37 @@ body.sheet-open {
 }
 
 .ni-ourimpact {
-  font-size: 12.5px;
-  color: var(--text-primary);
-  line-height: 1.6;
   margin-bottom: 6px;
-  padding: 8px 10px;
-  background: rgba(95, 212, 154, 0.08);
-  border-left: 2px solid #5FD49A;
-  border-radius: 6px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.025);
+  border-radius: 8px;
+  --label-color: #5FD49A;
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 6px;
 }
 .ni-ourimpact .ni-label {
-  font-size: 11px;
-  font-weight: 600;
-  color: #84E4B5;
-  letter-spacing: 0.02em;
-  margin-right: 0;
-  margin-bottom: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--label-color);
+  letter-spacing: 0.06em;
+  width: fit-content;
+}
+.ni-ourimpact .ni-label::before {
+  content: '';
+  width: 3px;
+  height: 11px;
+  background: var(--label-color);
+  border-radius: 2px;
+}
+.ni-ourimpact-text {
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--text-primary);
+  white-space: pre-line;
 }
 
 .ni-sources {
@@ -2592,47 +2635,43 @@ body.sheet-open {
 .sig-cat-badge.cat-issue  { background: rgba(255, 180, 84, 0.14); color: #FFC97A; }
 .sig-cat-badge.cat-earn   { background: rgba(199, 146, 234, 0.16); color: #DEB6F2; }
 
-.sig-why {
+/* ─── 미니멀 라벨 시스템 ─── */
+/* 라벨 = 작은 컬러 막대 + uppercase 영문 같은 미세 letter-spacing */
+.sig-why,
+.sig-easy {
   margin-top: 4px;
   margin-bottom: 8px;
-  padding: 8px 10px;
-  background: rgba(255, 200, 100, 0.06);
-  border-left: 2px solid #FFC97A;
-  border-radius: 6px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.025);
 }
-.sig-why-label {
-  font-size: 11px;
-  font-weight: 600;
-  color: #FFC97A;
-  margin-bottom: 4px;
-  letter-spacing: 0.02em;
-}
+.sig-why { --label-color: #FFC97A; }
+.sig-easy-outlook { --label-color: #A5B4FC; }
+.sig-easy-fs { --label-color: #5FD49A; }
 
-/* 🔮·📊 카드 본문에 항상 보이는 쉬운 설명 블록 */
-.sig-easy {
-  margin-bottom: 8px;
-  padding: 8px 10px;
-  border-radius: 6px;
-}
-.sig-easy-outlook {
-  background: rgba(165, 180, 252, 0.08);
-  border-left: 2px solid #A5B4FC;
-}
-.sig-easy-fs {
-  background: rgba(95, 212, 154, 0.08);
-  border-left: 2px solid #5FD49A;
-}
+.sig-why-label,
 .sig-easy-label {
-  font-size: 11px;
-  font-weight: 600;
-  margin-bottom: 4px;
-  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--label-color);
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
 }
-.sig-easy-outlook .sig-easy-label { color: #A5B4FC; }
-.sig-easy-fs .sig-easy-label { color: #84E4B5; }
+.sig-why-label::before,
+.sig-easy-label::before {
+  content: '';
+  width: 3px;
+  height: 11px;
+  background: var(--label-color);
+  border-radius: 2px;
+}
+.sig-thesis,
 .sig-easy-text {
   font-size: 12.5px;
-  line-height: 1.6;
+  line-height: 1.65;
   color: var(--text-primary);
   white-space: pre-line;
 }
@@ -2686,10 +2725,23 @@ body.sheet-open {
   line-height: 1.5;
 }
 .sig-block-lbl {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   flex-shrink: 0;
-  font-weight: 600;
-  color: var(--text-secondary);
-  min-width: 68px;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  letter-spacing: 0.05em;
+  min-width: 78px;
+}
+.sig-block-lbl::before {
+  content: '';
+  width: 2px;
+  height: 9px;
+  background: currentColor;
+  border-radius: 2px;
+  opacity: 0.55;
 }
 .sig-block-val {
   color: var(--text-primary);
