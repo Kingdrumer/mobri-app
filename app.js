@@ -2927,7 +2927,7 @@ function renderSignalsBox(report) {
         <div class="fflow-stock">
           <div class="fflow-stock-head">
             <span class="fflow-stock-name">${escapeHtml(r.name)}</span>
-            <span class="fflow-stock-hold">외국인 ${r.foreignHoldRatio.toFixed(1)}% 보유</span>
+            <span class="fflow-stock-hold">외국인 ${r.foreignHoldRatio != null ? r.foreignHoldRatio.toFixed(1) + '%' : '—'} 보유</span>
           </div>
           <div class="fflow-stock-line">${escapeHtml(summarize(r))}</div>
           ${hasReason ? `
