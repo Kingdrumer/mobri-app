@@ -3127,6 +3127,18 @@ function signalCard(s) {
           <div class="sig-thesis">${escapeHtml(paraBreak(s.thesis))}</div>
         </div>
       ` : ''}
+      ${s.outlookEasy ? `
+        <div class="sig-easy sig-easy-outlook">
+          <div class="sig-easy-label">🔮 앞으로 어떻게 될까?</div>
+          <div class="sig-easy-text">${escapeHtml(paraBreak(s.outlookEasy))}</div>
+        </div>
+      ` : ''}
+      ${s.financialStatementsEasy ? `
+        <div class="sig-easy sig-easy-fs">
+          <div class="sig-easy-label">📊 재무재표 한 줄</div>
+          <div class="sig-easy-text">${escapeHtml(paraBreak(s.financialStatementsEasy))}</div>
+        </div>
+      ` : ''}
       ${hasDetail ? `
         <details class="sig-detail">
           <summary><span class="sig-detail-label">📋 자세히 보기</span></summary>
@@ -3147,12 +3159,9 @@ function signalCard(s) {
             ${s.financials ? `<div class="sig-block"><span class="sig-block-lbl">💰 재무</span><span class="sig-block-val">${escapeHtml(s.financials)}</span></div>` : ''}
             ${s.financialStatements && s.financialStatements.annual?.length ? `
               <div class="sig-block sig-block-fs">
-                <span class="sig-block-lbl">📊 재무재표 (연간)</span>
+                <span class="sig-block-lbl">📊 연간 매출·영업이익 (4년치)</span>
                 <div class="sig-block-val">
-                  ${s.financialStatementsEasy ? `<div class="sig-fs-easy">💬 ${escapeHtml(paraBreak(s.financialStatementsEasy))}</div>` : ''}
-                  <details class="sig-fs-detail">
-                    <summary>📊 연간 매출·영업이익 표 보기</summary>
-                    <div class="sig-fs-table">
+                  <div class="sig-fs-table">
                       <div class="sig-fs-row sig-fs-row-head">
                         <span class="sig-fs-year">연도</span>
                         <span class="sig-fs-val">매출</span>
@@ -3168,24 +3177,15 @@ function signalCard(s) {
                         </div>
                       `).join('')}
                     </div>
-                    <div class="sig-fs-note">단위: ${escapeHtml(s.financialStatements.unit)} · 출처: ${(s.financialStatements.sources || []).map((src) => escapeHtml(src.name)).join(' · ')}</div>
-                  </details>
+                  <div class="sig-fs-note">단위: ${escapeHtml(s.financialStatements.unit)} · 출처: ${(s.financialStatements.sources || []).map((src) => escapeHtml(src.name)).join(' · ')}</div>
                 </div>
               </div>
             ` : ''}
             ${s.comparable ? `<div class="sig-block"><span class="sig-block-lbl">📊 과거 사례</span><span class="sig-block-val">${escapeHtml(s.comparable)}</span></div>` : ''}
-            ${(s.outlookEasy || s.outlook) ? `
+            ${s.outlook ? `
               <div class="sig-block sig-block-outlook">
-                <span class="sig-block-lbl">🔮 앞으로 전망</span>
-                <div class="sig-block-val">
-                  ${s.outlookEasy ? `<div class="sig-outlook-easy">💬 ${escapeHtml(paraBreak(s.outlookEasy))}</div>` : ''}
-                  ${s.outlook ? `
-                    <details class="sig-outlook-detail">
-                      <summary>📊 분석가·숫자로 자세히 보기</summary>
-                      <div class="sig-outlook-tech">${escapeHtml(paraBreak(s.outlook))}</div>
-                    </details>
-                  ` : ''}
-                </div>
+                <span class="sig-block-lbl">🔮 앞으로 전망 (분석가·숫자)</span>
+                <span class="sig-block-val">${escapeHtml(paraBreak(s.outlook))}</span>
               </div>
             ` : ''}
             ${s.risk ? `<div class="sig-block"><span class="sig-block-lbl">⚠️ 리스크</span><span class="sig-block-val">${escapeHtml(s.risk)}</span></div>` : ''}

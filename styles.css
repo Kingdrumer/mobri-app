@@ -2561,6 +2561,35 @@ body.sheet-open {
   margin-bottom: 4px;
   letter-spacing: 0.02em;
 }
+
+/* 🔮·📊 카드 본문에 항상 보이는 쉬운 설명 블록 */
+.sig-easy {
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+.sig-easy-outlook {
+  background: rgba(165, 180, 252, 0.08);
+  border-left: 2px solid #A5B4FC;
+}
+.sig-easy-fs {
+  background: rgba(95, 212, 154, 0.08);
+  border-left: 2px solid #5FD49A;
+}
+.sig-easy-label {
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  letter-spacing: 0.02em;
+}
+.sig-easy-outlook .sig-easy-label { color: #A5B4FC; }
+.sig-easy-fs .sig-easy-label { color: #84E4B5; }
+.sig-easy-text {
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  white-space: pre-line;
+}
 .sig-thesis {
   font-size: 12.5px;
   line-height: 1.6;
