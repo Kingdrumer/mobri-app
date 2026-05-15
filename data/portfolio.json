@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T08:15:00+09:00",
+  "lastUpdated": "2026-05-15T15:45:00+09:00",
   "us": [
     {
       "ticker": "GOOG",
@@ -1094,5 +1094,33 @@
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $452.39로 지금 가격($386.87)에서 +17% 더 오를 여력이 있어요. 추천 등급은 매수 (4.21)예요. 분석가별 의견은 $307.00~$548.00 범위에 있어요."
     }
   ],
-  "kr": []
+  "kr": [],
+  "asiaCloseSnapshot": {
+    "capturedAt": "2026-05-15T15:45:00+09:00",
+    "kospi": {
+      "close": 7493.18,
+      "change": -6.12,
+      "changePoint": -488.23,
+      "intradayHigh": 8046.51
+    },
+    "kosdaq": {
+      "close": 1115.99,
+      "change": -5.96
+    },
+    "usdkrw": {
+      "close": 1500.8,
+      "change": 9.8,
+      "intradayHigh": 1507.0
+    },
+    "samsungElec": {
+      "changePct": -8.61
+    },
+    "skHynix": {
+      "changePct": -7.66,
+      "close": 1819000
+    },
+    "foreignNetSellKospi": -5619500000000,
+    "individualNetBuyKospi": 7194300000000,
+    "note": "코스피 사상 첫 8천선 돌파 후 폭락, 외인 5.6조 매도·환율 1500원 돌파. 美 프리마켓 약세 출발 가능성 — 보유 칩 종목 관전."
+  }
 }
