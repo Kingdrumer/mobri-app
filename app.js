@@ -1257,18 +1257,24 @@ function renderEventTile(ev, idx) {
         <div class="etile-title">${escapeHtml(ev.label || ev.title || '')}</div>
         ${desc ? `<div class="etile-desc">${escapeHtml(desc)}</div>` : ''}
 
+        ${ev.ourImpact ? `
+          <div class="etile-easy">
+            <div class="etile-easy-label">📌 내 종목엔</div>
+            <div class="etile-easy-text">${escapeHtml(paraBreak(ev.ourImpact))}</div>
+          </div>
+        ` : ''}
+
         ${hasMore ? `
           <div class="etile-more">
             ${ev.impact ? `
               <div class="erow">
-                <div class="erow-label">💡 자세히</div>
+                <div class="erow-label">💡 시장 영향</div>
                 <div class="erow-text">${escapeHtml(paraBreak(ev.impact))}</div>
               </div>
             ` : ''}
-            ${(ev.ourImpact || stockImpactsHtml) ? `
+            ${stockImpactsHtml ? `
               <div class="erow">
-                <div class="erow-label">📌 내 종목엔</div>
-                ${ev.ourImpact ? `<div class="erow-text">${escapeHtml(paraBreak(ev.ourImpact))}</div>` : ''}
+                <div class="erow-label">📊 종목별 영향</div>
                 ${stockImpactsHtml}
               </div>
             ` : ''}
@@ -1277,7 +1283,7 @@ function renderEventTile(ev, idx) {
             ` : ''}
           </div>
           <div class="etile-toggle">
-            <span class="t-c">자세히 보기</span>
+            <span class="t-c">분석가·종목별 자세히</span>
             <span class="t-o">접기</span>
           </div>
         ` : ''}
@@ -1461,7 +1467,10 @@ function renderNewsBox(report) {
         <div class="ni-body">
           <div class="ni-headline">${escapeHtml(parsed.headline)}</div>
           ${hasOneLine ? `
-            <div class="ni-oneline">${escapeHtml(paraBreak(n.oneLineSummary))}</div>
+            <div class="ni-easy">
+              <div class="ni-easy-label">💬 쉽게 한 줄로</div>
+              <div class="ni-oneline">${escapeHtml(paraBreak(n.oneLineSummary))}</div>
+            </div>
           ` : (hasSummary ? `
             <div class="ni-summary">${escapeHtml(paraBreak(n.summary))}</div>
           ` : '')}

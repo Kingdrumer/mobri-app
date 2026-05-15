@@ -779,6 +779,28 @@ body.sheet-open {
   line-height: 1.65;
 }
 
+/* 📌 내 종목엔 — 카드 본문에 항상 보이는 쉬운 설명 */
+.etile-easy {
+  margin-top: 8px;
+  padding: 8px 10px;
+  background: rgba(95, 212, 154, 0.08);
+  border-left: 2px solid #5FD49A;
+  border-radius: 6px;
+}
+.etile-easy-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #84E4B5;
+  margin-bottom: 3px;
+  letter-spacing: 0.02em;
+}
+.etile-easy-text {
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  white-space: pre-line;
+}
+
 /* 펼쳐지는 영역 */
 .etile-more {
   max-height: 0;
@@ -1374,12 +1396,30 @@ body.sheet-open {
   letter-spacing: -0.1px;
 }
 
+/* 💬 쉽게 한 줄로 — 뉴스 카드 본문 항상 보이는 쉬운 설명 */
+.ni-easy {
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  background: rgba(165, 180, 252, 0.08);
+  border-left: 2px solid #A5B4FC;
+  border-radius: 6px;
+}
+.ni-easy-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #A5B4FC;
+  margin-bottom: 4px;
+  letter-spacing: 0.02em;
+}
+.ni-easy .ni-oneline {
+  margin-bottom: 0;
+}
+
 .ni-oneline {
-  font-size: 13.5px;
+  font-size: 13px;
   color: var(--text-primary);
   line-height: 1.65;
   margin-bottom: 8px;
-  font-weight: 500;
   letter-spacing: -0.1px;
 }
 
@@ -1419,15 +1459,21 @@ body.sheet-open {
   color: var(--text-primary);
   line-height: 1.6;
   margin-bottom: 6px;
-  padding: 6px 10px;
-  background: rgba(99, 102, 241, 0.08);
-  border-left: 2px solid rgba(99, 102, 241, 0.5);
-  border-radius: 4px;
+  padding: 8px 10px;
+  background: rgba(95, 212, 154, 0.08);
+  border-left: 2px solid #5FD49A;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 .ni-ourimpact .ni-label {
+  font-size: 11px;
   font-weight: 600;
-  color: var(--accent, #8b5cf6);
-  margin-right: 4px;
+  color: #84E4B5;
+  letter-spacing: 0.02em;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .ni-sources {
