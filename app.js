@@ -1312,6 +1312,7 @@ const DB_ICONS = {
 
 function dbHead(category, title, stat, hasMore) {
   const icon = DB_ICONS[category] || '';
+  // C-Plan: chevron은 항상 렌더, .day-box:not(.collapsible) 인 경우만 CSS에서 숨김
   return `
     <button class="db-head-btn" type="button">
       <div class="db-title">
@@ -1320,9 +1321,9 @@ function dbHead(category, title, stat, hasMore) {
       </div>
       <div class="db-meta">
         ${stat ? `<span class="db-stat">${escapeHtml(stat)}</span>` : ''}
-        ${hasMore ? `<span class="db-chevron" aria-hidden="true">
+        <span class="db-chevron" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-        </span>` : ''}
+        </span>
       </div>
     </button>
   `;
@@ -1336,9 +1337,9 @@ function moreHint(text) {
 function renderEventsBox(dayEvents) {
   if (!dayEvents.length) {
     return `
-      <section class="day-box">
-        ${dbHead('events', '오늘의 일정', '', false)}
-        <div class="db-empty">큰 이벤트 없는 평범한 날이에요</div>
+      <section class="day-box collapsible" data-box="events">
+        ${dbHead('events', '오늘의 일정', '이벤트 없음', false)}
+        <div class="db-content"><div class="db-empty">큰 이벤트 없는 평범한 날이에요</div></div>
       </section>
     `;
   }
@@ -1369,7 +1370,7 @@ function renderEventsBox(dayEvents) {
   const hasMore = rest.length > 0;
 
   return `
-    <section class="day-box ${hasMore ? 'collapsible' : ''}" data-box="events">
+    <section class="day-box collapsible" data-box="events">
       ${dbHead('events', '오늘의 일정', stat, hasMore)}
       <div class="db-headline">
         <div class="db-headline-label">⭐ 가장 주목할 이벤트</div>
@@ -1519,7 +1520,7 @@ function renderNewsBox(report) {
   const defaultTab = krCount > 0 ? 'kr' : 'global';
 
   return `
-    <section class="day-box ${hasMore ? 'collapsible' : ''}" data-box="news">
+    <section class="day-box collapsible" data-box="news">
       ${dbHead('news', '오늘의 핵심 뉴스', `${totalCount}건`, hasMore)}
       <div class="news-region-tabs">
         <button class="ntab ${defaultTab === 'kr' ? 'active' : ''}" data-tab="kr" ${krCount === 0 ? 'disabled' : ''}>🇰🇷 국내 <span class="ntab-count">${krCount}</span></button>
@@ -1546,9 +1547,9 @@ function renderPortfolioBox() {
 
   if (!all.length) {
     return `
-      <section class="day-box">
-        ${dbHead('portfolio', '내 포트폴리오', '', false)}
-        <div class="db-empty">아직 등록된 종목이 없어요</div>
+      <section class="day-box collapsible" data-box="portfolio">
+        ${dbHead('portfolio', '내 포트폴리오', '종목 없음', false)}
+        <div class="db-content"><div class="db-empty">아직 등록된 종목이 없어요</div></div>
       </section>
     `;
   }
@@ -1784,7 +1785,7 @@ function renderTermsBox(report, dayEvents) {
   const stat = allTerms.length ? `${allTerms.length}개 용어` : '';
 
   return `
-    <section class="day-box ${hasMore ? 'collapsible' : ''}" data-box="terms">
+    <section class="day-box collapsible" data-box="terms">
       ${dbHead('terms', '오늘의 학습', stat, hasMore)}
       ${top ? `
         <div class="db-headline">
