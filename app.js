@@ -2679,29 +2679,6 @@ function renderThumbChart(id, item) {
   container.appendChild(div);
 }
 
-function hashString(s) {
-  let h = 0;
-  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
-  return Math.abs(h);
-}
-
-function generateMockChart(n, totalChangePct, seed) {
-  const start = 100;
-  const end = 100 * (1 + totalChangePct / 100);
-  const arr = [];
-  let v = start;
-  for (let i = 0; i < n; i++) {
-    const t = i / (n - 1);
-    const target = start + (end - start) * t;
-    // Pseudo-random walk
-    seed = (seed * 1103515245 + 12345) & 0x7fffffff;
-    const noise = ((seed % 1000) / 1000 - 0.5) * Math.abs(end - start) * 0.3;
-    v = target + noise;
-    arr.push(v);
-  }
-  return arr;
-}
-
 // ------------- 부동산 탭 (캘린더 위주 개편) -------------
 function renderRealEstate(app) {
   const re = State.realEstate || { notices: [], userMemos: [] };
