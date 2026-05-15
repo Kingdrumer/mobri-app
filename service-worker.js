@@ -1,7 +1,7 @@
 // 포트폴리오 데일리 PWA — Service Worker
 // 캐시 전략: 앱 셸은 cache-first, 데이터는 network-first
 
-const CACHE_VERSION = 'pwa-v15';
+const CACHE_VERSION = 'pwa-v16';
 const APP_SHELL_CACHE = `app-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `data-${CACHE_VERSION}`;
 
@@ -36,13 +36,19 @@ self.addEventListener('message', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     (async () => {
-      // 옛 캐시 삭제
+      // 옛 캐시 전부 삭제 — 현재 버전 캐시 외에 모든 cache 강제 제거
+      // (iOS Safari가 옛 캐시 끈질기게 들고 있는 문제 회피)
       const keys = await caches.keys();
       await Promise.all(
         keys
           .filter((k) => k !== APP_SHELL_CACHE && k !== DATA_CACHE)
           .map((k) => caches.delete(k))
       );
+      // 추가: 현재 버전의 DATA_CACHE도 비워서 매번 fresh 데이터 받게
+      // (앱 셸은 캐시 유지 — 오프라인 폴백용)
+      try {
+        await caches.delete(DATA_CACHE);
+      } catch (e) { /* ignore */ }
       await self.clients.claim();
       // 모든 클라이언트(폰 PWA)에 새 버전 알림 → 자동 새로고침 트리거
       const clients = await self.clients.matchAll({ type: 'window' });

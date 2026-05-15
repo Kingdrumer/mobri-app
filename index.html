@@ -161,9 +161,26 @@
 
       window.addEventListener('load', async () => {
         try {
-          const reg = await navigator.serviceWorker.register('service-worker.js');
+          // updateViaCache: 'none' — service-worker.js 자체도 항상 네트워크에서 새로 받기
+          // (iOS Safari가 SW 파일 자체를 캐시하는 문제 회피)
+          const reg = await navigator.serviceWorker.register('service-worker.js', {
+            updateViaCache: 'none'
+          });
           // 즉시 한 번 강제 체크
           reg.update().catch(() => {});
+
+          // 페이지 진입 시 옛 데이터 캐시 명시 무효화 (24시간 이상 된 것은 모두)
+          // — iOS 캐시 끈질김 우회용
+          if (window.caches) {
+            caches.keys().then((keys) => {
+              keys.forEach((k) => {
+                // 데이터 캐시 중 현재 버전이 아닌 것 모두 삭제
+                if (k.startsWith('data-') && !k.endsWith(reg.active?.scriptURL?.match(/v\d+/)?.[0] || '')) {
+                  caches.delete(k);
+                }
+              });
+            });
+          }
 
           // 이미 waiting 중인 새 SW가 있으면 활성화 트리거
           __sw_promptUpdate(reg);
