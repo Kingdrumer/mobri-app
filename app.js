@@ -1301,13 +1301,28 @@ function eventPriority(e) {
 }
 
 // 박스 헤더 버튼 (제목 + 통계 + 셰브론) — 클릭하면 펼침/접힘
-function dbHead(title, stat, hasMore) {
+// Lucide 라인 아이콘 (stroke-width 1.6, 모노톤 미니멀)
+const DB_ICONS = {
+  terms: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>`,
+  events: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>`,
+  news: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8z"/></svg>`,
+  signals: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3z"/><path d="M5 3v4M19 17v4M3 5h4M17 19h4"/></svg>`,
+  portfolio: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>`,
+};
+
+function dbHead(category, title, stat, hasMore) {
+  const icon = DB_ICONS[category] || '';
   return `
     <button class="db-head-btn" type="button">
-      <div class="db-title">${title}</div>
+      <div class="db-title">
+        ${icon ? `<span class="db-title-icon">${icon}</span>` : ''}
+        <span class="db-title-text">${escapeHtml(title)}</span>
+      </div>
       <div class="db-meta">
-        ${stat ? `<span class="db-stat">${stat}</span>` : ''}
-        ${hasMore ? `<span class="db-chevron">▼</span>` : ''}
+        ${stat ? `<span class="db-stat">${escapeHtml(stat)}</span>` : ''}
+        ${hasMore ? `<span class="db-chevron" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </span>` : ''}
       </div>
     </button>
   `;
@@ -1322,7 +1337,7 @@ function renderEventsBox(dayEvents) {
   if (!dayEvents.length) {
     return `
       <section class="day-box">
-        ${dbHead('📅 오늘의 일정', '', false)}
+        ${dbHead('events', '오늘의 일정', '', false)}
         <div class="db-empty">큰 이벤트 없는 평범한 날이에요</div>
       </section>
     `;
@@ -1355,7 +1370,7 @@ function renderEventsBox(dayEvents) {
 
   return `
     <section class="day-box ${hasMore ? 'collapsible' : ''}" data-box="events">
-      ${dbHead('📅 오늘의 일정', stat, hasMore)}
+      ${dbHead('events', '오늘의 일정', stat, hasMore)}
       <div class="db-headline">
         <div class="db-headline-label">⭐ 가장 주목할 이벤트</div>
         ${renderEventTile(top, 0)}
@@ -1505,7 +1520,7 @@ function renderNewsBox(report) {
 
   return `
     <section class="day-box ${hasMore ? 'collapsible' : ''}" data-box="news">
-      ${dbHead('📰 오늘의 핵심 뉴스', `${totalCount}건`, hasMore)}
+      ${dbHead('news', '오늘의 핵심 뉴스', `${totalCount}건`, hasMore)}
       <div class="news-region-tabs">
         <button class="ntab ${defaultTab === 'kr' ? 'active' : ''}" data-tab="kr" ${krCount === 0 ? 'disabled' : ''}>🇰🇷 국내 <span class="ntab-count">${krCount}</span></button>
         <button class="ntab ${defaultTab === 'global' ? 'active' : ''}" data-tab="global" ${globalCount === 0 ? 'disabled' : ''}>🌐 국제 <span class="ntab-count">${globalCount}</span></button>
@@ -1532,7 +1547,7 @@ function renderPortfolioBox() {
   if (!all.length) {
     return `
       <section class="day-box">
-        ${dbHead('📊 내 포트폴리오', '', false)}
+        ${dbHead('portfolio', '내 포트폴리오', '', false)}
         <div class="db-empty">아직 등록된 종목이 없어요</div>
       </section>
     `;
@@ -1635,7 +1650,7 @@ function renderPortfolioBox() {
 
   return `
     <section class="day-box collapsible" data-box="portfolio">
-      ${dbHead('📊 내 포트폴리오', `미국 ${us.length} · 한국 ${kr.length}`, true)}
+      ${dbHead('portfolio', '내 포트폴리오', `미국 ${us.length} · 한국 ${kr.length}`, true)}
       ${headlineHtml}
       <div class="db-content">
         ${renderMarketBlock(us, 'us', '🇺🇸', '미국 주식')}
@@ -1770,7 +1785,7 @@ function renderTermsBox(report, dayEvents) {
 
   return `
     <section class="day-box ${hasMore ? 'collapsible' : ''}" data-box="terms">
-      ${dbHead('📚 오늘의 학습', stat, hasMore)}
+      ${dbHead('terms', '오늘의 학습', stat, hasMore)}
       ${top ? `
         <div class="db-headline">
           <div class="db-headline-label">📖 오늘 등장한 용어</div>
@@ -3013,7 +3028,7 @@ function renderSignalsBox(report) {
 
   return `
     <section class="day-box collapsible" data-box="signals">
-      ${dbHead('🎯 오늘의 추천', `국내 ${kr.length} · 미국 ${us.length}`, true)}
+      ${dbHead('signals', '오늘의 추천', `국내 ${kr.length} · 미국 ${us.length}`, true)}
       <div class="db-headline">
         <div class="sig-mini-note">📌 ${signalCardBrief(kr[0] || us[0])}</div>
         ${moreHint(`외 ${totalCount - 1}건 자세히 보기`)}
