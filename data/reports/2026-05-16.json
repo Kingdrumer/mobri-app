@@ -1,0 +1,222 @@
+{
+  "date": "2026-05-16",
+  "title": "5월 16일 (토) 09:35 자가복구 — 어젯밤 美 칩 셀오프(NVDA·AMD -4%, INTC -8%) + 다우 5만 붕괴, 워시 Fed 첫날 + OpEx 더블 이벤트",
+  "session": 15,
+  "lightUpdate": true,
+  "watchdogRecovery": true,
+  "lightUpdateAt": "2026-05-16T09:35:00+09:00",
+  "marketStatus": "WEEKEND_AFTER_CHIP_SELLOFF_WARSH_DAY1",
+  "tip": "어젯밤 미국장에서 반도체 차익실현 매물이 한꺼번에 쏟아졌어요. NVDA(엔비디아) -4.42% $225.32, AMD -3.94% $432, AVGO -2.88% $427.13로 우리 보유 칩 종목들이 모두 약세였고, 메모리는 더 심해서 MU(마이크론) -6.22%, CRDO -6.70%, CLS -6.63%까지 갔어요. 다우는 -1.07% 49,526.17로 5만선을 다시 내줬고요. 그래도 TLN(탈렌에너지)만 +0.32%로 유일하게 플러스 마감했어요. 5/20(수) NVDA 실적 발표 D-4가 가까워지면서 옵션만기일(OpEx) 헤지 매물까지 겹친 차익실현 구간이에요. 주말이라 시장은 멈춰있으니 한 주를 차분히 정리하면 좋아요.",
+  "marketSummary": {
+    "us": {
+      "dow": {
+        "close": 49526.17,
+        "change": -1.07,
+        "changePoint": -537.29,
+        "note": "5만선 재붕괴 — 단 하루 만에 5만선 반납"
+      },
+      "sp500": {
+        "close": 7408.50,
+        "change": -1.24,
+        "note": "ATH(7,501.24)에서 하루 만에 -1.24% 후퇴, 5거래일 연속 상승 중단"
+      },
+      "nasdaq": {
+        "close": 26225.14,
+        "change": -1.54,
+        "note": "사상 최고(26,635) 직후 -1.54% — 빅테크·반도체 동반 차익실현"
+      },
+      "sox": {
+        "close": 11724,
+        "change": -2.90,
+        "changePoint": -349.78,
+        "note": "필반(반도체지수) 폭락 — NVDA·AMD -4%, INTC -8% 트리플 셀오프",
+        "dataQualityNote": "정확한 종가는 Yahoo/Investing 휴장 마감 데이터 미반영 가능성. 셀오프 폭만 확정."
+      },
+      "vix": {
+        "close": 20.5,
+        "change": 2.71,
+        "note": "공포지수 20선 재돌파 — 위험회피 분위기로 전환",
+        "dataQualityNote": "정규장 마감치 추정, 정확한 값은 월요일 데이터로 보정"
+      },
+      "wti": {
+        "close": 109.0,
+        "change": null,
+        "note": "WTI 109달러대 — 美·이란 협상 진전 보도에도 상승, 인플레 부담"
+      },
+      "us10y": {
+        "close": 4.46,
+        "change": 0.04,
+        "note": "10년물 4.46% — 다년래 최고치 부근, CPI 핫쇼크 후 인하 기대 후퇴"
+      }
+    },
+    "weekRecap": {
+      "summary": "5/12(화) ATH 시작 → 5/13 CPI 3.8% 핫쇼크 → 5/14 다우 5만 탈환·S&P·나스닥 ATH 재경신 → 5/15 칩 셀오프로 후퇴. 한 주 전체로는 보합권에 머물렀어요.",
+      "winners": ["TLN", "META(주중)", "CSCO(다우 견인)"],
+      "losers": ["코스피 -6.12% 5/15 폭락", "MU·SNDK 메모리", "CLS·CRDO 광통신·ODM"]
+    }
+  },
+  "asiaSummary": {
+    "kospi": {
+      "close": 7493.18,
+      "change": -6.12,
+      "changePoint": -488.23,
+      "note": "5/15 폭락 마감 (장중 첫 8,000선 8,046.51 돌파 후 외인 -5.6조 매도)"
+    },
+    "krw": {
+      "close": 1500.8,
+      "change": 9.8,
+      "note": "원·달러 1,500선 재돌파 — 외국인 자금 이탈 환율 압박"
+    },
+    "weekendStatus": "한국·일본·중국·홍콩·대만 전 아시아 주말 휴장"
+  },
+  "news": [
+    {
+      "category": "미국 증시",
+      "headline": "🔴 미국 3대 지수 -1% 이상 일제 후퇴 — 칩 차익실현 + 채권금리 급등 더블 타격",
+      "oneLineSummary": "어젯밤 미국에서 다우 -1.07%(49,526.17·5만선 재붕괴), S&P 500 -1.24%(7,408.50), 나스닥 -1.54%(26,225.14)로 3대 지수가 일제히 후퇴했어요. 어제 사상 최고치를 찍자마자 차익실현 매물이 쏟아진 데다 미국 10년 국채금리가 4.46%로 급등해 성장주에 이중으로 부담이 됐어요.",
+      "summary": "5/15 美 정규장 마감 — 다우 49,526.17(-1.07%, -537.29p) 5만선 재붕괴, S&P 500 7,408.50(-1.24%), 나스닥 26,225.14(-1.54%) 동반 후퇴. 5거래일 연속 상승 흐름 중단. 10년물 4.46%(+4bp) 다년래 최고치 부근까지 상승, CPI 핫쇼크(3.8%) 후 인하 기대 추가 후퇴. 트럼프-시진핑 베이징 정상회담이 별다른 정책 돌파 없이 끝난 점도 부담.",
+      "impact": "negative",
+      "sources": [
+        {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/05/15/sp-500-and-nasdaq-retreat/"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html"}
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "🔴 칩 셀오프 — NVDA -4.42% $225.32 / AMD -3.94% $432 / INTC -8% 트리플 매도, MU -6.22% 메모리 더 심해",
+      "oneLineSummary": "어젯밤 미국에서 반도체 종목들이 다 같이 떨어졌어요. NVDA(엔비디아)는 -4.42% $225.32, AMD는 -3.94% 약 $432, 인텔(INTC)은 -8% $108까지 빠졌고, 메모리 종목인 MU(마이크론)는 -6.22%로 더 큰 폭이었어요. 5/20(수) NVDA 실적 발표를 앞두고 차익실현(미리 이익 챙기기) + OpEx(옵션만기일) 헤지 매물이 한꺼번에 쏟아진 영향이에요.",
+      "summary": "5/15 美 칩 일제 후퇴 — NVDA $225.32(-4.42%, 5/20 실적 D-4)·AMD $432(-3.94%)·AVGO $427.13(-2.88%)·MRVL $179.45(-1.71%)·TSM $402.32(-3.69%) 빅캡 칩 동반 약세. 메모리·광통신 더 심해 MU $727.74(-6.22%)·SNDK $1,359.34(-1.69%)·CRDO $172.17(-6.70%)·CLS $356.29(-6.63%)·DELL $236.85(-4.45%)·LITE $965.80(-3.59%). 빅테크도 GOOG $393.32(-0.97%)·META $612.00(-1.04%)·AMZN $263.47(-1.41%) 약세. 보유 15개 중 14개 하락, 단 TLN $354.00(+0.32%)만 강보합.",
+      "impact": "negative",
+      "sources": [
+        {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/05/15/why-nvidia-stock-just-dropped/"},
+        {"name": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/05/15/intel-slumps-7-amd-and-nvidia-slide-4-in-chipmaker-selloff/"}
+      ]
+    },
+    {
+      "category": "정책·금리",
+      "headline": "🟡 워시(Warsh) 신임 Fed 의장 5/15 공식 취임 — 첫날 정책 기조 발언 없이 마감",
+      "oneLineSummary": "어제 5/15부로 케빈 워시(Kevin Warsh)가 미국 중앙은행(Fed) 신임 의장으로 공식 취임했어요. 파월 전 의장은 이사(governor)직으로 잠시 더 남아 있고, 워시 의장의 첫 FOMC(금리 결정 회의)는 6/16-17이에요. 인준 표결은 54-45로 역대 가장 분열적이었어요.",
+      "summary": "5/15 미국 동부시간 기준 워시(Warsh) Fed 의장 공식 취임. 파월 임기 종료, 워시 첫 FOMC는 6/16-17. 5/13 상원 인준 표결 54-45(공화 53 + 민주 1)는 Fed 의장 인준 역사상 가장 분열적. 시장은 친(親)인하 매파 우려가 혼재 — 워시는 과거 매파(인플레 통제 우선)였지만 트럼프는 인하 압박을 위해 지명. 첫날 정책 발언 없이 마감.",
+      "impact": "neutral",
+      "sources": [
+        {"name": "WBUR", "url": "https://www.wbur.org/hereandnow/2026/05/15/kevin-warsh-fed-chair"},
+        {"name": "Axios", "url": "https://www.axios.com/2026/05/13/warsh-fed-senate-trump"}
+      ]
+    },
+    {
+      "category": "정책·금리",
+      "headline": "🔴 10년물 4.46% 다년래 최고 부근 + WTI $109 — 인플레 재가속 우려 성장주 압박",
+      "oneLineSummary": "미국 10년물 국채금리가 4.46%까지 올라 다년래 최고치 부근까지 갔어요. 국제유가(WTI)도 $109달러대로 다시 올랐고요. 4월 소비자물가지수(CPI)가 3.8%로 예상치(3.7%)를 웃돌면서 '연내 금리 인하 기대'가 거의 사라진 게 가장 큰 부담이에요.",
+      "summary": "5/15 美 10년물 4.46% 다년래 최고 부근, WTI $109달러대 재상승. 4월 CPI 3.8% 핫쇼크 후 연내 인하 확률 0%·인상 30%로 리프라이싱 지속. 트럼프-이란 협상 진전 보도에도 호르무즈 긴장 잔존으로 유가 강세. 채권금리·유가 동반 상승은 성장주(특히 PER 높은 빅테크·반도체)에 이중 압박.",
+      "impact": "negative",
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-may-15-092100519.html"}
+      ]
+    },
+    {
+      "category": "아시아 증시",
+      "headline": "🔴 5/15 코스피 -6.12% 폭락 7,493.18 마감 — 첫 8천피 찍고 외인 5.6조 매도 폭탄",
+      "oneLineSummary": "어제 한국 시장에서 격변이 있었어요. 코스피가 장 시작 직후 사상 처음으로 8,000선(장중 8,046.51)을 돌파했지만, 외국인이 5조6,195억원어치를 한꺼번에 팔아치우면서 -6.12%(7,493.18)로 폭락 마감했어요. 환율도 1,500.8원(+9.8원)으로 1,500선을 재돌파했고요. 5월에 코스피가 +20.9% 급등한 부담이 美 CPI 핫쇼크와 환율 1500 돌파로 한꺼번에 터진 거예요.",
+      "summary": "5/15 코스피 -6.12%(-488.23p) 7,493.18 마감, 코스닥 -5.96% 1,115선 동반 폭락. 외국인 -5조6,195억(전기·전자에서만 -5조8,746억 집중), 기관 -1조7,396억, 개인 +7조1,943억(역대 1위) 순매수. 13:28 매도 사이드카 발동(올해 16번째). 삼성전자 -8.61%·SK하이닉스 -7.66% 빅2 동반 폭락. 환율 1,500.8원(+9.8원, 장중 1,507원).",
+      "impact": "negative",
+      "sources": [
+        {"name": "Sunday Guardian Live", "url": "https://sundayguardianlive.com/business/us-stock-market-today-15-may-2026-dow-falls-nasdaq-sp-500-crash-after-trump-china-visit-oil-surges-109-on-us-iran-deal-gold-silver-hit-bitcoin-retreats-82k-what-investors-should-watch-192641/"}
+      ]
+    },
+    {
+      "category": "글로벌·지정학",
+      "headline": "🟡 트럼프-시진핑 베이징 정상회담 종료 — 명확한 정책 돌파 없음, 시장 실망 매도",
+      "oneLineSummary": "트럼프 대통령과 시진핑 주석의 베이징 정상회담이 끝났지만 무역·관세·반도체 등 핵심 쟁점에서 명확한 합의가 나오지 않았어요. 시장이 기대했던 '관세 완화' 같은 호재 발표가 없어서 어젯밤 실망 매도가 나왔어요.",
+      "summary": "5/15 트럼프-시진핑 베이징 정상회담 종료. 관세·반도체 수출 통제·대만 등 핵심 쟁점에서 명확한 정책 돌파(major policy breakthrough) 없음. 시장은 합의 부재를 매도 신호로 해석, 트럼프 발언이 향후 추가 단서로 작용할 전망. WTI는 미·이란 협상 진전 보도에도 호르무즈 긴장으로 $109달러대까지 재상승.",
+      "impact": "warning",
+      "sources": [
+        {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/05/15/sp-500-and-nasdaq-retreat/"}
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "🟢 TLN(탈렌에너지) +0.32% $354.00 — 보유 종목 중 유일하게 강보합 사수",
+      "oneLineSummary": "보유 15개 중 14개가 하락한 어제 미국장에서 TLN(탈렌에너지·원자력 발전 회사)만 +0.32% $354.00로 유일하게 플러스 마감했어요. 칩 셀오프 + 채권금리 급등으로 성장주가 흔들릴 때 원전·AI 데이터센터 전력 테마가 방어주 역할을 해줬어요.",
+      "summary": "5/15 TLN $354.00(+0.32%) — 보유 15개 중 유일한 플러스. 칩 셀오프(NVDA -4%, AMD -4%, MU -6%)·채권금리 4.46% 급등 구간에서 원전·AI 인프라 테마 방어주로 작동. 5/5 Q1 실적에서 2026 가이던스 재확인 + EBITDA 2배 성장 흐름 유효, Morgan Stanley PT $498 유지.",
+      "impact": "positive",
+      "sources": [
+        {"name": "Talen IR", "url": "https://ir.talenenergy.com/news-releases/news-release-details/talen-energy-reports-first-quarter-2026-results-reaffirms-2026"}
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "🟡 5/20(수) NVDA Q1 FY27 실적 D-4 — 시장 최대 이벤트, 셀오프는 실적 베팅의 일부",
+      "oneLineSummary": "다음 주 5/20(수) 미국 장 마감 후 NVDA(엔비디아) Q1 FY27 실적 발표가 시장 최대 이벤트예요. 어제 NVDA가 -4.42% 떨어진 건 실적 발표 직전에 차익실현 매물이 한꺼번에 나오는 흔한 패턴이고, 옵션만기일(OpEx) 헤지까지 겹친 영향이에요. 실적 결과에 따라 한 주 흐름이 결정될 전망이에요.",
+      "summary": "5/20(수) 익일 05:00 KST NVDA Q1 FY27 실적 발표(시장 최대 이벤트). 컨센서스 매출 ~$58B·EPS ~$1.05 추정. 직전 차익실현은 'sell the rumor' 패턴 + OpEx 헤지 매물 복합. 결과 가이던스(향후 분기 매출 안내)가 핵심이며 우리 보유 NVDA·AVGO·MRVL·TSM·AMD·MU 동반 영향. 5/19 PCE(개인소비지출 물가) 인플레 지표가 NVDA 실적 직전 가격 흔들림에 영향.",
+      "impact": "warning",
+      "sources": [
+        {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/05/15/nvidia-sank-today-is-it-buy-with-earnings-due/"}
+      ]
+    }
+  ],
+  "signals": {
+    "asOf": "2026-05-16T09:35:00+09:00",
+    "summary": "주말 자가복구 보고서. 5/15 칩 셀오프(-3~-7%)로 보유 양극화 — TLN만 +0.32% 유일 플러스. 다음 주 5/19 PCE·5/20 NVDA 실적이 결정적 트리거.",
+    "us": [
+      {
+        "ticker": "NVDA",
+        "name": "엔비디아",
+        "category": "이슈주",
+        "thesis": "어제 -4.42% $225.32로 차익실현 매도가 컸어요. 하지만 이건 5/20(수) Q1 실적 발표 D-4 + 옵션만기일(OpEx) 헤지가 겹친 단기 패턴이에요. AI 매출 성장이 컨센서스($58B 추정)를 비트하면 다시 ATH 도전 가능하고, 미스(miss)나 가이던스 약세 시 빅캡 칩 전체가 -10% 이상 흔들릴 수 있어요. 실적 직전엔 큰 베팅 안 하는 게 안전해요.",
+        "currentPrice": 225.32,
+        "change1D": -4.42,
+        "horizon": "1주 (실적 D-4)",
+        "thingsToWatch": [
+          "5/19 PCE 발표 (실적 직전 인플레 지표)",
+          "5/20 NVDA Q1 FY27 실적 (시장 최대 이벤트)",
+          "데이터센터 매출 / Blackwell 가이던스 / 중국 매출 가시성",
+          "10년물 4.5% 돌파 시 추가 성장주 압박"
+        ]
+      },
+      {
+        "ticker": "TLN",
+        "name": "탈렌에너지",
+        "category": "방어주",
+        "thesis": "보유 15개 중 유일하게 +0.32% $354.00로 플러스 마감했어요. 칩 차익실현·채권금리 급등 구간에서 원전·AI 인프라 전력 테마가 방어 역할을 잘 해주는 신호예요. Morgan Stanley PT $498 유지·2026 EBITDA 2배 성장 가이던스가 유효하고, 단기 변동성 구간에서 포트폴리오 헤지 역할이에요.",
+        "currentPrice": 354.0,
+        "change1D": 0.32,
+        "horizon": "1~3개월",
+        "thingsToWatch": [
+          "AWS·Microsoft·Google 데이터센터 PPA 추가 계약",
+          "원전 신규 인허가 진척도",
+          "장기 금리 (배당주 평가 영향)"
+        ]
+      },
+      {
+        "ticker": "MU",
+        "name": "마이크론",
+        "category": "조정주",
+        "thesis": "어제 -6.22% $727.74로 보유 종목 중 가장 큰 폭으로 떨어졌어요. 5/13 +4.83% 급등 후 5/14 -3.44%·5/15 -6.22% 연이은 차익실현으로 메모리 슈퍼사이클 베팅이 빠르게 식는 모습이에요. AMAT 시간외 호실적은 우호적이지만, 채권금리 4.46%·환율 1,500원 환경에서 메모리 차익실현 매물 우위. 추격 매수보단 5/20 NVDA 실적 후 흐름 보고 결정.",
+        "currentPrice": 727.74,
+        "change1D": -6.22,
+        "horizon": "2~4주",
+        "thingsToWatch": [
+          "DRAM/NAND 가격 동향 (TrendForce 주간)",
+          "HBM3E 공급 가시성",
+          "한국 삼성·SK하이닉스 동조 — 5/15 -8%대 폭락 부담"
+        ]
+      }
+    ]
+  },
+  "preview": {
+    "tomorrow": "5/17(일) — 美·아시아 모두 휴장. 별도 가격 갱신 없음. 워시 Fed 의장 주말 발언·트럼프 SNS 변수 모니터링.",
+    "thisWeek": "5/18(월) — Dell World 2026 개막(~5/21, 마이클 델 키노트), LITE 나스닥-100 편입 발효 / 5/19(화) — 美 4월 PCE 발표 (인플레 핵심 지표) / 5/20(수) — ★ NVDA Q1 FY27 실적 (시장 최대 이벤트) / 5/21(목) — Dell World 마지막날 + 신제품 발표 / 5/22(금) — 미시간대 5월 소비자심리지수 확정치",
+    "watchTickers": ["NVDA", "DELL", "LITE", "AVGO", "MRVL", "TSM", "MU", "TLN"],
+    "weekendRest": "주말 동안 시장 멈춤. 5/15 칩 셀오프는 5/20 NVDA 실적 직전 차익실현 + OpEx 헤지 복합으로, 펀더멘털 변화는 없어요. 큰 결정은 5/20 실적 확인 후."
+  },
+  "dataGuard": {
+    "pricesVerified": 13,
+    "pricesEstimated": 2,
+    "warnings": [
+      "SOX/VIX 종가는 추정치. 정확한 마감 데이터는 월요일 정규 자료 반영 시 보정 예정.",
+      "MU change1D는 -6.22%(Yahoo) vs 차이 작은 다른 출처 혼재 — 폭락 방향은 확정."
+    ],
+    "sources": ["CNBC", "Yahoo Finance", "Motley Fool", "24/7 Wall St.", "TradingKey", "Sunday Guardian"]
+  },
+  "lastUpdated": "2026-05-16T09:35:00+09:00"
+}

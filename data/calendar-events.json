@@ -2028,6 +2028,83 @@
           }
         ]
       }
+    ],
+    "2026-05-16": [
+      {
+        "type": "report",
+        "label": "🔧 자가복구 토요일 보고서 (09:35)",
+        "color": "indigo",
+        "time": "09:35 KST",
+        "title": "5/16(토) 자가복구 — 어젯밤 美 칩 셀오프 + 워시 Fed 첫날 + OpEx",
+        "description": "08:00 모닝브리핑이 시스템 다운으로 미실행. 워치독이 09:35에 catch-up 풀 브리핑 작성. Friday 5/15 종가 모두 반영(15개 중 14개 하락, TLN만 +0.32%)."
+      },
+      {
+        "type": "us_close",
+        "label": "🔴 [美 5/15 마감] 다우 5만 재붕괴 -1.07%, 나스닥 -1.54%, 칩 셀오프(NVDA·AMD -4%, INTC -8%)",
+        "color": "red",
+        "time": "5/16 05:00 KST 마감",
+        "title": "美 다우 49,526.17(-1.07%, 5만선 붕괴)·S&P 7,408.50(-1.24%)·나스닥 26,225.14(-1.54%) 동반 후퇴",
+        "description": "5거래일 연속 상승 흐름 중단. 10년물 4.46%(다년래 최고 부근) + WTI $109 + 트럼프-시진핑 정상회담 정책 돌파 없음 + 옵션만기일(OpEx) 더블 이벤트로 차익실현 매물 폭주. 칩 셀오프 NVDA -4.42% $225.32·AMD -3.94% $432·INTC -8% $108 트리플 매도.",
+        "ourImpact": "보유 15개 중 14개 하락 — NVDA·TSM·AVGO·MRVL·AMD·MU·SNDK·DELL·LITE·CLS·CRDO·GOOG·META·AMZN 동반 후퇴. MU -6.22% / CRDO -6.70% / CLS -6.63% / DELL -4.45% 가 가장 큰 낙폭. TLN +0.32% $354만 유일하게 플러스로 방어주 역할.",
+        "stockImpacts": [
+          {
+            "ticker": "NVDA",
+            "tone": "negative",
+            "magnitude": "큰 영향",
+            "text": "-4.42% $225.32, 5/20 실적 D-4 sell-the-rumor + OpEx 헤지"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "negative",
+            "magnitude": "큰 영향",
+            "text": "-3.94% $432, INTC -8% 트리플 셀오프 동조"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "negative",
+            "magnitude": "보통 영향",
+            "text": "-2.88% $427.13, 52주 최고 직후 차익실현"
+          },
+          {
+            "ticker": "MU",
+            "tone": "negative",
+            "magnitude": "큰 영향",
+            "text": "-6.22% $727.74, 메모리 차익실현 최대폭"
+          },
+          {
+            "ticker": "TLN",
+            "tone": "positive",
+            "magnitude": "작은 영향",
+            "text": "+0.32% $354 유일 플러스, 원전 방어주"
+          }
+        ]
+      },
+      {
+        "type": "schedule",
+        "label": "워시(Warsh) Fed 의장 D-Day (5/15 취임)",
+        "color": "amber",
+        "time": "—",
+        "title": "케빈 워시(Kevin Warsh) 신임 Fed 의장 5/15 공식 취임",
+        "description": "파월 임기 종료, 워시 신임 의장 취임. 첫 FOMC는 6/16-17. 5/13 상원 인준 표결 54-45는 역대 Fed 의장 인준 사상 가장 분열적. 첫날 정책 기조 발언 없이 마감.",
+        "ourImpact": "워시 의장 향후 발언(인하 vs 매파)이 6월 FOMC까지 주요 단서. 비둘기파 신호 시 빅테크·반도체 강세 회복, 매파 발언 시 채권금리 추가 상승으로 성장주 추가 압박."
+      },
+      {
+        "type": "asia",
+        "label": "토요일 — 한국·일본·중국·홍콩·대만 전 아시아 휴장",
+        "color": "blue",
+        "time": "—",
+        "title": "5/16(토) 전 아시아 시장 휴장",
+        "description": "5/15 코스피 -6.12% 7,493.18 폭락 마감 후 첫 휴장일. 환율 1,500.8원 마감. 5/18(월) 갭은 美 5/15 칩 셀오프(-) + 한국 폭락 후 단기 반등 베팅(±) 줄다리기.",
+        "ourImpact": "한국 반도체 빅2(삼전 -8.61%·하닉 -7.66%) 5/15 폭락은 美 NVDA·AVGO·MU·MRVL·TSM·SNDK 동조 부담. 5/18(월) 美 프리마켓 흐름 모니터링."
+      },
+      {
+        "type": "mood",
+        "label": "🔵 휴식 — 주말 갭 대비",
+        "color": "blue",
+        "time": "09:35 KST",
+        "title": "분위기: 칩 셀오프 후 주말, 5/20 NVDA 실적 D-4 대기",
+        "description": "5/15 미국·한국 동시 후퇴 + OpEx 통과. 주말 동안 큰 결정 안 하고 5/19 PCE·5/20 NVDA 실적 결과 보고 흐름 결정. 펀더멘털 변화 없는 sell-the-rumor 구간."
+      }
     ]
   },
   "realestate": {}
