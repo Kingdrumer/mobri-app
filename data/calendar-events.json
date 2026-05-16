@@ -2104,8 +2104,50 @@
         "time": "09:35 KST",
         "title": "분위기: 칩 셀오프 후 주말, 5/20 NVDA 실적 D-4 대기",
         "description": "5/15 미국·한국 동시 후퇴 + OpEx 통과. 주말 동안 큰 결정 안 하고 5/19 PCE·5/20 NVDA 실적 결과 보고 흐름 결정. 펀더멘털 변화 없는 sell-the-rumor 구간."
+      },
+      {
+        "type": "weekend_brief",
+        "label": "풀 모닝브리핑",
+        "color": "slate",
+        "time": "08:00 KST",
+        "title": "5/16(토) 풀 모닝브리핑 — 美 어젯밤 -1.07~-1.54% 하락",
+        "description": "美 다우 49,526(-1.07%)·S&P 7,408(-1.24%)·나스닥 26,225(-1.54%) 하락. 트럼프-시 정상회담 모호한 결과 + 10년물 4.54%(1년래 최고) + AI 트레이드 차익실현(NVDA -4.4%·MU -6.6%·AMD -5.7%) 트리플 압박.",
+        "ourImpact": "보유 15종목 중 14개 하락 (CRDO -6.7%·MU -6.6%·CLS -6.0%·AMD -5.7%·TLN -5.3% 큰 낙폭, NVDA -4.4%·AVGO -3.3%·TSM -3.2% 동반 약세) vs SNDK +1.8% 단독 강세. 5/19 PCE·5/20 NVDA 실적이 다음 주 트리거.",
+        "stockImpacts": [
+          {
+            "ticker": "NVDA",
+            "tone": "negative",
+            "magnitude": "직접",
+            "text": "-4.42% $225.32 — 美·中 정상회담 AI 칩 합의 부재 실망"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "negative",
+            "magnitude": "직접",
+            "text": "-5.69% $424.10 — AI 칩 차익실현"
+          },
+          {
+            "ticker": "MU",
+            "tone": "negative",
+            "magnitude": "직접",
+            "text": "-6.62% $724.66 — 메모리 슈퍼사이클 차익실현"
+          },
+          {
+            "ticker": "CRDO",
+            "tone": "negative",
+            "magnitude": "직접",
+            "text": "-6.70% $172.17 — 보유 단독 최대 낙폭 + 6/4 실적 D-13 경계"
+          },
+          {
+            "ticker": "SNDK",
+            "tone": "positive",
+            "magnitude": "직접",
+            "text": "+1.80% $1,407.61 — NAND 가격 상승, 단독 강세"
+          }
+        ]
       }
     ]
   },
-  "realestate": {}
+  "realestate": {},
+  "lastUpdated": "2026-05-16T08:00:00+09:00"
 }
