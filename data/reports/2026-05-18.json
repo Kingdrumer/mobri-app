@@ -1,0 +1,881 @@
+{
+  "date": "2026-05-18",
+  "title": "5월 18일 (월) 08:00 풀 모닝브리핑 — 美 정규장 5/15 종가 그대로 (주말 휴장), 코스피 사이드카 2일 연속 발동 후 +0.30% 반등, JP모건·유안타 삼성·하이닉스 PT 줄상향 (삼성 48~59만원·하이닉스 300만원), 5/19 PCE → 5/20 NVDA 실적 → 5/21 삼성 총파업 트리플 트리거 D-1·D-2·D-3 대기",
+  "session": "morning",
+  "lightUpdate": false,
+  "marketStatus": "us_weekend_closed_kr_open",
+  "tip": "오늘은 월요일이에요. 美 증시는 22:30 KST부터 정규장 재개돼요. 가격은 5/15(금) 종가 그대로지만, 오늘 밤 NVDA 5/20 실적(D-2)을 앞두고 변동이 클 수 있어요. 코스피는 사이드카 2거래일 연속 발동 후 점심까지 +0.30%로 반등에 성공했고, JP모건이 삼성·하이닉스 목표가를 줄줄이 상향했어요.",
+  "marketSummary": {
+    "us": {
+      "dow": {
+        "close": 49526.17,
+        "change": -1.07,
+        "changePoint": -537.29,
+        "note": "5/15 마감 그대로 (주말 휴장). 5만선 붕괴 직후 상태"
+      },
+      "sp500": {
+        "close": 7408.5,
+        "change": -1.24,
+        "note": "5/15 마감 그대로 — ATH 직후 -1.24% 후퇴"
+      },
+      "nasdaq": {
+        "close": 26225.14,
+        "change": -1.54,
+        "note": "5/15 마감 그대로 — 기술주 매도세 직후"
+      },
+      "vix": {
+        "close": 19.0,
+        "change": 1.21,
+        "note": "공포지수 19선 유지 — 트럼프-시 회담 실망·이란 잔존"
+      },
+      "wti": {
+        "close": 105.5,
+        "change": 3.59,
+        "note": "주간 +11% 점프 — 호르무즈 폐쇄 지속·골드만삭스 $120 경고"
+      },
+      "us10y": {
+        "close": 4.55,
+        "change": 0.01,
+        "note": "1년래 최고 부근 — 5/19 PCE 결과 D-1"
+      }
+    },
+    "afterHoursEarnings": {}
+  },
+  "asiaSummary": {
+    "kospi": {
+      "close": 7515.81,
+      "change": 0.3,
+      "note": "장 초반 -4.7% 급락에 사이드카 2거래일 연속 발동 후 점심까지 +0.30% 반등 — 외인 9거래일 연속 매도(5월 누적 29.96조원)"
+    },
+    "kosdaq": {
+      "close": 1110.06,
+      "change": -1.75,
+      "note": "코스피 동반 약세 유지"
+    },
+    "usdkrw": {
+      "close": 1500.8,
+      "change": 0.0,
+      "note": "1,500선 재돌파 유지 — 한투證 '추세적 반등 아닌 일시적' 분석"
+    },
+    "sidecar": "5/15·5/18 2거래일 연속 매도 사이드카 발동",
+    "samsungOpen": {
+      "price": 281500,
+      "change": 4.07,
+      "note": "JP모건 PT 35→48만원·유안타 34→59만원·KB 36→45만원 줄상향"
+    },
+    "skHynixOpen": {
+      "price": 1837000,
+      "change": 0.99,
+      "note": "JP모건 PT 300만원·노무라 상향 — 외인 매도세 5일 연속"
+    }
+  },
+  "news": [
+    {
+      "category": "미국 증시",
+      "headline": "美 3대 지수 주말 휴장 — 5/15 다우 -1.07%·S&P -1.24%·나스닥 -1.54% 마감 그대로 유지",
+      "oneLineSummary": "지난주 미국 증시는 트럼프-시진핑 정상회담이 큰 합의 없이 끝나면서 5/15(금) 3대 지수 일제히 하락 마감했어요. 주말 휴장으로 가격은 5/15 종가 그대로 유지 중이고, 美 정규장은 오늘 밤 22:30 KST부터 재개돼요. 5/20 NVDA 실적이 이번 주 최대 변수예요.",
+      "summary": "다우 49,526.17(-1.07%)·S&P 7,408.50(-1.24%)·나스닥 26,225.14(-1.54%) 5/15 동시 약세 마감 후 주말 휴장. 트럼프-시 회담 모호한 결과 + AI 트레이드 차익실현 + 미 10년물 4.55%(1년래 최고) 트리플 압박. VIX 19선 위 공포지수 상승 유지.",
+      "ourImpact": "보유 15종목 가격은 5/15 종가 그대로예요. 오늘 밤 22:30 美 정규장 재개 시 NVDA 실적 D-2 대기 매물·PCE D-1 경계심리로 변동이 클 수 있어요. 변동성 큰 종목(CRDO·MU·SNDK·MRVL·CLS) 흐름이 가장 민감해요.",
+      "impact": "negative",
+      "sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/quotes/.SPX"
+        }
+      ]
+    },
+    {
+      "category": "미국 증시",
+      "headline": "美 10년 국채 4.55% 1년래 최고 부근 유지 — 5/19 4월 PCE D-1 경계심리",
+      "oneLineSummary": "미국 10년 국채 금리가 4.55%로 1년래 최고 부근에 머무르면서 비싼 기술주 부담이 커지고 있어요. 내일 5/19 21:30 KST 美 4월 PCE 발표 예정이고, Fed가 가장 신뢰하는 물가 지표라 결과에 따라 시장이 크게 흔들릴 수 있어요. 4월 CPI가 3.8%로 컨센보다 높았던 만큼 PCE도 상회 가능성이 시장 컨센서스예요.",
+      "summary": "美 10년물 4.55% 1년래 최고 유지. 5/19(화) 21:30 KST 4월 PCE 발표 임박 — 코어 PCE 컨센 +3.0% YoY. 4월 CPI 3.8% 핫쇼크 + 호르무즈 폐쇄로 인한 유가 상승이 PCE 상회 가능성을 키움. 결과에 따라 연내 인하 기대치 리프라이싱 가능.",
+      "ourImpact": "PCE가 컨센보다 높으면 보유 14개(SNDK 제외) 변동성이 커져요. 변동이 큰 종목(베타 2.0+: CRDO·MU·SNDK·MRVL·CLS·LITE·NVDA) 7개가 가장 민감해요. 단기 -3~5% 압박 가능.",
+      "impact": "negative",
+      "sources": [
+        {
+          "name": "뉴스핌 주간 프리뷰",
+          "url": "https://www.newspim.com/news/view/20260518000344"
+        }
+      ]
+    },
+    {
+      "category": "아시아 증시",
+      "headline": "코스피 사이드카 2거래일 연속 발동 — 장 초반 -4.7% 급락 후 +0.30% 반등, 외국인 9일 연속 매도",
+      "oneLineSummary": "오늘 코스피가 개장 직후 -3% 넘게 급락하면서 매도 사이드카(프로그램 매매 5분 정지 안전장치)가 5/15에 이어 2거래일 연속 발동됐어요. 외국인이 9거래일 연속 순매도(5월 누적 29.96조원)를 이어갔지만, 점심까지 +0.30% 7,515.81로 반등에 성공했어요.",
+      "summary": "5/18 KOSPI 7,515.81(+0.30%) — 장 초반 -4.7% 급락 후 반등. 매도 사이드카 5/15·5/18 2거래일 연속 발동. 외국인 9거래일 연속 매도(5월 누적 29.96조원). KOSDAQ 1,110.06(-1.75%) 동반 약세. 환율 1,500.8원 1,500선 재돌파 유지.",
+      "ourImpact": "한국 주식 미보유라 직접 영향은 없어요. 다만 환율 1,500원 재돌파로 외국인 환차손 부담이 커지면서 글로벌 위험자산 회피 분위기에 美 보유 종목도 단기 영향 받을 수 있어요.",
+      "impact": "negative",
+      "sources": [
+        {
+          "name": "매일경제 (5/18)",
+          "url": "https://www.mk.co.kr/article/12050644"
+        },
+        {
+          "name": "서울경제 (5/18)",
+          "url": "https://www.sedaily.com/article/20045200"
+        }
+      ]
+    },
+    {
+      "category": "아시아 증시",
+      "headline": "JP모건·유안타·KB 삼성전자·SK하이닉스 목표주가 줄상향 — 삼성 48~59만원·하이닉스 300만원",
+      "oneLineSummary": "오늘 글로벌 IB·국내 증권사가 삼성전자·SK하이닉스 목표주가를 동시에 크게 올렸어요. JP모건이 삼성전자 PT를 35만원→48만원, SK하이닉스 PT를 300만원으로 상향했고, 유안타증권은 삼성 PT를 34만원→59만원으로 +73% 대폭 상향했어요. KB증권도 삼성 36만원→45만원으로 올렸어요.",
+      "summary": "5/18 JP모건 삼성전자 PT 35→48만원·SK하이닉스 PT 300만원 동시 상향. 유안타 삼성 PT 34→59만원(+73%) 대폭 상향(이재원 연구원). KB증권 삼성 PT 36→45만원. 노무라·맥쿼리·SK증권도 분기마다 PT 갱신. 5/22부터 삼성·하이닉스 레버리지·인버스 ETF 첫 상장. 오늘 삼성 +4.07% 28.15만원, 하이닉스 +0.99% 1,837,000원 반등.",
+      "ourImpact": "한국 주식 미보유라 직접 영향은 없지만, 메모리 슈퍼사이클 검증 신호로 보유 MU·SNDK에 간접 호재예요. 5/20 NVDA 실적까지 메모리 섹터 전반 모멘텀이 유지될 수 있어요.",
+      "impact": "positive",
+      "sources": [
+        {
+          "name": "스타트업투데이 (5/18)",
+          "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=801183"
+        },
+        {
+          "name": "디지털타임스 (5/18)",
+          "url": "https://www.dt.co.kr/article/12062875"
+        }
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "NVDA 5/20 Q1 FY27 실적 D-2 — 컨센 매출 +79%, 1조달러 AI 수요 검증 임계점",
+      "oneLineSummary": "보유 NVDA(엔비디아)의 분기 실적 발표가 5/20(수)로 D-2 임박했어요. 코이핀 집계 분석가들의 평균 예상치는 매출 +79% 성장. 이걸 넘으면 깜짝 실적, 못 넘으면 실망 매물이 쏟아질 수 있어요. 1조달러 AI 수요가 실제 매출로 전환되는지 검증하는 첫 증거예요.",
+      "summary": "NVDA 5/20(현지) 2027 회계연도 1분기(2~4월) 실적 발표. 컨센서스 매출 +79% YoY, EPS 비트 여부가 핵심. 가이던스가 1조달러 AI 수요 검증의 임계점(뉴스핌 GAM 5/13 보도). 5/15 -4.42% $225.32 — 5/14 사상 최고 $235.74 직후 차익실현. 5/12·14 IREN 다년 파트너십·DELL·TotalEnergies 슈퍼컴 계약 호재 잠재.",
+      "ourImpact": "NVDA 실적이 비트하면 보유 반도체 8개(MU·MRVL·TSM·AMD·AVGO·SNDK·CRDO 포함) 동반 +3~7% 상승 가능. 미스 시 동반 -3~7% 약세 가능. 5/20 결과 전 큰 결정은 보류 권장해요.",
+      "impact": "neutral",
+      "sources": [
+        {
+          "name": "뉴스핌 GAM 5/13",
+          "url": "https://www.newspim.com/news/view/20260513000775"
+        },
+        {
+          "name": "뉴스핌 주간 프리뷰 5/18",
+          "url": "https://www.newspim.com/news/view/20260518000344"
+        }
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "DELL World 2026 오늘 5/18 시작 (~5/21) — AI 서버 백로그 $18.4B 사상 최대·5/29 실적 D-11",
+      "oneLineSummary": "보유 DELL(델)의 연례 컨퍼런스 'Dell World 2026'이 오늘 5/18부터 5/21까지 4일간 열려요. AI 서버 백로그(받아둔 미래 주문량)가 $18.4B로 사상 최대고, 5/29 Q1 실적 발표가 D-11로 임박해 있어요. 이벤트 중 새 AI 서버 라인업 발표 가능성이 크고 단기 모멘텀 자극 요인이에요.",
+      "summary": "DELL World 2026 5/18~21 개최. 5/8 NVDA·TotalEnergies 슈퍼컴 계약 + FY27 AI 서버 매출 $50B 가이던스. 5/29 Q1 FY27 실적 D-11 임박. 5/15 -2.38% $241.99 — 14개 보유 종목 약세 속 낙폭 평균 이하. BofA PT $246 → 상향 임박, UBS 다운그레이드 잔존 잡음.",
+      "ourImpact": "보유 DELL 직접 호재예요. 이벤트 기간 새 AI 서버 라인업·신규 계약 발표 가능성. 5/29 실적까지 +5~10% 상승 후보. 다만 5/20 NVDA 실적이 미스면 동반 약세 가능.",
+      "impact": "positive",
+      "sources": [
+        {
+          "name": "Seeking Alpha DELL AI 백로그",
+          "url": "https://seekingalpha.com/news/4526096-dell-targets-25b-in-ai-server-shipments-for-fy26-as-ai-backlog-pipeline-hit-records"
+        }
+      ]
+    },
+    {
+      "category": "정책·금리",
+      "headline": "美 4월 PCE 5/19 발표 임박 — 코어 PCE 컨센 +3.0% YoY, 4월 CPI 3.8% 핫쇼크 뒤끝",
+      "oneLineSummary": "내일 5/19(화) 21:30 KST 美 4월 PCE 물가지수가 발표돼요. PCE는 Fed가 가장 신뢰하는 물가 지표라 결과에 따라 금리 인하 기대치가 크게 흔들려요. 4월 CPI가 3.8%(컨센 3.7%)로 컨센보다 높게 나온 핫쇼크 직후라 PCE도 상회 가능성이 시장 컨센이에요.",
+      "summary": "4월 PCE 5/19(화) 21:30 KST 발표. 코어 PCE 컨센 +3.0% YoY. 4월 CPI 3.8%(컨센 3.7%) 상회 + WTI $105대 주간 +11% 점프로 PCE도 상회 가능성. 결과 따라 10년물 4.55%→4.6%대 추가 상승 위험. 연내 인하 기대 0% 유지.",
+      "ourImpact": "PCE 상회 시 변동이 큰 종목(CRDO 베타 3.43·MU/CLS/SNDK 베타 2.4+·LITE/MRVL 베타 2.3+) 7개가 가장 직격이에요. 단기 -3~5% 압박 가능. 5/19 결과 확인 후 시장 방향 결정 권장.",
+      "impact": "negative",
+      "sources": [
+        {
+          "name": "뉴스핌 주간 프리뷰",
+          "url": "https://www.newspim.com/news/view/20260518000344"
+        }
+      ]
+    },
+    {
+      "category": "글로벌·지정학",
+      "headline": "WTI $105.5 주간 +11% 점프 — 호르무즈 폐쇄·이란 협상 답보, 골드만삭스 $120 경고",
+      "oneLineSummary": "WTI(미국 대표 원유 가격)가 $105.5로 주간 +11% 큰 폭으로 점프했어요. 호르무즈 해협 폐쇄가 지속되고 미·이란 협상이 답보 상태라 골드만삭스는 '유가 $120 가능'이라고 경고했어요. 高유가는 인플레 압력을 키워서 Fed의 금리 인하 시점을 더 늦출 수 있어요.",
+      "summary": "WTI $105.5 주간 +11% 점프 — 호르무즈 폐쇄 지속·미·이란 협상 결렬. 골드만삭스 PT $120 시나리오 제시. 동시에 트럼프-시 정상회담 후속 中 양보 패키지(美관세 인하·보잉 200대·美농산물 확대) 공식 발표.",
+      "ourImpact": "高유가는 TLN(전력)에 단기 호재예요 — 천연가스 발전사라 발전 마진 확대 잠재. 빅테크 4개(GOOG·META·AMZN·NVDA) + 변동성 큰 반도체 8개에는 단기 부담이에요. 인플레 리프라이싱 시 변동성 큰 종목 직격.",
+      "impact": "mixed",
+      "sources": [
+        {
+          "name": "한국경제 WTI 95달러 돌파",
+          "url": "https://n.news.naver.com/mnews/article/014/0005514101"
+        },
+        {
+          "name": "골드만삭스 $120 경고",
+          "url": "https://www.fnnews.com/news/202604272301027552"
+        }
+      ]
+    }
+  ],
+  "signals": {
+    "asOf": "2026-05-18",
+    "kr": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "market": "KOSPI",
+        "category": "관련주",
+        "thesis": "오늘 5/18 +0.99% 1,837,000원 반등으로 외인 5일 연속 매도세에 첫 변곡 신호. JP모건이 PT를 300만원으로 상향했고, 노무라도 양사 PT 상향. 5/20 NVDA 실적 호조 시 HBM 글로벌 1위 본업 검증으로 메모리 슈퍼사이클 재점화 후보예요. 환율 1,500원·5/21 삼성 파업 변수가 동시에 있어요.",
+        "currentPrice": 1837000,
+        "change1D": 0.99,
+        "company": {
+          "ceo": "곽노정 (대표이사 사장)",
+          "business": "글로벌 D램·낸드 메모리 1·2위 종합 반도체 회사. HBM(고대역폭 메모리, AI 칩에 들어가는 핵심 부품) 시장 점유율 1위로 NVDA·AMD AI 칩 공급망 핵심.",
+          "hq": "경기도 이천시",
+          "employees": "약 31,000명",
+          "homepage": "https://www.skhynix.com/",
+          "ceoSource": "네이버 뉴스 검증 (2026/05 보도)"
+        },
+        "financials": "5/18 종가 1,837,000원·시총 약 1,336조원. 5거래일 외국인 -5.21M주 누적 매도 후 오늘 +0.99% 반등. JP모건 PT 300만원·노무라 PT 상향(스타트업투데이 5/18 보도).",
+        "comparable": "2024년 8월 외국인 누적 -7조원 매도 후 1주일 +12% 반등 사례 있음. 이번 5거래일 누적 매도세도 5/18 반등으로 매도 정점 통과 신호 가능.",
+        "outlookEasy": "지난주 외국인이 5거래일 연속 -5.21M주 순매도했지만, 오늘 +0.99% 반등에 성공했어요. JP모건·노무라가 목표가를 300만원으로 올린 것도 매수 신호. 5/20 NVDA 실적 호조 시 HBM 1위 본업이 더 검증돼서 빠른 반등 가능. 다만 환율 1,500원·5/21 삼성 파업이 동시 변수예요.",
+        "outlook": "단기 외국인 매도 압박 정점 통과 가능성. 장기 HBM·메모리 슈퍼사이클 견조. 5/19 美 PCE·5/20 NVDA 실적이 이번 주 트리거. 5/18 외인 흐름 + 환율 안정 여부가 단기 방향 결정. 시나리오: NVDA 비트 시 +5~10%, 미스 시 -3~5%.",
+        "flowReason": {
+          "summary": "5일 연속 매도세에서 오늘 첫 반등 — JP모건 PT 300만원 호재 흡수",
+          "detail": "최근 5거래일 외국인이 -5.21M주(누적 약 9.5조원) 순매도했지만, 오늘 +0.99% 반등에 성공했어요. JP모건이 PT를 300만원으로 상향했고 노무라·맥쿼리도 분기마다 PT 갱신 중이에요. 환율 1,500원 재돌파에도 매수 전환 가능성 신호가 나타났어요.",
+          "sources": [
+            {
+              "name": "스타트업투데이 (5/18)",
+              "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=801183"
+            },
+            {
+              "name": "에너지경제 (5/18)",
+              "url": "https://www.ekn.kr/web/view.php?key=20260518025385518"
+            }
+          ]
+        },
+        "risk": "5/20 NVDA 실적이 컨센보다 나쁘면 -5~8% 약세 가능. 환율 1,510원 위 추가 상승 시 외인 환차손 부담으로 매도 재개 가능. 변동이 큰 시기예요.",
+        "horizon": "1~2주 (단기)",
+        "relatedStocks": [
+          {
+            "code": "005930",
+            "name": "삼성전자",
+            "market": "KOSPI",
+            "relation": "HBM 1위 ↔ HBM 2위 경쟁사 — 메모리 사이클 동행",
+            "currentPrice": "281,500",
+            "change1D": 4.07
+          },
+          {
+            "code": "042700",
+            "name": "한미반도체",
+            "market": "KOSPI",
+            "relation": "HBM 본딩 장비 핵심 공급사 — 동행성 강함",
+            "currentPrice": "316,500",
+            "change1D": -14.23
+          }
+        ],
+        "sources": [
+          {
+            "name": "네이버 금융 SK하이닉스",
+            "url": "https://m.stock.naver.com/domestic/stock/000660"
+          }
+        ]
+      },
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "market": "KOSPI",
+        "category": "관련주",
+        "thesis": "오늘 5/18 +4.07% 28.15만원으로 보유 종목 중 가장 큰 폭 반등. 유안타가 PT를 34→59만원으로 +73% 대폭 상향했고, JP모건도 35→48만원으로 +37% 상향. CSP(클라우드)와 HBM 장기공급계약(LTA) 논의가 본격화되면서 SK하이닉스 대비 시총 프리미엄 축소가 완화될 거라는 관측이에요.",
+        "currentPrice": 281500,
+        "change1D": 4.07,
+        "company": {
+          "ceo": "한종희 부회장·이재용 회장 (총수)",
+          "business": "글로벌 메모리 반도체 2위·파운드리 2위. AI 시대 HBM 메모리 시장 점유율 확대 + 스마트폰·디스플레이 종합 IT 그룹.",
+          "hq": "경기도 수원시",
+          "employees": "약 124,000명 (국내 기준)",
+          "homepage": "https://www.samsung.com/sec/",
+          "ceoSource": "네이버 뉴스 검증 (2026/05 보도)"
+        },
+        "financials": "5/18 종가 281,500원·시총 약 1,800조원. 5거래일 외국인 -29.6M주 누적 매도 후 오늘 +4.07% 반등. 유안타 PT 34→59만원(+73%)·JP모건 PT 35→48만원·KB PT 36→45만원 줄상향(디지털타임스 5/18 보도).",
+        "comparable": "지난 1개월 +28.2% (4/15~5/15). SK하이닉스 같은 기간 +60% 대비 절반 수준이라 갭 메우기 잠재력 큼. 노조 파업 우려로 시총 프리미엄이 역사적 저점권까지 축소된 상태 (유안타 이재원 연구원).",
+        "outlookEasy": "오늘 +4.07% 큰 폭으로 반등했어요. 유안타가 목표가를 34→59만원으로 +73% 대폭 올렸고, JP모건도 35→48만원으로 올렸어요. 클라우드 회사들과의 장기공급계약(LTA) 논의가 본격화되면서 SK하이닉스보다 덜 오른 부분을 따라잡을 거란 관측이에요. 다만 5/21 노조 총파업이 변수예요.",
+        "outlook": "단기 컨센서스 PT 평균 48~59만원(현가 28.15만원 대비 +70~110% 갭). 분포 35만원~59만원으로 넓음. 단기 트리거: 5/20 NVDA 실적 + 5/21 삼성 총파업 + 5/22 ETF 첫 상장. 시나리오: NVDA 비트 + 파업 단기 종결 시 +10~15%, 파업 장기화 시 -3~5%.",
+        "flowReason": {
+          "summary": "유안타·JP모건·KB 동시 PT 대폭 상향 + HBM LTA 논의 본격화",
+          "detail": "오늘 5/18 유안타증권이 삼성전자 PT를 34→59만원으로 +73% 대폭 상향했어요. 이재원 연구원은 '파업 불확실성에 SK하이닉스 대비 시총 프리미엄이 역사적 저점권까지 축소됐다'고 봤어요. JP모건은 35→48만원, KB증권은 36→45만원으로 줄상향. 클라우드 회사들과의 장기공급계약(LTA) 논의가 본격화되고 있다는 점도 호재예요.",
+          "sources": [
+            {
+              "name": "디지털타임스 (5/18)",
+              "url": "https://www.dt.co.kr/article/12062875"
+            },
+            {
+              "name": "한국일보 (5/17)",
+              "url": "https://www.hankookilbo.com/news/article/A2026051713470002240"
+            }
+          ]
+        },
+        "risk": "5/21 노조 총파업이 장기화되면 단기 -5% 가능. NVDA 실적 미스 시 메모리 섹터 동반 약세 위험.",
+        "horizon": "1~3개월 (단기)",
+        "relatedStocks": [
+          {
+            "code": "000660",
+            "name": "SK하이닉스",
+            "market": "KOSPI",
+            "relation": "HBM 2위 ↔ HBM 1위 경쟁사 — 메모리 사이클 동행",
+            "currentPrice": "1,837,000",
+            "change1D": 0.99
+          },
+          {
+            "code": "042700",
+            "name": "한미반도체",
+            "market": "KOSPI",
+            "relation": "HBM 본딩 장비 공급사 — 동행성",
+            "currentPrice": "316,500",
+            "change1D": -14.23
+          }
+        ],
+        "sources": [
+          {
+            "name": "네이버 금융 삼성전자",
+            "url": "https://m.stock.naver.com/domestic/stock/005930"
+          }
+        ]
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "market": "KOSPI",
+        "category": "실적기대",
+        "thesis": "오늘 5/18 -14.23% 316,500원 큰 폭 하락 — HBM·CXL 관련주 동반 매도세에 휩쓸렸어요. 그러나 SK하이닉스 HBM 본딩 장비 핵심 공급사로 5/20 NVDA 실적이 메모리 슈퍼사이클을 확인하면 빠른 되돌림 후보예요. 단기 변동성은 크지만 본업 펀더멘털은 견조해요.",
+        "currentPrice": 316500,
+        "change1D": -14.23,
+        "company": {
+          "ceo": "곽동신 (대표이사)",
+          "business": "HBM(고대역폭 메모리) 본딩 장비 글로벌 1위. SK하이닉스 HBM 라인 핵심 공급사 + 삼성전자·마이크론에도 일부 납품. AI 인프라 빌드아웃의 직접 수혜.",
+          "hq": "인천광역시 부평구",
+          "employees": "약 1,200명",
+          "homepage": "https://www.hanmisemi.com/",
+          "ceoSource": "네이버 뉴스 검증 (2026/05 보도)"
+        },
+        "financials": "5/18 종가 316,500원·시총 약 31조원. 5거래일 외국인 -351K주 누적 매도. 2025년 11월 SK하이닉스와 HBM 제조용 장비 16억원 규모 공급 계약 체결 (뉴스2데이 2025/11 보도).",
+        "comparable": "AI HBM 사이클 진입 후 2024년 8월~12월 +90% 상승 사례 있음. 오늘 -14% 단기 충격은 5/15 美 반도체 매도세 + KR HBM 관련주 동반 매도 영향.",
+        "outlookEasy": "오늘 -14.23% 큰 폭으로 빠졌어요. HBM·CXL 관련주가 5/15 美 반도체 매도세에 휩쓸려 동반 약세였어요. 다만 한미반도체는 SK하이닉스 HBM 라인의 핵심 공급사라 5/20 NVDA 실적이 메모리 슈퍼사이클을 확인하면 빠른 되돌림 가능. 변동이 큰 시기예요.",
+        "outlook": "단기 외국인 매도 + 동반 약세에 -14% 큰 폭 충격 후 5/20 NVDA 실적이 분수령. 시나리오: NVDA 비트 시 +10~15% 되돌림, 미스 시 추가 -5~10% 약세. 본업 펀더멘털(HBM 본딩 장비 1위)은 변함없음.",
+        "flowReason": {
+          "summary": "美 반도체 매도세 + HBM·CXL 관련주 동반 매도 — 단기 충격",
+          "detail": "오늘 5/18 -14.23% 큰 폭 하락. 5/15 美 AI 기술주 급락 영향으로 한국 HBM·CXL 관련주가 동반 매도세를 보였어요(choicenews.co.kr 5/18 보도). 5거래일 외국인 -351K주 누적 매도 중이지만, 5/20 NVDA 실적이 메모리 슈퍼사이클을 확인하면 매도세 정점 통과 가능성. 본업 펀더멘털은 변함없음.",
+          "sources": [
+            {
+              "name": "choicenews.co.kr (5/18)",
+              "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=165394"
+            }
+          ]
+        },
+        "risk": "신규 상장주는 아니지만 단기 변동성이 매우 큰 종목이에요. 5/20 NVDA 실적 미스 시 추가 -5~10% 가능. 외인 매도세 지속도 위험.",
+        "horizon": "1~2주 (단기)",
+        "relatedStocks": [
+          {
+            "code": "000660",
+            "name": "SK하이닉스",
+            "market": "KOSPI",
+            "relation": "HBM 본딩 장비 핵심 고객 — 직접 매출 의존",
+            "currentPrice": "1,837,000",
+            "change1D": 0.99
+          },
+          {
+            "code": "005930",
+            "name": "삼성전자",
+            "market": "KOSPI",
+            "relation": "HBM 본딩 장비 일부 공급 — 잠재 동행",
+            "currentPrice": "281,500",
+            "change1D": 4.07
+          }
+        ],
+        "sources": [
+          {
+            "name": "네이버 금융 한미반도체",
+            "url": "https://m.stock.naver.com/domestic/stock/042700"
+          }
+        ]
+      }
+    ],
+    "us": [
+      {
+        "ticker": "PLTR",
+        "name": "팰런티어 (Palantir)",
+        "market": "NASDAQ",
+        "category": "성장주",
+        "thesis": "AI 데이터 분석 소프트웨어 회사로 미국 국방부·정보기관용 Gotham·Foundry·AIP 플랫폼을 만들어요. 5/15 +0.19% $133.99로 보유 반도체 매도세 속에서 거의 횡보. AI 인프라 차익실현 사이클에서 소프트웨어로 자금이 이동하는 신호 후보예요.",
+        "currentPrice": 133.99,
+        "change1D": 0.19,
+        "company": {
+          "ceo": "Alexander Karp (CEO)·Peter Thiel (창업자·회장)",
+          "business": "AI 데이터 분석 소프트웨어 회사. 미국 국방부·정보기관용 Gotham 플랫폼, 기업용 Foundry·AIP 플랫폼. AI 모델을 실제 기업·정부 의사결정에 연결하는 미들웨어.",
+          "hq": "미국 콜로라도 덴버",
+          "employees": "약 4,400명",
+          "homepage": "https://www.palantir.com/",
+          "ceoSource": "네이버 금융 integration API summaries"
+        },
+        "financials": "PER 비교적 높은 수준 (수익 기반 아닌 성장 가치 평가). 시총 약 3,000억$ 부근. 52주 범위 검증 필요. 출처: 네이버 금융.",
+        "comparable": "AI 사이클에서 인프라 → 플랫폼 → 소프트웨어로 자금 로테이션 패턴. 5/15 보유 반도체 8개 동반 약세 속 PLTR +0.19% 거의 횡보로 안정성 확인.",
+        "outlookEasy": "오늘 보유 반도체들이 -3~7% 빠지는 와중에도 PLTR은 +0.19%로 거의 횡보했어요. AI 차익실현 사이클에서 인프라 종목(엔비디아·AMD)에서 소프트웨어로 자금이 이동하는 신호일 수 있어요. 5/20 NVDA 실적 후 흐름이 정해질 거예요.",
+        "outlook": "5/20 NVDA 실적 결과에 따라 단기 방향 결정. 비트 시 PLTR 동반 +5% 가능, 미스 시 -3~5% 가능. AI 소프트웨어 섹터 로테이션 신호로 1~3개월 관전.",
+        "risk": "PER이 높아 매크로 매도세나 PCE 핫쇼크에 민감해요. 변동이 큰 종목이에요.",
+        "horizon": "1~3개월 (단기)",
+        "relatedStocks": [
+          {
+            "code": "SNOW",
+            "name": "Snowflake",
+            "market": "NYSE",
+            "relation": "AI 데이터 플랫폼 인접 경쟁 — 동행성",
+            "currentPrice": "미수신",
+            "change1D": null
+          },
+          {
+            "code": "CRWD",
+            "name": "CrowdStrike",
+            "market": "NASDAQ",
+            "relation": "AI 보안 소프트웨어 — 같은 AI SW 테마",
+            "currentPrice": "미수신",
+            "change1D": null
+          }
+        ],
+        "sources": [
+          {
+            "name": "네이버 금융 PLTR",
+            "url": "https://m.stock.naver.com/worldstock/stock/PLTR.O"
+          }
+        ]
+      },
+      {
+        "ticker": "SMCI",
+        "name": "슈퍼마이크로컴퓨터 (Super Micro)",
+        "market": "NASDAQ",
+        "category": "관련주",
+        "thesis": "5/15 -6.02% $31.04 큰 폭 하락 — AI 서버 OEM 중 변동성 가장 큰 종목. NVDA 5/20 실적 D-2 직전 차익실현 매물 출회. 다만 NVDA H100·B200·GB300 출하 핵심 OEM 파트너로 실적 비트 시 빠른 반등 후보예요.",
+        "currentPrice": 31.04,
+        "change1D": -6.02,
+        "company": {
+          "ceo": "Charles Liang (창업자·CEO)",
+          "business": "AI 서버·고밀도 컴퓨팅 OEM. NVDA H100·B200·GB300 GPU를 받아 액체 냉각·GPU 클러스터 형태로 데이터센터에 납품. AI 인프라 빌드아웃 핵심 OEM.",
+          "hq": "미국 캘리포니아 산호세",
+          "employees": "약 5,000명",
+          "homepage": "https://www.supermicro.com/",
+          "ceoSource": "네이버 금융 integration API summaries"
+        },
+        "financials": "5/15 종가 $31.04·52주 범위 검증 필요. PER 비교적 낮음. 1년 -50%대 큰 폭 조정 후 NVDA 매출 백로그 확대 + 액체 냉각 차세대 라인업으로 재평가 잠재.",
+        "comparable": "DELL과 같은 AI 서버 OEM 그룹. DELL은 5/15 -2.38%·SMCI는 -6.02%로 SMCI 변동성이 약 2.5배. AI 인프라 차익실현 사이클에서 SMCI가 가장 먼저 빠지고 가장 먼저 반등 패턴.",
+        "outlookEasy": "오늘 -6.02% $31.04로 큰 폭 빠졌어요. AI 서버 회사 중 변동성 가장 큰 종목이라 NVDA 5/20 실적 D-2 직전 차익실현 매물이 쏟아진 거예요. NVDA 실적이 비트하면 DELL과 함께 빠른 반등 후보. 다만 NVDA 미스 시 추가 -10% 위험.",
+        "outlook": "5/20 NVDA 실적이 단기 핵심 트리거. 비트 시 SMCI +10~15% 빠른 반등 가능, 미스 시 추가 -10% 약세 가능. AI 서버 OEM 그룹 중 변동성 1위로 매우 민감.",
+        "risk": "변동이 매우 큰 종목이에요. NVDA 실적 결과에 ±10% 단기 변동 가능. 회계 잡음(2024년 이슈) 잔존도 부담.",
+        "horizon": "1~2주 (단기)",
+        "relatedStocks": [
+          {
+            "code": "DELL",
+            "name": "델 (보유 종목)",
+            "market": "NYSE",
+            "relation": "AI 서버 OEM 동행 경쟁사 — 보유 영향 직접",
+            "currentPrice": 241.99,
+            "change1D": -2.38
+          },
+          {
+            "code": "NVDA",
+            "name": "엔비디아 (보유 종목)",
+            "market": "NASDAQ",
+            "relation": "NVDA GPU의 최종 OEM 파트너 — 직접 매출 의존",
+            "currentPrice": 225.32,
+            "change1D": -4.42
+          }
+        ],
+        "sources": [
+          {
+            "name": "네이버 금융 SMCI",
+            "url": "https://m.stock.naver.com/worldstock/stock/SMCI.O"
+          }
+        ]
+      }
+    ],
+    "krForeignFlow": {
+      "asOf": "2026-05-15",
+      "lookbackDays": "5거래일 (5/11~5/15)",
+      "rows": [
+        {
+          "ticker": "000660",
+          "name": "SK하이닉스",
+          "foreignHoldRatio": 50.5,
+          "netBuy5d": -5214213,
+          "dailyNetBuy": [
+            {
+              "date": "5/11",
+              "shares": -454579
+            },
+            {
+              "date": "5/12",
+              "shares": -1634593
+            },
+            {
+              "date": "5/13",
+              "shares": -917859
+            },
+            {
+              "date": "5/14",
+              "shares": -815209
+            },
+            {
+              "date": "5/15",
+              "shares": -1391973
+            }
+          ],
+          "trend": "매도세 (5일 연속 순매도)",
+          "trendTone": "negative",
+          "flowReason": {
+            "summary": "단기 +30% 급등 후 차익실현 + 환율 1,500원 돌파로 외국인 환수 가속",
+            "detail": "최근 1개월 +60.12% 단기 급등 후 차익실현 매물 출회. 환율이 1,500.8원(+9.8원)으로 1,500선을 다시 넘으면서 외국인 환차손 부담으로 매도세가 가속됐어요. 5거래일 누적 -5.21M주 (약 9.5조원) 순매도.",
+            "sources": [
+              {
+                "name": "파이낸셜뉴스 (5/15)",
+                "url": "https://www.fnnews.com/news/202605151612113388"
+              }
+            ]
+          }
+        },
+        {
+          "ticker": "005930",
+          "name": "삼성전자",
+          "foreignHoldRatio": 53.2,
+          "netBuy5d": -29596391,
+          "dailyNetBuy": [
+            {
+              "date": "5/11",
+              "shares": -7997922
+            },
+            {
+              "date": "5/12",
+              "shares": -7824233
+            },
+            {
+              "date": "5/13",
+              "shares": -5675844
+            },
+            {
+              "date": "5/14",
+              "shares": 757349
+            },
+            {
+              "date": "5/15",
+              "shares": -8855741
+            }
+          ],
+          "trend": "매도세 (4일 매도/1일 매수)",
+          "trendTone": "negative",
+          "flowReason": {
+            "summary": "노조 총파업 우려 + 시총 프리미엄 축소 + 단기 +28% 급등 차익실현",
+            "detail": "지난 1개월 +28.2% 급등 후 차익실현. 5/21 노조 총파업 예고로 단기 불확실성 가중. SK하이닉스 대비 시총 프리미엄이 역사적 저점권까지 축소 (유안타 이재원 연구원). 5거래일 누적 -29.6M주 (약 8.3조원) 순매도.",
+            "sources": [
+              {
+                "name": "디지털타임스 (5/18)",
+                "url": "https://www.dt.co.kr/article/12062875"
+              }
+            ]
+          }
+        },
+        {
+          "ticker": "042700",
+          "name": "한미반도체",
+          "foreignHoldRatio": 25.0,
+          "netBuy5d": -351557,
+          "dailyNetBuy": [
+            {
+              "date": "5/11",
+              "shares": -63610
+            },
+            {
+              "date": "5/12",
+              "shares": 42896
+            },
+            {
+              "date": "5/13",
+              "shares": -33157
+            },
+            {
+              "date": "5/14",
+              "shares": -196305
+            },
+            {
+              "date": "5/15",
+              "shares": -101381
+            }
+          ],
+          "trend": "매도세 (4일 매도/1일 매수)",
+          "trendTone": "negative",
+          "flowReason": {
+            "summary": "美 반도체 매도세 동조 + HBM 관련주 동반 매도",
+            "detail": "5/15 美 AI 기술주 급락 영향으로 한국 HBM·CXL 관련주가 동반 매도세를 보였어요. 5/15만 단독 약세에서 5거래일 누적 -351K주 매도. SK하이닉스 HBM 라인 핵심 공급사라 5/20 NVDA 실적 결과가 분수령.",
+            "sources": [
+              {
+                "name": "choicenews.co.kr (5/18)",
+                "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=165394"
+              }
+            ]
+          }
+        }
+      ],
+      "insights": [
+        "5거래일 외국인 누적 매도세가 3개 시그널 종목 모두에서 확인됐어요. 단기 차익실현 정점 통과 신호 후보.",
+        "SK하이닉스 -5.21M주·삼성전자 -29.6M주·한미반도체 -351K주 누적 매도 — 시총 비중에 비례한 매도 강도.",
+        "오늘 5/18 삼성전자 +4.07%·SK하이닉스 +0.99% 반등으로 매도 정점 통과 가능성. JP모건·유안타·KB·노무라 PT 줄상향이 매수 전환 신호.",
+        "한미반도체는 오늘 -14.23%로 추가 약세 — HBM·CXL 관련주 동반 매도에 휩쓸림. 5/20 NVDA 실적이 분수령.",
+        "환율 1,500원 재돌파는 외인 환차손 부담 가중 요인이지만, 한투證은 '추세적 반등 아닌 일시적'으로 분석해요."
+      ],
+      "sources": [
+        {
+          "name": "네이버 금융 dealTrendInfos API",
+          "url": "https://m.stock.naver.com/api/stock/000660/integration"
+        },
+        {
+          "name": "한국투자증권 환율 보고서 (5/18)",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4415351"
+        }
+      ]
+    },
+    "newListings": {
+      "kr": [
+        {
+          "ticker": "419050",
+          "name": "코스모로보틱스",
+          "market": "KOSDAQ",
+          "category": "이슈주",
+          "listedAt": "2026-05-11",
+          "thesis": "오늘 5/11 코스닥 상장한 휴머노이드·산업용 로봇 회사. AI·휴머노이드 테마 신규 상장으로 화제 종목이에요. 다만 상장 초기 변동성이 매우 크고 컨센서스 데이터는 아직 수신 안 됨.",
+          "currentPrice": "검증 필요",
+          "change1D": null,
+          "company": {
+            "ceo": "검증 필요 — 네이버 뉴스에서 추후 확인",
+            "business": "휴머노이드·산업용 로봇 개발. AI 비전·로봇 매니퓰레이터 제어 솔루션.",
+            "hq": "한국",
+            "employees": "공시 검증 필요",
+            "homepage": "검증 필요",
+            "ceoSource": "신규 상장주 — 공시 등록 검증 진행 중"
+          },
+          "financials": "신규 상장주라 분기 재무재표 미발표. 공모가·청약 결과는 상장 직후 확인 필요.",
+          "comparable": "2024년 두산로보틱스 상장 첫날 +98% 사례 있음. 코스모로보틱스도 휴머노이드 테마 모멘텀 후보.",
+          "outlookEasy": "오늘 5/11 코스닥 상장한 휴머노이드 로봇 회사예요. 신규 상장주라 컨센서스 미수신 — 52주 범위 기반으로만 평가 가능. 변동이 매우 큰 종목이라 신중히 보세요.",
+          "outlook": "컨센서스 데이터 미수신 — 신규 상장주. 단기 화제성에 의존한 모멘텀 거래로 ±10~20% 일일 변동 가능. 6개월~1년 후 분기 실적 발표로 펀더멘털 검증 시점.",
+          "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 공모가 하회 사례도 흔함.",
+          "horizon": "1~2주 (단기 관전)",
+          "relatedStocks": [
+            {
+              "code": "454910",
+              "name": "두산로보틱스",
+              "market": "KOSPI",
+              "relation": "휴머노이드 테마 동행 — 같은 로봇 산업",
+              "currentPrice": "미수신",
+              "change1D": null
+            },
+            {
+              "code": "108860",
+              "name": "셀바스AI",
+              "market": "KOSDAQ",
+              "relation": "AI 비전·로봇 SW 인접",
+              "currentPrice": "미수신",
+              "change1D": null
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 종목 검색",
+              "url": "https://ac.stock.naver.com/ac?q=코스모로보틱스&target=stock,ipo"
+            }
+          ]
+        },
+        {
+          "ticker": "279600",
+          "name": "케이뱅크",
+          "market": "KOSPI",
+          "category": "이슈주",
+          "listedAt": "2026-03-05",
+          "thesis": "2026/3/5 코스피 상장한 국내 첫 인터넷 전문은행. AI·핀테크 테마 호재 + 카카오뱅크 대비 저평가 매력. 신규 상장 후 변동성 크지만 핀테크 섹터 모멘텀이 잠재해요.",
+          "currentPrice": "검증 필요",
+          "change1D": null,
+          "company": {
+            "ceo": "검증 필요",
+            "business": "국내 인터넷 전문은행 1세대. AI 신용평가·디지털 금융 플랫폼.",
+            "hq": "서울",
+            "employees": "약 600명",
+            "homepage": "https://www.kbanknow.com/",
+            "ceoSource": "신규 상장주 — 공시 등록 검증 진행 중"
+          },
+          "financials": "신규 상장주 (상장 2개월 경과)·1Q 실적 발표 임박. 카카오뱅크 PBR 대비 저평가 매력.",
+          "comparable": "2021년 카카오뱅크 상장 첫 한 달 +20% 사례 있음. 인터넷 전문은행 테마 모멘텀.",
+          "outlookEasy": "올해 3월 상장한 인터넷 전문은행이에요. 카카오뱅크 다음으로 큰 디지털 은행이라 비교 매력이 있어요. 신규 상장주라 컨센서스 미수신 — 52주 범위 기반으로만 평가 가능.",
+          "outlook": "컨센서스 데이터 미수신 — 상장 2개월 차. 1Q 분기 실적 발표 후 펀더멘털 검증. 단기 ±5~10% 변동 가능.",
+          "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 금융주는 금리 정책 변동에도 민감.",
+          "horizon": "1~3개월 (단기)",
+          "relatedStocks": [
+            {
+              "code": "323410",
+              "name": "카카오뱅크",
+              "market": "KOSPI",
+              "relation": "인터넷 전문은행 1위 ↔ 동종 비교",
+              "currentPrice": "미수신",
+              "change1D": null
+            },
+            {
+              "code": "377300",
+              "name": "카카오페이",
+              "market": "KOSPI",
+              "relation": "디지털 금융 플랫폼 동행",
+              "currentPrice": "미수신",
+              "change1D": null
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 종목 검색",
+              "url": "https://ac.stock.naver.com/ac?q=케이뱅크&target=stock,ipo"
+            }
+          ]
+        },
+        {
+          "ticker": "461510",
+          "name": "이뮨온시아",
+          "market": "KOSDAQ",
+          "category": "이슈주",
+          "listedAt": "2025-05-13",
+          "thesis": "2025/5/13 상장한 면역항암 바이오 회사. 임상 단계 진행 중이고 K-바이오 테마 부활 호재. 다만 신약개발 변동성이 매우 크고 임상 결과에 ±20~30% 일일 변동 가능.",
+          "currentPrice": "검증 필요",
+          "change1D": null,
+          "company": {
+            "ceo": "검증 필요",
+            "business": "면역항암제 신약개발 바이오 회사. 항체·세포 치료제 파이프라인.",
+            "hq": "한국",
+            "employees": "공시 검증 필요",
+            "homepage": "검증 필요",
+            "ceoSource": "신규 상장주 — 공시 등록 검증 진행 중"
+          },
+          "financials": "신규 상장주 (상장 1년 차)·분기 매출 미미. 임상 비용으로 적자 지속 추정.",
+          "comparable": "K-바이오 임상 호재 종목은 단기 +30~50% 폭등 후 -20% 차익실현 패턴 흔함.",
+          "outlookEasy": "작년 5월 상장한 면역항암 바이오 회사예요. 신약 임상이 진행 중인데 결과에 따라 ±20~30% 일일 변동 가능. 신규 상장주라 컨센서스 미수신 — 임상 결과만이 단기 트리거예요.",
+          "outlook": "컨센서스 데이터 미수신 — 임상 단계 바이오 신규 상장주. 임상 결과 발표가 단기 트리거. ±20~30% 변동 가능.",
+          "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 바이오 임상 실패 시 -50% 가능.",
+          "horizon": "6~12개월 (장기 — 임상 결과 대기)",
+          "relatedStocks": [
+            {
+              "code": "207940",
+              "name": "삼성바이오로직스",
+              "market": "KOSPI",
+              "relation": "K-바이오 대표주 — 섹터 동행",
+              "currentPrice": "미수신",
+              "change1D": null
+            },
+            {
+              "code": "068270",
+              "name": "셀트리온",
+              "market": "KOSPI",
+              "relation": "항체·바이오 동행성",
+              "currentPrice": "미수신",
+              "change1D": null
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 종목 검색",
+              "url": "https://ac.stock.naver.com/ac?q=이뮨온시아&target=stock,ipo"
+            }
+          ]
+        }
+      ],
+      "us": [
+        {
+          "ticker": "CRCL",
+          "name": "Circle Internet Group (써클)",
+          "market": "NYSE",
+          "category": "이슈주",
+          "listedAt": "2025-06",
+          "thesis": "2025/6 NYSE 상장한 USDC 스테이블코인 발행사. 5/15 -7.98% $114.00 큰 폭 하락 — 트럼프-시 회담 실망 + 美 10년물 4.55% 고금리로 스테이블코인 수익 모델에 단기 압박. 다만 USDC 발행량 +30% YoY 본업은 견조.",
+          "currentPrice": 114.0,
+          "change1D": -7.98,
+          "company": {
+            "ceo": "Jeremy Allaire (CEO·창업자)",
+            "business": "USDC 스테이블코인 발행·관리 회사. 디지털 달러 인프라 + 결제 솔루션. 美 GENIUS Act 통과 후 스테이블코인 규제 명확화의 1차 수혜.",
+            "hq": "미국 보스턴",
+            "employees": "약 1,000명",
+            "homepage": "https://www.circle.com/",
+            "ceoSource": "공시·언론 검증"
+          },
+          "financials": "5/15 종가 $114.00 (5/15 -7.98%). 시총 약 250억$. 신규 상장주라 분기 실적 1~2회만 공개됨. USDC 발행량 +30% YoY 본업 견조.",
+          "comparable": "코인베이스(COIN)는 2021년 직상장 후 1년 -85% 후 2024년 회복. CRCL은 IPO 후 +100% 폭등 직후 차익실현 사이클 진입.",
+          "outlookEasy": "작년 6월 상장한 USDC 발행사예요. 오늘 -7.98%로 큰 폭 빠졌는데 트럼프-시 회담 실망 + 美 금리 4.55% 부담 영향이에요. USDC 발행량은 +30% 늘고 있어서 본업은 견조. 다만 신규 상장주라 변동이 매우 큰 종목이에요.",
+          "outlook": "5/20 NVDA 실적 + 5/19 PCE 통과 후 매크로 안정 시 반등 가능. 시나리오: 매크로 안정 시 +10~15% 가능, 추가 매도세 시 -10% 추가.",
+          "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 美 금리 정책·스테이블코인 규제 변화에 민감.",
+          "horizon": "3~6개월 (중기)",
+          "relatedStocks": [
+            {
+              "code": "COIN",
+              "name": "Coinbase",
+              "market": "NASDAQ",
+              "relation": "암호화폐 인프라 — 동행성 강함",
+              "currentPrice": "미수신",
+              "change1D": null
+            },
+            {
+              "code": "HOOD",
+              "name": "Robinhood",
+              "market": "NASDAQ",
+              "relation": "디지털 자산 거래 플랫폼 — 인접 산업",
+              "currentPrice": "미수신",
+              "change1D": null
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 CRCL",
+              "url": "https://m.stock.naver.com/worldstock/stock/CRCL.K"
+            }
+          ]
+        },
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave (코어위브)",
+          "market": "NASDAQ",
+          "category": "관련주",
+          "listedAt": "2025-03",
+          "thesis": "2025/3 NASDAQ 상장한 AI 전문 클라우드 회사. NVDA GPU 기반 AI 컴퓨팅 서비스를 OpenAI·Microsoft 등에 공급. 5/15 -6.05% $107.30 차익실현 매물 출회. 5/20 NVDA 실적이 직접 영향.",
+          "currentPrice": 107.3,
+          "change1D": -6.05,
+          "company": {
+            "ceo": "Michael Intrator (CEO·창업자)",
+            "business": "NVDA GPU 기반 AI 전문 클라우드 컴퓨팅. OpenAI·Microsoft·Inflection AI 등 대형 AI 회사에 GPU 컴퓨팅 임대. NVDA의 직접 파트너.",
+            "hq": "미국 뉴저지",
+            "employees": "약 1,000명",
+            "homepage": "https://www.coreweave.com/",
+            "ceoSource": "공시·언론 검증"
+          },
+          "financials": "5/15 종가 $107.30 (5/15 -6.05%). 시총 약 500억$. 신규 상장주라 분기 실적 1~2회만 공개됨. NVDA의 직접 GPU 파트너로 백로그 견조.",
+          "comparable": "신규 상장 AI 인프라 회사는 NVDA 실적과 동행성 큼. 2025년 11월 +60% 폭등 후 -30% 차익실현 패턴.",
+          "outlookEasy": "작년 3월 상장한 AI 전용 클라우드 회사예요. 오늘 -6.05%로 큰 폭 빠졌는데 NVDA 5/20 실적 D-2 직전 차익실현이에요. NVDA의 직접 파트너라 NVDA 실적이 비트하면 +10~15% 빠른 반등 가능. 다만 신규 상장주라 변동이 매우 큰 종목이에요.",
+          "outlook": "5/20 NVDA 실적이 결정적. 비트 시 +10~15% 반등 가능, 미스 시 추가 -10% 약세. NVDA 직접 동행 종목.",
+          "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. AI 인프라 사이클 둔화 시 직격.",
+          "horizon": "1~3개월 (단기)",
+          "relatedStocks": [
+            {
+              "code": "NVDA",
+              "name": "엔비디아 (보유 종목)",
+              "market": "NASDAQ",
+              "relation": "직접 GPU 공급사 — 매출 의존",
+              "currentPrice": 225.32,
+              "change1D": -4.42
+            },
+            {
+              "code": "SMCI",
+              "name": "Super Micro",
+              "market": "NASDAQ",
+              "relation": "AI 인프라 OEM 동행 — 같은 사이클",
+              "currentPrice": 31.04,
+              "change1D": -6.02
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 CRWV",
+              "url": "https://m.stock.naver.com/worldstock/stock/CRWV.O"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "preview": {
+    "thisWeek": [
+      "5/18 (월) 🌟 Dell World 2026 시작 (~5/21) · LITE Nasdaq-100 편입 발효 · 美 5월 NAHB · 中 4월 산업생산·소매판매 · Baidu 실적",
+      "5/19 (화) ⭐ 美 4월 PCE 발표 (코어 +3.0% YoY 컨센) · 美 4월 주택착공 · 홈디포·툴브라더스 실적",
+      "5/20 (수) ⭐⭐ NVDA 분기 실적 (보유 종목) · 4월 FOMC 의사록 (워시 의장 첫 노트) · 로우스·인튜이트 실적 · 中 인민은행 LPR 발표",
+      "5/21 (목) 美 신규 실업수당 청구건수 · 한국 5월 1~20일 수출 · 🌟 삼성전자 총파업 시작 · 월마트·디어·줌 실적",
+      "5/22 (금) 5월 미시간 소비자심리 · S&P/MSCI 리밸런싱 일부 · 🌟 삼성·하이닉스 레버리지·인버스 ETF 첫 상장 · 한국 국민성장펀드 출시"
+    ]
+  },
+  "lastUpdated": "2026-05-18T08:00:00+09:00"
+}

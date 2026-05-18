@@ -1312,37 +1312,26 @@
     ],
     "2026-05-18": [
       {
-        "type": "schedule",
-        "label": "Dell World 2026 시작 (~5/21)",
+        "type": "neutral",
+        "label": "Dell World 2026 시작",
         "color": "blue",
-        "time": "—",
-        "title": "Dell World 2026 컨퍼런스 (5/18~5/21)",
-        "description": "DELL 연례 컨퍼런스 (5/18~5/21). AI 서버 신제품 발표 가능.",
-        "ourImpact": "DELL 단기 변동성. 신제품 호재 시 주가 상승.",
+        "time": "전일",
+        "title": "🌟 Dell World 2026 컨퍼런스 시작 (~5/21) + LITE Nasdaq-100 편입 발효",
+        "description": "오늘부터 5/21까지 DELL의 연례 컨퍼런스가 열려요. LITE(루멘텀)은 오늘 Nasdaq-100 지수에 정식 편입 발효.",
+        "impact": "DELL은 AI 서버 OEM(완성 서버 제조사) — NVDA GPU를 받아 데이터센터에 납품하는 회사예요. 컨퍼런스 기간 새 라인업 발표 가능. LITE 나스닥100 편입(NDX 지수에 새로 포함되는 것)은 인덱스 자금 유입을 자극해요.",
+        "ourImpact": "보유 DELL과 LITE 직접 호재 가능. DELL은 5/29 Q1 실적 D-11 임박으로 추가 상승 후보. LITE는 5/12 +16.8% ATH 한 차례 폭등 후 차익실현 진행 중.",
         "stockImpacts": [
           {
             "ticker": "DELL",
             "tone": "positive",
-            "magnitude": "직접",
-            "text": "AI 서버 신제품 발표 가능 — 단기 모멘텀"
+            "magnitude": "+5~10% 잠재",
+            "text": "컨퍼런스 + 5/29 실적 D-11 모멘텀"
           },
           {
             "ticker": "LITE",
             "tone": "positive",
-            "magnitude": "동조",
-            "text": "AI 인프라 그룹 후광"
-          },
-          {
-            "ticker": "CLS",
-            "tone": "positive",
-            "magnitude": "동조",
-            "text": "AI 인프라 EMS 후광"
-          },
-          {
-            "ticker": "CRDO",
-            "tone": "positive",
-            "magnitude": "동조",
-            "text": "AI 데이터센터 케이블 수요"
+            "magnitude": "인덱스 유입",
+            "text": "Nasdaq-100 편입 발효 — 인덱스 펀드 자금 유입"
           }
         ]
       }
@@ -2149,5 +2138,5 @@
     ]
   },
   "realestate": {},
-  "lastUpdated": "2026-05-16T08:00:00+09:00"
+  "lastUpdated": "2026-05-18T08:00:00+09:00"
 }
