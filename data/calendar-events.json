@@ -2165,8 +2165,88 @@
           }
         ]
       }
+    ],
+    "2026-05-19": [
+      {
+        "type": "asia",
+        "label": "아시아 마감",
+        "color": "red",
+        "time": "15:30 KST",
+        "title": "🔴 코스피 -3.25% 7,271.66 폭락 — 외인 6.3조 매도·메모리 직격",
+        "description": "오늘 코스피가 -3.25% 7,271.66으로 크게 빠졌어요. 외국인이 단 하루에 6조 2,623억원을 던졌고 5월 누적으로 30조원을 넘겼어요. SK하이닉스 -5.16%·한미반도체 -9.15%·삼성전자 -1.96% 등 메모리·반도체가 직격. 환율도 1,507.8원으로 3거래일 연속 1,500선 위예요.",
+        "impact": "씨게이트 CEO 'AI 인프라 확대에 시간이 오래 걸린다'는 병목 우려 발언이 메모리 둔화 우려로 확산. 닛케이 -0.7%·항셍 -0.8%·대만 가권 -1.5% 동반 약세. 오늘 밤 22:30 KST 美 PCE 발표 D-Day + 내일 새벽 NVDA 실적 D-Day 슈퍼 트리거 주간.",
+        "ourImpact": "한국 메모리 폭락은 보유 MU·SNDK·MRVL·CRDO에 단기 부담 신호. 오늘 밤 PCE가 컨센보다 낮으면 안도 반등, 높으면 추가 매도세 가능. NVDA 실적도 다음 변동의 핵심이라 변동이 큰 흐름이 예상돼요.",
+        "stockImpacts": [
+          {
+            "ticker": "MU",
+            "tone": "negative",
+            "magnitude": "메모리 동조",
+            "text": "씨게이트 발언 → 마이크론 -5.9% 직접 영향"
+          },
+          {
+            "ticker": "SNDK",
+            "tone": "negative",
+            "magnitude": "메모리 동조",
+            "text": "샌디스크 -5.3% 美 시장서 동반 약세"
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "negative",
+            "magnitude": "반도체 직격",
+            "text": "메모리·반도체 매도세 동조 단기 부담"
+          },
+          {
+            "ticker": "CRDO",
+            "tone": "negative",
+            "magnitude": "베타 3.43",
+            "text": "PCE D-Day로 변동 가장 클 가능성"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "neutral",
+            "magnitude": "실적 D-1",
+            "text": "내일 새벽 실적 발표 — 단기 변동 ±5%"
+          },
+          {
+            "ticker": "TLN",
+            "tone": "positive",
+            "magnitude": "WTI $110대",
+            "text": "유가 추가 상승 → 천연가스 발전 마진 확대 잠재"
+          }
+        ]
+      },
+      {
+        "type": "negative",
+        "label": "美 4월 PCE D-Day",
+        "color": "amber",
+        "time": "22:30 KST",
+        "title": "★ 美 4월 PCE 발표 — Fed 가장 중요한 물가 지표 (코어 +3.0% YoY 컨센)",
+        "description": "Fed(미국 중앙은행)가 가장 신뢰하는 물가 지표 PCE가 오늘 밤 22:30 KST 발표돼요. 시장 예상치는 코어 +3.0%인데, 결과가 더 높으면 금리 인하 기대가 미뤄지면서 시장이 빠질 수 있고, 낮으면 안도 반등이 가능해요.",
+        "impact": "美 10년물 4.55% 1년래 최고권에서 결과 대기. PCE 핫쇼크 시 추가 매도세, 쿨링 시 안도 반등. 내일 새벽 NVDA Q1 FY27 실적 D-Day와 연달아 나오는 슈퍼 트리거.",
+        "ourImpact": "보유 14개(SNDK 제외) 변동이 큰 종목 베타 평균 2.1 → PCE 결과에 ±1.5~3% 단기 변동 가능. CRDO(베타 3.43)·MU·AVGO(베타 2.4대)가 가장 민감.",
+        "stockImpacts": [
+          {
+            "ticker": "CRDO",
+            "tone": "neutral",
+            "magnitude": "베타 3.43",
+            "text": "변동성 1위 — PCE 핫쇼크 시 -5% 가능"
+          },
+          {
+            "ticker": "MU",
+            "tone": "neutral",
+            "magnitude": "베타 2.43",
+            "text": "메모리 우려 + 물가 부담 이중 노출"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "neutral",
+            "magnitude": "베타 2.44",
+            "text": "반도체 그룹 동조 — 변동성 큼"
+          }
+        ]
+      }
     ]
   },
   "realestate": {},
-  "lastUpdated": "2026-05-18T08:00:00+09:00"
+  "lastUpdated": "2026-05-19T15:45:00+09:00"
 }
