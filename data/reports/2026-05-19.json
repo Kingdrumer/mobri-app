@@ -1,213 +1,493 @@
 {
   "date": "2026-05-19",
-  "title": "5월 19일 (화) 15:45 아시아 마감 라이트 — 코스피 -3.25% 7,271.66 폭락 마감(외인 6.3조원 매도·5월 누적 30조원 돌파), SK하이닉스 -5.16%·한미반도체 -9.15% 메모리 충격(씨게이트 CEO AI 인프라 병목 발언), 환율 1,507.8원·WTI $112대, 오늘 밤 美 PCE 발표 D-Day → 내일 NVDA 실적",
-  "session": "asia_close",
-  "lightUpdate": true,
-  "marketStatus": "kr_close_us_premarket_wait",
-  "tip": "오늘 코스피가 -3.25% 7,271.66으로 크게 빠졌어요. 외국인이 하루에만 6조 2,623억원어치를 던졌고 5월 누적으로는 30조원을 넘겼어요. 씨게이트 CEO가 'AI 데이터센터 늘리는 데 시간이 오래 걸린다(병목)'고 말한 게 메모리 둔화 우려로 번지면서 SK하이닉스 -5.16%·한미반도체 -9.15% 폭락. 오늘 밤 미국 PCE(물가 지표) + 내일 새벽 NVDA 실적이 연달아 나오는 슈퍼 트리거 주간이에요.",
+  "title": "5월 19일 (화) 08:00 풀 모닝브리핑 — 어젯밤 美 양극화 (다우 +0.32% 반등 vs 나스닥 -0.51% 2일 연속 매도), 메모리·옵틱스 폭락 (CRDO -10.62%·LITE -8.83%·MU -5.95%) — 5/19 PCE D-Day · 5/20 NVDA 실적 D-1 트리거",
+  "session": "morning",
+  "lightUpdate": false,
+  "marketStatus": "us_closed_kr_open_morning",
+  "tip": "오늘 화요일은 5/19 PCE D-Day, 5/20 NVDA 실적 D-1로 이번 주 가장 변동 큰 구간이에요. 어젯밤 美 양극화 마감으로 메모리(MU -5.95%)·옵틱스(LITE -8.83%·CRDO -10.62%)가 보유 종목 중 가장 큰 낙폭이고, GOOG +1.21% · SNDK 보합 · AMZN 보합만 강세 유지했어요. 오늘 밤 21:30 KST PCE 결과가 컨센(코어 +2.5%) 하회 시 단기 반등 후보, 상회 시 추가 매도 가능. 큰 결정은 5/20 NVDA 결과 발표 이후가 안전해요.",
   "marketSummary": {
     "us": {
       "dow": {
-        "close": 49526.17,
-        "change": -1.07,
-        "changePoint": -537.29,
-        "note": "5/18 기준 — 오늘 밤 22:30 KST 정규장 재개. PCE 결과 + NVDA 실적 D-1로 변동성 예상"
+        "close": 49686.12,
+        "change": 0.32,
+        "changePoint": 159.95,
+        "note": "다우 +0.32% 반등 — 에너지·소비재·금융 견조, 기술주 약세 차별화"
       },
       "sp500": {
-        "close": 7408.5,
-        "change": -1.24,
-        "note": "5/18 기준 — ATH 후퇴 상태 유지. PCE 컨센 코어 +3.0% YoY"
+        "close": 7403.05,
+        "change": -0.07,
+        "changePoint": -5.45,
+        "note": "S&P 500 -0.07% 2거래일 연속 약세 — 기술주 매도가 다른 섹터 상승 상쇄"
       },
       "nasdaq": {
-        "close": 26225.14,
-        "change": -1.54,
-        "note": "5/18 기준 — 메모리·반도체 매도세 지속, 오늘 밤 PCE 결과로 방향 결정"
+        "close": 26090.73,
+        "change": -0.51,
+        "changePoint": -134.41,
+        "note": "나스닥 -0.51% 약세 — 기술주 -2% 가까운 매도, 메모리·옵틱스 가장 큰 낙폭"
       },
       "vix": {
-        "close": 19.0,
-        "change": 1.21,
-        "note": "공포지수 19선 유지 — PCE D-Day·NVDA 실적 D-1 경계"
+        "close": 17.81,
+        "change": -3.36,
+        "note": "공포지수 17.81로 -3.36% 하락 — 다우 반등 + 사우디 이란 협상 진전 보도로 안정"
       },
       "wti": {
-        "close": 110.5,
-        "change": 4.7,
-        "note": "WTI 7월물 $110대 진입 — 호르무즈 봉쇄 지속·브렌트유 $112.10 도달"
+        "close": 106.22,
+        "change": 0.76,
+        "note": "WTI $106.22 +0.76% — 장중 $108 돌파 후 美 이란 사우디 협상 진전 보도로 후퇴"
       },
       "us10y": {
-        "close": 4.55,
-        "change": 0.0,
-        "note": "1년래 최고 부근 — 오늘 밤 PCE 결과로 큰 변동 가능"
+        "close": 4.6,
+        "change": 0.05,
+        "note": "美 10년물 4.60% 1년래 최고 갱신 — 인플레 우려 + 트럼프 이란 화요일 공격 보류 후 안도 일부"
       }
     },
     "afterHoursEarnings": {}
   },
   "asiaSummary": {
     "kospi": {
-      "close": 7271.66,
-      "change": -3.25,
-      "changePoint": -244.38,
-      "note": "외국인 6조 2,623억원 단일 일 순매도 폭격 — 5월 누적 30조원 돌파. 개인 +5조 6,309억·기관 매수에도 흡수 불가. 7,200선까지 후퇴"
+      "close": null,
+      "change": -3.5,
+      "note": "5/19 09:30 KST 코스피 -3.5% 7,249.73 부근 약세 — 美 정규장 기술주 매도 동조 + Iran 우려 잔존 (코스피 정규 마감 전 라이브 수치)"
     },
     "kosdaq": {
-      "change": -2.41,
-      "note": "코스닥 동반 큰 폭 약세 — 중소형 반도체·로봇 관련주 매도 집중"
+      "close": null,
+      "change": -2.8,
+      "note": "5/19 코스닥 동반 약세 — 중소형 기술주 매도"
     },
     "nikkei225": {
-      "change": -0.7,
-      "note": "일본 닛케이 약세 마감 — 메모리·반도체 매도세 동조"
+      "close": null,
+      "change": -0.64,
+      "note": "日 닛케이225 -0.64% 60,433.79 — 美 기술주 매도 동조"
     },
     "topix": {
-      "change": -0.6,
+      "change": -0.5,
       "note": "TOPIX 동반 약세"
     },
     "hangseng": {
-      "change": -0.8,
-      "note": "홍콩 항셍 약세 — 중동 리스크 + 美 PCE 경계 + 반도체 매도 동조"
+      "close": 25811.28,
+      "change": 0.5,
+      "note": "홍콩 항셍 +0.50% 25,811.28 — 中 본토 자금 유입, 아시아 차별화"
     },
-    "twseTaiex": {
-      "change": -1.5,
-      "note": "대만 가권 큰 폭 약세 — TSMC·반도체 동반 매도, 마이크론 -5.9% 영향"
+    "samsungLive": {
+      "price": null,
+      "change": -3.8,
+      "note": "5/19 오전 삼성전자 -3.8% — 美 메모리 매도(MU -5.95%) 직격, 5/21 총파업 D-2 우려"
+    },
+    "skHynixLive": {
+      "price": null,
+      "change": -4.0,
+      "note": "5/19 오전 SK하이닉스 -4.0% — HBM 글로벌 1위지만 NVDA 실적 D-1 대기 매물 + 메모리 동반 매도"
     },
     "usdkrw": {
-      "close": 1507.8,
-      "change": 7.5,
-      "note": "1,507.8원 3거래일 연속 1,500선대 — 외인 환차손 부담으로 매도 가속"
+      "close": 1501.36,
+      "change": 0.8,
+      "note": "원/달러 1,501.36원 +0.80% — 1,500선 위 정착, 외국인 환차손 부담"
     },
-    "foreignFlow": {
-      "kospiNetSell": -6262300000000,
-      "note": "외국인 코스피 6조 2,623억원 단일 일 순매도 폭격 (9거래일 연속·5월 누적 30조원 돌파). 개인 +5조 6,309억·기관 매수도 흡수 불가"
+    "wtiAsia": {
+      "value": 106.22,
+      "change": 0.0,
+      "note": "WTI $106.22대 안정 — 美 이란 협상 진전 보도로 추가 상승 제동"
+    }
+  },
+  "stockSnapshot": {
+    "GOOG": {
+      "price": 398.07,
+      "change1D": 1.21,
+      "change1W": 4.84,
+      "change1M": 33.65,
+      "changeYTD": 29.06,
+      "note": "5/18 +1.21% $398.07 — 다우 반등 동조, 빅테크 중 유일한 강세 마감, 검색·클라우드 캐시카우 매력 부각"
     },
-    "samsungClose": {
-      "price": 275500,
-      "change": -1.96,
-      "note": "장중 +실적 강세도 마감 직전 매물 출회로 -1.96% 27.55만원. 5/21 노조 총파업 D-2 부담 + 메모리 섹터 매도 동조"
+    "META": {
+      "price": 610.13,
+      "change1D": -0.67,
+      "change1W": 1.13,
+      "change1M": 12.4,
+      "changeYTD": -5.62,
+      "note": "5/18 -0.67% $610.13 — 빅테크 약세 동조이나 광고 매출 기반이 매크로 충격 완충"
     },
-    "skHynixClose": {
-      "price": 1745000,
-      "change": -5.16,
-      "note": "씨게이트 CEO AI 인프라 병목 발언에 메모리 둔화 우려 확산 — 174.5만원 큰 폭 하락. JP모건 PT 300만원 호재 흡수 못함"
+    "AMZN": {
+      "price": 264.14,
+      "change1D": 0.0,
+      "change1W": -0.92,
+      "change1M": 31.2,
+      "changeYTD": 15.24,
+      "note": "5/18 보합 $264.14 — 클라우드 백로그 견조 vs 보복관세 우려 균형"
     },
-    "hanmiSemiClose": {
-      "change": -9.15,
-      "note": "한미반도체 -9.15% 큰 폭 하락 — HBM 본딩 장비주 직격. 곽동신 회장 80억원 자사주 추가 매입 계획 발표에도 매도세 지속"
+    "NVDA": {
+      "price": 222.32,
+      "change1D": -1.33,
+      "change1W": 7.95,
+      "change1M": 23.47,
+      "changeYTD": 25.09,
+      "note": "5/18 -1.33% $222.32 — 5/20 분기 실적 D-1 매물 + China H200 매출 정체 보도 매도 가속"
     },
-    "hyundaiMotor": {
-      "change": -8.9,
-      "note": "현대차 -8.90% 로봇 모멘텀 훼손 + 자동차 관세 우려 동반"
+    "TSM": {
+      "price": 393.43,
+      "change1D": -2.7,
+      "change1W": 4.84,
+      "change1M": 32.62,
+      "changeYTD": 35.16,
+      "note": "5/18 -2.70% $393.43 — 반도체 동반 매도, 대만 가권 -1.02% 약세 동조"
     },
-    "sidecar": "오늘은 사이드카 발동 없음 — 단일 종목 충격이 아닌 지수 전반 매도세",
-    "usFutures": {
-      "es": {
-        "value": 7405,
-        "change": -0.05,
-        "note": "S&P 500 선물 보합권 — 오늘 밤 PCE 결과 대기, 큰 움직임은 결과 후"
-      },
-      "nq": {
-        "value": 25025,
-        "change": -0.4,
-        "note": "나스닥 100 선물 -0.4% 약세 — 메모리 칩 매도세 + NVDA 실적 D-1 경계"
-      }
+    "AVGO": {
+      "price": 420.71,
+      "change1D": -1.05,
+      "change1W": 4.78,
+      "change1M": 22.04,
+      "changeYTD": 22.34,
+      "note": "5/18 -1.05% $420.71 — 반도체 매도 속 비교적 작은 낙폭, NVDA 실적 동조 대기"
+    },
+    "MU": {
+      "price": 681.54,
+      "change1D": -5.95,
+      "change1W": 9.59,
+      "change1M": 22.46,
+      "changeYTD": 156.21,
+      "note": "5/18 -5.95% $681.54 — 메모리 밸류에이션 우려 + AI 랠리 차익실현, 단일 최대 낙폭"
+    },
+    "MRVL": {
+      "price": 168.93,
+      "change1D": -4.5,
+      "change1W": -3.04,
+      "change1M": 8.49,
+      "changeYTD": 90.01,
+      "note": "5/18 -4.50% $168.93 — 데이터센터 인터커넥트주 동반 매도, 베타 2.34 변동 반영"
+    },
+    "AMD": {
+      "price": 420.99,
+      "change1D": -0.73,
+      "change1W": 7.97,
+      "change1M": 6.95,
+      "changeYTD": 109.93,
+      "note": "5/18 -0.73% $420.99 — 반도체 약세 속 비교적 선방, NVDA 실적 동조 대기"
+    },
+    "SNDK": {
+      "price": 1407.61,
+      "change1D": 0.0,
+      "change1W": 5.45,
+      "change1M": 35.95,
+      "changeYTD": 504.89,
+      "note": "5/18 보합 $1407.61 — 메모리 매도 회피 단독 강세 유지, 보유 종목 중 가장 안정적 흐름"
+    },
+    "DELL": {
+      "price": 238.03,
+      "change1D": -1.64,
+      "change1W": 1.92,
+      "change1M": 27.95,
+      "changeYTD": 95.69,
+      "note": "5/18 -1.64% $238.03 — Dell World 2026 컨퍼런스 시작이지만 반도체 동반 매도, 5/29 Q1 실적 D-11 대기"
+    },
+    "LITE": {
+      "price": 884.98,
+      "change1D": -8.83,
+      "change1W": -25.36,
+      "change1M": 7.91,
+      "changeYTD": 101.84,
+      "note": "5/18 -8.83% $884.98 — Nasdaq-100 편입 발효일에도 오히려 매도 폭발, 옵틱스 섹터 차익실현 + 8.8% 하락"
+    },
+    "CLS": {
+      "price": 345.73,
+      "change1D": -3.58,
+      "change1W": -13.21,
+      "change1M": 14.46,
+      "changeYTD": 15.64,
+      "note": "5/18 -3.58% $345.73 — AI 인프라 EMS 동반 매도, 베타 2.42 큰 변동 반영"
+    },
+    "CRDO": {
+      "price": 153.89,
+      "change1D": -10.62,
+      "change1W": -10.62,
+      "change1M": 17.93,
+      "changeYTD": 18.93,
+      "note": "5/18 -10.62% $153.89 — 보유 종목 최대 낙폭, 베타 3.43 변동 폭발, 옵틱스 매도 + AI 차익실현 동시 충격"
+    },
+    "TLN": {
+      "price": 329.8,
+      "change1D": -1.33,
+      "change1W": -3.04,
+      "change1M": -0.83,
+      "changeYTD": -4.46,
+      "note": "5/18 -1.33% $329.80 — WTI $106대 안정 + 美 이란 협상 진전 보도로 전력주 매력 일시 후퇴"
     }
   },
   "news": [
     {
-      "category": "아시아 증시",
-      "headline": "코스피 -3.25% 7,271.66 폭락 마감 — 외국인 단일일 6.3조원 매도 폭격, 5월 누적 30조원 돌파",
-      "oneLineSummary": "오늘 코스피가 -3.25% 7,271.66으로 크게 빠졌어요. 외국인이 단 하루에 6조 2,623억원어치 주식을 던졌는데, 5월 한 달 누적으로는 30조원을 넘겼어요. 개인이 5조 6,309억원, 기관도 6,000억원 넘게 받아냈지만 매도 규모가 너무 커서 지수를 받치지 못했어요. 환율도 1,507.8원으로 3일 연속 1,500선 위에 있어요.",
-      "summary": "5/19 KOSPI 종가 7,271.66(-244.38p·-3.25%) — 외국인 6조 2,623억원 단일 일 순매도(9거래일 연속·5월 누적 30조원 돌파). 개인 +5조 6,309억·기관 +수천억 매수도 흡수 불가. KOSDAQ -2.41% 동반 약세. 환율 1,507.8원(+7.5원) 3거래일 연속 1,500선대. 한투證 분석: 외인 매도 강도가 단기 정점이거나 약화 시점 진입 가능.",
-      "ourImpact": "한국 반도체 폭락 분위기는 보유 메모리·반도체 종목(NVDA·AVGO·MU·MRVL·SNDK·CRDO·LITE·TSM)에도 단기 부담이에요. 오늘 밤 美 PCE 결과 + 내일 새벽 NVDA 실적이 연달아 나오는 슈퍼 트리거 주간이라 변동이 큰 흐름이 예상돼요. 가격 흐름만 가볍게 지켜보면 좋아요.",
+      "category": "미국 증시",
+      "headline": "S&P 500 -0.07%·나스닥 -0.51% 2거래일 연속 약세 — 기술주 -2% 매도, 다우 +0.32% 차별화 반등",
+      "oneLineSummary": "어젯밤 미국 증시는 양극화 마감했어요. 다우는 +0.32% 49,686.12로 반등했지만, 나스닥은 -0.51% 26,090.73로 떨어지고 S&P 500도 -0.07% 7,403.05로 2거래일 연속 후퇴했어요. 기술주 섹터가 -2% 가까이 매도되면서 메모리·옵틱스가 가장 큰 낙폭을 보였고, 에너지·소비재·금융이 다우 반등을 지지했어요.",
+      "summary": "5/18 美 다우 49,686.17(+0.32%, +159.95p)·S&P 7,403.05(-0.07%)·나스닥 26,090.73(-0.51%) 양극화. 美 10년물 4.60% 1년래 최고 갱신 + 5/20 NVDA 실적 D-1 대기 매물이 기술주 매도 가속. WTI $106.22(+0.76%) 장중 $108 돌파 후 美 이란 사우디 협상 진전 보도로 후퇴. VIX 17.81(-3.36%) 다우 반등에 안도 일부.",
+      "ourImpact": "보유 15종목 중 11종목 약세, GOOG +1.21% 단독 강세 + SNDK·AMZN 보합. 메모리·옵틱스가 가장 큰 낙폭 — MU -5.95%·LITE -8.83%·CRDO -10.62%. 5/20 NVDA 실적 D-1 대기 매물이 단기 변동 큰 원인이에요. 결과 발표 후 변동이 크게 다시 흔들릴 가능성이 높아요.",
       "impact": "negative",
       "sources": [
         {
-          "name": "뉴시스 코스피 종가 (5/19)",
-          "url": "https://n.news.naver.com/mnews/article/003/0013954648?sid=101"
+          "name": "TheStreet (5/18 마감)",
+          "url": "https://www.thestreet.com/latest-news/stock-market-today-may-18-2026-updates"
         },
         {
-          "name": "신아일보 마감시황 (5/19)",
-          "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5022472"
+          "name": "CNBC Markets (5/18)",
+          "url": "https://www.cnbc.com/2026/05/18/stock-market-today-live-updates.html"
         }
       ]
     },
     {
-      "category": "아시아 증시",
-      "headline": "日 닛케이 -0.7%·홍콩 항셍 -0.8%·대만 가권 -1.5% 동반 약세 — 메모리 우려 + PCE 경계",
-      "oneLineSummary": "오늘 일본 닛케이는 -0.7%, 홍콩 항셍은 -0.8%, 대만 가권은 -1.5%로 아시아 주요 시장이 동반 약세로 마감했어요. 미국 씨게이트 CEO의 AI 인프라 병목 발언으로 메모리 둔화 우려가 번지면서 마이크론(-5.9%)·샌디스크(-5.3%) 같은 반도체 회사들이 흔들렸고, 오늘 밤 미국 PCE 발표 경계까지 겹치면서 아시아 전반이 위축됐어요.",
-      "summary": "5/19 아시아 동반 약세 — 닛케이225 -0.7%·TOPIX -0.6%·항셍 -0.8%·대만 가권 -1.5%. 미국 씨게이트 CEO의 AI 인프라 병목 우려 발언에 메모리 섹터가 직격 — 마이크론 -5.9%·샌디스크 -5.3% 약세. 오늘 밤 22:30 KST 美 4월 PCE 발표(코어 +3.0% YoY 컨센) + 내일 새벽 NVDA Q1 FY27 실적 발표 D-Day 경계 분위기.",
-      "ourImpact": "메모리 둔화 우려는 보유 종목 중 MU·SNDK·MRVL·CRDO에 직접 영향이에요. 오늘 밤 PCE가 컨센보다 낮으면 시장이 안도 반등할 수 있고, 높으면 추가 매도세가 나올 수 있어요. NVDA 실적도 다음 변동의 핵심이라 흐름만 지켜보면 좋아요.",
+      "category": "미국 증시",
+      "headline": "美 10년 국채 4.60% 1년래 최고 갱신 — 인플레 우려 + Iran 잔존 변수",
+      "oneLineSummary": "미국 10년 국채 금리가 4.60%로 1년래 최고를 다시 갱신했어요. 인플레가 다시 오를 수 있다는 우려에 더해, 트럼프 대통령이 화요일로 예정했던 이란 공격을 잠시 미루면서 안도감이 일부 반영됐어요. 다만 호르무즈 해협이 사실상 닫혀 있는 상황이라 유가 부담은 그대로예요.",
+      "summary": "美 10년물 4.60%(+5bp) 1년래 최고 갱신. 4월 PCE D-1(5/19 발표 예정) 경계심리 + 트럼프 이란 화요일 공격 보류 발표 후 안도 일부. 호르무즈 해협 사실상 폐쇄 지속(IEA 상업 원유 재고 빠른 소진 경고). 비싼 기술주 부담이 다시 커지면서 메모리·옵틱스 단일 종목 매도가 두 자릿수까지 확대.",
+      "ourImpact": "베타 2.0 이상 8개 종목(CRDO·MU·SNDK·MRVL·CLS·LITE·NVDA·AVGO)이 가장 민감해요. 어제 CRDO -10.62%·LITE -8.83%·MU -5.95%·MRVL -4.50%·CLS -3.58% 등 베타 큰 순서대로 낙폭 발생. 5/19 PCE 결과에 따라 추가 흔들림 예상돼요.",
       "impact": "negative",
       "sources": [
         {
-          "name": "뉴스1 한미반도체 11%↓ (5/19)",
-          "url": "https://n.news.naver.com/mnews/article/421/0008953440?sid=101"
+          "name": "CNBC Oil (5/18)",
+          "url": "https://www.cnbc.com/2026/05/18/oil-today-brent-wti-iran-trump-hormuz-iea-supply-crude-.html"
+        },
+        {
+          "name": "TheStreet (5/18)",
+          "url": "https://www.thestreet.com/latest-news/stock-market-today-may-18-2026-updates"
         }
       ]
     },
     {
       "category": "개별 종목",
-      "headline": "SK하이닉스 -5.16% 1,745,000원·한미반도체 -9.15% — 씨게이트 CEO AI 인프라 병목 발언에 메모리 직격",
-      "oneLineSummary": "오늘 SK하이닉스가 -5.16% 174.5만원, 한미반도체가 -9.15%로 크게 빠졌어요. 세계 최대 하드디스크 회사 씨게이트의 CEO가 'AI 데이터센터 만드는 공장과 장비 늘리는 데 시간이 오래 걸린다'고 말한 게 'AI 성장이 둔화될 수 있다'는 우려로 번졌어요. JP모건이 SK하이닉스 목표가를 300만원으로 올렸지만 분위기가 워낙 나빠 받치지 못했어요.",
-      "summary": "5/19 SK하이닉스 종가 1,745,000원(-5.16%)·한미반도체 -9.15%·SK스퀘어 -6.68%. JP모건 컨퍼런스에서 씨게이트 CEO 'AI 인프라 확대 병목' 발언이 메모리 업황 둔화 우려로 확산 — 한미반도체 곽동신 회장 80억원 자사주 추가 매입 계획 호재도 흡수 못함. 삼성전자도 -1.96% 275,500원 약세 — 5/21 노조 총파업 D-2 부담 가중.",
-      "ourImpact": "한국 메모리 폭락은 보유 MU(마이크론)·SNDK(샌디스크)·MRVL(마벨)·CRDO(크레도)에 단기 부담 신호예요. 다만 내일 새벽 NVDA 실적이 강하게 비트하면 메모리 슈퍼사이클이 다시 확인되면서 빠른 되돌림도 가능해요. 변동이 큰 흐름이 예상돼요.",
-      "impact": "negative",
+      "headline": "메모리·옵틱스 폭락 — MU -5.95%·LITE -8.83%·CRDO -10.62% 보유 종목 최대 낙폭",
+      "oneLineSummary": "어젯밤 보유 15개 중 메모리·옵틱스 종목들이 가장 크게 떨어졌어요. CRDO(크레도)는 -10.62%로 보유 종목 중 최대 낙폭, LITE(루멘텀)는 Nasdaq-100 편입 발효일에도 오히려 -8.83% 폭락, MU(마이크론)는 -5.95% 약세였어요. 5/20 NVDA 실적 D-1 대기 매물 + AI 랠리 차익실현이 베타 큰 종목들에 집중됐어요.",
+      "summary": "5/18 보유 메모리·옵틱스 단일 매도 — CRDO $153.89(-10.62%)·LITE $884.98(-8.83%)·MU $681.54(-5.95%)·MRVL $168.93(-4.50%)·CLS $345.73(-3.58%). LITE는 Nasdaq-100 편입 발효일에도 오히려 매도 발생 — 'buy the rumor, sell the news' 차익실현. CRDO는 베타 3.43 변동 폭발로 단일 최대 낙폭.",
+      "ourImpact": "변동이 큰 종목들이 한꺼번에 밀린 매도세예요. 5/20 NVDA 실적 결과에 따라 빠른 반등 또는 추가 매도가 결정될 거예요. 컨센 비트(매출 +78% 이상) 시 +5~10% 빠른 반등 후보. 미스 시 추가 -3~5% 약세 가능. 5/19 PCE·5/20 NVDA가 변동의 분수령이에요.",
+      "impact": "warning",
       "sources": [
         {
-          "name": "서울경제 외인 9일 연속 매도 (5/19)",
-          "url": "https://n.news.naver.com/mnews/article/011/0004622403?sid=101"
+          "name": "Motley Fool MU (5/18)",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/05/18/stock-market-today-may-18-micron-falls-as-memory-concerns-test-ai-rally/"
         },
         {
-          "name": "뉴데일리경제 노사분쟁 (5/19)",
-          "url": "https://biz.newdaily.co.kr/site/data/html/2026/05/19/2026051900214.html"
+          "name": "GuruFocus LITE (5/18)",
+          "url": "https://www.gurufocus.com/news/8867283/lumentum-holdings-inc-lite-shares-fall-88-gf-value-says-still-overvalued"
+        }
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "NVDA 5/20 분기 실적 D-1 — 컨센 매출 $78B(+78%)·Q2 가이던스 $86B 상회 여부 핵심",
+      "oneLineSummary": "내일 5/20 NVIDIA 분기 실적 발표가 미국 증시 최대 단일 이벤트예요. 컨센서스(시장 평균 예상)는 매출 $78B로 전년 대비 +78% 증가, EPS $1.77예요. 그런데 결과보다 더 중요한 건 Q2 가이던스(다음 분기 안내)예요. Q2 컨센은 $86.08B인데, 이 수치 이상으로 안내해야 시장이 안도해요. 옵션 시장은 ±8~10% 변동을 가격에 반영하고 있어요.",
+      "summary": "5/20 (수) 05:00 KST(현지 시각 5/20 오후) NVDA Q1 FY27 실적 발표 — 컨센 매출 $78B(가이던스 ±2% 상회 필요)·EPS $1.77·데이터센터 매출 $73B·Q2 가이던스 컨센 $86.08B. 옵션 시장 ±8~10% 변동 반영. 최근 6분기 매출 3~4% 비트 했지만 발표일 종가는 4번 하락 — 가이던스·中 코멘트·총마진이 가장 큰 변수.",
+      "ourImpact": "NVDA 자체 ±5% 가능 + 동반 TSM·AVGO·MRVL·MU·AMD ±2~3% 동조 가능. 컨센 비트 + Q2 가이던스 $86B 상회 시 보유 반도체 7종목 단기 +5~10% 반등 후보. 미스 시 -5~8% 추가 약세 가능. 큰 매수·매도는 결과 발표 이후가 권장돼요.",
+      "impact": "warning",
+      "sources": [
+        {
+          "name": "HeyGoTrade NVDA Preview",
+          "url": "https://www.heygotrade.com/en/blog/nvidia-q1-fy27-earnings-preview-may-20-2026/"
+        },
+        {
+          "name": "TECHi NVDA Q2 Guide",
+          "url": "https://www.techi.com/nvda-earnings-may-20-q2-beat/"
         }
       ]
     },
     {
       "category": "정책·금리",
-      "headline": "오늘 밤 22:30 KST 美 4월 PCE 발표 D-Day — 코어 +3.0% YoY 컨센, Fed 가장 중요한 물가 지표",
-      "oneLineSummary": "오늘 밤 10시 30분(KST) 미국이 4월 PCE(개인소비지출 물가) 지표를 발표해요. 시장이 예상하는 코어 PCE는 +3.0%인데, 이게 Fed(미국 중앙은행)가 가장 신경 쓰는 물가 지표예요. 결과가 예상보다 높으면 금리 인하 기대가 미뤄지면서 시장이 빠질 수 있고, 낮으면 안도 반등이 가능해요.",
-      "summary": "5/19 22:30 KST 美 4월 PCE 발표 — 코어 +3.0% YoY 컨센. Fed가 가장 신뢰하는 물가 지표로 결과에 따라 금리 정책 경로가 결정됨. 美 10년물 4.55% 1년래 최고권에서 결과 대기 중. PCE 핫쇼크 시 추가 매도세 가능, 쿨링 시 안도 반등 가능. 워시 의장 첫 노트 + 내일 NVDA 실적 D-Day로 슈퍼 트리거 주간.",
-      "ourImpact": "PCE 결과가 보유 14개(SNDK 제외 변동이 큰 종목) 베타 평균 2.1에 비례해서 ±1.5~3% 단기 변동을 만들 수 있어요. CRDO(베타 3.43)·MU·AVGO(베타 2.4대)는 가장 민감해서 변동이 클 가능성이 있어요. 결과 발표 직후 가격 흐름만 가볍게 지켜보면 좋아요.",
+      "headline": "5/19 美 4월 PCE 발표 D-Day — 코어 PCE 컨센 +2.5% YoY, 인플레 정점 통과 검증",
+      "oneLineSummary": "오늘 밤 5/19 21:30 KST 미국 4월 PCE(개인소비지출 물가지수)가 발표돼요. Fed가 가장 신뢰하는 물가 지표예요. 헤드라인 컨센은 전년 대비 +2.2%, 코어 PCE는 +2.5%로 3월 +2.6%보다 약간 낮을 거라 예상돼요. 결과가 컨센보다 낮으면 인플레 정점 통과 확신이 강해지고 기술주 반등 가능. 높으면 추가 매도 압박이 예상돼요.",
+      "summary": "5/19 21:30 KST 美 4월 PCE 발표 예정 — 헤드라인 컨센 +2.2% YoY(3월 2.3%)·코어 PCE 컨센 +2.5% YoY(3월 2.6%). 4월 CPI 3.8% 컨센 상회 + 유가 +17.9%(에너지 상승) + 호르무즈 폐쇄로 인한 압력에도, 모건스탠리·Morningstar는 PCE는 컨센 하회 또는 매치 가능성 분석. Fed Funds 3.50~3.75% 유지 중(워시 신임 의장 첫 분기).",
+      "ourImpact": "PCE가 컨센 하회 시 보유 14종목(SNDK 제외) 단기 +2~4% 반등 후보. 컨센 상회 시 베타 2.0+ 8종목 추가 -3~5% 약세 가능. 어제 CRDO -10.62%·LITE -8.83% 큰 낙폭 후 결과에 따라 빠른 반등 또는 추가 매도. 큰 결정은 결과 확인 후가 안전해요.",
+      "impact": "warning",
+      "sources": [
+        {
+          "name": "Morningstar PCE Forecast",
+          "url": "https://www.morningstar.com/economy/forecasts-april-pce-report-show-another-good-month-inflation"
+        },
+        {
+          "name": "BEA PCE Data",
+          "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+        }
+      ]
+    },
+    {
+      "category": "정책·금리",
+      "headline": "Home Depot 5/19 분기 실적 발표 — 컨센 EPS $3.41(-4.2%)·매출 +4.4%, 美 주택 시장 진단",
+      "oneLineSummary": "오늘 5/19 미국 시장 개장 전 Home Depot(홈디포) 분기 실적이 발표돼요. EPS는 컨센 $3.41로 전년 대비 -4.2% 감소 예상이지만, 매출은 +4.4% 증가가 컨센이에요. 美 주택 시장(높은 모기지 금리로 부진)을 가늠하는 핵심 지표라 시장 영향이 클 수 있어요. 옵션 시장은 ±5.09% 변동을 반영하고 있어요.",
+      "summary": "5/19 美 개장 전 Home Depot Q1 실적 — 컨센 EPS $3.41(전년 -4.2%)·매출 $41.6B(+4.4%). 주택 시장 高금리 부담으로 HD 주가 1년간 -21% 부진. Pro(전문 시공) vs DIY 매출 차별화가 핵심 변수 — Q4 Pro 매출 플러스 전환 + DIY 능가 보고. 옵션 시장 ±5.09% 변동 반영.",
+      "ourImpact": "보유 종목 직접 영향은 없어요. 다만 美 소비 사이클(주택·내구재) 둔화 신호 시 빅테크 광고 매출 압박 가능 — GOOG·META 간접 부담. 강세 시 미국 경제 견조 신호로 시장 전반 안도. 단기 영향은 제한적이지만 매크로 진단 지표로 주목.",
       "impact": "neutral",
       "sources": [
         {
-          "name": "Polinews 오늘의 증시 (5/19)",
-          "url": "https://www.polinews.co.kr/news/articleView.html?idxno=731678"
+          "name": "TipRanks HD Preview",
+          "url": "https://www.tipranks.com/news/home-depot-is-about-to-report-q1-earnings-on-may-19-here-is-what-to-expect-from-hd-stock"
+        }
+      ]
+    },
+    {
+      "category": "아시아 증시",
+      "headline": "코스피 5/19 오전 -3.5% 7,249선 약세 — 美 기술주 매도 + Iran 우려 동조",
+      "oneLineSummary": "오늘 5/19 코스피가 개장 직후 -4% 가까이 빠지면서 점심까지 -3.5% 7,249.73 부근에서 거래되고 있어요. 어젯밤 美 기술주 -2% 매도 직격이고, 삼성전자가 -3.8%, SK하이닉스가 -4% 동반 약세예요. 코스피 정규 마감(15:30)까지 변동이 더 있을 수 있어요.",
+      "summary": "5/19 오전 KOSPI -3.5% 7,249.73대 약세(라이브) — 美 기술주 매도 + Iran 우려 + 5/21 삼성 총파업 D-2 우려. 삼성전자 -3.8%·SK하이닉스 -4% 메모리 양사 동반 약세. KOSDAQ 동반 약세 추정. 日 닛케이225 -0.64% 60,433.79·홍콩 항셍 +0.50% 25,811.28 — 아시아 차별화. 원/달러 1,501.36원(+0.80%) 1,500선 위 정착.",
+      "ourImpact": "한국 주식 미보유라 직접 영향은 없지만, 메모리(삼성·하이닉스) 동반 약세는 MU·SNDK 단기 부담 신호예요. SNDK는 어제 美 보합 마감으로 회피했지만 5/19 정규장(22:30 KST 재개) 변동 가능. 환율 1,500원 위 정착으로 외국인 환차손 부담 지속.",
+      "impact": "negative",
+      "sources": [
+        {
+          "name": "Business Upturn (5/19)",
+          "url": "https://www.businessupturn.com/finance/stock-market/asian-markets-updates-today-may-19-kospi-drops-4-11-nikkei-down-0-64-asx-200-up-0-97"
+        },
+        {
+          "name": "ClickOrlando AP (5/19)",
+          "url": "https://www.clickorlando.com/business/2026/05/19/asian-shares-trade-mixed-and-kospi-falls-nearly-4-as-oil-prices-keep-swinging/"
+        }
+      ]
+    },
+    {
+      "category": "아시아 증시",
+      "headline": "5/21 삼성전자 총파업 D-2 — JP모건 영업이익 21~31조원 타격 예상",
+      "oneLineSummary": "5/21(목)부터 삼성전자 노조가 18일간 총파업에 들어가요. 약 41,000명 참여 의사 표명, 최대 50,000명까지 확대 가능성 있어요. 노사 협상이 5/12 17시간 마라톤 협상에도 결렬됐어요. JP모건은 영업이익 21~31조원($14.08~$20.79B) 타격을 예상하고 있어요.",
+      "summary": "5/21~6/7 삼성전자 노조 18일 총파업 확정 — 참여 41,000+(최대 50,000) 명. 5/11~12 노동부 중재 협상 결렬(17시간 마라톤). 핵심 쟁점: 성과급 상한 폐지·영업이익 15% 성과급 배분·고용계약 명시. JP모건 영업이익 21~31조원 타격 예상. 한국 정부 비상 회의 소집.",
+      "ourImpact": "한국 주식 미보유라 직접 영향은 없지만, 삼성 메모리·반도체 생산 차질 시 글로벌 메모리 공급 부족 발생. 메모리 가격 상승 → MU·SNDK 단기 호재 가능. 다만 5/20 NVDA 실적이 최대 변수라 파업 영향은 5/22부터 본격 반영. 5/22 삼성·하이닉스 레버리지·인버스 ETF 첫 상장도 동시 변수.",
+      "impact": "warning",
+      "sources": [
+        {
+          "name": "Tom's Hardware (5/13)",
+          "url": "https://www.tomshardware.com/tech-industry/samsungs-last-ditch-union-talks-collapse-eight-days-before-planned-18-day-chip-factory-strike"
+        },
+        {
+          "name": "HR Online (5/12)",
+          "url": "https://www.humanresourcesonline.net/negotiations-break-down-samsung-electronics-union-to-stage-strike-as-planned-on-21-may-2026"
         }
       ]
     },
     {
       "category": "글로벌·지정학",
-      "headline": "WTI 7월물 브렌트유 $112.10·WTI $110대 — 호르무즈 봉쇄 지속·美 비축유 바닥 우려",
-      "oneLineSummary": "국제 유가가 다시 크게 올랐어요. 미국 대표 원유 가격(WTI)이 배럴당 $110대, 영국 북해 브렌트유 7월물은 $112.10까지 올라왔어요. 이스라엘이 이란을 공격한 뒤 전 세계 원유의 20%가 지나가는 호르무즈 해협이 사실상 막혔고, 미국 비축유도 거의 바닥나서 트럼프 대통령도 '진퇴양난'이라는 분석이 나와요.",
-      "summary": "5/18(현지시간) 美 7월물 브렌트유 $112.10·6월물 WTI 상승. 美·이스라엘 이란 공격 이후 호르무즈 해협(전세계 원유 20% 통로) 봉쇄 지속 — 美 비축유도 바닥권 진입. 트럼프 대통령 '진퇴양난' 분석 부각. 3월 말 이래 WTI 누적 +20%대 상승, 환율 1,507.8원 동반 부담.",
-      "ourImpact": "유가 추가 상승은 TLN(텔런 에너지·천연가스 발전)에 단기 호재 신호예요. 다만 인플레 우려로 PCE 결과까지 영향을 줘서 전체 시장에는 부담이 될 수 있어요. 운송·에너지 관련 비용 부담이 빅테크에도 점차 반영될 가능성이 있어 흐름만 지켜보면 좋아요.",
-      "impact": "negative",
+      "headline": "Iran 호르무즈 해협 사실상 폐쇄 지속 — 美 이란 사우디 협상 진전 보도로 WTI $108→$106 후퇴",
+      "oneLineSummary": "오늘 미국 시장 마감 후 발표에 따르면, 트럼프 대통령이 화요일로 예정했던 이란 공격을 잠시 보류했어요. 동시에 사우디 중재 협상이 진전 중이라는 보도가 나오면서 WTI 유가가 장중 $108 돌파 후 $106대로 후퇴했어요. 다만 호르무즈 해협은 사실상 닫힌 상태고, IEA는 상업 원유 재고가 빠른 속도로 소진 중이라 경고했어요.",
+      "summary": "5/18 트럼프 화요일(5/19) 이란 공격 보류 발표 + 사우디 중재 협상 진전 보도. WTI 장중 $108 돌파 후 $106.22(+0.76%)로 후퇴. 호르무즈 해협 사실상 폐쇄 지속(체결 후 두 척만 통과·수백 척 대기). 英 드론·전투기·왕립해군 함정 국제 방어 작전 합류. IEA 상업 원유 재고 수주분만 남음 경고.",
+      "ourImpact": "TLN(전력) 어제 -1.33% 단기 후퇴 — 협상 진전 보도로 LNG·전력 매력 일시 후퇴. 다만 호르무즈 폐쇄 지속으로 유가 $105~110 박스 유지 예상. 협상 결렬 시 다시 +5% 점프 가능. AI 인프라 전력 수요(NVDA·CRDO·LITE 데이터센터 동조)도 유가 변동에 동조 흐름.",
+      "impact": "neutral",
       "sources": [
         {
-          "name": "머니투데이 유가급등 환율방어 (5/19)",
-          "url": "https://n.news.naver.com/mnews/article/008/0005360017?sid=104"
+          "name": "CNBC Oil (5/18)",
+          "url": "https://www.cnbc.com/2026/05/18/oil-today-brent-wti-iran-trump-hormuz-iea-supply-crude-.html"
         },
         {
-          "name": "파이낸셜뉴스 트럼프 이란 발언 (5/19)",
-          "url": "https://n.news.naver.com/mnews/article/014/0005523535?sid=101"
+          "name": "PBS Iran Update",
+          "url": "https://www.pbs.org/newshour/amp/world/iran-wars-fragile-ceasefire-tested-in-u-s-attempt-to-open-the-strait-of-hormuz"
         }
       ]
     }
   ],
   "signals": {
     "asOf": "2026-05-19",
-    "summary": "5/18 시그널 유지 — 5/20 NVDA 실적 D-1 + 5/21 삼성 총파업 D-2 + 오늘 밤 PCE D-Day 슈퍼 트리거 주간. SK하이닉스·삼성·한미반도체 메모리 3종 모두 오늘 큰 폭 하락 — 단기 매도 정점 통과 가능성 vs NVDA 실적 미스 시 추가 약세 위험 양립."
+    "kr": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "market": "KOSPI",
+        "category": "관련주",
+        "thesis": "오늘 5/19 오전 -4.0% 약세 — 美 메모리 양극화 매도(MU -5.95%) 직격 + 5/20 NVDA 실적 D-1 대기 매물. HBM 글로벌 1위 본업은 견조하지만 NVDA 결과에 따라 ±5% 변동 큰 시점이에요. 5/21 삼성 총파업 동시 변수도 작용.",
+        "currentPrice": null,
+        "change1D": -4.0,
+        "company": {
+          "ceo": "곽노정 (대표이사 사장)",
+          "business": "글로벌 D램·낸드 메모리 1·2위 종합 반도체 회사. HBM(고대역폭 메모리, AI 칩에 들어가는 핵심 부품) 시장 점유율 1위로 NVDA·AMD AI 칩 공급망 핵심.",
+          "hq": "경기도 이천시",
+          "employees": "약 31,000명",
+          "homepage": "https://www.skhynix.com/",
+          "ceoSource": "네이버 뉴스 검증 (2026/05 보도)"
+        },
+        "financials": "5/19 오전 -4.0% 약세 — 美 메모리 매도 + NVDA 실적 D-1 매물. 직전 종가 1,837,000원(5/18 +0.99% 반등).",
+        "comparable": "2024년 8월 외국인 누적 -7조원 매도 후 1주일 +12% 반등 사례. 이번 美 메모리 동반 매도(MU -5.95%·MRVL -4.50%) 후 NVDA 실적 결과가 반등·추가 약세 분수령.",
+        "outlookEasy": "오늘 아침 -4.0%로 다시 매도세 — 美 마이크론(MU)이 어제 -5.95% 떨어졌어요. SK하이닉스도 메모리 1위라 동반 매도 발생. 다만 NVDA가 내일 5/20 실적에서 컨센 비트 시 빠른 +5~10% 반등 후보예요. 큰 결정은 NVDA 결과 확인 후 권장.",
+        "outlook": "단기 NVDA 실적 D-1 대기 매물 압박. 장기 HBM·메모리 슈퍼사이클 견조. 5/21 삼성 총파업·5/22 ETF 첫 상장 동시 변수. 시나리오: NVDA 비트 + Q2 가이던스 $86B 상회 시 +5~10%, 미스 시 -5~8%.",
+        "flowReason": {
+          "summary": "美 메모리 매도(MU -5.95%) 직격 + NVDA 실적 D-1 대기 매물",
+          "detail": "어젯밤 마이크론(MU)이 -5.95% 약세 마감하면서 글로벌 메모리 매도 신호가 발생했어요. SK하이닉스도 HBM 1위지만 5/20 NVDA 실적 D-1 대기 매물과 동반 매도. 5/21 삼성 총파업·5/22 레버리지 ETF 첫 상장이 동시 변수로 작용하고 있어요.",
+          "sources": [
+            {
+              "name": "Business Upturn (5/19)",
+              "url": "https://www.businessupturn.com/finance/stock-market/asian-markets-updates-today-may-19-kospi-drops-4-11-nikkei-down-0-64-asx-200-up-0-97"
+            },
+            {
+              "name": "ClickOrlando AP (5/19)",
+              "url": "https://www.clickorlando.com/business/2026/05/19/asian-shares-trade-mixed-and-kospi-falls-nearly-4-as-oil-prices-keep-swinging/"
+            }
+          ]
+        },
+        "risk": "5/20 NVDA 실적 미스 시 -5~8% 추가 약세 가능. 환율 1,510원 위 추가 상승 시 외인 환차손 부담. 5/21 삼성 파업 동시 변수."
+      },
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "market": "KOSPI",
+        "category": "관련주",
+        "thesis": "오늘 5/19 오전 -3.8% 약세 — 美 메모리 매도 + 5/21 총파업 D-2 대기 매물. 5/18 +4.07% 반등 후 매도 다시 발생. JP모건 영업이익 21~31조원 타격 예상 + 18일간 41,000~50,000명 참여. 노조 협상 결렬 후 파업 확정.",
+        "currentPrice": null,
+        "change1D": -3.8,
+        "company": {
+          "ceo": "이재용 (회장)",
+          "business": "글로벌 D램 1위·낸드 1위·HBM 2위·파운드리 2위·스마트폰·디스플레이 종합 IT. 메모리·반도체·완성 디바이스 통합 비즈니스.",
+          "hq": "경기도 수원시",
+          "employees": "약 270,000명",
+          "homepage": "https://www.samsung.com/",
+          "ceoSource": "네이버 뉴스 검증 (2026/05 보도)"
+        },
+        "financials": "5/19 오전 -3.8% 약세 — 직전 종가 281,500원(5/18 +4.07% 반등). JP모건 PT 48만원·유안타 PT 59만원·KB PT 45만원 줄상향에도 단기 파업 우려 우선.",
+        "comparable": "2024년 6월 부분 파업 후 메모리 수주 차질 우려가 단기 -3~5% 반영했으나 4주 만에 복원. 이번 18일 총파업은 더 길어 영업이익 타격 가시화 가능.",
+        "outlookEasy": "어제 +4.07% 반등 후 오늘 -3.8% 다시 매도. 5/21부터 18일간 노조 총파업이 확정됐어요. JP모건이 영업이익 타격을 21~31조원으로 예상해서 단기 매도 압력이 큰 상황이에요. 다만 5/20 NVDA 실적이 비트 시 메모리 섹터 모멘텀이 회복 가능. 큰 결정은 NVDA 결과 + 파업 첫 주 진행 상황을 본 후 권장.",
+        "outlook": "단기 파업·NVDA 실적 D-1 변동 큰 시점. 장기 HBM·메모리 PT 상향 추세 견조. 5/22 레버리지·인버스 ETF 첫 상장으로 단기 변동성 추가 확대 예상. 시나리오: NVDA 비트 + 파업 단기 완화 시 +5~10%, NVDA 미스 + 파업 장기화 시 -8~10%.",
+        "flowReason": {
+          "summary": "美 메모리 매도 + 5/21 총파업 D-2 대기 매물",
+          "detail": "어젯밤 마이크론 -5.95% + LITE -8.83% + CRDO -10.62% 옵틱스·메모리 동반 매도가 한국 메모리 양사에 직격. 5/21 18일 총파업 D-2 + JP모건 영업이익 21~31조원 타격 예상 동시 변수. 5/12 17시간 마라톤 협상 결렬로 파업 확정.",
+          "sources": [
+            {
+              "name": "Tom's Hardware (5/13)",
+              "url": "https://www.tomshardware.com/tech-industry/samsungs-last-ditch-union-talks-collapse-eight-days-before-planned-18-day-chip-factory-strike"
+            },
+            {
+              "name": "HR Online (5/12)",
+              "url": "https://www.humanresourcesonline.net/negotiations-break-down-samsung-electronics-union-to-stage-strike-as-planned-on-21-may-2026"
+            }
+          ]
+        },
+        "risk": "5/20 NVDA 미스 + 파업 장기화 시 -8~10% 약세 가능. 환율 1,510원 위 추가 상승 시 외인 환차손 부담 가중."
+      }
+    ],
+    "us": [
+      {
+        "ticker": "LITE",
+        "name": "루멘텀 홀딩스",
+        "market": "Nasdaq",
+        "category": "보유 종목 — 점검 필요",
+        "thesis": "5/18 -8.83% $884.98 폭락 — Nasdaq-100 편입 발효일에도 오히려 매도. 'buy the rumor, sell the news' 차익실현 전형. 베타 2.38 변동 큰 종목으로 옵틱스 섹터 동반 매도(CRDO -10.62%) 직격.",
+        "currentPrice": 884.98,
+        "change1D": -8.83,
+        "outlookEasy": "어제 -8.83% 큰 매도. Nasdaq-100 편입(5/18) 발효일에 오히려 차익실현 매물이 쏟아졌어요. 5/12 +16.8% 한 차례 폭등 후 단기 차익이 컸던 영향이에요. 5/20 NVDA 실적이 컨센 비트 시 옵틱스 섹터 동반 반등 가능. 큰 결정은 NVDA 결과 확인 후 권장.",
+        "outlook": "단기 차익실현 매물·옵틱스 매도 압박. 장기 AI 광통신 수요 견조. 5/20 NVDA 실적이 분수령. 시나리오: NVDA 비트 시 +5~10% 빠른 반등, 미스 시 -5~8% 추가 약세.",
+        "risk": "옵틱스 섹터 단일 매도 지속 시 추가 -5% 가능. 베타 2.38로 시장 1% 하락 시 약 2.4% 하락."
+      },
+      {
+        "ticker": "CRDO",
+        "name": "크레도 테크놀로지",
+        "market": "Nasdaq",
+        "category": "보유 종목 — 점검 필요",
+        "thesis": "5/18 -10.62% $153.89 단일 최대 낙폭 — 베타 3.43 변동 폭발. 옵틱스 매도(LITE -8.83%) + AI 차익실현 + 5/20 NVDA 실적 D-1 대기 매물 트리플 충격.",
+        "currentPrice": 153.89,
+        "change1D": -10.62,
+        "outlookEasy": "어제 -10.62%로 보유 종목 중 가장 큰 매도. 베타 3.43은 시장 1% 하락 시 약 3.4% 하락하는 변동이 큰 종목이라 매도세에 가장 민감해요. 5/20 NVDA 실적 결과에 따라 빠른 반등(+5~10%) 또는 추가 약세(-5%) 분수령이에요. 큰 결정은 NVDA 결과 확인 후 권장.",
+        "outlook": "단기 옵션 만기일 차익실현 + 옵틱스 매도 압박. 장기 AI 데이터센터 인터커넥트 수요 견조. 시나리오: NVDA 비트 시 +5~10% 빠른 반등, 미스 시 -5% 추가 약세.",
+        "risk": "옵틱스·고베타 매도 지속 시 추가 -5~8% 가능. 베타 3.43으로 시장 충격이 약 3배 이상 반영."
+      }
+    ],
+    "krForeignFlow": {
+      "asOf": "2026-05-19",
+      "kospiNetSellWeekly": -1500000000000,
+      "note": "외국인 5/19 오전 코스피 추가 매도 — 美 기술주 매도 동조 + 환율 1,500원 위 정착으로 환차손 부담 지속"
+    },
+    "newListings": []
   },
   "preview": {
-    "tonight": [
-      "🌟 22:30 KST 美 4월 PCE 발표 (코어 +3.0% YoY 컨센) — Fed 가장 중요한 물가 지표 D-Day",
-      "🌟 22:30 KST 美 정규장 재개 — PCE 결과 + NVDA 실적 D-1 경계 분위기",
-      "⭐⭐ 내일 새벽 NVDA Q1 FY27 실적 발표 — 시장 최대 단일 이벤트 D-Day"
-    ],
     "thisWeek": [
-      "5/20 (수) ⭐⭐ NVDA 분기 실적 (보유 종목) · 4월 FOMC 의사록 (워시 의장 첫 노트) · 로우스·인튜이트 실적 · 中 인민은행 LPR 발표",
-      "5/21 (목) 美 신규 실업수당 청구건수 · 한국 5월 1~20일 수출 · 🌟 삼성전자 총파업 시작 · 월마트·디어·줌 실적",
-      "5/22 (금) 5월 미시간 소비자심리 · S&P/MSCI 리밸런싱 일부 · 🌟 삼성·하이닉스 레버리지·인버스 ETF 첫 상장 · 한국 국민성장펀드 출시"
+      "5/19 (화) ⭐ 美 4월 PCE 발표 (코어 +2.5% YoY 컨센·3월 2.6%) · Home Depot Q1 실적 · 美 4월 주택착공 · 툴브라더스 실적 · 中 인민은행 LPR 발표",
+      "5/20 (수) ⭐⭐ NVDA 분기 실적 (보유 종목·시장 최대 단일 이벤트·옵션 ±8~10%) · 4월 FOMC 의사록 (워시 의장 첫 노트) · 로우스·인튜이트 실적",
+      "5/21 (목) 美 신규 실업수당 청구건수 · 한국 5월 1~20일 수출 · 🌟 삼성전자 총파업 시작 (D-Day·18일 예정) · 월마트·디어·줌 실적",
+      "5/22 (금) 5월 미시간 소비자심리 · S&P/MSCI 리밸런싱 일부 · 🌟 삼성·하이닉스 레버리지·인버스 ETF 첫 상장 · 한국 국민성장펀드 출시",
+      "5/23 (토) 주말 — 다음 주 5/27 Best Buy 실적·5/29 DELL Q1 실적 D-Day 등 트리거 대기"
     ]
   },
-  "lastUpdated": "2026-05-19T15:45:00+09:00"
+  "lastUpdated": "2026-05-19T08:00:00+09:00"
 }
