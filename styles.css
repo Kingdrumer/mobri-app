@@ -3080,6 +3080,192 @@ body.sheet-open {
   color: var(--text-tertiary);
 }
 
+/* 뉴스 카드 출처 — 외부 링크 강화 */
+.ni-source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  color: var(--text-tertiary);
+  text-decoration: none;
+  font-size: 10.5px;
+}
+.ni-source-link:hover { color: var(--accent-light, #A5B4FC); }
+
+/* ═══════════════════════════════════════════════════════════
+   검증 시스템 (ABCDEG)
+   ═══════════════════════════════════════════════════════════ */
+
+/* A. 신뢰도 배지 — 미니멀 chip */
+.verify-badge {
+  --verify-color: #828BA3;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px 2px 6px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--verify-color);
+  background: color-mix(in srgb, var(--verify-color) 12%, transparent);
+  border-radius: 999px;
+  white-space: nowrap;
+  border: 0.5px solid color-mix(in srgb, var(--verify-color) 28%, transparent);
+}
+.verify-badge .verify-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--verify-color);
+}
+
+/* B. 출처 점프 — 외부 링크 아이콘 */
+.ext-arrow {
+  display: inline-block;
+  font-size: 10px;
+  vertical-align: middle;
+  opacity: 0.7;
+  margin-left: 1px;
+  transform: translateY(-1px);
+}
+.sig-ext-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+  color: var(--text-tertiary);
+  text-decoration: none;
+  font-size: 11px;
+}
+.sig-ext-link:hover, .sig-ext-link:active { color: var(--accent-light, #A5B4FC); }
+
+/* D. 데이터 신선도 — 점 + 시간 */
+.data-fresh {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10.5px;
+  color: var(--text-tertiary);
+}
+.data-fresh-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* C. 검증 패널 — 토글 */
+.verify-panel {
+  margin-top: 10px;
+  border-top: 0.5px dashed var(--border);
+  padding-top: 8px;
+}
+.verify-panel-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+  padding: 4px 0;
+  -webkit-tap-highlight-color: transparent;
+}
+.verify-panel-summary::-webkit-details-marker { display: none; }
+.verify-panel-label {
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  letter-spacing: 0.06em;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.verify-panel-label::before {
+  content: '';
+  width: 3px;
+  height: 11px;
+  background: currentColor;
+  border-radius: 2px;
+  opacity: 0.55;
+}
+.verify-panel-chev {
+  font-size: 10px;
+  color: var(--text-tertiary);
+  transition: transform 0.2s;
+}
+.verify-panel[open] .verify-panel-chev { transform: rotate(180deg); color: var(--accent-light, #A5B4FC); }
+.verify-panel-body {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.025);
+  border-radius: 8px;
+  font-size: 11.5px;
+  line-height: 1.55;
+}
+.verify-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.verify-row-label {
+  flex-shrink: 0;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  letter-spacing: 0.06em;
+  min-width: 70px;
+  padding-top: 1px;
+}
+.verify-row-value {
+  flex: 1;
+  color: var(--text-primary);
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.verify-row-sub {
+  font-size: 10.5px;
+  color: var(--text-tertiary);
+}
+.verify-row-warn {
+  background: rgba(255, 180, 84, 0.08);
+  border-left: 2px solid #FFB454;
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin: 0 -10px;
+}
+.verify-row-warn .verify-row-label { color: #FFC97A; }
+.verify-source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  color: var(--accent-light, #A5B4FC);
+  text-decoration: none;
+  font-size: 11px;
+}
+.verify-source-link:hover { text-decoration: underline; }
+.verify-official-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 4px;
+  padding: 8px 12px;
+  background: rgba(165, 180, 252, 0.10);
+  border: 0.5px solid rgba(165, 180, 252, 0.30);
+  border-radius: 8px;
+  color: #A5B4FC;
+  font-size: 11.5px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+.verify-official-btn:hover, .verify-official-btn:active {
+  background: rgba(165, 180, 252, 0.18);
+}
+
 /* 🆕 신규 상장주 (IPO) 섹션 */
 .new-listings-section {
   margin-top: 18px;

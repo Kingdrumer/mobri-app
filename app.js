@@ -112,6 +112,153 @@ function getKSTCurrentMonth() {
 
 const TODAY_KST = getKSTToday();
 
+// ═══════════════════════════════════════════════════════════
+// 검증 시스템 (ABCDEG)
+// ═══════════════════════════════════════════════════════════
+
+// A. 신뢰도 등급 판정 — 카드의 검증 상태를 5단계로 자동 분류
+function getVerificationLevel(item) {
+  // ⚠ 주의 — dataQualityNote 있거나 핵심 데이터 누락
+  if (item.dataQualityNote) return { level: 'warning', label: '데이터 경고', color: '#FFB454' };
+  if (item.currentPrice == null && item.price == null) {
+    return { level: 'warning', label: '시세 누락', color: '#FFB454' };
+  }
+  // ✓ 검증 — 네이버 API 직접 fetch + 출처 있음
+  const hasFetched = !!(item.financialStatements?.sources || item.company?.ceoSource || item.priceSourcedFrom?.length);
+  const hasSources = !!(item.sources?.length);
+  if (hasFetched && hasSources) return { level: 'verified', label: '검증', color: '#5FD49A' };
+  if (hasFetched || hasSources) return { level: 'cited', label: '출처 인용', color: '#5AC8FA' };
+  // ✏️ 분석 — LLM 생성 텍스트만
+  if (item.thesis || item.outlookEasy) return { level: 'generated', label: '분석', color: '#A5B4FC' };
+  return { level: 'basic', label: '기본', color: '#828BA3' };
+}
+
+// B. 공식 출처 URL — 종목 코드/티커로 자동 생성 (네이버 금융)
+function getOfficialStockUrl(tickerOrCode, market) {
+  if (!tickerOrCode) return '';
+  // KR: 6자리 숫자 코드
+  if (/^A?\d{6}$/.test(tickerOrCode)) {
+    return `https://m.stock.naver.com/domestic/stock/${tickerOrCode.replace(/^A/, '')}/total`;
+  }
+  // US: NASDAQ/NYSE — 매핑 활용
+  const suffix = (typeof NAVER_SUFFIX_OVERRIDE !== 'undefined' && tickerOrCode in NAVER_SUFFIX_OVERRIDE)
+    ? NAVER_SUFFIX_OVERRIDE[tickerOrCode]
+    : '.O';
+  return `https://m.stock.naver.com/worldstock/stock/${tickerOrCode}${suffix}/total`;
+}
+
+// D. 데이터 신선도 — fetch 시점과 현재 비교
+function getDataFreshness(timestamp) {
+  if (!timestamp) return { dot: '#828BA3', label: '시점 정보 없음', mins: null };
+  let ts;
+  try { ts = new Date(timestamp).getTime(); } catch (e) { return { dot: '#828BA3', label: '시점 정보 없음', mins: null }; }
+  if (isNaN(ts)) return { dot: '#828BA3', label: '시점 정보 없음', mins: null };
+  const diff = Date.now() - ts;
+  const mins = Math.floor(diff / 60000);
+  if (mins < 0) return { dot: '#5FD49A', label: '방금', mins };
+  if (mins < 60) return { dot: '#5FD49A', label: `${mins}분 전`, mins };
+  const hours = Math.floor(mins / 60);
+  if (hours < 24) return { dot: '#FFC97A', label: `${hours}시간 전`, mins };
+  const days = Math.floor(hours / 24);
+  if (days < 7) return { dot: '#FFB454', label: `${days}일 전`, mins };
+  return { dot: '#EF4444', label: `${days}일 전`, mins };
+}
+
+// A·B·C·D 통합 — 검증 메타 HTML 렌더
+function renderVerificationMeta(item, opts = {}) {
+  const { compactBadge = true, asOfTimestamp = null, sources = null } = opts;
+  const v = getVerificationLevel(item);
+  const fresh = getDataFreshness(asOfTimestamp || item.lastUpdated || null);
+  const sourceList = sources || item.sources || [];
+  const officialUrl = item.ticker ? getOfficialStockUrl(item.ticker, item.market) : '';
+
+  const badge = compactBadge ? `
+    <span class="verify-badge verify-${v.level}" style="--verify-color: ${v.color}">
+      <span class="verify-dot"></span>
+      ${escapeHtml(v.label)}
+    </span>
+  ` : '';
+
+  const dotHtml = fresh.mins !== null ? `
+    <span class="data-fresh" title="${escapeHtml(fresh.label)}">
+      <span class="data-fresh-dot" style="background: ${fresh.dot}"></span>
+      <span class="data-fresh-text">${escapeHtml(fresh.label)}</span>
+    </span>
+  ` : '';
+
+  // C 패널 — 토글
+  const panelHtml = `
+    <details class="verify-panel">
+      <summary class="verify-panel-summary">
+        <span class="verify-panel-label">검증 정보</span>
+        <span class="verify-panel-chev">▾</span>
+      </summary>
+      <div class="verify-panel-body">
+        <div class="verify-row">
+          <span class="verify-row-label">신뢰도</span>
+          <span class="verify-row-value">
+            <span class="verify-badge verify-${v.level}" style="--verify-color: ${v.color}">
+              <span class="verify-dot"></span>
+              ${escapeHtml(v.label)}
+            </span>
+            ${verifyLevelDescription(v.level)}
+          </span>
+        </div>
+        ${fresh.mins !== null ? `
+          <div class="verify-row">
+            <span class="verify-row-label">데이터 시점</span>
+            <span class="verify-row-value">
+              <span class="data-fresh-dot" style="background: ${fresh.dot}"></span>
+              ${escapeHtml(fresh.label)}
+              ${asOfTimestamp ? `<span class="verify-row-sub">${escapeHtml(asOfTimestamp)}</span>` : ''}
+            </span>
+          </div>
+        ` : ''}
+        ${item.priceSourcedFrom?.length ? `
+          <div class="verify-row">
+            <span class="verify-row-label">교차 검증</span>
+            <span class="verify-row-value">${item.priceSourcedFrom.map(escapeHtml).join(' · ')}</span>
+          </div>
+        ` : ''}
+        ${item.dataQualityNote ? `
+          <div class="verify-row verify-row-warn">
+            <span class="verify-row-label">데이터 경고</span>
+            <span class="verify-row-value">${escapeHtml(item.dataQualityNote)}</span>
+          </div>
+        ` : ''}
+        ${sourceList.length ? `
+          <div class="verify-row">
+            <span class="verify-row-label">출처</span>
+            <span class="verify-row-value">
+              ${sourceList.map((s) => s.url
+                ? `<a class="verify-source-link" href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.name || '출처')} <span class="ext-arrow">↗</span></a>`
+                : `<span>${escapeHtml(s.name || '')}</span>`).join(' · ')}
+            </span>
+          </div>
+        ` : ''}
+        ${officialUrl ? `
+          <a class="verify-official-btn" href="${escapeHtml(officialUrl)}" target="_blank" rel="noopener">
+            네이버 금융에서 직접 확인 <span class="ext-arrow">↗</span>
+          </a>
+        ` : ''}
+      </div>
+    </details>
+  `;
+
+  return { badge, dotHtml, panelHtml, officialUrl };
+}
+
+function verifyLevelDescription(level) {
+  const map = {
+    verified: '<span class="verify-row-sub">네이버 금융 API · 다중 출처</span>',
+    cited: '<span class="verify-row-sub">신뢰 매체 인용</span>',
+    generated: '<span class="verify-row-sub">검증 데이터 기반 LLM 분석</span>',
+    warning: '<span class="verify-row-sub">데이터 품질 주의 필요</span>',
+    basic: '<span class="verify-row-sub">기본 정보만</span>',
+  };
+  return map[level] || '';
+}
+
 const State = {
   tab: 'calendar',
   calMode: 'stock',
@@ -1484,7 +1631,9 @@ function renderNewsBox(report) {
             <div class="ni-ourimpact"><span class="ni-label">내 종목엔</span><span class="ni-ourimpact-text">${escapeHtml(paraBreak(n.ourImpact))}</span></div>
           ` : ''}
           ${(n.sources && n.sources.length) ? `
-            <div class="ni-sources">${n.sources.map((s) => escapeHtml(s.name || '')).filter(Boolean).join(' · ')}</div>
+            <div class="ni-sources">${n.sources.map((s) => s.url
+              ? `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener" class="ni-source-link">${escapeHtml(s.name || '출처')}<span class="ext-arrow">↗</span></a>`
+              : `<span>${escapeHtml(s.name || '')}</span>`).filter(Boolean).join(' · ')}</div>
           ` : ''}
         </div>
       </div>
@@ -3111,17 +3260,25 @@ function signalCard(s) {
 
   const hasDetail = s.financials || s.comparable || s.risk || s.horizon || s.outlook || s.outlookEasy || s.company || s.financialStatements || (s.relatedStocks && s.relatedStocks.length);
 
+  // 검증 시스템 — A 배지·B 점프 링크·C 패널·D 신선도
+  const verify = renderVerificationMeta(s, {
+    asOfTimestamp: s.asOf || null,
+    sources: s.sources
+  });
+
   return `
     <div class="sig-card cat-${catColor}" data-sig-card>
       <div class="sig-card-top">
         <div class="sig-id">
           <div class="sig-badges">
             <span class="sig-cat-badge cat-${catColor}">${escapeHtml(s.category || '주목')}</span>
-            ${s.listedAt ? `<span class="sig-ipo-badge">🆕 ${escapeHtml(s.listedAt)} 상장</span>` : ''}
+            ${s.listedAt ? `<span class="sig-ipo-badge">신규 ${escapeHtml(s.listedAt)} 상장</span>` : ''}
+            ${verify.badge}
           </div>
           <div class="sig-name-row">
             <span class="sig-ticker">${escapeHtml(s.ticker || '')}</span>
             <span class="sig-name">${escapeHtml(s.name || '')}</span>
+            ${verify.officialUrl ? `<a class="sig-ext-link" href="${escapeHtml(verify.officialUrl)}" target="_blank" rel="noopener" title="네이버 금융에서 보기"><span class="ext-arrow">↗</span></a>` : ''}
           </div>
         </div>
         <div class="sig-meta">
@@ -3229,15 +3386,9 @@ function signalCard(s) {
               </div>
             ` : ''}
           </div>
-          ${(s.sources && s.sources.length) ? `
-            <div class="sig-sources">
-              ${s.sources.map((src) => src.url
-                ? `<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">${escapeHtml(src.name || '출처')}</a>`
-                : `<span>${escapeHtml(src.name || '')}</span>`).join(' · ')}
-            </div>
-          ` : ''}
         </details>
       ` : ''}
+      ${verify.panelHtml}
     </div>
   `;
 }
