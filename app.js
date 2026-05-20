@@ -2209,6 +2209,7 @@ function openNoticeDetail(noticeId) {
   const score = matchNoticeToFilter(notice, State.realEstateFilter);
   const priority = computeUserPriority(notice, State.realEstateFilter);
   const priBadge = getPriorityBadge(priority);
+  const verMeta = renderNoticeVerificationMeta(notice);
 
   const html = `
     <div class="notice-detail">
@@ -2219,6 +2220,7 @@ function openNoticeDetail(noticeId) {
           ${dDay ? `<span class="nd-dday ${dDay === 'D-day' ? 'urgent' : ''}">${dDay}</span>` : ''}
           ${notice.rolling ? `<span class="nd-rolling">수시모집</span>` : ''}
           ${priBadge ? `<span class="nd-priority ${priBadge.cls}">${priBadge.icon} ${escapeHtml(priBadge.text)}</span>` : ''}
+          ${verMeta.badge}
         </div>
         <h2>${escapeHtml(notice.title)}</h2>
         ${score < 100 ? `<div class="nd-match-bar"><span class="nd-match-fill" style="width:${score}%"></span><span class="nd-match-text">내 조건 매칭 ${score}%</span></div>` : ''}
@@ -2313,13 +2315,18 @@ function openNoticeDetail(noticeId) {
         </div>
       ` : ''}
 
-      ${notice.uncertain ? `
-        <div class="nd-warning">⚠️ 일부 정보는 공고문 원본에서 최종 확인하세요.</div>
+      ${verMeta.verification.level === 'warning' ? `
+        <div class="nd-warning">⚠️ ${escapeHtml(notice.dataQualityNote || (verMeta.verification.label === '마감일 미상' ? '마감일을 공고문 원본에서 확인하세요.' : '일부 정보는 공고문 원본에서 최종 확인하세요.'))}</div>
       ` : ''}
+      ${!verMeta.isDetail && notice.url ? `
+        <div class="nd-warning soft">ℹ️ 이 링크는 공고 목록 페이지입니다. 개별 공고문에서 세부 조건을 최종 확인하세요.</div>
+      ` : ''}
+
+      ${verMeta.panelHtml}
 
       <div class="modal-actions">
         <button class="btn" onclick="closeModal()">닫기</button>
-        ${notice.url ? `<a class="btn primary" href="${escapeHtml(notice.url)}" target="_blank" rel="noopener">🔗 공고문 원본 열기</a>` : ''}
+        ${notice.url ? `<a class="btn primary" href="${escapeHtml(notice.url)}" target="_blank" rel="noopener">🔗 ${verMeta.isDetail ? '공고문 원본 열기' : '공고 목록 열기'}</a>` : ''}
       </div>
     </div>
   `;

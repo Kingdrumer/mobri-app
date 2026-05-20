@@ -4153,6 +4153,17 @@ body.sheet-open {
   border-radius: 8px;
   font-size: 12px;
   margin-bottom: 14px;
+  line-height: 1.55;
+}
+.nd-warning.soft {
+  background: rgba(90, 200, 250, 0.10);
+  border-color: rgba(90, 200, 250, 0.28);
+  color: #8FD3F7;
+}
+
+/* 부동산 카드 — 검증 배지 우측 정렬 */
+.notice-card .nc-verify {
+  margin-left: auto;
 }
 
 .notice-detail .modal-actions .btn.primary {

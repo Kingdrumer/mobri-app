@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T18:00:00+09:00",
+  "lastUpdated": "2026-05-20T14:11:20+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -130,10 +130,10 @@
       "districts": [
         "전국"
       ],
-      "supplyCount": null,
-      "applicationStart": "2026-04-01",
+      "supplyCount": 5700,
+      "applicationStart": "2026-03-24",
       "applicationEnd": "2026-12-31",
-      "announcementDate": "2026-04-01",
+      "announcementDate": "2026-03-24",
       "rolling": true,
       "maritalRequired": true,
       "marriedYears": 7,
@@ -199,7 +199,23 @@
           },
           "hint": "혼인 7년 이내 또는 예비신혼"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "name": "마이홈 공고문 (LH 신혼·신생아 전세임대 Ⅰ)",
+          "url": "https://m.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=19833"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-05-20T14:11:20+09:00",
+        "method": "web_fetch 본문 직접 확인 (교차 대조)",
+        "sources": [
+          {
+            "url": "https://m.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=19833",
+            "hash": "sha256-7b4b8dffa57d15a7"
+          }
+        ]
+      }
     },
     {
       "id": "lh-2026-dundun-jeonse-1-2",
@@ -845,7 +861,23 @@
       ],
       "applyMethod": "SH 인터넷청약시스템",
       "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=303656",
-      "status": "open"
+      "status": "open",
+      "sources": [
+        {
+          "name": "SH 서울주택도시공사 공고문",
+          "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=303656"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-05-20T14:11:20+09:00",
+        "method": "web_fetch 본문 직접 확인 (교차 대조)",
+        "sources": [
+          {
+            "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=303656",
+            "hash": "sha256-7974bb06d6cbda29"
+          }
+        ]
+      }
     },
     {
       "id": "sh-2026-hope-housing-remainder",
