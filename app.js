@@ -259,6 +259,151 @@ function verifyLevelDescription(level) {
   return map[level] || '';
 }
 
+// ═══════════════════════════════════════════════════════════
+// 부동산 공고 검증 시스템 (ABCDEG — 주택 영역)
+// ═══════════════════════════════════════════════════════════
+
+// B. 개별 공고 상세 URL 여부 — 목록 페이지(원본 미연결)와 구분
+//    상세: panId / pblancId / pbancNo / msg_seq / seq= / DetailView / Info.do
+//    목록: *list.do / RentHouseList (개별 공고로 직접 연결 안 됨)
+function isDetailNoticeUrl(url) {
+  if (!url) return false;
+  const u = String(url).toLowerCase();
+  if (/list\.do|renthouselist/.test(u)) return false;
+  return /panid=|pblancid=|pbancno=|msg_seq=|seq=\d|detailview|info\.do/.test(u);
+}
+
+// A. 부동산 공고 신뢰도 판정 — 5단계 자동 분류
+function getNoticeVerification(n) {
+  if (!n) return { level: 'basic', label: '기본', color: '#828BA3' };
+  // ⚠ 경고 — 품질 노트 / 불확실 플래그 / 핵심 필드 누락
+  if (n.dataQualityNote) return { level: 'warning', label: '데이터 경고', color: '#FFB454' };
+  if (n.uncertain) return { level: 'warning', label: '확인 필요', color: '#FFB454' };
+  if (!n.applicationEnd && !n.rolling) return { level: 'warning', label: '마감일 미상', color: '#FFB454' };
+
+  const hasDetailUrl = isDetailNoticeUrl(n.url);
+  const hasFetchMeta = !!(n._fetchMeta && n._fetchMeta.fetchedAt);
+  const hasSources = !!(n.sources && n.sources.length);
+
+  // ✓ 검증 — 개별 공고문 원본 + 직접 확인 메타
+  if (hasDetailUrl && hasFetchMeta) return { level: 'verified', label: '공고문 확인', color: '#5FD49A' };
+  // 🔗 공식 출처 — 개별 공고 상세 페이지 또는 인용 출처
+  if (hasDetailUrl || hasSources) return { level: 'cited', label: '공식 출처', color: '#5AC8FA' };
+  // ✏️ 정리 — 정보 정리만 (원본 직접 미연결)
+  if (n.highlights && n.highlights.length) return { level: 'generated', label: '정리', color: '#A5B4FC' };
+  return { level: 'basic', label: '기본', color: '#828BA3' };
+}
+
+function noticeVerifyDescription(level) {
+  const map = {
+    verified: '<span class="verify-row-sub">공고문 원본 직접 확인</span>',
+    cited: '<span class="verify-row-sub">공식 기관 공고 페이지</span>',
+    generated: '<span class="verify-row-sub">공고 정보 정리 (원본 직접 미연결)</span>',
+    warning: '<span class="verify-row-sub">정보 확인 필요</span>',
+    basic: '<span class="verify-row-sub">기본 정보만</span>',
+  };
+  return map[level] || '';
+}
+
+// D. 부동산 데이터 신선도 — 확인(fetch) 시점 기준, 일 단위 (주택은 천천히 변함)
+function getNoticeFreshness(n) {
+  const ts = (n && n._fetchMeta && n._fetchMeta.fetchedAt) || (n && n.lastChecked) || null;
+  const dayDiff = (t) => {
+    const v = new Date(t).getTime();
+    if (isNaN(v)) return null;
+    return Math.floor((Date.now() - v) / 86400000);
+  };
+  if (ts) {
+    const days = dayDiff(ts);
+    if (days === null) return { dot: '#828BA3', label: '확인 시점 미상', days: null };
+    if (days <= 0) return { dot: '#5FD49A', label: '오늘 확인', days };
+    if (days < 3) return { dot: '#5FD49A', label: `${days}일 전 확인`, days };
+    if (days < 7) return { dot: '#FFC97A', label: `${days}일 전 확인`, days };
+    if (days < 30) return { dot: '#FFB454', label: `${days}일 전 확인`, days };
+    return { dot: '#EF4444', label: `${days}일 전 확인`, days };
+  }
+  // 폴백 — 공고일 기준
+  if (n && n.announcementDate) {
+    const days = dayDiff(n.announcementDate);
+    if (days === null) return { dot: '#828BA3', label: '확인 시점 미상', days: null };
+    return {
+      dot: days < 7 ? '#FFC97A' : (days < 30 ? '#FFB454' : '#EF4444'),
+      label: `공고일 ${days}일 경과`, days, fromAnnounce: true,
+    };
+  }
+  return { dot: '#828BA3', label: '확인 시점 미상', days: null };
+}
+
+// A·B·C·D·E·G 통합 — 공고용 검증 메타 HTML
+function renderNoticeVerificationMeta(n) {
+  const v = getNoticeVerification(n);
+  const fresh = getNoticeFreshness(n);
+  const isDetail = isDetailNoticeUrl(n.url);
+  const sourceList = (n.sources || []).filter(Boolean);
+
+  const badge = `<span class="verify-badge verify-${v.level}" style="--verify-color: ${v.color}"><span class="verify-dot"></span>${escapeHtml(v.label)}</span>`;
+
+  const panelHtml = `
+    <details class="verify-panel">
+      <summary class="verify-panel-summary">
+        <span class="verify-panel-label">검증 정보</span>
+        <span class="verify-panel-chev">▾</span>
+      </summary>
+      <div class="verify-panel-body">
+        <div class="verify-row">
+          <span class="verify-row-label">신뢰도</span>
+          <span class="verify-row-value">${badge} ${noticeVerifyDescription(v.level)}</span>
+        </div>
+        ${fresh.days !== null ? `
+          <div class="verify-row">
+            <span class="verify-row-label">확인 시점</span>
+            <span class="verify-row-value">
+              <span class="data-fresh-dot" style="background: ${fresh.dot}"></span>
+              ${escapeHtml(fresh.label)}
+              ${n._fetchMeta && n._fetchMeta.fetchedAt ? `<span class="verify-row-sub">${escapeHtml(n._fetchMeta.fetchedAt)}</span>` : ''}
+            </span>
+          </div>
+        ` : ''}
+        ${n.announcementDate ? `
+          <div class="verify-row">
+            <span class="verify-row-label">공고일</span>
+            <span class="verify-row-value">${escapeHtml(formatKoreanDate(n.announcementDate))}</span>
+          </div>
+        ` : ''}
+        ${n.dataQualityNote ? `
+          <div class="verify-row verify-row-warn">
+            <span class="verify-row-label">데이터 경고</span>
+            <span class="verify-row-value">${escapeHtml(n.dataQualityNote)}</span>
+          </div>
+        ` : ''}
+        ${n.uncertain && !n.dataQualityNote ? `
+          <div class="verify-row verify-row-warn">
+            <span class="verify-row-label">주의</span>
+            <span class="verify-row-value">일부 정보는 공고문 원본에서 최종 확인하세요</span>
+          </div>
+        ` : ''}
+        ${sourceList.length ? `
+          <div class="verify-row">
+            <span class="verify-row-label">출처</span>
+            <span class="verify-row-value">
+              ${sourceList.map((s) => s.url
+                ? `<a class="verify-source-link" href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.name || '출처')} <span class="ext-arrow">↗</span></a>`
+                : `<span>${escapeHtml(s.name || '')}</span>`).join(' · ')}
+            </span>
+          </div>
+        ` : ''}
+        ${n.url ? `
+          <a class="verify-official-btn" href="${escapeHtml(n.url)}" target="_blank" rel="noopener">
+            ${isDetail ? '공고문 원본 열기' : '공고 목록에서 찾기'} <span class="ext-arrow">↗</span>
+          </a>
+        ` : ''}
+      </div>
+    </details>
+  `;
+
+  return { badge, panelHtml, verification: v, fresh, isDetail };
+}
+
 const State = {
   tab: 'calendar',
   calMode: 'stock',
@@ -2958,6 +3103,7 @@ function renderNoticeCard(n, today) {
   const score = matchNoticeToFilter(n, State.realEstateFilter);
   const priority = computeUserPriority(n, State.realEstateFilter);
   const priBadge = getPriorityBadge(priority);
+  const ver = getNoticeVerification(n);
 
   return `
     <div class="card notice-card" data-notice-id="${escapeHtml(n.id)}">
@@ -2968,6 +3114,7 @@ function renderNoticeCard(n, today) {
         ${isUpcoming ? `<span class="nc-upcoming">곧 시작</span>` : ''}
         ${priBadge ? `<span class="nc-priority ${priBadge.cls}">${priBadge.icon} ${escapeHtml(priBadge.text)}</span>` : ''}
         ${score < 100 && score >= 50 ? `<span class="nc-match">매칭 ${score}%</span>` : ''}
+        <span class="verify-badge verify-${ver.level} nc-verify" style="--verify-color: ${ver.color}"><span class="verify-dot"></span>${escapeHtml(ver.label)}</span>
       </div>
       <div class="nc-title">${escapeHtml(n.shortTitle || n.title)}</div>
       <div class="nc-meta">
