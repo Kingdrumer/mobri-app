@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T14:11:20+09:00",
+  "lastUpdated": "2026-05-21T18:35:00+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -34,7 +34,7 @@
         89000000
       ],
       "highlights": [
-        "마감 3일 전 (D-3)",
+        "마감 1일 전 (D-1)",
         "강서구 1인 창조기업·창업자·전략산업 종사자",
         "월세 30~34만원, 보증금 7,800~8,900만",
         "최장 14년 거주 가능"
@@ -826,60 +826,6 @@
       "status": "open"
     },
     {
-      "id": "sh-2026-jangki-anshim-1",
-      "agency": "SH",
-      "title": "2026년 제1차 보증금지원형 장기안심주택 입주자 모집공고",
-      "shortTitle": "SH 1차 장기안심주택",
-      "type": "장기전세",
-      "category": [
-        "청년",
-        "신혼",
-        "일반"
-      ],
-      "household": [
-        "1인_청년",
-        "1인_일반",
-        "신혼",
-        "예비_신혼"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "서울 전역"
-      ],
-      "supplyCount": 6000,
-      "applicationStart": "2026-05-11",
-      "applicationEnd": "2026-05-13",
-      "announcementDate": "2026-04-30",
-      "rolling": false,
-      "highlights": [
-        "보증금 40% 최대 7,000만원 무이자 지원",
-        "최장 10년 거주",
-        "버팀목 전세자금 대출 병행 가능",
-        "당첨자 발표 7/31"
-      ],
-      "applyMethod": "SH 인터넷청약시스템",
-      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=303656",
-      "status": "open",
-      "sources": [
-        {
-          "name": "SH 서울주택도시공사 공고문",
-          "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=303656"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-05-20T14:11:20+09:00",
-        "method": "web_fetch 본문 직접 확인 (교차 대조)",
-        "sources": [
-          {
-            "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=303656",
-            "hash": "sha256-7974bb06d6cbda29"
-          }
-        ]
-      }
-    },
-    {
       "id": "sh-2026-hope-housing-remainder",
       "agency": "SH",
       "title": "2026년 1차 희망하우징(공공기숙사) 잔여세대 입주자 모집공고",
@@ -1054,46 +1000,6 @@
       "applyMethod": "서울시 청년부상제대군인상담센터",
       "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/list.do?multi_itm_seq=2",
       "status": "upcoming"
-    },
-    {
-      "id": "ih-2026-young-purchase-may",
-      "agency": "iH",
-      "title": "2026년 인천도시공사(iH) 기존주택 매입임대(청년형) 예비입주자 모집",
-      "shortTitle": "iH 인천 청년 매입임대",
-      "type": "매입임대",
-      "category": [
-        "청년"
-      ],
-      "household": [
-        "1인_청년"
-      ],
-      "region": [
-        "인천"
-      ],
-      "districts": [
-        "미추홀구",
-        "남동구",
-        "서구",
-        "부평구"
-      ],
-      "supplyCount": 340,
-      "applicationStart": "2026-05-18",
-      "applicationEnd": "2026-05-20",
-      "announcementDate": "2026-04-30",
-      "ageRange": [
-        19,
-        39
-      ],
-      "maritalRequired": false,
-      "rolling": false,
-      "highlights": [
-        "전용 50㎡ 이하·방 2개 이하",
-        "시세 30% 임대료",
-        "최장 10년 (혼인 시 20년)"
-      ],
-      "applyMethod": "iH 방문접수",
-      "url": "https://www.ih.co.kr/main/bbs/bbsMsgDetail.do?msg_seq=4283&cate1=general&bcd=notice&pgdiv=general",
-      "status": "open"
     },
     {
       "id": "gh-2026-gwangju-stn-add",
