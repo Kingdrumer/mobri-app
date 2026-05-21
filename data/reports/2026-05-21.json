@@ -1,0 +1,1716 @@
+{
+ "date": "2026-05-21",
+ "title": "5월 21일 (목) 08:00 풀 모닝브리핑 — 어젯밤 美 강세 마감(S&P +1.08% 7,433·다우 사상 첫 5만 돌파), NVDA 실적 어닝 비트에도 시간외 하락, 5/21 아침 한국 반도체는 거꾸로 급등(SK하이닉스 +5.3%·삼성 +6.5%)",
+ "session": "morning",
+ "lightUpdate": false,
+ "marketStatus": "us_closed_kr_open_morning",
+ "tip": "어젯밤 NVDA(엔비디아) 실적이 매출·이익 모두 시장 예상을 넘었고 다음 분기 전망도 좋았는데, 정작 주가는 시간외에서 내렸어요(4분기 연속 실적 후 하락 패턴). '너무 기대가 컸던' 탓이에요. 반대로 한국 반도체는 NVDA의 데이터센터 매출 급증 소식에 5/21 아침 SK하이닉스 +5.3%·삼성전자 +6.5%로 급등 출발했어요. 미국 금리(10년물 4.65%)는 16개월 최고에서 살짝 내려 숨통이 트였어요.",
+ "marketSummary": {
+  "us": {
+   "sp500": {
+    "close": 7432.97,
+    "change": 1.08
+   },
+   "nasdaq": {
+    "close": 26270.36,
+    "change": 1.55
+   },
+   "dow": {
+    "close": 50009.35,
+    "change": 1.31
+   },
+   "vix": {
+    "close": 17.44,
+    "change": -3.43
+   },
+   "wti": 97.33,
+   "ust10y": 4.65,
+   "ust30y": 5.19,
+   "fearGreed": 61,
+   "note": "5/20 마감: S&P500 7,432.97(+1.08%)·나스닥 26,270.36(+1.55%)·다우 50,009.35(+1.31%, 사상 첫 5만 돌파). NVDA 실적 기대 + 유가 급락(WTI -6.6%)에 위험선호 회복. VIX 17.44로 하락. 10년물 4.65%로 16개월 최고(4.7%)서 진정. (공포탐욕은 전일 61 '탐욕' 기준, VIX 하락으로 탐욕 유지 추정)"
+  },
+  "afterHoursEarnings": "NVDA Q1 FY27 실적 발표 완료 — 매출 $81.6B(+예상 상회)·EPS $1.87·Q2 가이던스 $91B + 배당 인상. 어닝 비트에도 시간외 하락(4분기 연속 실적 후 하락 패턴)"
+ },
+ "asiaSummary": {
+  "kospi": {
+   "value": "장중 반등",
+   "change": null,
+   "note": "5/21 오전 NVDA 실적 호조에 반도체 급등 — SK하이닉스 +5.3%·삼성전자 +6.5%·한미반도체 +5.0%. 외국인 9거래일 연속 매도(누적 약 42조원) 후 저가매수 유입 관측"
+  },
+  "kosdaq": {
+   "value": "장중 반등",
+   "change": null,
+   "note": "5/21 오전 로봇·성장주 강세 — 레인보우로보틱스 +10.5%·두산로보틱스 +5.3%, AI 투자축이 반도체에서 로봇·기판으로 확산 기대"
+  },
+  "samsungLive": {
+   "note": "5/21 오전 +6.5% 294,000원 — 총파업 D-1 막판 노사 협상 재개 속 NVDA 호재로 반등"
+  },
+  "skHynixLive": {
+   "value": "1,838,000",
+   "change": 5.33,
+   "note": "5/21 오전 +5.3% — NVDA 데이터센터 매출 급증 확인에 HBM 1위 수혜 기대"
+  },
+  "usdkrw": 1506.8,
+  "wtiAsia": 97.33,
+  "closeNote": "5/21 오전 한국 증시는 어젯밤 NVDA 실적 호조에 반도체·로봇주 중심 강한 반등으로 출발했어요. NVDA 주가 자체는 시간외 하락했지만, 데이터센터 매출이 크게 늘어 HBM·메모리 수요엔 호재로 해석됐어요. 외국인은 9거래일 연속 매도(누적 약 42조원)했지만 오늘 아침 반도체 저가매수 조짐이 보여요. (니케이·항셍 정확한 종가는 확인 어려워 흐름만 정성 캡처)"
+ },
+ "stockSnapshot": {
+  "GOOG": {
+   "price": 384.9,
+   "change1D": 0.32,
+   "signal": "yellow",
+   "note": "5/19 -2.09% $384.90 — 국채금리 급등發 빅테크 매도 동조, S&P 3거래일 연속 하락"
+  },
+  "META": {
+   "price": 605.06,
+   "change1D": 0.41,
+   "signal": "yellow",
+   "note": "5/19 -1.41% $602.61 — 금리發 빅테크 약세, 4월 실적 후 1개월 -12.5%로 부진"
+  },
+  "AMZN": {
+   "price": 265.01,
+   "change1D": 2.19,
+   "signal": "yellow",
+   "note": "5/19 -2.08% $259.34 — 금리發 매도, AWS 견조에도 매크로 부담 우위"
+  },
+  "NVDA": {
+   "price": 223.47,
+   "change1D": 1.3,
+   "signal": "red",
+   "note": "5/19 -0.77% $220.61 — 오늘 밤 Q1 실적 D-day, 컨센 매출 +78% 기대 vs 변동성 경계"
+  },
+  "TSM": {
+   "price": 401.62,
+   "change1D": 2.29,
+   "signal": "yellow",
+   "note": "5/19 -0.84% $392.61 — 반도체 조정 속 선방, 베타 1.12 안정적"
+  },
+  "AVGO": {
+   "price": 417.76,
+   "change1D": 1.63,
+   "signal": "yellow",
+   "note": "5/19 -2.29% $411.07 — 금리發 매도, 베타 2.44 변동 반영, NVDA 실적 동조 대기"
+  },
+  "MU": {
+   "price": 731.99,
+   "change1D": 4.76,
+   "signal": "yellow",
+   "note": "5/19 +2.52% $698.74 — 메모리 반등 단독 강세, 주간 -8.85%로 변동성 큼"
+  },
+  "MRVL": {
+   "price": 186.8,
+   "change1D": 5.97,
+   "signal": "green",
+   "note": "5/19 +4.35% $176.27 — TPU·광통신 모멘텀 강세, 5/28 실적 기대 선반영"
+  },
+  "AMD": {
+   "price": 447.58,
+   "change1D": 8.1,
+   "signal": "yellow",
+   "note": "5/19 -1.65% $414.05 — 금리發 매도, 1개월 +48.7% 후 주간 -7.6% 차익실현"
+  },
+  "SNDK": {
+   "price": 1392.56,
+   "change1D": 0.67,
+   "signal": "green",
+   "note": "5/19 +3.77% $1,383.29 — 낸드 슈퍼사이클 단독 강세, YTD +483% 과열 유의"
+  },
+  "DELL": {
+   "price": 242.93,
+   "change1D": 3.26,
+   "signal": "yellow",
+   "note": "5/19 -1.16% $235.26 — Dell World 중 금리發 매도, 5/29 Q1 실적 D-9"
+  },
+  "LITE": {
+   "price": 868.07,
+   "change1D": -2.47,
+   "signal": "yellow",
+   "note": "5/19 +0.58% $890.09 — 낙폭 후 반등 시도, 주간 -10.3% 차익실현 잔존"
+  },
+  "CLS": {
+   "price": 346.48,
+   "change1D": 2.17,
+   "signal": "red",
+   "note": "5/19 -1.03% $339.13 — 주간 -9.3%·월간 -14.4% 모멘텀 약화, 베타 2.42"
+  },
+  "CRDO": {
+   "price": 182.98,
+   "change1D": 8.28,
+   "signal": "yellow",
+   "note": "5/19 +8.14% $168.99 — 급락 후 강한 반등, 베타 3.43 변동 폭발, 6/4 실적 대기"
+  },
+  "TLN": {
+   "price": 344.46,
+   "change1D": 9.5,
+   "signal": "red",
+   "note": "5/19 -2.97% $314.57 — 이란 협상 기대로 유가·전력주 약세, 주간 -16% 부진"
+  }
+ },
+ "news": [
+  {
+   "category": "미국 증시",
+   "headline": "S&P 500 +1.08% 7,433·다우 사상 첫 5만 돌파 — NVDA 실적 기대에 강세 마감",
+   "oneLineSummary": "미국 3대 지수가 어제 모두 크게 올랐어요. 다우지수는 사상 처음으로 5만 선을 넘었고, S&P500은 +1.08%, 나스닥은 +1.55% 올랐어요. 밤에 있을 엔비디아 실적 발표 기대감과 유가 급락이 겹치며 위험을 감수하려는 분위기가 살아났어요.",
+   "summary": "5/20 마감 S&P500 7,432.97(+1.08%)·나스닥 26,270.36(+1.55%)·다우 50,009.35(+1.31%). 다우는 사상 첫 5만 돌파. NVDA 실적 기대와 유가 급락(WTI -6.6%)이 위험선호를 자극했고, 골드만삭스(+5.7%)·나이키(+4.2%)·보잉(+3.3%)·TJX(+6%)가 상승을 주도. VIX는 17.44로 -3.4% 하락.",
+   "ourImpact": "지수가 강하게 올라 보유 빅테크·반도체 전반에 우호적인 하루였어요. 특히 보유 종목 중 AMD(+8.1%)·CRDO(+8.3%)·TLN(+9.5%)이 시장 강세에 더해 크게 올랐어요.",
+   "impact": "positive",
+   "sources": [
+    {
+     "name": "CNN Markets (5/20)",
+     "url": "https://www.cnn.com/markets"
+    },
+    {
+     "name": "Trading Economics (5/20)",
+     "url": "https://tradingeconomics.com/united-states/stock-market"
+    }
+   ]
+  },
+  {
+   "category": "미국 증시",
+   "headline": "VIX 17.44로 하락 — 강한 상승에도 투자심리 차분",
+   "oneLineSummary": "시장의 불안 정도를 재는 VIX(공포지수)가 17.44로 -3.4% 내렸어요. 지수가 크게 올랐는데도 변동성은 낮아져서, 투자자들이 흥분보다는 차분한 상태로 위험을 받아들이고 있다는 뜻이에요. 유가 급락과 금리 진정이 안정에 보탬이 됐어요.",
+   "summary": "5/20 VIX 17.44(-3.43%)로 하락. 3대 지수 +1%대 상승 속에서도 변동성 지표는 안정. WTI -6.6% 급락과 10년물 금리 16개월 최고서 진정(4.65%)이 투자심리 안정에 기여. CNN 공포탐욕지수는 전일 61 '탐욕' 구간 유지 추정.",
+   "ourImpact": "변동성이 낮아진 환경은 보유 종목 전반에 안정적이에요. 다만 베타가 큰 CRDO·SNDK·AVGO 같은 종목은 시장이 출렁이면 더 크게 움직이니, 지수 안정 흐름이 이어지는지 가볍게 보면 좋아요.",
+   "impact": "positive",
+   "sources": [
+    {
+     "name": "CNN Fear & Greed (5/20)",
+     "url": "https://edition.cnn.com/markets/fear-and-greed"
+    },
+    {
+     "name": "Yahoo Finance VIX",
+     "url": "https://finance.yahoo.com/quote/%5EVIX/"
+    }
+   ]
+  },
+  {
+   "category": "개별 종목",
+   "headline": "NVDA Q1 실적 어닝 비트 + 배당 인상 — 그래도 시간외 하락",
+   "oneLineSummary": "보유 종목 엔비디아(NVDA)가 어젯밤 실적을 발표했어요. 매출 약 816억 달러·주당이익 $1.87로 시장 예상을 모두 넘었고, 다음 분기 매출 전망도 910억 달러로 높게 제시했어요. 배당도 늘렸는데, 정작 주가는 시간외에서 내렸어요. '기대가 워낙 컸던' 탓이에요.",
+   "summary": "NVDA Q1 FY27 매출 약 $81.6B(예상 $79.2B 상회)·EPS $1.87(예상 $1.78). Q2 가이던스 $91B(±2%)로 컨센 상회, 배당 인상·자사주 매입 발표. 데이터센터 매출이 전년比 대폭 증가. 젠슨 황 CEO '수요가 폭발적(parabolic)으로 늘었다, 에이전틱 AI가 도래했다'. 어닝 비트에도 시간외 하락 — 최근 4분기 연속 실적 발표 후 주가가 빠진 패턴 반복.",
+   "ourImpact": "NVDA는 정규장 +1.30% $223.47로 마감한 뒤 시간외 하락했어요. 다만 데이터센터 매출 급증은 같은 AI 공급망인 TSM·AVGO·MU·CRDO·DELL엔 긍정적이라, 종목별로 반응이 갈릴 수 있어요. 결과 자체는 좋았던 만큼 단기 주가 출렁임은 흐름만 지켜보면 좋아요.",
+   "impact": "neutral",
+   "sources": [
+    {
+     "name": "StockTitan (5/20)",
+     "url": "https://www.stocktitan.net/news/NVDA/"
+    },
+    {
+     "name": "CNBC (5/20)",
+     "url": "https://www.cnbc.com/2026/05/20/nvidia-nvda-earnings-report-q1-2027.html"
+    }
+   ]
+  },
+  {
+   "category": "개별 종목",
+   "headline": "보유 반도체·전력주 동반 급등 — AMD +8.1%·CRDO +8.3%·TLN +9.5%",
+   "oneLineSummary": "보유 종목 중 AI 반도체와 전력주가 어제 크게 올랐어요. AMD가 +8.1%로 가장 많이 올랐고, 광통신 칩 회사 CRDO(크레도)가 +8.3%, 전력 회사 TLN(탈렌)이 +9.5% 급등했어요. NVDA 실적 기대와 유가 급락에 따른 위험선호 회복이 같이 작용했어요.",
+   "summary": "5/20 마감 기준 보유 종목 AMD +8.10% $447.58(Citi 목표가 상향)·CRDO +8.28% $182.98·TLN +9.50% $344.46·MRVL +5.97% $186.80·MU +4.76% $731.99·DELL +3.26% $242.93. 광통신 LITE만 -2.47% $868.07로 차익실현. AI 인프라·메모리·전력 테마 전반 강세.",
+   "ourImpact": "포트폴리오 대부분이 강세였어요. 특히 AMD·CRDO·TLN·MRVL은 변동이 큰 종목이라 하루 등락폭이 크게 나와요. LITE(루멘텀)는 나스닥100 편입(5/18) 이후 차익실현으로 1주일 -12.5% 조정 중이에요.",
+   "impact": "positive",
+   "sources": [
+    {
+     "name": "네이버 금융 (5/20 종가)",
+     "url": "https://api.stock.naver.com/stock/AMD.O/basic"
+    },
+    {
+     "name": "TheStreet (5/20)",
+     "url": "https://www.thestreet.com/"
+    }
+   ]
+  },
+  {
+   "category": "아시아 증시",
+   "headline": "5/21 아침 코스피 반등 — NVDA 실적에 SK하이닉스 +5.3%·삼성전자 +6.5% 급등",
+   "oneLineSummary": "한국 증시가 5/21 아침 강하게 반등 출발했어요. 어젯밤 엔비디아 실적에서 데이터센터 매출이 크게 늘어난 게 확인되자, HBM 메모리를 만드는 SK하이닉스가 +5.3%, 삼성전자가 +6.5% 급등했어요. 한미반도체도 +5.0% 올랐어요.",
+   "summary": "5/21 오전 코스피 강한 반등 출발. SK하이닉스 +5.33% 1,838,000원·삼성전자 +6.52% 294,000원·한미반도체 +5.04% 302,000원. NVDA 데이터센터 매출 급증이 HBM·메모리 수요 호재로 해석. NVDA 주가 자체는 시간외 하락했으나 한국 메모리는 디커플링(반대로 강세).",
+   "ourImpact": "한국 반도체 강세는 같은 메모리 사이클을 타는 보유 종목 MU(마이크론)에도 우호적 신호예요. 삼성·하이닉스가 오르면 글로벌 메모리 업황 기대가 함께 살아나는 경향이 있어요.",
+   "impact": "positive",
+   "sources": [
+    {
+     "name": "네이버 금융 (5/21 장중)",
+     "url": "https://m.stock.naver.com/api/stock/000660/basic"
+    },
+    {
+     "name": "조선비즈 (5/21)",
+     "url": "https://biz.chosun.com/about-investing/2026/05/21/"
+    }
+   ]
+  },
+  {
+   "category": "아시아 증시",
+   "headline": "외국인 9일 연속 매도(누적 ~42조원) 후 5/21 저가매수 조짐 + 로봇주 강세",
+   "oneLineSummary": "외국인 투자자가 한국 주식을 9거래일 연속 팔아 누적 약 42조원을 순매도했어요. 미국 금리가 높아 한국 비중을 줄인 건데, 5/21 아침엔 반도체 저가매수 조짐이 보였어요. 동시에 로봇주가 강해서 레인보우로보틱스가 +10.5%, 두산로보틱스가 +5.3% 올랐어요.",
+   "summary": "외국인 9거래일 연속 코스피 순매도(누적 약 42조원) — 미 30년물 금리 19년 만 최고發 '셀 코리아'. 5/21 오전 반도체 저가매수 유입 관측. 로봇 테마 강세: 레인보우로보틱스 +10.50% 705,000원·두산로보틱스 +5.34% 100,600원. 증권가, AI 투자축이 반도체에서 로봇·기판으로 확산 기대.",
+   "ourImpact": "한국 로봇주는 보유 종목과 직접 관련은 적지만, '셀 코리아'가 멈추고 외국인이 돌아오면 글로벌 위험선호 회복 신호로 볼 수 있어요. 보유 AI 인프라 종목에도 간접적으로 우호적인 분위기예요.",
+   "impact": "neutral",
+   "sources": [
+    {
+     "name": "서울경제 (5/19)",
+     "url": "https://www.sedaily.com/article/20045877"
+    },
+    {
+     "name": "이데일리/네이버뉴스 (5/21)",
+     "url": "https://n.news.naver.com/mnews/article/366/0001166032"
+    }
+   ]
+  },
+  {
+   "category": "정책·금리",
+   "headline": "미 10년물 4.65%로 진정 — 16개월 최고(4.7%)서 한 발 물러서",
+   "oneLineSummary": "미국 국채 10년물 금리가 4.65%로 살짝 내렸어요. 전날 16개월 만에 가장 높은 4.7%까지 올랐다가 한 발 물러선 거예요. 금리가 높으면 비싼 성장주가 눌리는데, 잠깐 숨통이 트인 셈이에요. 유가 급락이 물가 부담을 덜어준 영향도 있어요.",
+   "summary": "5/20 미 10년물 국채금리 4.65%로 소폭 하락(전일 16개월 최고 4.7% 터치 후 진정), 30년물 5.19% 부근. WTI -6.6% 급락이 인플레 기대를 식히며 금리 상단을 눌렀음. 다만 일본·글로벌 장기금리는 여전히 사상 최고권이라 채권 환경은 빡빡.",
+   "ourImpact": "금리가 살짝 내린 건 P/E(주가가 순이익의 몇 배인지)가 높은 보유 성장주(MU·SNDK·CRDO 등)에 우호적이에요. 금리가 다시 튀면 이들이 먼저 흔들릴 수 있으니 10년물 4.7% 부근을 가볍게 지켜보면 좋아요.",
+   "impact": "positive",
+   "sources": [
+    {
+     "name": "Trading Economics 10Y (5/20)",
+     "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+     "name": "CNBC Bonds (5/18)",
+     "url": "https://www.cnbc.com/2026/05/18/treasury-yields-inflation-bond-rout-oil.html"
+    }
+   ]
+  },
+  {
+   "category": "정책·금리",
+   "headline": "일본 30년물·글로벌 장기금리 사상 최고권 — 비싼 성장주 밸류 부담 지속",
+   "oneLineSummary": "일본의 30년 만기 국채금리가 사상 최고를 기록하는 등 전 세계 장기 금리가 높은 수준에 머물고 있어요. 금리가 높으면 미래 이익을 많이 끌어다 쓰는 비싼 성장주가 상대적으로 불리해요. 당분간 종목별 실적이 주가를 가르는 환경이 이어질 거예요.",
+   "summary": "일본 30년물 금리 사상 최고, 미 30년물 5.19% 등 글로벌 장기금리 고공행진. 채권 매도(금리 상승) 압력이 잔존하며 고밸류 성장주에 구조적 부담. 금리 환경상 실적·가이던스가 확인된 종목과 그렇지 않은 종목의 차별화가 심화.",
+   "ourImpact": "고밸류 종목(P/E·성장 프리미엄 높은 SNDK·MU·CRDO)은 금리 환경에 민감해요. 반대로 실적이 또렷한 종목(AMD·MRVL·TLN 등)은 차별적으로 버틸 수 있어요. 실적 시즌(MRVL 5/28·DELL 5/29)이 분수령이에요.",
+   "impact": "neutral",
+   "sources": [
+    {
+     "name": "CNBC (5/18)",
+     "url": "https://www.cnbc.com/2026/05/18/treasury-yields-inflation-bond-rout-oil.html"
+    }
+   ]
+  },
+  {
+   "category": "글로벌·지정학",
+   "headline": "WTI $97.33로 -6.6% 급락 — 트럼프 이란 협상 기대에 호르무즈 우려 완화",
+   "oneLineSummary": "미국 대표 원유(WTI) 가격이 하루 만에 -6.6% 급락해 배럴당 97.33달러가 됐어요. 트럼프 대통령이 이란과 협상에 나설 거란 기대가 커지면서, 원유 길목인 호르무즈 해협이 막힐 거란 걱정이 줄었기 때문이에요. 유가가 내리면 물가·금리 부담도 같이 줄어요.",
+   "summary": "5/20 WTI 원유 $97.33(-6.55%). 트럼프 이란 협상 기대에 호르무즈 해협 봉쇄 우려 완화. 최근 중동 긴장으로 $100 위로 뛰었던 유가가 급반락하며 인플레·금리 압력을 동시에 완화, 위험자산 반등을 거들었음.",
+   "ourImpact": "유가 하락은 물가·금리 부담을 덜어줘 보유 성장주 전반에 우호적이에요. 특히 전력 회사 TLN(탈렌)은 에너지 가격과 간접적으로 얽혀 있어, 어제 +9.5% 급반등에 위험선호 회복이 큰 몫을 했어요.",
+   "impact": "positive",
+   "sources": [
+    {
+     "name": "Trading Economics Oil (5/20)",
+     "url": "https://tradingeconomics.com/commodity/crude-oil"
+    },
+    {
+     "name": "FXDailyReport (5/20)",
+     "url": "https://fxdailyreport.com/wti-crude-oil-price-analysis-for-may-20-2026/"
+    }
+   ]
+  },
+  {
+   "category": "글로벌·지정학",
+   "headline": "중동 긴장 완화 기대 — 유가·금리 동반 진정에 위험선호 회복",
+   "oneLineSummary": "중동의 군사적 긴장이 누그러질 거란 기대가 시장에 번졌어요. 그동안 전쟁 걱정에 올랐던 유가와 국채금리가 함께 내리면서, 투자자들이 다시 주식 같은 위험자산을 사려는 분위기가 살아났어요. 어젯밤 미국 증시 강세의 밑바탕이 됐어요.",
+   "summary": "트럼프의 이란 협상·공습 철회 기대로 중동 지정학 리스크 완화. 유가(WTI -6.6%)와 미 10년물 금리(4.7%→4.65%)가 동반 진정되며 위험선호가 회복, S&P500 +1.08%·다우 사상 첫 5만 돌파의 배경이 됨. 다만 협상 불확실성은 잔존.",
+   "ourImpact": "지정학 긴장 완화는 보유 종목 전반에 우호적이에요. 다만 협상이 틀어지면 유가·금리가 다시 튈 수 있어, 변동이 큰 보유 종목(NVDA·AVGO·CRDO 등)은 이 흐름을 가볍게 지켜보면 좋아요.",
+   "impact": "positive",
+   "sources": [
+    {
+     "name": "CNN Markets (5/20)",
+     "url": "https://www.cnn.com/markets"
+    },
+    {
+     "name": "24/7 Wall St (5/4)",
+     "url": "https://247wallst.com/investing/2026/05/04/"
+    }
+   ]
+  }
+ ],
+ "signals": {
+  "asOf": "2026-05-21",
+  "kr": [
+   {
+    "ticker": "000660",
+    "name": "SK하이닉스",
+    "market": "KOSPI",
+    "category": "관련주",
+    "thesis": "어젯밤 NVDA(엔비디아) 실적에서 데이터센터 매출이 크게 늘어난 게 확인되자, HBM(고대역폭 메모리, AI 칩에 쌓는 핵심 부품) 1위 SK하이닉스가 5/21 아침 +5.3% 급등 출발했어요. NVDA 주가 자체는 시간외에 내렸지만, 메모리 수요엔 호재로 해석된 거예요. 다만 외국인이 5거래일 연속 팔고 있어 단기 변동은 커요.",
+    "currentPrice": "1,838,000",
+    "change1D": 5.33,
+    "company": {
+     "ceo": "곽노정 (대표이사 사장)",
+     "business": "글로벌 D램·낸드 메모리 1·2위 종합 반도체 회사. HBM 시장 점유율 1위로 NVDA·AMD AI 칩 공급망의 핵심.",
+     "hq": "경기도 이천시",
+     "employees": "약 31,000명",
+     "homepage": "https://www.skhynix.com/",
+     "ceoSource": "네이버 뉴스 검증 (2026/05 보도)"
+    },
+    "financials": "PER 약 17배, 시총 약 1,300조원(네이버 금융 5/21 장중 기준), 52주 최고 2,021,000원·최저 196,500원. 외국인 보유율 51.76%.",
+    "financialStatements": {
+     "currency": "원",
+     "unit": "억원",
+     "annual": [
+      {
+       "period": "2023.12.",
+       "sales": 327657,
+       "salesFmt": "32.8조원",
+       "operatingIncome": -77303,
+       "operatingIncomeFmt": "-7.7조원",
+       "operatingMargin": -23.6,
+       "isConsensus": false
+      },
+      {
+       "period": "2024.12.",
+       "sales": 661930,
+       "salesFmt": "66.2조원",
+       "operatingIncome": 234673,
+       "operatingIncomeFmt": "23.5조원",
+       "operatingMargin": 35.5,
+       "isConsensus": false
+      },
+      {
+       "period": "2025.12.",
+       "sales": 971467,
+       "salesFmt": "97.1조원",
+       "operatingIncome": 472063,
+       "operatingIncomeFmt": "47.2조원",
+       "operatingMargin": 48.6,
+       "isConsensus": false
+      },
+      {
+       "period": "2026.12.(E)",
+       "sales": 3349430,
+       "salesFmt": "334.9조원",
+       "operatingIncome": 2548777,
+       "operatingIncomeFmt": "254.9조원",
+       "operatingMargin": 76.1,
+       "isConsensus": true
+      }
+     ],
+     "sources": [
+      {
+       "name": "네이버 금융 finance/summary API",
+       "url": "https://m.stock.naver.com/api/stock/000660/finance/summary"
+      }
+     ]
+    },
+    "financialStatementsEasy": "매출이 2023년 32.8조원에서 2025년 97.1조원으로 3배 가까이 커졌어요. 영업이익(본업으로 번 돈)은 2023년 -7.7조원 적자에서 2025년 +47.2조원 흑자로 완전히 돌아섰어요. 증권사 분석가들은 HBM 호황으로 2026년 매출이 334.9조원까지 갈 거라고 추정하는데, 영업이익률(매출에서 영업이익 비율)이 76%까지 오른다는 매우 공격적인 전망이라 실제 확인이 필요해요.",
+    "outlookEasy": "분석가들이 본 평균 목표가가 220만원으로 지금 가격(약 184만원)에서 +20% 안팎 더 오를 여력이 있어요. NVDA 데이터센터 매출 급증이 HBM 수요 기대를 키워 5/21 아침 급등했어요. 다만 미국 금리가 높아 외국인 매도가 이어지는 점은 변수라, 외국인 수급이 매수로 돌아서는지 지켜보면 좋아요.",
+    "outlook": "컨센서스 목표가 평균 약 2,205,000원 대비 +20% 안팎 갭. 트리거: NVDA Q1 데이터센터 매출 급증(HBM 수요 호재) → 5/21 +5.3% 반등. 변수: 외국인 5거래일 연속 순매도, 미 30년물 금리 5.19%. 52주 최고 2,021,000원 회복 시도 구간.",
+    "flowReason": {
+     "summary": "美 금리 급등發 외국인 '셀 코리아' 지속 — 5/20까지 5일 연속 순매도",
+     "detail": "미국 30년물 국채금리가 19년 만 최고로 뛰면서 외국인이 한국 비중을 줄이는 흐름이 5/20까지 이어졌어요(5거래일 연속 순매도, 5/20 약 70만 주). HBM 1위지만 금리·환율 부담에 외국인 매물이 계속 나왔어요. 다만 5/21 아침 NVDA 실적 호조에 저가매수 조짐이 보여요.",
+     "sources": [
+      {
+       "name": "서울경제 (5/19)",
+       "url": "https://www.sedaily.com/article/20045877"
+      },
+      {
+       "name": "네이버 금융 dealTrendInfos",
+       "url": "https://m.stock.naver.com/api/stock/000660/integration"
+      }
+     ]
+    },
+    "comparable": "미국 메모리 MU(마이크론)는 같은 메모리 사이클 종목으로, 어젯밤 시장 약세 속에서도 +2.52% 강세였어요. 한·미 메모리가 단기 엇갈렸지만 업황은 한 흐름이에요.",
+    "risk": "외국인이 5거래일 연속 순매도 중이라, 매도가 더 길어지면 추가 약세 가능해요. 환율이 1,510원 위로 오르면 외국인 환차손 부담이 커지고, 5/21 삼성전자 파업도 동시 변수라 변동이 큰 시점이에요.",
+    "horizon": "1~3개월 (단기) — NVDA 실적·금리 결과가 단기 방향 결정",
+    "relatedStocks": [
+     {
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "KOSPI",
+      "relation": "HBM·D램 경쟁사 — 메모리 사이클 같이 움직임",
+      "currentPrice": "294,000",
+      "change1D": 6.52
+     },
+     {
+      "code": "042700",
+      "name": "한미반도체",
+      "market": "KOSPI",
+      "relation": "HBM TC본더 장비 공급사 — SK하이닉스 수주에 연동",
+      "currentPrice": "302,000",
+      "change1D": 5.04
+     }
+    ],
+    "sources": [
+     {
+      "name": "네이버 금융 (실시간)",
+      "url": "https://m.stock.naver.com/domestic/stock/000660/total"
+     }
+    ],
+    "_fetchMeta": {
+     "fetchedAt": "2026-05-20T11:50:00+09:00",
+     "sources": [
+      {
+       "url": "https://m.stock.naver.com/api/stock/000660/integration"
+      },
+      {
+       "url": "https://m.stock.naver.com/api/stock/000660/basic"
+      }
+     ]
+    }
+   },
+   {
+    "ticker": "034020",
+    "name": "두산에너빌리티",
+    "market": "KOSPI",
+    "category": "성장주",
+    "thesis": "원전·가스 발전 설비 회사예요. AI 데이터센터가 늘면서 전력 수요가 폭발하는 흐름의 직접 수혜주로 꼽혀요. 5/20 외국인이 4거래일 연속 팔다가 처음으로 순매수로 돌아섰고, 5/21 아침 +6.6% 급등했어요. 같은 그룹 두산로보틱스도 로봇 테마로 함께 강세예요.",
+    "currentPrice": "108,000",
+    "change1D": 6.61,
+    "company": {
+     "ceo": "정연인·정형락 (각자 대표이사)",
+     "business": "원자력·가스터빈·풍력 등 발전 설비를 만드는 국내 1위 발전 플랜트 회사. AI 데이터센터 전력 수요 대응을 위한 SMR(소형모듈원전) 사업을 확대 중.",
+     "hq": "경남 창원시",
+     "employees": "약 6,500명",
+     "homepage": "https://www.doosanenerbility.com/",
+     "ceoSource": "네이버 뉴스 검증 (2026/05 보도)"
+    },
+    "financials": "PER 762배(이익 대비 매우 높음), 시총 약 64.4조원(네이버 금융 5/20), 52주 최고 139,200원·최저 37,100원. 외국인 보유율 24.80%.",
+    "financialStatements": {
+     "currency": "원",
+     "unit": "억원",
+     "annual": [
+      {
+       "period": "2023.12.",
+       "sales": 175899,
+       "salesFmt": "17.6조원",
+       "operatingIncome": 14673,
+       "operatingIncomeFmt": "1.5조원",
+       "operatingMargin": 8.3,
+       "isConsensus": false
+      },
+      {
+       "period": "2024.12.",
+       "sales": 162331,
+       "salesFmt": "16.2조원",
+       "operatingIncome": 10176,
+       "operatingIncomeFmt": "1.0조원",
+       "operatingMargin": 6.3,
+       "isConsensus": false
+      },
+      {
+       "period": "2025.12.",
+       "sales": 170579,
+       "salesFmt": "17.1조원",
+       "operatingIncome": 7627,
+       "operatingIncomeFmt": "7,627억원",
+       "operatingMargin": 4.5,
+       "isConsensus": false
+      },
+      {
+       "period": "2026.12.(E)",
+       "sales": 180973,
+       "salesFmt": "18.1조원",
+       "operatingIncome": 11214,
+       "operatingIncomeFmt": "1.1조원",
+       "operatingMargin": 6.2,
+       "isConsensus": true
+      }
+     ],
+     "sources": [
+      {
+       "name": "네이버 금융 finance/summary API",
+       "url": "https://m.stock.naver.com/api/stock/034020/finance/summary"
+      }
+     ]
+    },
+    "financialStatementsEasy": "매출은 2023년 17.6조원에서 2025년 17.1조원으로 비슷한 수준을 유지하고 있어요. 영업이익(본업으로 번 돈)은 1.5조원→1.0조원→7,627억원으로 다소 줄었어요. 증권사 분석가들은 2026년 매출이 18.1조원(+6%), 영업이익 1.1조원으로 회복될 거라 추정해요. 영업이익률은 4~8% 수준으로 평균적인데, SMR·원전 수주가 실제 매출로 잡히는 시점이 성장의 관건이에요.",
+    "outlookEasy": "전력·원전 수요 기대에 5/21 아침 +6.6% 급등했어요. 5/20 외국인이 4일 만에 처음 순매수로 돌아선 점이 긍정적 신호예요. 다만 단기 급등 종목이라 변동이 크고, 외국인 매수가 이어지는지 며칠 더 확인하는 게 안전해요. (컨센서스 데이터는 변동성이 커 52주 흐름 위주로 평가)",
+    "outlook": "컨센서스 목표가 평균 151,714원 대비 +51% 갭. 성장 동력: SMR·가스터빈 100조원 수주 잔고(언론 보도). 단기 변수: 외국인 매도장 동조. 시나리오: 52주 최고 139,200원 도달 시 +38%, 단기 외국인 매도 지속 시 추가 조정 가능. PER 762배로 밸류 부담 상존.",
+    "flowReason": {
+     "summary": "4일 연속 매도 끝 5/20 외국인 순매수 전환 — 전력 수요 기대",
+     "detail": "외국인이 5/14~5/19 4거래일 연속 순매도하다가 5/20 약 25만 주 순매수로 돌아섰어요. AI 데이터센터 전력 수요 기대가 살아나는 가운데 저가매수가 유입된 것으로 보여요. 5/21 아침엔 +6.6% 급등하며 흐름이 이어졌어요.",
+     "sources": [
+      {
+       "name": "네이버 금융 dealTrendInfos",
+       "url": "https://m.stock.naver.com/api/stock/034020/integration"
+      }
+     ]
+    },
+    "comparable": "같은 AI 전력 테마인 미국 VRT(버티브)·보유 종목 TLN(탈렌에너지)과 함께 'AI=전력' 흐름을 공유해요. 전력 인프라는 데이터센터 증설과 동행하는 구조예요.",
+    "risk": "PER 762배로 이익 대비 매우 비싼 편이라 변동이 큰 종목이에요. 외국인 매도장이 이어지면 추가 조정 가능. 수주가 실제 매출·이익으로 잡히는 시점이 늦으면 실망 매물이 나올 수 있어요.",
+    "horizon": "6~12개월 (장기) — SMR·전력 수주가 실적으로 잡히는 데 시간 필요",
+    "relatedStocks": [
+     {
+      "code": "454910",
+      "name": "두산로보틱스",
+      "market": "KOSPI",
+      "relation": "같은 두산그룹 계열 — 그룹 AI·로봇 사업 동행",
+      "currentPrice": "100,600",
+      "change1D": 5.34
+     },
+     {
+      "code": "267260",
+      "name": "HD현대일렉트릭",
+      "market": "KOSPI",
+      "relation": "전력기기 동종 — AI 데이터센터 전력 수요 같이 수혜",
+      "currentPrice": "1,107,000",
+      "change1D": 3.85
+     }
+    ],
+    "sources": [
+     {
+      "name": "네이버 금융 (실시간)",
+      "url": "https://m.stock.naver.com/domestic/stock/034020/total"
+     }
+    ],
+    "_fetchMeta": {
+     "fetchedAt": "2026-05-20T11:50:00+09:00",
+     "sources": [
+      {
+       "url": "https://m.stock.naver.com/api/stock/034020/integration"
+      },
+      {
+       "url": "https://m.stock.naver.com/api/stock/034020/basic"
+      }
+     ]
+    }
+   },
+   {
+    "ticker": "042700",
+    "name": "한미반도체",
+    "market": "KOSPI",
+    "category": "실적기대",
+    "thesis": "HBM 메모리를 칩에 쌓아 붙이는 핵심 장비(TC본더)를 만드는 회사예요. SK하이닉스가 주요 고객이라, HBM 호황의 장비 쪽 수혜주로 꼽혀요. NVDA 실적 호조에 5/21 아침 +5.0% 올랐어요. 다만 외국인이 5거래일 연속 팔고 있어 단기 변동은 커요.",
+    "currentPrice": "302,000",
+    "change1D": 5.04,
+    "company": {
+     "ceo": "곽동신 (회장)",
+     "business": "HBM 제조에 필수인 TC본더(칩을 정밀하게 쌓아 붙이는 장비)를 독점 공급하는 반도체 장비 회사. SK하이닉스·마이크론 등이 주요 고객.",
+     "hq": "인천광역시",
+     "employees": "약 1,500명",
+     "homepage": "https://www.hanmisemi.com/",
+     "ceoSource": "네이버 뉴스 검증 (2026/05 보도)"
+    },
+    "financials": "PER 128.75배, 시총 약 27.4조원(네이버 금융 5/20), 52주 최고 426,000원·최저 66,800원. 1분기 매출 509억원. 외국인 보유율 6.62%.",
+    "financialStatements": {
+     "currency": "원",
+     "unit": "억원",
+     "annual": [
+      {
+       "period": "2023.12.",
+       "sales": 1590,
+       "salesFmt": "1,590억원",
+       "operatingIncome": 346,
+       "operatingIncomeFmt": "346억원",
+       "operatingMargin": 21.8,
+       "isConsensus": false
+      },
+      {
+       "period": "2024.12.",
+       "sales": 5589,
+       "salesFmt": "5,589억원",
+       "operatingIncome": 2554,
+       "operatingIncomeFmt": "2,554억원",
+       "operatingMargin": 45.7,
+       "isConsensus": false
+      },
+      {
+       "period": "2025.12.",
+       "sales": 5767,
+       "salesFmt": "5,767억원",
+       "operatingIncome": 2514,
+       "operatingIncomeFmt": "2,514억원",
+       "operatingMargin": 43.6,
+       "isConsensus": false
+      }
+     ],
+     "sources": [
+      {
+       "name": "네이버 금융 finance/summary API",
+       "url": "https://m.stock.naver.com/api/stock/042700/finance/summary"
+      }
+     ]
+    },
+    "financialStatementsEasy": "매출이 2023년 1,590억원에서 2024년 5,589억원으로 3.5배 급증한 뒤, 2025년 5,767억원으로 비슷하게 유지됐어요. 영업이익률(매출에서 영업이익 비율)이 43~46%로 굉장히 높은 편이에요. HBM 장비 독점이라 이익률이 높지만, 고객사 투자 시점에 따라 분기 실적 변동이 큰 점이 최근 어닝쇼크로 나타났어요.",
+    "outlookEasy": "HBM 장비 대표주라 메모리 호황 기대가 커지면 같이 올라요. NVDA 데이터센터 매출 급증 확인에 5/21 아침 +5.0% 반등했어요. 다만 외국인이 계속 순매도 중이라, 수급이 매수로 돌아서는지 확인하며 보는 게 안전해요.",
+    "outlook": "컨센서스 데이터 미수신 — 52주 범위 기반으로만 평가. 현재가 287,500원은 52주 최고 426,000원 대비 -33%, 최저 66,800원 대비 +330% 위치. 단기 트리거: 회장 자사주 매입(80억원, 5/19 보도)·HBM4 TC본더4 수주잔고 회복. 시나리오: 실적 반등 확인 시 회복 여력, 추가 어닝쇼크 시 약세 지속.",
+    "flowReason": {
+     "summary": "외국인 5거래일 연속 순매도 — 반도체 차익실현·셀 코리아",
+     "detail": "외국인이 5/14~5/20 5거래일 연속 순매도했어요(5/20 약 18만 주). 미 금리 급등發 한국 비중 축소와 반도체 단기 차익실현이 겹쳤어요. 5/21 아침엔 NVDA 호재로 주가는 반등했지만 외국인 수급 전환은 아직 확인 전이에요.",
+     "sources": [
+      {
+       "name": "네이버 금융 dealTrendInfos",
+       "url": "https://m.stock.naver.com/api/stock/042700/integration"
+      }
+     ]
+    },
+    "comparable": "고객사인 SK하이닉스의 HBM 수주가 늘면 한미반도체 장비 주문도 따라 늘어요. NVDA 실적이 좋아 HBM 투자가 가속되면 수주 회복의 단서가 될 수 있어요.",
+    "risk": "PER 128배로 비싸고, 분기 실적 변동이 매우 큰 종목이에요. 고객사 투자 일정이 또 밀리면 추가 약세 가능. 회장 자사주 매입은 긍정 신호지만 실적 반등 자체를 보장하진 않아요.",
+    "horizon": "3~6개월 (중기) — HBM4 양산 본격화와 수주 회복 확인 필요",
+    "relatedStocks": [
+     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "market": "KOSPI",
+      "relation": "최대 고객사 — HBM 투자 늘면 장비 주문 증가",
+      "currentPrice": "1,838,000",
+      "change1D": 5.33
+     },
+     {
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "KOSPI",
+      "relation": "잠재 고객·HBM 경쟁사 — 메모리 투자 사이클 연동",
+      "currentPrice": "294,000",
+      "change1D": 6.52
+     }
+    ],
+    "sources": [
+     {
+      "name": "네이버 금융 (실시간)",
+      "url": "https://m.stock.naver.com/domestic/stock/042700/total"
+     }
+    ],
+    "_fetchMeta": {
+     "fetchedAt": "2026-05-20T11:50:00+09:00",
+     "sources": [
+      {
+       "url": "https://m.stock.naver.com/api/stock/042700/integration"
+      },
+      {
+       "url": "https://m.stock.naver.com/api/stock/042700/basic"
+      }
+     ]
+    }
+   }
+  ],
+  "us": [
+   {
+    "ticker": "CRWV",
+    "name": "코어위브 (CoreWeave)",
+    "market": "NASDAQ",
+    "category": "관련주",
+    "thesis": "NVDA(엔비디아) GPU를 빌려주는 AI 클라우드 전문 회사예요(코어위브). 어젯밤 NVDA 실적에서 데이터센터 매출이 크게 늘어난 게 확인돼, GPU를 대량 굴리는 코어위브의 수요 전망에도 우호적이에요. 5/20 +1.5% $101.28로 마감했어요. 다만 적자·투자 부담이 큰 종목이라 변동이 커요.",
+    "currentPrice": 101.28,
+    "change1D": 1.47,
+    "company": {
+     "ceo": "Michael Intrator",
+     "business": "AI 학습·추론에 특화된 클라우드 인프라 회사. NVDA GPU 기반 코어위브 클라우드 플랫폼을 운영하며 대형 AI 기업에 컴퓨팅을 제공.",
+     "hq": "미국 뉴저지 리빙스턴",
+     "employees": "2,189명 (2025-12-31 기준)",
+     "homepage": "https://www.coreweave.com/",
+     "ceoSource": "네이버 금융 integration API summaries"
+    },
+    "financials": "PER 측정불가(아직 순손실), 시총 약 545억$, 52주 최고 $187.00·최저 $63.80 (네이버 금융 5/20 기준).",
+    "financialStatements": {
+     "currency": "USD환산원",
+     "unit": "억원",
+     "annual": [
+      {
+       "period": "2023.12.",
+       "sales": 3454,
+       "salesFmt": "3,454억원",
+       "operatingIncome": -218,
+       "operatingIncomeFmt": "-218억원",
+       "operatingMargin": -6.3,
+       "isConsensus": false
+      },
+      {
+       "period": "2024.12.",
+       "sales": 28900,
+       "salesFmt": "2.9조원",
+       "operatingIncome": 4894,
+       "operatingIncomeFmt": "4,894억원",
+       "operatingMargin": 16.9,
+       "isConsensus": false
+      },
+      {
+       "period": "2025.12.",
+       "sales": 77417,
+       "salesFmt": "7.7조원",
+       "operatingIncome": -694,
+       "operatingIncomeFmt": "-694억원",
+       "operatingMargin": -0.9,
+       "isConsensus": false
+      }
+     ],
+     "sources": [
+      {
+       "name": "네이버 금융 finance/summary API",
+       "url": "https://api.stock.naver.com/stock/CRWV.O/finance/summary"
+      }
+     ]
+    },
+    "financialStatementsEasy": "매출이 2023년 3,454억원에서 2025년 7.7조원으로 22배 폭발적으로 커졌어요(원화 환산 기준). AI 클라우드 수요가 그만큼 빠르게 늘었다는 뜻이에요. 다만 영업이익은 2024년 잠깐 흑자였다가 2025년 다시 -694억원 적자로, GPU를 대량으로 사들이는 투자 부담 때문에 아직 이익이 들쭉날쭉해요.",
+    "outlookEasy": "NVDA 데이터센터 매출 급증은 GPU를 빌려주는 코어위브에 긍정적 신호예요. 다만 아직 큰 적자와 막대한 투자 부담을 안고 있어 변동이 매우 큰 종목이에요. NVDA 공급망 흐름과 함께 가볍게 지켜보면 좋아요. (실시간 컨센서스 변동 커 흐름 위주 평가)",
+    "outlook": "컨센서스 목표가 평균 $138.93 대비 +37% 갭. 분포 $36~$295로 매우 넓어 의견 양분. 트리거: NVDA Q1 데이터센터 매출 급증(GPU 수요 호재) 확인. 시나리오: 최고 $295 도달 시 큰 폭 상승, 최저 $36 도달 시 큰 폭 하락 — 적자·투자 부담으로 변동 매우 큼. 52주 최고 $187 대비 -46% 위치.",
+    "flowReason": {
+     "summary": "NVDA 데이터센터 매출 급증 확인 — GPU 클라우드 수요 기대",
+     "detail": "5/20 +1.5% 마감 후 NVDA 실적에서 데이터센터 매출이 크게 늘어난 게 확인됐어요. CRWV는 NVDA GPU 의존도가 높아 이 흐름이 수요 기대엔 우호적이에요. 다만 적자·투자 부담이 큰 종목이라 변동은 계속 클 수 있어요.",
+     "sources": [
+      {
+       "name": "StockTitan NVDA 실적 (5/20)",
+       "url": "https://www.stocktitan.net/news/NVDA/"
+      }
+     ]
+    },
+    "comparable": "같은 AI 클라우드·인프라 종목인 NBIS(네비우스)와 흐름을 공유해요. 둘 다 NVDA GPU 수요에 직접 연동되는 구조예요.",
+    "risk": "아직 순손실 단계라 변동이 매우 큰 종목이에요. NVDA 실적 미스나 가이던스 실망 시 -10% 이상 급락 가능. 금리 급등기엔 이익 안 나는 성장주가 먼저 눌려요.",
+    "horizon": "3~6개월 (중기) — NVDA 실적·AI CapEx 사이클에 연동",
+    "relatedStocks": [
+     {
+      "code": "NVDA",
+      "name": "엔비디아",
+      "market": "NASDAQ",
+      "relation": "최대 GPU 공급사 — CRWV 인프라의 핵심 부품",
+      "currentPrice": 223.47,
+      "change1D": 1.3
+     },
+     {
+      "code": "NBIS",
+      "name": "네비우스 그룹",
+      "market": "NASDAQ",
+      "relation": "AI 클라우드 동종 — GPU 수요 같이 움직임",
+      "currentPrice": 191.82,
+      "change1D": -2.99
+     }
+    ],
+    "sources": [
+     {
+      "name": "네이버 금융 (실시간)",
+      "url": "https://m.stock.naver.com/worldstock/stock/CRWV.O"
+     }
+    ],
+    "_fetchMeta": {
+     "fetchedAt": "2026-05-20T11:50:00+09:00",
+     "sources": [
+      {
+       "url": "https://api.stock.naver.com/stock/CRWV.O/integration"
+      },
+      {
+       "url": "https://api.stock.naver.com/stock/CRWV.O/basic"
+      }
+     ]
+    }
+   },
+   {
+    "ticker": "VRT",
+    "name": "버티브 (Vertiv)",
+    "market": "NYSE",
+    "category": "성장주",
+    "thesis": "AI 데이터센터의 전력·냉각 장비를 만드는 회사예요(버티브). 데이터센터가 늘수록 전력·열관리 수요가 커지는 직접 수혜주예요. 5/20엔 -2.2% $315.67로 차익실현이 나왔지만, NVDA 실적의 데이터센터 매출 급증은 중기 수요엔 우호적이에요.",
+    "currentPrice": 315.67,
+    "change1D": -2.16,
+    "company": {
+     "ceo": "David M. Cote (회장)",
+     "business": "데이터센터용 전력 관리·냉각·랙 시스템 등 디지털 인프라 장비를 만드는 회사. AI 데이터센터 증설의 직접 수혜주.",
+     "hq": "미국 오하이오 웨스터빌",
+     "employees": "34,000명 (2025-12-31 기준)",
+     "homepage": "https://investors.vertiv.com/",
+     "ceoSource": "네이버 금융 integration API summaries"
+    },
+    "financials": "PER 78.51배, 시총 약 1,239억$, 52주 최고 $379.94·최저 $101.00 (네이버 금융 5/20 기준).",
+    "financialStatements": {
+     "currency": "USD환산원",
+     "unit": "억원",
+     "annual": [
+      {
+       "period": "2022.12.",
+       "sales": 85862,
+       "salesFmt": "8.6조원",
+       "operatingIncome": 2519,
+       "operatingIncomeFmt": "2,519억원",
+       "operatingMargin": 2.9,
+       "isConsensus": false
+      },
+      {
+       "period": "2023.12.",
+       "sales": 103538,
+       "salesFmt": "10.4조원",
+       "operatingIncome": 8051,
+       "operatingIncomeFmt": "8,051억원",
+       "operatingMargin": 7.8,
+       "isConsensus": false
+      },
+      {
+       "period": "2024.12.",
+       "sales": 120866,
+       "salesFmt": "12.1조원",
+       "operatingIncome": 11547,
+       "operatingIncomeFmt": "1.2조원",
+       "operatingMargin": 9.6,
+       "isConsensus": false
+      },
+      {
+       "period": "2025.12.",
+       "sales": 154328,
+       "salesFmt": "15.4조원",
+       "operatingIncome": 26278,
+       "operatingIncomeFmt": "2.6조원",
+       "operatingMargin": 17.0,
+       "isConsensus": false
+      }
+     ],
+     "sources": [
+      {
+       "name": "네이버 금융 finance/summary API",
+       "url": "https://api.stock.naver.com/stock/VRT/finance/summary"
+      }
+     ]
+    },
+    "financialStatementsEasy": "매출이 2022년 8.6조원에서 2025년 15.4조원으로 꾸준히 +80% 늘었어요(원화 환산). 특히 영업이익률(매출에서 영업이익 비율)이 2.9%→17.0%로 크게 좋아졌어요. 데이터센터 전력·냉각 수요가 늘면서 비싸게 팔 수 있게 됐다는 뜻이에요. 적자 없이 매년 이익이 늘어나는 안정적인 성장 흐름이에요.",
+    "outlookEasy": "데이터센터 전력·냉각 수요 증가의 직접 수혜주예요. 5/20엔 -2.2% 조정받았지만, NVDA 데이터센터 매출 급증은 버티브 같은 인프라 장비주엔 중기 호재예요. 변동이 큰 종목이라 흐름만 가볍게 지켜보면 좋아요.",
+    "outlook": "컨센서스 목표가 평균 $335.56 대비 +4% 갭으로 거의 도달. 분포 $112~$425. 성장 동력: 데이터센터 전력·냉각 수요(매출 4년 +80%, 영업이익률 2.9%→17%). 단기 변수: 금리 급등發 조정·NVDA 실적. 시나리오: 최고 $425 도달 시 +32%, 금리 부담 지속 시 추가 조정.",
+    "flowReason": {
+     "summary": "금리 급등發 고밸류 성장주 차익실현",
+     "detail": "오늘 -5.03% 하락은 미국 30년물 금리가 19년 만 최고로 뛰면서, PER 78배로 비싼 성장주에 차익실현 매물이 나온 영향이에요. AI 전력·냉각 수요라는 펀더멘털은 그대로지만, 금리가 높을 땐 비싼 주식이 먼저 눌려요.",
+     "sources": [
+      {
+       "name": "네이버 금융 (실시간)",
+       "url": "https://m.stock.naver.com/worldstock/stock/VRT.K"
+      }
+     ]
+    },
+    "comparable": "같은 전력기기 종목 ETN(이튼)과 흐름을 공유하고, AI 클라우드 CRWV와도 'AI 인프라' 테마로 동행해요.",
+    "risk": "PER 78배로 비싼 편이라 금리 급등기엔 변동이 큰 종목이에요. AI 데이터센터 투자(CapEx)가 둔화되면 직접 타격을 받아요. 단기 컨센서스 여력은 +4%로 제한적이에요.",
+    "horizon": "6~12개월 (장기) — AI 데이터센터 증설 사이클과 동행",
+    "relatedStocks": [
+     {
+      "code": "ETN",
+      "name": "이튼 (Eaton)",
+      "market": "NYSE",
+      "relation": "전력기기 동종 — 데이터센터 전력 수요 같이 수혜",
+      "currentPrice": 379.69,
+      "change1D": 2.1
+     },
+     {
+      "code": "CRWV",
+      "name": "코어위브",
+      "market": "NASDAQ",
+      "relation": "AI 인프라 테마 동행 — 데이터센터 증설 수혜 공유",
+      "currentPrice": 101.28,
+      "change1D": 1.47
+     }
+    ],
+    "sources": [
+     {
+      "name": "네이버 금융 (실시간)",
+      "url": "https://m.stock.naver.com/worldstock/stock/VRT.K"
+     }
+    ],
+    "_fetchMeta": {
+     "fetchedAt": "2026-05-20T11:50:00+09:00",
+     "sources": [
+      {
+       "url": "https://api.stock.naver.com/stock/VRT/integration"
+      },
+      {
+       "url": "https://api.stock.naver.com/stock/VRT/basic"
+      }
+     ]
+    }
+   }
+  ],
+  "krForeignFlow": {
+   "asOf": "2026-05-20",
+   "lookbackDays": "5거래일 (5/14~5/20)",
+   "rows": [
+    {
+     "ticker": "000660",
+     "name": "SK하이닉스",
+     "foreignHoldRatio": 51.76,
+     "netBuy5d": -4599372,
+     "dailyNetBuy": [
+      {
+       "date": "5/14",
+       "shares": -815209
+      },
+      {
+       "date": "5/15",
+       "shares": -1391973
+      },
+      {
+       "date": "5/18",
+       "shares": -559756
+      },
+      {
+       "date": "5/19",
+       "shares": -1128221
+      },
+      {
+       "date": "5/20",
+       "shares": -704213
+      }
+     ],
+     "trend": "매도세 (5거래일 순매도)",
+     "trendTone": "negative"
+    },
+    {
+     "ticker": "034020",
+     "name": "두산에너빌리티",
+     "foreignHoldRatio": 24.93,
+     "netBuy5d": -1460254,
+     "dailyNetBuy": [
+      {
+       "date": "5/14",
+       "shares": -710952
+      },
+      {
+       "date": "5/15",
+       "shares": -117762
+      },
+      {
+       "date": "5/18",
+       "shares": -383896
+      },
+      {
+       "date": "5/19",
+       "shares": -498402
+      },
+      {
+       "date": "5/20",
+       "shares": 250758
+      }
+     ],
+     "trend": "매도→매수 전환 (5/20)",
+     "trendTone": "positive"
+    },
+    {
+     "ticker": "042700",
+     "name": "한미반도체",
+     "foreignHoldRatio": 6.51,
+     "netBuy5d": -1025781,
+     "dailyNetBuy": [
+      {
+       "date": "5/14",
+       "shares": -196305
+      },
+      {
+       "date": "5/15",
+       "shares": -101381
+      },
+      {
+       "date": "5/18",
+       "shares": -432804
+      },
+      {
+       "date": "5/19",
+       "shares": -117733
+      },
+      {
+       "date": "5/20",
+       "shares": -177558
+      }
+     ],
+     "trend": "매도세 (5거래일 순매도)",
+     "trendTone": "negative"
+    },
+    {
+     "ticker": "279570",
+     "name": "케이뱅크",
+     "foreignHoldRatio": 0.0,
+     "netBuy5d": -264989,
+     "dailyNetBuy": [
+      {
+       "date": "5/14",
+       "shares": -77154
+      },
+      {
+       "date": "5/15",
+       "shares": -204680
+      },
+      {
+       "date": "5/18",
+       "shares": 96567
+      },
+      {
+       "date": "5/19",
+       "shares": -26937
+      },
+      {
+       "date": "5/20",
+       "shares": -52785
+      }
+     ],
+     "trend": "매도세 (마지막날 순매도)",
+     "trendTone": "negative"
+    },
+    {
+     "ticker": "439960",
+     "name": "코스모로보틱스",
+     "foreignHoldRatio": 0.0,
+     "netBuy5d": -97314,
+     "dailyNetBuy": [
+      {
+       "date": "5/14",
+       "shares": -110475
+      },
+      {
+       "date": "5/15",
+       "shares": -114878
+      },
+      {
+       "date": "5/18",
+       "shares": -31781
+      },
+      {
+       "date": "5/19",
+       "shares": 201260
+      },
+      {
+       "date": "5/20",
+       "shares": -41440
+      }
+     ],
+     "trend": "매도세 (마지막날 순매도)",
+     "trendTone": "negative"
+    },
+    {
+     "ticker": "487580",
+     "name": "폴레드",
+     "foreignHoldRatio": 0.54,
+     "netBuy5d": -134276,
+     "dailyNetBuy": [
+      {
+       "date": "5/14",
+       "shares": -132600
+      },
+      {
+       "date": "5/15",
+       "shares": -29076
+      },
+      {
+       "date": "5/18",
+       "shares": 156597
+      },
+      {
+       "date": "5/19",
+       "shares": -144055
+      },
+      {
+       "date": "5/20",
+       "shares": 14858
+      }
+     ],
+     "trend": "매수세 (마지막날 순매수)",
+     "trendTone": "positive"
+    }
+   ],
+   "insights": [
+    "외국인은 5/14~5/20 대형 반도체에서 강한 순매도를 이어갔어요. SK하이닉스 5거래일 합계 약 -460만 주, 한미반도체 약 -103만 주로 '셀 코리아'가 뚜렷했어요.",
+    "두산에너빌리티는 4거래일 연속 순매도하다 5/20 약 +25만 주 순매수로 돌아섰어요 — 전력 테마로 외국인 시선이 일부 돌아온 신호일 수 있어요.",
+    "폴레드(신규 상장주)는 5/20 약 +1.5만 주 순매수로 마감해 단기 수급이 개선됐어요.",
+    "케이뱅크·코스모로보틱스는 외인 보유율이 0%대로 매우 낮아 외국인 영향이 거의 없는 종목이에요(개인·기관 수급 중심).",
+    "전반적으로 5/20까지는 외국인 매도 우위였지만, 5/21 아침 NVDA 실적 호조에 SK하이닉스·삼성전자가 +5~6% 급등하며 저가매수 조짐이 나타났어요(5/21 수급은 다음 집계에서 확인)."
+   ],
+   "sources": [
+    {
+     "name": "네이버 금융 dealTrendInfos API",
+     "url": "https://m.stock.naver.com/api/stock/000660/integration"
+    },
+    {
+     "name": "서울경제 (5/19)",
+     "url": "https://www.sedaily.com/article/20045877"
+    }
+   ]
+  },
+  "newListings": {
+   "kr": [
+    {
+     "ticker": "279570",
+     "name": "케이뱅크",
+     "market": "KOSPI",
+     "category": "이슈주",
+     "listedAt": "2026-03",
+     "thesis": "국내 1호 인터넷 전문은행이에요. 올해 3월 코스피에 상장했는데, 순이익이 두 배로 늘어난 호실적에도 주가는 공모가를 밑돌고 있어요. 분석가 평균 목표가는 9,000원으로 지금(5,360원)보다 +68% 높지만, 업비트 의존 구조·오버행(상장 후 매물 부담) 같은 숙제도 함께 있어요.",
+     "currentPrice": "5,340",
+     "change1D": 0.38,
+     "company": {
+      "ceo": "최우형 (은행장)",
+      "business": "국내 1호 인터넷 전문은행. 비대면 예적금·대출·간편결제 등을 제공하며, 업비트 제휴 계좌가 주요 수익원 중 하나.",
+      "hq": "서울특별시",
+      "employees": "약 600명",
+      "homepage": "https://www.kbanknow.com/",
+      "ceoSource": "네이버 뉴스 검증 (2026/05 보도)"
+     },
+     "financials": "PER 17.90배, 시총 약 2.18조원(네이버 금융 5/20), 52주 최고 9,880원·최저 5,210원(현재가가 52주 최저 부근). 외국인 보유율 0.00%.",
+     "financialStatements": {
+      "currency": "원",
+      "unit": "억원",
+      "annual": [
+       {
+        "period": "2023.12.",
+        "sales": 9465,
+        "salesFmt": "9,465억원",
+        "operatingIncome": 165,
+        "operatingIncomeFmt": "165억원",
+        "operatingMargin": 1.7,
+        "isConsensus": false
+       },
+       {
+        "period": "2024.12.",
+        "sales": 12285,
+        "salesFmt": "1.2조원",
+        "operatingIncome": 1330,
+        "operatingIncomeFmt": "1,330억원",
+        "operatingMargin": 10.8,
+        "isConsensus": false
+       },
+       {
+        "period": "2025.12.",
+        "sales": 13348,
+        "salesFmt": "1.3조원",
+        "operatingIncome": 1171,
+        "operatingIncomeFmt": "1,171억원",
+        "operatingMargin": 8.8,
+        "isConsensus": false
+       }
+      ],
+      "sources": [
+       {
+        "name": "네이버 금융 finance/summary API",
+        "url": "https://m.stock.naver.com/api/stock/279570/finance/summary"
+       }
+      ]
+     },
+     "financialStatementsEasy": "영업수익(은행의 매출에 해당)이 2023년 9,465억원에서 2025년 1.3조원으로 꾸준히 늘었어요. 영업이익도 165억원에서 1,171억원으로 7배 커졌어요. 인터넷은행답게 비용이 적어 이익이 빠르게 늘고 있지만, 주가는 아직 공모가를 밑돌아 실적과 주가의 간극이 큰 상태예요.",
+     "outlookEasy": "분석가들이 본 평균 목표가가 9,000원으로 지금 가격(5,360원)에서 +68% 더 오를 여력이 있어요. 순이익이 두 배로 늘어난 호실적이 근거예요. 다만 신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 업비트 제휴 의존, 상장 후 매물 부담(오버행)이 주가 발목을 잡고 있어요.",
+     "outlook": "컨센서스 목표가 평균 9,000원 대비 +68% 갭. 현재가 5,360원은 52주 최저 5,210원 부근(저점권). 단기 변수: 금융주 투자심리 둔화·오버행. 시나리오: 실적 호조 재확인 시 공모가 회복 시도, 업비트 의존·오버행 부담 지속 시 저점 횡보 가능.",
+     "flowReason": {
+      "summary": "호실적에도 공모가 하회 — 오버행·업비트 의존 우려",
+      "detail": "순이익이 두 배로 늘었는데도 주가는 공모가를 계속 밑돌고 있어요. 업비트 제휴 계좌 의존 구조, 상장 후 풀리는 매물(오버행) 우려, 카카오뱅크 대비 부진한 외형 성장이 복합적으로 작용했어요. 5/19엔 금융주 전반 투자심리 둔화로 보합권에서 움직였어요.",
+      "sources": [
+       {
+        "name": "이코노미스트 (5/15)",
+        "url": "https://n.news.naver.com/mnews/article/243/0000097888?sid=101"
+       },
+       {
+        "name": "더비즈 (5/15)",
+        "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=720716"
+       }
+      ]
+     },
+     "comparable": "먼저 상장한 카카오뱅크(323410)와 같은 인터넷은행 테마예요. 카카오뱅크 주가 흐름이 케이뱅크 투자심리의 참고가 돼요.",
+     "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 상장 후 매물(오버행) 부담과 업비트 제휴 의존 구조가 위험 요인이에요. 공모가 회복까지 시간이 걸릴 수 있어요.",
+     "horizon": "6~12개월 (장기) — 오버행 해소와 실적 누적 확인 필요",
+     "relatedStocks": [
+      {
+       "code": "323410",
+       "name": "카카오뱅크",
+       "market": "KOSPI",
+       "relation": "인터넷은행 1위 — 같은 업종 투자심리 동행",
+       "currentPrice": "22,400",
+       "change1D": 2.05
+      },
+      {
+       "code": "377300",
+       "name": "카카오페이",
+       "market": "KOSPI",
+       "relation": "핀테크 동종 — 디지털 금융 테마 연동",
+       "currentPrice": "46,900",
+       "change1D": 3.42
+      }
+     ],
+     "sources": [
+      {
+       "name": "네이버 금융 (실시간)",
+       "url": "https://m.stock.naver.com/domestic/stock/279570/total"
+      }
+     ],
+     "_fetchMeta": {
+      "fetchedAt": "2026-05-20T11:50:00+09:00",
+      "sources": [
+       {
+        "url": "https://m.stock.naver.com/api/stock/279570/integration"
+       },
+       {
+        "url": "https://m.stock.naver.com/api/stock/279570/basic"
+       }
+      ]
+     }
+    },
+    {
+     "ticker": "439960",
+     "name": "코스모로보틱스",
+     "market": "KOSDAQ",
+     "category": "성장주",
+     "listedAt": "2026-05-11",
+     "thesis": "뇌졸중·척수손상 환자의 재활을 돕는 '입는 로봇(웨어러블 로봇)'을 만드는 회사예요. 5월 11일 상장 첫날 공모가(6,000원)의 4배까지 오르는 '따따블'을 기록했고, 상장 7거래일 만에 +710% 폭등했어요. 로봇주 열풍과 신규 상장 프리미엄이 겹쳐 변동이 매우 큰 종목이에요.",
+     "currentPrice": "57,900",
+     "change1D": 3.02,
+     "company": {
+      "ceo": "이연백 (대표이사)",
+      "business": "뇌졸중·뇌성마비·척수손상 환자의 재활을 돕는 웨어러블 재활로봇·보행보조 로봇 전문 기업(2016년 설립).",
+      "hq": "대한민국",
+      "employees": "공시 미상",
+      "homepage": "-",
+      "ceoSource": "네이버 뉴스 검증 (2026/05 보도)"
+     },
+     "financials": "PER 측정불가(아직 이익 미미), 시총 약 1.71조원(네이버 금융 5/20), 52주 최고 68,500원·최저 20,100원. 외국인 보유율 0.00%.",
+     "financialStatements": {
+      "currency": "원",
+      "unit": "억원",
+      "annual": [
+       {
+        "period": "2023.12.",
+        "sales": 62,
+        "salesFmt": "62억원",
+        "operatingIncome": -47,
+        "operatingIncomeFmt": "-47억원",
+        "operatingMargin": -75.8,
+        "isConsensus": false
+       },
+       {
+        "period": "2024.12.",
+        "sales": 70,
+        "salesFmt": "70억원",
+        "operatingIncome": -89,
+        "operatingIncomeFmt": "-89억원",
+        "operatingMargin": -127.1,
+        "isConsensus": false
+       },
+       {
+        "period": "2025.12.",
+        "sales": 89,
+        "salesFmt": "89억원",
+        "operatingIncome": -82,
+        "operatingIncomeFmt": "-82억원",
+        "operatingMargin": -92.1,
+        "isConsensus": false
+       }
+      ],
+      "sources": [
+       {
+        "name": "네이버 금융 finance/summary API",
+        "url": "https://m.stock.naver.com/api/stock/439960/finance/summary"
+       }
+      ]
+     },
+     "financialStatementsEasy": "매출이 2023년 62억원에서 2025년 89억원으로 조금씩 늘고 있지만 아직 규모가 작아요. 영업이익은 -47억원→-89억원→-82억원으로 적자가 이어지고 있어요. 재활로봇이라는 성장 테마는 매력적이지만, 아직 돈을 버는 단계가 아니라 시총 1.7조원은 미래 기대가 많이 반영된 가격이에요.",
+     "outlookEasy": "신규 상장주라 증권사 컨센서스가 아직 안 잡혔어요. 상장 첫날 따따블, 7거래일 만에 +710% 폭등한 화제의 로봇주예요. 다만 아직 적자 단계인데 시총이 1.7조원이라 기대가 매우 많이 들어가 있어요. 신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요.",
+     "outlook": "신규 상장주라 컨센서스 미수신 — 52주 범위 기반으로만 평가. 현재가 53,500원은 52주 최고 68,500원 대비 -22%, 최저 20,100원 대비 +166% 위치. 단기 트리거: 로봇주 테마 열기·상장 초기 수급. 시나리오: 테마 지속 시 단기 추가 변동성, 적자 지속·테마 식으면 급락 위험.",
+     "flowReason": {
+      "summary": "상장 7거래일 만 +710% — 로봇주 열풍·신규 상장 수급",
+      "detail": "5월 11일 상장 첫날 공모가 6,000원의 4배(따따블)를 찍은 뒤, 7거래일 만에 공모가 대비 +710% 폭등했어요. 코스닥 로봇주 열풍과 신규 상장 초기 수급이 겹친 영향이에요. 5/19엔 외국인이 +20만주 순매수로 돌아서며 강세를 이어갔어요. 다만 펀더멘털보다 테마·수급이 주도하는 흐름이에요.",
+      "sources": [
+       {
+        "name": "한국경제 (5/20)",
+        "url": "https://n.news.naver.com/mnews/article/015/0005288979?sid=101"
+       },
+       {
+        "name": "경기일보 (5/20)",
+        "url": "https://www.ggilbo.com/news/articleView.html?idxno=1159261"
+       }
+      ]
+     },
+     "comparable": "같은 로봇 테마인 레인보우로보틱스·두산로보틱스와 흐름을 공유해요. 다만 코스모로보틱스는 상장 초기라 변동성이 훨씬 커요.",
+     "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 아직 영업적자 단계인데 시총이 커서, 로봇 테마 열기가 식으면 급락 위험이 있어요. 상장 초기 수급에 좌우되는 흐름이에요.",
+     "horizon": "1~2주 (단기) — 상장 초기 테마·수급 변동성 구간",
+     "relatedStocks": [
+      {
+       "code": "277810",
+       "name": "레인보우로보틱스",
+       "market": "KOSDAQ",
+       "relation": "로봇 대표주 — 로봇 테마 투자심리 동행",
+       "currentPrice": "705,000",
+       "change1D": 10.5
+      },
+      {
+       "code": "454910",
+       "name": "두산로보틱스",
+       "market": "KOSPI",
+       "relation": "협동로봇 대표 — 로봇 테마 같이 움직임",
+       "currentPrice": "100,600",
+       "change1D": 5.34
+      }
+     ],
+     "sources": [
+      {
+       "name": "네이버 금융 (실시간)",
+       "url": "https://m.stock.naver.com/domestic/stock/439960/total"
+      }
+     ],
+     "_fetchMeta": {
+      "fetchedAt": "2026-05-20T11:50:00+09:00",
+      "sources": [
+       {
+        "url": "https://m.stock.naver.com/api/stock/439960/integration"
+       },
+       {
+        "url": "https://m.stock.naver.com/api/stock/439960/basic"
+       }
+      ]
+     }
+    },
+    {
+     "ticker": "487580",
+     "name": "폴레드",
+     "market": "KOSDAQ",
+     "category": "이슈주",
+     "listedAt": "2026-05-14",
+     "thesis": "카시트와 유아용품을 만드는 회사로 5월 14일 코스닥에 상장했어요. 로봇·AI 신규 상장주들이 화제인 가운데 폴레드는 실적 기반(매년 매출·이익 증가)이 있는 점이 차별점이에요. 오늘은 +8.7% 강세였어요. 다만 상장 초기라 변동이 큰 점은 주의해야 해요.",
+     "currentPrice": "8,500",
+     "change1D": -2.19,
+     "company": {
+      "ceo": "공시 기준 대표이사",
+      "business": "카시트·유아용품 등을 제조·판매하는 회사. 2026년 5월 14일 코스닥 상장.",
+      "hq": "대한민국",
+      "employees": "공시 미상",
+      "homepage": "-",
+      "ceoSource": "네이버 뉴스 검증 (2026/05 보도)"
+     },
+     "financials": "PER 24.15배, 시총 약 2,317억원(네이버 금융 5/20), 52주 최고 26,000원·최저 7,850원. 외국인 보유율 0.49%.",
+     "financialStatements": {
+      "currency": "원",
+      "unit": "억원",
+      "annual": [
+       {
+        "period": "2023.12.",
+        "sales": 224,
+        "salesFmt": "224억원",
+        "operatingIncome": 12,
+        "operatingIncomeFmt": "12억원",
+        "operatingMargin": 5.4,
+        "isConsensus": false
+       },
+       {
+        "period": "2024.12.",
+        "sales": 528,
+        "salesFmt": "528억원",
+        "operatingIncome": 62,
+        "operatingIncomeFmt": "62억원",
+        "operatingMargin": 11.7,
+        "isConsensus": false
+       },
+       {
+        "period": "2025.12.",
+        "sales": 799,
+        "salesFmt": "799억원",
+        "operatingIncome": 104,
+        "operatingIncomeFmt": "104억원",
+        "operatingMargin": 13.0,
+        "isConsensus": false
+       }
+      ],
+      "sources": [
+       {
+        "name": "네이버 금융 finance/summary API",
+        "url": "https://m.stock.naver.com/api/stock/487580/finance/summary"
+       }
+      ]
+     },
+     "financialStatementsEasy": "매출이 2023년 224억원에서 2025년 799억원으로 3.6배 늘었어요. 영업이익도 12억원→104억원으로 빠르게 커졌고, 영업이익률(매출에서 영업이익 비율)도 5%→13%로 좋아졌어요. 적자 신규 상장주가 많은 가운데, 폴레드는 매년 이익이 늘어나는 실적 기반이 있다는 점이 차별점이에요.",
+     "outlookEasy": "신규 상장주라 증권사 컨센서스가 아직 안 잡혔어요. 카시트·유아용품 회사로 매출·이익이 매년 늘고 있어요. 오늘 +8.7% 강세였어요. 다만 신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 52주 최고 26,000원 대비 현재가 9,270원은 많이 낮은 위치예요.",
+     "outlook": "신규 상장주라 컨센서스 미수신 — 52주 범위 기반으로만 평가. 현재가 9,270원은 52주 최고 26,000원 대비 -64%, 최저 7,850원 대비 +18% 위치. 단기 트리거: 상장 초기 수급·실적 모멘텀. 시나리오: 실적 성장 부각 시 회복 여력, 신규 상장 변동성에 단기 출렁임 가능.",
+     "flowReason": {
+      "summary": "신규 상장 초기 수급 — 오늘 +8.7% 강세",
+      "detail": "5월 14일 코스닥 상장 후 초기 수급에 따라 변동성이 큰 흐름이에요. 오늘은 +8.68% 강세를 보였어요. 로봇·AI 신규 상장주가 화제인 가운데, 폴레드는 실적 기반(매출·이익 증가)이 있는 점이 부각될 수 있지만 아직은 수급이 주도하는 구간이에요.",
+      "sources": [
+       {
+        "name": "한국경제 (5/20)",
+        "url": "https://n.news.naver.com/mnews/article/015/0005288979?sid=101"
+       },
+       {
+        "name": "뉴스웰 (5/20)",
+        "url": "http://www.newswell.co.kr/news/articleView.html?idxno=18758"
+       }
+      ]
+     },
+     "comparable": "비슷한 시기 상장한 코스모로보틱스 등 신규 상장주와 수급 흐름을 공유해요. 다만 폴레드는 실적 기반이 있어 변동성 성격이 조금 달라요.",
+     "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 상장 초기 수급에 좌우되고, 시총이 작아(2,317억원) 등락 폭이 클 수 있어요.",
+     "horizon": "1~3개월 (단기) — 상장 초기 수급 안정화 확인 필요",
+     "relatedStocks": [
+      {
+       "code": "439960",
+       "name": "코스모로보틱스",
+       "market": "KOSDAQ",
+       "relation": "비슷한 시기 상장 신규주 — 신규 상장 수급 동행",
+       "currentPrice": "57,900",
+       "change1D": 3.02
+      },
+      {
+       "code": "279570",
+       "name": "케이뱅크",
+       "market": "KOSPI",
+       "relation": "2026년 신규 상장주 — 상장주 투자심리 참고",
+       "currentPrice": "5,340",
+       "change1D": 0.38
+      }
+     ],
+     "sources": [
+      {
+       "name": "네이버 금융 (실시간)",
+       "url": "https://m.stock.naver.com/domestic/stock/487580/total"
+      }
+     ],
+     "_fetchMeta": {
+      "fetchedAt": "2026-05-20T11:50:00+09:00",
+      "sources": [
+       {
+        "url": "https://m.stock.naver.com/api/stock/487580/integration"
+       },
+       {
+        "url": "https://m.stock.naver.com/api/stock/487580/basic"
+       }
+      ]
+     }
+    }
+   ],
+   "us": [
+    {
+     "ticker": "CRCL",
+     "name": "써클 (Circle)",
+     "market": "NYSE",
+     "category": "이슈주",
+     "listedAt": "2025-06",
+     "thesis": "미국 달러에 1:1로 연동되는 스테이블코인(가격이 거의 안 변하는 디지털 달러) USDC를 발행하는 회사예요. 2025년 6월 상장 후 한때 $298까지 갔다가 지금은 $111로 내려왔어요. 분석가 평균 목표가는 $138.87로 +25% 여력이 있지만, 의견이 $65~$280으로 크게 갈려요.",
+     "currentPrice": 111.62,
+     "change1D": 0.53,
+     "company": {
+      "ceo": "Jeremy D. Allaire",
+      "business": "미 달러 연동 스테이블코인 USDC·유로 연동 EURC를 발행하는 글로벌 핀테크 회사. 스테이블코인 네트워크와 블록체인 인프라를 제공.",
+      "hq": "미국 뉴욕",
+      "employees": "1,100명 (2025-12-31 기준)",
+      "homepage": "https://www.circle.com/",
+      "ceoSource": "네이버 금융 integration API summaries"
+     },
+     "financials": "PER 측정불가(2025년 순손실), 시총 약 276억$, 52주 최고 $298.99·최저 $49.90 (네이버 금융 5/20 기준).",
+     "financialStatements": {
+      "currency": "USD환산원",
+      "unit": "억원",
+      "annual": [
+       {
+        "period": "2022.12.",
+        "sales": 11657,
+        "salesFmt": "1.2조원",
+        "operatingIncome": -237,
+        "operatingIncomeFmt": "-237억원",
+        "operatingMargin": -2.0,
+        "isConsensus": false
+       },
+       {
+        "period": "2023.12.",
+        "sales": 21901,
+        "salesFmt": "2.2조원",
+        "operatingIncome": 4189,
+        "operatingIncomeFmt": "4,189억원",
+        "operatingMargin": 19.1,
+        "isConsensus": false
+       },
+       {
+        "period": "2024.12.",
+        "sales": 25310,
+        "salesFmt": "2.5조원",
+        "operatingIncome": 2623,
+        "operatingIncomeFmt": "2,623억원",
+        "operatingMargin": 10.4,
+        "isConsensus": false
+       },
+       {
+        "period": "2025.12.",
+        "sales": 41472,
+        "salesFmt": "4.1조원",
+        "operatingIncome": -1456,
+        "operatingIncomeFmt": "-1,456억원",
+        "operatingMargin": -3.5,
+        "isConsensus": false
+       }
+      ],
+      "sources": [
+       {
+        "name": "네이버 금융 finance/summary API",
+        "url": "https://api.stock.naver.com/stock/CRCL.K/finance/summary"
+       }
+      ]
+     },
+     "financialStatementsEasy": "매출이 2022년 1.2조원에서 2025년 4.1조원으로 3.5배 커졌어요(원화 환산). USDC 사용이 늘면서 매출은 성장했지만, 2025년엔 영업이익이 -1,456억원 적자로 돌아섰어요. 상장·사업 확장 비용이 늘어난 영향이에요. 매출 성장은 빠르지만 이익은 들쭉날쭉한 단계예요.",
+     "outlookEasy": "분석가들이 본 평균 목표가가 $138.87로 지금 가격($111.03)에서 +25% 더 오를 여력이 있어요. 다만 분석가별 의견이 $65~$280으로 크게 갈려서 누구 말이 맞을지 모르는 상태예요. 신규 상장주라 변동이 매우 큰 종목이고, 2025년 적자 전환한 점도 주의해야 해요.",
+     "outlook": "컨센서스 목표가 평균 $138.87 대비 +25% 갭. 분포 $65~$280으로 매우 넓어 의견 양분. 단기 변수: 스테이블코인 규제·금리. 시나리오: 최고 $280 도달 시 +152%, 최저 $65 도달 시 -41%. 52주 최고 $298.99 대비 -63% 위치.",
+     "flowReason": {
+      "summary": "상장 후 고점 대비 -63% 조정 — 스테이블코인 변동성",
+      "detail": "2025년 6월 상장 후 한때 $298까지 올랐다가 지금은 $111로 내려왔어요. 5/19엔 -0.32%로 보합권이었어요. 스테이블코인 규제 흐름과 금리 환경에 민감하게 움직이는 종목이라, 단기 변동성이 큰 편이에요.",
+      "sources": [
+       {
+        "name": "네이버 금융 (실시간)",
+        "url": "https://m.stock.naver.com/worldstock/stock/CRCL.K"
+       }
+      ]
+     },
+     "comparable": "가상자산 거래소 코인베이스(COIN)와 같은 디지털 자산 테마예요. 스테이블코인·가상자산 정책 뉴스에 함께 반응해요.",
+     "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 2025년 영업적자로 돌아섰고, 스테이블코인 규제 방향에 따라 사업 환경이 크게 바뀔 수 있어요.",
+     "horizon": "3~6개월 (중기) — 스테이블코인 규제·수익화 확인 필요",
+     "relatedStocks": [
+      {
+       "code": "COIN",
+       "name": "코인베이스 글로벌",
+       "market": "NASDAQ",
+       "relation": "가상자산 대표주 — 디지털 자산 정책에 함께 반응",
+       "currentPrice": 191.29,
+       "change1D": -1.12
+      },
+      {
+       "code": "HOOD",
+       "name": "로빈후드",
+       "market": "NASDAQ",
+       "relation": "핀테크·가상자산 거래 — 디지털 금융 테마 동행",
+       "currentPrice": 75.76,
+       "change1D": 2.16
+      }
+     ],
+     "sources": [
+      {
+       "name": "네이버 금융 (실시간)",
+       "url": "https://m.stock.naver.com/worldstock/stock/CRCL.K"
+      }
+     ],
+     "_fetchMeta": {
+      "fetchedAt": "2026-05-20T11:50:00+09:00",
+      "sources": [
+       {
+        "url": "https://api.stock.naver.com/stock/CRCL.K/integration"
+       },
+       {
+        "url": "https://api.stock.naver.com/stock/CRCL.K/basic"
+       }
+      ]
+     }
+    },
+    {
+     "ticker": "CHYM",
+     "name": "차임 (Chime)",
+     "market": "NASDAQ",
+     "category": "성장주",
+     "listedAt": "2025",
+     "thesis": "미국의 모바일 전용 은행(네오뱅크)이에요. 지점 없이 앱으로만 은행 서비스를 제공해요. 2025년 상장 후 지금은 $16.91로 52주 최저($16.17) 부근까지 내려왔어요. 분석가 평균 목표가는 $30.74로 +82%나 높지만, 아직 적자 폭이 커서 의견이 갈려요.",
+     "currentPrice": 17.67,
+     "change1D": 4.49,
+     "company": {
+      "ceo": "Christopher Britt",
+      "business": "지점 없이 앱으로만 운영하는 미국 소비자 금융(네오뱅크). FDIC 보험에 가입된 파트너 은행을 통해 예금·카드 서비스를 제공.",
+      "hq": "미국 샌프란시스코",
+      "employees": "1,519명 (2025-12-31 기준)",
+      "homepage": "https://www.chime.com/",
+      "ceoSource": "네이버 금융 integration API summaries"
+     },
+     "financials": "PER 측정불가(순손실), 시총 약 64.4억$, 52주 최고 $44.94·최저 $16.17(현재가가 52주 최저 부근) (네이버 금융 5/20 기준).",
+     "financialStatements": {
+      "currency": "USD환산원",
+      "unit": "억원",
+      "annual": [
+       {
+        "period": "2022.12.",
+        "sales": 15235,
+        "salesFmt": "1.5조원",
+        "operatingIncome": -7229,
+        "operatingIncomeFmt": "-7,229억원",
+        "operatingMargin": -47.5,
+        "isConsensus": false
+       },
+       {
+        "period": "2023.12.",
+        "sales": 19307,
+        "salesFmt": "1.9조원",
+        "operatingIncome": -3561,
+        "operatingIncomeFmt": "-3,561억원",
+        "operatingMargin": -18.4,
+        "isConsensus": false
+       },
+       {
+        "period": "2024.12.",
+        "sales": 25270,
+        "salesFmt": "2.5조원",
+        "operatingIncome": -939,
+        "operatingIncomeFmt": "-939억원",
+        "operatingMargin": -3.7,
+        "isConsensus": false
+       },
+       {
+        "period": "2025.12.",
+        "sales": 33025,
+        "salesFmt": "3.3조원",
+        "operatingIncome": -15706,
+        "operatingIncomeFmt": "-1.6조원",
+        "operatingMargin": -47.6,
+        "isConsensus": false
+       }
+      ],
+      "sources": [
+       {
+        "name": "네이버 금융 finance/summary API",
+        "url": "https://api.stock.naver.com/stock/CHYM.O/finance/summary"
+       }
+      ]
+     },
+     "financialStatementsEasy": "매출이 2022년 1.5조원에서 2025년 3.3조원으로 2배 넘게 커졌어요(원화 환산). 회원이 빠르게 늘고 있다는 뜻이에요. 다만 영업이익은 2024년 적자 폭을 -939억원까지 줄였다가 2025년 다시 -1.6조원으로 크게 늘었어요. 상장 비용·마케팅 투자 영향으로 보이는데, 적자 폭이 다시 커진 점은 주의가 필요해요.",
+     "outlookEasy": "분석가들이 본 평균 목표가가 $30.74로 지금 가격($16.91)에서 +82% 더 오를 여력이 크다고 봐요. 회원·매출 성장이 빠른 게 근거예요. 다만 2025년 적자 폭이 다시 커졌고, 신규 상장주라 변동이 매우 큰 종목이에요. 지금은 52주 최저 부근이에요.",
+     "outlook": "컨센서스 목표가 평균 $30.74 대비 +82% 갭. 분포 $21~$40. 현재가 $16.91은 52주 최저 $16.17 부근(저점권). 단기 변수: 적자 축소 속도·금리. 시나리오: 최고 $40 도달 시 +137%, 적자 지속·심리 악화 시 저점 횡보. 매출 성장 빠르나 수익성 입증이 관건.",
+     "flowReason": {
+      "summary": "52주 최저 부근까지 조정 — 적자 확대·성장주 약세",
+      "detail": "2025년 상장 후 한때 $44대였다가 지금은 52주 최저($16.17) 부근까지 내려왔어요. 5/19엔 -3.65% 약세였어요. 매출은 빠르게 늘지만 2025년 적자 폭이 다시 커진 점과, 금리 급등기 이익 안 나는 성장주 약세가 겹친 영향이에요.",
+      "sources": [
+       {
+        "name": "네이버 금융 (실시간)",
+        "url": "https://m.stock.naver.com/worldstock/stock/CHYM.O"
+       }
+      ]
+     },
+     "comparable": "같은 핀테크·디지털 금융 종목 로빈후드(HOOD)와 흐름을 공유해요. 둘 다 금리·소비심리에 민감한 성장주예요.",
+     "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 2025년 적자 폭이 다시 -1.6조원으로 커진 점이 핵심 위험이에요. 수익성 입증 전까지 변동이 클 수 있어요.",
+     "horizon": "6~12개월 (장기) — 적자 축소·흑자 전환 확인 필요",
+     "relatedStocks": [
+      {
+       "code": "HOOD",
+       "name": "로빈후드",
+       "market": "NASDAQ",
+       "relation": "핀테크 동종 — 디지털 금융 성장주 동행",
+       "currentPrice": 75.76,
+       "change1D": 2.16
+      },
+      {
+       "code": "COIN",
+       "name": "코인베이스 글로벌",
+       "market": "NASDAQ",
+       "relation": "디지털 금융 테마 — 핀테크 투자심리 연동",
+       "currentPrice": 191.29,
+       "change1D": -1.12
+      }
+     ],
+     "sources": [
+      {
+       "name": "네이버 금융 (실시간)",
+       "url": "https://m.stock.naver.com/worldstock/stock/CHYM.O"
+      }
+     ],
+     "_fetchMeta": {
+      "fetchedAt": "2026-05-20T11:50:00+09:00",
+      "sources": [
+       {
+        "url": "https://api.stock.naver.com/stock/CHYM.O/integration"
+       },
+       {
+        "url": "https://api.stock.naver.com/stock/CHYM.O/basic"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "preview": {
+  "thisWeek": [
+   {
+    "date": "2026-05-21",
+    "event": "삼성전자 노조 총파업 (예정) — 막판 협상 진행, 한국 메모리 수급 변수"
+   },
+   {
+    "date": "2026-05-28",
+    "event": "★ 보유 종목 MRVL(마벨) Q1 FY27 실적 발표"
+   },
+   {
+    "date": "2026-05-29",
+    "event": "★ 보유 종목 DELL(델) Q1 FY27 실적 발표"
+   },
+   {
+    "date": "2026-06-04",
+    "event": "보유 종목 CRDO(크레도) Q4 FY26 실적 발표"
+   },
+   {
+    "date": "2026-06-12",
+    "event": "보유 종목 AVGO(브로드컴) Q2 실적 발표 (예상)"
+   }
+  ]
+ },
+ "lastUpdated": "2026-05-21T08:30:00+09:00",
+ "asiaCloseCapturedAt": "2026-05-21T09:35:00+09:00",
+ "openCapturedAt": "2026-05-21T08:30:00+09:00"
+}
