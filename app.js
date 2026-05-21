@@ -1320,11 +1320,13 @@ function initDaySheetGestures() {
   let startY = null;
   let startTime = 0;
   let currentDelta = 0;
-  let activeFrom = null; // 'handle' | 'content'
+  let activeFrom = null;   // 'handle' | 'content'
+  let dragging = false;    // 실제로 끌었는지 (탭과 구분)
+  let movedDuringTouch = false; // 이번 터치에서 드래그가 있었는지 (click 분기용)
 
-  const CLOSE_THRESHOLD = 60;     // 60px 끌면 닫기 (이전 100 → 완화)
-  const FAST_CLOSE_THRESHOLD = 20; // 빠르게 끌면 20px만 끌어도 닫기
-  const FAST_VELOCITY = 0.35;      // px/ms — 빠른 플릭 기준
+  const CLOSE_THRESHOLD = 70;      // 70px 끌면 닫기
+  const FAST_CLOSE_THRESHOLD = 24; // 빠르게 끌면 24px만 끌어도 닫기
+  const FAST_VELOCITY = 0.3;       // px/ms — 빠른 플릭 기준
 
   const onStart = (clientY, from) => {
     // content에서 시작했으면 스크롤이 맨 위에 있을 때만 닫기 제스처 시작
@@ -1333,22 +1335,36 @@ function initDaySheetGestures() {
     startTime = Date.now();
     currentDelta = 0;
     activeFrom = from;
+    dragging = false;
+    movedDuringTouch = false;
     sheet.style.transition = 'none';
   };
 
-  const onMove = (clientY) => {
+  const onMove = (clientY, e) => {
     if (startY === null) return;
     const delta = clientY - startY;
     if (delta > 0) {
+      // content에서 시작했는데 그새 스크롤이 내려가 있으면 닫기 양보
+      if (activeFrom === 'content' && content && content.scrollTop > 0) {
+        sheet.style.transform = '';
+        if (backdrop) backdrop.style.opacity = '';
+        startY = null; currentDelta = 0; dragging = false; activeFrom = null;
+        return;
+      }
+      dragging = true;
+      movedDuringTouch = true;
       currentDelta = delta;
+      // 브라우저 스크롤/당겨서 새로고침이 제스처를 가로채지 않게
+      if (e && e.cancelable) e.preventDefault();
       sheet.style.transform = `translateY(${delta}px)`;
       if (backdrop) backdrop.style.opacity = String(Math.max(0, 1 - delta / 400));
-    } else if (delta < -5 && activeFrom === 'content') {
-      // content에서 위로 스크롤하려고 한 거면 제스처 취소 (스크롤 양보)
+    } else if (delta < -4 && activeFrom === 'content') {
+      // 위로 스크롤하려는 의도 → 제스처 취소 (스크롤 양보)
       sheet.style.transform = '';
       if (backdrop) backdrop.style.opacity = '';
       startY = null;
       currentDelta = 0;
+      dragging = false;
       activeFrom = null;
     }
   };
@@ -1363,17 +1379,19 @@ function initDaySheetGestures() {
     const shouldClose =
       currentDelta > CLOSE_THRESHOLD ||
       (currentDelta > FAST_CLOSE_THRESHOLD && velocity > FAST_VELOCITY);
-    if (shouldClose) closeDaySheet();
     startY = null;
     currentDelta = 0;
     activeFrom = null;
+    dragging = false;
+    if (shouldClose) closeDaySheet();
   };
 
   const bindTouch = (el, from) => {
     el.addEventListener('touchstart', (e) => onStart(e.touches[0].clientY, from), { passive: true });
-    el.addEventListener('touchmove',  (e) => onMove(e.touches[0].clientY),  { passive: true });
-    el.addEventListener('touchend',   onEnd);
-    el.addEventListener('touchcancel', onEnd);
+    // non-passive — onMove 안에서 preventDefault로 제스처 점유
+    el.addEventListener('touchmove',  (e) => onMove(e.touches[0].clientY, e),  { passive: false });
+    el.addEventListener('touchend',   onEnd, { passive: true });
+    el.addEventListener('touchcancel', onEnd, { passive: true });
   };
 
   bindTouch(handleArea, 'handle');
@@ -1382,7 +1400,7 @@ function initDaySheetGestures() {
   // 마우스 드래그(데스크톱) — 핸들에서만
   handleArea.addEventListener('mousedown', (e) => {
     onStart(e.clientY, 'handle');
-    const move = (ev) => onMove(ev.clientY);
+    const move = (ev) => onMove(ev.clientY, null);
     const up = () => {
       onEnd();
       document.removeEventListener('mousemove', move);
@@ -1392,9 +1410,10 @@ function initDaySheetGestures() {
     document.addEventListener('mouseup', up);
   });
 
-  // 핸들 단순 탭(클릭) — 드래그 안 했을 때만 닫기
+  // 핸들 단순 탭(클릭) — 드래그가 아니었을 때만 닫기
   handleArea.addEventListener('click', () => {
-    if (currentDelta < 5) closeDaySheet();
+    if (!movedDuringTouch) closeDaySheet();
+    movedDuringTouch = false;
   });
 
   // 명시적 X 닫기 버튼
