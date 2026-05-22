@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T18:35:00+09:00",
+  "lastUpdated": "2026-05-22T07:30:00+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -34,14 +34,14 @@
         89000000
       ],
       "highlights": [
-        "마감 1일 전 (D-1)",
+        "오늘 마감 (D-Day)",
         "강서구 1인 창조기업·창업자·전략산업 종사자",
         "월세 30~34만원, 보증금 7,800~8,900만",
         "최장 14년 거주 가능"
       ],
       "applyMethod": "이메일 접수 (20230603@gangseo.seoul.kr)",
       "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/list.do?multi_itm_seq=2",
-      "status": "open"
+      "status": "closing-today"
     },
     {
       "id": "lh-youth-jeonse-2026",
@@ -254,7 +254,7 @@
       ],
       "applyMethod": "LH청약플러스",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019816&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=17&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "priorityRules": [
         {
           "rank": "1순위",
@@ -1038,7 +1038,7 @@
       ],
       "applyMethod": "GH 주택청약센터 (온라인)",
       "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancDetailView.do?pbancNo=790",
-      "status": "open"
+      "status": "closing-today"
     },
     {
       "id": "gh-2026-dasan-jigeum-a3",
