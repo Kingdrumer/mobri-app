@@ -1,18 +1,18 @@
 {
- "lastUpdated": "2026-05-21T23:05:00+09:00",
+ "lastUpdated": "2026-05-22T14:10:00+09:00",
  "us": [
   {
    "ticker": "GOOG",
    "name": "알파벳 (구글)",
    "sector": "빅테크",
-   "price": 388.5,
-   "change1D": 0.94,
-   "change1W": 1.22,
-   "change1M": 14.48,
-   "changeYTD": 23.81,
+   "price": 383.47,
+   "change1D": -0.37,
+   "change1W": -0.09,
+   "change1M": 13.0,
+   "changeYTD": 22.21,
    "beta": 1.15,
    "signal": "yellow",
-   "note": "5/20(수) 美 마감 +0.3% $384.90 — 빅테크 차분, S&P·다우 강세장에 소외. (Class C 등락 데이터 일시 오류로 Class A +0.32%",
+   "note": "5/21(목) 美 마감 -0.37% $383.47 — 빅테크 차분, AI 공급망 랠리에서 소외",
    "simpleExplain": "구글 모회사. 검색·광고에서 안정적인 캐시카우, 클라우드+AI에서 구조적 성장 동력. 변동성은 빅테크 평균 수준.",
    "todayWhy": "5/21 개장 +0.9%대 — 시장은 약세인데 알파벳은 상대적으로 버티는 흐름 (Class A GOOGL 기준 준용)",
    "outlook": {
@@ -56,11 +56,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "GOOGL(Class A) 실시간",
+    "네이버 실시간 종가(5/21 16:00 ET)",
     "CNBC",
     "Yahoo Finance"
    ],
-   "dataQualityNote": "Class C(GOOG) 실시간 호가 지연 — Class A(GOOGL $388.91, 5/21 장중)로 등락 준용.",
+   "dataQualityNote": null,
    "company": {
     "ceo": "Sundar Pichai",
     "business": "알파벳은 지주 회사다. 사업 부문은 Google Services, Google Cloud 및 Other Bets 등이다. Google Services 부문은 광고, Android, Chrome, 장치, Google Maps, Google Play, Search, YouTube 등의 제품 및 서비스를 제공한다. Google Cloud 부문은 기업 고객을 위한",
@@ -84,14 +84,14 @@
    "ticker": "META",
    "name": "메타",
    "sector": "빅테크",
-   "price": 601.4,
-   "change1D": -0.6,
-   "change1W": -0.26,
-   "change1M": -12.66,
-   "changeYTD": -8.89,
+   "price": 607.38,
+   "change1D": 0.38,
+   "change1W": 0.73,
+   "change1M": -11.79,
+   "changeYTD": -7.98,
    "beta": 1.49,
    "signal": "yellow",
-   "note": "5/20(수) 美 마감 +0.41% $605.06 — 광고 빅테크 강보합, 금리 부담 속 안정.",
+   "note": "5/21(목) 美 마감 +0.38% $607.38 — 보합권 강세 유지",
    "simpleExplain": "페이스북·인스타그램 모회사. 광고 매출이 본업, AI·메타버스 투자가 미래. 광고 사이클·AI 수익화 시점이 핵심.",
    "todayWhy": "5/21 개장 -0.6%대 — 금리·유가 부담에 빅테크 동반 약세 (실시간 호가는 다음 갱신 때 정정)",
    "outlook": {
@@ -130,10 +130,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "전일 종가(검증)",
-    "시장 흐름 추정"
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
+    "Yahoo Finance"
    ],
-   "dataQualityNote": "개장 직후 실시간 호가가 검색 캐시에 미반영 — 전일 종가 + 시장 흐름(지수 약 -0.5%) 기준 추정. 다음 갱신 시 실측 정정.",
+   "dataQualityNote": null,
    "company": {
     "ceo": "Mark Zuckerberg",
     "business": "이 회사는 사람들이 연결하고 공유하고, 커뮤니티를 찾고, 비즈니스를 성장시키는 데 도움이 되는 기술을 개발한다. 이 회사의 제품은 사람들이 모바일 장치, 개인용 컴퓨터, 가상현실(VR) 및 혼합현실(MR) 헤드셋, 웨어러블을 통해 친구 및 가족과 연결하고 공유할 수 있도록 지원한다. 이 회사는 2개의 부문인 Family of Apps(FoA)와 Realit",
@@ -157,14 +158,14 @@
    "ticker": "AMZN",
    "name": "아마존",
    "sector": "빅테크",
-   "price": 264.2,
-   "change1D": -0.31,
-   "change1W": -0.62,
-   "change1M": 5.44,
-   "changeYTD": 14.46,
+   "price": 268.46,
+   "change1D": 1.3,
+   "change1W": 0.98,
+   "change1M": 7.14,
+   "changeYTD": 16.31,
    "beta": 1.47,
    "signal": "yellow",
-   "note": "5/20(수) 美 마감 +2.19% $265.01 — 위험선호 회복에 빅테크 중 강세, AWS 기대 지속.",
+   "note": "5/21(목) 美 마감 +1.30% $268.46 — 클라우드 캐펙스 수혜 기대",
    "simpleExplain": "이커머스+AWS 클라우드. AI 시대엔 AWS가 캐시카우 + 성장엔진 동시 역할. 단기 사고는 단발성, 펀더멘털 견조.",
    "todayWhy": "5/21 개장 보합권(-0.3%) — 프리마켓 강세였지만 개장 후 시장 약세에 눌림",
    "outlook": {
@@ -208,10 +209,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "전일 종가(검증)",
-    "시장 흐름 추정"
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
+    "Yahoo Finance"
    ],
-   "dataQualityNote": "개장 직후 실시간 호가 캐시 미반영 — 프리마켓 $266.78 + 시장 흐름 기준 추정. 다음 갱신 시 정정.",
+   "dataQualityNote": null,
    "company": {
     "ceo": "Jeffrey P. Bezos",
     "business": "아마존닷컴은 고객에게 다양한 제품과 서비스를 제공한다. 스토어를 통해 제공되는 제품에는 재판매를 위해 구매한 상품 및 콘텐츠와 타사 판매자가 제공하는 제품이 포함된다. 사업 부문은 북미, 국제, 아마존 웹 서비스(AWS)로 나뉜다. 온라인 및 오프라인 스토어를 통해 소비자에게 서비스를 제공하며 선택, 가격, 편의성에 중점을 둔다. 고객은 웹사이트, 모바일",
@@ -235,14 +237,14 @@
    "ticker": "NVDA",
    "name": "엔비디아",
    "sector": "반도체",
-   "price": 220.66,
-   "change1D": -1.26,
-   "change1W": -0.07,
-   "change1M": 9.41,
-   "changeYTD": 18.32,
+   "price": 219.51,
+   "change1D": -1.77,
+   "change1W": -0.59,
+   "change1M": 8.84,
+   "changeYTD": 17.7,
    "beta": 2.07,
-   "signal": "red",
-   "note": "5/20(수) 정규장 +1.30% $223.47 마감 후 Q1 FY27 실적 발표 — 매출 $81.6B·EPS $1.87 어닝 비트 + Q2 $91B 가이던스에도",
+   "signal": "yellow",
+   "note": "5/21(목) 美 마감 -1.77% $219.51 — Q1 어닝비트·$80B 자사주·배당 25센트 인상에도 차익실현(4분기 연속 패턴)",
    "simpleExplain": "AI GPU 압도적 1위. AI 시대의 핵심 인프라 공급사. 5/20 Q1 실적이 단기 가장 큰 이벤트.",
    "todayWhy": "5/21 개장 -1.3% $220.66 — 어젯밤 실적 잘 나왔는데도 4분기 연속 '실적 후 하락' 패턴 반복",
    "outlook": {
@@ -304,10 +306,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "CNBC/실시간 검색",
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
     "Yahoo Finance"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "Yahoo(-1.8%)와 교차 일치 확인.",
    "company": {
     "ceo": "Jen-Hsun Huang",
     "business": "이 회사는 인공지능(AI) 인프라 업체로 고난도 연산 문제 해결을 지원하기 위한 가속 컴퓨팅 사업을 영위한다. 사업부문은 Compute & Networking 부문과 Graphics 부문으로 구성된다. Compute & Networking 부문에는 데이터센터용 가속 컴퓨팅 및 네트워킹 플랫폼, AI 솔루션 및 소프트웨어, 자동차 플랫폼 및 자율주행·전기차",
@@ -331,14 +334,14 @@
    "ticker": "TSM",
    "name": "TSMC",
    "sector": "반도체",
-   "price": 402.48,
-   "change1D": 0.21,
-   "change1W": 1.3,
-   "change1M": 8.63,
-   "changeYTD": 32.44,
+   "price": 407.15,
+   "change1D": 1.38,
+   "change1W": 2.48,
+   "change1M": 9.89,
+   "changeYTD": 33.98,
    "beta": 1.12,
-   "signal": "yellow",
-   "note": "5/20(수) 美 마감 +2.29% $401.62 — NVDA 실적 기대에 반도체 동반 강세, AI 파운드리 수혜.",
+   "signal": "green",
+   "note": "5/21(목) 美 마감 +1.38% $407.15 — AI 위탁생산 1위, 공급망 랠리 동반",
    "simpleExplain": "세계 최대 반도체 위탁생산. NVDA·AMD·AAPL이 모두 고객. AI 호황의 가장 안전한 노출 — 변동성도 가장 낮음.",
    "todayWhy": "5/21 개장 +0.2% $402 — 큰 변동 없이 차분하게 출발",
    "outlook": {
@@ -386,7 +389,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "CNBC/실시간 검색",
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
     "Yahoo Finance"
    ],
    "dataQualityNote": null,
@@ -413,14 +417,14 @@
    "ticker": "AVGO",
    "name": "브로드컴",
    "sector": "반도체",
-   "price": 413.6,
-   "change1D": -1.0,
-   "change1W": -1.37,
-   "change1M": 1.72,
-   "changeYTD": 19.49,
+   "price": 414.57,
+   "change1D": -0.76,
+   "change1W": -1.14,
+   "change1M": 1.96,
+   "changeYTD": 19.77,
    "beta": 2.44,
    "signal": "yellow",
-   "note": "5/20(수) 美 마감 +1.63% $417.76 — 맞춤형 AI 칩 강세 동참.",
+   "note": "5/21(목) 美 마감 -0.76% $414.57 — 6/12 실적 앞두고 숨고르기",
    "simpleExplain": "맞춤형 AI 칩 설계 회사. 메타·구글의 자체 AI 칩 핵심 파트너. 베타 2.44로 변동성 큼.",
    "todayWhy": "5/21 개장 -1%대 — 반도체 동반 조정, 엔비디아 실적 후 차익실현 분위기",
    "outlook": {
@@ -470,10 +474,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "전일 종가(검증)",
-    "시장 흐름 추정"
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
+    "Yahoo Finance"
    ],
-   "dataQualityNote": "개장 직후 실시간 호가 캐시 미반영 — 전일 종가 + 반도체 조정 흐름 기준 추정. 다음 갱신 시 정정.",
+   "dataQualityNote": null,
    "company": {
     "ceo": "Hock E. Tan",
     "business": "이 회사는 광범위한 반도체, 엔터프라이즈 소프트웨어 및 보안 솔루션을 설계, 개발, 공급하는 글로벌 기술 기업이다. 반도체 솔루션과 인프라 소프트웨어의 두 가지 부문으로 운영된다. 반도체 솔루션 부문에는 모든 제품 라인과 지적 재산권(IP) 라이선싱이 포함된다. 데이터 센터, 서비스 제공업체 및 엔터프라이즈 네트워킹 애플리케이션에서 데이터 이동을 관리하기",
@@ -497,14 +502,14 @@
    "ticker": "MU",
    "name": "마이크론",
    "sector": "반도체",
-   "price": 715.9,
-   "change1D": -2.2,
-   "change1W": -6.61,
-   "change1M": 57.32,
-   "changeYTD": 150.83,
+   "price": 762.1,
+   "change1D": 4.11,
+   "change1W": -0.58,
+   "change1M": 67.47,
+   "changeYTD": 167.02,
    "beta": 2.43,
-   "signal": "yellow",
-   "note": "5/20(수) 美 마감 +4.76% $731.99 — 메모리 강세, NVDA 실적 앞두고 HBM 기대 선반영.",
+   "signal": "green",
+   "note": "5/21(목) 美 마감 +4.11% $762.10 — 젠슨 황 '메모리 미개척 시장' 발언에 HBM 기대 급등",
    "simpleExplain": "메모리 반도체. NVDA·AMD GPU에 들어가는 HBM 메모리 핵심 공급. AI 호황 = 메모리 호황 공식.",
    "todayWhy": "5/21 개장 -2%대 — 단기 급등(YTD +150%대) 부담에 반도체 조정 동참",
    "outlook": {
@@ -555,10 +560,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "전일 종가(검증)",
-    "시장 흐름 추정"
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
+    "Yahoo Finance"
    ],
-   "dataQualityNote": "개장 직후 실시간 호가 캐시 미반영 — 전일 종가 + 고변동 반도체 조정 기준 추정. 다음 갱신 시 정정.",
+   "dataQualityNote": null,
    "company": {
     "ceo": "Sanjay Mehrotra",
     "business": "이 회사는 메모리 및 스토리지 솔루션 제공업체다. 이 회사는 마이크론 및 크루셜 브랜드를 통해 고성능 동적 랜덤 액세스 메모리(DRAM), NAND, NOR 메모리 및 스토리지 제품 포트폴리오를 제공한다. 회사의 사업 부문에는 컴퓨팅 및 네트워킹 사업부(CNBU), 모바일 사업부(MBU), 임베디드 사업부(EBU), 스토리지 사업부(SBU)가 있다. CNB",
@@ -582,14 +588,14 @@
    "ticker": "MRVL",
    "name": "마벨",
    "sector": "반도체",
-   "price": 177.95,
-   "change1D": -4.74,
-   "change1W": 8.18,
-   "change1M": 27.39,
-   "changeYTD": 109.4,
+   "price": 190.69,
+   "change1D": 2.08,
+   "change1W": 15.92,
+   "change1M": 36.51,
+   "changeYTD": 124.39,
    "beta": 2.34,
    "signal": "green",
-   "note": "5/20(수) 美 마감 +5.97% $186.80 — 광통신·AI 반도체 강세, 5/28 실적 기대.",
+   "note": "5/21(목) 美 마감 +2.08% $190.69 — 5/28 실적 앞두고 광통신·커스텀칩 기대",
    "simpleExplain": "맞춤형 칩(ASIC) 설계. 구글 TPU 공동개발 + NVDA $2B 투자. 1개월 +50% 폭주 후 단기 차익실현 정상.",
    "todayWhy": "5/21 개장 -4.7% $178 — 최근 급등분 되돌림, 변동이 큰 종목이라 출렁임 큼",
    "outlook": {
@@ -640,7 +646,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "CNBC/실시간 검색",
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
     "Yahoo Finance"
    ],
    "dataQualityNote": null,
@@ -667,14 +674,14 @@
    "ticker": "AMD",
    "name": "AMD",
    "sector": "반도체",
-   "price": 432.0,
-   "change1D": -3.48,
-   "change1W": -3.63,
-   "change1M": 55.18,
-   "changeYTD": 101.73,
+   "price": 449.59,
+   "change1D": 0.45,
+   "change1W": 0.29,
+   "change1M": 61.5,
+   "changeYTD": 109.94,
    "beta": 1.85,
    "signal": "yellow",
-   "note": "5/20(수) 美 마감 +8.10% $447.58 — 포트 최대 상승, Citi 목표가 상향·NVDA 실적 기대 동반.",
+   "note": "5/21(목) 美 마감 +0.45% $449.59 — 장중 약세→종가 플러스 전환",
    "simpleExplain": "NVDA의 직접 경쟁사. MI 시리즈 GPU로 AI 시장 점유율 빠르게 확대 중. 5/7 어닝 폭발, 1개월 +91%.",
    "todayWhy": "5/21 개장 -3.5% $432 — 어제 +8% 급등 뒤 차익실현, 프리마켓부터 약세",
    "outlook": {
@@ -718,10 +725,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "CNBC/실시간 검색",
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
     "Yahoo Finance"
    ],
-   "dataQualityNote": "프리마켓 -3.6% 확인 + 장중 범위($426~449) 기준. 정규장 실시간 호가 다음 갱신 시 정밀 정정.",
+   "dataQualityNote": "장중 검색치(-1.2%)와 종가(+0.45%) 상이 — 종가 기준 정정(장중 약세→종가 플러스).",
    "company": {
     "ceo": "Lisa T. Su",
     "business": "이 회사는 글로벌 반도체 회사다. 고성능 컴퓨팅, 그래픽 및 시각화 기술에 중점을 둔다. 데이터 센터, 클라이언트, 게임 및 임베디드 부문이 있다. 데이터 센터 부문에는 서버 중앙 처리 장치(CPU), 그래픽 처리 장치(GPU), 가속 처리 장치(APU), 데이터 처리 장치(DPU), 필드 프로그래머블 게이트 어레이(FPGA), 스마트 네트워크 인터페이스",
@@ -745,14 +753,14 @@
    "ticker": "SNDK",
    "name": "샌디스크",
    "sector": "반도체",
-   "price": 1417.96,
-   "change1D": 1.82,
-   "change1W": -2.34,
-   "change1M": 53.95,
-   "changeYTD": 497.31,
+   "price": 1542.24,
+   "change1D": 10.75,
+   "change1W": 6.22,
+   "change1M": 67.44,
+   "changeYTD": 549.66,
    "beta": 2.41,
    "signal": "green",
-   "note": "5/20(수) 美 마감 +0.67% $1,392.56 — 메모리 강세 속 강보합, 차익실현 일부.",
+   "note": "5/21(목) 美 마감 +10.75% $1,542.24 — 젠슨 황 '메모리 스토리지 미개척 시장' 발언에 폭등",
    "simpleExplain": "낸드 플래시 메모리 회사. AI 데이터센터 스토리지 수요 폭발의 1차 수혜. 1년 +3,300% 누적 차익실현 위험.",
    "todayWhy": "5/21 개장 +1.8% $1,418 — 메모리 강세 흐름 지속, 시장 약세 속 나홀로 상승",
    "outlook": {
@@ -797,7 +805,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "CNBC/실시간 검색",
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
     "Yahoo Finance"
    ],
    "dataQualityNote": null,
@@ -824,14 +833,14 @@
    "ticker": "DELL",
    "name": "델",
    "sector": "AI 인프라",
-   "price": 239.47,
-   "change1D": -1.42,
-   "change1W": 0.23,
-   "change1M": 21.84,
-   "changeYTD": 90.24,
+   "price": 252.8,
+   "change1D": 4.06,
+   "change1W": 5.81,
+   "change1M": 28.62,
+   "changeYTD": 100.83,
    "beta": 1.96,
-   "signal": "yellow",
-   "note": "5/20(수) 美 마감 +3.26% $242.93 — Dell World 2026 모멘텀·AI 서버 기대 강세, 5/29 실적 대기.",
+   "signal": "green",
+   "note": "5/21(목) 美 마감 +4.06% $252.80 — AI 서버 수요 기대, 5/29 실적",
    "simpleExplain": "AI 서버 OEM. NVDA GPU를 받아 기업 데이터센터에 납품하는 시스템 통합사. AI 백로그 $18.4B 사상 최대.",
    "todayWhy": "5/21 개장 -1.4% $239 — AI서버 기대는 유지되나 시장 약세에 동반 조정",
    "outlook": {
@@ -885,7 +894,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "CNBC/실시간 검색",
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
     "Yahoo Finance"
    ],
    "dataQualityNote": null,
@@ -912,14 +922,14 @@
    "ticker": "LITE",
    "name": "루멘텀",
    "sector": "AI 인프라",
-   "price": 876.0,
-   "change1D": 0.91,
-   "change1W": -11.73,
-   "change1M": -2.03,
-   "changeYTD": 137.65,
+   "price": 964.5,
+   "change1D": 11.11,
+   "change1W": -2.81,
+   "change1M": 7.87,
+   "changeYTD": 161.66,
    "beta": 2.38,
-   "signal": "yellow",
-   "note": "5/20(수) 美 마감 -2.47% $868.07 — 광통신 중 유일 약세, 나스닥100 편입 차익실현.",
+   "signal": "green",
+   "note": "5/21(목) 美 마감 +11.11% $964.50 — 광트랜시버 수요 폭발, 광통신 랠리 주도",
    "simpleExplain": "AI 데이터센터 광통신 핵심 부품. NVDA GPU와 GPU를 연결하는 광학 모듈 공급. CPO·OCS 수직 진출.",
    "todayWhy": "5/21 개장 +0.9% $876 — 광부품 수요 기대에 반등 시도",
    "outlook": {
@@ -969,7 +979,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "CNBC/실시간 검색",
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
     "Yahoo Finance"
    ],
    "dataQualityNote": null,
@@ -996,14 +1007,14 @@
    "ticker": "CLS",
    "name": "셀레스티카",
    "sector": "AI 인프라",
-   "price": 330.66,
-   "change1D": -4.57,
-   "change1W": -11.6,
-   "change1M": -16.5,
-   "changeYTD": 11.85,
+   "price": 354.77,
+   "change1D": 2.39,
+   "change1W": -5.15,
+   "change1M": -10.41,
+   "changeYTD": 20.01,
    "beta": 2.42,
-   "signal": "red",
-   "note": "5/20(수) 美 마감 +2.17% $346.48 — AI 인프라 위험선호 회복 강세.",
+   "signal": "green",
+   "note": "5/21(목) 美 마감 +2.39% $354.77 — AI 서버 ODM 수혜 회복",
    "simpleExplain": "AI 서버·스위치 시스템 통합 제조. 하이퍼스케일러(아마존·구글·메타) 맞춤형 인프라 공급. 1.6T CPO 이더넷 스위치 양산 대기.",
    "todayWhy": "5/21 개장 -4.6% $331 — 최근 약세 지속, 변동이 큰 종목 출렁임",
    "outlook": {
@@ -1041,7 +1052,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "CNBC/실시간 검색",
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
     "Yahoo Finance"
    ],
    "dataQualityNote": null,
@@ -1068,14 +1080,14 @@
    "ticker": "CRDO",
    "name": "크레도",
    "sector": "AI 인프라",
-   "price": 178.4,
-   "change1D": -2.5,
-   "change1W": -10.16,
-   "change1M": 11.03,
-   "changeYTD": 23.98,
+   "price": 193.39,
+   "change1D": 5.69,
+   "change1W": -2.61,
+   "change1M": 20.36,
+   "changeYTD": 34.4,
    "beta": 3.43,
-   "signal": "yellow",
-   "note": "5/20(수) 美 마감 +8.28% $182.98 — 광통신 강세 지속, 6/4 실적 기대 매수세.",
+   "signal": "green",
+   "note": "5/21(목) 美 마감 +5.69% $193.39 — 고속 연결(SerDes) 수요 기대, 6/4 실적",
    "simpleExplain": "AI 데이터센터 고속 데이터 전송 칩. NVDA·AMD GPU 클러스터 연결의 핵심 부품. 베타 3.43으로 우리 포트폴리오 변동성 1위.",
    "todayWhy": "5/21 개장 -2.5%대 — 반도체 조정에 동참, 변동이 큰 종목 (실시간 호가 다음 갱신 정정)",
    "outlook": {
@@ -1119,10 +1131,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "전일 종가(검증)",
-    "시장 흐름 추정"
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
+    "Yahoo Finance"
    ],
-   "dataQualityNote": "개장 직후 실시간 호가 캐시 미반영 — 전일 종가 + 고변동 반도체 조정 기준 추정. 다음 갱신 시 정정.",
+   "dataQualityNote": null,
    "company": {
     "ceo": "William Brennan",
     "business": "이 회사는 케이맨 제도에 기반을 둔 지주 회사다. 데이터 인프라 시장의 모든 유선 연결에서 대역폭 장벽을 허무는 고속 솔루션을 제공한다. 데이터 인프라 시장에서 데이터 속도와 그에 따른 대역폭 요구 사항이 기하급수적으로 증가함에 따라 전력 효율을 개선하는 고속 연결 솔루션을 제공한다. 이 회사의 연결 솔루션은 새롭게 부상하는 초당 100기가비트(G), 20",
@@ -1146,14 +1159,14 @@
    "ticker": "TLN",
    "name": "탈렌에너지",
    "sector": "AI 전력",
-   "price": 339.3,
-   "change1D": -1.49,
-   "change1W": -9.42,
-   "change1M": -7.12,
-   "changeYTD": -9.48,
+   "price": 360.48,
+   "change1D": 4.65,
+   "change1W": -3.77,
+   "change1M": -1.32,
+   "changeYTD": -3.83,
    "beta": 1.54,
-   "signal": "red",
-   "note": "5/20(수) 美 마감 +9.50% $344.46 — 전력주 급반등, 위험선호 회복 최대 수혜.",
+   "signal": "green",
+   "note": "5/21(목) 美 마감 +4.65% $360.48 — AI 전력 수요 강세",
    "simpleExplain": "원전·천연가스 발전사. AI 데이터센터가 늘수록 전력 수요도 같이 폭발. AWS와 18B$ 장기 PPA(전력 공급) 계약 체결.",
    "todayWhy": "5/21 개장 -1.5%대 — 어제 +9.5% 급등 뒤 숨고르기, 유가 상승은 전력주에 혼재 영향",
    "outlook": {
@@ -1191,10 +1204,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "전일 종가(검증)",
-    "시장 흐름 추정"
+    "네이버 실시간 종가(5/21 16:00 ET)",
+    "CNBC",
+    "Yahoo Finance"
    ],
-   "dataQualityNote": "개장 직후 실시간 호가 캐시 미반영 — 전일 종가 + 시장 흐름 기준 추정. 다음 갱신 시 정정.",
+   "dataQualityNote": null,
    "company": {
     "ceo": "Terry L. Nutt",
     "business": "이 회사는 독립적인 전력 생산 및 인프라 회사다. 미국에서 약 10.7기가와트의 전력 인프라를 소유 및 운영한다. 중부 대서양과 몬태나에 위치한 발전소를 통해 전력, 용량 및 보조 서비스를 생산하여 PJM 및 WECC를 포함한 미국 도매 전력 시장에 판매한다. 이미 대부분의 전력을 무탄소 원자력 및 저탄소 가스 연소 시설에서 생산하고 있지만, 저탄소 연료로",
@@ -1217,33 +1231,33 @@
  ],
  "kr": [],
  "asiaCloseSnapshot": {
-  "asOf": "2026-05-21T15:45:00+09:00",
+  "asOf": "2026-05-22T14:05:00+09:00",
   "kospi": {
-   "close": 7815.59,
-   "change": 8.42,
-   "note": "5/21 +8.42%(606.64p) 폭등 마감 — 삼성 파업 유보 + NVDA 실적 + 이란 협상 기대. 매수 사이드카 발동. 기관 약 2.88조 순매수 주도, 외국인 동시호가서 약 2,434억 순매도"
+   "close": 7863.69,
+   "change": 0.62,
+   "note": "5/22 14:05 KST 장중 +0.62%(48.10p) 7,863.69 — 어제 +8.42% 폭등 뒤 차분한 추가 상승"
   },
   "kosdaq": {
-   "close": 1105.97,
-   "change": 4.73,
-   "note": "5/21 +4.73%(49.90p) 동반 강세, 매수 사이드카 발동. 성장·기술주 전반 급반등"
+   "close": 1163.28,
+   "change": 5.18,
+   "note": "5/22 14:05 KST 장중 +5.18% 1,163.28 — 美 메모리·광통신 랠리에 국내 반도체 소부장·광통신 급등"
   },
-  "usdkrw": 1506.8,
+  "usdkrw": 1500.0,
   "samsung": {
    "price": null,
-   "change": 8.51,
-   "note": "5/21 +8.51% — 노사 총파업 유보 합의 + NVDA 호재로 장중 29만원 터치"
+   "change": null,
+   "note": "5/22 강세 — HBM 수요 기대 지속(15:30 마감 후 종가 확정)"
   },
   "skHynix": {
-   "price": 1838000,
-   "change": 5.33,
-   "note": "5/21 오전 +5.3% 출발(정확한 종가 미확인) — NVDA 데이터센터 매출 급증에 HBM 1위 수혜"
+   "price": null,
+   "change": null,
+   "note": "5/22 강세 — HBM 1위 수혜 기대 이어짐"
   },
   "usFutures": {
-   "es": -0.3,
-   "nq": -0.43,
-   "note": "한국시간 오전 기준 S&P500 선물 -0.3%·나스닥100 선물 -0.4% — 큰 랠리 뒤 차익 실현 + NVDA 시간외 -1%. 미 프리마켓 차분히 출발 가능"
+   "es": null,
+   "nq": null,
+   "note": "美 정규장 5/21 마감 완료, 5/25 메모리얼데이 휴장"
   }
  },
- "marketStatus": "kr_closed_us_open"
+ "marketStatus": "kr_open_us_closed"
 }
