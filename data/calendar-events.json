@@ -2516,8 +2516,45 @@
     "ourImpact": "외국인 반도체 매수 전환은 보유 메모리(MU)·HBM 공급망에 우호 신호예요. 일본·아시아 반도체 강세도 같은 방향이라 오늘 밤 보유 반도체주 출발만 가볍게 지켜보면 좋아요.",
     "mood": "good"
    }
+  ],
+  "2026-05-23": [
+   {
+    "type": "positive",
+    "label": "美 다우 또 신고가",
+    "color": "green",
+    "time": "5/22(금) 마감",
+    "title": "다우 또 사상최고(50,579.70·+0.58%)·S&P 8주 연속 상승, DELL +16.77%·CRDO +12.94%",
+    "description": "美·이란 평화협상 사흘째 진전에 채권금리 진정(10년물 4.57%). 보유 DELL이 Dell World 신제품+애널 목표가 줄상향에 +16.77% 폭등, CRDO +12.94%(AI 광통신). 5/25(월) 메모리얼데이 휴장.",
+    "ourImpact": "보유 AI 공급망 종목 다수 강세 — DELL·CRDO·AMD·CLS·TLN·MRVL 상승, NVDA(-1.9%)·SNDK(-4.12%)는 차익실현. 위험자산 선호(주식 선호) 회복으로 포트 전반에 우호적.",
+    "stockImpacts": [
+     {
+      "ticker": "DELL",
+      "tone": "positive",
+      "magnitude": "직접",
+      "text": "Dell World 신제품+JP모건·씨티·미즈호 목표가 줄상향에 +16.77% 폭등"
+     },
+     {
+      "ticker": "CRDO",
+      "tone": "positive",
+      "magnitude": "직접",
+      "text": "AI 광통신(GPU 사이 광케이블) 수요+6/1 실적 기대에 +12.94%"
+     },
+     {
+      "ticker": "AMD",
+      "tone": "positive",
+      "magnitude": "동조",
+      "text": "AI 가속기 기대+금리 진정에 +3.99%"
+     },
+     {
+      "ticker": "NVDA",
+      "tone": "negative",
+      "magnitude": "약세",
+      "text": "실적 후 차익실현(셀 더 뉴스) 지속 -1.9%"
+     }
+    ]
+   }
   ]
  },
  "realestate": {},
- "lastUpdated": "2026-05-22T15:55:00+09:00"
+ "lastUpdated": "2026-05-23T08:30:00+09:00"
 }
