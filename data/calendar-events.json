@@ -2770,9 +2770,81 @@
             "text": "5/29 KST 분기 실적 — AI 서버 백로그 $43B 주목. 가이던스 상향 컨센."
           }
         ]
+      },
+      {
+        "type": "us-open",
+        "label": "美 정규장 개장 — S&P/NASDAQ 보합 + MU 강세 연속",
+        "color": "blue",
+        "time": "수요일 22:30 KST 개장 직후",
+        "title": "🟢 美 정규장 5/27 22:30 KST 개장 — S&P 7,519.41 보합·MU $926.39 +3.41% UBS PT $1,625 강세 연속",
+        "description": "한국시간 22:30 美 정규장 개장 — S&P 500 7,519.41 +0.004%·NASDAQ 26,628.79 -0.10%·Dow 50,547.76 +0.17%·VIX 16.99로 보합권 출발. 5/26 ET 사상 최고치 마감 후 차익실현 vs 메모리·반도체 추가 강세 줄다리기. 유가 WTI $92.98(-3.75%, 이란 평화 협상 진전), 10년물 4.484%(-1.95%) 우호적 매크로.",
+        "impact": "메모리 슈퍼사이클 강세 연속 — MU +3.41% $926.39(UBS 목표가 $535→$1,625 +204% 상향, 시총 1조 달러 클럽 진입), HBM4 캐파 완전 매진. 파운드리 TSM +2.84%·AVGO +1.74% 후광. 반대로 NVDA -1.39%(5/20 어닝 후 차익실현 지속) + 광통신 LITE -3.68%·CLS -3.06% 차익실현 매물 출회. DELL -1.06%(5/29 실적 D-2)·MRVL -0.73%(5/28 실적 D-1) 발표 전 정리.",
+        "ourImpact": "보유 마이크론(MU) 단기 +3.41% 강세로 평가이익 크게 증가, HBM4 모멘텀 잔여로 추가 상승 여력 있어요. 단 베타 2.43이라 변동도 큰 종목이에요. 반대로 LITE·CLS·CRDO 광통신 3개 동반 약세는 평가이익 일부 감소 변수. 빅테크(GOOG·META·AMZN)는 보합 차분 출발 — 자금이 메모리·반도체로 쏠리며 상대 소외 흐름이에요.",
+        "stockImpacts": [
+          {
+            "ticker": "MU",
+            "tone": "positive",
+            "magnitude": "+3.4%",
+            "text": "UBS PT $1,625(+204% 상향)·시총 1조 달러 돌파·HBM4 매진 — 강세 연속"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "positive",
+            "magnitude": "+2.8%",
+            "text": "韓 SK하이닉스 시총 1조달러 + 메모리 후광 → 파운드리 동반 강세"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "positive",
+            "magnitude": "+1.7%",
+            "text": "AI 네트워킹·커스텀 칩 후광 + 메모리 슈퍼사이클 동조"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "negative",
+            "magnitude": "-1.4%",
+            "text": "5/20 Q1 실적 후 '셀 더 뉴스' 차익실현 지속"
+          },
+          {
+            "ticker": "LITE",
+            "tone": "negative",
+            "magnitude": "-3.7%",
+            "text": "광통신 차익실현 가속 + 실적 발표 전 포지셔닝 정리"
+          },
+          {
+            "ticker": "CLS",
+            "tone": "negative",
+            "magnitude": "-3.1%",
+            "text": "AI 인프라 ODM 차익실현 + 베타 2.42 약세장 큰 폭 하락"
+          },
+          {
+            "ticker": "DELL",
+            "tone": "negative",
+            "magnitude": "-1.1%",
+            "text": "5/29 실적 D-2 + 5/22 +16.77% 폭등 후 차익실현 매물"
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "neutral",
+            "magnitude": "-0.7%",
+            "text": "5/28 실적 D-1 발표 전 정리 — 옵션 ±13.6% 변동 예상"
+          },
+          {
+            "ticker": "TLN",
+            "tone": "negative",
+            "magnitude": "-1.1%",
+            "text": "유가 WTI -3.75% 동조 약세 — AI 전력 펀더는 견조"
+          },
+          {
+            "ticker": "GOOG",
+            "tone": "neutral",
+            "magnitude": "-0.1%",
+            "text": "빅테크 보합 — 자금이 메모리·반도체로 쏠리며 상대 소외"
+          }
+        ]
       }
     ]
   },
   "realestate": {},
-  "lastUpdated": "2026-05-27T15:45:00+09:00"
+  "lastUpdated": "2026-05-27T22:45:00+09:00"
 }
