@@ -1489,37 +1489,122 @@
     ],
     "2026-05-28": [
       {
-        "type": "earnings",
-        "label": "MRVL 실적",
-        "color": "amber",
-        "time": "익일 05:00 KST",
-        "title": "마벨 Q1 FY27 실적",
-        "description": "마벨테크놀로지 Q1 실적. 데이터센터 인터커넥트(서버 사이를 잇는 부품)와 AI 칩 협업 매출이 핵심.",
-        "ourImpact": "Google TPU(구글 자체 AI 칩) 협업과 NVDA의 $20억 투자 효과를 확인하는 분기입니다.",
+        "type": "market",
+        "label": "자가복구 캐치업",
+        "color": "blue",
+        "time": "13:10 KST",
+        "title": "🔧 워치독 catch-up — 美 5/27 다우·S&P 종가 신고가 + MRVL 실적 비트(애프터+3%) + 韓 금통위 2.5% 동결(인상 소수의견 2명)",
+        "description": "08:00 KST 모닝 태스크 누락분을 13:10 KST에 자가복구한 보고서예요. 美 5/27 정규장: Dow 50,644.28(+0.36% 종가 신고가)·S&P 7,520.36(+0.02% 신고가)·NASDAQ 26,674.73(+0.07%)·VIX 17.01. 빅테크는 META +3.95%(Meta AI 구독 출시) 단독 강세였고, 반도체·광통신은 MRVL -3.89%·SNDK -2.83%·AVGO -1.74%·CLS -3.60% 차익실현이 우세했어요. MRVL은 장 마감 직후 실적 발표에서 매출(분기 매출 $2.418B +28% YoY)·EPS($0.80) 비트 + FY27/FY28 가이던스 모두 상향(연 매출 $11.5B/$16.5B)했고, 시간외에서 +3% 회복했어요.",
+        "impact": "neutral",
+        "ourImpact": "보유 15종목 중 META 단독 강세(+3.95%, Meta AI 구독), MRVL은 마감 -3.89% 후 실적 비트로 시간외 +3% 회복 갭업 가능. DELL은 5/29 06:00 KST 실적 발표 직전이고, PCE 물가는 5/29 22:30 KST 발표라 단기 변동성이 크니 시장 흐름을 한 호흡 길게 보세요.",
         "stockImpacts": [
           {
+            "ticker": "META",
+            "tone": "positive",
+            "magnitude": "직접 강세",
+            "text": "META +3.95% $636.55 — Meta AI 챗봇 유료 구독·앱 프리미엄(광고 제거) 버전 출시 catalyst"
+          },
+          {
             "ticker": "MRVL",
-            "tone": "neutral",
-            "magnitude": "직접",
-            "text": "Q1 실적 — Google TPU 협업 + NVDA $20억 투자 효과 확인"
+            "tone": "positive",
+            "magnitude": "애프터 갭업",
+            "text": "Q1 매출/EPS 비트 + FY27 가이던스 $11.5B로 상향, 시간외 +3% 회복"
+          },
+          {
+            "ticker": "DELL",
+            "tone": "warning",
+            "magnitude": "실적 임박",
+            "text": "5/29 06:00 KST Q1 FY27 실적 발표 — 컨센 매출 $34.95B·EPS $3.00, AI 서버 백로그 $43B 진행 포커스"
+          },
+          {
+            "ticker": "SNDK",
+            "tone": "negative",
+            "magnitude": "차익실현",
+            "text": "-2.83% $1,547.11 메모리 차익실현"
           },
           {
             "ticker": "AVGO",
+            "tone": "negative",
+            "magnitude": "차익실현",
+            "text": "-1.74% $421.86 반도체 차익실현"
+          }
+        ]
+      },
+      {
+        "type": "policy",
+        "label": "한은 금통위 동결",
+        "color": "amber",
+        "time": "09:46 KST",
+        "title": "한국은행 기준금리 연 2.5% 8회 연속 동결 — 인상 소수의견 2명 등장(매파적 동결)",
+        "description": "한국은행 금융통화위원회가 5/28 09시 46분 기준금리를 연 2.5%로 8회 연속 동결했어요. 7명 위원 중 5명이 동결, 2명(유상대 부총재·장용성 위원)이 인상 소수의견을 냈어요. 6개월 후 점도표는 인상(3.25% 2명·3.00% 10명) 12명·동결(2.75%) 7명·인하(2.50%) 2명으로 인상 무게가 더 컸어요. 매파적(긴축 선호) 동결로 해석돼요.",
+        "impact": "neutral",
+        "ourImpact": "보유 미국 주식 직접 영향 제한적. 매파적 동결로 ① 원화 강세 가능(환율 1,500원 박스권 하향), ② 글로벌 긴축 기조 잔존 시그널로 빅테크 밸류에이션 약간 부담, ③ HBM·반도체(TSM·MU·SNDK)는 한국 반도체와 동조 가능.",
+        "stockImpacts": [
+          {
+            "ticker": "GOOG",
+            "tone": "neutral",
+            "magnitude": "약한 부담",
+            "text": "긴축 기조 잔존 — 빅테크 멀티플 압축 변수"
+          },
+          {
+            "ticker": "META",
+            "tone": "neutral",
+            "magnitude": "약한 부담",
+            "text": "글로벌 금리 동조"
+          },
+          {
+            "ticker": "MU",
             "tone": "neutral",
             "magnitude": "동조",
-            "text": "인터커넥트 그룹 동조"
+            "text": "한국 메모리(SK하이닉스·삼성) 동조"
+          },
+          {
+            "ticker": "TSM",
+            "tone": "neutral",
+            "magnitude": "동조",
+            "text": "한국 반도체 동조"
+          }
+        ]
+      },
+      {
+        "type": "earnings",
+        "label": "MRVL 실적 발표 완료",
+        "color": "green",
+        "time": "5/27 ET AMC (5/28 06:00 KST)",
+        "title": "✅ MRVL Q1 FY27 실적 비트 + FY27 가이던스 $11.5B 상향 — 시간외 +3% 회복",
+        "description": "마벨(MRVL)이 5/27 ET 정규장 마감 직후 Q1 FY27 실적을 발표했어요. 매출 24억 1,800만 달러(+28% YoY)로 분기 최고 기록을 세웠고, EPS도 0.80달러로 컨센(0.75달러)을 비트했어요. 더 중요한 건 연간 가이던스를 FY27 약 115억 달러(+40% YoY)로, FY28 약 165억 달러(+45% YoY)로 줄상향한 점이에요. 데이터센터 매출 비중도 76%(18억 3,300만달러)로 늘었어요. 정규장 -3.89% 마감 후 시간외에서 +3% 회복했어요.",
+        "impact": "positive",
+        "ourImpact": "보유 마벨(MRVL) 직접 호재 — 정규장 종가 $198.70에서 시간외 약 $204대로 갭업 가능성. 같은 광통신·AI 인프라 LITE·CRDO·DELL에도 후광 효과 예상.",
+        "stockImpacts": [
+          {
+            "ticker": "MRVL",
+            "tone": "positive",
+            "magnitude": "직접 강세",
+            "text": "매출 $2.418B·EPS $0.80 비트, FY27 가이던스 $11.5B·FY28 $16.5B 줄상향, 애프터 +3% 회복"
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "positive",
+            "magnitude": "동조",
+            "text": "AI 인터커넥트 그룹 후광"
           },
           {
             "ticker": "NVDA",
-            "tone": "neutral",
+            "tone": "positive",
             "magnitude": "약한 호재",
-            "text": "협업 매출 확인 시 후광"
+            "text": "마벨-NVDA $20억 투자 협업 매출 가시화 확인"
           },
           {
             "ticker": "LITE",
-            "tone": "neutral",
+            "tone": "positive",
             "magnitude": "동조",
-            "text": "데이터센터 광통신 그룹"
+            "text": "AI 데이터센터 광통신 그룹 후광"
+          },
+          {
+            "ticker": "CRDO",
+            "tone": "positive",
+            "magnitude": "동조",
+            "text": "AI 인터커넥트 그룹 동조"
           }
         ]
       }
@@ -2846,5 +2931,5 @@
     ]
   },
   "realestate": {},
-  "lastUpdated": "2026-05-27T22:45:00+09:00"
+  "lastUpdated": "2026-05-28T13:10:00+09:00"
 }

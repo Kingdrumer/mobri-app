@@ -1,0 +1,306 @@
+{
+  "date": "2026-05-28",
+  "session": "watchdog-catchup",
+  "title": "5/28(목) 자가복구 캐치업 브리핑 — 美 5/27 다우·S&P 신고가(+0.36%/+0.02%) + MRVL 실적 비트(애프터+3%) + 韓 금통위 2.5% 동결(8회 연속·인상 소수의견 2명) + 코스피 -0.35% 차익실현",
+  "marketStatus": "美 5/27 정규장 마감: S&P 7,520.36(+0.02%, 종가 신고가)·NASDAQ 26,674.73(+0.07%)·Dow 50,644.28(+0.36%, +182.60p 종가 신고가)·VIX 17.01. 메모리·파운드리는 차익실현이 우세하며 SNDK -2.83%·AVGO -1.74%·MRVL -3.89% 약세, 빅테크는 META +3.95%(Meta AI 구독 출시) 단독 강세. 韓 5/28 오전: 한국은행 금통위 기준금리 연 2.5% 동결(8회 연속, 인상 소수의견 2명 — 유상대 부총재·장용성 위원). 코스피는 09:00 -0.77% 갭다운 출발 후 8,199선(-0.35%)에서 반등 시도 중(10:03 KST). 외국인 -1.83조원 순매도, 개인+1.37조·기관 +4,202억 흡수. MRVL은 5/27 ET 장 마감 직후 Q1 FY27 실적 발표 — 매출 $2.418B(+28% YoY)·EPS $0.80(컨센 $0.75 비트), Q2 가이던스 $2.7B·FY27 가이던스 $11.5B·FY28 $16.5B로 줄상향, 시간외 +3% 회복. 오늘 미국 정규장은 22:30 KST 재개되며 DELL Q1 FY27 실적이 美 마감 후(5/29 06:00 KST) 발표 예정, 컨센 매출 $34.95B·EPS $3.00.",
+  "lastUpdated": "2026-05-28T13:10:00+09:00",
+  "generatedAt": "2026-05-28T13:10:00+09:00",
+  "stockSnapshot": [
+    {
+      "ticker": "GOOG",
+      "name": "알파벳(구글)",
+      "price": 384.83,
+      "change1D": 0.00,
+      "change1W": -2.18,
+      "change1M": 14.20,
+      "changeYTD": 22.39,
+      "priceSourcedFrom": ["Yahoo Finance (5/27 close)", "Google Finance"],
+      "dataQualityNote": null
+    },
+    {
+      "ticker": "META",
+      "name": "메타 플랫폼스",
+      "price": 636.55,
+      "change1D": 3.95,
+      "change1W": 4.78,
+      "change1M": 8.20,
+      "changeYTD": 8.80,
+      "priceSourcedFrom": ["Google Finance (5/27 close)", "Yahoo Finance"],
+      "dataQualityNote": "출처별 1.6% 분포 ($633.61~$637.39), 평균 $636.55 채택. Meta AI 구독 출시 catalyst로 +3.1~3.95% 상승."
+    },
+    {
+      "ticker": "AMZN",
+      "name": "아마존",
+      "price": 265.29,
+      "change1D": -0.38,
+      "change1W": -1.04,
+      "change1M": 5.62,
+      "changeYTD": 12.43,
+      "priceSourcedFrom": ["CNBC", "Yahoo Finance (intraday $264.62~$265.53)"],
+      "dataQualityNote": null
+    },
+    {
+      "ticker": "NVDA",
+      "name": "엔비디아",
+      "price": 213.95,
+      "change1D": 0.98,
+      "change1W": -0.42,
+      "change1M": 12.51,
+      "changeYTD": 9.65,
+      "priceSourcedFrom": ["Yahoo Finance (5/27 close)", "CNBC"],
+      "dataQualityNote": null
+    },
+    {
+      "ticker": "TSM",
+      "name": "TSMC",
+      "price": 422.73,
+      "change1D": -0.31,
+      "change1W": 1.83,
+      "change1M": 8.71,
+      "changeYTD": 15.65,
+      "priceSourcedFrom": ["Yahoo Finance (5/27 close, +2.52% intraday catch-up)", "CNBC"],
+      "dataQualityNote": "Investing.com $412.32 vs Yahoo $422.73 — 2.5% 차이. 다수 출처 (Yahoo·CNBC·Bloomberg) 동의해 $422.73 채택."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "브로드컴",
+      "price": 421.86,
+      "change1D": -1.74,
+      "change1W": 0.96,
+      "change1M": 7.84,
+      "changeYTD": 18.55,
+      "priceSourcedFrom": ["Yahoo Finance (5/27 close)", "CNBC"],
+      "dataQualityNote": null
+    },
+    {
+      "ticker": "MU",
+      "name": "마이크론",
+      "price": 928.41,
+      "change1D": 0.22,
+      "change1W": 28.91,
+      "change1M": 64.32,
+      "changeYTD": 235.30,
+      "priceSourcedFrom": ["Yahoo Finance (5/27 close)", "CNBC"],
+      "dataQualityNote": null
+    },
+    {
+      "ticker": "MRVL",
+      "name": "마벨 테크놀로지",
+      "price": 198.70,
+      "change1D": -3.89,
+      "change1W": -2.42,
+      "change1M": 14.62,
+      "changeYTD": 31.40,
+      "priceSourcedFrom": ["TradingKey (5/27 -4.24%)", "Yahoo Finance"],
+      "dataQualityNote": "5/27 ET 장 마감 직후 Q1 FY27 실적 발표 — 매출 비트($2.418B, +28% YoY)·EPS 비트($0.80 vs $0.75)·FY27 가이던스 $11.5B로 상향. 애프터마켓 +3% 회복 → 5/28 정규장 재개 시 갭업 가능."
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "price": 495.54,
+      "change1D": -0.69,
+      "change1W": 0.30,
+      "change1M": 4.13,
+      "changeYTD": 19.31,
+      "priceSourcedFrom": ["Yahoo Finance (5/27 close)", "Stockinvest.us"],
+      "dataQualityNote": null
+    },
+    {
+      "ticker": "SNDK",
+      "name": "샌디스크",
+      "price": 1547.11,
+      "change1D": -2.83,
+      "change1W": 24.30,
+      "change1M": 95.61,
+      "changeYTD": 314.50,
+      "priceSourcedFrom": ["Investing.com (5/27 intraday)", "Yahoo Finance prev close $1,589.55"],
+      "dataQualityNote": null
+    },
+    {
+      "ticker": "DELL",
+      "name": "델 테크놀로지스",
+      "price": 305.08,
+      "change1D": 1.07,
+      "change1W": 17.62,
+      "change1M": 41.78,
+      "changeYTD": 138.20,
+      "priceSourcedFrom": ["Sigmanomics (5/27 close)", "Yahoo Finance"],
+      "dataQualityNote": "5/28 ET 장 마감 후 Q1 FY27 실적 발표 (5/29 06:00 KST). 컨센 매출 $34.95B·EPS $3.00, AI 서버 백로그 $43B 진행상황·ISG 성장률 +100% 가이던스 점검 포인트."
+    },
+    {
+      "ticker": "LITE",
+      "name": "루멘텀",
+      "price": 910.81,
+      "change1D": 0.01,
+      "change1W": 2.18,
+      "change1M": 22.40,
+      "changeYTD": 41.50,
+      "priceSourcedFrom": ["Investing.com (5/27 prev close)", "Yahoo Finance"],
+      "dataQualityNote": "5/27 22:30 KST 개장 직후 -3.68% 갭다운에서 정규장 종일 회복해 사실상 보합 마감 ($910.81). 애프터 $901.90."
+    },
+    {
+      "ticker": "CLS",
+      "name": "셀레스티카",
+      "price": 357.50,
+      "change1D": -3.60,
+      "change1W": 2.41,
+      "change1M": 18.40,
+      "changeYTD": 96.10,
+      "priceSourcedFrom": ["Yahoo Finance (5/27 close, intraday $354.14~$377.05)"],
+      "dataQualityNote": null
+    },
+    {
+      "ticker": "CRDO",
+      "name": "크레도 테크놀로지",
+      "price": 218.46,
+      "change1D": -1.43,
+      "change1W": 7.94,
+      "change1M": 18.20,
+      "changeYTD": 22.10,
+      "priceSourcedFrom": ["Investing.com (5/27 close)", "Yahoo Finance"],
+      "dataQualityNote": null
+    },
+    {
+      "ticker": "TLN",
+      "name": "탈렌 에너지",
+      "price": 381.60,
+      "change1D": -0.77,
+      "change1W": -0.85,
+      "change1M": 8.32,
+      "changeYTD": 39.90,
+      "priceSourcedFrom": ["Yahoo Finance (5/27 close, intraday $378.99~$393.40)"],
+      "dataQualityNote": null
+    }
+  ],
+  "signals": {
+    "asOf": "2026-05-28",
+    "us": [
+      {
+        "ticker": "CRWV",
+        "name": "코어위브 (CoreWeave)",
+        "market": "NASDAQ",
+        "category": "관련주",
+        "thesis": "AI 전용 클라우드(GPU를 빌려주는 데이터센터)를 운영하는 회사예요. 보유 DELL이 5/28 ET 장 마감 후 Q1 FY27 실적을 발표하는데, AI 서버 백로그(주문 대기 물량) $43B의 진행상황과 CoreWeave를 비롯한 하이퍼스케일러 고객 비중이 어떻게 변했는지가 동조 흐름을 만들 수 있어요.",
+        "currentPrice": 105.49,
+        "change1D": -1.94
+      },
+      {
+        "ticker": "VRT",
+        "name": "버티브 (Vertiv)",
+        "market": "NYSE",
+        "category": "관련주",
+        "thesis": "AI 데이터센터의 전력·냉각(열을 식히는) 장비 회사예요. 보유 TLN(원자력 전력 공급)·DELL(AI 서버)와 동일 밸류체인이라 5/28 DELL 실적·5/29 PCE 결과에 동조하는 흐름을 보일 가능성이 커요."
+      }
+    ]
+  },
+  "dataQualityNote": {
+    "summary": "✓ 정상 13개 · ⚠ 경고 2개. 자가복구 워치독으로 5/28 08:00 KST 모닝 태스크 누락분을 13:10 KST에 catch-up. 美 5/27 정규장 종가 + 韓 5/28 오전 (BoK 결정·코스피 갭다운) 기준.",
+    "warnings": [
+      "META: 출처별 종가 분포 $633.61(StockMarketWatch)~$637.39(Robinhood), 평균값 $636.55(Google Finance) 채택. 1.6% 분포로 가드 통과.",
+      "TSM: Investing.com $412.32 vs Yahoo $422.73 약 2.5% 차이 — Yahoo·CNBC·Bloomberg 다수결로 $422.73 채택, Investing.com은 시간 지연 가능성.",
+      "change1W/1M/YTD는 직전 보고서 기준값에 5/27 종가 변동을 가산한 근사치. 정확한 기간 비교는 주말 정리 시 재계산 예정."
+    ]
+  },
+  "marketSummary": "美 5/27 정규장 마감: S&P 500 7,520.36(+0.02% 종가 신고가)·NASDAQ 26,674.73(+0.07%)·Dow 50,644.28(+0.36% +182.60p 종가 신고가)·VIX 17.01 보합권. 트럼프發 이란 관련 추가 코멘트와 채권금리 진정세(10년물 4.5% 안팎)가 다우의 보수적 신고가를 견인했으나 반도체는 차익실현 우세 — MRVL -3.89%(실적 발표 직전 정리)·SNDK -2.83%·AVGO -1.74%·CLS -3.60%·CRDO -1.43%. 메모리·파운드리 중에선 NVDA만 +0.98%, MU +0.22% 강보합. 빅테크는 META +3.95%($636.55) Meta AI 구독·프리미엄 앱 출시 catalyst로 단독 강세, GOOG·AMZN 보합, AMD -0.69%. MRVL은 마감 직후 Q1 FY27 매출 $2.418B(+28% YoY)·EPS $0.80 비트, FY27 가이던스 $11.5B(+40% YoY)·FY28 $16.5B(+45% YoY) 줄상향으로 시간외 +3% 회복.",
+  "asiaSummary": "韓 5/28 오전: 한국은행 금통위가 기준금리를 연 2.5%로 8회 연속 동결, 단 인상 소수의견 2명(유상대 부총재·장용성 위원) 등장으로 매파적 동결로 해석됨. 6개월 후 점도표는 인상(3.25%·3.00%) 12명·동결(2.75%) 7명·인하(2.50%) 2명으로 인상 기대 우세. 코스피는 09:00 8,165.73(-0.77%) 갭다운 출발 후 외국인 -1.83조원 순매도와 개인 +1.37조·기관 +4,202억 매수 공방 속에 10:03 8,199.03(-0.35%)로 반등 시도 중. 이틀 연속 사상 최고(8,228.70) 뒤 단기 차익실현 + 美 메모리·MRVL 약세 동조가 부담. 환율은 1,500원 부근에서 좁은 박스권.",
+  "news": [
+    {
+      "category": "미국 증시",
+      "headline": "[5/27 마감] 美 다우·S&P 종가 신고가 — Dow 50,644.28(+0.36%)·S&P 7,520.36(+0.02%) 좁은 박스에서 다우 단독 신고가",
+      "oneLineSummary": "어젯밤 美 정규장이 다우는 +0.36% 사상 최고(50,644.28), S&P도 +0.02% 종가 신고가(7,520.36)로 마감했어요. 나스닥은 +0.07% 보합이고 VIX(공포 지수)도 17선으로 안정적이에요. 다우 단독 강세 + 반도체 차익실현으로 좁은 박스권 횡보였어요.",
+      "summary": "美 5/27 ET 정규장: S&P 500 7,520.36(+0.02% 종가 신고가)·NASDAQ 26,674.73(+0.07%)·Dow 50,644.28(+0.36% +182.60p 종가 신고가)·VIX 17.01. 트럼프 이란 추가 코멘트·채권금리 진정(10Y 4.5%대)이 다우 견인, 반도체는 차익실현 — MRVL -4.24%·SNDK -2.83%·AVGO -1.74%·CLS -3.60%. 빅테크 단독 강세 META +3.95% (AI 구독 출시).",
+      "ourImpact": "보유 15종목 중 다우·S&P 신고가 모멘텀에는 빅테크(META +3.95%·GOOG·AMZN)와 NVDA·MU 강보합이 동조하지만, 반도체·광통신·ODM 종목군(MRVL·SNDK·AVGO·CLS·CRDO)이 평균을 끌어내려요. 5/28 ET DELL 실적 발표 직전이라 추가 차익실현 매물도 변수예요.",
+      "impact": "neutral",
+      "sources": [
+        {"name": "TheStreet — Stock Market Today May 27 2026", "url": "https://www.thestreet.com/latest-news/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-27-2026"},
+        {"name": "CNBC — Stock Market Today May 27 2026", "url": "https://www.cnbc.com/2026/05/26/stock-market-today-live-updates.html"}
+      ]
+    },
+    {
+      "category": "미국 증시",
+      "headline": "美 시간외 — MRVL Q1 FY27 매출 비트·FY27 가이던스 $11.5B 상향에 애프터마켓 +3% 회복",
+      "oneLineSummary": "어젯밤 마벨(MRVL)이 美 장 마감 후 Q1 실적을 발표했는데, 매출이 24억 1,800만 달러(컨센보다 +28%)·EPS도 비트했어요. 더 중요한 건 연간 가이던스를 115억 달러(+40% YoY)로, FY28은 165억 달러(+45% YoY)로 줄상향한 점이에요. 그래서 정규장 -3.89% 약세 후 시간외에서 +3% 회복했어요.",
+      "summary": "MRVL Q1 FY27(분기 종료 5/2/2026): 매출 $2.418B(+28% YoY) record·non-GAAP EPS $0.80 (컨센 $0.75 비트)·non-GAAP gross margin 58.9%·영업현금흐름 record $638.8M. 데이터센터 매출 $1.833B(+27% YoY, 비중 76%). Q2 가이던스 $2.7B ±5%·EPS $0.93±$0.05(+35% YoY mid). FY27 outlook 약 $11.5B(+40% YoY) vs 종전 $11B, FY28 $16.5B(+45% YoY) vs 종전 $15B. 애프터마켓 +3%.",
+      "ourImpact": "보유 마벨(MRVL)이 직접 수혜 — 정규장 종가 $198.70(-3.89%)에서 시간외 약 $204대(+3%)로 갭업 가능성 큼. 더 중요한 건 FY27 매출 가이던스를 $11B→$11.5B로 한 번 더 올린 점인데, 이는 AI 데이터센터 인터커넥트(서버-서버 연결 칩)와 커스텀 ASIC(고객 맞춤형 AI 칩)의 매출 가시성이 강화됨을 의미해요. 같은 광통신 LITE·CRDO와 AI 인프라 DELL·CLS에도 후광 가능.",
+      "impact": "positive",
+      "sources": [
+        {"name": "StockTitan — Marvell Q1 FY27 8-K", "url": "https://www.stocktitan.net/sec-filings/MRVL/8-k-marvell-technology-inc-reports-material-event-c6f040475efc.html"},
+        {"name": "Motley Fool — Marvell Q1 2027 Transcript", "url": "https://www.fool.com/earnings/call-transcripts/2026/05/27/marvell-mrvl-q1-2027-earnings-transcript/"}
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "메타(META) +3.95% $636.55 — Meta AI 구독 서비스·프리미엄 앱 출시 발표로 빅테크 단독 강세",
+      "oneLineSummary": "어젯밤 메타(META)가 +3.95% 오른 $636.55로 마감했어요. Meta AI 챗봇의 유료 구독 서비스와 인스타그램·페이스북의 프리미엄(광고 제거) 앱 버전을 출시한다는 발표가 catalyst였어요. 광고 의존도를 낮추고 구독 매출이라는 새 매출원을 만들 수 있다는 기대가 컸어요.",
+      "summary": "META $636.55 +3.95% (출처별 $633.61~$637.39, 평균 채택). Meta AI 챗봇 유료 구독 서비스 정식 출시 + Instagram·Facebook 프리미엄(ad-free) 앱 버전 공개. 소프트웨어·IT 서비스 섹터 평균 +0.95% 대비 4배 강세. AI 모델→구독 매출 전환 가능성에 시장이 강하게 반응 — 광고 매출 사이클 의존도 완화 기대.",
+      "ourImpact": "보유 메타(META)가 직접 수혜로 평가이익 +3.95% 증가. 같은 빅테크 GOOG(YouTube Premium·Gemini 구독), AMZN(Prime·Alexa+) 도 AI 구독 비즈니스 모델로의 전환 압력이 커져 동조 가능. 단, 단기 +3.95% 급등 후 차익실현 매물 가능성도 있어 흐름 지켜보면 좋아요.",
+      "impact": "positive",
+      "sources": [
+        {"name": "AdHoc-News — Meta AI Subscriptions", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/meta-platforms-stock-shares-jump-3-1-percent-as-meta-ai-subscriptions/69429049"},
+        {"name": "Yahoo Finance — META", "url": "https://finance.yahoo.com/quote/META/"}
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "델(DELL) Q1 FY27 실적 D-DAY — 5/29 06:00 KST 발표·컨센 매출 $34.95B·EPS $3.00·AI 서버 백로그 $43B 진행상황 포커스",
+      "oneLineSummary": "보유 종목 델(DELL)이 오늘 미국 장이 마감된 직후(한국시간 5/29 새벽 6시) Q1 실적을 발표해요. 시장 컨센은 매출 350억 달러·EPS 3달러인데, 핵심은 'AI 서버 주문 대기 물량 430억 달러'가 어떻게 매출로 전환되고 있느냐예요. 5/22 +16.77% 폭등 후 5/27 +1.07%로 강세 유지 중이라 가이던스 모멘텀 변수가 커요.",
+      "summary": "DELL 5/28 ET AMC (5/29 06:00 KST) Q1 FY27 실적 발표 예정. 컨센 매출 $34.95B (회사 가이던스 $34.7~$35.7B 미드 $35.2B, +51% YoY)·non-GAAP EPS $3.00(가이던스 $2.90±$0.10, +87% YoY). 핵심 포커스: ① AI 서버 백로그 $43B 소화 속도, ② ISG(인프라 솔루션 그룹) +100% YoY 달성 여부, ③ AI 서버 마진율. 5/22 +16.77% 폭등 후 5/27 종가 $305.08 +1.07% YTD +138%. 옵션 시장은 ±9% 변동 가격 반영.",
+      "ourImpact": "보유 델(DELL) 직접 영향 — 가이던스 비트/미스 따라 갭업·갭다운 ±10% 가능. AI 서버 백로그가 컨센 $43B에서 $50B 이상으로 상향되면 CRWV·VRT·LITE·CRDO 같은 AI 인프라 밸류체인이 동조 강세. 반대로 마진 미스면 차익실현 트리거. 5/22 +16.77% 후 단기 부담도 변수예요.",
+      "impact": "warning",
+      "sources": [
+        {"name": "Parameter — Dell Q1 Preview", "url": "https://parameter.io/dell-technologies-dell-stock-surges-ahead-of-q1-earnings-what-to-expect-on-may-28/"},
+        {"name": "TradingKey — Dell Earnings Preview", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261925503-dell-earnings-preview-stock-price-up-140-ai-servers-tradingkey"}
+      ]
+    },
+    {
+      "category": "아시아 증시",
+      "headline": "[5/28 오전] 코스피 -0.35% 8,199.03 차익실현 출발 — 외국인 -1.83조원 순매도",
+      "oneLineSummary": "오늘 한국 코스피가 09:00에 8,165.73(-0.77%)으로 갭다운 출발한 뒤, 10:03 기준 8,199.03(-0.35%)로 일부 반등하고 있어요. 이틀 연속 사상 최고(8,228.70) 뒤 단기 차익실현 + 美 반도체 차익실현(MRVL·SNDK·AVGO 약세) 동조가 부담이에요. 외국인이 1.83조원 순매도를 쏟아내고 있고 개인(1.37조)·기관(0.42조)이 받아내고 있어요.",
+      "summary": "코스피 5/28 09:00 8,165.73(-0.77%) 갭다운 출발 → 10:03 8,199.03(-0.35%) 반등 시도. 외국인 -1.83339조원 순매도 vs 개인 +1.3743조·기관 +4,202억 흡수. 이틀 연속 사상 최고(8,228.70) 뒤 차익실현 + 美 반도체(MRVL·SNDK·AVGO·CLS) 약세 동조 부담. 환율 1,500원 부근 박스권 유지.",
+      "ourImpact": "보유 종목 중 한국 반도체 동조 강한 MU·SNDK·TSM·AVGO에 단기 부담 가능. SK하이닉스(5/27 +9.31%) 차익실현이 美 메모리·HBM 공급망에 일부 영향. 다만 美 정규장(22:30 KST) 재개 전이라 韓 오전 흐름은 美 마감 직전 톤(다우 신고가)을 부분 반영할 가능성도 있어요.",
+      "impact": "warning",
+      "sources": [
+        {"name": "Invezz — KOSPI 5/28", "url": "https://invezz.com/news/2026/05/28/heres-why-the-kospi-index-rally-has-taken-a-breather-today/"},
+        {"name": "Asia Business Daily — KOSPI Intraday", "url": "https://www.asiae.co.kr/en/article/2026052810114639376"}
+      ]
+    },
+    {
+      "category": "아시아 증시",
+      "headline": "한은 5/28 09:46 기준금리 연 2.5% 8회 연속 동결 — 인상 소수의견 2명 등장한 매파적 동결",
+      "oneLineSummary": "오늘 오전 9시 46분 한국은행 금융통화위원회가 기준금리를 연 2.5%로 8회 연속 동결했어요. 다만 7명 위원 중 2명(유상대 부총재·장용성 위원)이 인상에 소수의견을 냈고, 6개월 후 점도표(미래 금리 전망표)도 인상(3.25%·3.00%) 12명·동결 7명·인하 2명으로 인상 무게가 더 컸어요. 매파적(긴축 선호) 동결로 해석돼요.",
+      "summary": "BoK MPC 5/28 09:46 기준금리 연 2.5% 동결 (8회 연속 동결, 2025/2月 마지막 인하 후 유지). 7명 중 5명 동결·2명 인상 소수의견 (유상대 부총재·장용성 위원). 6개월 후 점도표: 3.25% 2명·3.00% 10명·2.75% 7명·2.50% 2명 — 인상 기대 12 vs 동결 7 vs 인하 2로 매파 우세. 통화정책방향 문구: 물가상승 압력 확대 정도·경기 흐름·금융안정 점검하며 인상 시기 결정.",
+      "ourImpact": "보유 미국 주식 직접 영향은 제한적이지만, 한국 매파적 동결은 ① 원화 강세 → 환율 1,500원 박스권 하향 가능, ② 글로벌 긴축 기조 잔존 시그널로 빅테크(GOOG·META·AMZN) 밸류에이션에 약간 부담, ③ HBM·반도체 종목(TSM·MU·SNDK)은 한국 반도체와 동조 가능. 미국 6월 FOMC 동결 확률 96.9%와 같은 방향이라 글로벌 디스인플레이션 속도가 늦어지는 분위기예요.",
+      "impact": "neutral",
+      "sources": [
+        {"name": "머니투데이 — 한은 2.5% 동결", "url": "https://www.mt.co.kr/economy/2026/05/28/2026052809461131798"},
+        {"name": "이투데이 — 인상 소수의견 2명", "url": "https://www.etoday.co.kr/news/view/2588554"}
+      ]
+    },
+    {
+      "category": "정책·금리",
+      "headline": "5/29 22:30 KST 4월 PCE 물가 D-1 — 컨센 코어 PCE +3.2% YoY·미디어 동중 시그널 우려",
+      "oneLineSummary": "내일(한국시간 5/29 22:30) 미국 4월 PCE 물가가 발표돼요. PCE는 Fed(미국 중앙은행)가 가장 신뢰하는 물가 지표예요. 컨센서스(시장 평균 예상)는 코어 PCE +3.2% YoY인데, 최근 CPI·PPI가 예상보다 높게 나온 데다 중동발 유가 상승(WTI 한때 +30%)이 반영되면 상향 서프라이즈 가능성이 있어요. 그러면 채권금리 재상승 + 빅테크 부담이 우려돼요.",
+      "summary": "美 4월 PCE 물가 발표 5/29 8:30 ET (22:30 KST). 컨센 헤드라인 PCE +3.5% YoY·코어 PCE +3.2% YoY (3월 기준). Motley Fool 분석: 중동 유가 상승·관세 효과로 상향 서프라이즈 가능. CME FedWatch — 6월 FOMC 동결 확률 96.9%, 연내 금리인하 확률 10% 미만. 4월 FOMC 의사록(5/20 공개): 인플레이션 2% 목표 상회·코어 PCE 3.2%·실업률 4.3% 안정으로 동결 정당화.",
+      "ourImpact": "보유 빅테크(GOOG·META·AMZN)와 성장주 NVDA·MU·DELL는 PCE 상향 서프라이즈 시 채권금리 재상승 → 멀티플 압축으로 부담. 반대로 컨센 부합·하회면 6월 동결 + 7월/9월 인하 기대로 우호적. 5/29 06:00 DELL 실적 결과와 22:30 PCE 결과가 같은 날 줄줄이라 단기 변동성 확대 가능.",
+      "impact": "warning",
+      "sources": [
+        {"name": "Motley Fool — Fed PCE 5/29", "url": "https://www.fool.com/investing/2026/05/27/fed-preferred-inflation-gauge-report-pce-index/"},
+        {"name": "Federal Reserve — FOMC Minutes 4/29", "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260429.htm"}
+      ]
+    },
+    {
+      "category": "글로벌·지정학",
+      "headline": "美·이란 평화 협상 진전 + 채권금리 진정(10Y 4.5%대) — 위험자산 우호 환경 유지",
+      "oneLineSummary": "美와 이란의 평화 협상이 사흘째 진전을 보이며 호르무즈(세계 원유 20%가 지나는 바닷길) 재개방이 가까워졌다는 분위기예요. 채권 10년물 금리도 4.5%대로 진정되며 위험자산(주식)에 우호적인 환경이 유지되고 있어요. 다만 트럼프가 '서두르지 마라'며 속도를 늦췄어요.",
+      "summary": "美·이란 평화협상 6일째 진전, 호르무즈 재개방 원칙 합의 단계. 채권 10Y 4.484%(-1.95% 5/27) 진정세 유지·VIX 17.01 안정. WTI 5/27 ~$92~93선 (5/27 22:30 KST 갭다운 -3.75% 후 회복). 美 다우 종가 신고가 50,644.28는 평화 모멘텀 일부 반영. 단, 트럼프 '서두르지 말라'·이란 호르무즈 통제권 이견으로 협상 변수 잔존.",
+      "ourImpact": "보유 종목 중 ① TLN(탈렌 에너지·원자력 전력) — 유가 하락 시 동조 약세 가능 (5/27 -0.77%·일주일 -0.85%), ② 빅테크(GOOG·META·AMZN) — 매크로 안정·금리 진정으로 우호적, ③ AI 인프라(NVDA·MU·LITE·DELL) — 차익실현·실적 대기 변수 우세. 평화 협상 진전은 전체적으로 우호적이지만, 5/29 PCE·DELL 실적·5/29 FOMC 의사록 줄줄이라 단기 변동성이 더 큰 변수예요.",
+      "impact": "positive",
+      "sources": [
+        {"name": "TheStreet — Iran rumors 5/27", "url": "https://www.thestreet.com/latest-news/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-27-2026"},
+        {"name": "CNBC — Stock Market Today 5/27", "url": "https://www.cnbc.com/2026/05/26/stock-market-today-live-updates.html"}
+      ]
+    }
+  ],
+  "preview": "오늘(5/28 KST) 미국 정규장은 22:30 KST 재개되며, 보유 종목 중에선 MRVL(어젯밤 실적 비트·가이던스 상향, 시간외 +3% 회복) 갭업과 DELL(美 마감 후 Q1 FY27 실적 발표 직전 포지셔닝) 흐름이 핵심. 5/29 06:00 KST DELL 실적 + 22:30 KST 美 4월 PCE 물가 발표 + FOMC 4월 회의록까지 5/28~29 사이 매크로·실적 이벤트가 줄줄이라 단기 변동성 확대 예상. 韓 코스피는 매파적 동결(인상 소수의견 2명) + 차익실현 + 美 반도체 약세 동조로 약보합 출발이지만, 美 정규장에서 빅테크가 META처럼 반등하면 韓 오후·5/29 오전 반등 가능.",
+  "tip": "오늘은 자가복구 워치독이 08:00 모닝 태스크 누락을 13:10 KST에 catch-up한 보고서예요. 5/28~29 사이 ① MRVL 실적 후 가이던스 상향 모멘텀, ② DELL Q1 실적($43B AI 서버 백로그 진행) — 한국시간 5/29 06:00, ③ 4월 PCE 물가(5/29 22:30 KST), ④ FOMC 4월 의사록까지 굵직한 이벤트가 줄줄이 있어 보유 15종목 단기 변동성이 클 수 있어요. 특히 5/22 +16.77% 폭등한 DELL과 +12.94% 폭등한 CRDO는 실적·PCE 결과에 따라 ±10% 변동 가능하니, 단기 매매보다 한 호흡 길게 보면 좋아요. 韓 매파적 동결로 원화 강세 가능성 — 미국 주식 환율 영향도 점검해보세요."
+}
