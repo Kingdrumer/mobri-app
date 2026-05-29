@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-05-28T13:10:00+09:00",
+  "lastUpdated": "2026-05-28T22:45:00+09:00",
   "us": [
     {
       "ticker": "GOOG",
       "name": "알파벳 (구글)",
       "sector": "빅테크",
-      "price": 384.83,
-      "change1D": 0.0,
-      "change1W": -2.18,
-      "change1M": 14.2,
-      "changeYTD": 22.39,
+      "price": 386.1,
+      "change1D": 0.33,
+      "change1W": -1.85,
+      "change1M": 14.53,
+      "changeYTD": 22.72,
       "beta": 1.15,
       "signal": "yellow",
       "note": "5/27 美 정규장 마감: +0.00% $384.83 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "구글 모회사. 검색·광고에서 안정적인 캐시카우, 클라우드+AI에서 구조적 성장 동력. 변동성은 빅테크 평균 수준.",
-      "todayWhy": "5/27 美 정규장 개장 직후(22:30 KST): $384.34 -0.13% 약보합. 5/26 ET +1.46% 강세 후 차익실현. 빅테크는 메모리·반도체로 자금 쏠리는 흐름에서 한발 비켜난 모습이에요.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $383.86 출발 → $386.10 +0.33% 강보합. 4월 PCE 물가가 컨센과 같은 3.8%로 나와 큰 충격 없이 빅테크 매수세 유입. AI 검색·구글 클라우드 모멘텀 안정적이에요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 425,
@@ -56,7 +56,7 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance (5/27 close)",
+        "Yahoo Finance (5/28 open $383.86, intraday $386.10)",
         "Google Finance"
       ],
       "dataQualityNote": null,
@@ -70,15 +70,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $395.00로 지금 가격($386.77) 근처에 거의 도달했어요(+2%). 추가 상승 여력은 제한적. 추천 등급은 매수 (4.35)예요. 분석가별 의견은 $185.00~$450.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "Yahoo Finance (5/27 close)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 open $383.86, intraday $386.10)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           },
           {
             "url": "Google Finance",
-            "note": "5/27 ET 정규장 종가"
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -87,16 +87,16 @@
       "ticker": "META",
       "name": "메타",
       "sector": "빅테크",
-      "price": 636.55,
-      "change1D": 3.95,
-      "change1W": 4.78,
-      "change1M": 8.2,
-      "changeYTD": 8.8,
+      "price": 635.5,
+      "change1D": -0.16,
+      "change1W": 4.62,
+      "change1M": 8.04,
+      "changeYTD": 8.64,
       "beta": 1.49,
-      "signal": "green",
+      "signal": "yellow",
       "note": "5/27 美 정규장 마감: +3.95% $636.55 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "페이스북·인스타그램 모회사. 광고 매출이 본업, AI·메타버스 투자가 미래. 광고 사이클·AI 수익화 시점이 핵심.",
-      "todayWhy": "5/27 개장 직후: $609.67 -0.44% 약보합. 광고·AI 기대 속에서도 자금이 메모리·반도체로 몰리며 차분한 출발. 빅테크 동조 vs 별도 모멘텀 부족 흐름이에요.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $638.40 부근 출발 후 $635.50 -0.16% 약보합. 어제 +3.95% Meta AI 구독 발표 catalyst 후 차익실현 매물이 살짝 들어왔지만 빅테크 전체 흐름은 안정적이에요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 725,
@@ -133,10 +133,10 @@
         }
       ],
       "priceSourcedFrom": [
-        "Google Finance (5/27 close)",
-        "Yahoo Finance"
+        "Yahoo Finance (5/28 intraday)",
+        "Google Finance"
       ],
-      "dataQualityNote": "출처별 1.6% 분포 ($633.61~$637.39), 평균 $636.55 채택. Meta AI 구독 출시 catalyst로 +3.1~3.95% 상승.",
+      "dataQualityNote": "PCE 발표 후 빅테크 약보합 — 5/27 +3.95% Meta AI 구독 catalyst 이후 차익실현.",
       "company": {
         "ceo": "Mark Zuckerberg",
         "business": "이 회사는 사람들이 연결하고 공유하고, 커뮤니티를 찾고, 비즈니스를 성장시키는 데 도움이 되는 기술을 개발한다. 이 회사의 제품은 사람들이 모바일 장치, 개인용 컴퓨터, 가상현실(VR) 및 혼합현실(MR) 헤드셋, 웨어러블을 통해 친구 및 가족과 연결하고 공유할 수 있도록 지원한다. 이 회사는 2개의 부문인 Family of Apps(FoA)와 Realit",
@@ -147,15 +147,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $825.72로 지금 가격($603.84)에서 +37% 더 오를 여력이 크다고 봐요. 추천 등급은 매수 (4.18)예요. 분석가별 의견은 $614.00~$1,015.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "Google Finance (5/27 close)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 intraday)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           },
           {
-            "url": "Yahoo Finance",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Google Finance",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -164,16 +164,16 @@
       "ticker": "AMZN",
       "name": "아마존",
       "sector": "빅테크",
-      "price": 265.29,
-      "change1D": -0.38,
-      "change1W": -1.04,
-      "change1M": 5.62,
-      "changeYTD": 12.43,
+      "price": 269.66,
+      "change1D": 1.65,
+      "change1W": 0.61,
+      "change1M": 7.27,
+      "changeYTD": 14.08,
       "beta": 1.47,
-      "signal": "yellow",
+      "signal": "green",
       "note": "5/27 美 정규장 마감: -0.38% $265.29 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "이커머스+AWS 클라우드. AI 시대엔 AWS가 캐시카우 + 성장엔진 동시 역할. 단기 사고는 단발성, 펀더멘털 견조.",
-      "todayWhy": "5/27 개장 직후: $266.30 +0.38% 약강세. AWS 견조 기대 속 빅테크 중 유일한 강보합. 5/26 ET +1.7% 강세 모멘텀 잔여.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $267.70 출발 → $269.66 +1.65% 강세. AWS·소비재 모두 견조한 가운데 PCE 안도감으로 빅테크 중 가장 강한 출발. Snowflake(+37%)의 AWS 60억 달러 계약 발표도 후광이에요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 290,
@@ -215,8 +215,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "CNBC",
-        "Yahoo Finance (intraday $264.62~$265.53)"
+        "Yahoo Finance (5/28 open $267.70, intraday range $267.44~$272.89)",
+        "CNBC"
       ],
       "dataQualityNote": null,
       "company": {
@@ -229,15 +229,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $306.15로 지금 가격($269.00)에서 +14% 더 오를 여력이 있어요. 추천 등급은 매수 (4.21)예요. 분석가별 의견은 $207.00~$370.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "CNBC",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 open $267.70, intraday range $267.44~$272.89)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           },
           {
-            "url": "Yahoo Finance (intraday $264.62~$265.53)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "CNBC",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -246,16 +246,16 @@
       "ticker": "NVDA",
       "name": "엔비디아",
       "sector": "반도체",
-      "price": 213.95,
-      "change1D": 0.98,
-      "change1W": -0.42,
-      "change1M": 12.51,
-      "changeYTD": 9.65,
+      "price": 212.58,
+      "change1D": -0.64,
+      "change1W": -1.06,
+      "change1M": 11.87,
+      "changeYTD": 9.01,
       "beta": 2.07,
       "signal": "yellow",
       "note": "5/27 美 정규장 마감: +0.98% $213.95 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "AI GPU 압도적 1위. AI 시대의 핵심 인프라 공급사. 5/20 Q1 실적이 단기 가장 큰 이벤트.",
-      "todayWhy": "5/27 개장 직후: $211.88 -1.39% 약세. 5/20 Q1 실적 이후 '셀 더 뉴스' 차익실현 지속. 메모리(MU)·파운드리(TSM) 강세 속 GPU 단독 부진 흐름이에요.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $211.28 출발 → $212.58 -0.64% 약보합. 5/20 Q1 실적 후 차익실현 흐름 지속 중인데, AI 칩 수요 펀더멘털은 견조해요. 마벨(MRVL) 실적 비트 후광은 약간 있지만 메모리 차익실현 분위기에 눌리는 모습.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 266,
@@ -315,7 +315,7 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance (5/27 close)",
+        "Yahoo Finance (5/28 open $211.28, intraday $212.58, range $209.73~$214.29)",
         "CNBC"
       ],
       "dataQualityNote": null,
@@ -329,15 +329,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $264.95로 지금 가격($221.98)에서 +19% 더 오를 여력이 있어요. 추천 등급은 매수 (4.26)예요. 분석가별 의견은 $138.00~$432.78 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "Yahoo Finance (5/27 close)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 open $211.28, intraday $212.58, range $209.73~$214.29)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           },
           {
             "url": "CNBC",
-            "note": "5/27 ET 정규장 종가"
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -346,16 +346,16 @@
       "ticker": "TSM",
       "name": "TSMC",
       "sector": "반도체",
-      "price": 422.73,
-      "change1D": -0.31,
-      "change1W": 1.83,
-      "change1M": 8.71,
-      "changeYTD": 15.65,
+      "price": 424.34,
+      "change1D": 0.38,
+      "change1W": 2.21,
+      "change1M": 9.09,
+      "changeYTD": 16.03,
       "beta": 1.12,
       "signal": "yellow",
       "note": "5/27 美 정규장 마감: -0.31% $422.73 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "세계 최대 반도체 위탁생산. NVDA·AMD·AAPL이 모두 고객. AI 호황의 가장 안전한 노출 — 변동성도 가장 낮음.",
-      "todayWhy": "5/27 개장 직후: $424.05 +2.84% 강세. 韓 SK하이닉스 시총 1조 달러 진입 + AI 파운드리(반도체 위탁생산) 수요 호조 후광. 베타 1.12로 보유 종목 중 가장 안정적이에요.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $424.34 +0.38% 강보합. 5/27 SK하이닉스 시총 1조 달러 진입 후광 + 코스피 -0.53% 약세에도 글로벌 파운드리(반도체 위탁생산) 수요는 견조. 베타 1.12로 보유 종목 중 가장 안정적인 흐름이에요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 470,
@@ -401,10 +401,10 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance (5/27 close, +2.52% intraday catch-up)",
+        "Yahoo Finance (5/28 intraday $424.34)",
         "CNBC"
       ],
-      "dataQualityNote": "Investing.com $412.32 vs Yahoo $422.73 — 2.5% 차이. 다수 출처 (Yahoo·CNBC·Bloomberg) 동의해 $422.73 채택.",
+      "dataQualityNote": null,
       "company": {
         "ceo": "C.C. Wei",
         "business": "타이완 반도체 매뉴팩처링은 주로 회로 제조 서비스 제공에 종사하는 대만 기반의 회사이다. 이 회사의 집적 회로 제조 서비스에는 공정 기술, 특수 공정 기술, 설계 생태계 지원, 마스크 기술, 3DFabricTM 고급 패키징 및 실리콘 적층 기술 서비스가 포함된다. 이 회사는 5nm 기술의 이전 및 양산을 완료했으며, 3nm 공정 기술과 2nm 공정 기술의",
@@ -415,15 +415,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $446.18로 지금 가격($404.54)에서 +10% 더 오를 여력이 있어요. 추천 등급은 매수 (4.32)예요. 분석가별 의견은 $205.00~$600.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "Yahoo Finance (5/27 close, +2.52% intraday catch-up)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 intraday $424.34)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           },
           {
             "url": "CNBC",
-            "note": "5/27 ET 정규장 종가"
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -432,16 +432,16 @@
       "ticker": "AVGO",
       "name": "브로드컴",
       "sector": "반도체",
-      "price": 421.86,
-      "change1D": -1.74,
-      "change1W": 0.96,
-      "change1M": 7.84,
-      "changeYTD": 18.55,
+      "price": 423.05,
+      "change1D": 0.28,
+      "change1W": 1.24,
+      "change1M": 8.12,
+      "changeYTD": 18.83,
       "beta": 2.44,
       "signal": "yellow",
       "note": "5/27 美 정규장 마감: -1.74% $421.86 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "맞춤형 AI 칩 설계 회사. 메타·구글의 자체 AI 칩 핵심 파트너. 베타 2.44로 변동성 큼.",
-      "todayWhy": "5/27 개장 직후: $429.34 +1.74% 강세. AI 네트워킹·커스텀 칩 수요 기대 + 메모리 슈퍼사이클 후광. 베타 2.44로 강세장에서 큰 폭으로 따라가는 흐름이에요.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $420.50 출발 → $423.05 +0.28% 보합. 어제 -1.74% 차익실현 후 약한 반등 — 6/3 분기 실적 발표(D-6)를 앞두고 포지셔닝 정리 영향이에요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 460,
@@ -489,7 +489,7 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance (5/27 close)",
+        "Yahoo Finance (5/28 intraday $423.05)",
         "CNBC"
       ],
       "dataQualityNote": null,
@@ -503,15 +503,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $468.31로 지금 가격($427.83) 근처에 거의 도달했어요(+9%). 추가 상승 여력은 제한적. 추천 등급은 매수 (4.24)예요. 분석가별 의견은 $360.00~$630.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "Yahoo Finance (5/27 close)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 intraday $423.05)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           },
           {
             "url": "CNBC",
-            "note": "5/27 ET 정규장 종가"
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -520,16 +520,16 @@
       "ticker": "MU",
       "name": "마이크론",
       "sector": "반도체",
-      "price": 928.41,
-      "change1D": 0.22,
-      "change1W": 28.91,
-      "change1M": 64.32,
-      "changeYTD": 235.3,
+      "price": 904.88,
+      "change1D": -2.53,
+      "change1W": 26.38,
+      "change1M": 61.79,
+      "changeYTD": 232.77,
       "beta": 2.43,
-      "signal": "yellow",
+      "signal": "red",
       "note": "5/27 美 정규장 마감: +0.22% $928.41 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "메모리 반도체. NVDA·AMD GPU에 들어가는 HBM 메모리 핵심 공급. AI 호황 = 메모리 호황 공식.",
-      "todayWhy": "5/27 美 정규장 개장 직후: $926.39 +3.41% 강세 연속. UBS 목표가 $1,625(이전 $535에서 +204% 상향) + HBM4 캐파 완전 매진 + 시총 1조 달러 돌파 이슈로 강한 매수세. 5/26 +19.29% 폭등 후 추가 상승이에요.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $888.15 갭다운 출발 → $904.88 -2.53% 약세. 5/26 +19.29% UBS 목표가 $1,625 폭등 + 시총 1조 달러 진입 후 누적 +25% 단기 과열 부담 — 장중 $985까지 다시 튀었다가 차익실현 압력에 다시 눌리는 변동성 큰 흐름이에요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 800,
@@ -578,10 +578,10 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance (5/27 close)",
+        "Yahoo Finance (5/28 open $888.15, intraday $904.88, range $888.15~$985.00)",
         "CNBC"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "5/28 변동성 매우 큼 (장중 $96.85 변동). 5/27 +0.22% 강보합 후 -2.53% 차익실현.",
       "company": {
         "ceo": "Sanjay Mehrotra",
         "business": "이 회사는 메모리 및 스토리지 솔루션 제공업체다. 이 회사는 마이크론 및 크루셜 브랜드를 통해 고성능 동적 랜덤 액세스 메모리(DRAM), NAND, NOR 메모리 및 스토리지 제품 포트폴리오를 제공한다. 회사의 사업 부문에는 컴퓨팅 및 네트워킹 사업부(CNBU), 모바일 사업부(MBU), 임베디드 사업부(EBU), 스토리지 사업부(SBU)가 있다. CNB",
@@ -592,15 +592,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $540.54인데 지금 가격($791.00)이 이미 그보다 비싸요(-32%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.22)예요. 분석가별 의견은 $125.00~$1,000.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "Yahoo Finance (5/27 close)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 open $888.15, intraday $904.88, range $888.15~$985.00)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           },
           {
             "url": "CNBC",
-            "note": "5/27 ET 정규장 종가"
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -609,16 +609,16 @@
       "ticker": "MRVL",
       "name": "마벨",
       "sector": "반도체",
-      "price": 198.7,
-      "change1D": -3.89,
-      "change1W": -2.42,
-      "change1M": 14.62,
-      "changeYTD": 31.4,
+      "price": 218.04,
+      "change1D": 9.73,
+      "change1W": 7.31,
+      "change1M": 24.35,
+      "changeYTD": 41.13,
       "beta": 2.34,
-      "signal": "red",
+      "signal": "green",
       "note": "5/27 美 정규장 마감: -3.89% $198.7 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "맞춤형 칩(ASIC) 설계. 구글 TPU 공동개발 + NVDA $2B 투자. 1개월 +50% 폭주 후 단기 차익실현 정상.",
-      "todayWhy": "5/27 개장 직후: $206.74 -0.73% 약세. 5/28 분기 실적 발표 D-1 — 옵션 시장이 ±13.6% 변동을 예상하면서 발표 전 차익실현 매물이 들어오는 흐름이에요.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $218.04 갭업 출발 +9.73%. 어제 ET 장 마감 후 Q1 FY27 매출 24억 1,800만 달러(+28% YoY)·EPS $0.80 비트 + FY27 가이던스 $11.5B로 상향 호재가 정규장에 그대로 반영됐어요. 1개월 +37%로 보유 종목 중 베스트 흐름이에요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 220,
@@ -667,10 +667,10 @@
         }
       ],
       "priceSourcedFrom": [
-        "TradingKey (5/27 -4.24%)",
-        "Yahoo Finance"
+        "Yahoo Finance (5/28 open $218.04 — 어제 실적 비트 후 갭업)",
+        "CNBC"
       ],
-      "dataQualityNote": "5/27 ET 장 마감 직후 Q1 FY27 실적 발표 — 매출 비트($2.418B, +28% YoY)·EPS 비트($0.80 vs $0.75)·FY27 가이던스 $11.5B로 상향. 애프터마켓 +3% 회복 → 5/28 정규장 재개 시 갭업 가능.",
+      "dataQualityNote": "5/27 ET 장 마감 후 Q1 FY27 실적 비트 + FY27 가이던스 $11.5B 상향 후 5/28 약 +9.7% 갭업 개장.",
       "company": {
         "ceo": "Matthew J. Murphy",
         "business": "이 회사는 자회사를 통해 데이터 인프라 반도체 솔루션을 공급하는 업체다. 이 회사는 집적 회로의 설계, 개발 및 판매에 종사한다. 이 회사의 제품 솔루션은 데이터 센터, 엔터프라이즈 네트워킹, 통신사 인프라, 소비자, 자동차/산업 등 5가지 최종 시장에 서비스를 제공한다. 이 회사의 제품에는 맞춤형 애플리케이션별 집적 회로(ASIC), 전자 광학, 이더넷",
@@ -681,15 +681,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $127.69인데 지금 가격($168.75)이 이미 그보다 비싸요(-24%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.09)예요. 분석가별 의견은 $85.00~$195.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "TradingKey (5/27 -4.24%)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 open $218.04 — 어제 실적 비트 후 갭업)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           },
           {
-            "url": "Yahoo Finance",
-            "note": "5/27 ET 정규장 종가"
+            "url": "CNBC",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -698,16 +698,16 @@
       "ticker": "AMD",
       "name": "AMD",
       "sector": "반도체",
-      "price": 495.54,
-      "change1D": -0.69,
-      "change1W": 0.3,
-      "change1M": 4.13,
-      "changeYTD": 19.31,
+      "price": 501.25,
+      "change1D": 1.15,
+      "change1W": 1.45,
+      "change1M": 5.28,
+      "changeYTD": 20.46,
       "beta": 1.85,
       "signal": "yellow",
       "note": "5/27 美 정규장 마감: -0.69% $495.54 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "NVDA의 직접 경쟁사. MI 시리즈 GPU로 AI 시장 점유율 빠르게 확대 중. 5/7 어닝 폭발, 1개월 +91%.",
-      "todayWhy": "5/27 개장 직후: $499.00 -0.97% 약보합. 최근 1개월 +91% 폭주 후 차익실현 매물. NVDA -1.4% 동조 약세지만 AI 가속기 모멘텀은 유지돼요.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $498.20 출발 → $501.25 +1.15% 강보합. MRVL 실적 비트 후광 + GPU 경쟁사 NVDA 대비 AI 가속기 모멘텀 우위. 5/22 +12% 폭등 후 차익실현 매물은 일부 흡수되는 모습이에요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 510,
@@ -749,8 +749,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance (5/27 close)",
-        "Stockinvest.us"
+        "Yahoo Finance (5/28 open $498.20, intraday $501.25, range $485.10~$507.90)",
+        "CNBC"
       ],
       "dataQualityNote": null,
       "company": {
@@ -763,15 +763,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $410.94인데 지금 가격($460.00)이 이미 그보다 비싸요(-11%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.09)예요. 분석가별 의견은 $134.20~$625.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "Yahoo Finance (5/27 close)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 open $498.20, intraday $501.25, range $485.10~$507.90)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           },
           {
-            "url": "Stockinvest.us",
-            "note": "5/27 ET 정규장 종가"
+            "url": "CNBC",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -780,16 +780,16 @@
       "ticker": "SNDK",
       "name": "샌디스크",
       "sector": "반도체",
-      "price": 1547.11,
-      "change1D": -2.83,
-      "change1W": 24.3,
-      "change1M": 95.61,
-      "changeYTD": 314.5,
+      "price": 1571.22,
+      "change1D": 1.56,
+      "change1W": 25.86,
+      "change1M": 97.17,
+      "changeYTD": 316.06,
       "beta": 2.41,
-      "signal": "red",
+      "signal": "green",
       "note": "5/27 美 정규장 마감: -2.83% $1547.11 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "낸드 플래시 메모리 회사. AI 데이터센터 스토리지 수요 폭발의 1차 수혜. 1년 +3,300% 누적 차익실현 위험.",
-      "todayWhy": "5/27 개장 직후: $1,592.09 +0.16% 강보합. 5/26 +12.9% 폭등 후 숨 고르기. 메모리 슈퍼사이클(MU·MRVL) 동반 강세 모멘텀은 유지돼요.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $1,549.39 출발 → $1,571.22 +1.56% 강세. 어제 -2.83% 차익실현 후 메모리 슈퍼사이클(MU·HBM 수요) 모멘텀에 반등. 다만 YTD +323%·1년 +4,000% 누적 차익실현 위험은 여전해요.",
       "outlook": {
         "rating": "Hold",
         "targetPrice": 1700,
@@ -832,8 +832,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Investing.com (5/27 intraday)",
-        "Yahoo Finance prev close $1,589.55"
+        "Yahoo Finance (5/28 open $1,549.39, intraday $1,571.22, range $1,549.39~$1,571.22)",
+        "CNBC"
       ],
       "dataQualityNote": null,
       "company": {
@@ -846,15 +846,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $1,199.42인데 지금 가격($1542.87)이 이미 그보다 비싸요(-22%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.09)예요. 분석가별 의견은 $250.00~$2,000.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "Investing.com (5/27 intraday)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 open $1,549.39, intraday $1,571.22, range $1,549.39~$1,571.22)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           },
           {
-            "url": "Yahoo Finance prev close $1,589.55",
-            "note": "5/27 ET 정규장 종가"
+            "url": "CNBC",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -863,16 +863,16 @@
       "ticker": "DELL",
       "name": "델",
       "sector": "AI 인프라",
-      "price": 305.08,
-      "change1D": 1.07,
-      "change1W": 17.62,
-      "change1M": 41.78,
-      "changeYTD": 138.2,
+      "price": 318.4,
+      "change1D": 4.37,
+      "change1W": 21.99,
+      "change1M": 46.15,
+      "changeYTD": 142.57,
       "beta": 1.96,
-      "signal": "yellow",
+      "signal": "green",
       "note": "5/27 美 정규장 마감: +1.07% $305.08 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "AI 서버 OEM. NVDA GPU를 받아 기업 데이터센터에 납품하는 시스템 통합사. AI 백로그 $18.4B 사상 최대.",
-      "todayWhy": "5/27 개장 직후: $301.84 -1.06% 약세. 5/29 분기 실적 발표 D-2 + 5/22 +16.77% 폭등 + Dell World 후 줄상향 효과 후 차익실현 매물 출회. 발표 결과가 단기 방향 결정해요.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $318.50 출발 → $318.40 +4.36% 강세. 5/27 펜타곤 97억 달러 마이크로소프트 소프트웨어 라이센스 5년 계약 수주 호재로 갭업. 게다가 한국 시간 5/29 06:00에 Q1 실적 발표가 예정돼 있어 결과 직전 매수세가 들어오고 있어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 280,
@@ -919,10 +919,10 @@
         }
       ],
       "priceSourcedFrom": [
-        "Sigmanomics (5/27 close)",
-        "Yahoo Finance"
+        "Yahoo Finance (5/28 intraday $318.40, 프리마켓 +4.5%)",
+        "Benzinga (Pentagon 계약 +4.61% AH $319.40)"
       ],
-      "dataQualityNote": "5/28 ET 장 마감 후 Q1 FY27 실적 발표 (5/29 06:00 KST). 컨센 매출 $34.95B·EPS $3.00, AI 서버 백로그 $43B 진행상황·ISG 성장률 +100% 가이던스 점검 포인트.",
+      "dataQualityNote": "5/27 펜타곤 9.7B$ Microsoft 라이센스 5년 계약 호재로 5/28 +4.5% 갭업 출발. 5/28 ET 장 마감 후 (5/29 06:00 KST) Q1 FY27 실적 발표 예정 — 컨센 매출 $34.95B·EPS $3.00.",
       "company": {
         "ceo": "Michael S. Dell",
         "business": "이 회사는 광범위한 종합적이고 통합적인 솔루션, 제품 및 서비스를 설계, 개발, 제조, 마케팅, 판매 및 지원하는 사업을 한다. 인프라 솔루션 그룹(ISG)과 클라이언트 솔루션 그룹(CSG)의 두 부문으로 운영된다. ISG 부문은 AI, 머신 러닝, 데이터 분석, 멀티 클라우드 환경을 지원하는 솔루션으로 고객의 디지털 트랜스포메이션을 지원한다. 올플래시 어",
@@ -933,15 +933,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $185.97인데 지금 가격($244.49)이 이미 그보다 비싸요(-24%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (3.89)예요. 분석가별 의견은 $110.00~$260.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "Sigmanomics (5/27 close)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 intraday $318.40, 프리마켓 +4.5%)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           },
           {
-            "url": "Yahoo Finance",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Benzinga (Pentagon 계약 +4.61% AH $319.40)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -950,16 +950,16 @@
       "ticker": "LITE",
       "name": "루멘텀",
       "sector": "AI 인프라",
-      "price": 910.81,
-      "change1D": 0.01,
-      "change1W": 2.18,
-      "change1M": 22.4,
-      "changeYTD": 41.5,
+      "price": 887.34,
+      "change1D": -2.58,
+      "change1W": -0.4,
+      "change1M": 19.82,
+      "changeYTD": 38.92,
       "beta": 2.38,
-      "signal": "yellow",
+      "signal": "red",
       "note": "5/27 美 정규장 마감: +0.01% $910.81 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "AI 데이터센터 광통신 핵심 부품. NVDA GPU와 GPU를 연결하는 광학 모듈 공급. CPO·OCS 수직 진출.",
-      "todayWhy": "5/27 개장 직후: $877.26 -3.68% 약세. 광통신 차익실현 가속 — 최근 폭등(YTD +156%) + 실적 발표 전 포지셔닝 정리 영향이에요. 단기 변동성 큰 흐름.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $905.00 부근 출발 후 $887.34 -2.58% 약세. 광통신 차익실현 가속 — 5/18 나스닥100 편입 후광 소진 + 5/29 4월 PCE 결과 대기 영향이에요. 베타 2.38 큰 변동성 그대로 노출돼요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 1270,
@@ -1007,10 +1007,10 @@
         }
       ],
       "priceSourcedFrom": [
-        "Investing.com (5/27 prev close)",
-        "Yahoo Finance"
+        "Yahoo Finance (5/28 intraday $887.34, range $876.00~$948.48)",
+        "CNBC"
       ],
-      "dataQualityNote": "5/27 22:30 KST 개장 직후 -3.68% 갭다운에서 정규장 종일 회복해 사실상 보합 마감 ($910.81). 애프터 $901.90.",
+      "dataQualityNote": "5/28 장중 변동성 매우 큼 ($72.48 변동, 8.0%).",
       "company": {
         "ceo": "Michael E. Hurlston",
         "business": "이 회사는 제조, 검사 및 생명과학 애플리케이션을 위한 광통신(OpComms) 및 상업용 레이저(레이저)를 비롯한 다양한 최종 시장 애플리케이션을 다루는 광학 및 광자 제품 공급업체다. 사업 부문은 광통신과 레이저로 나뉜다. 광통신 부문에는 액세스(로컬), 지하철(도심), 장거리(도시 간 및 전 세계), 해저(수중) 애플리케이션을 위한 통신사 네트워크를 비",
@@ -1021,15 +1021,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $1,065.07로 지금 가격($901.50)에서 +18% 더 오를 여력이 있어요. 추천 등급은 매수 (4.04)예요. 분석가별 의견은 $560.11~$1,400.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "Investing.com (5/27 prev close)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 intraday $887.34, range $876.00~$948.48)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           },
           {
-            "url": "Yahoo Finance",
-            "note": "5/27 ET 정규장 종가"
+            "url": "CNBC",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -1039,15 +1039,15 @@
       "name": "셀레스티카",
       "sector": "AI 인프라",
       "price": 357.5,
-      "change1D": -3.6,
+      "change1D": 0.0,
       "change1W": 2.41,
       "change1M": 18.4,
       "changeYTD": 96.1,
       "beta": 2.42,
-      "signal": "red",
+      "signal": "yellow",
       "note": "5/27 美 정규장 마감: -3.60% $357.5 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "AI 서버·스위치 시스템 통합 제조. 하이퍼스케일러(아마존·구글·메타) 맞춤형 인프라 공급. 1.6T CPO 이더넷 스위치 양산 대기.",
-      "todayWhy": "5/27 개장 직후: $359.50 -3.06% 약세. AI 인프라 ODM(주문자 설계·생산) 차익실현 — 베타 2.42로 약세장에서 큰 폭 하락 흐름이에요. AI 서버 수요 펀더멘털은 변화 없음.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $357.00 부근 출발 → $357.50 보합. 어제 -3.60% 약세 후 안정. AI 인프라 ODM 차익실현 매물 잔여 vs 마벨 실적 비트 후광이 균형을 이루는 흐름이에요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 480,
@@ -1083,9 +1083,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance (5/27 close, intraday $354.14~$377.05)"
+        "Yahoo Finance (5/28 intraday $357.50, 5/26 마지막 명확치 $370.84)"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "5/28 데이터 출처 제한적 — Yahoo 인트라데이만 확보, 추정치 채택. 정확치는 일간 마감 후 갱신 권장.",
       "company": {
         "ceo": "Robert Andrew Mionis",
         "business": "이 회사는 설계, 제조, 하드웨어 플랫폼 및 공급망 솔루션에 종사한다. 이 회사는 첨단 기술 솔루션(ATS)과 커넥티비티 및 클라우드 솔루션(CCS)의 두 부문으로 운영된다. ATS 부문은 ATS 최종 시장으로 구성되며 항공우주 및 방위(A&D), 산업, 헬스 테크 및 자본 장비 사업으로 구성된다. 자본 장비 사업은 반도체, 디스플레이 및 로봇 장비 사업으",
@@ -1096,11 +1096,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $427.29로 지금 가격($380.63)에서 +12% 더 오를 여력이 있어요. 추천 등급은 매수 (4.25)예요. 분석가별 의견은 $176.00~$550.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "Yahoo Finance (5/27 close, intraday $354.14~$377.05)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 intraday $357.50, 5/26 마지막 명확치 $370.84)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -1109,16 +1109,16 @@
       "ticker": "CRDO",
       "name": "크레도",
       "sector": "AI 인프라",
-      "price": 218.46,
-      "change1D": -1.43,
-      "change1W": 7.94,
-      "change1M": 18.2,
-      "changeYTD": 22.1,
+      "price": 220.74,
+      "change1D": 1.04,
+      "change1W": 8.98,
+      "change1M": 19.24,
+      "changeYTD": 23.14,
       "beta": 3.43,
       "signal": "yellow",
       "note": "5/27 美 정규장 마감: -1.43% $218.46 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "AI 데이터센터 고속 데이터 전송 칩. NVDA·AMD GPU 클러스터 연결의 핵심 부품. 베타 3.43으로 우리 포트폴리오 변동성 1위.",
-      "todayWhy": "5/27 개장 직후: $219.01 -1.19% 약세. 6/4 분기 실적 발표 D-8 + 5/22 +12.94% 폭등 후 차익실현. AI 광통신 수요 펀더멘털은 견조해요.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $222.24 출발 → $220.74 +1.04% 강보합. 마벨(MRVL) 실적 비트 후광 + 6/4 분기 실적(D-7) 기대로 매수세. 다만 베타 3.43으로 시장 1% 빠지면 약 3.4% 빠질 가능성, 단기 변동성 큰 흐름이에요.",
       "outlook": {
         "rating": "Moderate Buy",
         "targetPrice": 208,
@@ -1161,10 +1161,10 @@
         }
       ],
       "priceSourcedFrom": [
-        "Investing.com (5/27 close)",
-        "Yahoo Finance"
+        "Yahoo Finance (5/28 open $222.24, intraday $220.74, range $212.72~$232.00)",
+        "CNBC"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "5/28 장중 변동성 큼 ($19.28, 8.7%).",
       "company": {
         "ceo": "William Brennan",
         "business": "이 회사는 케이맨 제도에 기반을 둔 지주 회사다. 데이터 인프라 시장의 모든 유선 연결에서 대역폭 장벽을 허무는 고속 솔루션을 제공한다. 데이터 인프라 시장에서 데이터 속도와 그에 따른 대역폭 요구 사항이 기하급수적으로 증가함에 따라 전력 효율을 개선하는 고속 연결 솔루션을 제공한다. 이 회사의 연결 솔루션은 새롭게 부상하는 초당 100기가비트(G), 20",
@@ -1175,15 +1175,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $209.71인데 지금 가격($210.22)이 이미 그보다 비싸요(-0%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.30)예요. 분석가별 의견은 $170.00~$260.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "Investing.com (5/27 close)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 open $222.24, intraday $220.74, range $212.72~$232.00)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           },
           {
-            "url": "Yahoo Finance",
-            "note": "5/27 ET 정규장 종가"
+            "url": "CNBC",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -1192,16 +1192,16 @@
       "ticker": "TLN",
       "name": "탈렌에너지",
       "sector": "AI 전력",
-      "price": 381.6,
-      "change1D": -0.77,
-      "change1W": -0.85,
-      "change1M": 8.32,
-      "changeYTD": 39.9,
+      "price": 389.28,
+      "change1D": 2.01,
+      "change1W": 1.16,
+      "change1M": 10.33,
+      "changeYTD": 41.91,
       "beta": 1.54,
-      "signal": "yellow",
+      "signal": "green",
       "note": "5/27 美 정규장 마감: -0.77% $381.6 — 5/28 13:10 KST 워치독 catch-up",
       "simpleExplain": "원전·천연가스 발전사. AI 데이터센터가 늘수록 전력 수요도 같이 폭발. AWS와 18B$ 장기 PPA(전력 공급) 계약 체결.",
-      "todayWhy": "5/27 개장 직후: $384.58 -1.14% 약보합. 유가 WTI -3.75% 하락(이란 평화 협상 진전 영향)에 동조 약세. 다만 AI 데이터센터 전력 수요 기대는 견조해요.",
+      "todayWhy": "5/28 22:30 KST 개장 직후: $386.50 출발 → $389.28 +2.01% 강세. 美·이란 재교전 + 호르무즈 긴장으로 유가 +1.78%($90.26) 동조 강세 + 베타 1.54로 변동성 낮은 안정형. AI 데이터센터 전력 수요 펀더멘털도 그대로예요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 420,
@@ -1237,7 +1237,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance (5/27 close, intraday $378.99~$393.40)"
+        "Yahoo Finance (5/28 intraday $389.28 +4.52%)",
+        "CNBC"
       ],
       "dataQualityNote": null,
       "company": {
@@ -1250,11 +1251,15 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $452.39로 지금 가격($386.87)에서 +17% 더 오를 여력이 있어요. 추천 등급은 매수 (4.21)예요. 분석가별 의견은 $307.00~$548.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-05-28T13:10:00+09:00",
+        "fetchedAt": "2026-05-28T22:45:00+09:00",
         "sources": [
           {
-            "url": "Yahoo Finance (5/27 close, intraday $378.99~$393.40)",
-            "note": "5/27 ET 정규장 종가"
+            "url": "Yahoo Finance (5/28 intraday $389.28 +4.52%)",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
+          },
+          {
+            "url": "CNBC",
+            "note": "5/28 22:30 KST 美 정규장 개장 ~30분 후"
           }
         ]
       }
@@ -1262,12 +1267,12 @@
   ],
   "kr": [],
   "asiaCloseSnapshot": {
-    "asOf": "2026-05-27T15:45:00+09:00",
+    "asOf": "2026-05-28T15:45:00+09:00",
     "kospi": {
-      "close": 8228.7,
-      "change": 2.25,
-      "changePoints": 181.19,
-      "note": "5/27(수) 15:30 마감 확정 — 이틀 연속 사상 최고치. SK하이닉스 +9.31%(시총 1조 달러)·삼성전자 +2.68%(30만전자) 반도체 쌍두마차 단독 견인. 장중 8,450선까지 +4%대 급등 후 외국인 매도 전환으로 상승폭 축소."
+      "close": 8185.29,
+      "change": -0.53,
+      "changePoints": -43.41,
+      "note": "5/28(목) 마감: -0.53% 8,185.29. 한은 기준금리 2.5% 동결(8회 연속·인상 소수의견 2명 매파적 동결) + 외국인 매도 + 美 메모리 차익실현 동조. 5/27 사상최고(+2.25% 8,228.70) 뒤 단기 차익실현."
     },
     "kosdaq": {
       "close": 1133.13,
@@ -1287,21 +1292,21 @@
       "note": "5/27 +9.31% 224만닉스 — 시총 1조 달러 클럽 진입(한국 두 번째). HBM4 하반기 출하 임박 + 엔비디아 매출 호재 직결."
     },
     "usFutures": {
-      "es": 7519.41,
-      "esChange": 0.004,
-      "nq": 26628.79,
-      "nqChange": -0.1,
-      "note": "5/27 22:30 KST 美 정규장 개장 — S&P 7,519.41(+0.004%)·NASDAQ 26,628.79(-0.10%)·Dow 50,547.76(+0.17%) 보합권. 5/26 사상 최고 후 차익실현 vs 메모리·반도체 강세 줄다리기. VIX 16.99(-0.02) 변동성 낮음."
+      "es": 7517.5,
+      "esChange": -0.02,
+      "nq": 26631.75,
+      "nqChange": -0.16,
+      "note": "5/28 22:30 KST 美 정규장 개장 — S&P 500 -0.02% / NASDAQ -0.16% / Dow -0.63%로 보합~약세 출발. 4월 PCE 물가 헤드라인 3.8% YoY(컨센 3.9% 약간 하회, 한 달 +0.4%로 컨센 +0.5% 하회)는 안도, 그러나 Q1 GDP 2차 추정치 1.6%(1차 2.0%에서 하향) + 美·이란 재교전 + 유가 WTI +1.78%($90.26)·Brent +1.73%($95.92) 부담. VIX 17선 안정, 10Y 4.5% 진정세. 개별주 MRVL +9.7% 갭업·DELL +4.5%(펜타곤 9.7B$ 계약), 메모리 차익실현 우세(MU -2.5%·LITE -2.6%)."
     },
     "nikkei": {
-      "close": null,
-      "change": 0.0,
-      "note": "5/27 아시아 세션 강보합 추정 — 韓 반도체 강세 동조 vs 차익실현 (정확 종가는 일본 마감 데이터 대기)."
+      "close": 64693.12,
+      "change": -0.47,
+      "note": "5/28 마감 -0.47% 64,693.12. 美 반도체 차익실현 + 엔화 강세 동조."
     },
     "hangseng": {
       "close": null,
-      "change": 0.0,
-      "note": "5/27 강보합 추정 — 5/26 +0.45% 반등 후 모멘텀 잔여."
+      "change": -1.38,
+      "note": "5/28 약 -1.38% 약세 (오후 후반 낙폭 확대) — 美·이란 재교전·중국 관세 불확실성."
     },
     "shanghai": {
       "close": null,
@@ -1310,22 +1315,22 @@
     },
     "usCloseYesterday": {
       "sp500": {
-        "close": 7519.12,
-        "change": 0.61,
-        "note": "사상 최고치"
+        "close": 7520.36,
+        "change": 0.02,
+        "note": "5/27 종가 신고가"
       },
       "nasdaq": {
-        "close": 26656.18,
-        "change": 1.19,
-        "note": "사상 최고치"
+        "close": 26674.73,
+        "change": 0.07,
+        "note": "5/27"
       },
       "dow": {
-        "close": 50461.68,
-        "change": -0.23,
-        "note": "혼조"
+        "close": 50644.28,
+        "change": 0.36,
+        "note": "5/27 종가 신고가"
       },
-      "highlights": "MU +8.5%·MRVL +7.5% 메모리/AI 인프라 강세, NVDA -0.22% 약보합"
+      "highlights": "META +3.95% Meta AI 구독 catalyst, MRVL -3.89% 실적 직전 차익실현(애프터 +3% 회복), SNDK -2.83%·AVGO -1.74% 메모리·반도체 차익실현"
     }
   },
-  "marketStatus": "美 정규장 5/27 22:30 KST 개장 — 지수 보합권(S&P 7,519.41 +0.004%·NASDAQ 26,628.79 -0.10%·Dow 50,547.76 +0.17%·VIX 16.99). 메모리·파운드리 강세 (MU $926.39 +3.41% UBS PT $1,625로 +204% 상향·시총 1조달러 돌파, TSM $424.05 +2.84%, AVGO $429.34 +1.74%) — 반대로 NVDA $211.88 -1.39% 차익실현 지속, LITE $877.26 -3.68%·CLS $359.50 -3.06% 광통신·ODM 차익실현 매물 출회. DELL $301.84 -1.06%(5/29 실적 D-2), MRVL $206.74 -0.73%(5/28 실적 D-1) 발표 전 정리. 유가 WTI $92.98(-3.75%)·10년물 4.484%·이란 평화 협상 진전 → 위험선호 우호 흐름이에요. 韓 코스피 8,228.70(+2.25%) 이틀 연속 사상 최고 마감 잔여 모멘텀도 美 메모리에 동조."
+  "marketStatus": "美 정규장 5/28 22:30 KST 개장 — 지수 보합~약세(S&P -0.02%·NASDAQ -0.16%·Dow -0.63%·VIX 17선). 4월 PCE 물가 3.8% YoY(컨센 3.9% 하회 안도) vs Q1 GDP 2차 추정치 1.6%(1차 2.0% 하향) + 美·이란 재교전·WTI $90.26 +1.78% 부담 혼재. 개별주: MRVL $218.04 +9.7% 갭업(어제 ET 마감 후 Q1 비트·FY27 가이던스 $11.5B 상향), DELL $318.40 +4.5%(펜타곤 9.7B$ Microsoft 라이센스 5년 계약 수주), TLN $389.28 +2.0%(원전 강세 + 호르무즈 긴장 후광), AMD $501.25 +1.2%, AMZN $269.66 +1.7%, CRDO $220.74 +1.0%, SNDK $1571.22 +1.6%. 반대로 MU $904.88 -2.5%(1조 달러 진입 후 차익실현), LITE $887.34 -2.6%(광통신 차익실현), NVDA $212.58 -0.6% 약보합. Snowflake(+37% 시간외) AWS 6B$ 계약·Best Buy(+8%) 실적 비트 등 개별주 호재 다발. 韓 코스피 8,185.29 -0.53% 약세 마감(한은 2.5% 동결·매파적), 니케이 64,693 -0.47%, 항셍 -1.4%."
 }
