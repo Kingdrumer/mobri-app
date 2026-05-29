@@ -3054,8 +3054,82 @@
           }
         ]
       }
+    ],
+    "2026-05-29": [
+      {
+        "type": "positive",
+        "label": "풀 모닝 — DELL 시간외 폭발 + 美 사상 최고",
+        "color": "green",
+        "time": "09:30 KST",
+        "title": "5/29(금) 풀 모닝 — 美 S&P +0.59%·NASDAQ +0.82% 사상 최고 재갱신, DELL Q1 매출 $43.8B(+88%)·AI 서버 +757% 폭발(시간외 +18~39%), MRVL +3.09% Q1 어닝 비트, AMD $518.09 신고가, KOSPI 8,400선 회복 시도",
+        "description": "美 5/28 ET 정규장에서 S&P 500·NASDAQ 모두 사상 최고 재갱신했어요. PCE 3.8% 핫쇼크(2년 만의 최고)에도 시장은 무반응 — 이미 가격에 반영했다고 판단. DELL이 어제 시간외 +18~39% 폭등(매출 $43.8B +88%, AI 서버 +757% 폭주, FY27 가이던스 $144B → $167B 상향). MRVL Q1 매출 사상 최대($2.42B +28%), FY27 가이던스 $11.5B 상향, 시간외 +5% 추가. AMD $518.09로 52주 최고($510.21) 돌파해 신고가 갱신. 이란-美 평화 협상 임시 합의 — 트럼프 최종 사인만 남음.",
+        "impact": "美 S&P·NASDAQ 사상 최고 재경신은 보유 15개에 긍정적 환경. 다만 PCE 3.8% 핫쇼크로 6월 FOMC 동결 확정(97.5% 컨센) → 금리 인하 모멘텀은 아직 없어요. 이란 평화 협상 진전은 WTI -3.75% 하락 + 위험선호 회복 → AI 인프라 우호적. DELL 시간외 +18~39%는 5/29 美 개장 갭업 시 NVDA·CLS·MU 동조 강세 잠재력 매우 큼.",
+        "ourImpact": "보유 15종목 중 9개 강세 마감(AMD +4.55% 신고가, MRVL +3.09% 어닝 비트, DELL +3.84%(시간외 +18~39%), SNDK +3.25%, AVGO +1.12%). 5개 중립(GOOG·META·NVDA·TSM·AMZN). LITE -4.62% 광통신 단독 약세. 5/29 美 개장 시 DELL 갭업 +15~30% 가능 → $370~$420 추정.",
+        "stockImpacts": [
+          {
+            "ticker": "DELL",
+            "tone": "positive",
+            "magnitude": "+18~39% AH",
+            "text": "Q1 매출 +88%·AI 서버 +757% 폭발, FY27 가이던스 $144B→$167B(+16%). 5/29 개장 갭업 큰 폭 예상."
+          },
+          {
+            "ticker": "MRVL",
+            "tone": "positive",
+            "magnitude": "+3.1% + AH +5%",
+            "text": "Q1 매출 사상 최대 $2.42B(+28%), FY27 가이던스 $11.5B 상향, Oppenheimer $250로 줄상향."
+          },
+          {
+            "ticker": "AMD",
+            "tone": "positive",
+            "magnitude": "+4.55%",
+            "text": "$518.09 신고가. 52주 최고 $510.21 돌파. 메타 MI400 6GW 모멘텀 잔여."
+          },
+          {
+            "ticker": "SNDK",
+            "tone": "positive",
+            "magnitude": "+3.25%",
+            "text": "$1,641.64 메모리 슈퍼사이클 동승. 52주 최고 $1,658.77 임박."
+          },
+          {
+            "ticker": "AVGO",
+            "tone": "positive",
+            "magnitude": "+1.12%",
+            "text": "$426.58 — 메타 AI 칩 다년 계약 모멘텀, 6/12 Q2 실적 D-15."
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "positive",
+            "magnitude": "+0.78%",
+            "text": "$214.25 — 5/20 어닝 후 차익실현 마무리. 6/4 배당락(주당 $1.00, 0.47%)."
+          },
+          {
+            "ticker": "CRDO",
+            "tone": "positive",
+            "magnitude": "+0.51%",
+            "text": "$222.35 — LITE·CLS 약세에도 단독 강세. 6/4 Q4 실적 D-6."
+          },
+          {
+            "ticker": "LITE",
+            "tone": "negative",
+            "magnitude": "-4.62%",
+            "text": "$860.62 — 광통신 단독 약세 — CRDO·CLS 동조 가능성. GF Value overvalued."
+          },
+          {
+            "ticker": "CLS",
+            "tone": "negative",
+            "magnitude": "-1.87%",
+            "text": "$351.02 — 광통신 동조 약세. DELL 후광으로 5/29 반등 기대."
+          },
+          {
+            "ticker": "MU",
+            "tone": "neutral",
+            "magnitude": "-0.53%",
+            "text": "$923.52 — 시총 $1.04조 유지. 정상화 차익실현, HBM4 펀더멘털 유지."
+          }
+        ]
+      }
     ]
   },
   "realestate": {},
-  "lastUpdated": "2026-05-28T13:10:00+09:00"
+  "lastUpdated": "2026-05-29T09:30:00+09:00"
 }
