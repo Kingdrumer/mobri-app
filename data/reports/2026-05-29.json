@@ -1,9 +1,9 @@
 {
   "date": "2026-05-29",
-  "session": "asia-close-light",
+  "session": "us-open",
   "title": "5/29(금) 풀 모닝 — 美 S&P·NASDAQ 사상 최고 재갱신 + DELL Q1 폭발(시간외 +18~39%) + MRVL 어닝 비트 + AMD $518 신고가 + 이란 평화 협상 진전, KOSPI 8,400선 회복 시도",
-  "marketStatus": "5/28 ET 정규장 마감 — S&P +0.59%·NASDAQ +0.82% 사상 최고 재갱신. PCE 3.8% 핫쇼크 무반응 + 이란 평화 협상 진전 + DELL Q1 폭발(시간외 +18~39%). 보유 15종목 중 9개 강세 (AMD +4.6% 신고가·MRVL +3.1% 어닝비트·DELL +3.8%·SNDK +3.3%), 5개 중립, LITE -4.6% 단독 약세. 5/29 KST 09:30 KOSPI 8,400선 회복 시도 — 삼성전자 +4.2%·SK하이닉스 +2.2% 견인.",
-  "lastUpdated": "2026-05-29T15:47:00+09:00",
+  "marketStatus": "5/29(금) 22:30 KST 美 개장 — S&P +0.16%·NASDAQ +0.20%·다우 +0.13% 차분한 출발(사상 최고권). DELL이 어제 장 마감 후 Q1 어닝 폭발(AI 서버 +757%)로 개장 +34% 갭업하며 최대 화제. 이란-美 평화 협상 '거의 근접' 헤드라인이 위험선호 지지. 보유 15종목은 DELL 외 대체로 보합권 출발. 5/28 ET 정규장 마감 — S&P +0.59%·NASDAQ +0.82% 사상 최고 재갱신. PCE 3.8% 핫쇼크 무반응 + 이란 평화 협상 진전 + DELL Q1 폭발(시간외 +18~39%). 보유 15종목 중 9개 강세 (AMD +4.6% 신고가·MRVL +3.1% 어닝비트·DELL +3.8%·SNDK +3.3%), 5개 중립, LITE -4.6% 단독 약세. 5/29 KST 09:30 KOSPI 8,400선 회복 시도 — 삼성전자 +4.2%·SK하이닉스 +2.2% 견인.",
+  "lastUpdated": "2026-05-29T22:42:00+09:00",
   "generatedAt": "2026-05-29T15:47:00+09:00",
   "stockSnapshot": [
     {
@@ -149,17 +149,17 @@
     {
       "ticker": "DELL",
       "name": "델",
-      "price": 317.05,
-      "change1D": 3.84,
-      "change1W": 30.51,
-      "change1M": 53.96,
-      "changeYTD": 151.87,
+      "price": 424.0,
+      "change1D": 33.73,
+      "change1W": 74.53,
+      "change1M": 105.89,
+      "changeYTD": 236.83,
       "priceSourcedFrom": [
-        "Naver Finance (5/28 close)",
-        "Yahoo Finance",
-        "CNBC after-hours"
+        "stockanalysis.com (pre-market)",
+        "Reuters",
+        "TipRanks"
       ],
-      "dataQualityNote": "5/28 ET 마감 후 Q1 FY27 어닝 폭발 — 매출 $9B+ 비트, AI 서버 매출 +757% YoY $16.1B, FY27 매출 가이던스 $165~$169B(중간값 $167B, 컨센 $144B 대비 +16%) 상향. 시간외 +18~39% 폭등 — 5/29 개장 갭업 큰 폭 예상."
+      "dataQualityNote": "5/29 개장 갭업 — 변동성 큼, 근사치"
     },
     {
       "ticker": "LITE",
@@ -219,6 +219,34 @@
     }
   ],
   "news": [
+    {
+      "category": "미국 증시",
+      "headline": "美 S&P·NASDAQ 사상 최고권에서 차분히 출발 — 이란 평화 협상 '거의 근접'",
+      "oneLineSummary": "미국 증시가 오늘도 사상 최고치 근처에서 +0.2% 안팎으로 차분하게 문을 열었어요. 미국과 이란이 평화 협상에 '거의 다 왔다'는 소식이 나오면서 투자자들이 위험을 감수하는 분위기가 이어지고 있어요. 큰 충격 없이 강세 흐름이 유지되는 모습이에요.",
+      "summary": "5/29 개장 기준 S&P500 +0.16%, NASDAQ +0.20%, 다우 +0.13%로 사상 최고권에서 강보합 출발. JD 밴스 부통령이 美-이란 합의가 '아직은 아니지만 매우 근접'이라 언급, 호르무즈 해협 재개·휴전 연장 기대가 위험선호를 지지. 전일 PCE 3.8%(근 3년 최고)에도 시장은 무반응 흐름 지속.",
+      "ourImpact": "지수가 보합권이라 보유 종목 대부분이 어제 종가 근처에서 출발했어요. 이란 협상 진전은 유가 안정으로 이어져 전력주 TLN(탈렌에너지)엔 중립~약간 우호적이에요.",
+      "impact": "positive",
+      "sources": [
+        {
+          "name": "TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-29-2026"
+        }
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "DELL(델) 개장 +34% 갭업 — Q1 어닝 폭발, AI 서버 매출 +757%·목표가 줄상향",
+      "oneLineSummary": "제가 가진 델(DELL)이 개장하자마자 +34% 뛰었어요. 어제 장 마감 후 발표한 1분기 실적에서 AI 서버 매출이 1년 전보다 757%나 폭증했고, 올해 매출 전망도 크게 올렸거든요. 증권사들이 목표가를 줄줄이 올리면서(웰스파고 $505) 분위기가 뜨거워요.",
+      "summary": "델은 Q1 FY27 매출 $43.8B(컨센 $35.8B), 조정 EPS $4.86(컨센 $2.96)로 대폭 상회. AI 최적화 서버 매출 +757% YoY $16.1B, AI 백로그 $51.3B 사상 최대. FY27 매출 가이던스를 $138~142B→$165~169B로 상향. 5/29 프리마켓 +36%, 개장 +34%대. 웰스파고 PT $505, 바클레이스 $550, 씨티 $475 등 목표가 줄상향.",
+      "ourImpact": "제 포트폴리오에서 오늘 가장 크게 오른 종목이 바로 DELL이에요. AI 서버 수요가 이렇게 강하다는 건 같은 흐름을 타는 SNDK(샌디스크)·MU(마이크론) 같은 저장장치·메모리 종목에도 우호적인 신호예요. 흐름 지켜보면 좋아요.",
+      "impact": "positive",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/dell-rallies-about-40-strong-nvidiapowered-ai-server-demand-2026-05-29/"
+        }
+      ]
+    },
     {
       "category": "아시아 증시",
       "headline": "KOSPI 사상 최고 마감 8,476 (+3.5%) — 기관 쌍끌이, 반도체 랠리",
