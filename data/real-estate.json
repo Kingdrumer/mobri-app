@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T07:40:00+09:00",
+  "lastUpdated": "2026-05-31T07:36:27+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -1032,6 +1032,161 @@
       "applyMethod": "GH 주택청약센터 (온라인)",
       "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancRentHouseList.do",
       "status": "upcoming"
+    },
+    {
+      "id": "lh-2026-bupyeong-castle-happy",
+      "agency": "LH",
+      "title": "[신규모집] 부평캐슬앤더샵퍼스트(청천1구역 주택재개발정비사업) 행복주택 입주자 모집",
+      "shortTitle": "LH 부평캐슬 행복주택",
+      "type": "행복주택",
+      "category": [
+        "신혼"
+      ],
+      "household": [
+        "신혼",
+        "예비_신혼"
+      ],
+      "region": [
+        "인천"
+      ],
+      "districts": [
+        "인천 부평구 산곡동"
+      ],
+      "supplyCount": 35,
+      "applicationStart": "2026-06-09",
+      "applicationEnd": "2026-06-11",
+      "announcementDate": "2026-05-28",
+      "rolling": false,
+      "highlights": [
+        "전용 39.58㎡ 신혼부부형 35세대",
+        "입주예정 2026.10",
+        "서류제출대상자 발표 2026-06-15 · 당첨자 발표 2026-09-15",
+        "민간 재개발 매입형(전체 1,623호 중 행복주택 35호)"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020033&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (부평캐슬앤더샵퍼스트 행복주택)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020033&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-05-31T07:36:27+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수기간 명시)",
+        "sources": [
+          {
+            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020033&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lh-2026-incheon-2cha-ddeundeun-jeonse",
+      "agency": "LH",
+      "title": "26년 2차 비분양전환형 든든전세주택 입주자 모집 공고(인천)",
+      "shortTitle": "LH 인천 든든전세 2차",
+      "type": "매입임대",
+      "category": [
+        "일반"
+      ],
+      "household": [
+        "1인_일반",
+        "신혼",
+        "예비_신혼"
+      ],
+      "region": [
+        "인천",
+        "서울",
+        "경기"
+      ],
+      "districts": [
+        "인천 미추홀·연수·남동·부평·계양·서구"
+      ],
+      "supplyCount": 163,
+      "applicationStart": "2026-06-08",
+      "applicationEnd": "2026-06-09",
+      "announcementDate": "2026-05-28",
+      "rolling": false,
+      "highlights": [
+        "공급 163호 (모집인원 507명)",
+        "무주택세대구성원 · 공고일(2026-05-28) 현재 수도권(서울·인천·경기) 거주",
+        "전용 60~80㎡ · 시중시세 90% 수준",
+        "최장 8년 거주(2년 + 재계약 3회)",
+        "당첨자 발표 2026-07-22"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020028&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (26년 2차 든든전세 인천)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020028&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-05-31T07:36:27+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수기간 명시)",
+        "sources": [
+          {
+            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020028&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lh-2026-incheon-3cha-newlywed-newborn-maeip-2-jeonse",
+      "agency": "LH",
+      "title": "[인천지역본부]26년 3차 신혼·신생아Ⅱ(전세형) 예비입주자 모집공고(인천,부천)",
+      "shortTitle": "LH 인천·부천 신혼·신생아Ⅱ(전세형)",
+      "type": "매입임대",
+      "category": [
+        "신혼",
+        "신생아"
+      ],
+      "household": [
+        "신혼",
+        "예비_신혼",
+        "신생아"
+      ],
+      "region": [
+        "인천",
+        "경기"
+      ],
+      "districts": [
+        "인천 중구 등",
+        "부천"
+      ],
+      "supplyCount": 76,
+      "applicationStart": "2026-06-01",
+      "applicationEnd": "2026-06-02",
+      "announcementDate": "2026-05-21",
+      "rolling": false,
+      "highlights": [
+        "공급 76호 (모집인원 241명)",
+        "시중 시세 70~80% 준전세형(임대보증금=임대조건의 80%)",
+        "최장 10년 거주(자녀 있으면 추가 연장)",
+        "당첨자 발표 2026-08-06"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020004&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (26년 3차 신혼·신생아Ⅱ 전세형)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020004&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-05-31T07:36:27+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수기간 명시)",
+        "sources": [
+          {
+            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020004&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
+          }
+        ]
+      }
     }
   ],
   "userMemos": [],
