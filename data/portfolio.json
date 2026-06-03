@@ -1,17 +1,17 @@
 {
- "lastUpdated": "2026-06-02T15:45:00+09:00",
+ "lastUpdated": "2026-06-03T14:14:00+09:00",
  "us": [
   {
    "ticker": "GOOG",
    "name": "알파벳 (구글)",
    "sector": "빅테크",
-   "price": 387.28,
-   "change1D": 0.3,
+   "price": 358.39,
+   "change1D": -7.46,
    "change1W": 0.32,
    "change1M": 11.11,
    "changeYTD": 23.05,
    "beta": 1.15,
-   "signal": "green",
+   "signal": "yellow",
    "note": "5/28 ET 정규장 마감: +0.34% $386.12 — 5/29 09:30 KST 풀모닝",
    "simpleExplain": "구글 모회사. 검색·광고에서 안정적인 캐시카우, 클라우드+AI에서 구조적 성장 동력. 변동성은 빅테크 평균 수준.",
    "todayWhy": "5/28 +0.34%. 美 사상 최고 갱신 흐름 속 빅테크 차분. PCE 3.8% 핫쇼크에도 시장은 무반응. 5/29 갭업은 매크로 흐름 의존이에요.",
@@ -56,11 +56,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "6/2 약 800억달러 증자 발표로 -7%대 급락(시총 역대 최대 일일 감소). 6/1 종가 ~387 기준.",
    "company": {
     "ceo": "Sundar Pichai",
     "business": "알파벳은 지주 회사다. 사업 부문은 Google Services, Google Cloud 및 Other Bets 등이다. Google Services 부문은 광고, Android, Chrome, 장치, Google Maps, Google Play, Search, YouTube 등의 제품 및 서비스를 제공한다. Google Cloud 부문은 기업 고객을 위한",
@@ -88,8 +88,8 @@
    "ticker": "META",
    "name": "메타",
    "sector": "빅테크",
-   "price": 637.83,
-   "change1D": 0.4,
+   "price": 600.61,
+   "change1D": 0.02,
    "change1W": 5.0,
    "change1M": -5.37,
    "changeYTD": -3.76,
@@ -134,11 +134,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "[catch-up 정정] 종전 보고서 가격 637.83은 과거치였어요. 실제 6/1 종가 600.47 → 6/2 600.61로 사실상 보합. 주간/월간/YTD 수치는 재산정 예정.",
    "company": {
     "ceo": "Mark Zuckerberg",
     "business": "이 회사는 사람들이 연결하고 공유하고, 커뮤니티를 찾고, 비즈니스를 성장시키는 데 도움이 되는 기술을 개발한다. 이 회사의 제품은 사람들이 모바일 장치, 개인용 컴퓨터, 가상현실(VR) 및 혼합현실(MR) 헤드셋, 웨어러블을 통해 친구 및 가족과 연결하고 공유할 수 있도록 지원한다. 이 회사는 2개의 부문인 Family of Apps(FoA)와 Realit",
@@ -166,13 +166,13 @@
    "ticker": "AMZN",
    "name": "아마존",
    "sector": "빅테크",
-   "price": 275.37,
-   "change1D": 0.5,
+   "price": 256.52,
+   "change1D": -1.81,
    "change1W": 3.39,
    "change1M": 5.51,
    "changeYTD": 18.71,
    "beta": 1.47,
-   "signal": "green",
+   "signal": "yellow",
    "note": "5/28 ET 정규장 마감: +0.79% $274.00 — 52주 최고 $278.56 임박",
    "simpleExplain": "이커머스+AWS 클라우드. AI 시대엔 AWS가 캐시카우 + 성장엔진 동시 역할. 단기 사고는 단발성, 펀더멘털 견조.",
    "todayWhy": "5/28 +0.79%, 52주 최고 $278.56 임박. AWS 재가속 + Mag7 4월 +27% 1위 모멘텀 잔여. DELL 후광으로 5/29 추가 상승 기대해요.",
@@ -217,11 +217,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "[catch-up 정정] 종전 가격 275.37은 과거치. 6/1 종가 261.26 → 6/2 256.52(-1.81%)로 정정. 주간/월간/YTD 재산정 예정.",
    "company": {
     "ceo": "Jeffrey P. Bezos",
     "business": "아마존닷컴은 고객에게 다양한 제품과 서비스를 제공한다. 스토어를 통해 제공되는 제품에는 재판매를 위해 구매한 상품 및 콘텐츠와 타사 판매자가 제공하는 제품이 포함된다. 사업 부문은 북미, 국제, 아마존 웹 서비스(AWS)로 나뉜다. 온라인 및 오프라인 스토어를 통해 소비자에게 서비스를 제공하며 선택, 가격, 편의성에 중점을 둔다. 고객은 웹사이트, 모바일",
@@ -249,13 +249,13 @@
    "ticker": "NVDA",
    "name": "엔비디아",
    "sector": "반도체",
-   "price": 216.24,
-   "change1D": 0.93,
+   "price": 222.82,
+   "change1D": 3.04,
    "change1W": -4.13,
    "change1M": 0.51,
    "changeYTD": 14.88,
    "beta": 2.07,
-   "signal": "yellow",
+   "signal": "green",
    "note": "5/28 ET 정규장 마감: +0.78% $214.25 — 6/4 배당락",
    "simpleExplain": "AI GPU 압도적 1위. AI 시대의 핵심 인프라 공급사. 5/20 Q1 실적이 단기 가장 큰 이벤트.",
    "todayWhy": "5/28 +0.78%. 5/20 어닝 후 차익실현 마무리 단계. 6/4 배당락(주당 $1.00, 0.47%)·DELL Q1 후광·MRVL 어닝 비트로 동반 강세 잠재력 있어요.",
@@ -318,11 +318,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "6/1 종가 ~216 기준 +3%대. 젠슨 황 컴퓨텍스 기조연설 효과. 일간 변동률은 추정.",
    "company": {
     "ceo": "Jen-Hsun Huang",
     "business": "이 회사는 인공지능(AI) 인프라 업체로 고난도 연산 문제 해결을 지원하기 위한 가속 컴퓨팅 사업을 영위한다. 사업부문은 Compute & Networking 부문과 Graphics 부문으로 구성된다. Compute & Networking 부문에는 데이터센터용 가속 컴퓨팅 및 네트워킹 플랫폼, AI 솔루션 및 소프트웨어, 자동차 플랫폼 및 자율주행·전기차",
@@ -350,8 +350,8 @@
    "ticker": "TSM",
    "name": "TSMC",
    "sector": "반도체",
-   "price": 427.41,
-   "change1D": 0.6,
+   "price": 446.69,
+   "change1D": 4.5,
    "change1W": 5.79,
    "change1M": 8.29,
    "changeYTD": 39.81,
@@ -405,11 +405,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "6/2 종가 446.69로 사상 최고 부근. 일간 변동률은 6/1 종가 기준 추정.",
    "company": {
     "ceo": "C.C. Wei",
     "business": "타이완 반도체 매뉴팩처링은 주로 회로 제조 서비스 제공에 종사하는 대만 기반의 회사이다. 이 회사의 집적 회로 제조 서비스에는 공정 기술, 특수 공정 기술, 설계 생태계 지원, 마스크 기술, 3DFabricTM 고급 패키징 및 실리콘 적층 기술 서비스가 포함된다. 이 회사는 5nm 기술의 이전 및 양산을 완료했으며, 3nm 공정 기술과 2nm 공정 기술의",
@@ -437,8 +437,8 @@
    "ticker": "AVGO",
    "name": "브로드컴",
    "sector": "반도체",
-   "price": 429.99,
-   "change1D": 0.8,
+   "price": 475.0,
+   "change1D": 3.27,
    "change1W": 2.11,
    "change1M": 6.69,
    "changeYTD": 23.25,
@@ -494,11 +494,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "6/2 실시간 교차검증 제한 — 6/1 종가 459.97, 6/2 장중 459.97~480.33 범위. 종가는 약 475 추정(±).",
    "company": {
     "ceo": "Hock E. Tan",
     "business": "이 회사는 광범위한 반도체, 엔터프라이즈 소프트웨어 및 보안 솔루션을 설계, 개발, 공급하는 글로벌 기술 기업이다. 반도체 솔루션과 인프라 소프트웨어의 두 가지 부문으로 운영된다. 반도체 솔루션 부문에는 모든 제품 라인과 지적 재산권(IP) 라이선싱이 포함된다. 데이터 센터, 서비스 제공업체 및 엔터프라이즈 네트워킹 애플리케이션에서 데이터 이동을 관리하기",
@@ -526,8 +526,8 @@
    "ticker": "MU",
    "name": "마이크론",
    "sector": "반도체",
-   "price": 928.14,
-   "change1D": 0.5,
+   "price": 1059.44,
+   "change1D": 1.5,
    "change1W": 26.17,
    "change1M": 83.13,
    "changeYTD": 223.58,
@@ -584,11 +584,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "[catch-up 정정] 종전 가격 928.14는 과거치. 6/2 종가 1,059.44. 일간 변동률·주간/월간/YTD는 추정·재산정 예정.",
    "company": {
     "ceo": "Sanjay Mehrotra",
     "business": "이 회사는 메모리 및 스토리지 솔루션 제공업체다. 이 회사는 마이크론 및 크루셜 브랜드를 통해 고성능 동적 랜덤 액세스 메모리(DRAM), NAND, NOR 메모리 및 스토리지 제품 포트폴리오를 제공한다. 회사의 사업 부문에는 컴퓨팅 및 네트워킹 사업부(CNBU), 모바일 사업부(MBU), 임베디드 사업부(EBU), 스토리지 사업부(SBU)가 있다. CNB",
@@ -616,8 +616,8 @@
    "ticker": "MRVL",
    "name": "마벨",
    "sector": "반도체",
-   "price": 206.88,
-   "change1D": 1.0,
+   "price": 282.92,
+   "change1D": 28.9,
    "change1W": 9.65,
    "change1M": 33.67,
    "changeYTD": 141.03,
@@ -674,11 +674,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "[대형 이벤트] 젠슨 황 '다음 1조달러 기업' 발언+엔비디아 20억달러 투자로 폭등. 6/2 종가 282.92, 일간 +28.9%(출처별 +28.9~32.5% 편차). 주간/월간/YTD 재산정 예정.",
    "company": {
     "ceo": "Matthew J. Murphy",
     "business": "이 회사는 자회사를 통해 데이터 인프라 반도체 솔루션을 공급하는 업체다. 이 회사는 집적 회로의 설계, 개발 및 판매에 종사한다. 이 회사의 제품 솔루션은 데이터 센터, 엔터프라이즈 네트워킹, 통신사 인프라, 소비자, 자동차/산업 등 5가지 최종 시장에 서비스를 제공한다. 이 회사의 제품에는 맞춤형 애플리케이션별 집적 회로(ASIC), 전자 광학, 이더넷",
@@ -706,8 +706,8 @@
    "ticker": "AMD",
    "name": "AMD",
    "sector": "반도체",
-   "price": 520.68,
-   "change1D": 0.5,
+   "price": 521.54,
+   "change1D": 0.17,
    "change1W": 15.75,
    "change1M": 60.3,
    "changeYTD": 141.92,
@@ -757,11 +757,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "6/2 종가 521.54. 6/1 종가 ~520 기준 보합권.",
    "company": {
     "ceo": "Lisa T. Su",
     "business": "이 회사는 글로벌 반도체 회사다. 고성능 컴퓨팅, 그래픽 및 시각화 기술에 중점을 둔다. 데이터 센터, 클라이언트, 게임 및 임베디드 부문이 있다. 데이터 센터 부문에는 서버 중앙 처리 장치(CPU), 그래픽 처리 장치(GPU), 가속 처리 장치(APU), 데이터 처리 장치(DPU), 필드 프로그래머블 게이트 어레이(FPGA), 스마트 네트워크 인터페이스",
@@ -789,8 +789,8 @@
    "ticker": "SNDK",
    "name": "샌디스크",
    "sector": "반도체",
-   "price": 1654.77,
-   "change1D": 0.8,
+   "price": 1716.36,
+   "change1D": 3.72,
    "change1W": 17.89,
    "change1M": 63.78,
    "changeYTD": 591.57,
@@ -841,11 +841,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "6/2 종가 1,716.36. 일간 변동률은 6/1 종가 기준 추정.",
    "company": {
     "ceo": "David V. Goeckeler",
     "business": "이 회사는 낸드 플래시 기술을 기반으로 한 데이터 저장 장치 및 솔루션을 개발, 제조, 공급하는 회사로 전 세계에 소비자 브랜드와 프랜차이즈를 보유하고 있다. 이 회사의 솔루션으로는 다양한 SSD(솔리드 스테이트 드라이브) 임베디드 제품, 이동식 카드, USB 드라이브, 웨이퍼 및 부품이 있다. 광범위한 기술 및 제품 포트폴리오는 클라우드, 클라이언트, 소",
@@ -873,8 +873,8 @@
    "ticker": "DELL",
    "name": "델",
    "sector": "AI 인프라",
-   "price": 423.4,
-   "change1D": 32.4,
+   "price": 435.25,
+   "change1D": 2.8,
    "change1W": 74.53,
    "change1M": 105.9,
    "changeYTD": 236.83,
@@ -943,11 +943,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "stockanalysis.com (5/29 close $423.40)",
-    "Yahoo Finance",
-    "CNBC (+32.4%)"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "06:10 라이트캡처가 프리마켓 $432.33을 썼던 것을 5/29 실제 정규장 종가 $423.40(+32.4%)로 정정",
+   "dataQualityNote": "6/2 장중 변동 큼(434.50~479.00). 종가 435.25, 일간 변동률은 추정.",
    "company": {
     "ceo": "Michael S. Dell",
     "business": "이 회사는 광범위한 종합적이고 통합적인 솔루션, 제품 및 서비스를 설계, 개발, 제조, 마케팅, 판매 및 지원하는 사업을 한다. 인프라 솔루션 그룹(ISG)과 클라이언트 솔루션 그룹(CSG)의 두 부문으로 운영된다. ISG 부문은 AI, 머신 러닝, 데이터 분석, 멀티 클라우드 환경을 지원하는 솔루션으로 고객의 디지털 트랜스포메이션을 지원한다. 올플래시 어",
@@ -975,13 +975,13 @@
    "ticker": "LITE",
    "name": "루멘텀",
    "sector": "AI 인프라",
-   "price": 873.53,
-   "change1D": 1.5,
+   "price": 913.0,
+   "change1D": 4.52,
    "change1W": -0.86,
    "change1M": 8.75,
    "changeYTD": 133.49,
    "beta": 2.38,
-   "signal": "red",
+   "signal": "yellow",
    "note": "5/28 ET 정규장 마감: -4.62% $860.62 — 광통신 단독 약세",
    "simpleExplain": "AI 데이터센터 광통신 핵심 부품. NVDA GPU와 GPU를 연결하는 광학 모듈 공급. CPO·OCS 수직 진출.",
    "todayWhy": "5/29 +1.5%. 전날 -4.6% 단독 약세에서 반등. AI 데이터센터 하드웨어 훈풍(DELL 실적 여파)에 광통신 종목도 동반 회복했어요.",
@@ -1032,11 +1032,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "6/2 변동 큼(806.62~931.85). 종가 913.00, 일간 변동률 추정.",
    "company": {
     "ceo": "Michael E. Hurlston",
     "business": "이 회사는 제조, 검사 및 생명과학 애플리케이션을 위한 광통신(OpComms) 및 상업용 레이저(레이저)를 비롯한 다양한 최종 시장 애플리케이션을 다루는 광학 및 광자 제품 공급업체다. 사업 부문은 광통신과 레이저로 나뉜다. 광통신 부문에는 액세스(로컬), 지하철(도심), 장거리(도시 간 및 전 세계), 해저(수중) 애플리케이션을 위한 통신사 네트워크를 비",
@@ -1064,13 +1064,13 @@
    "ticker": "CLS",
    "name": "셀레스티카",
    "sector": "AI 인프라",
-   "price": 361.55,
-   "change1D": 3.0,
+   "price": 438.6,
+   "change1D": 4.5,
    "change1W": 1.31,
    "change1M": -2.91,
    "changeYTD": 18.74,
    "beta": 2.42,
-   "signal": "yellow",
+   "signal": "green",
    "note": "5/28 ET 정규장 마감: -1.87% $351.02 — 광통신 동조 약세",
    "simpleExplain": "AI 서버·스위치 시스템 통합 제조. 하이퍼스케일러(아마존·구글·메타) 맞춤형 인프라 공급. 1.6T CPO 이더넷 스위치 양산 대기.",
    "todayWhy": "5/29 +3.0%. 보유 종목 중 DELL 다음으로 강세. DELL의 AI 서버 실적 대박이 같은 서버·하드웨어를 만드는 회사 전반에 온기를 줬어요(HPE +17%·슈퍼마이크로 +10%). CLS(셀레스티카)도 서버를 위탁 생산하는 회사라 수혜 기대가 반영됐어요.",
@@ -1115,11 +1115,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "[catch-up 정정] 종전 가격 361.55는 과거치. 6/2 +4.5% 438.60 — AI 데이터센터 네트워킹 모멘텀. 주간/월간/YTD 재산정 예정.",
    "company": {
     "ceo": "Robert Andrew Mionis",
     "business": "이 회사는 설계, 제조, 하드웨어 플랫폼 및 공급망 솔루션에 종사한다. 이 회사는 첨단 기술 솔루션(ATS)과 커넥티비티 및 클라우드 솔루션(CCS)의 두 부문으로 운영된다. ATS 부문은 ATS 최종 시장으로 구성되며 항공우주 및 방위(A&D), 산업, 헬스 테크 및 자본 장비 사업으로 구성된다. 자본 장비 사업은 반도체, 디스플레이 및 로봇 장비 사업으",
@@ -1147,8 +1147,8 @@
    "ticker": "CRDO",
    "name": "크레도",
    "sector": "AI 인프라",
-   "price": 225.69,
-   "change1D": 1.5,
+   "price": 227.91,
+   "change1D": 1.0,
    "change1W": 21.52,
    "change1M": 34.01,
    "changeYTD": 54.53,
@@ -1199,11 +1199,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "6/2 종가 227.91(장중 210.72~245.95). 일간 변동률 추정.",
    "company": {
     "ceo": "William Brennan",
     "business": "이 회사는 케이맨 제도에 기반을 둔 지주 회사다. 데이터 인프라 시장의 모든 유선 연결에서 대역폭 장벽을 허무는 고속 솔루션을 제공한다. 데이터 인프라 시장에서 데이터 속도와 그에 따른 대역폭 요구 사항이 기하급수적으로 증가함에 따라 전력 효율을 개선하는 고속 연결 솔루션을 제공한다. 이 회사의 연결 솔루션은 새롭게 부상하는 초당 100기가비트(G), 20",
@@ -1231,8 +1231,8 @@
    "ticker": "TLN",
    "name": "탈렌에너지",
    "sector": "AI 전력",
-   "price": 383.38,
-   "change1D": 0.5,
+   "price": 377.2,
+   "change1D": -1.61,
    "change1W": 10.74,
    "change1M": 5.62,
    "changeYTD": 1.77,
@@ -1276,11 +1276,11 @@
     }
    ],
    "priceSourcedFrom": [
-    "Yahoo Finance (5/28 close)",
-    "stockanalysis.com",
-    "WebSearch cross-check"
+    "CNBC (6/2 종가)",
+    "Yahoo Finance (6/2 종가)",
+    "WebSearch 교차검증"
    ],
-   "dataQualityNote": "5/29 개장 직후 보합권(S&P+0.2%) — 실시간 호가 교차검증 제한, 5/28 종가 기준 유지",
+   "dataQualityNote": "6/2 종가 377.20(장중 366~386). 6/1 종가 ~383 기준 -1.6%.",
    "company": {
     "ceo": "Terry L. Nutt",
     "business": "이 회사는 독립적인 전력 생산 및 인프라 회사다. 미국에서 약 10.7기가와트의 전력 인프라를 소유 및 운영한다. 중부 대서양과 몬태나에 위치한 발전소를 통해 전력, 용량 및 보조 서비스를 생산하여 PJM 및 WECC를 포함한 미국 도매 전력 시장에 판매한다. 이미 대부분의 전력을 무탄소 원자력 및 저탄소 가스 연소 시설에서 생산하고 있지만, 저탄소 연료로",
