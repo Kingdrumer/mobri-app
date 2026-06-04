@@ -129,3 +129,81 @@ report = {
 
 json.dump(report, open(rp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print("report created:", rp, "| news:", len(report["news"]))
+
+# ---------- 2. portfolio.json (preserve userMemo if present) ----------
+pp = "portfolio.json"
+shutil.copy(pp, pp + ".before-asia-close.bak")
+p = json.load(open(pp, encoding="utf-8"))
+p["asiaCloseSnapshot"] = {
+    "asOf": asOf,
+    "kospi": {"close": 8639.41, "change": -1.84, "changePoints": -162.08,
+              "note": "6/4(목) -1.84% 8,639.41 — 나흘 만에 하락. 외국인 약 7조 매도(순매도 3조+). 미·이란 충돌·유가 급등·간밤 美 약세. 장중 저점 8,577.30."},
+    "kosdaq": {"close": None, "change": 2.3, "changePoints": None,
+               "note": "6/4 +2%대 반등(약 +2.3%, 1,050선대). 반도체 소부장·정책 기대로 대형주와 반대 흐름."},
+    "asiaIndices": {
+        "nikkei": {"close": None, "change": None, "changePoints": None,
+                   "note": "도쿄(15:00 마감) 전일 68,000선 사상 최고 뒤 상승분 일부 반납 — 위험회피 약세."},
+        "taiwan": {"close": None, "change": None, "changePoints": None,
+                   "note": "대만 가권 15:45 캡처 시점 거래 중 — 마감 후 확인 필요."},
+        "shanghai": {"close": None, "change": None, "changePoints": None,
+                     "note": "상하이 15:45 캡처 시점 거래 중 — 마감 후 확인 필요."},
+        "hangSeng": {"close": None, "change": None, "changePoints": None,
+                     "note": "홍콩 항셍 15:45 캡처 시점 거래 중 — 마감 후 확인 필요."}
+    },
+    "usdkrw": 1530.0,
+    "samsung": {"change": -2.50, "note": "6/4 -2.50% 351,500원 — 외국인 매도·차익실현."},
+    "skHynix": {"change": -2.63, "note": "6/4 -2.63% 2,298,000원 — 반도체 대형주 숨 고르기."},
+    "usFutures": {"es": None, "esChange": None, "nq": None, "nqChange": None,
+                  "note": "美 3대 지수 동반 하락(6/3) — 미·이란 충돌·유가 급등·금리 상승 위험회피. 야간 선물 약세~보합 분위기, 22:30 KST 개장 대기."}
+}
+p["marketStatus"] = report["marketStatus"]
+p["lastUpdated"] = asOf
+json.dump(p, open(pp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print("portfolio updated. userMemo preserved:", "userMemo" in p)
+
+# ---------- 3. calendar-events.json ----------
+cp = "calendar-events.json"
+shutil.copy(cp, cp + ".before-asia-close.bak")
+c = json.load(open(cp, encoding="utf-8"))
+day = c["stock"].get(date, [])
+asia_event = {
+    "type": "asia",
+    "label": "아시아 마감",
+    "color": "blue",
+    "mood": "🔴",
+    "time": "15:45 KST 캡처",
+    "title": "🔴 아시아 마감 — 코스피 -1.8% 8,639 나흘 만에 하락(외국인 7조 매도)·원/달러 1,530원 돌파, 간밤 美 3대 지수 동반 하락",
+    "description": ("6/4(목) 코스피는 -1.84%(8,639.41) 내려 나흘 만에 하락 마감했어요. 미국과 이란 충돌로 기름값이 뛰고 간밤 뉴욕증시가 셋 다 떨어진 게 부담이 됐고, "
+        "외국인이 하루 약 7조 원(순매도 3조 원 이상)을 팔며 19거래일 연속 순매도를 이어갔어요. 삼성전자 -2.50%(351,500원), SK하이닉스 -2.63%(2,298,000원) 등 반도체 대형주가 약했고, "
+        "반대로 코스닥은 반도체 소부장·정책 기대에 +2%대 반등했어요. 원/달러 환율은 1,530원을 넘어 금융위기 이후 17년 3개월 만 최고였어요. "
+        "간밤 미국은 다우 -1.21%(50,687)·S&P500 -0.74%(7,554, 9거래일 연속 상승 멈춤)·나스닥 -0.89%(26,854)로 동반 하락했어요."),
+    "impact": "중동 긴장·유가 급등 위험회피 — 한·미 반도체 동반 숨 고르기.",
+    "ourImpact": "한국·미국 반도체가 같이 약했던 건 보유 칩 종목(NVDA·AVGO·MU·MRVL·TSM·AMD)에 단기 조심 신호예요. 유가 강세는 전력·에너지(TLN)엔 상대적 우호. 오늘 밤 미국장 출발을 가볍게 지켜보면 좋아요.",
+    "stockImpacts": [
+        {"ticker": "AVGO", "note": "간밤 美 브로드컴 약세 + 한국 반도체 -2%대 — 단기 숨 고르기"},
+        {"ticker": "NVDA", "note": "중동發 위험회피로 기술·반도체 단기 부담"},
+        {"ticker": "TLN", "note": "유가 급등(WTI +2.4%)은 전력·에너지에 상대적 우호"}
+    ],
+    "sources": SRC_KOSPI + SRC_GEO,
+}
+c["stock"][date] = [asia_event] + day
+c["lastUpdated"] = asOf
+json.dump(c, open(cp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print("calendar updated. 6/4 events:", len(c["stock"][date]))
+
+# ---------- 4. reports/index.json ----------
+ip = "reports/index.json"
+shutil.copy(ip, ip + ".before-asia-close.bak")
+idx = json.load(open(ip, encoding="utf-8"))
+entry = {
+    "date": date,
+    "title": "6월 4일 (목) 15:45 아시아 마감 — 코스피 -1.8% 8,639 나흘 만 하락, 원/달러 1,530원 돌파",
+    "summary": "코스피 8,639.41(-1.84%, 외국인 약 7조 매도·19일 연속 순매도), 코스닥 +2%대 반등, 삼성전자 -2.5%·SK하이닉스 -2.6%, 원/달러 1,530원(17년 만 최고), 간밤 美 3대 지수 동반 하락(미·이란 충돌·유가 급등)"
+}
+reports = [r for r in idx.get("reports", []) if r.get("date") != date]
+reports.append(entry)
+reports.sort(key=lambda r: r.get("date", ""))
+idx["reports"] = reports
+idx["lastUpdated"] = asOf
+json.dump(idx, open(ip, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print("index updated. total reports:", len(idx["reports"]))
