@@ -3351,8 +3351,69 @@
     "ourImpact": "보유 종목 다수가 하락장에 같이 눌렸지만, 마벨·AMD는 개별 호재로 상승. 핵심은 브로드컴 실적인데 매출 +48%로 펀더멘털은 견조해요(시간외 급락은 '기대가 높았던' 차익실현).",
     "stockImpacts": "AVGO(브로드컴): Q2 매출 +48%·가이던스 294억$이나 기대 미달로 시간외 -5%(~$453.70) / MRVL(마벨): 젠슨 황 '다음 1조달러' 후광 +2.8% / AMD: +4.0% 단독 강세 / NVDA(엔비디아): -3.4% 차익실현 / GOOG(구글): 증자 급락 후 보합 안정"
    }
+  ],
+  "2026-06-05": [
+   {
+    "type": "morning",
+    "label": "美 마감(모닝)",
+    "color": "blue",
+    "mood": "🟡",
+    "time": "19:20 KST 캡처(자가복구)",
+    "title": "🟡 美 마감 — 다우 +1.7% 51,561.93 사상 최고(비테크 로테이션)·S&P 신고가 / 보유 브로드컴(AVGO) -12.6% 실적 충격, 오늘 밤 5월 고용보고서(NFP)",
+    "description": "간밤 미국은 다우가 +1.73%(51,561.93) 올라 사상 최고, S&P500도 신고가였지만 나스닥은 보유 종목 브로드컴 급락에 -0.09%로 혼자 약했어요. 비싼 AI·반도체에서 가치주로 돈이 옮겨가는 로테이션(자금 이동)이 핵심이었고, 보유 종목은 구글·메타·아마존이 오른 반면 고밸류 반도체(AVGO·MU·MRVL·AMD)는 차익실현에 눌렸어요.",
+    "impact": "비테크 로테이션 + 브로드컴 실적 충격으로 보유 종목 종목별 차별화. 유가 진정·휴전 유지는 우호적.",
+    "ourImpact": "보유 AI 성장주 14개는 베타(시장 대비 흔들리는 정도)가 높아 차익실현 날엔 변동이 커요. 오늘 밤 21:30 KST 5월 고용보고서(NFP, 예상 ~8만·실업률 4.3%) 결과에 미국장이 출렁일 수 있으니 가볍게 지켜보면 좋아요.",
+    "stockImpacts": [
+     {
+      "ticker": "AVGO",
+      "tone": "negative",
+      "magnitude": "-12.6%",
+      "text": "실적 발표 후 급락 — 매출 48%↑ 호실적에도 2027 AI 매출 '1,000억달러+' 눈높이 미달로 차익실현"
+     },
+     {
+      "ticker": "MU",
+      "tone": "negative",
+      "magnitude": "-8%대",
+      "text": "고밸류 메모리 차익실현 + 중동發 위험회피"
+     },
+     {
+      "ticker": "MRVL",
+      "tone": "negative",
+      "magnitude": "-6%대",
+      "text": "직전 3주 +90% 폭주 뒤 되돌림"
+     },
+     {
+      "ticker": "GOOG",
+      "tone": "positive",
+      "magnitude": "+2.5%",
+      "text": "비테크 로테이션·광고 메가캡 수혜"
+     },
+     {
+      "ticker": "META",
+      "tone": "positive",
+      "magnitude": "+4.2%",
+      "text": "광고·메가캡 강세"
+     },
+     {
+      "ticker": "SNDK",
+      "tone": "positive",
+      "magnitude": "+3.9%",
+      "text": "메모리·스토리지 강세 지속"
+     }
+    ],
+    "sources": [
+     {
+      "name": "CNBC (6/4)",
+      "url": "https://www.cnbc.com/2026/06/03/stock-market-today-live-updates.html"
+     },
+     {
+      "name": "Motley Fool (6/4)",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/06/04/stock-market-today-june-4-broadcom-shares-plunge-after-ai-outlook-misses-high-investor-expectations/"
+     }
+    ]
+   }
   ]
  },
  "realestate": {},
- "lastUpdated": "2026-06-04T15:45:00+09:00"
+ "lastUpdated": "2026-06-05T19:20:00+09:00"
 }
