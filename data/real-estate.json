@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T07:38:12+09:00",
+  "lastUpdated": "2026-06-09T07:37:41+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -37,7 +37,7 @@
       ],
       "applyMethod": "주민등록지 행정복지센터 방문 접수",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019977&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=17&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "priorityRules": [
         {
           "rank": "1순위",
@@ -399,7 +399,7 @@
       ],
       "applyMethod": "LH청약플러스",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020035&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=24&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "_fetchMeta": {
         "fetchedAt": "2026-05-28T12:00:00+09:00",
         "method": "공고 상세 본문 직접 확인",
@@ -482,7 +482,7 @@
       ],
       "applyMethod": "LH청약플러스",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020024&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "priorityRules": [
         {
           "rank": "1순위",
@@ -534,7 +534,7 @@
       ],
       "applyMethod": "LH청약플러스 (선착순)",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020025&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=18&mi=1026",
-      "status": "upcoming",
+      "status": "closing-today",
       "_fetchMeta": {
         "fetchedAt": "2026-05-28T12:00:00+09:00",
         "method": "공고 상세 본문 직접 확인",
@@ -577,7 +577,7 @@
       ],
       "applyMethod": "거주지 동 행정복지센터 방문접수",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020022&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=15&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "priorityRules": [
         {
           "rank": "1순위",
@@ -632,7 +632,7 @@
       ],
       "applyMethod": "LH청약플러스",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020030&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=18&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "_fetchMeta": {
         "fetchedAt": "2026-05-28T12:00:00+09:00",
         "method": "공고 상세 본문 직접 확인 (최신 정정공고)",
@@ -890,7 +890,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020033&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (부평캐슬앤더샵퍼스트 행복주택)",
@@ -943,7 +943,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020028&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "upcoming",
+      "status": "closing-today",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (26년 2차 든든전세 인천)",
@@ -1091,7 +1091,7 @@
       ],
       "applyMethod": "SH 인터넷청약시스템",
       "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=304925&multi_itm_seq=2",
-      "status": "upcoming",
+      "status": "open",
       "priorityRules": [
         {
           "rank": "1순위",
@@ -1226,6 +1226,58 @@
         "sources": [
           {
             "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=305221&multi_itm_seq=2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lh-2026-siheung-janghyeon-newhope-happy-jugaakja",
+      "agency": "LH",
+      "title": "시흥시 신혼희망타운 행복주택[주거약자용] 예비입주자 입주자격 완화모집",
+      "shortTitle": "LH 시흥장현 신혼희망(주거약자)",
+      "type": "행복주택",
+      "category": [
+        "신혼",
+        "한부모"
+      ],
+      "household": [
+        "신혼",
+        "예비_신혼",
+        "한부모"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "시흥시 장현동(시흥장현 A-8·A-9·A-12블록)"
+      ],
+      "supplyCount": 20,
+      "applicationStart": "2026-06-18",
+      "applicationEnd": "2026-06-19",
+      "announcementDate": "2026-06-05",
+      "maritalRequired": true,
+      "rolling": false,
+      "highlights": [
+        "신혼희망타운-주거약자 대상: 신혼부부·한부모 요건과 주거약자 요건을 모두 갖춘 자만 신청 가능",
+        "55C(주거약자) 전용 55.93㎡ · A-12블록 금회공급 20세대",
+        "접수기간 2026.06.18 ~ 2026.06.19",
+        "서류제출대상자 발표 2026.07.03 · 당첨자 발표 2026.09.10"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(정보취약계층은 시흥권주거복지지사 현장접수)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020060&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (시흥장현 신혼희망타운 주거약자 행복주택)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020060&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-06-09T07:45:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수기간 명시)",
+        "sources": [
+          {
+            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020060&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
           }
         ]
       }
