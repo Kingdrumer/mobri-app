@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-06-08T15:45:00+09:00",
+  "lastUpdated": "2026-06-08T22:45:00+09:00",
   "us": [
     {
       "ticker": "GOOG",
       "name": "알파벳 (구글)",
       "sector": "빅테크",
-      "price": 365.76,
-      "change1D": -0.95,
-      "change1W": -2.8,
-      "change1M": -4.8,
-      "changeYTD": 16.6,
+      "price": 361.33,
+      "change1D": -1.15,
+      "change1W": -4.0,
+      "change1M": -6.0,
+      "changeYTD": 15.2,
       "beta": 1.15,
-      "signal": "green",
+      "signal": "yellow",
       "note": "6/4 美 종가 +2.5% $367.52 — 비(非)테크 로테이션 수혜",
       "simpleExplain": "구글 모회사. 검색·광고에서 안정적인 캐시카우, 클라우드+AI에서 구조적 성장 동력. 변동성은 빅테크 평균 수준.",
-      "todayWhy": "정규장에서 -1.0%로, 반도체가 무너지는 와중에 보유 빅테크 중 가장 잘 버텼어요. AI 광고·클라우드 실적이 탄탄해 매도세를 덜 탔어요.",
+      "todayWhy": "개장에서 -1.2%로 살짝 밀렸어요. 반도체가 크게 반등하는 사이 자금이 칩 쪽으로 잠시 옮겨가면서 빅테크는 상대적으로 조용했어요. 큰 악재는 아니에요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 425,
@@ -56,8 +56,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
       "dataQualityNote": null,
       "company": {
@@ -83,16 +84,16 @@
       "ticker": "META",
       "name": "메타",
       "sector": "빅테크",
-      "price": 593.0,
-      "change1D": -5.51,
-      "change1W": -6.2,
-      "change1M": -2.0,
-      "changeYTD": -10.2,
+      "price": 585.61,
+      "change1D": -1.25,
+      "change1W": -7.4,
+      "change1M": -3.2,
+      "changeYTD": -11.3,
       "beta": 1.49,
       "signal": "yellow",
       "note": "6/4 美 종가 +4.2% $627.57 — 로테이션 수혜",
       "simpleExplain": "페이스북·인스타그램 모회사. 광고 매출이 본업, AI·메타버스 투자가 미래. 광고 사이클·AI 수익화 시점이 핵심.",
-      "todayWhy": "정규장에서 -5.5% 내렸어요. AI 시설 투자 자금을 마련하려 '대규모로 새 주식을 찍을 수 있다'는 보도(FT)가 나오자, 내 몫이 줄어들 걱정에 매도가 몰렸어요.",
+      "todayWhy": "개장 -1.3%. 이스라엘 스파이웨어 업체 NSO를 법원에 다시 제소했다는 소식과, AI 투자금 마련을 위해 신주(새 주식)를 발행할 수 있다는 보도가 겹쳐 약했어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 725,
@@ -135,10 +136,11 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
-      "dataQualityNote": "증자설은 FT 보도(회사 공식 발표 아님). 실제 진행 여부 미정.",
+      "dataQualityNote": null,
       "company": {
         "ceo": "Mark Zuckerberg",
         "business": "이 회사는 사람들이 연결하고 공유하고, 커뮤니티를 찾고, 비즈니스를 성장시키는 데 도움이 되는 기술을 개발한다. 이 회사의 제품은 사람들이 모바일 장치, 개인용 컴퓨터, 가상현실(VR) 및 혼합현실(MR) 헤드셋, 웨어러블을 통해 친구 및 가족과 연결하고 공유할 수 있도록 지원한다. 이 회사는 2개의 부문인 Family of Apps(FoA)와 Realit",
@@ -162,16 +164,16 @@
       "ticker": "AMZN",
       "name": "아마존",
       "sector": "빅테크",
-      "price": 246.03,
-      "change1D": -3.06,
-      "change1W": -9.1,
-      "change1M": -10.1,
-      "changeYTD": 6.6,
+      "price": 247.52,
+      "change1D": 0.61,
+      "change1W": -8.5,
+      "change1M": -9.6,
+      "changeYTD": 7.2,
       "beta": 1.47,
-      "signal": "yellow",
+      "signal": "green",
       "note": "6/4 美 종가 +1.0% $253.79",
       "simpleExplain": "이커머스+AWS 클라우드. AI 시대엔 AWS가 캐시카우 + 성장엔진 동시 역할. 단기 사고는 단발성, 펀더멘털 견조.",
-      "todayWhy": "정규장에서 -3.1% 내렸어요. 시장 전체가 빠지는 위험 회피 분위기에 같이 눌렸지만, 반도체보다는 낙폭이 작았어요.",
+      "todayWhy": "개장 +0.6%로 강보합. 데이터센터용 광케이블을 코닝에서 수십억 달러어치 사기로 한 대형 계약 소식이 호재로 작용했어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 290,
@@ -213,8 +215,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
       "dataQualityNote": null,
       "company": {
@@ -240,16 +243,16 @@
       "ticker": "NVDA",
       "name": "엔비디아",
       "sector": "반도체",
-      "price": 205.1,
-      "change1D": -6.2,
-      "change1W": -2.9,
-      "change1M": 4.4,
-      "changeYTD": 10.0,
+      "price": 208.61,
+      "change1D": 1.71,
+      "change1W": -1.2,
+      "change1M": 6.2,
+      "changeYTD": 11.9,
       "beta": 2.07,
-      "signal": "red",
+      "signal": "green",
       "note": "6/4 美 종가 +1.6% $218.66 (배당락) — 종가 정정(216.34→218.66)",
       "simpleExplain": "AI GPU 압도적 1위. AI 시대의 핵심 인프라 공급사. 5/20 Q1 실적이 단기 가장 큰 이벤트.",
-      "todayWhy": "정규장에서 -6.2% 급락했어요. 브로드컴 AI칩 실망 충격이 업종 전체로 번졌고, 5월 고용 깜짝 호조로 금리가 튀자 비싼 기술주가 더 흔들렸어요. AI 대장주도 못 피했어요.",
+      "todayWhy": "개장 +1.7%로 반등. 젠슨 황 CEO가 한국에서 SK하이닉스·LG 등과 잇단 AI 협력을 발표하고 '메모리 공급 부족이 몇 년 간다'고 말한 게 분위기를 살렸어요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 266,
@@ -315,8 +318,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
       "dataQualityNote": null,
       "company": {
@@ -342,16 +346,16 @@
       "ticker": "TSM",
       "name": "TSMC",
       "sector": "반도체",
-      "price": 415.17,
-      "change1D": -6.69,
-      "change1W": -0.8,
-      "change1M": 5.3,
-      "changeYTD": 36.6,
+      "price": 428.46,
+      "change1D": 3.2,
+      "change1W": 2.4,
+      "change1M": 8.7,
+      "changeYTD": 41.0,
       "beta": 1.12,
-      "signal": "red",
+      "signal": "green",
       "note": "6/4 美 종가 -2.2% $436.69 — 반도체 동반 약세",
       "simpleExplain": "세계 최대 반도체 위탁생산. NVDA·AMD·AAPL이 모두 고객. AI 호황의 가장 안전한 노출 — 변동성도 가장 낮음.",
-      "todayWhy": "정규장에서 -6.7% 내렸어요. AI 칩을 대신 만들어주는 1위 파운드리라, 반도체 전체가 무너진 날 하루 시총이 1,000억 달러 넘게 줄었어요.",
+      "todayWhy": "개장 +3.2% 반등. 금요일 반도체 폭락에서 벗어나 칩 대표주들이 일제히 사자세로 돌아섰어요. AI 칩 수요가 여전히 강하다는 인식이 회복됐어요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 470,
@@ -403,8 +407,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
       "dataQualityNote": null,
       "company": {
@@ -430,16 +435,16 @@
       "ticker": "AVGO",
       "name": "브로드컴",
       "sector": "반도체",
-      "price": 385.73,
-      "change1D": -7.92,
-      "change1W": -13.7,
-      "change1M": -9.7,
-      "changeYTD": 11.5,
+      "price": 398.55,
+      "change1D": 3.32,
+      "change1W": -10.8,
+      "change1M": -6.7,
+      "changeYTD": 15.2,
       "beta": 2.44,
-      "signal": "red",
+      "signal": "green",
       "note": "6/4 美 종가 -12.6% $418.91 — AI 매출 가이던스(회사 예상) 실망 급락",
       "simpleExplain": "맞춤형 AI 칩 설계 회사. 메타·구글의 자체 AI 칩 핵심 파트너. 베타 2.44로 변동성 큼.",
-      "todayWhy": "정규장에서 -7.9% 또 내려 이틀 합쳐 약 -19.5%예요. 다음 분기 AI 칩 전망 실망의 여진이 계속됐어요. 다만 은행들은 'AI 매출 성장세 자체는 멀쩡하다'고 봐요.",
+      "todayWhy": "개장 +3.3% 반등. 지난주 실적 발표 후 -13% 급락했던 낙폭을 일부 되돌렸어요. 과매도(너무 많이 팔렸다)였다는 저가 매수가 들어왔어요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 460,
@@ -493,8 +498,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
       "dataQualityNote": null,
       "company": {
@@ -520,16 +526,16 @@
       "ticker": "MU",
       "name": "마이크론",
       "sector": "반도체",
-      "price": 864.01,
-      "change1D": -13.25,
-      "change1W": -11.0,
-      "change1M": 35.0,
-      "changeYTD": 202.7,
+      "price": 939.16,
+      "change1D": 8.7,
+      "change1W": -3.3,
+      "change1M": 46.7,
+      "changeYTD": 229.0,
       "beta": 2.43,
-      "signal": "red",
+      "signal": "green",
       "note": "6/4 美 종가 -7.7% $996.00 — 종가 정정(971.43→996.00)",
       "simpleExplain": "메모리 반도체. NVDA·AMD GPU에 들어가는 HBM 메모리 핵심 공급. AI 호황 = 메모리 호황 공식.",
-      "todayWhy": "정규장에서 -13.2% 폭락했어요. 반도체가 다 무너진 날, 올해 +200% 넘게 오른 만큼 차익 실현(오른 김에 파는 것) 매물이 쏟아졌어요. 다만 6/5 젠슨 황이 마이크론을 차세대 HBM4 메모리 공급사로 인증한 건 호재예요.",
+      "todayWhy": "개장 +8.7%로 보유 종목 중 가장 강한 반등. 젠슨 황의 '메모리 부족 장기화' 발언에 더해 여러 증권사가 목표가를 대폭 올리면서 메모리주에 매수세가 몰렸어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 800,
@@ -584,10 +590,11 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
-      "dataQualityNote": "6/24 자체 분기 실적 대기.",
+      "dataQualityNote": null,
       "company": {
         "ceo": "Sanjay Mehrotra",
         "business": "이 회사는 메모리 및 스토리지 솔루션 제공업체다. 이 회사는 마이크론 및 크루셜 브랜드를 통해 고성능 동적 랜덤 액세스 메모리(DRAM), NAND, NOR 메모리 및 스토리지 제품 포트폴리오를 제공한다. 회사의 사업 부문에는 컴퓨팅 및 네트워킹 사업부(CNBU), 모바일 사업부(MBU), 임베디드 사업부(EBU), 스토리지 사업부(SBU)가 있다. CNB",
@@ -611,16 +618,16 @@
       "ticker": "MRVL",
       "name": "마벨",
       "sector": "반도체",
-      "price": 263.47,
-      "change1D": -16.74,
-      "change1W": 28.5,
-      "change1M": 56.1,
-      "changeYTD": 210.0,
+      "price": 289.15,
+      "change1D": 9.75,
+      "change1W": 41.0,
+      "change1M": 71.3,
+      "changeYTD": 240.2,
       "beta": 2.34,
-      "signal": "red",
+      "signal": "green",
       "note": "6/4 — 데이터 출처 장애로 종가 미확정(재확인 필요)",
       "simpleExplain": "맞춤형 칩(ASIC) 설계. 구글 TPU 공동개발 + NVDA $2B 투자. 1개월 +50% 폭주 후 단기 차익실현 정상.",
-      "todayWhy": "정규장에서 -16.7% 폭락, 보유 종목 중 낙폭이 가장 컸어요. 변동이 큰 AI 반도체 설계 회사라 업종이 무너진 날 가장 세게 흔들렸어요.",
+      "todayWhy": "개장 +9.8% 급등. 6월 말 S&P500 지수에 새로 편입된다는 소식이 호재예요. 지수를 따라 사는 펀드들이 의무적으로 담아야 해서 수요가 늘어날 거란 기대예요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 220,
@@ -675,8 +682,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
       "dataQualityNote": null,
       "company": {
@@ -702,16 +710,16 @@
       "ticker": "AMD",
       "name": "AMD",
       "sector": "반도체",
-      "price": 466.38,
-      "change1D": -10.86,
-      "change1W": -9.6,
-      "change1M": 31.3,
-      "changeYTD": 117.8,
+      "price": 484.13,
+      "change1D": 3.81,
+      "change1W": -6.2,
+      "change1M": 36.3,
+      "changeYTD": 126.1,
       "beta": 1.85,
-      "signal": "red",
+      "signal": "green",
       "note": "6/4 美 종가 -2.5% $509.90 — 신고가 뒤 숨 고르기",
       "simpleExplain": "NVDA의 직접 경쟁사. MI 시리즈 GPU로 AI 시장 점유율 빠르게 확대 중. 5/7 어닝 폭발, 1개월 +91%.",
-      "todayWhy": "정규장에서 -10.9% 급락했어요. 브로드컴 충격에 강한 고용지표발 금리 상승까지 겹쳐 AI 반도체가 다 같이 빠졌고, 최근 신고가 부담도 컸어요.",
+      "todayWhy": "개장 +3.8% 반등. 금요일 반도체 동반 급락에서 벗어나 AI 칩주가 함께 회복됐어요. 단기 낙폭에 대한 저가 매수가 들어왔어요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 510,
@@ -759,8 +767,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
       "dataQualityNote": null,
       "company": {
@@ -786,16 +795,16 @@
       "ticker": "SNDK",
       "name": "샌디스크",
       "sector": "반도체",
-      "price": 1559.32,
-      "change1D": -11.39,
-      "change1W": -8.0,
-      "change1M": 10.9,
-      "changeYTD": 556.9,
+      "price": 1633.45,
+      "change1D": 4.75,
+      "change1W": -3.6,
+      "change1M": 16.2,
+      "changeYTD": 588.1,
       "beta": 2.41,
-      "signal": "red",
+      "signal": "green",
       "note": "6/4 美 종가 -2.6% $1,783.82 (6/3 ATH $1,831 대비)",
       "simpleExplain": "낸드 플래시 메모리 회사. AI 데이터센터 스토리지 수요 폭발의 1차 수혜. 1년 +3,300% 누적 차익실현 위험.",
-      "todayWhy": "정규장에서 -11.4% 급락했어요. 같은 메모리 회사들과 함께 무너졌어요. 올해 워낙 많이 올라(+550%대) 변동도 큰 편이에요.",
+      "todayWhy": "개장 +4.8% 반등. 뱅크오브아메리카·캔터 등 여러 증권사가 목표가를 크게 올렸고, 메모리 공급 부족 수혜 기대가 다시 살아났어요.",
       "outlook": {
         "rating": "Hold",
         "targetPrice": 1700,
@@ -844,8 +853,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
       "dataQualityNote": null,
       "company": {
@@ -871,16 +881,16 @@
       "ticker": "DELL",
       "name": "델",
       "sector": "AI 인프라",
-      "price": 394.39,
-      "change1D": -6.55,
-      "change1W": -6.3,
-      "change1M": 82.3,
-      "changeYTD": 213.3,
+      "price": 387.66,
+      "change1D": -1.71,
+      "change1W": -7.9,
+      "change1M": 79.2,
+      "changeYTD": 208.0,
       "beta": 1.96,
       "signal": "yellow",
       "note": "6/4 美 종가 -1.7% $414.82 — 종가 정정(406.06→414.82)",
       "simpleExplain": "AI 서버 OEM. NVDA GPU를 받아 기업 데이터센터에 납품하는 시스템 통합사. AI 백로그 $18.4B 사상 최대.",
-      "todayWhy": "정규장에서 -6.6% 내렸어요. AI 서버 호실적으로 최근 급등했는데, 반도체가 무너지는 날 같이 숨 고르기를 했어요.",
+      "todayWhy": "개장 -1.7%로 약세. 시장 전반은 반등했지만 PC·서버 업체로서 큰 모멘텀(가격 흐름)이 없어 차익실현 매물이 나왔어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 280,
@@ -941,8 +951,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
       "dataQualityNote": null,
       "company": {
@@ -968,16 +979,16 @@
       "ticker": "LITE",
       "name": "루멘텀",
       "sector": "AI 인프라",
-      "price": 863.66,
-      "change1D": -8.62,
-      "change1W": 1.0,
-      "change1M": -13.2,
-      "changeYTD": 134.3,
+      "price": 877.08,
+      "change1D": 1.55,
+      "change1W": 2.6,
+      "change1M": -11.9,
+      "changeYTD": 137.9,
       "beta": 2.38,
-      "signal": "red",
+      "signal": "green",
       "note": "6/4 — 6/3 종가 $938 기준 추정($945 부근)",
       "simpleExplain": "AI 데이터센터 광통신 핵심 부품. NVDA GPU와 GPU를 연결하는 광학 모듈 공급. CPO·OCS 수직 진출.",
-      "todayWhy": "정규장에서 -8.6% 내렸어요. AI 데이터센터를 광케이블로 잇는 부품 회사라, 반도체 폭락 분위기에 크게 영향을 받았어요.",
+      "todayWhy": "개장 +1.6%. 광부품주로 AI 데이터센터 투자 기대에 칩 반등 흐름을 따라 강보합으로 출발했어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 1270,
@@ -1031,8 +1042,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
       "dataQualityNote": null,
       "company": {
@@ -1058,16 +1070,16 @@
       "ticker": "CLS",
       "name": "셀레스티카",
       "sector": "AI 인프라",
-      "price": 371.71,
-      "change1D": -12.61,
-      "change1W": -3.5,
-      "change1M": -11.0,
-      "changeYTD": 25.7,
+      "price": 379.54,
+      "change1D": 2.11,
+      "change1W": -1.5,
+      "change1M": -9.1,
+      "changeYTD": 28.3,
       "beta": 2.42,
-      "signal": "red",
+      "signal": "green",
       "note": "6/4 美 종가 -3.0% $458.14",
       "simpleExplain": "AI 서버·스위치 시스템 통합 제조. 하이퍼스케일러(아마존·구글·메타) 맞춤형 인프라 공급. 1.6T CPO 이더넷 스위치 양산 대기.",
-      "todayWhy": "정규장에서 -12.6% 급락했어요. AI 서버·부품을 조립하는 회사라 반도체가 무너진 날 예상보다 더 크게 눌렸어요.",
+      "todayWhy": "개장 +2.1% 반등. AI 서버 위탁생산 업체로, 칩·서버 관련주가 함께 회복되는 흐름에 올라탔어요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 480,
@@ -1115,8 +1127,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
       "dataQualityNote": null,
       "company": {
@@ -1142,16 +1155,16 @@
       "ticker": "CRDO",
       "name": "크레도",
       "sector": "AI 인프라",
-      "price": 206.89,
-      "change1D": -4.88,
-      "change1W": -12.3,
-      "change1M": 6.9,
-      "changeYTD": 43.8,
+      "price": 222.55,
+      "change1D": 7.57,
+      "change1W": -5.7,
+      "change1M": 15.0,
+      "changeYTD": 54.7,
       "beta": 3.43,
-      "signal": "yellow",
+      "signal": "green",
       "note": "6/4 美 종가 -0.8% $213.00 — 실적 후 진정",
       "simpleExplain": "AI 데이터센터 고속 데이터 전송 칩. NVDA·AMD GPU 클러스터 연결의 핵심 부품. 베타 3.43으로 우리 포트폴리오 변동성 1위.",
-      "todayWhy": "정규장에서 -4.9% 내렸어요. 반도체가 다 무너진 날 치고는 비교적 잘 버틴 편이에요. 광통신 칩 수요 기대가 낙폭을 줄였어요.",
+      "todayWhy": "개장 +7.6% 급등. 데이터센터 연결 반도체 업체로, AI 칩 반등 분위기 속에 변동이 큰 중소형 성장주라 더 크게 튀어 올랐어요.",
       "outlook": {
         "rating": "Moderate Buy",
         "targetPrice": 208,
@@ -1200,8 +1213,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
       "dataQualityNote": null,
       "company": {
@@ -1227,16 +1241,16 @@
       "ticker": "TLN",
       "name": "탈렌에너지",
       "sector": "AI 전력",
-      "price": 364.74,
-      "change1D": -3.53,
-      "change1W": -5.7,
-      "change1M": -5.2,
-      "changeYTD": -2.7,
+      "price": 364.95,
+      "change1D": 0.06,
+      "change1W": -5.6,
+      "change1M": -5.1,
+      "changeYTD": -2.6,
       "beta": 1.54,
       "signal": "yellow",
       "note": "6/4 美 종가 +1.0% $381.00 — 반도체 약세에도 방어",
       "simpleExplain": "원전·천연가스 발전사. AI 데이터센터가 늘수록 전력 수요도 같이 폭발. AWS와 18B$ 장기 PPA(전력 공급) 계약 체결.",
-      "todayWhy": "정규장에서 -3.5% 내렸어요. AI 전력 수요 테마라 기술주 약세에 같이 눌렸지만, 반도체보다는 낙폭이 작았어요.",
+      "todayWhy": "개장 보합(거의 변동 없음). 전력주라 칩 반등 흐름과는 따로 움직였고, 금리·유가가 잠잠해 큰 변화 없이 출발했어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 420,
@@ -1272,8 +1286,9 @@
         }
       ],
       "priceSourcedFrom": [
-        "Naver(TradingKey 집계)",
-        "Yahoo Finance"
+        "CNBC",
+        "Yahoo",
+        "stockanalysis.com"
       ],
       "dataQualityNote": null,
       "company": {
@@ -1354,7 +1369,7 @@
       "note": "美 선물(ES·NQ) 약세 분위기 — 6/5 폭락 여파+아시아 급락+이란發 유가 급등. 22:30 KST 개장 대기, 변동성 확대 예상."
     }
   },
-  "marketStatus": "🔴 아시아 '검은 월요일' — 코스피 -8.29%(7,484.41)·코스닥 -9.08% 서킷브레이커 발동, 외국인+기관 2조+ 순매도. 삼성전자 -10.18%·SK하이닉스 -7.68%. 6/5 美 반도체 폭락(나스닥 -4.18%·SOX -10.26%)+5월 고용 서프라이즈發 금리 우려+이란-이스라엘 100일 격화·유가 급등이 원인. 젠슨 황 방한 'AI 수요 강력' 발언은 NVDA·MU·SK하이닉스에 중장기 긍정. 오늘 밤 美 선물 약세·변동성 확대 예상. ⚠ 미국 보유 종목 가격은 6/5(금) 종가 기준, 프리마켓 미반영.",
+  "marketStatus": "🟢 美 개장 반등 — 금요일 반도체 폭락(나스닥 -4.18%) 다음 거래일, S&P500 +0.80%(7,442.56)·나스닥 +1.28%(26,039)로 출발. 칩주가 일제히 반등(MU +8.7%·MRVL +9.8%·CRDO +7.6%·SNDK +4.8%·AVGO +3.3%·TSM +3.2%·AMD +3.8%). 이란이 이스라엘 공격 중단을 선언해 지정학 긴장이 완화됐고, 변동성지수(VIX)는 21.5→18.8로 떨어졌어요. 젠슨 황 방한 AI 협력 발표·마벨 S&P500 편입이 호재. 10년 국채금리 4.53%·WTI 유가 $90.9로 안정. 빅테크는 차익실현으로 소폭 약세(GOOG -1.2%·META -1.3%·DELL -1.7%). ⚠ 美 보유 종목은 6/8 개장가(9:45 EDT) 기준.",
   "signals": {
     "asOf": "2026-06-06",
     "kr": [
