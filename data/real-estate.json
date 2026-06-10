@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T07:37:41+09:00",
+  "lastUpdated": "2026-06-10T14:42:29+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -361,7 +361,7 @@
       ],
       "applyMethod": "LH청약플러스",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019985&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=18&mi=1026",
-      "status": "open"
+      "status": "closing-today"
     },
     {
       "id": "lh-2026-yeongdong-hwanggan-tonghap",
@@ -399,7 +399,7 @@
       ],
       "applyMethod": "LH청약플러스",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020035&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=24&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "_fetchMeta": {
         "fetchedAt": "2026-05-28T12:00:00+09:00",
         "method": "공고 상세 본문 직접 확인",
@@ -482,7 +482,7 @@
       ],
       "applyMethod": "LH청약플러스",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020024&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "priorityRules": [
         {
           "rank": "1순위",
@@ -501,46 +501,6 @@
         "sources": [
           {
             "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020024&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
-          }
-        ]
-      }
-    },
-    {
-      "id": "lh-2026-incheon-nonhyeon-lh16-startup",
-      "agency": "LH",
-      "title": "인천논현 LH16단지 (창업지원주택) 잔여세대 모집공고",
-      "shortTitle": "인천논현 LH16 창업지원",
-      "type": "행복주택",
-      "category": [
-        "청년"
-      ],
-      "household": [
-        "1인_청년"
-      ],
-      "region": [
-        "인천"
-      ],
-      "districts": [
-        "인천 남동구 논현동"
-      ],
-      "applicationStart": "2026-06-09",
-      "applicationEnd": "2026-06-09",
-      "announcementDate": "2026-05-26",
-      "rolling": false,
-      "highlights": [
-        "선착순동호지정·선계약후검증 모집",
-        "인정업종 확대",
-        "잔여세대 모집"
-      ],
-      "applyMethod": "LH청약플러스 (선착순)",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020025&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=18&mi=1026",
-      "status": "closing-today",
-      "_fetchMeta": {
-        "fetchedAt": "2026-05-28T12:00:00+09:00",
-        "method": "공고 상세 본문 직접 확인",
-        "sources": [
-          {
-            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020025&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=18&mi=1026"
           }
         ]
       }
@@ -903,59 +863,6 @@
         "sources": [
           {
             "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020033&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
-          }
-        ]
-      }
-    },
-    {
-      "id": "lh-2026-incheon-2cha-ddeundeun-jeonse",
-      "agency": "LH",
-      "title": "26년 2차 비분양전환형 든든전세주택 입주자 모집 공고(인천)",
-      "shortTitle": "LH 인천 든든전세 2차",
-      "type": "매입임대",
-      "category": [
-        "일반"
-      ],
-      "household": [
-        "1인_일반",
-        "신혼",
-        "예비_신혼"
-      ],
-      "region": [
-        "인천",
-        "서울",
-        "경기"
-      ],
-      "districts": [
-        "인천 미추홀·연수·남동·부평·계양·서구"
-      ],
-      "supplyCount": 163,
-      "applicationStart": "2026-06-08",
-      "applicationEnd": "2026-06-09",
-      "announcementDate": "2026-05-28",
-      "rolling": false,
-      "highlights": [
-        "공급 163호 (모집인원 507명)",
-        "무주택세대구성원 · 공고일(2026-05-28) 현재 수도권(서울·인천·경기) 거주",
-        "전용 60~80㎡ · 시중시세 90% 수준",
-        "최장 8년 거주(2년 + 재계약 3회)",
-        "당첨자 발표 2026-07-22"
-      ],
-      "applyMethod": "LH청약플러스 인터넷청약",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020028&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "closing-today",
-      "sources": [
-        {
-          "name": "LH청약플러스 공고문 (26년 2차 든든전세 인천)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020028&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-05-31T07:36:27+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수기간 명시)",
-        "sources": [
-          {
-            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020028&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
           }
         ]
       }
