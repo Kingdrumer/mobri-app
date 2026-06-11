@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T14:42:29+09:00",
+  "lastUpdated": "2026-06-12T07:38:43+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -37,7 +37,7 @@
       ],
       "applyMethod": "주민등록지 행정복지센터 방문 접수",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019977&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=17&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "priorityRules": [
         {
           "rank": "1순위",
@@ -333,84 +333,6 @@
       "status": "open"
     },
     {
-      "id": "lh-2026-pohang-happy",
-      "agency": "LH",
-      "title": "포항(중앙·일월) 행복주택 입주자격완화 예비입주자 모집공고",
-      "shortTitle": "포항 행복주택",
-      "type": "행복주택",
-      "category": [
-        "청년",
-        "신혼"
-      ],
-      "household": [
-        "1인_청년",
-        "신혼"
-      ],
-      "region": [
-        "경북"
-      ],
-      "districts": [
-        "포항 중앙·일월"
-      ],
-      "applicationStart": "2026-05-15",
-      "applicationEnd": "2026-06-10",
-      "announcementDate": "2026-05-15",
-      "rolling": false,
-      "highlights": [
-        "입주자격 완화"
-      ],
-      "applyMethod": "LH청약플러스",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300019985&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=18&mi=1026",
-      "status": "closing-today"
-    },
-    {
-      "id": "lh-2026-yeongdong-hwanggan-tonghap",
-      "agency": "LH",
-      "title": "영동황간 통합공공임대주택 입주자 모집공고",
-      "shortTitle": "LH 영동황간 통합공공임대",
-      "type": "통합공공임대",
-      "category": [
-        "청년",
-        "신혼",
-        "고령자",
-        "일반"
-      ],
-      "household": [
-        "1인_청년",
-        "1인_일반",
-        "신혼",
-        "예비_신혼",
-        "고령자"
-      ],
-      "region": [
-        "충북"
-      ],
-      "districts": [
-        "충북 영동군 황간면"
-      ],
-      "applicationStart": "2026-06-08",
-      "applicationEnd": "2026-06-10",
-      "announcementDate": "2026-05-28",
-      "rolling": false,
-      "highlights": [
-        "접수기간 2026.06.08 ~ 2026.06.10",
-        "서류제출대상자 발표일 2026.06.12",
-        "당첨자 발표일 2026.09.10"
-      ],
-      "applyMethod": "LH청약플러스",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020035&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=24&mi=1026",
-      "status": "closing-today",
-      "_fetchMeta": {
-        "fetchedAt": "2026-05-28T12:00:00+09:00",
-        "method": "공고 상세 본문 직접 확인",
-        "sources": [
-          {
-            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020035&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=24&mi=1026"
-          }
-        ]
-      }
-    },
-    {
       "id": "lh-2026-tongyeong-general-maeip",
       "agency": "LH",
       "title": "경남 통영시 일반 매입임대주택 예비입주자 모집공고",
@@ -452,60 +374,6 @@
       }
     },
     {
-      "id": "lh-2026-seoul-multi-child-maeip",
-      "agency": "LH",
-      "title": "[서울지역본부] 다자녀 매입임대주택 예비입주자 모집공고",
-      "shortTitle": "LH 서울 다자녀 매입임대",
-      "type": "매입임대",
-      "category": [
-        "다자녀"
-      ],
-      "household": [
-        "다자녀"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "서울 중랑구 망우동·중화동"
-      ],
-      "supplyCount": 11,
-      "applicationStart": "2026-06-08",
-      "applicationEnd": "2026-06-10",
-      "announcementDate": "2026-05-27",
-      "rolling": false,
-      "highlights": [
-        "공급 11호 (망우동 10호 + 중화동 1호)",
-        "접수기간 2026.06.08 10:00 ~ 2026.06.10 16:00",
-        "임대기간 2년, 재계약 9회 가능(최장 20년)",
-        "시중임대료의 30~40% 수준"
-      ],
-      "applyMethod": "LH청약플러스",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020024&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "closing-today",
-      "priorityRules": [
-        {
-          "rank": "1순위",
-          "label": "공고일 현재 두 명 이상의 직계비속을 양육하는 무주택세대구성원, 월평균소득 70% 이하, 총자산 34,500만원·자동차 4,542만원 이하",
-          "match": {
-            "children": [
-              "2명",
-              "3명이상"
-            ]
-          }
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-05-28T12:00:00+09:00",
-        "method": "공고 상세 본문 직접 확인",
-        "sources": [
-          {
-            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020024&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
-          }
-        ]
-      }
-    },
-    {
       "id": "lh-2026-ulsan-taehwa-a1-yeonggu",
       "agency": "LH",
       "title": "울산태화강변 A-1블록 영구임대주택 입주자 모집공고",
@@ -537,7 +405,7 @@
       ],
       "applyMethod": "거주지 동 행정복지센터 방문접수",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020022&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=15&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "priorityRules": [
         {
           "rank": "1순위",
@@ -557,48 +425,6 @@
         "sources": [
           {
             "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020022&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=15&mi=1026"
-          }
-        ]
-      }
-    },
-    {
-      "id": "lh-2026-ulsan-taehwa-a1-happy",
-      "agency": "LH",
-      "title": "울산태화강변 A-1블록 행복주택 입주자 모집공고",
-      "shortTitle": "울산태화강변 A1 행복주택",
-      "type": "행복주택",
-      "category": [
-        "청년",
-        "신혼"
-      ],
-      "household": [
-        "1인_청년",
-        "신혼",
-        "예비_신혼"
-      ],
-      "region": [
-        "울산"
-      ],
-      "districts": [
-        "울산광역시 태화강변"
-      ],
-      "applicationStart": "2026-06-09",
-      "applicationEnd": "2026-06-11",
-      "announcementDate": "2026-05-26",
-      "rolling": false,
-      "highlights": [
-        "서류제출대상자 발표일 2026.06.23",
-        "당첨자 발표일 2026.09.28"
-      ],
-      "applyMethod": "LH청약플러스",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020030&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=18&mi=1026",
-      "status": "open",
-      "_fetchMeta": {
-        "fetchedAt": "2026-05-28T12:00:00+09:00",
-        "method": "공고 상세 본문 직접 확인 (최신 정정공고)",
-        "sources": [
-          {
-            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020030&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=18&mi=1026"
           }
         ]
       }
@@ -819,58 +645,9 @@
       "status": "upcoming"
     },
     {
-      "id": "lh-2026-bupyeong-castle-happy",
-      "agency": "LH",
-      "title": "[신규모집] 부평캐슬앤더샵퍼스트(청천1구역 주택재개발정비사업) 행복주택 입주자 모집",
-      "shortTitle": "LH 부평캐슬 행복주택",
-      "type": "행복주택",
-      "category": [
-        "신혼"
-      ],
-      "household": [
-        "신혼",
-        "예비_신혼"
-      ],
-      "region": [
-        "인천"
-      ],
-      "districts": [
-        "인천 부평구 산곡동"
-      ],
-      "supplyCount": 35,
-      "applicationStart": "2026-06-09",
-      "applicationEnd": "2026-06-11",
-      "announcementDate": "2026-05-28",
-      "rolling": false,
-      "highlights": [
-        "전용 39.58㎡ 신혼부부형 35세대",
-        "입주예정 2026.10",
-        "서류제출대상자 발표 2026-06-15 · 당첨자 발표 2026-09-15",
-        "민간 재개발 매입형(전체 1,623호 중 행복주택 35호)"
-      ],
-      "applyMethod": "LH청약플러스 인터넷청약",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020033&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "open",
-      "sources": [
-        {
-          "name": "LH청약플러스 공고문 (부평캐슬앤더샵퍼스트 행복주택)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020033&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-05-31T07:36:27+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수기간 명시)",
-        "sources": [
-          {
-            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020033&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
-          }
-        ]
-      }
-    },
-    {
       "id": "lh-2026-suwon-dangsu-newhope-happy",
       "agency": "LH",
-      "title": "수원당수 신혼희망타운 행복주택 예비입주자 모집",
+      "title": "[정정공고] 수원당수 신혼희망타운 행복주택 예비입주자 모집",
       "shortTitle": "LH 수원당수 신혼희망 행복주택",
       "type": "행복주택",
       "category": [
@@ -899,20 +676,20 @@
         "서류제출대상자 발표 2026.06.30 · 당첨자 발표 2026.10.12"
       ],
       "applyMethod": "LH청약플러스 인터넷청약",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020053&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020116&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
       "status": "upcoming",
       "sources": [
         {
-          "name": "LH청약플러스 공고문 (수원당수 신혼희망타운 행복주택)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020053&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
+          "name": "LH청약플러스 정정공고문 (수원당수 신혼희망타운 행복주택)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020116&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
         }
       ],
       "_fetchMeta": {
-        "fetchedAt": "2026-06-06T07:38:12+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수기간 명시)",
+        "fetchedAt": "2026-06-12T07:40:00+09:00",
+        "method": "Claude in Chrome 정정공고 상세 본문 직접 확인(접수기간 06.16~06.18 변동 없음, 첨부파일 정정뿐)",
         "sources": [
           {
-            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020053&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
+            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020116&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
           }
         ]
       }
@@ -964,65 +741,6 @@
         "sources": [
           {
             "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020057&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
-          }
-        ]
-      }
-    },
-    {
-      "id": "sh-2026-multi-child-maeip",
-      "agency": "SH",
-      "title": "2026년 다자녀 매입임대주택 입주자 모집공고(2026. 5. 29.)",
-      "shortTitle": "SH 다자녀 매입임대",
-      "type": "매입임대",
-      "category": [
-        "다자녀"
-      ],
-      "household": [
-        "다자녀"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "서울 전역(단지·호수 공고문 별첨)"
-      ],
-      "supplyCount": 1,
-      "applicationStart": "2026-06-09",
-      "applicationEnd": "2026-06-11",
-      "announcementDate": "2026-05-29",
-      "rolling": false,
-      "highlights": [
-        "공급호수 1호(재공급)",
-        "인터넷접수 2026.06.09 10:00 ~ 06.11 17:00",
-        "서류심사대상자 발표 2026.06.15 · 당첨자 발표 2026.09.02"
-      ],
-      "applyMethod": "SH 인터넷청약시스템",
-      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=304925&multi_itm_seq=2",
-      "status": "open",
-      "priorityRules": [
-        {
-          "rank": "1순위",
-          "label": "공고일(2026.5.29) 현재 두 명 이상의 직계비속을 양육하는 무주택세대구성원, 월평균소득 70% 이하, 국민임대 자산기준 충족",
-          "match": {
-            "children": [
-              "2명",
-              "3명이상"
-            ]
-          }
-        }
-      ],
-      "sources": [
-        {
-          "name": "SH 인터넷청약시스템 공고문 (2026 다자녀 매입임대)",
-          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=304925&multi_itm_seq=2"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-06T07:38:12+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수일정 명시)",
-        "sources": [
-          {
-            "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=304925&multi_itm_seq=2"
           }
         ]
       }
@@ -1185,6 +903,59 @@
         "sources": [
           {
             "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020060&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lh-2026-pyeongtaek-anseong-happy",
+      "agency": "LH",
+      "title": "평택시·안성시 지역 행복주택 입주자격완화 예비입주자 모집(2026.06.11)",
+      "shortTitle": "LH 평택·안성 행복주택",
+      "type": "행복주택",
+      "category": [
+        "청년",
+        "신혼"
+      ],
+      "household": [
+        "1인_청년",
+        "신혼",
+        "예비_신혼"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "평택시 청북읍·고덕동",
+        "안성시 아양"
+      ],
+      "supplyCount": null,
+      "applicationStart": "2026-06-22",
+      "applicationEnd": "2026-06-23",
+      "announcementDate": "2026-06-11",
+      "rolling": false,
+      "highlights": [
+        "평택청북 B-12·B-13, 평택고덕 Ca1·Ca2, 안성아양 A2-1 등 5개 블록 통합 모집",
+        "입주자격 완화 예비입주자 모집",
+        "평택청북 B-13블럭 전용 24.68~44.4㎡ (총 260세대)",
+        "접수기간 2026.06.22 ~ 2026.06.23",
+        "서류제출대상자 발표 2026.06.30 · 서류접수 2026.07.01~07.07 · 당첨자 발표 2026.09.30"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020105&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (평택·안성 지역 행복주택)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020105&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-06-12T07:40:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수기간 명시)",
+        "sources": [
+          {
+            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020105&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
           }
         ]
       }
