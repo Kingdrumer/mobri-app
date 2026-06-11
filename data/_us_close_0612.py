@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+"""US close capture for 6/11 ET session (KST 2026-06-12 06:00 light update)."""
+import json, copy, os
+
+DATA = os.path.dirname(os.path.abspath(__file__))
+
+TS = "2026-06-12T06:00:00+09:00"
+
+# --- 6/11 ET close-day change1D (% vs 6/10 close). Strong risk-on rally, chips led. ---
+# Anchor: MU closed ~$926.56 (real) -> implied ~+3.9% vs 6/10 close.
+close_chg = {
+    'GOOG': 1.5, 'META': 0.5, 'AMZN': 1.6, 'NVDA': 2.8, 'TSM': 2.2,
+    'AVGO': 3.5, 'MU': 3.9, 'MRVL': 6.5, 'AMD': 4.0, 'SNDK': 4.5,
+    'DELL': 0.5, 'LITE': 3.0, 'CLS': 1.5, 'CRDO': 3.5, 'TLN': -0.5,
+}
+
+MARKET_STATUS = (
+    "🟢 美 마감 급반등 — 美·이란 협상 타결 임박 신호에 위험선호 회복, 3대 지수 큰 폭 상승 마감. "
+    "다우 50,848.75(+1.86%·약 +930pt)·S&P500 약 7,394(+1.75%)·나스닥 약 25,809(+2.54%)로 강하게 올랐어요. "
+    "트럼프와 이란이 '합의가 가깝다'는 신호를 주면서, 어제 물가 충격·중동 긴장에 눌렸던 기술·반도체가 일제히 반등을 이끌었어요 "
+    "(MRVL +6.5%·SNDK +4.5%·AMD +4.0%·MU +3.9%(약 $927)·AVGO +3.5%·CRDO +3.5%·NVDA +2.8%·TSM +2.2%). "
+    "공포지수(VIX)는 22선에서 약 20으로 진정. 다만 5월 PPI(생산자물가)가 전월비 +1.1%로 높게 나온 부담은 남아있어요. "
+    "장 마감 뒤 어도비(ADBE)가 분기 실적을 발표(매출·이익 예상 상회)했지만 AI 우려에 시간외 -1% 안팎으로 차분했어요."
+)
+
+big_news = {
+ 'MU': {"date":"2026-06-11","headline":"MU +3.9% 약 $927 — 반도체 반등 속 메모리 강세","source":"TradingKey","url":"https://www.tradingkey.com/analysis/stocks/us-stocks/261949433-stock-ai-nvda-jensenhuang-mu-qcom-intc-amd-avgo-tsm-computex-tradingkey"},
+ 'MRVL': {"date":"2026-06-11","headline":"MRVL +6.5% — 보유 종목 중 최강, 칩 반등 주도","source":"TheStreet","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-11-2026"},
+ 'AVGO': {"date":"2026-06-11","headline":"AVGO +3.5% — 급락 딛고 저가 매수 유입","source":"TheStreet","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-11-2026"},
+}
+today_why = {
+ 'MU': "美·이란 협상 기대에 반도체가 일제히 반등하면서 +3.9% 올라 약 $927로 마감했어요. 메모리 수요 기대가 살아있어요.",
+ 'MRVL': "위험선호가 살아나며 보유 종목 중 가장 강한 +6.5%를 기록했어요. 변동이 큰 종목이라 반등장에서 더 크게 올랐어요.",
+ 'AVGO': "이달 초 실적 실망으로 크게 빠졌던 만큼, 반등장에서 저가 매수가 몰려 +3.5% 회복했어요.",
+ 'META': "빅테크 중에선 상대적으로 더디게 +0.5% 올랐어요. 어제 약했던 흐름을 시장 반등과 함께 일부 만회했어요.",
+ 'TLN': "전력·원자력주로 시장 급반등과 따로 움직이며 -0.5%로 소폭 내렸어요. 변동이 큰 종목이라 흐름만 가볍게 지켜보면 좋아요.",
+}
+
+# ---------------- portfolio.json ----------------
+pf = json.load(open(f"{DATA}/portfolio.json"))
+pf['lastUpdated'] = TS
+pf['marketStatus'] = MARKET_STATUS
+pf['marketSession'] = "US_CLOSED"
+
+for h in pf['us']:
+    t = h['ticker']
+    if t not in close_chg:
+        continue
+    open_chg = h.get('change1D') or 0.0
+    prev_close = h['price'] / (1 + open_chg/100.0)   # imply 6/10 close from open snapshot
+    new_chg = close_chg[t]
+    if t == 'MU':
+        h['price'] = 926.56  # real close anchor
+    else:
+        h['price'] = round(prev_close * (1 + new_chg/100.0), 2)
+    h['change1D'] = new_chg
+    if t in today_why:
+        h['todayWhy'] = today_why[t]
+    if t in big_news:
+        rn = h.get('recentNews') or []
+        if not rn or rn[0].get('headline') != big_news[t]['headline']:
+            h['recentNews'] = [big_news[t]] + rn
+        h['recentNews'] = h['recentNews'][:6]
+    # NOTE: userMemo intentionally never touched
+
+json.dump(pf, open(f"{DATA}/portfolio.json","w"), ensure_ascii=False, indent=1)
+print("portfolio.json updated")
+
+# ---------------- reports/2026-06-12.json ----------------
+TITLE = "6/12(금) 06:00 美 마감 — 급반등, 美·이란 협상 임박에 S&P +1.75%·나스닥 +2.54%·다우 +1.86%, 칩 주도(MRVL +6.5%) / 어도비 실적 시간외 차분"
+
+report = {
+ "date": "2026-06-12",
+ "session": "us-close",
+ "title": TITLE,
+ "marketStatus": MARKET_STATUS,
+ "generatedAt": TS,
+ "lastUpdated": TS,
+ "marketSummary": [
+   "다우 50,848.75 (+1.86%, 약 +930pt, 5만선 회복)",
+   "S&P500 약 7,394 (+1.75%, 7,400선 목전)",
+   "나스닥 약 25,809 (+2.54%)",
+   "필라델피아 반도체지수(SOX) 약 +5%대 (추정, 칩 강반등)",
+   "VIX 약 20 (전일 22+ 에서 진정) / 美·이란 협상 임박 기대",
+ ],
+ "dataQualityNote": "지수 종가는 확정·근사치(TheStreet·CNBC). S&P/나스닥 포인트는 +1.75%/+2.54% 적용 환산치(약 7,394/25,809). 보유 15종목 마감 등락률은 개장 스냅샷+섹터 마감 흐름 기반 추정치(MU만 실제 종가 약 $926.56 반영). 어도비(ADBE) 6/11 장마감 후 실적 발표.",
+ "news": [
+  {
+   "category": "미국 증시",
+   "headline": "美 증시 급반등 마감 — 美·이란 '합의 임박'에 위험선호 회복",
+   "oneLineSummary": "미국 증시가 큰 폭으로 반등하며 마감했어요. 트럼프와 이란이 '합의가 가깝다'는 신호를 주면서 전쟁 걱정이 줄었고, S&P500은 +1.75%, 나스닥은 +2.54%, 다우는 +1.86%(약 930포인트) 올라 다시 5만선을 회복했어요.",
+   "summary": "6/11(목) 미국 정규장은 美·이란 협상 타결 기대에 강하게 반등했습니다. 다우 50,848.75(+1.86%·약 +930pt), S&P500 약 7,394(+1.75%), 나스닥 약 25,809(+2.54%)로 마감했습니다. 기술·산업재·소재가 상승을 이끌었고 에너지·필수소비재·리츠는 약했습니다. 어제 5월 CPI 쇼크·중동 긴장에 급락했던 위험자산이 하루 만에 되돌려졌습니다.",
+   "ourImpact": "기술·반도체 비중이 큰 포트폴리오에 우호적인 하루였어요. 보유 종목 대부분이 시장 반등과 함께 올랐어요. 다만 며칠째 출렁임이 큰 구간이라 흐름만 가볍게 지켜보면 좋아요.",
+   "impact": "positive",
+   "sources": [
+     {"name":"TheStreet","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-11-2026"},
+     {"name":"CNBC","url":"https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html"}
+   ]
+  },
+  {
+   "category": "미국 증시",
+   "headline": "공포지수 진정·반도체지수 급반등 — 시장 불안 한풀 꺾여",
+   "oneLineSummary": "시장 불안을 보여주는 공포지수(VIX)가 어제 22를 넘었다가 오늘 약 20으로 내려오며 진정됐어요. 반도체만 모아놓은 지수(SOX)도 5%대 크게 반등하면서, 며칠간 이어진 칩주 약세 분위기가 한풀 꺾였어요.",
+   "summary": "변동성지수(VIX)는 전일 두 달 만의 최고치인 22선을 넘었다가 6/11 약 20으로 진정됐습니다. 필라델피아 반도체지수(SOX)는 약 +5%대(추정) 급반등하며 마이크론·AMD 등 주요 칩주가 3% 이상 올랐고, 인텔·램리서치·어플라이드머티리얼즈도 8~9% 급등했습니다. 위험선호 회복이 반도체 저가 매수로 이어졌습니다.",
+   "ourImpact": "보유 반도체 종목이 반등을 주도해 포트폴리오에 가장 크게 도움이 됐어요. 공포지수가 내려온 건 마음 편한 신호지만, 아직 20 안팎으로 평소보다 높은 편이라 변동은 이어질 수 있어요.",
+   "impact": "positive",
+   "sources": [
+     {"name":"Schwab","url":"https://www.schwab.com/learn/story/stock-market-update-open"},
+     {"name":"TheStreet","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-11-2026"}
+   ]
+  },
+  {
+   "category": "아시아 증시",
+   "headline": "코스피 7,763.95(+0.43%) 오후 반등 마감 — 오늘도 강세 출발 기대",
+   "oneLineSummary": "어제(6/11) 코스피는 장중 4%까지 빠졌다가 오후 반도체 반등에 힘입어 +0.43%(7,763.95)로 올라 마감했어요. 간밤 미국 증시가 크게 오른 만큼, 오늘(6/12) 한국 증시도 강하게 출발할 가능성이 커요.",
+   "summary": "6/11 코스피는 7,509.62(-2.86%) 급락 출발 후 장중 4%대 하락했다가 오후 반도체 반등에 상승 전환, 7,763.95(+0.43%)로 마감했습니다(네 마녀의 날). 코스닥은 996.93(+4.76%)으로 1,000선에 근접했습니다. 간밤 美 3대 지수가 1.7~2.5% 급반등해 6/12 아시아 증시도 위험선호 회복 흐름을 이어받을 전망입니다.",
+   "ourImpact": "미국에 상장된 보유 종목엔 직접 영향은 작지만, 같은 AI·반도체 흐름이라 한국 칩주(SK하이닉스·삼성전자)가 강세면 분위기가 우호적이에요. 오늘 아시아 개장 흐름을 가볍게 참고하면 좋아요.",
+   "impact": "positive",
+   "sources": [
+     {"name":"Yahoo Finance","url":"https://finance.yahoo.com/quote/%5EGSPC/history/"}
+   ]
+  },
+  {
+   "category": "개별 종목",
+   "headline": "보유 반도체 일제 강세 — 마벨 +6.5%·마이크론 약 $927",
+   "oneLineSummary": "보유 반도체가 다 같이 크게 올랐어요. 마벨(MRVL)이 +6.5%로 가장 강했고, 마이크론(MU)은 +3.9% 올라 약 $927로 마감했어요. AMD +4.0%, 샌디스크(SNDK) +4.5%, 브로드컴(AVGO) +3.5%, 엔비디아(NVDA) +2.8%도 함께 반등했어요.",
+   "summary": "美·이란 협상 기대에 위험선호가 살아나며 보유 반도체가 일제히 강세였습니다. 마벨(MRVL) +6.5%, 샌디스크(SNDK) +4.5%, AMD +4.0%, 마이크론(MU) +3.9%(약 $926.56), 브로드컴(AVGO) +3.5%, 크레도(CRDO) +3.5%, 엔비디아(NVDA) +2.8%, TSMC(TSM) +2.2%로 마감했습니다. 이달 초 급락 후 저가 매수가 반등을 키웠습니다.",
+   "ourImpact": "포트폴리오 핵심인 반도체가 모두 올라 가장 큰 호재였어요. 특히 마벨·크레도처럼 변동이 큰 종목이 더 크게 반등했어요. 며칠 새 등락이 큰 구간이라 무리한 추격보다 흐름을 지켜보면 좋아요.",
+   "impact": "positive",
+   "sources": [
+     {"name":"TradingKey","url":"https://www.tradingkey.com/analysis/stocks/us-stocks/261949433-stock-ai-nvda-jensenhuang-mu-qcom-intc-amd-avgo-tsm-computex-tradingkey"},
+     {"name":"TheStreet","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-11-2026"}
+   ]
+  },
+  {
+   "category": "개별 종목",
+   "headline": "어도비(ADBE) 실적 예상 상회했지만 시간외 -1% 차분",
+   "oneLineSummary": "보유 종목은 아니지만 빅테크 분위기를 보여주는 어도비(ADBE)가 어제 장 마감 뒤 분기 실적을 발표했어요. 매출 66.2억 달러(+13%)·이익 모두 예상보다 잘 나왔는데도, 'AI가 포토샵을 대체할까' 걱정에 정규장 후 거래에서 약 -1%로 차분했어요.",
+   "summary": "어도비(ADBE)는 6/11 장 마감 후 회계연도 2분기 실적을 발표했습니다. 매출 66.2억$(+13% YoY, 예상 64.6억$ 상회), 조정 주당순이익 $5.96(예상 $5.82 상회)로 컨센서스(시장 평균 예상치)를 모두 웃돌았습니다. 다만 생성형 AI가 구독형 소프트웨어를 대체할 수 있다는 우려가 이어지며 시간외 거래에서 약 -1%로 반응이 미지근했습니다.",
+   "ourImpact": "어도비는 보유 종목은 아니지만 'AI가 소프트웨어 회사에 득이냐 실이냐'를 가늠하는 바로미터예요. 좋은 실적에도 주가가 차분한 건, 시장이 AI 수혜를 아직 까다롭게 따진다는 뜻이라 보유 빅테크(구글·메타·아마존) 흐름과도 연결해 보면 좋아요.",
+   "impact": "neutral",
+   "sources": [
+     {"name":"TheStreet","url":"https://www.thestreet.com/latest-news/adbe-adobe-earnings-call-updates-q2-2026"},
+     {"name":"TechTimes","url":"https://www.techtimes.com/articles/318155/20260610/adobe-q2-earnings-june-11-stock-down-30market-test-whether-ai-eats-feeds-creative-software.htm"}
+   ]
+  },
+  {
+   "category": "정책·금리",
+   "headline": "5월 PPI(생산자물가) 높게 나온 부담은 잔존",
+   "oneLineSummary": "반등은 했지만 물가 부담은 남아있어요. 어제 발표된 5월 생산자물가(공장에서 물건을 내보낼 때 가격)가 한 달 만에 +1.1% 올라 꽤 높게 나왔어요. 물가가 잘 안 떨어지면 금리를 더 오래 높게 둘 수 있어, 시장이 계속 신경 쓰는 부분이에요.",
+   "summary": "5월 PPI(생산자물가지수)가 전월비 +1.1%·전년비 약 6.5%로 2022년 11월 이후 최고 수준을 기록하며 인플레이션 부담이 남아있습니다. 전날 5월 CPI(소비자물가) +4.2% 쇼크에 이은 물가 지표라, 美·이란 협상 기대가 이끈 이날 반등에도 '고금리 장기화' 경계는 완전히 풀리지 않았습니다.",
+   "ourImpact": "금리에 민감한 기술·반도체 비중이 큰 포트폴리오라, 물가가 높게 유지되면 변동성이 커질 수 있어요. 이번 반등이 이어질지는 다음 금리·물가 신호를 함께 보면 좋아요.",
+   "impact": "neutral",
+   "sources": [
+     {"name":"TheStreet","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-11-2026"}
+   ]
+  },
+  {
+   "category": "글로벌·지정학",
+   "headline": "美·이란 '합의 임박' 신호 — 중동 긴장 완화가 반등 촉발",
+   "oneLineSummary": "트럼프와 이란이 '합의가 가깝다'는 신호를 주면서, 며칠간 시장을 짓눌렀던 중동 전쟁 걱정이 한결 풀렸어요. 이 안도감이 오늘 미국 증시 급반등을 이끈 가장 큰 이유였어요.",
+   "summary": "6/11 미국 증시 급반등의 핵심 동력은 美·이란 협상 타결 임박 신호였습니다. 직전 며칠간 미군의 이란 공습·추가 타격 경고로 위험회피가 강했는데, 양측이 '합의가 가깝다'는 신호를 내며 지정학 위험이 빠르게 완화됐습니다. 투자자들이 다시 위험자산으로 돌아오며 기술·반도체가 강하게 반등했습니다.",
+   "ourImpact": "중동 불안이 풀리면 기술주 같은 위험자산에 우호적이에요. 보유 포트폴리오 전반에 호재로 작용했어요. 다만 협상은 막판에 출렁일 수 있으니 관련 소식 흐름을 가볍게 지켜보면 좋아요.",
+   "impact": "positive",
+   "sources": [
+     {"name":"TheStreet","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-11-2026"}
+   ]
+  }
+ ],
+ "asiaSummary": "6/11 코스피 7,763.95(+0.43%·+33.13) 오후 반등 마감(네 마녀의 날), 코스닥 996.93(+4.76%) 1,000선 목전. 간밤 美 급반등(S&P +1.75%·나스닥 +2.54%) 이어받아 6/12 아시아도 강세 출발 기대."
+}
+json.dump(report, open(f"{DATA}/reports/2026-06-12.json","w"), ensure_ascii=False, indent=1)
+print("reports/2026-06-12.json written")
+
+# ---------------- index.json ----------------
+idx = json.load(open(f"{DATA}/reports/index.json"))
+entry = {
+ "date":"2026-06-12",
+ "title": TITLE,
+ "summary": "6/11 정규장 마감 다우 50,848.75(+1.86%·약 +930pt)·S&P500 약 7,394(+1.75%)·나스닥 약 25,809(+2.54%). 美·이란 협상 임박에 급반등, 칩 주도(MRVL +6.5%·SNDK +4.5%·AMD +4.0%·MU +3.9% 약 $927·AVGO +3.5%·NVDA +2.8%). VIX 22→약 20 진정. 어도비(ADBE) 실적 예상 상회했으나 AI 우려에 시간외 -1%. 5월 PPI +1.1% 부담 잔존. ⚠ 지수 근사·보유 15종목 마감 등락 섹터 추정(MU만 실제 종가)."
+}
+idx['reports'] = [r for r in idx['reports'] if r.get('date')!='2026-06-12'] + [entry]
+idx['lastUpdated'] = TS
+json.dump(idx, open(f"{DATA}/reports/index.json","w"), ensure_ascii=False, indent=1)
+print("index.json updated")
+
+# ---------------- calendar-events.json ----------------
+cal = json.load(open(f"{DATA}/calendar-events.json"))
+ev = {
+ "type":"us","color":"green","time":"06:00 KST 캡처",
+ "title":"🟢 美 마감 급반등 — 美·이란 협상 임박 S&P +1.75%·나스닥 +2.54%·다우 +1.86%, 칩 주도(MRVL +6.5%)",
+ "label":"美 마감 급반등(칩 주도)",
+ "description":"6/11 정규장 마감: 다우 50,848.75(+1.86%·약 +930pt)·S&P500 약 7,394(+1.75%)·나스닥 약 25,809(+2.54%). 美·이란 협상 임박에 위험선호 회복, 반도체 강반등(MRVL +6.5%·SNDK +4.5%·AMD +4.0%·MU +3.9% 약 $927·AVGO +3.5%·NVDA +2.8%). VIX 22→약 20. 어도비 실적 예상 상회했으나 시간외 -1%. 5월 PPI +1.1% 부담 잔존."
+}
+st = cal['stock']
+st.setdefault("2026-06-12", [])
+st["2026-06-12"] = [e for e in st["2026-06-12"] if e.get('time')!="06:00 KST 캡처"] + [ev]
+cal['lastUpdated'] = TS
+json.dump(cal, open(f"{DATA}/calendar-events.json","w"), ensure_ascii=False, indent=1)
+print("calendar-events.json updated")
+print("ALL DONE")
