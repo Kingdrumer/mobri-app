@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-12T22:45:05+09:00",
+  "lastUpdated": "2026-06-13T06:10:00+09:00",
   "us": [
     {
       "ticker": "GOOG",
       "name": "알파벳 (구글)",
       "sector": "빅테크",
-      "price": 356.5,
-      "change1D": -0.02,
+      "price": 358.28,
+      "change1D": 0.5,
       "change1W": -6.5,
       "change1M": -8.4,
       "changeYTD": 12.2,
@@ -57,10 +57,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "Sundar Pichai",
         "business": "알파벳은 지주 회사다. 사업 부문은 Google Services, Google Cloud 및 Other Bets 등이다. Google Services 부문은 광고, Android, Chrome, 장치, Google Maps, Google Play, Search, YouTube 등의 제품 및 서비스를 제공한다. Google Cloud 부문은 기업 고객을 위한",
@@ -71,11 +71,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $395.00로 지금 가격($386.77) 근처에 거의 도달했어요(+2%). 추가 상승 여력은 제한적. 추천 등급은 매수 (4.35)예요. 분석가별 의견은 $185.00~$450.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/GOOG/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -84,8 +84,8 @@
       "ticker": "META",
       "name": "메타",
       "sector": "빅테크",
-      "price": 572.5,
-      "change1D": 0.72,
+      "price": 574.79,
+      "change1D": 0.4,
       "change1W": -8.4,
       "change1M": -4.2,
       "changeYTD": -12.3,
@@ -137,10 +137,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "Mark Zuckerberg",
         "business": "이 회사는 사람들이 연결하고 공유하고, 커뮤니티를 찾고, 비즈니스를 성장시키는 데 도움이 되는 기술을 개발한다. 이 회사의 제품은 사람들이 모바일 장치, 개인용 컴퓨터, 가상현실(VR) 및 혼합현실(MR) 헤드셋, 웨어러블을 통해 친구 및 가족과 연결하고 공유할 수 있도록 지원한다. 이 회사는 2개의 부문인 Family of Apps(FoA)와 Realit",
@@ -151,11 +151,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $825.72로 지금 가격($603.84)에서 +37% 더 오를 여력이 크다고 봐요. 추천 등급은 매수 (4.18)예요. 분석가별 의견은 $614.00~$1,015.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/META/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -164,8 +164,8 @@
       "ticker": "AMZN",
       "name": "아마존",
       "sector": "빅테크",
-      "price": 243.0,
-      "change1D": 0.62,
+      "price": 243.73,
+      "change1D": 0.3,
       "change1W": -7.2,
       "change1M": -8.3,
       "changeYTD": 8.8,
@@ -216,10 +216,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "Jeffrey P. Bezos",
         "business": "아마존닷컴은 고객에게 다양한 제품과 서비스를 제공한다. 스토어를 통해 제공되는 제품에는 재판매를 위해 구매한 상품 및 콘텐츠와 타사 판매자가 제공하는 제품이 포함된다. 사업 부문은 북미, 국제, 아마존 웹 서비스(AWS)로 나뉜다. 온라인 및 오프라인 스토어를 통해 소비자에게 서비스를 제공하며 선택, 가격, 편의성에 중점을 둔다. 고객은 웹사이트, 모바일",
@@ -230,11 +230,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $306.15로 지금 가격($269.00)에서 +14% 더 오를 여력이 있어요. 추천 등급은 매수 (4.21)예요. 분석가별 의견은 $207.00~$370.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/AMZN/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -243,8 +243,8 @@
       "ticker": "NVDA",
       "name": "엔비디아",
       "sector": "반도체",
-      "price": 205.5,
-      "change1D": 0.31,
+      "price": 206.94,
+      "change1D": 0.7,
       "change1W": -0.7,
       "change1M": 6.8,
       "changeYTD": 12.5,
@@ -252,7 +252,7 @@
       "signal": "yellow",
       "note": "6/11 美 종가 +2.2% $204.87 — $200선 회복, 반도체 랠리 동참",
       "simpleExplain": "AI GPU 압도적 1위. AI 시대의 핵심 인프라 공급사. 5/20 Q1 실적이 단기 가장 큰 이벤트.",
-      "todayWhy": "엔비디아는 +0.3%로 보합권 출발. 장 열기 전 시간외 거래에서 +0.6%였고, AI 반도체 수요 기대가 이어지고 있어요.",
+      "todayWhy": "숨 고르기 뒤 오늘 +0.7% 올랐어요. 미국 증시가 전반적으로 차분히 오른 하루였어요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 266,
@@ -314,10 +314,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "Jen-Hsun Huang",
         "business": "이 회사는 인공지능(AI) 인프라 업체로 고난도 연산 문제 해결을 지원하기 위한 가속 컴퓨팅 사업을 영위한다. 사업부문은 Compute & Networking 부문과 Graphics 부문으로 구성된다. Compute & Networking 부문에는 데이터센터용 가속 컴퓨팅 및 네트워킹 플랫폼, AI 솔루션 및 소프트웨어, 자동차 플랫폼 및 자율주행·전기차",
@@ -328,11 +328,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $264.95로 지금 가격($221.98)에서 +19% 더 오를 여력이 있어요. 추천 등급은 매수 (4.26)예요. 분석가별 의견은 $138.00~$432.78 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/NVDA/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -341,8 +341,8 @@
       "ticker": "TSM",
       "name": "TSMC",
       "sector": "반도체",
-      "price": 421.0,
-      "change1D": -0.02,
+      "price": 422.68,
+      "change1D": 0.4,
       "change1W": 4.1,
       "change1M": 10.5,
       "changeYTD": 43.3,
@@ -403,10 +403,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "C.C. Wei",
         "business": "타이완 반도체 매뉴팩처링은 주로 회로 제조 서비스 제공에 종사하는 대만 기반의 회사이다. 이 회사의 집적 회로 제조 서비스에는 공정 기술, 특수 공정 기술, 설계 생태계 지원, 마스크 기술, 3DFabricTM 고급 패키징 및 실리콘 적층 기술 서비스가 포함된다. 이 회사는 5nm 기술의 이전 및 양산을 완료했으며, 3nm 공정 기술과 2nm 공정 기술의",
@@ -417,11 +417,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $446.18로 지금 가격($404.54)에서 +10% 더 오를 여력이 있어요. 추천 등급은 매수 (4.32)예요. 분석가별 의견은 $205.00~$600.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/TSM/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -430,8 +430,8 @@
       "ticker": "AVGO",
       "name": "브로드컴",
       "sector": "반도체",
-      "price": 385.5,
-      "change1D": -0.02,
+      "price": 387.81,
+      "change1D": 0.6,
       "change1W": -11.4,
       "change1M": -7.3,
       "changeYTD": 14.4,
@@ -500,10 +500,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "Hock E. Tan",
         "business": "이 회사는 광범위한 반도체, 엔터프라이즈 소프트웨어 및 보안 솔루션을 설계, 개발, 공급하는 글로벌 기술 기업이다. 반도체 솔루션과 인프라 소프트웨어의 두 가지 부문으로 운영된다. 반도체 솔루션 부문에는 모든 제품 라인과 지적 재산권(IP) 라이선싱이 포함된다. 데이터 센터, 서비스 제공업체 및 엔터프라이즈 네트워킹 애플리케이션에서 데이터 이동을 관리하기",
@@ -514,11 +514,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $468.31로 지금 가격($427.83) 근처에 거의 도달했어요(+9%). 추가 상승 여력은 제한적. 추천 등급은 매수 (4.24)예요. 분석가별 의견은 $360.00~$630.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/AVGO/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -527,8 +527,8 @@
       "ticker": "MU",
       "name": "마이크론",
       "sector": "반도체",
-      "price": 935.0,
-      "change1D": -6.11,
+      "price": 951.83,
+      "change1D": 1.8,
       "change1W": -0.4,
       "change1M": 51.1,
       "changeYTD": 238.7,
@@ -536,7 +536,7 @@
       "signal": "red",
       "note": "6/11 美 종가 +11.7% $995.87 — $1,000 임박! 메모리 슈퍼사이클",
       "simpleExplain": "메모리 반도체. NVDA·AMD GPU에 들어가는 HBM 메모리 핵심 공급. AI 호황 = 메모리 호황 공식.",
-      "todayWhy": "마이크론은 어제까지 며칠간 너무 가파르게 올라서(어제만 +11.7%) 오늘은 차익 실현 매물에 개장 직후 한때 -9%까지 빠졌다가 -6%대로 낙폭을 줄였어요. 가격이 크게 출렁이는 중이에요. 메모리 슈퍼사이클(메모리 호황) 기대 자체가 꺾인 건 아니에요.",
+      "todayWhy": "어제 급반등에 이어 오늘도 +1.8% 더 올랐어요. 메모리(데이터 저장 칩) 가격이 계속 오를 거란 기대가 살아 있어요. 6/5 크게 빠졌던 게 빠르게 회복되는 흐름이에요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 800,
@@ -553,6 +553,12 @@
         ]
       },
       "recentNews": [
+        {
+          "date": "2026-06-12",
+          "headline": "MU 메모리 회복세 지속 +1.8% (6/12 마감)",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html"
+        },
         {
           "date": "2026-06-11",
           "headline": "MU +3.9% 약 $927 — 반도체 반등 속 메모리 강세",
@@ -598,10 +604,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": "⚠️ 변동성 큼 — 개장가 약 905달러(-9%)에서 -6%대로 빠르게 반등 중. 출처별 시세 차이 커 개장 직후 스냅샷 기준.",
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "Sanjay Mehrotra",
         "business": "이 회사는 메모리 및 스토리지 솔루션 제공업체다. 이 회사는 마이크론 및 크루셜 브랜드를 통해 고성능 동적 랜덤 액세스 메모리(DRAM), NAND, NOR 메모리 및 스토리지 제품 포트폴리오를 제공한다. 회사의 사업 부문에는 컴퓨팅 및 네트워킹 사업부(CNBU), 모바일 사업부(MBU), 임베디드 사업부(EBU), 스토리지 사업부(SBU)가 있다. CNB",
@@ -612,11 +618,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $540.54인데 지금 가격($791.00)이 이미 그보다 비싸요(-32%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.22)예요. 분석가별 의견은 $125.00~$1,000.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/MU/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -625,8 +631,8 @@
       "ticker": "MRVL",
       "name": "마벨",
       "sector": "반도체",
-      "price": 281.5,
-      "change1D": 0.28,
+      "price": 283.75,
+      "change1D": 0.8,
       "change1W": 51.2,
       "change1M": 83.6,
       "changeYTD": 264.8,
@@ -697,10 +703,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "Matthew J. Murphy",
         "business": "이 회사는 자회사를 통해 데이터 인프라 반도체 솔루션을 공급하는 업체다. 이 회사는 집적 회로의 설계, 개발 및 판매에 종사한다. 이 회사의 제품 솔루션은 데이터 센터, 엔터프라이즈 네트워킹, 통신사 인프라, 소비자, 자동차/산업 등 5가지 최종 시장에 서비스를 제공한다. 이 회사의 제품에는 맞춤형 애플리케이션별 집적 회로(ASIC), 전자 광학, 이더넷",
@@ -711,11 +717,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $127.69인데 지금 가격($168.75)이 이미 그보다 비싸요(-24%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.09)예요. 분석가별 의견은 $85.00~$195.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/MRVL/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -724,8 +730,8 @@
       "ticker": "AMD",
       "name": "AMD",
       "sector": "반도체",
-      "price": 492.0,
-      "change1D": 0.73,
+      "price": 494.46,
+      "change1D": 0.5,
       "change1W": -0.1,
       "change1M": 45.2,
       "changeYTD": 140.9,
@@ -782,10 +788,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "Lisa T. Su",
         "business": "이 회사는 글로벌 반도체 회사다. 고성능 컴퓨팅, 그래픽 및 시각화 기술에 중점을 둔다. 데이터 센터, 클라이언트, 게임 및 임베디드 부문이 있다. 데이터 센터 부문에는 서버 중앙 처리 장치(CPU), 그래픽 처리 장치(GPU), 가속 처리 장치(APU), 데이터 처리 장치(DPU), 필드 프로그래머블 게이트 어레이(FPGA), 스마트 네트워크 인터페이스",
@@ -796,11 +802,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $410.94인데 지금 가격($460.00)이 이미 그보다 비싸요(-11%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.09)예요. 분석가별 의견은 $134.20~$625.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/AMD/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -809,8 +815,8 @@
       "ticker": "SNDK",
       "name": "샌디스크",
       "sector": "반도체",
-      "price": 1885.0,
-      "change1D": 0.19,
+      "price": 1913.27,
+      "change1D": 1.5,
       "change1W": 9.7,
       "change1M": 32.1,
       "changeYTD": 682.4,
@@ -818,7 +824,7 @@
       "signal": "yellow",
       "note": "6/11 美 종가 +14.5% $1,881.51 — 낸드 수요 폭발, 신고가 경신",
       "simpleExplain": "낸드 플래시 메모리 회사. AI 데이터센터 스토리지 수요 폭발의 1차 수혜. 1년 +3,300% 누적 차익실현 위험.",
-      "todayWhy": "샌디스크는 어제 +14.5% 폭등한 뒤 오늘은 보합권에서 숨 고르기 출발. NAND 메모리 공급 부족 수혜 기대는 여전해요.",
+      "todayWhy": "오늘 +1.5% 올랐어요. 마이크론 같은 메모리 회사들이 같이 오르면서 샌디스크도 매수세가 들어왔어요.",
       "outlook": {
         "rating": "Hold",
         "targetPrice": 1700,
@@ -875,10 +881,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": "개장 직후 출처 간 시세 차이 있어 보합 추정 — 차기 캡처 시 갱신.",
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "David V. Goeckeler",
         "business": "이 회사는 낸드 플래시 기술을 기반으로 한 데이터 저장 장치 및 솔루션을 개발, 제조, 공급하는 회사로 전 세계에 소비자 브랜드와 프랜차이즈를 보유하고 있다. 이 회사의 솔루션으로는 다양한 SSD(솔리드 스테이트 드라이브) 임베디드 제품, 이동식 카드, USB 드라이브, 웨이퍼 및 부품이 있다. 광범위한 기술 및 제품 포트폴리오는 클라우드, 클라이언트, 소",
@@ -889,11 +895,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $1,199.42인데 지금 가격($1542.87)이 이미 그보다 비싸요(-22%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.09)예요. 분석가별 의견은 $250.00~$2,000.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/SNDK/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -902,8 +908,8 @@
       "ticker": "DELL",
       "name": "델",
       "sector": "AI 인프라",
-      "price": 388.0,
-      "change1D": -0.88,
+      "price": 389.16,
+      "change1D": 0.3,
       "change1W": -6.8,
       "change1M": 81.2,
       "changeYTD": 211.4,
@@ -973,10 +979,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": "⚠️ 출처 간 시세 차이로 정확도 주의 — 개장 직후 추정치.",
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "Michael S. Dell",
         "business": "이 회사는 광범위한 종합적이고 통합적인 솔루션, 제품 및 서비스를 설계, 개발, 제조, 마케팅, 판매 및 지원하는 사업을 한다. 인프라 솔루션 그룹(ISG)과 클라이언트 솔루션 그룹(CSG)의 두 부문으로 운영된다. ISG 부문은 AI, 머신 러닝, 데이터 분석, 멀티 클라우드 환경을 지원하는 솔루션으로 고객의 디지털 트랜스포메이션을 지원한다. 올플래시 어",
@@ -987,11 +993,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $185.97인데 지금 가격($244.49)이 이미 그보다 비싸요(-24%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (3.89)예요. 분석가별 의견은 $110.00~$260.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/DELL/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -1000,8 +1006,8 @@
       "ticker": "LITE",
       "name": "루멘텀",
       "sector": "AI 인프라",
-      "price": 874.0,
-      "change1D": -1.75,
+      "price": 879.24,
+      "change1D": 0.6,
       "change1W": 2.0,
       "change1M": -12.5,
       "changeYTD": 136.3,
@@ -1064,10 +1070,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "Michael E. Hurlston",
         "business": "이 회사는 제조, 검사 및 생명과학 애플리케이션을 위한 광통신(OpComms) 및 상업용 레이저(레이저)를 비롯한 다양한 최종 시장 애플리케이션을 다루는 광학 및 광자 제품 공급업체다. 사업 부문은 광통신과 레이저로 나뉜다. 광통신 부문에는 액세스(로컬), 지하철(도심), 장거리(도시 간 및 전 세계), 해저(수중) 애플리케이션을 위한 통신사 네트워크를 비",
@@ -1078,11 +1084,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $1,065.07로 지금 가격($901.50)에서 +18% 더 오를 여력이 있어요. 추천 등급은 매수 (4.04)예요. 분석가별 의견은 $560.11~$1,400.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/LITE/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -1091,8 +1097,8 @@
       "ticker": "CLS",
       "name": "셀레스티카",
       "sector": "AI 인프라",
-      "price": 389.0,
-      "change1D": 0.81,
+      "price": 391.72,
+      "change1D": 0.7,
       "change1W": 1.4,
       "change1M": -6.4,
       "changeYTD": 32.2,
@@ -1149,10 +1155,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "Robert Andrew Mionis",
         "business": "이 회사는 설계, 제조, 하드웨어 플랫폼 및 공급망 솔루션에 종사한다. 이 회사는 첨단 기술 솔루션(ATS)과 커넥티비티 및 클라우드 솔루션(CCS)의 두 부문으로 운영된다. ATS 부문은 ATS 최종 시장으로 구성되며 항공우주 및 방위(A&D), 산업, 헬스 테크 및 자본 장비 사업으로 구성된다. 자본 장비 사업은 반도체, 디스플레이 및 로봇 장비 사업으",
@@ -1163,11 +1169,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $427.29로 지금 가격($380.63)에서 +12% 더 오를 여력이 있어요. 추천 등급은 매수 (4.25)예요. 분석가별 의견은 $176.00~$550.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/CLS/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -1176,8 +1182,8 @@
       "ticker": "CRDO",
       "name": "크레도",
       "sector": "AI 인프라",
-      "price": 263.0,
-      "change1D": -0.66,
+      "price": 265.63,
+      "change1D": 1.0,
       "change1W": 0.1,
       "change1M": 22.1,
       "changeYTD": 64.3,
@@ -1185,7 +1191,7 @@
       "signal": "yellow",
       "note": "6/11 美 종가 +11.4% $264.76 — 광통신 칩 신고가 경신",
       "simpleExplain": "AI 데이터센터 고속 데이터 전송 칩. NVDA·AMD GPU 클러스터 연결의 핵심 부품. 베타 3.43으로 우리 포트폴리오 변동성 1위.",
-      "todayWhy": "크레도는 보합권 출발. 어제 +11.4% 급등한 뒤라 잠시 쉬어가는 모습이에요. 다만 출처마다 시세 차이가 커서 흐름만 가볍게 지켜보면 좋아요.",
+      "todayWhy": "오늘 +1.0% 올랐어요. AI 데이터센터에서 칩끼리 빠르게 잇는 광통신 기술 수요 기대가 이어졌어요.",
       "outlook": {
         "rating": "Moderate Buy",
         "targetPrice": 208,
@@ -1235,10 +1241,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": "⚠️ 출처 간 시세 차이 큼(개장가 242~269달러 범위) — 보합 추정, 차기 캡처 시 갱신.",
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "William Brennan",
         "business": "이 회사는 케이맨 제도에 기반을 둔 지주 회사다. 데이터 인프라 시장의 모든 유선 연결에서 대역폭 장벽을 허무는 고속 솔루션을 제공한다. 데이터 인프라 시장에서 데이터 속도와 그에 따른 대역폭 요구 사항이 기하급수적으로 증가함에 따라 전력 효율을 개선하는 고속 연결 솔루션을 제공한다. 이 회사의 연결 솔루션은 새롭게 부상하는 초당 100기가비트(G), 20",
@@ -1249,11 +1255,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $209.71인데 지금 가격($210.22)이 이미 그보다 비싸요(-0%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.30)예요. 분석가별 의견은 $170.00~$260.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/CRDO/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -1262,8 +1268,8 @@
       "ticker": "TLN",
       "name": "탈렌에너지",
       "sector": "AI 전력",
-      "price": 347.0,
-      "change1D": 0.64,
+      "price": 345.61,
+      "change1D": -0.4,
       "change1W": -8.7,
       "change1M": -8.2,
       "changeYTD": -5.9,
@@ -1271,7 +1277,7 @@
       "signal": "yellow",
       "note": "6/11 美 종가 +2.4% $344.80 — 전력株 반등",
       "simpleExplain": "원전·천연가스 발전사. AI 데이터센터가 늘수록 전력 수요도 같이 폭발. AWS와 18B$ 장기 PPA(전력 공급) 계약 체결.",
-      "todayWhy": "탈렌에너지는 +0.6%로 강보합 출발. 유가가 내려도 전력 수요는 영향이 적어 비교적 안정적인 흐름이에요.",
+      "todayWhy": "오늘 -0.4% 살짝 내렸어요. 미국과 이란이 전쟁을 끝낼 거란 기대로 기름값이 -3.4% 내려가면서, 전기·에너지 회사 주가도 같이 눌렸어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 420,
@@ -1287,6 +1293,12 @@
         ]
       },
       "recentNews": [
+        {
+          "date": "2026-06-12",
+          "headline": "美·이란 종전 기대에 유가 -3.4%($84.76)…에너지주 약세",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html"
+        },
         {
           "date": "2026-05-06",
           "headline": "Q1 EBITDA $473M·FCF $350M (전년 4배), 2026 가이던스 재확인",
@@ -1308,10 +1320,10 @@
       ],
       "priceSourcedFrom": [
         "CNBC",
-        "Yahoo",
-        "Investing.com"
+        "TheStreet",
+        "Yahoo Finance"
       ],
-      "dataQualityNote": null,
+      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
       "company": {
         "ceo": "Terry L. Nutt",
         "business": "이 회사는 독립적인 전력 생산 및 인프라 회사다. 미국에서 약 10.7기가와트의 전력 인프라를 소유 및 운영한다. 중부 대서양과 몬태나에 위치한 발전소를 통해 전력, 용량 및 보조 서비스를 생산하여 PJM 및 WECC를 포함한 미국 도매 전력 시장에 판매한다. 이미 대부분의 전력을 무탄소 원자력 및 저탄소 가스 연소 시설에서 생산하고 있지만, 저탄소 연료로",
@@ -1322,11 +1334,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $452.39로 지금 가격($386.87)에서 +17% 더 오를 여력이 있어요. 추천 등급은 매수 (4.21)예요. 분석가별 의견은 $307.00~$548.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-12T08:10:00+09:00",
+        "fetchedAt": "2026-06-13T06:10:00+09:00",
         "sources": [
           {
-            "url": "https://api.stock.naver.com/stock/TLN/basic",
-            "note": "2026-06-11 16:00 ET 종가"
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
+            "note": "2026-06-12 16:00 ET 종가"
           }
         ]
       }
@@ -1398,7 +1410,7 @@
     },
     "asOfNote": "15:45 KST 아시아 마감 캡처 (6/12)"
   },
-  "marketStatus": "🟡 美 증시 보합 출발 — 어제(6/11) 급반등(S&P +1.75%) 뒤 숨 고르기. S&P500 약 7,295(보합)·나스닥 약보합(-0.3%)·다우 +0.5%·VIX 19~20으로 진정. 美·이란 평화합의가 일요일 서명될 수 있다는 보도에 WTI 유가 -2.8%(약 $85)·美 10년물 4.47%(-10bp)로 하락하며 인플레 부담 완화. 사상 최대 규모 스페이스X(SPCX) IPO가 $135로 데뷔(상장가 대비 $150~200 기대). 보유주는 혼조 — 메모리 마이크론(MU)은 급등 피로에 개장 -9%→-6%대 반등, 광통신 루멘텀(LITE) -1.8%, 반면 AMD·메타·아마존은 +0.6~0.7% 강보합. 마벨(MRVL)은 어도비 CFO 영입 소식. 어도비는 '프리미엄 전환' 우려로 -6%.",
+  "marketStatus": "🟢 美 증시 소폭 상승 마감(6/12 금) — 다우 51,202(+0.7%)·S&P500 7,431(+0.5%)·나스닥 25,889(+0.3%). 변동 컸던 한 주를 차분한 상승으로 마무리. 美·이란 종전 합의가 며칠 내 서명될 수 있다는 기대(고위 관계자 '80% 확률')에 WTI 유가 -3.4%($84.76)로 하락. 사상 최대 규모 스페이스X(SPCX) IPO가 +19% $160.95로 첫날 데뷔, 머스크 세계 첫 조만장자 등극. 보유주는 메모리(MU +1.8%·SNDK +1.5%)·광통신(CRDO +1.0%)이 회복세를 이어가며 강세, 에너지 탈렌(TLN)은 유가 하락에 -0.4% 약보합. 금요일 장 마감 후 발표된 빅테크 실적은 없었어요(오라클은 6/10 수요일 발표).",
   "signals": {
     "asOf": "2026-06-11",
     "kr": [
@@ -2032,5 +2044,5 @@
       "latestSessionNote": "6/12(금) 코스피 8,123.62(+4.63%) 8천선 탈환·코스닥 1,029.05(+3.22%). 25거래일 만에 외국인 순매수 복귀+기관 동반 매수로 장중 매수 사이드카 발동. 美·이란 종전 기대+반도체 훈풍."
     }
   },
-  "marketSession": "US_OPEN"
+  "marketSession": "US_CLOSE"
 }
