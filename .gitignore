@@ -5,3 +5,5 @@ node_modules/
 .netlify/
 logs/
 *.bak
+_asia_update_*.py
+data/_asia_update_*.py
