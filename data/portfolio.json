@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-06-13T06:10:00+09:00",
+  "lastUpdated": "2026-06-13T08:25:00+09:00",
   "us": [
     {
       "ticker": "GOOG",
       "name": "알파벳 (구글)",
       "sector": "빅테크",
-      "price": 358.28,
+      "price": 358.16,
       "change1D": 0.5,
-      "change1W": -6.5,
-      "change1M": -8.4,
-      "changeYTD": 12.2,
+      "change1W": -2.1,
+      "change1M": -6.7,
+      "changeYTD": 14.1,
       "beta": 1.15,
       "signal": "yellow",
       "note": "6/11 美 종가 +0.9% $356.56 — 빅테크 중엔 차분한 상승",
       "simpleExplain": "구글 모회사. 검색·광고에서 안정적인 캐시카우, 클라우드+AI에서 구조적 성장 동력. 변동성은 빅테크 평균 수준.",
-      "todayWhy": "어제까지 크게 오른 빅테크가 오늘은 숨 고르기예요. 구글은 보합권에서 출발했어요. 회사가 약 848억 달러를 새로 조달한다는 소식이 있었는데, 주식 수가 늘면 기존 주주 몫이 조금 줄 수 있어서 시장은 차분하게 반응했어요.",
+      "todayWhy": "구글은 +0.5%로 차분하게 마감했어요. 빅테크가 전반적으로 쉬어가는 하루였고, 큰 뉴스 없이 강보합으로 한 주를 마쳤어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 425,
@@ -56,11 +56,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "Sundar Pichai",
         "business": "알파벳은 지주 회사다. 사업 부문은 Google Services, Google Cloud 및 Other Bets 등이다. Google Services 부문은 광고, Android, Chrome, 장치, Google Maps, Google Play, Search, YouTube 등의 제품 및 서비스를 제공한다. Google Cloud 부문은 기업 고객을 위한",
@@ -71,11 +71,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $395.00로 지금 가격($386.77) 근처에 거의 도달했어요(+2%). 추가 상승 여력은 제한적. 추천 등급은 매수 (4.35)예요. 분석가별 의견은 $185.00~$450.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/GOOG/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -84,16 +84,16 @@
       "ticker": "META",
       "name": "메타",
       "sector": "빅테크",
-      "price": 574.79,
-      "change1D": 0.4,
-      "change1W": -8.4,
-      "change1M": -4.2,
-      "changeYTD": -12.3,
+      "price": 566.98,
+      "change1D": -0.3,
+      "change1W": -4.4,
+      "change1M": -6.0,
+      "changeYTD": -14.1,
       "beta": 1.49,
       "signal": "yellow",
       "note": "6/11 美 종가 -0.5% $568.43 — 급등장에서 유일하게 약보합",
       "simpleExplain": "페이스북·인스타그램 모회사. 광고 매출이 본업, AI·메타버스 투자가 미래. 광고 사이클·AI 수익화 시점이 핵심.",
-      "todayWhy": "메타는 +0.7%로 살짝 올라 출발했어요. 어제 시장 전체가 급등한 뒤라 큰 움직임 없이 차분한 흐름이에요.",
+      "todayWhy": "메타는 -0.3%로 소폭 내렸어요. 어제 시장이 크게 오른 뒤라 빅테크가 차익 실현(오른 김에 일부 파는 것)에 살짝 눌렸어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 725,
@@ -136,11 +136,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "Mark Zuckerberg",
         "business": "이 회사는 사람들이 연결하고 공유하고, 커뮤니티를 찾고, 비즈니스를 성장시키는 데 도움이 되는 기술을 개발한다. 이 회사의 제품은 사람들이 모바일 장치, 개인용 컴퓨터, 가상현실(VR) 및 혼합현실(MR) 헤드셋, 웨어러블을 통해 친구 및 가족과 연결하고 공유할 수 있도록 지원한다. 이 회사는 2개의 부문인 Family of Apps(FoA)와 Realit",
@@ -151,11 +151,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $825.72로 지금 가격($603.84)에서 +37% 더 오를 여력이 크다고 봐요. 추천 등급은 매수 (4.18)예요. 분석가별 의견은 $614.00~$1,015.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/META/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -164,16 +164,16 @@
       "ticker": "AMZN",
       "name": "아마존",
       "sector": "빅테크",
-      "price": 243.73,
-      "change1D": 0.3,
-      "change1W": -7.2,
-      "change1M": -8.3,
-      "changeYTD": 8.8,
+      "price": 238.55,
+      "change1D": -1.2,
+      "change1W": -3.0,
+      "change1M": -10.3,
+      "changeYTD": 3.3,
       "beta": 1.47,
       "signal": "yellow",
       "note": "6/11 美 종가 +1.5% $241.51 — 소비주 완만 반등",
       "simpleExplain": "이커머스+AWS 클라우드. AI 시대엔 AWS가 캐시카우 + 성장엔진 동시 역할. 단기 사고는 단발성, 펀더멘털 견조.",
-      "todayWhy": "아마존은 +0.6%로 강보합 출발. 특별한 악재 없이 시장 분위기 따라 소폭 올랐어요.",
+      "todayWhy": "아마존은 -1.2% 내렸어요. 특별한 악재보다는 빅테크 전반이 숨 고르기에 들어가며 함께 약해졌어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 290,
@@ -215,11 +215,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "Jeffrey P. Bezos",
         "business": "아마존닷컴은 고객에게 다양한 제품과 서비스를 제공한다. 스토어를 통해 제공되는 제품에는 재판매를 위해 구매한 상품 및 콘텐츠와 타사 판매자가 제공하는 제품이 포함된다. 사업 부문은 북미, 국제, 아마존 웹 서비스(AWS)로 나뉜다. 온라인 및 오프라인 스토어를 통해 소비자에게 서비스를 제공하며 선택, 가격, 편의성에 중점을 둔다. 고객은 웹사이트, 모바일",
@@ -230,11 +230,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $306.15로 지금 가격($269.00)에서 +14% 더 오를 여력이 있어요. 추천 등급은 매수 (4.21)예요. 분석가별 의견은 $207.00~$370.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/AMZN/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -243,16 +243,16 @@
       "ticker": "NVDA",
       "name": "엔비디아",
       "sector": "반도체",
-      "price": 206.94,
-      "change1D": 0.7,
-      "change1W": -0.7,
-      "change1M": 6.8,
-      "changeYTD": 12.5,
+      "price": 205.19,
+      "change1D": 0.2,
+      "change1W": 0.0,
+      "change1M": -7.1,
+      "changeYTD": 10.0,
       "beta": 2.07,
       "signal": "yellow",
       "note": "6/11 美 종가 +2.2% $204.87 — $200선 회복, 반도체 랠리 동참",
       "simpleExplain": "AI GPU 압도적 1위. AI 시대의 핵심 인프라 공급사. 5/20 Q1 실적이 단기 가장 큰 이벤트.",
-      "todayWhy": "숨 고르기 뒤 오늘 +0.7% 올랐어요. 미국 증시가 전반적으로 차분히 오른 하루였어요.",
+      "todayWhy": "엔비디아는 +0.2% 보합으로 마감했어요. 큰 움직임 없이 차분하게 한 주를 마무리했어요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 266,
@@ -313,11 +313,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "Jen-Hsun Huang",
         "business": "이 회사는 인공지능(AI) 인프라 업체로 고난도 연산 문제 해결을 지원하기 위한 가속 컴퓨팅 사업을 영위한다. 사업부문은 Compute & Networking 부문과 Graphics 부문으로 구성된다. Compute & Networking 부문에는 데이터센터용 가속 컴퓨팅 및 네트워킹 플랫폼, AI 솔루션 및 소프트웨어, 자동차 플랫폼 및 자율주행·전기차",
@@ -328,11 +328,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $264.95로 지금 가격($221.98)에서 +19% 더 오를 여력이 있어요. 추천 등급은 매수 (4.26)예요. 분석가별 의견은 $138.00~$432.78 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/NVDA/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -341,16 +341,16 @@
       "ticker": "TSM",
       "name": "TSMC",
       "sector": "반도체",
-      "price": 422.68,
-      "change1D": 0.4,
-      "change1W": 4.1,
-      "change1M": 10.5,
-      "changeYTD": 43.3,
+      "price": 423.93,
+      "change1D": 0.7,
+      "change1W": 2.1,
+      "change1M": 6.7,
+      "changeYTD": 39.5,
       "beta": 1.12,
       "signal": "yellow",
       "note": "6/11 美 종가 +3.3% $421.07 — 파운드리 강세",
       "simpleExplain": "세계 최대 반도체 위탁생산. NVDA·AMD·AAPL이 모두 고객. AI 호황의 가장 안전한 노출 — 변동성도 가장 낮음.",
-      "todayWhy": "TSMC는 어제 종가 수준에서 보합 출발했어요. 어제 반도체 강세 뒤 오늘은 잠시 쉬어가는 모습이에요.",
+      "todayWhy": "TSMC는 +0.7% 강보합 마감. 반도체가 전반적으로 안정적인 흐름을 보였어요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 470,
@@ -402,11 +402,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "C.C. Wei",
         "business": "타이완 반도체 매뉴팩처링은 주로 회로 제조 서비스 제공에 종사하는 대만 기반의 회사이다. 이 회사의 집적 회로 제조 서비스에는 공정 기술, 특수 공정 기술, 설계 생태계 지원, 마스크 기술, 3DFabricTM 고급 패키징 및 실리콘 적층 기술 서비스가 포함된다. 이 회사는 5nm 기술의 이전 및 양산을 완료했으며, 3nm 공정 기술과 2nm 공정 기술의",
@@ -417,11 +417,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $446.18로 지금 가격($404.54)에서 +10% 더 오를 여력이 있어요. 추천 등급은 매수 (4.32)예요. 분석가별 의견은 $205.00~$600.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/TSM/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -430,16 +430,16 @@
       "ticker": "AVGO",
       "name": "브로드컴",
       "sector": "반도체",
-      "price": 387.81,
-      "change1D": 0.6,
-      "change1W": -11.4,
-      "change1M": -7.3,
-      "changeYTD": 14.4,
+      "price": 382.07,
+      "change1D": -0.9,
+      "change1W": -0.9,
+      "change1M": -8.9,
+      "changeYTD": 10.4,
       "beta": 2.44,
       "signal": "yellow",
       "note": "6/11 美 종가 +3.6% $385.57 — AI 칩 수요 기대 반등",
       "simpleExplain": "맞춤형 AI 칩 설계 회사. 메타·구글의 자체 AI 칩 핵심 파트너. 베타 2.44로 변동성 큼.",
-      "todayWhy": "브로드컴은 보합권에서 출발했어요. 어제 +3.6% 오른 뒤라 오늘은 차분해요.",
+      "todayWhy": "브로드컴은 -0.9% 소폭 내렸어요. 최근 약세 흐름이 이어지며 반도체 중 상대적으로 부진했어요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 460,
@@ -499,11 +499,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "Hock E. Tan",
         "business": "이 회사는 광범위한 반도체, 엔터프라이즈 소프트웨어 및 보안 솔루션을 설계, 개발, 공급하는 글로벌 기술 기업이다. 반도체 솔루션과 인프라 소프트웨어의 두 가지 부문으로 운영된다. 반도체 솔루션 부문에는 모든 제품 라인과 지적 재산권(IP) 라이선싱이 포함된다. 데이터 센터, 서비스 제공업체 및 엔터프라이즈 네트워킹 애플리케이션에서 데이터 이동을 관리하기",
@@ -514,11 +514,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $468.31로 지금 가격($427.83) 근처에 거의 도달했어요(+9%). 추가 상승 여력은 제한적. 추천 등급은 매수 (4.24)예요. 분석가별 의견은 $360.00~$630.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/AVGO/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -527,16 +527,16 @@
       "ticker": "MU",
       "name": "마이크론",
       "sector": "반도체",
-      "price": 951.83,
-      "change1D": 1.8,
-      "change1W": -0.4,
-      "change1M": 51.1,
-      "changeYTD": 238.7,
+      "price": 981.61,
+      "change1D": -1.4,
+      "change1W": 13.6,
+      "change1M": 28.1,
+      "changeYTD": 243.9,
       "beta": 2.43,
       "signal": "red",
       "note": "6/11 美 종가 +11.7% $995.87 — $1,000 임박! 메모리 슈퍼사이클",
       "simpleExplain": "메모리 반도체. NVDA·AMD GPU에 들어가는 HBM 메모리 핵심 공급. AI 호황 = 메모리 호황 공식.",
-      "todayWhy": "어제 급반등에 이어 오늘도 +1.8% 더 올랐어요. 메모리(데이터 저장 칩) 가격이 계속 오를 거란 기대가 살아 있어요. 6/5 크게 빠졌던 게 빠르게 회복되는 흐름이에요.",
+      "todayWhy": "마이크론은 -1.4% 내렸어요. 6/11 +11.7% 크게 오른 뒤라 차익 실현(오른 김에 일부 파는 것) 매물이 나왔어요. 그래도 $980 선은 지켰어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 800,
@@ -603,11 +603,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "Sanjay Mehrotra",
         "business": "이 회사는 메모리 및 스토리지 솔루션 제공업체다. 이 회사는 마이크론 및 크루셜 브랜드를 통해 고성능 동적 랜덤 액세스 메모리(DRAM), NAND, NOR 메모리 및 스토리지 제품 포트폴리오를 제공한다. 회사의 사업 부문에는 컴퓨팅 및 네트워킹 사업부(CNBU), 모바일 사업부(MBU), 임베디드 사업부(EBU), 스토리지 사업부(SBU)가 있다. CNB",
@@ -618,11 +618,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $540.54인데 지금 가격($791.00)이 이미 그보다 비싸요(-32%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.22)예요. 분석가별 의견은 $125.00~$1,000.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/MU/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -631,16 +631,16 @@
       "ticker": "MRVL",
       "name": "마벨",
       "sector": "반도체",
-      "price": 283.75,
-      "change1D": 0.8,
-      "change1W": 51.2,
-      "change1M": 83.6,
-      "changeYTD": 264.8,
+      "price": 279.7,
+      "change1D": -0.4,
+      "change1W": 6.2,
+      "change1M": 70.0,
+      "changeYTD": 229.1,
       "beta": 2.34,
       "signal": "yellow",
       "note": "6/11 美 종가 +11.1% $280.71 — 커스텀 AI 칩 기대 폭발",
       "simpleExplain": "맞춤형 칩(ASIC) 설계. 구글 TPU 공동개발 + NVDA $2B 투자. 1개월 +50% 폭주 후 단기 차익실현 정상.",
-      "todayWhy": "마벨은 보합권 출발. 어도비의 베테랑 재무책임자(CFO) 댄 던이 6/15부터 마벨의 새 CFO로 합류한다는 소식이 나왔어요. 경험 많은 인물 영입이라 길게 보면 긍정적이에요.",
+      "todayWhy": "마벨은 -0.4% 보합권 마감. 어제 +11% 급등 뒤 숨 고르기예요. 새 재무책임자(CFO) 영입 소식은 길게 보면 긍정적이에요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 220,
@@ -702,11 +702,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "Matthew J. Murphy",
         "business": "이 회사는 자회사를 통해 데이터 인프라 반도체 솔루션을 공급하는 업체다. 이 회사는 집적 회로의 설계, 개발 및 판매에 종사한다. 이 회사의 제품 솔루션은 데이터 센터, 엔터프라이즈 네트워킹, 통신사 인프라, 소비자, 자동차/산업 등 5가지 최종 시장에 서비스를 제공한다. 이 회사의 제품에는 맞춤형 애플리케이션별 집적 회로(ASIC), 전자 광학, 이더넷",
@@ -717,11 +717,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $127.69인데 지금 가격($168.75)이 이미 그보다 비싸요(-24%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.09)예요. 분석가별 의견은 $85.00~$195.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/MRVL/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -730,16 +730,16 @@
       "ticker": "AMD",
       "name": "AMD",
       "sector": "반도체",
-      "price": 494.46,
-      "change1D": 0.5,
-      "change1W": -0.1,
-      "change1M": 45.2,
-      "changeYTD": 140.9,
+      "price": 511.57,
+      "change1D": 4.7,
+      "change1W": 9.7,
+      "change1M": 14.1,
+      "changeYTD": 138.9,
       "beta": 1.85,
       "signal": "yellow",
       "note": "6/11 美 종가 +8.0% $488.45 — 칩 랠리 주도",
       "simpleExplain": "NVDA의 직접 경쟁사. MI 시리즈 GPU로 AI 시장 점유율 빠르게 확대 중. 5/7 어닝 폭발, 1개월 +91%.",
-      "todayWhy": "AMD는 +0.7%로 강보합 출발. 씨티가 투자의견을 '매수'로 올린 점이 힘을 보탰어요. 올해 들어 이미 많이 오른 종목이에요.",
+      "todayWhy": "AMD는 +4.7% 크게 올랐어요. 씨티가 투자의견을 '매수'로 올린 데 더해 반도체 강세가 이어지며 $500 선을 넘었어요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 510,
@@ -787,11 +787,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "Lisa T. Su",
         "business": "이 회사는 글로벌 반도체 회사다. 고성능 컴퓨팅, 그래픽 및 시각화 기술에 중점을 둔다. 데이터 센터, 클라이언트, 게임 및 임베디드 부문이 있다. 데이터 센터 부문에는 서버 중앙 처리 장치(CPU), 그래픽 처리 장치(GPU), 가속 처리 장치(APU), 데이터 처리 장치(DPU), 필드 프로그래머블 게이트 어레이(FPGA), 스마트 네트워크 인터페이스",
@@ -802,11 +802,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $410.94인데 지금 가격($460.00)이 이미 그보다 비싸요(-11%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.09)예요. 분석가별 의견은 $134.20~$625.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/AMD/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -815,16 +815,16 @@
       "ticker": "SNDK",
       "name": "샌디스크",
       "sector": "반도체",
-      "price": 1913.27,
-      "change1D": 1.5,
-      "change1W": 9.7,
-      "change1M": 32.1,
-      "changeYTD": 682.4,
+      "price": 1980.1,
+      "change1D": 5.2,
+      "change1W": 27.0,
+      "change1M": 36.4,
+      "changeYTD": 734.1,
       "beta": 2.41,
       "signal": "yellow",
       "note": "6/11 美 종가 +14.5% $1,881.51 — 낸드 수요 폭발, 신고가 경신",
       "simpleExplain": "낸드 플래시 메모리 회사. AI 데이터센터 스토리지 수요 폭발의 1차 수혜. 1년 +3,300% 누적 차익실현 위험.",
-      "todayWhy": "오늘 +1.5% 올랐어요. 마이크론 같은 메모리 회사들이 같이 오르면서 샌디스크도 매수세가 들어왔어요.",
+      "todayWhy": "샌디스크는 +5.2% 급등하며 신고가를 다시 썼어요. 낸드(저장용 메모리) 수요가 강할 거란 기대가 이어졌어요.",
       "outlook": {
         "rating": "Hold",
         "targetPrice": 1700,
@@ -880,11 +880,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "David V. Goeckeler",
         "business": "이 회사는 낸드 플래시 기술을 기반으로 한 데이터 저장 장치 및 솔루션을 개발, 제조, 공급하는 회사로 전 세계에 소비자 브랜드와 프랜차이즈를 보유하고 있다. 이 회사의 솔루션으로는 다양한 SSD(솔리드 스테이트 드라이브) 임베디드 제품, 이동식 카드, USB 드라이브, 웨이퍼 및 부품이 있다. 광범위한 기술 및 제품 포트폴리오는 클라우드, 클라이언트, 소",
@@ -895,11 +895,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $1,199.42인데 지금 가격($1542.87)이 이미 그보다 비싸요(-22%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.09)예요. 분석가별 의견은 $250.00~$2,000.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/SNDK/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -908,16 +908,16 @@
       "ticker": "DELL",
       "name": "델",
       "sector": "AI 인프라",
-      "price": 389.16,
-      "change1D": 0.3,
-      "change1W": -6.8,
-      "change1M": 81.2,
-      "changeYTD": 211.4,
+      "price": 395.57,
+      "change1D": 1.1,
+      "change1W": 0.3,
+      "change1M": 65.6,
+      "changeYTD": 214.2,
       "beta": 1.96,
       "signal": "yellow",
       "note": "6/11 美 종가 +5.9% $391.45 — AI 서버 수요株 반등",
       "simpleExplain": "AI 서버 OEM. NVDA GPU를 받아 기업 데이터센터에 납품하는 시스템 통합사. AI 백로그 $18.4B 사상 최대.",
-      "todayWhy": "델은 약보합 출발. 어제 강세 뒤 차익 실현이 살짝 나오는 모습이에요. AI 서버 수요 기대는 유지되고 있어요.",
+      "todayWhy": "델은 +1.1% 올랐어요. AI 서버 수요 기대가 유지되며 안정적으로 상승했어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 280,
@@ -978,11 +978,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "Michael S. Dell",
         "business": "이 회사는 광범위한 종합적이고 통합적인 솔루션, 제품 및 서비스를 설계, 개발, 제조, 마케팅, 판매 및 지원하는 사업을 한다. 인프라 솔루션 그룹(ISG)과 클라이언트 솔루션 그룹(CSG)의 두 부문으로 운영된다. ISG 부문은 AI, 머신 러닝, 데이터 분석, 멀티 클라우드 환경을 지원하는 솔루션으로 고객의 디지털 트랜스포메이션을 지원한다. 올플래시 어",
@@ -993,11 +993,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $185.97인데 지금 가격($244.49)이 이미 그보다 비싸요(-24%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (3.89)예요. 분석가별 의견은 $110.00~$260.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/DELL/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -1006,16 +1006,16 @@
       "ticker": "LITE",
       "name": "루멘텀",
       "sector": "AI 인프라",
-      "price": 879.24,
-      "change1D": 0.6,
-      "change1W": 2.0,
-      "change1M": -12.5,
-      "changeYTD": 136.3,
+      "price": 921.56,
+      "change1D": 3.6,
+      "change1W": 6.7,
+      "change1M": -7.1,
+      "changeYTD": 150.0,
       "beta": 2.38,
       "signal": "red",
       "note": "6/11 美 종가 +4.3% $889.59 — 광통신 강세 지속",
       "simpleExplain": "AI 데이터센터 광통신 핵심 부품. NVDA GPU와 GPU를 연결하는 광학 모듈 공급. CPO·OCS 수직 진출.",
-      "todayWhy": "루멘텀은 -1.8%로 약하게 출발. 어제 +4.3% 오른 광통신주가 오늘은 차익 실현에 눌렸어요. AI 데이터센터 광부품 수요 자체는 견조해요.",
+      "todayWhy": "루멘텀은 +3.6% 올랐어요. AI 데이터센터 광부품(빛으로 데이터를 빠르게 옮기는 부품) 수요 기대가 살아나며 강세였어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 1270,
@@ -1069,11 +1069,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "Michael E. Hurlston",
         "business": "이 회사는 제조, 검사 및 생명과학 애플리케이션을 위한 광통신(OpComms) 및 상업용 레이저(레이저)를 비롯한 다양한 최종 시장 애플리케이션을 다루는 광학 및 광자 제품 공급업체다. 사업 부문은 광통신과 레이저로 나뉜다. 광통신 부문에는 액세스(로컬), 지하철(도심), 장거리(도시 간 및 전 세계), 해저(수중) 애플리케이션을 위한 통신사 네트워크를 비",
@@ -1084,11 +1084,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $1,065.07로 지금 가격($901.50)에서 +18% 더 오를 여력이 있어요. 추천 등급은 매수 (4.04)예요. 분석가별 의견은 $560.11~$1,400.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/LITE/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -1097,16 +1097,16 @@
       "ticker": "CLS",
       "name": "셀레스티카",
       "sector": "AI 인프라",
-      "price": 391.72,
-      "change1D": 0.7,
-      "change1W": 1.4,
-      "change1M": -6.4,
-      "changeYTD": 32.2,
+      "price": 393.12,
+      "change1D": 1.9,
+      "change1W": 5.8,
+      "change1M": 5.1,
+      "changeYTD": 33.0,
       "beta": 2.42,
       "signal": "yellow",
       "note": "6/11 美 종가 +6.3% $385.86 — 변동 큰 종목, 랠리에 크게 반등",
       "simpleExplain": "AI 서버·스위치 시스템 통합 제조. 하이퍼스케일러(아마존·구글·메타) 맞춤형 인프라 공급. 1.6T CPO 이더넷 스위치 양산 대기.",
-      "todayWhy": "셀레스티카는 +0.8%로 강보합 출발. AI 서버 위탁생산 수요가 꾸준해 안정적인 흐름이에요.",
+      "todayWhy": "셀레스티카는 +1.9% 올랐어요. AI 서버 위탁생산(다른 회사 제품을 대신 만들어 주는 것) 수요가 꾸준해 강세를 보였어요.",
       "outlook": {
         "rating": "Strong Buy",
         "targetPrice": 480,
@@ -1154,11 +1154,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "Robert Andrew Mionis",
         "business": "이 회사는 설계, 제조, 하드웨어 플랫폼 및 공급망 솔루션에 종사한다. 이 회사는 첨단 기술 솔루션(ATS)과 커넥티비티 및 클라우드 솔루션(CCS)의 두 부문으로 운영된다. ATS 부문은 ATS 최종 시장으로 구성되며 항공우주 및 방위(A&D), 산업, 헬스 테크 및 자본 장비 사업으로 구성된다. 자본 장비 사업은 반도체, 디스플레이 및 로봇 장비 사업으",
@@ -1169,11 +1169,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $427.29로 지금 가격($380.63)에서 +12% 더 오를 여력이 있어요. 추천 등급은 매수 (4.25)예요. 분석가별 의견은 $176.00~$550.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/CLS/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -1182,16 +1182,16 @@
       "ticker": "CRDO",
       "name": "크레도",
       "sector": "AI 인프라",
-      "price": 265.63,
-      "change1D": 1.0,
-      "change1W": 0.1,
-      "change1M": 22.1,
-      "changeYTD": 64.3,
+      "price": 250.81,
+      "change1D": -5.3,
+      "change1W": 21.2,
+      "change1M": 26.3,
+      "changeYTD": 74.3,
       "beta": 3.43,
       "signal": "yellow",
       "note": "6/11 美 종가 +11.4% $264.76 — 광통신 칩 신고가 경신",
       "simpleExplain": "AI 데이터센터 고속 데이터 전송 칩. NVDA·AMD GPU 클러스터 연결의 핵심 부품. 베타 3.43으로 우리 포트폴리오 변동성 1위.",
-      "todayWhy": "오늘 +1.0% 올랐어요. AI 데이터센터에서 칩끼리 빠르게 잇는 광통신 기술 수요 기대가 이어졌어요.",
+      "todayWhy": "크레도는 -5.3% 크게 내렸어요. 6/11 신고가($264.76)를 찍은 뒤 차익 실현(오른 김에 일부 파는 것) 매물이 몰렸어요. 광통신 수요 자체는 견조해요.",
       "outlook": {
         "rating": "Moderate Buy",
         "targetPrice": 208,
@@ -1240,11 +1240,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "William Brennan",
         "business": "이 회사는 케이맨 제도에 기반을 둔 지주 회사다. 데이터 인프라 시장의 모든 유선 연결에서 대역폭 장벽을 허무는 고속 솔루션을 제공한다. 데이터 인프라 시장에서 데이터 속도와 그에 따른 대역폭 요구 사항이 기하급수적으로 증가함에 따라 전력 효율을 개선하는 고속 연결 솔루션을 제공한다. 이 회사의 연결 솔루션은 새롭게 부상하는 초당 100기가비트(G), 20",
@@ -1255,11 +1255,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $209.71인데 지금 가격($210.22)이 이미 그보다 비싸요(-0%). 분석가들 관점에선 단기 과열 가능성. 추천 등급은 매수 (4.30)예요. 분석가별 의견은 $170.00~$260.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/CRDO/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -1268,16 +1268,16 @@
       "ticker": "TLN",
       "name": "탈렌에너지",
       "sector": "AI 전력",
-      "price": 345.61,
-      "change1D": -0.4,
-      "change1W": -8.7,
-      "change1M": -8.2,
-      "changeYTD": -5.9,
+      "price": 360.54,
+      "change1D": 4.6,
+      "change1W": -1.2,
+      "change1M": -3.8,
+      "changeYTD": -3.8,
       "beta": 1.54,
       "signal": "yellow",
       "note": "6/11 美 종가 +2.4% $344.80 — 전력株 반등",
       "simpleExplain": "원전·천연가스 발전사. AI 데이터센터가 늘수록 전력 수요도 같이 폭발. AWS와 18B$ 장기 PPA(전력 공급) 계약 체결.",
-      "todayWhy": "오늘 -0.4% 살짝 내렸어요. 미국과 이란이 전쟁을 끝낼 거란 기대로 기름값이 -3.4% 내려가면서, 전기·에너지 회사 주가도 같이 눌렸어요.",
+      "todayWhy": "탈렌에너지는 +4.6% 올랐어요. 최근 며칠 눌렸던 AI 전력주가 반등하며 강세로 돌아섰어요.",
       "outlook": {
         "rating": "Buy",
         "targetPrice": 420,
@@ -1319,11 +1319,11 @@
         }
       ],
       "priceSourcedFrom": [
+        "네이버 금융(공식종가)",
         "CNBC",
-        "TheStreet",
         "Yahoo Finance"
       ],
-      "dataQualityNote": "지수 종가는 확정치(다우/S&P/나스닥). 개별 보유주 6/12 종가 등락률은 시장 흐름 기준 근사치.",
+      "dataQualityNote": "6/12 정규장 공식 종가로 재검증(직전 데이터는 장중 시점값이라 교체)",
       "company": {
         "ceo": "Terry L. Nutt",
         "business": "이 회사는 독립적인 전력 생산 및 인프라 회사다. 미국에서 약 10.7기가와트의 전력 인프라를 소유 및 운영한다. 중부 대서양과 몬태나에 위치한 발전소를 통해 전력, 용량 및 보조 서비스를 생산하여 PJM 및 WECC를 포함한 미국 도매 전력 시장에 판매한다. 이미 대부분의 전력을 무탄소 원자력 및 저탄소 가스 연소 시설에서 생산하고 있지만, 저탄소 연료로",
@@ -1334,11 +1334,11 @@
       },
       "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $452.39로 지금 가격($386.87)에서 +17% 더 오를 여력이 있어요. 추천 등급은 매수 (4.21)예요. 분석가별 의견은 $307.00~$548.00 범위에 있어요.",
       "_fetchMeta": {
-        "fetchedAt": "2026-06-13T06:10:00+09:00",
+        "fetchedAt": "2026-06-13T08:25:00+09:00",
         "sources": [
           {
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026",
-            "note": "2026-06-12 16:00 ET 종가"
+            "url": "https://api.stock.naver.com/chart/foreign/item/TLN/day",
+            "hash": "sha256-naverday"
           }
         ]
       }
@@ -1410,18 +1410,18 @@
     },
     "asOfNote": "15:45 KST 아시아 마감 캡처 (6/12)"
   },
-  "marketStatus": "🟢 美 증시 소폭 상승 마감(6/12 금) — 다우 51,202(+0.7%)·S&P500 7,431(+0.5%)·나스닥 25,889(+0.3%). 변동 컸던 한 주를 차분한 상승으로 마무리. 美·이란 종전 합의가 며칠 내 서명될 수 있다는 기대(고위 관계자 '80% 확률')에 WTI 유가 -3.4%($84.76)로 하락. 사상 최대 규모 스페이스X(SPCX) IPO가 +19% $160.95로 첫날 데뷔, 머스크 세계 첫 조만장자 등극. 보유주는 메모리(MU +1.8%·SNDK +1.5%)·광통신(CRDO +1.0%)이 회복세를 이어가며 강세, 에너지 탈렌(TLN)은 유가 하락에 -0.4% 약보합. 금요일 장 마감 후 발표된 빅테크 실적은 없었어요(오라클은 6/10 수요일 발표).",
+  "marketStatus": "🟢 美 증시 소폭 상승 마감(6/12 금) — 다우 51,202(+0.7%)·S&P500 7,431(+0.5%)·나스닥 25,889(+0.3%)·VIX 17.68(-9%). 변동 컸던 한 주를 차분한 상승으로 마무리했어요. 美·이란 종전 합의 임박(이란 최고지도부 승인, 주말~월요일 서명 전망)에 WTI 유가는 -3.4%로 하락했어요. 사상 최대 규모 스페이스X(SPCX) IPO가 +19% $160.95로 첫날 데뷔하며 머스크가 세계 첫 조만장자가 됐어요. 보유주는 종목별로 엇갈렸어요 — AMD(+4.7%)·샌디스크(+5.2%, 신고가)·탈렌(+4.6%)·루멘텀(+3.6%)이 강세였고, 크레도(-5.3%)는 신고가 뒤 차익 실현, 마이크론(-1.4%)·아마존(-1.2%)은 숨 고르기로 내렸어요.",
   "signals": {
-    "asOf": "2026-06-11",
+    "asOf": "2026-06-12",
     "kr": [
       {
         "ticker": "000660",
         "name": "SK하이닉스",
         "market": "KOSPI",
         "category": "이슈주",
-        "thesis": "6/8 '검은 월요일'에 -7.68% 급락했던 SK하이닉스는 6/9 코스피 +8.18% V자 반등과 함께 큰 폭으로 회복했어요. 6/8 '검은 월요일'에 -7.68% 급락해 200만원 아래(약 191만원)로 마감했어요. 코스피 전체가 -8.29% 폭락하며 서킷브레이커가 걸린 날이에요. 외국인은 21거래일 연속 순매도 중이에요. 다만 6/8 엔비디아가 SK하이닉스를 차세대 HBM4 메모리 공급사로 인증하고 젠슨 황이 '급락은 곧 할인된 가격'이라고 언급한 건 중장기 호재라, 낙폭이 진정되는지 지켜볼 구간이에요.",
-        "currentPrice": "2,101,000",
-        "change1D": 2.59,
+        "thesis": "HBM(고대역폭 메모리) 글로벌 2위 회사예요(SK하이닉스). 6/12 외국인이 25거래일 만에 순매수로 돌아서며 하루 1조2,882억원어치를 사들였고, 주가는 +2.33% 올라 215만원을 회복했어요. 미국·이란 종전 기대로 위험 회피 심리가 풀렸고, 메리츠증권은 'SK하이닉스가 8월 중 미국 ADR(미국 증시에도 상장하는 것) 예정'이라고 전했어요. 엔비디아 차세대 HBM4 공급 기대도 그대로예요.",
+        "currentPrice": "2,150,000",
+        "change1D": 2.33,
         "company": {
           "ceo": "곽노정 (대표이사 사장)",
           "business": "DRAM·NAND 메모리 반도체 글로벌 2위. HBM(고대역폭 메모리)에서 NVDA에 H100·H200·B200 시리즈 공급 중. AI 인프라 핵심 수혜.",
@@ -1432,7 +1432,7 @@
         },
         "financials": "PER 22.59배, 시총 ₩1,667조, 52주 최고 ₩2,470,000, 외인 소진율 51.50% (네이버 금융 5/29 09:30).",
         "comparable": "5/27 +9.31% 시총 1조달러 진입 후 5/28 -2% 차익실현 — YTD +220% 잔여 모멘텀.",
-        "outlookEasy": "증권사 분석가 추천 등급은 매수(평균 4.0)예요. 엔비디아와의 HBM4 동맹 기대는 그대로인데, 6/8 -7.68% 급락으로 가격 부담은 오히려 줄었어요. 다만 외국인이 21거래일 연속 팔고 있어 단기 변동이 큰 종목이라 흐름을 지켜보면 좋아요.",
+        "outlookEasy": "증권사 분석가 추천 등급은 매수(평균 4.0)예요. 엔비디아와의 HBM4 동맹 기대가 유지되는 가운데, 6/12 외국인이 한 달여 만에 강하게 사자로 돌아선 게 긍정적이에요. 다만 하루 +8%대 급등락이 반복되는 변동이 큰 종목이라 흐름을 지켜보면 좋아요.",
         "outlook": "외인 5거래일 -149만주 매도세 + 5/29 매수 전환 시도. HBM4 하반기 출하 + NVDA·AMD 공급 확대 + 시총 1조달러 모멘텀 잔여.",
         "risk": "외국인 21거래일 연속 순매도 중이고, 미국발 금리 우려가 진정될지 불확실한 변동이 큰 종목이에요.",
         "horizon": "3~6개월 (중기)",
@@ -1442,25 +1442,29 @@
             "name": "삼성전자",
             "market": "KOSPI",
             "relation": "HBM 경쟁사 — 메모리 사이클 같이 움직임",
-            "currentPrice": "299,000",
-            "change1D": -1.16
+            "currentPrice": "322,500",
+            "change1D": 7.86
           },
           {
             "code": "042700",
             "name": "한미반도체",
             "market": "KOSDAQ",
             "relation": "HBM 본더 공급사 — 캐파 확장 동반 수혜",
-            "currentPrice": "291,000",
-            "change1D": 7.78
+            "currentPrice": "361,000",
+            "change1D": 24.05
           }
         ],
         "flowReason": {
-          "summary": "美 사상 최고 + 이란 평화 협상 진전 + DELL 어닝 폭발로 5/29 매수 전환 시도",
-          "detail": "외인이 16거래일 연속 매도 중인데, 5/29 아침 美 사상 최고·이란 평화 협상 진전·DELL Q1 AI 서버 +757% 폭발 후광으로 매수 전환 시도가 있어요. 다만 코스피 8,000선 부근 차익실현 + MSCI 6월 리뷰 관망세도 부담이에요.",
+          "summary": "외국인 25거래일 만에 순매수 전환 — 이란 종전·메모리 기대",
+          "detail": "6/12 외국인이 코스피에서 25거래일 만에 2조1,181억원 순매수로 전환했고, 그중 SK하이닉스를 1조2,882억원어치로 가장 많이 샀어요. 미국·이란 종전 합의 임박으로 위험 선호가 살아난 영향이에요.",
           "sources": [
             {
-              "name": "연합뉴스 5/29 09:44",
-              "url": "https://n.news.naver.com/mnews/article/001/0016106749?sid=101"
+              "name": "파이낸셜뉴스 6/12",
+              "url": "https://n.news.naver.com/mnews/article/014/0005534337"
+            },
+            {
+              "name": "중앙일보 6/13",
+              "url": "https://n.news.naver.com/mnews/article/353/0000055744"
             }
           ]
         },
@@ -1479,10 +1483,10 @@
         "ticker": "042700",
         "name": "한미반도체",
         "market": "KOSDAQ",
-        "category": "실적기대",
-        "thesis": "6/8 '검은 월요일'에 코스피 -8.29%·코스닥 -9.08% 동반 폭락하며 한미반도체도 약세였어요. 외국인이 21거래일 연속 순매도를 이어가는 위험 회피 장세라 단기 변동이 큰 종목이에요. (6/8 정확 종가는 이번 모닝 런에서 재확인 못 해, 직전 거래일 기준 가격을 표시해요.)",
-        "currentPrice": "291,000",
-        "change1D": 7.78,
+        "category": "이슈주",
+        "thesis": "HBM 제조 핵심 장비인 TC본더(메모리 칩을 쌓아 붙이는 장비) 세계 점유율 1위 회사예요(한미반도체). 6/12 스페이스X에 500억원 전략적 투자를 한다고 공시하자 주가가 +24.05% 급등해 36만1,000원이 됐어요. AI 반도체 장비에 이어 우주항공으로 사업을 넓힌다는 기대가 매수세를 불렀어요. 다만 직전에 어닝 쇼크(실적이 예상보다 나쁜 것)로 급락했던 종목이라 변동이 매우 큰 종목이에요.",
+        "currentPrice": "361,000",
+        "change1D": 24.05,
         "company": {
           "ceo": "곽동신 (회장)",
           "business": "HBM 본더(메모리 적층 장비) 글로벌 1위. SK하이닉스·삼성전자·마이크론에 HBM TC 본더 공급. AI 메모리 슈퍼사이클 핵심.",
@@ -1493,7 +1497,7 @@
         },
         "financials": "PER 150.24배(매우 비싸요), 시총 ₩26.7조, 52주 최고 ₩426,000, 외인 소진율 5.97% (네이버 금융 5/29).",
         "comparable": "한미반도체는 2023~2024 HBM 사이클 +300% 폭주 사례. 외인 비중 낮아 추가 매수 여지 큼.",
-        "outlookEasy": "HBM 핵심 장비 1위 기업이에요. SK하이닉스가 HBM4를 늘리면 직접 수혜를 받아요. 분석가 추천은 매수(평균 4.0)지만 PER 152배로 매우 비싸요. 금요일 -6.9% 내렸어도 외인이 5일 순매수 중이라 낙폭은 제한적이었어요.",
+        "outlookEasy": "신규 호재(스페이스X 투자)로 하루 +24% 급등했지만, 그만큼 변동이 매우 큰 종목이에요. HBM 장비 1위라는 본업 경쟁력은 탄탄하지만, 급등 바로 뒤엔 차익 실현(오른 김에 일부 파는 것)이 나올 수 있어 흐름을 지켜보면 좋아요.",
         "outlook": "외인 5거래일 -39만주 누적 매도 후 점진적 매수 전환 가능성. SK하이닉스 HBM4 캐파 확장 + 마이크론 HBM3E 본더 수주 가능성.",
         "risk": "PER 152배로 매우 비싸고, 메모리 업황에 따라 변동이 큰 종목이에요.",
         "horizon": "3~6개월 (중기)",
@@ -1503,25 +1507,25 @@
             "name": "SK하이닉스",
             "market": "KOSPI",
             "relation": "메인 고객사 — HBM 본더 직접 공급",
-            "currentPrice": "2,101,000",
-            "change1D": 2.59
+            "currentPrice": "2,150,000",
+            "change1D": 2.33
           },
           {
             "code": "005930",
             "name": "삼성전자",
             "market": "KOSPI",
             "relation": "잠재 고객사 — HBM3E 수주 가능성",
-            "currentPrice": "299,000",
-            "change1D": -1.16
+            "currentPrice": "322,500",
+            "change1D": 7.86
           }
         ],
         "flowReason": {
-          "summary": "외인 5거래일 누적 매도 -39만주, 5/29 단일 -19만주 매도 가속",
-          "detail": "외인이 5거래일 연속 매도 중인데, 5/29 -4% 약세는 분기 실적 기대 전 단기 차익실현 + KOSDAQ 외인 매도 흐름 동조예요. PER 150배 부담도 잠재해요. 다만 외인 소진율 5.97%로 낮아 향후 매수 전환 여지는 커요.",
+          "summary": "스페이스X 500억 투자 공시에 기관이 +157만주 대량 매수",
+          "detail": "6/12 한미반도체가 스페이스X에 500억원 투자를 공시하자, 기관이 +1,567,960주를 대량 순매수하며 +24% 급등을 이끌었어요. 외국인은 -4,033주로 거의 중립이었어요. 어닝 쇼크로 빠졌던 주가가 새 호재에 단숨에 반등한 거예요.",
           "sources": [
             {
-              "name": "네이버 금융 외인 동향 5/29",
-              "url": "https://m.stock.naver.com/domestic/stock/042700/total"
+              "name": "헤럴드경제 6/12",
+              "url": "https://n.news.naver.com/mnews/article/016/0002655984"
             }
           ]
         },
@@ -1541,9 +1545,9 @@
         "name": "두산에너빌리티",
         "market": "KOSPI",
         "category": "관련주",
-        "thesis": "6/8 '검은 월요일'에 코스피 -8.29%·코스닥 -9.08% 동반 폭락하며 두산에너빌리티도 약세였어요. 외국인이 21거래일 연속 순매도를 이어가는 위험 회피 장세라 단기 변동이 큰 종목이에요. (6/8 정확 종가는 이번 모닝 런에서 재확인 못 해, 직전 거래일 기준 가격을 표시해요.)",
-        "currentPrice": "88,600",
-        "change1D": -2.74,
+        "thesis": "원자력·전력 설비를 만드는 회사예요(두산에너빌리티). 6/12 +5.08% 올라 9만3,100원이 됐어요. 미국·이란 종전 기대로 코스피가 8,100선을 회복하는 위험 선호 장세에 원전·전력주도 함께 올랐어요. 다만 외국인은 최근 3거래일 연속 순매도 중이라 변동이 큰 종목이에요.",
+        "currentPrice": "93,100",
+        "change1D": 5.08,
         "company": {
           "ceo": "박지원 (대표이사 부회장)",
           "business": "원전(APR1400)·가스복합·풍력 등 발전소 제조. SMR 사업 본격화. AI 데이터센터 전력 인프라 핵심 공급사.",
@@ -1554,7 +1558,7 @@
         },
         "financials": "PER 431.12배(매우 비싸요), 시총 ₩66.5조, 52주 최고 ₩139,200, 외인 소진율 24.75% (네이버 금융 5/29).",
         "comparable": "미국 보유 종목 TLN(탈렌에너지)와 유사 — AI 데이터센터 전력 테마. TLN 1개월 +5.6% 강세.",
-        "outlookEasy": "원전·SMR과 AI 데이터센터 전력 테마 종목이에요. 분석가 추천은 매수(평균 4.0)지만 PER 397배로 매우 비싸요. 금요일 -3.6%로 반도체보다 잘 버텼지만 외인이 5일 연속 팔고 있어 단기 변동이 큰 종목이에요.",
+        "outlookEasy": "전력 수요가 늘어나는 흐름 속 원전 설비 대표주예요. 6/12엔 코스피 강세에 +5% 올랐지만, 외국인이 사흘 연속 팔고 있어 단기 변동이 큰 종목이라 흐름을 지켜보면 좋아요.",
         "outlook": "외인 5거래일 -98만주 누적 매도 + MSCI 편출 우려. 다만 AI 전력 테마 모멘텀 + SMR 사업 본격화가 펀더멘털 견인.",
         "risk": "PER 397배로 매우 비싸고 외인 5일 연속 순매도 중이라 변동이 큰 종목이에요.",
         "horizon": "6~12개월 (장기)",
@@ -1564,25 +1568,25 @@
             "name": "두산밥캣",
             "market": "KOSPI",
             "relation": "그룹사 동행 — 두산 그룹 자회사",
-            "currentPrice": "64,400",
-            "change1D": 1.74
+            "currentPrice": "64,700",
+            "change1D": 0.47
           },
           {
             "code": "TLN",
             "name": "Talen Energy",
             "market": "NASDAQ",
             "relation": "美 보유 종목 — AI 전력 테마 동조",
-            "currentPrice": 364.74,
-            "change1D": -3.53
+            "currentPrice": "360.54",
+            "change1D": 4.57
           }
         ],
         "flowReason": {
-          "summary": "MSCI 리밸런싱 편출 우려 + 단기 +30%대 차익실현",
-          "detail": "5/28 뉴스핌에 따르면 MSCI 6월 리밸런싱 편출 3종목 중 하나로 거론돼 외인 매도 가속이에요. 단기 +30%대 폭주 후 차익실현 + MSCI 우려가 겹쳤어요. 다만 SMR·AI 전력 펀더멘털은 견조해요.",
+          "summary": "외국인 3거래일 연속 순매도 — 급등 뒤 차익 실현",
+          "detail": "외국인은 6/10 -25.7만주, 6/11 -41.6만주, 6/12 -14.3만주로 사흘 내리 순매도 중이에요. 코스피 반등에 주가는 올랐지만 외국인 차익 실현(오른 김에 일부 파는 것)이 이어지고 있어요.",
           "sources": [
             {
-              "name": "뉴스핌 5/28 MSCI 리밸런싱",
-              "url": "https://www.newspim.com/news/view/20260528001165"
+              "name": "네이버 금융 dealTrendInfos",
+              "url": "https://m.stock.naver.com/api/stock/034020/integration"
             }
           ]
         },
@@ -1604,9 +1608,9 @@
         "name": "Super Micro Computer",
         "market": "NASDAQ",
         "category": "성장주",
-        "thesis": "AI 서버를 만드는 회사예요(슈퍼마이크로). 6/9 70억 달러 규모 증자(주식을 새로 찍어 자금 조달)를 발표하자 기존 주주 지분이 희석된다는 우려로 -7.7% 내렸어요. AI 서버 수요는 강하지만, 증자·회계 신뢰 이슈가 반복돼 변동이 매우 큰 종목이에요.",
-        "currentPrice": 31.97,
-        "change1D": 9.22,
+        "thesis": "AI 서버를 만드는 회사예요(슈퍼마이크로). 6/9 70억 달러 규모 증자(주식을 새로 찍어 자금을 모으는 것)를 발표한 뒤 기존 주주 지분이 줄어든다는 우려가 이어지며 6/12에도 -4.72% 내려 $30.46이 됐어요. AI 서버 수요는 강하지만 증자·회계 관련 불확실성이 부담인 변동이 큰 종목이에요.",
+        "currentPrice": 30.46,
+        "change1D": -4.72,
         "company": {
           "ceo": "Charles Liang (창업자·회장)",
           "business": "AI 서버 ODM 1위. NVDA·AMD GPU 받아 기업 데이터센터에 납품. 액냉·고밀도 서버 특화.",
@@ -1617,7 +1621,7 @@
         },
         "financials": "PER 22.50배, 시총 $24.8B, 52주 최고 $62.36, 52주 최저 $19.48 (네이버 금융 5/28 close).",
         "comparable": "DELL +30.5% 1주 폭주 사례 — 같은 AI 서버 ODM 카테고리. SMCI 5/28 +8.14% 출발.",
-        "outlookEasy": "분석가 추천 등급은 매수예요. PER 22.7배로 동종 AI 서버 회사 중 저렴한 편이에요. 다만 금요일 -11.2% 급락처럼 반도체 분위기에 크게 흔들리는 변동이 큰 종목이라 흐름을 지켜보면 좋아요.",
+        "outlookEasy": "AI 서버 수요라는 큰 그림은 좋지만, 증자로 주식 수가 늘어난 부담이 단기 주가를 누르고 있어요. 회계 불확실성까지 겹쳐 변동이 큰 종목이라 흐름을 지켜보면 좋아요.",
         "outlook": "PER 22.5배로 AI 서버 ODM 중 최저. DELL 후광 + 5/29 美 개장 동반 갭업 가능. 단기 +10~20% 여력.",
         "risk": "반도체 업황에 크게 연동돼 하루 -11% 같은 급락이 나오는 변동이 큰 종목이에요.",
         "horizon": "1~3개월 (단기)",
@@ -1627,16 +1631,16 @@
             "name": "Dell Technologies",
             "market": "NYSE",
             "relation": "동종 AI 서버 ODM 경쟁사 — Q1 어닝 폭발 후광",
-            "currentPrice": "391.45",
-            "change1D": 5.85
+            "currentPrice": "395.57",
+            "change1D": 1.1
           },
           {
             "code": "CLS",
             "name": "Celestica",
             "market": "NYSE",
             "relation": "동종 ODM — AI 서버 ODM 카테고리",
-            "currentPrice": "385.86",
-            "change1D": 6.32
+            "currentPrice": "393.12",
+            "change1D": 1.88
           }
         ],
         "financialStatements": null,
@@ -1657,9 +1661,9 @@
         "name": "Arm Holdings",
         "market": "NASDAQ",
         "category": "이슈주",
-        "thesis": "스마트폰·AI 칩의 설계도(아키텍처)를 라이선스로 파는 회사예요(암). 6/9 칩 매도세에 약했어요. AI 칩 로열티 성장 기대는 크지만 PER이 매우 높아 물가·금리 변수에 크게 흔들리는 종목이에요.",
-        "currentPrice": 342.23,
-        "change1D": 11.32,
+        "thesis": "스마트폰·AI 칩의 설계도(아키텍처)를 라이선스로 파는 회사예요(암). 6/12 +11.27% 급등해 $380.81이 됐어요. 웰스파고(목표가 $255→$410)·미즈호($500)·바클레이즈·BofA 등 여러 증권사가 목표가를 줄줄이 올렸고, AI 데이터센터 CPU 수요와 엔비디아의 Arm 기반 신제품(RTX Spark) 발표가 호재였어요. 다만 PER이 매우 높아 물가·금리에 크게 흔들리는 변동이 큰 종목이에요.",
+        "currentPrice": 380.81,
+        "change1D": 11.27,
         "company": {
           "ceo": "Rene Haas",
           "business": "CPU IP 라이선스 1위. 모바일 99%·AI PC 급성장·자동차·서버 전반. Apple·NVDA·AMD·Qualcomm 모두 고객.",
@@ -1670,7 +1674,7 @@
         },
         "financials": "PER 393배(매우 비싸요), 시총 $358B, 52주 최고 $325 → 5/28 신고가 $335.27 갱신, 52주 최저 $100.02 (네이버 금융 5/28 close).",
         "comparable": "2023 IPO 직후 +300% 폭주 사례. 5/28 ATH 갱신 — 모멘텀 강함.",
-        "outlookEasy": "분석가 추천 등급은 매수예요. 모바일·AI PC 침투는 계속 늘지만 PER 402배로 매우 비싸요. 금요일 -12.8% 급락으로 52주 최고에서 -20% 내려왔어요. 변동이 매우 큰 종목이라 신중히 보세요.",
+        "outlookEasy": "여러 증권사가 한꺼번에 목표가를 올릴 만큼 AI CPU 성장 기대가 커요. 다만 PER이 매우 높아(이익 대비 주가가 비쌈) 하루 +11% 급등 뒤엔 출렁임이 클 수 있는 변동이 큰 종목이라 흐름을 지켜보면 좋아요.",
         "outlook": "Mizuho PT $360 상향. AI PC 침투 가속 + NVDA Grace·Apple Silicon 베이스 IP 지속 수혜. 단기 +10% 여력.",
         "risk": "PER 402배로 매우 비싸고 하루 -12.8% 급락이 나오는 변동이 매우 큰 종목이에요.",
         "horizon": "3~6개월 (중기)",
@@ -1680,16 +1684,16 @@
             "name": "NVIDIA",
             "market": "NASDAQ",
             "relation": "메이저 라이센시 — Grace CPU에 ARM IP 사용",
-            "currentPrice": "204.87",
-            "change1D": 2.22
+            "currentPrice": "205.19",
+            "change1D": 0.16
           },
           {
             "code": "QCOM",
             "name": "Qualcomm",
             "market": "NASDAQ",
             "relation": "핵심 라이센시 — Snapdragon CPU 베이스",
-            "currentPrice": "202.96",
-            "change1D": 6.15
+            "currentPrice": "211.72",
+            "change1D": 4.32
           }
         ],
         "financialStatements": null,
@@ -1720,8 +1724,8 @@
           "category": "성장주",
           "listedAt": "2025-03",
           "thesis": "6/5 -7.1% $100.39로 내렸어요. NVDA GPU로 AI 클라우드를 운영하는 신규 상장주(2025/3 상장)라, 반도체 약세에 같이 눌렸어요. 52주 최고 $187 대비 -46% 위치예요.",
-          "currentPrice": 95.74,
-          "change1D": 0.14,
+          "currentPrice": 100.55,
+          "change1D": 5.02,
           "company": {
             "ceo": "Michael Intrator (CEO)",
             "business": "AI 전용 GPU 클라우드. NVDA H100/H200 보유 클러스터 글로벌 1위. OpenAI·Meta 등 대형 고객.",
@@ -1741,16 +1745,16 @@
               "name": "NVIDIA",
               "market": "NASDAQ",
               "relation": "GPU 공급사 — H100/H200 클러스터 인프라 베이스",
-              "currentPrice": "204.87",
-              "change1D": 2.22
+              "currentPrice": "205.19",
+              "change1D": 0.16
             },
             {
               "code": "DELL",
               "name": "Dell Technologies",
               "market": "NYSE",
               "relation": "경쟁 인프라 — AI 서버 OEM",
-              "currentPrice": "391.45",
-              "change1D": 5.85
+              "currentPrice": "395.57",
+              "change1D": 1.1
             }
           ],
           "sources": [
@@ -1771,8 +1775,8 @@
           "category": "이슈주",
           "listedAt": "2025-06",
           "thesis": "6/5 -3.7% $17.48로 내렸어요. 디지털 뱅킹 핀테크 신규 상장주(2025/6 상장)예요. 52주 최저 $16.17 부근까지 내려와 바닥권이지만, 신규 상장주는 변동이 매우 큰 종목이에요.",
-          "currentPrice": 17.25,
-          "change1D": 4.93,
+          "currentPrice": 16.7,
+          "change1D": -3.19,
           "company": {
             "ceo": "Chris Britt (CEO)",
             "business": "디지털 전용 뱅킹. 무수수료 입출금·신용카드·모바일 앱 중심. 미국 밀레니얼·Gen Z 핵심 고객.",
@@ -1792,16 +1796,16 @@
               "name": "SoFi Technologies",
               "market": "NASDAQ",
               "relation": "동종 디지털 뱅킹 — 핀테크 경쟁사",
-              "currentPrice": 16.03,
-              "change1D": -6.53
+              "currentPrice": "16.58",
+              "change1D": -0.54
             },
             {
               "code": "NU",
               "name": "Nu Holdings",
               "market": "NYSE",
               "relation": "동종 디지털 뱅킹 — 글로벌 핀테크",
-              "currentPrice": 11.97,
-              "change1D": -1.24
+              "currentPrice": "12.19",
+              "change1D": 0.83
             }
           ],
           "sources": [
@@ -1818,19 +1822,15 @@
       ]
     },
     "krForeignFlow": {
-      "asOf": "2026-06-11",
-      "lookbackDays": "5거래일 (6/5~6/11)",
+      "asOf": "2026-06-12",
+      "lookbackDays": "5거래일 (6/8~6/12)",
       "rows": [
         {
           "ticker": "000660",
           "name": "SK하이닉스",
           "foreignHoldRatio": "51.19%",
-          "netBuy5d": -1400941,
+          "netBuy5d": -220641,
           "dailyNetBuy": [
-            {
-              "date": "6/5",
-              "shares": -606860
-            },
             {
               "date": "6/8",
               "shares": -154732
@@ -1846,9 +1846,13 @@
             {
               "date": "6/11",
               "shares": 260726
+            },
+            {
+              "date": "6/12",
+              "shares": 573440
             }
           ],
-          "trend": "매도→매수 전환 (6/11)",
+          "trend": "매도→매수 전환 (6/12)",
           "trendTone": "positive",
           "flowReason": {
             "summary": "6/11 외국인 5,523억원 순매수 1위 — HBM 리더십 재평가",
@@ -1865,12 +1869,8 @@
           "ticker": "042700",
           "name": "한미반도체",
           "foreignHoldRatio": "6.47%",
-          "netBuy5d": -97212,
+          "netBuy5d": 18604,
           "dailyNetBuy": [
-            {
-              "date": "6/5",
-              "shares": -119849
-            },
             {
               "date": "6/8",
               "shares": -103448
@@ -1886,10 +1886,14 @@
             {
               "date": "6/11",
               "shares": 154005
+            },
+            {
+              "date": "6/12",
+              "shares": -4033
             }
           ],
-          "trend": "매도→매수 전환 (6/11)",
-          "trendTone": "positive",
+          "trend": "외인 소폭 매도 (기관이 +157만주 대량 매수)",
+          "trendTone": "neutral",
           "flowReason": {
             "summary": "6/11 외국인 매수 전환 — HBM 장비 수요 기대",
             "detail": "한미반도체는 6/11 외국인이 약 15만주 순매수했어요. HBM을 만드는 데 쓰는 장비(본더) 수요 기대가 살아나며 외국인이 다시 담기 시작했어요.",
@@ -1905,12 +1909,8 @@
           "ticker": "034020",
           "name": "두산에너빌리티",
           "foreignHoldRatio": "24.38%",
-          "netBuy5d": -1102337,
+          "netBuy5d": -1194392,
           "dailyNetBuy": [
-            {
-              "date": "6/5",
-              "shares": -50603
-            },
             {
               "date": "6/8",
               "shares": -537428
@@ -1926,9 +1926,13 @@
             {
               "date": "6/11",
               "shares": -416462
+            },
+            {
+              "date": "6/12",
+              "shares": -142658
             }
           ],
-          "trend": "매도세",
+          "trend": "매도세 (3일 순매도)",
           "trendTone": "negative",
           "flowReason": {
             "summary": "6/11 외국인 매도 지속 — 차익실현·수급 부담",
@@ -1945,12 +1949,8 @@
           "ticker": "012450",
           "name": "한화에어로스페이스",
           "foreignHoldRatio": "45.24%",
-          "netBuy5d": 13029,
+          "netBuy5d": 18019,
           "dailyNetBuy": [
-            {
-              "date": "6/5",
-              "shares": 3833
-            },
             {
               "date": "6/8",
               "shares": 23256
@@ -1966,10 +1966,14 @@
             {
               "date": "6/11",
               "shares": -21585
+            },
+            {
+              "date": "6/12",
+              "shares": 8823
             }
           ],
-          "trend": "매도세",
-          "trendTone": "negative",
+          "trend": "매수세",
+          "trendTone": "positive",
           "flowReason": {
             "summary": "특정 사유 식별 안 됨 — 소폭 매도, 시장 전반 흐름",
             "detail": "한화에어로스페이스는 6/11 외국인이 약 2만주 소폭 순매도했어요. 큰 방향성보다는 네 마녀의 날 수급 변동 속 소폭 조정으로 보여요.",
@@ -1985,12 +1989,8 @@
           "ticker": "005930",
           "name": "삼성전자",
           "foreignHoldRatio": "47.74%",
-          "netBuy5d": -10301948,
+          "netBuy5d": -3180798,
           "dailyNetBuy": [
-            {
-              "date": "6/5",
-              "shares": -4240844
-            },
             {
               "date": "6/8",
               "shares": -1174306
@@ -2006,9 +2006,13 @@
             {
               "date": "6/11",
               "shares": 549645
+            },
+            {
+              "date": "6/12",
+              "shares": 2880306
             }
           ],
-          "trend": "매도→매수 전환 (6/11)",
+          "trend": "매도→매수 전환 (6/12)",
           "trendTone": "positive",
           "flowReason": {
             "summary": "6/11 외국인 순매수 전환 — 반도체 업황 호조",
@@ -2023,13 +2027,12 @@
         }
       ],
       "insights": [
-        "6/12 외국인이 25거래일(5/7~6/11) 연속 순매도를 끊고 순매수로 돌아왔어요 — 한국 반도체 수급의 의미있는 전환 신호예요.",
-        "6/11 외국인이 반도체 대장주를 일제히 순매수로 돌렸어요 — SK하이닉스 +26만주, 삼성전자 +55만주, 한미반도체 +15만주.",
-        "SK하이닉스는 6/11 외국인 순매수 1위(5,523억원)로, 5거래일 누적으로는 아직 -140만주지만 마지막 날 강하게 매수 전환했어요.",
-        "삼성전자는 5거래일 누적 -1,030만주로 매도가 컸지만, 6/11 하루 +55만주로 방향을 틀었어요.",
-        "두산에너빌리티는 6/11에도 -41만주 순매도로, 5거래일 중 4일 순매도가 이어졌어요.",
-        "한화에어로스페이스는 6/11 -2만주 소폭 매도로 큰 방향성은 약했어요.",
-        "전반적으로 미국發 메모리 슈퍼사이클 기대가 한국 반도체 외국인 수급을 매수 쪽으로 돌려놓는 초기 신호가 보여요."
+        "6/12 외국인이 코스피에서 25거래일 만에 순매수로 돌아서며 2조1,181억원을 사들였고, 자금은 SK하이닉스·삼성전자에 집중됐어요.",
+        "SK하이닉스는 6/10까지 사흘 내리 팔던 외국인이 6/11·6/12 이틀 연속 대량 순매수로 전환했어요(6/12 +57만주).",
+        "삼성전자도 6/12 외국인이 +288만주 대량 매수하며 32만원을 회복했어요(주가 +7.86%).",
+        "한미반도체는 외국인은 -4천주로 거의 중립이었지만, 기관이 +157만주를 대량 매수하며 +24% 급등을 이끌었어요.",
+        "두산에너빌리티는 외국인이 최근 3거래일 연속 순매도(6/12 -14만주)로 차익 실현이 이어지고 있어요.",
+        "한화에어로스페이스는 외국인이 6/12 +8,823주 소폭 순매수로 돌아섰어요."
       ],
       "sources": [
         {
@@ -2037,11 +2040,11 @@
           "url": "https://m.stock.naver.com/api/stock/000660/integration"
         },
         {
-          "name": "BusinessKorea 코스피 마감 (6/11)",
-          "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=271128"
+          "name": "파이낸셜뉴스 6/12 외국인 순매수",
+          "url": "https://n.news.naver.com/mnews/article/014/0005534337"
         }
       ],
-      "latestSessionNote": "6/12(금) 코스피 8,123.62(+4.63%) 8천선 탈환·코스닥 1,029.05(+3.22%). 25거래일 만에 외국인 순매수 복귀+기관 동반 매수로 장중 매수 사이드카 발동. 美·이란 종전 기대+반도체 훈풍."
+      "latestSessionNote": "6/11(목) 코스피 7,763.95(+0.43%) V자 반등·코스닥 996.93(+4.76%). 네 마녀의 날 수급 충격 속 반도체 차별화 강세."
     }
   },
   "marketSession": "US_CLOSE"
