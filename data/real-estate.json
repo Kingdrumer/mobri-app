@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T11:20:00+09:00",
+  "lastUpdated": "2026-06-20T07:45:00+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -268,47 +268,6 @@
       "status": "open"
     },
     {
-      "id": "lh-2026-tongyeong-general-maeip",
-      "agency": "LH",
-      "title": "경남 통영시 일반 매입임대주택 예비입주자 모집공고",
-      "shortTitle": "LH 통영 일반 매입임대",
-      "type": "매입임대",
-      "category": [
-        "일반"
-      ],
-      "household": [
-        "1인_일반"
-      ],
-      "region": [
-        "경남"
-      ],
-      "districts": [
-        "경남 통영시"
-      ],
-      "applicationStart": "2026-06-15",
-      "applicationEnd": "2026-06-19",
-      "announcementDate": "2026-05-28",
-      "rolling": false,
-      "highlights": [
-        "접수기간 2026.06.15 09:00 ~ 2026.06.19 18:00",
-        "임대기간 2년, 재계약 14회 가능(최장 30년)",
-        "시중임대료의 30% 수준",
-        "사업대상지역에 거주하는 무주택세대구성원"
-      ],
-      "applyMethod": "LH청약플러스",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020000&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "closing-today",
-      "_fetchMeta": {
-        "fetchedAt": "2026-05-28T12:00:00+09:00",
-        "method": "공고 상세 본문 직접 확인",
-        "sources": [
-          {
-            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020000&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
-          }
-        ]
-      }
-    },
-    {
       "id": "sh-2026-hope-housing-remainder",
       "agency": "SH",
       "title": "2026년 1차 희망하우징(공공기숙사) 잔여세대 입주자 모집공고",
@@ -485,45 +444,6 @@
       "status": "upcoming"
     },
     {
-      "id": "gh-2026-dasan-jigeum-a3",
-      "agency": "GH",
-      "title": "다산지금A3 통합공공임대주택 입주자 모집공고",
-      "shortTitle": "GH 다산지금A3 통합공공임대",
-      "type": "통합공공임대",
-      "category": [
-        "청년",
-        "신혼",
-        "고령자"
-      ],
-      "household": [
-        "1인_청년",
-        "1인_일반",
-        "신혼",
-        "예비_신혼",
-        "고령자"
-      ],
-      "region": [
-        "경기"
-      ],
-      "districts": [
-        "남양주 다산동"
-      ],
-      "supplyCount": 518,
-      "applicationStart": "2026-06-16",
-      "applicationEnd": "2026-06-19",
-      "announcementDate": "2026-05-28",
-      "rolling": false,
-      "highlights": [
-        "전용 51㎡ 288호 + 59㎡ 230호",
-        "시세 35~90% 차등 임대료",
-        "최장 30년 거주",
-        "2027.04 준공"
-      ],
-      "applyMethod": "GH 주택청약센터 (온라인)",
-      "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancRentHouseList.do",
-      "status": "closing-today"
-    },
-    {
       "id": "lh-2026-paju-happy",
       "agency": "LH",
       "title": "파주시 행복주택 예비입주자 모집공고('26.06.05)",
@@ -575,67 +495,6 @@
       }
     },
     {
-      "id": "sh-2026-jaripjunbi-youth-maeip",
-      "agency": "SH",
-      "title": "자립준비청년 2026년 상반기 청년 매입임대주택 우선공급 입주자 모집공고(2026. 5. 29.)",
-      "shortTitle": "SH 자립준비청년 매입임대 우선공급",
-      "type": "매입임대",
-      "category": [
-        "청년",
-        "보호종료청년"
-      ],
-      "household": [
-        "1인_청년"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "서울 전역(도시형생활주택·다세대, 공고문 별첨)"
-      ],
-      "supplyCount": 25,
-      "applicationStart": "2026-06-15",
-      "applicationEnd": "2026-06-19",
-      "announcementDate": "2026-05-29",
-      "ageRange": null,
-      "rolling": false,
-      "highlights": [
-        "공급호수 25호 (청년 매입임대 우선공급)",
-        "자립준비청년(아동복지법상 보호종료·가정위탁 종료) 무주택 본인 대상",
-        "인터넷 청약 신청 2026.06.15 10:00 ~ 06.19 17:00",
-        "당첨자 발표 2026.08.07 · 계약 2026.09.01~09.04"
-      ],
-      "applyMethod": "SH 인터넷청약시스템",
-      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=304600&multi_itm_seq=2",
-      "status": "closing-today",
-      "priorityRules": [
-        {
-          "rank": "우선공급",
-          "label": "아동복지법상 보호종료(자립준비청년)·가정위탁 종료 무주택 청년 본인",
-          "match": {
-            "supportType": [
-              "보호종료청년"
-            ]
-          }
-        }
-      ],
-      "sources": [
-        {
-          "name": "SH 인터넷청약시스템 공고문 (자립준비청년 청년 매입임대 우선공급)",
-          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=304600&multi_itm_seq=2"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-06T07:38:12+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수일정·공급호수 명시)",
-        "sources": [
-          {
-            "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=304600&multi_itm_seq=2"
-          }
-        ]
-      }
-    },
-    {
       "id": "sh-2026-hongeun-youth-coop",
       "agency": "SH",
       "title": "홍은동 청년협동조합[이웃기웃] 잔여세대 입주자 모집공고(2026. 06. 05.)",
@@ -680,58 +539,6 @@
         "sources": [
           {
             "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=305221&multi_itm_seq=2"
-          }
-        ]
-      }
-    },
-    {
-      "id": "lh-2026-siheung-janghyeon-newhope-happy-jugaakja",
-      "agency": "LH",
-      "title": "시흥시 신혼희망타운 행복주택[주거약자용] 예비입주자 입주자격 완화모집",
-      "shortTitle": "LH 시흥장현 신혼희망(주거약자)",
-      "type": "행복주택",
-      "category": [
-        "신혼",
-        "한부모"
-      ],
-      "household": [
-        "신혼",
-        "예비_신혼",
-        "한부모"
-      ],
-      "region": [
-        "경기"
-      ],
-      "districts": [
-        "시흥시 장현동(시흥장현 A-8·A-9·A-12블록)"
-      ],
-      "supplyCount": 20,
-      "applicationStart": "2026-06-18",
-      "applicationEnd": "2026-06-19",
-      "announcementDate": "2026-06-05",
-      "maritalRequired": true,
-      "rolling": false,
-      "highlights": [
-        "신혼희망타운-주거약자 대상: 신혼부부·한부모 요건과 주거약자 요건을 모두 갖춘 자만 신청 가능",
-        "55C(주거약자) 전용 55.93㎡ · A-12블록 금회공급 20세대",
-        "접수기간 2026.06.18 ~ 2026.06.19",
-        "서류제출대상자 발표 2026.07.03 · 당첨자 발표 2026.09.10"
-      ],
-      "applyMethod": "LH청약플러스 인터넷청약(정보취약계층은 시흥권주거복지지사 현장접수)",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020060&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
-      "status": "closing-today",
-      "sources": [
-        {
-          "name": "LH청약플러스 공고문 (시흥장현 신혼희망타운 주거약자 행복주택)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020060&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-09T07:45:00+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수기간 명시)",
-        "sources": [
-          {
-            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020060&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
           }
         ]
       }
@@ -1297,6 +1104,164 @@
         "sources": [
           {
             "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancDetailView.do (pbancno=800)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lh-2026-gimpohangang-ac01a-10yr-public",
+      "agency": "LH",
+      "title": "김포한강 Ac-01a블록(데세리브) 10년 공공임대주택리츠 예비입주자 모집 공고",
+      "shortTitle": "LH 김포한강 10년공공임대",
+      "type": "공공임대",
+      "category": [
+        "일반",
+        "신혼"
+      ],
+      "household": [
+        "1인_일반",
+        "신혼",
+        "예비_신혼"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "김포시 구래동(김포한강 데세리브)"
+      ],
+      "supplyCount": null,
+      "applicationStart": "2026-07-07",
+      "applicationEnd": "2026-07-08",
+      "announcementDate": "2026-06-19",
+      "rolling": false,
+      "highlights": [
+        "전용 51.93~59.91㎡ · 총 434세대 (공가세대 예비입주자 모집)",
+        "수도권(서울·인천·경기) 거주 무주택 세대구성원, 만 19세 이상, 1세대 1주택",
+        "청약저축 가입 여부·소득·자산기준과 무관하게 신청 가능",
+        "신청접수 2026.07.07 10:00 ~ 07.08 16:00 (인터넷·모바일만, 현장접수 불가)"
+      ],
+      "applyMethod": "LH청약플러스 인터넷·모바일",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061106&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (김포한강 Ac-01a 10년 공공임대)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061106&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-06-20T07:42:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "sources": [
+          {
+            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061106&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lh-2026-ganghwa-sinmun1-happy",
+      "agency": "LH",
+      "title": "강화신문1 행복주택 예비입주자 모집공고(2026.06.18)",
+      "shortTitle": "LH 강화신문1 행복주택",
+      "type": "행복주택",
+      "category": [
+        "청년",
+        "신혼",
+        "고령자",
+        "한부모"
+      ],
+      "household": [
+        "1인_청년",
+        "신혼",
+        "예비_신혼",
+        "고령자"
+      ],
+      "region": [
+        "인천"
+      ],
+      "districts": [
+        "인천 강화군 강화읍"
+      ],
+      "supplyCount": null,
+      "applicationStart": "2026-06-29",
+      "applicationEnd": "2026-06-29",
+      "announcementDate": "2026-06-18",
+      "rolling": false,
+      "highlights": [
+        "대학생·청년·고령자·주거급여수급자·신혼부부·한부모가족 대상 행복주택",
+        "접수기간 2026.06.29 (당일 인터넷·모바일 청약)",
+        "서류제출대상자 발표 2026.07.09 · 서류접수 2026.07.10~07.16",
+        "당첨자 발표 2026.09.11"
+      ],
+      "applyMethod": "LH청약플러스 인터넷·모바일 (문의 032-933-8572)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020164&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (강화신문1 행복주택)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020164&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-06-20T07:42:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "sources": [
+          {
+            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020164&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lh-2026-gwangmyeong-haan13-permanent",
+      "agency": "LH",
+      "title": "[정정공고]2026년 광명시 영구임대아파트(광명하안13) 예비입주자 모집공고(2026.06.15)",
+      "shortTitle": "LH 광명하안13 영구임대",
+      "type": "영구임대",
+      "category": [
+        "고령자",
+        "한부모",
+        "국가유공자"
+      ],
+      "household": [
+        "1인_일반",
+        "고령자"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "광명시 하안동(하안13단지 고층주공)"
+      ],
+      "supplyCount": null,
+      "applicationStart": "2026-06-29",
+      "applicationEnd": "2026-07-03",
+      "announcementDate": "2026-06-15",
+      "rolling": false,
+      "highlights": [
+        "광명하안13 영구임대 예비입주자 모집 (금회 1순위만 모집)",
+        "광명시 거주자만 신청 가능",
+        "접수기간 2026.06.29~07.03 · 거주지 관할 동 행정복지센터 현장접수만 가능",
+        "당첨자 발표 2026.11.16"
+      ],
+      "applyMethod": "거주지 동 행정복지센터 현장접수 (광명시 거주자, 1순위)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020175&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "status": "upcoming",
+      "uncertain": true,
+      "uncertainNote": "접수기간·발표일·현장접수 방식은 본문 확인. 세부 1순위 자격(수급 유형 등)은 첨부 공고문에만 있어 priorityRules·category 일부 생략.",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (광명하안13 영구임대 정정공고)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020175&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-06-20T07:42:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "sources": [
+          {
+            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020175&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026"
           }
         ]
       }
