@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T13:10:04+09:00",
+  "lastUpdated": "2026-06-19T11:20:00+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -297,7 +297,7 @@
       ],
       "applyMethod": "LH청약플러스",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020000&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "_fetchMeta": {
         "fetchedAt": "2026-05-28T12:00:00+09:00",
         "method": "공고 상세 본문 직접 확인",
@@ -521,57 +521,7 @@
       ],
       "applyMethod": "GH 주택청약센터 (온라인)",
       "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancRentHouseList.do",
-      "status": "open"
-    },
-    {
-      "id": "lh-2026-suwon-dangsu-newhope-happy",
-      "agency": "LH",
-      "title": "[정정공고] 수원당수 신혼희망타운 행복주택 예비입주자 모집",
-      "shortTitle": "LH 수원당수 신혼희망 행복주택",
-      "type": "행복주택",
-      "category": [
-        "신혼"
-      ],
-      "household": [
-        "신혼",
-        "예비_신혼"
-      ],
-      "region": [
-        "경기"
-      ],
-      "districts": [
-        "수원시 권선구 당수동(서수원 한라비발디 3단지)"
-      ],
-      "supplyCount": null,
-      "applicationStart": "2026-06-16",
-      "applicationEnd": "2026-06-18",
-      "announcementDate": "2026-06-05",
-      "maritalRequired": true,
-      "rolling": false,
-      "highlights": [
-        "수원당수 A-3·A-4블록 신혼희망타운 행복주택",
-        "전용 55.79~55.93㎡(A-3블록)",
-        "접수기간 2026.06.16 ~ 2026.06.18",
-        "서류제출대상자 발표 2026.06.30 · 당첨자 발표 2026.10.12"
-      ],
-      "applyMethod": "LH청약플러스 인터넷청약",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020116&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
-      "status": "closing-today",
-      "sources": [
-        {
-          "name": "LH청약플러스 정정공고문 (수원당수 신혼희망타운 행복주택)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020116&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-12T07:40:00+09:00",
-        "method": "Claude in Chrome 정정공고 상세 본문 직접 확인(접수기간 06.16~06.18 변동 없음, 첨부파일 정정뿐)",
-        "sources": [
-          {
-            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020116&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
-          }
-        ]
-      }
+      "status": "closing-today"
     },
     {
       "id": "lh-2026-paju-happy",
@@ -607,7 +557,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020057&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (파주시 행복주택)",
@@ -657,7 +607,7 @@
       ],
       "applyMethod": "SH 인터넷청약시스템",
       "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=304600&multi_itm_seq=2",
-      "status": "open",
+      "status": "closing-today",
       "priorityRules": [
         {
           "rank": "우선공급",
@@ -769,7 +719,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약(정보취약계층은 시흥권주거복지지사 현장접수)",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020060&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (시흥장현 신혼희망타운 주거약자 행복주택)",
@@ -1244,6 +1194,109 @@
         "sources": [
           {
             "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020126&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lh-2026-goyang-changneung-a4-newhope-happy",
+      "agency": "LH",
+      "title": "고양창릉 A-4BL 신혼희망타운 행복주택 입주자 모집공고('26.06.16)",
+      "shortTitle": "LH 고양창릉 신혼희망 행복주택",
+      "type": "행복주택",
+      "category": [
+        "신혼"
+      ],
+      "household": [
+        "신혼",
+        "예비_신혼"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "고양시 덕양구 도내동"
+      ],
+      "supplyCount": 297,
+      "applicationStart": "2026-06-26",
+      "applicationEnd": "2026-06-30",
+      "announcementDate": "2026-06-16",
+      "maritalRequired": true,
+      "rolling": false,
+      "highlights": [
+        "고양창릉 A-4BL 신혼희망타운 행복주택 (경기 고양시 덕양구 도내동)",
+        "전용 55.78~55.98㎡ · 총 297세대 (기존거주자 23호·가정어린이집 3호 포함)",
+        "접수기간 2026.06.26 ~ 2026.06.30",
+        "서류접수 2026.07.02~07.06 · 당첨자 발표 2026.10.29",
+        "입주예정 2028.01"
+      ],
+      "applyMethod": "LH청약플러스 인터넷·모바일",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020139&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (고양창릉 A-4BL 신혼희망타운 행복주택)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020139&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-06-19T11:20:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수기간 06.26~06.30·공급세대·입주예정월 명시)",
+        "sources": [
+          {
+            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020139&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gh-2026-dasan-forest-2-gukmin",
+      "agency": "GH",
+      "title": "다산 포레스트 2단지 국민임대주택 예비입주자 모집공고",
+      "shortTitle": "GH 다산 포레스트2 국민임대",
+      "type": "국민임대",
+      "category": [
+        "일반",
+        "신혼"
+      ],
+      "household": [
+        "1인_일반",
+        "신혼",
+        "예비_신혼"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "남양주시 다산동(진건A5블록)"
+      ],
+      "supplyCount": 150,
+      "applicationStart": "2026-06-30",
+      "applicationEnd": "2026-07-02",
+      "announcementDate": "2026-06-19",
+      "rolling": false,
+      "highlights": [
+        "다산 포레스트 2단지(진건A5블록) 국민임대주택 · 경기 남양주시 다산동",
+        "전용 33.359~46.8046㎡ · 모집호수 150호",
+        "온라인접수 2026.06.30 10:00 ~ 2026.07.02 18:00",
+        "서류제출대상자 발표 2026.07.21 · 당첨자 발표 2026.12.18",
+        "입주예정 2027.01"
+      ],
+      "applyMethod": "GH 주택청약센터 인터넷접수 (중증장애인·만65세 이상만 현장접수)",
+      "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancRentHouseList.do",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "GH 주택청약센터 공고문 (다산 포레스트 2단지 국민임대)",
+          "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancRentHouseList.do"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-06-19T11:20:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인(온라인접수 06.30~07.02·모집호수 150 명시)",
+        "sources": [
+          {
+            "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancDetailView.do (pbancno=800)"
           }
         ]
       }
