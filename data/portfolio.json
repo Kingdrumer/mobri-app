@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-06-19T15:55:00+09:00",
+ "lastUpdated": "2026-06-19T22:39:57+09:00",
  "us": [
   {
    "ticker": "GOOG",
@@ -1956,5 +1956,6 @@
    "latestSessionNote": "6/19 오전 한국 증시 거래 중 — 가격은 6/19 오전 실시간, 외인 매매는 6/18 마감 기준."
   }
  },
- "marketSession": "US_CLOSED"
+ "marketSession": "US_CLOSED",
+ "holidayNote": "🟠 6/19(금) 美 준틴스(노예해방 기념일) 휴장 — 정규장·채권시장 모두 쉬어요. 가격 변동 없이 시각만 갱신했어요. 다음 美 거래일은 6/22(월)이에요."
 }
