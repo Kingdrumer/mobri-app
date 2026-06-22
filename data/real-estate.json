@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T07:45:00+09:00",
+  "lastUpdated": "2026-06-22T07:45:00+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -477,7 +477,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020057&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (파주시 행복주택)",
@@ -526,7 +526,7 @@
       ],
       "applyMethod": "SH 인터넷청약시스템",
       "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=305221&multi_itm_seq=2",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "SH 인터넷청약시스템 공고문 (홍은동 청년협동조합 잔여세대)",
@@ -579,7 +579,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020105&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (평택·안성 지역 행복주택)",
@@ -629,7 +629,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷·모바일 (문의 관리사무소 031-376-0342)",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020062&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=08&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (오산운암6단지 50년 공공임대)",
@@ -1262,6 +1262,75 @@
         "sources": [
           {
             "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020175&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gh-2026-maeip-jagyeokwanwa",
+      "agency": "GH",
+      "title": "2026년 매입임대주택 입주자 모집공고(자격완화)",
+      "shortTitle": "GH 매입임대 자격완화",
+      "type": "매입임대",
+      "category": [
+        "일반"
+      ],
+      "household": [
+        "1인_일반"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "고양",
+        "광주",
+        "김포",
+        "남양주",
+        "동두천",
+        "부천",
+        "성남",
+        "수원",
+        "시흥",
+        "안산",
+        "안성",
+        "양주",
+        "여주",
+        "양평",
+        "오산",
+        "용인",
+        "의정부",
+        "파주",
+        "평택",
+        "화성"
+      ],
+      "supplyCount": 150,
+      "applicationStart": "2026-06-30",
+      "applicationEnd": "2026-07-03",
+      "announcementDate": "2026-06-15",
+      "rolling": false,
+      "highlights": [
+        "기존주택 등 매입임대주택 자격완화 모집 (경기도 20개 시·군, 150호)",
+        "무주택 세대구성원으로 소득 등 순위별 자격요건 충족",
+        "접수기간 2026.06.30 ~ 2026.07.03 (인터넷 접수, 모바일 불가)",
+        "모집지역: 고양·광주·김포·남양주·동두천·부천·성남·수원·시흥·안산·안성·양주·여주·양평·오산·용인·의정부·파주·평택·화성"
+      ],
+      "applyMethod": "GH청약센터 온라인청약 (장애인·만65세 이상 사전예약 방문 가능)",
+      "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancRentHouseList.do",
+      "status": "upcoming",
+      "uncertain": true,
+      "uncertainNote": "접수기간(06.30~07.03)·공급호수(150)·모집지역은 공고 본문에서 직접 확인. 세부 순위별 신청자격은 첨부 공고문(PDF)에만 있어 priorityRules 생략.",
+      "sources": [
+        {
+          "name": "GH 매입임대 청약공고 (자격완화)",
+          "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do (pbancno=795)"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-06-22T07:45:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수기간 06.30~07.03·공급호수 150·모집지역 명시)",
+        "sources": [
+          {
+            "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do (pbancno=795)"
           }
         ]
       }
