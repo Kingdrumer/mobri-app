@@ -1,12 +1,12 @@
 {
- "lastUpdated": "2026-06-22T22:55:00+09:00",
+ "lastUpdated": "2026-06-23T06:00:00+09:00",
  "us": [
   {
    "ticker": "GOOG",
    "name": "알파벳 (구글)",
    "sector": "빅테크",
-   "price": 363.89,
-   "change1D": -0.97,
+   "price": 344.91,
+   "change1D": -6.14,
    "change1W": 2.1,
    "change1M": -5.43,
    "changeYTD": 15.37,
@@ -14,7 +14,7 @@
    "signal": "green",
    "note": "기술주 반등 동참 +1.5%",
    "simpleExplain": "구글 모회사. 검색·광고에서 안정적인 캐시카우, 클라우드+AI에서 구조적 성장 동력. 변동성은 빅테크 평균 수준.",
-   "todayWhy": "개장 직후 기술주 차익 매물에 알파벳(구글)은 약보합으로 출발했어요. 부동산 광고 확대·웨이모 구독 같은 호재는 있지만 전반적으로 쉬어가는 분위기예요.",
+   "todayWhy": "구글(알파벳)이 어제 -6% 넘게 빠지며 1년여 만에 가장 안 좋은 하루를 보냈어요. AI에 쓰는 돈(투자비)이 너무 크다는 걱정과, 핵심 AI 연구원이 회사를 떠났다는 소식이 겹쳤어요.",
    "outlook": {
     "rating": "Buy",
     "targetPrice": 417,
@@ -31,6 +31,12 @@
     "consensusMean": "4.35"
    },
    "recentNews": [
+    {
+     "date": "2026-06-22",
+     "headline": "GOOG -6.14% $344.91 — 1년여 만의 최악의 하루(AI 투자비·인재 이탈 우려)",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/06/22/alphabet-sinks-6-amazon-slides-4-amid-ai-capex-anxiety-across-the-hyperscalers/"
+    },
     {
      "date": "2026-05-06",
      "headline": "GOOG NVDA 시총 추월 시나리오 옵션시장 반영 지속",
@@ -84,8 +90,8 @@
    "ticker": "META",
    "name": "메타",
    "sector": "빅테크",
-   "price": 577.22,
-   "change1D": 0.0,
+   "price": 561.64,
+   "change1D": -2.7,
    "change1W": 1.5,
    "change1M": -4.2,
    "changeYTD": -11.3,
@@ -93,7 +99,7 @@
    "signal": "green",
    "note": "시장 반등에 +1.7%",
    "simpleExplain": "페이스북·인스타그램 모회사. 광고 매출이 본업, AI·메타버스 투자가 미래. 광고 사이클·AI 수익화 시점이 핵심.",
-   "todayWhy": "메타는 개장 직후 실시간 호가 확인이 지연돼 직전 거래일 종가 부근에서 큰 변동 없이 움직이는 것으로 보여요. 특별한 악재 없이 시장 흐름을 따라가는 모습이에요.",
+   "todayWhy": "메타도 같은 'AI 투자비 부담' 걱정에 어제 -2.7% 내렸어요. 큰 기술주들이 다 같이 쉬어간 하루였어요.",
    "outlook": {
     "rating": "Buy",
     "targetPrice": 826,
@@ -164,8 +170,8 @@
    "ticker": "AMZN",
    "name": "아마존",
    "sector": "빅테크",
-   "price": 243.15,
-   "change1D": -0.51,
+   "price": 234.16,
+   "change1D": -4.19,
    "change1W": 0.69,
    "change1M": -6.28,
    "changeYTD": 7.35,
@@ -173,7 +179,7 @@
    "signal": "green",
    "note": "유가 하락·반등에 +2.9%",
    "simpleExplain": "이커머스+AWS 클라우드. AI 시대엔 AWS가 캐시카우 + 성장엔진 동시 역할. 단기 사고는 단발성, 펀더멘털 견조.",
-   "todayWhy": "아마존은 개장 직후 살짝 내렸어요. 웨이모·로보택시 경쟁 뉴스가 있었지만 영향은 제한적이고, 기술주 전반이 쉬어가는 분위기예요.",
+   "todayWhy": "아마존도 어제 -4% 가까이 내렸어요. 구글과 같은 이유예요 — AI 데이터센터에 쓰는 돈이 버는 돈보다 빠르게 늘어 부담된다는 걱정이 커졌어요.",
    "outlook": {
     "rating": "Buy",
     "targetPrice": 309,
@@ -190,6 +196,12 @@
     "consensusMean": "4.23"
    },
    "recentNews": [
+    {
+     "date": "2026-06-22",
+     "headline": "AMZN -4% 약 $234 — 하이퍼스케일러 AI 투자비 부담 우려 동반 약세",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/06/22/alphabet-sinks-6-amazon-slides-4-amid-ai-capex-anxiety-across-the-hyperscalers/"
+    },
     {
      "date": "2026-05-08",
      "headline": "AWS Virginia 데이터센터 12시간+ 정전 — 발열로 전원 차단",
@@ -243,8 +255,8 @@
    "ticker": "NVDA",
    "name": "엔비디아",
    "sector": "반도체",
-   "price": 211.19,
-   "change1D": 0.24,
+   "price": 208.65,
+   "change1D": -0.97,
    "change1W": 3.04,
    "change1M": -4.27,
    "changeYTD": 11.86,
@@ -252,7 +264,7 @@
    "signal": "green",
    "note": "인텔·애플 칩딜 훈풍 +3.0%",
    "simpleExplain": "AI GPU 압도적 1위. AI 시대의 핵심 인프라 공급사. 5/20 Q1 실적이 단기 가장 큰 이벤트.",
-   "todayWhy": "엔비디아는 개장 후 거의 제자리예요(+0.2%). 이번 주 마이크론 실적 발표를 앞두고 반도체주들이 눈치를 보는 분위기예요.",
+   "todayWhy": "엔비디아는 어제 -1.0%로 소폭 내렸어요. 큰 기술주가 다 같이 빠지는 와중에도 비교적 잘 버틴 편이에요.",
    "outlook": {
     "rating": "Strong Buy",
     "targetPrice": 296,
@@ -347,8 +359,8 @@
    "ticker": "TSM",
    "name": "TSMC",
    "sector": "반도체",
-   "price": 473.0,
-   "change1D": 2.35,
+   "price": 473.7,
+   "change1D": 2.5,
    "change1W": 12.28,
    "change1M": 20.47,
    "changeYTD": 48.0,
@@ -356,7 +368,7 @@
    "signal": "green",
    "note": "파운드리 강세 +6.9%",
    "simpleExplain": "세계 최대 반도체 위탁생산. NVDA·AMD·AAPL이 모두 고객. AI 호황의 가장 안전한 노출 — 변동성도 가장 낮음.",
-   "todayWhy": "TSMC는 강세로 출발했어요(약 +2%). AI 칩 위탁생산 수요가 계속 강하고, 일부 물량이 삼성으로 넘어간다는 소식에도 점유율 우위는 굳건하다는 평가예요.",
+   "todayWhy": "TSMC가 어제 +2.5% 올랐어요. AI 반도체를 위탁 생산하는 세계 1위 회사라 반도체 수요 기대가 이어졌어요.",
    "outlook": {
     "rating": "Strong Buy",
     "targetPrice": 459,
@@ -436,8 +448,8 @@
    "ticker": "AVGO",
    "name": "브로드컴",
    "sector": "반도체",
-   "price": 411.46,
-   "change1D": 0.03,
+   "price": 407.5,
+   "change1D": -0.93,
    "change1W": 6.73,
    "change1M": 0.13,
    "changeYTD": 18.33,
@@ -539,8 +551,8 @@
    "ticker": "MU",
    "name": "마이크론",
    "sector": "반도체",
-   "price": 1169.88,
-   "change1D": 3.16,
+   "price": 1211.38,
+   "change1D": 6.82,
    "change1W": 17.5,
    "change1M": 67.44,
    "changeYTD": 270.88,
@@ -548,7 +560,7 @@
    "signal": "yellow",
    "note": "메모리 슈퍼사이클 +8.7% (과열 주의)",
    "simpleExplain": "메모리 반도체. NVDA·AMD GPU에 들어가는 HBM 메모리 핵심 공급. AI 호황 = 메모리 호황 공식.",
-   "todayWhy": "마이크론은 +3% 넘게 올라 강하게 출발했어요. 6/24(수) 실적 발표를 앞두고 메모리 반도체 수요 기대가 커지며 매수세가 몰렸어요.",
+   "todayWhy": "마이크론이 어제 +6.8% 크게 올라 $1,211로 마감했어요. 모레(6/24, 수) 실적 발표를 앞두고 AI용 메모리 수요가 강하다는 기대가 커졌어요.",
    "outlook": {
     "rating": "Buy",
     "targetPrice": 839,
@@ -566,6 +578,12 @@
     "consensusMean": "4.23"
    },
    "recentNews": [
+    {
+     "date": "2026-06-22",
+     "headline": "MU +6.82% $1,211.38 — 6/24 실적 D-2, AI 메모리 수요 기대",
+     "source": "CNN Markets",
+     "url": "https://www.cnn.com/markets/stocks/MU"
+    },
     {
      "date": "2026-06-18",
      "headline": "FOMC '연내 금리 인상' 점도표에 반도체 약세",
@@ -649,8 +667,8 @@
    "ticker": "MRVL",
    "name": "마벨",
    "sector": "반도체",
-   "price": 313.55,
-   "change1D": 0.96,
+   "price": 310.58,
+   "change1D": 0.0,
    "change1W": 11.66,
    "change1M": 77.88,
    "changeYTD": 250.72,
@@ -754,8 +772,8 @@
    "ticker": "AMD",
    "name": "AMD",
    "sector": "반도체",
-   "price": 537.37,
-   "change1D": 0.0,
+   "price": 542.0,
+   "change1D": 0.86,
    "change1W": 10.0,
    "change1M": 29.8,
    "changeYTD": 140.5,
@@ -845,8 +863,8 @@
    "ticker": "SNDK",
    "name": "샌디스크",
    "sector": "반도체",
-   "price": 2184.75,
-   "change1D": 0.0,
+   "price": 2273.73,
+   "change1D": 4.07,
    "change1W": 16.1,
    "change1M": 57.9,
    "changeYTD": 693.8,
@@ -854,7 +872,7 @@
    "signal": "yellow",
    "note": "낸드값 기대 +11.5% (변동 매우 큼)",
    "simpleExplain": "낸드 플래시 메모리 회사. AI 데이터센터 스토리지 수요 폭발의 1차 수혜. 1년 +3,300% 누적 차익실현 위험.",
-   "todayWhy": "샌디스크는 개장 초 실시간 가격 확인이 어려워 직전 거래일(6/18) 종가 기준으로 표시했어요. NAND 메모리 수요는 여전히 강한 편이에요.",
+   "todayWhy": "샌디스크가 어제 +4.1% 올라 $2,273으로 사상 최고가를 새로 썼어요. AI 데이터센터용 저장장치(낸드 메모리) 수요가 계속 강해요.",
    "outlook": {
     "rating": "Hold",
     "targetPrice": 1604,
@@ -872,6 +890,12 @@
     "consensusMean": "4.17"
    },
    "recentNews": [
+    {
+     "date": "2026-06-22",
+     "headline": "SNDK +4.07% $2,273.73 사상 최고가 — AI 낸드 수요 강세",
+     "source": "CNN Markets",
+     "url": "https://www.cnn.com/markets/stocks/SNDK"
+    },
     {
      "date": "2026-06-09",
      "headline": "SNDK +7% — 미즈호·BofA 목표가 상향",
@@ -938,8 +962,8 @@
    "ticker": "DELL",
    "name": "델",
    "sector": "AI 인프라",
-   "price": 411.44,
-   "change1D": 0.47,
+   "price": 414.0,
+   "change1D": 1.1,
    "change1W": 5.1,
    "change1M": 74.92,
    "changeYTD": 221.92,
@@ -1036,8 +1060,8 @@
    "ticker": "LITE",
    "name": "루멘텀",
    "sector": "AI 인프라",
-   "price": 848.0,
-   "change1D": -0.24,
+   "price": 873.0,
+   "change1D": 2.7,
    "change1W": -4.72,
    "change1M": -4.72,
    "changeYTD": 119.58,
@@ -1212,8 +1236,8 @@
    "ticker": "CRDO",
    "name": "크레도",
    "sector": "AI 인프라",
-   "price": 274.71,
-   "change1D": 1.06,
+   "price": 297.91,
+   "change1D": 9.6,
    "change1W": 3.79,
    "change1M": 62.6,
    "changeYTD": 91.81,
@@ -1221,7 +1245,7 @@
    "signal": "yellow",
    "note": "광통신 칩 기대 +9.0%",
    "simpleExplain": "AI 데이터센터 고속 데이터 전송 칩. NVDA·AMD GPU 클러스터 연결의 핵심 부품. 베타 3.43으로 우리 포트폴리오 변동성 1위.",
-   "todayWhy": "크레도는 +1% 안팎 올랐어요. AI 데이터센터용 고속 연결 칩 수요 기대가 이어지고 있어요.",
+   "todayWhy": "크레도가 어제 +9.6% 급등해 $297로 마감했어요. AI 데이터센터에서 칩끼리 잇는 연결 기술 회사인데, 증권사(에버코어)가 목표가 $325로 상승 여력이 크다고 평가했어요.",
    "outlook": {
     "rating": "Moderate Buy",
     "targetPrice": 258,
@@ -1238,6 +1262,12 @@
     "consensusMean": "4.33"
    },
    "recentNews": [
+    {
+     "date": "2026-06-22",
+     "headline": "CRDO +9.6% $297.91 — 에버코어 목표가 $325, AI 연결칩 기대",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/06/22/stock-market-live-june-22-2026-sp-500-spy-little-changed-as-markets-wait-on-iran-progress/"
+    },
     {
      "date": "2026-06-18",
      "headline": "FOMC '연내 금리 인상' 점도표에 반도체 약세",
@@ -1304,8 +1334,8 @@
    "ticker": "TLN",
    "name": "탈렌에너지",
    "sector": "AI 전력",
-   "price": 438.85,
-   "change1D": 0.59,
+   "price": 437.5,
+   "change1D": 0.28,
    "change1W": 27.24,
    "change1M": 39.51,
    "changeYTD": 10.65,
@@ -1446,7 +1476,7 @@
   },
   "asOfNote": "15:45 KST 아시아 마감 캡처 (6/19) — 한국 확정, 일본·중국·대만 마감 집계 확정 전, 홍콩 휴장 추정."
  },
- "marketStatus": "🟢 미국 정규장 개장 — 6/22(월) 밤 22:30 KST에 열렸어요. 개장 직후 시장은 대체로 보합권(S&P500 +0.1%·나스닥 -0.3%·다우 +0.4%)이에요. 반도체 중 마이크론(MU)은 6/24 실적 기대로 +3% 강세, TSMC도 강세인 반면 셀레스티카(CLS)는 차익 매물에 약세예요. 미·이란 협상 진전 소식에 유가는 안정세예요.",
+ "marketStatus": "🔴 미국 정규장 마감 — 6/22(월) 큰 기술주가 크게 빠졌어요. 나스닥 26,166.60(-1.32%)·S&P500 7,472.79(-0.37%)는 내렸지만, 다우 51,712.71(+0.29%)와 중소형주(러셀2000)는 올라 엇갈렸어요. 구글(GOOG) -6.1%·아마존(AMZN) -4.2%가 'AI 투자비 부담' 우려로 급락한 반면, 마이크론(MU) +6.8%·크레도(CRDO) +9.6%·샌디스크(SNDK) +4.1%는 강세였어요. 유가는 미·이란 협상 진전에 $75로 안정됐어요.",
  "signals": {
   "asOf": "2026-06-22T22:55:00+09:00",
   "kr": [
@@ -1942,6 +1972,6 @@
   },
   "weekendNote": "주말(6/20~21) 휴장이라 시그널 종목 가격·등락은 직전 거래일(6/18 또는 한국 6/19) 기준 그대로예요. 6/22(월) 개장 후 갱신돼요."
  },
- "marketSession": "US_OPEN",
+ "marketSession": "US_CLOSE",
  "holidayNote": null
 }
