@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T11:02:14+09:00",
+  "lastUpdated": "2026-06-27T07:37:51+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -694,57 +694,6 @@
         "sources": [
           {
             "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020157&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
-          }
-        ]
-      }
-    },
-    {
-      "id": "lh-2026-anseong-matchum-youth",
-      "agency": "LH",
-      "title": "[경기 안성] 안성맞춤 청년주택 입주자 모집공고",
-      "shortTitle": "LH 안성맞춤 청년주택",
-      "type": "매입임대",
-      "category": [
-        "청년"
-      ],
-      "household": [
-        "1인_청년"
-      ],
-      "region": [
-        "경기"
-      ],
-      "districts": [
-        "안성시"
-      ],
-      "supplyCount": null,
-      "applicationStart": "2026-06-24",
-      "applicationEnd": "2026-06-26",
-      "announcementDate": "2026-06-12",
-      "rolling": false,
-      "highlights": [
-        "안성시가 LH 매입임대주택을 활용해 모집하는 청년주택",
-        "최초 2년 + 재계약 4회(최장 10년), 입주 후 혼인 시 최장 20년",
-        "접수기간 2026.06.24 09:00 ~ 2026.06.26 18:00",
-        "당첨자 발표 2026.07.31",
-        "문의: 안성시청 031-678-3127"
-      ],
-      "applyMethod": "LH청약플러스 인터넷청약 (모집·문의는 안성시청)",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020158&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "closing-today",
-      "uncertain": true,
-      "uncertainNote": "상세 신청자격·순위는 공고 본문에 '조회된 데이터가 없습니다'로 표시되고 안성시청 관리 첨부 공고문에만 있어 priorityRules 생략. 접수기간·공고일은 본문 확인됨.",
-      "sources": [
-        {
-          "name": "LH청약플러스 공고문 (안성맞춤 청년주택)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020158&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-18T13:10:04+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수기간·임대기간 명시, 자격은 첨부 공고문)",
-        "sources": [
-          {
-            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020158&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
           }
         ]
       }
@@ -1732,6 +1681,142 @@
         "fetchedAt": "2026-06-26T11:02:14+09:00",
         "method": "Claude in Chrome 공고 상세 본문 직접 확인",
         "note": "공급호수·신청자격·접수일 본문 직접 인용"
+      }
+    },
+    {
+      "id": "sh-2026-1st-youth-maeip",
+      "agency": "SH",
+      "title": "2026년 1차 청년 매입임대주택 입주자 모집공고(2026. 6. 26.)",
+      "shortTitle": "SH 청년 매입임대 1차",
+      "type": "매입임대",
+      "category": [
+        "청년"
+      ],
+      "household": [
+        "1인_청년"
+      ],
+      "region": [
+        "서울"
+      ],
+      "districts": [
+        "서울 전역"
+      ],
+      "supplyCount": 849,
+      "applicationStart": "2026-07-13",
+      "applicationEnd": "2026-07-15",
+      "announcementDate": "2026-06-26",
+      "rolling": false,
+      "highlights": [
+        "공급호수 총 849호 (신규공급 490호·재공급 359호)",
+        "공급유형: 도시형생활주택·다가구·다세대·오피스텔·연립주택 등",
+        "모집공고일(2026.6.26) 현재 무주택·미혼 대학생·취업준비생·청년·이공계인재 (순위별 소득·자산·자동차가액 기준)",
+        "인터넷 청약신청 2026.7.13 10:00 ~ 7.15 17:00 (우편·방문 불가)",
+        "서류심사대상자 발표 2026.7.20 · 당첨자 발표 2026.11.20 · 입주기간 2026.12.28~2027.2.25"
+      ],
+      "applyMethod": "SH 인터넷청약시스템 (인터넷만)",
+      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306214&multi_itm_seq=2",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "SH 인터넷청약시스템 공고문 (2026년 1차 청년 매입임대주택)",
+          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306214&multi_itm_seq=2"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-06-27T07:37:51+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공급호수·접수기간·신청자격·일정 본문 직접 인용. 1~3순위 세부 자격기준은 첨부 공고문 참조로 priorityRules 생략"
+      }
+    },
+    {
+      "id": "sh-2026-1st-dormitory-youth",
+      "agency": "SH",
+      "title": "2026년 1차 기숙사형 청년주택 입주자모집 공고(2026.06.26.)",
+      "shortTitle": "SH 기숙사형 청년주택 1차",
+      "type": "매입임대",
+      "category": [
+        "청년",
+        "대학생"
+      ],
+      "household": [
+        "1인_청년"
+      ],
+      "region": [
+        "서울"
+      ],
+      "districts": [
+        "서울 전역"
+      ],
+      "supplyCount": 56,
+      "applicationStart": "2026-07-13",
+      "applicationEnd": "2026-07-15",
+      "announcementDate": "2026-06-26",
+      "rolling": false,
+      "highlights": [
+        "공급호수 총 56호 (신규공급 56호)",
+        "모집공고일(2026.6.26) 현재 무주택·미혼 대학생·대학원생·청년 (순위별 기준)",
+        "인터넷 청약신청 2026.7.13 10:00 ~ 7.15 17:00 (우편·방문 불가)",
+        "서류심사대상자 발표 2026.7.20 · 당첨자 발표 2026.11.20 · 입주기간 2026.12.28~2027.2.26",
+        "청년 매입임대주택과 중복 신청 가능 (중복 당첨 시 한 곳만 입주)"
+      ],
+      "applyMethod": "SH 인터넷청약시스템 (인터넷만)",
+      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306218&multi_itm_seq=2",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "SH 인터넷청약시스템 공고문 (2026년 1차 기숙사형 청년주택)",
+          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306218&multi_itm_seq=2"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-06-27T07:37:51+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공급호수·접수기간·신청자격·일정 본문 직접 인용. 1~3순위 세부 자격기준은 첨부 공고문 참조로 priorityRules 생략"
+      }
+    },
+    {
+      "id": "sh-2026-2nd-sadang-oneroom-remainder",
+      "agency": "SH",
+      "title": "2026-2차 사당동원룸 잔여세대 입주자모집공고(26. 6. 26.)",
+      "shortTitle": "SH 사당동원룸 잔여 2차",
+      "type": "매입임대",
+      "category": [
+        "청년",
+        "대학생"
+      ],
+      "household": [
+        "1인_청년"
+      ],
+      "region": [
+        "서울"
+      ],
+      "districts": [
+        "동작구 사당동"
+      ],
+      "supplyCount": 13,
+      "applicationStart": "2026-07-09",
+      "applicationEnd": "2026-07-10",
+      "announcementDate": "2026-06-26",
+      "rolling": false,
+      "highlights": [
+        "사당동 원룸 잔여세대 13호",
+        "신청자격: 중소제조업체 청년근로자 또는 대학생",
+        "인터넷접수 2026.7.9 ~ 7.10 10:00~17:00 (등기우편·방문 불가)",
+        "서류심사대상자 발표 2026.7.20 · 당첨자 발표 2026.9.28"
+      ],
+      "applyMethod": "SH 인터넷청약시스템 (인터넷만)",
+      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306205&multi_itm_seq=2",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "SH 인터넷청약시스템 공고문 (2026-2차 사당동원룸 잔여세대)",
+          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306205&multi_itm_seq=2"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-06-27T07:37:51+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공급호수·접수기간·신청자격·일정 본문 직접 인용. 세부 단지·자격은 첨부 공고문 참조"
       }
     }
   ],
