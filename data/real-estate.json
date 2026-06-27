@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T07:37:51+09:00",
+  "lastUpdated": "2026-06-28T07:38:00+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -717,7 +717,11 @@
         "경기"
       ],
       "districts": [
-        "화성시 비봉면(화성비봉 A-2블록)"
+        "화성비봉 A-2블록",
+        "화성비봉 A-5블록",
+        "화성상리 1블록",
+        "화성향남2 A20블록",
+        "화성향남2 B-15블록"
       ],
       "supplyCount": null,
       "applicationStart": "2026-06-30",
@@ -725,25 +729,23 @@
       "announcementDate": "2026-06-16",
       "rolling": false,
       "highlights": [
-        "행복주택 입주자격완화 예비입주자 모집",
-        "화성비봉 A-2블록 접수기간 2026.06.30 ~ 2026.07.02",
-        "서류제출대상자 발표 2026.07.10 · 당첨자 발표 2026.09.29",
-        "단지별 공급일정은 공고문 참조"
+        "행복주택 입주자격완화 예비입주자 모집 (화성 5개 단지)",
+        "대상 단지: 화성비봉 A-2·A-5, 화성상리 1, 화성향남2 A20·B-15블록",
+        "접수기간 2026.06.30 ~ 2026.07.02 (인터넷·모바일)",
+        "서류제출대상자 발표 2026.07.10 · 당첨자 발표 2026.09.29"
       ],
       "applyMethod": "LH청약플러스 인터넷·모바일",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020126&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
       "status": "upcoming",
-      "uncertain": true,
-      "uncertainNote": "본문에 화성비봉 A-2블록 일정(06.30~07.02)만 확인. 다른 단지 포함 여부·단지별 일정은 첨부 공고문 참조 필요.",
       "sources": [
         {
-          "name": "LH청약플러스 공고문 (화성시 행복주택)",
+          "name": "LH청약플러스 공고문 (화성시 행복주택 입주자격완화)",
           "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020126&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
         }
       ],
       "_fetchMeta": {
-        "fetchedAt": "2026-06-18T13:10:04+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인(화성비봉 A-2 접수기간 명시)",
+        "fetchedAt": "2026-06-28T07:35:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 재확인(5개 단지 명시·공통 접수기간 06.30~07.02 확인, uncertain 해제)",
         "sources": [
           {
             "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020126&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
