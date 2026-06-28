@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T07:38:00+09:00",
+  "lastUpdated": "2026-06-29T07:35:51+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -944,7 +944,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷·모바일 (문의 032-933-8572)",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020164&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "upcoming",
+      "status": "closing-today",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (강화신문1 행복주택)",
@@ -957,128 +957,6 @@
         "sources": [
           {
             "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020164&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
-          }
-        ]
-      }
-    },
-    {
-      "id": "lh-2026-gwangmyeong-haan13-permanent",
-      "agency": "LH",
-      "title": "[정정공고]2026년 광명시 영구임대아파트(광명하안13) 예비입주자 모집공고(2026.06.15)",
-      "shortTitle": "LH 광명하안13 영구임대",
-      "type": "영구임대",
-      "category": [
-        "고령자",
-        "한부모",
-        "국가유공자"
-      ],
-      "household": [
-        "1인_일반",
-        "고령자"
-      ],
-      "region": [
-        "경기"
-      ],
-      "districts": [
-        "광명시 하안동(하안13단지 고층주공)"
-      ],
-      "supplyCount": null,
-      "applicationStart": "2026-06-29",
-      "applicationEnd": "2026-07-03",
-      "announcementDate": "2026-06-15",
-      "rolling": false,
-      "highlights": [
-        "광명하안13 영구임대 예비입주자 모집 (금회 1순위만 모집)",
-        "광명시 거주자만 신청 가능",
-        "접수기간 2026.06.29~07.03 · 거주지 관할 동 행정복지센터 현장접수만 가능",
-        "당첨자 발표 2026.11.16"
-      ],
-      "applyMethod": "거주지 동 행정복지센터 현장접수 (광명시 거주자, 1순위)",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020175&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-      "status": "upcoming",
-      "uncertain": true,
-      "uncertainNote": "접수기간·발표일·현장접수 방식은 본문 확인. 세부 1순위 자격(수급 유형 등)은 첨부 공고문에만 있어 priorityRules·category 일부 생략.",
-      "sources": [
-        {
-          "name": "LH청약플러스 공고문 (광명하안13 영구임대 정정공고)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020175&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-20T07:42:00+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "sources": [
-          {
-            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020175&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026"
-          }
-        ]
-      }
-    },
-    {
-      "id": "gh-2026-maeip-jagyeokwanwa",
-      "agency": "GH",
-      "title": "2026년 매입임대주택 입주자 모집공고(자격완화)",
-      "shortTitle": "GH 매입임대 자격완화",
-      "type": "매입임대",
-      "category": [
-        "일반"
-      ],
-      "household": [
-        "1인_일반"
-      ],
-      "region": [
-        "경기"
-      ],
-      "districts": [
-        "고양",
-        "광주",
-        "김포",
-        "남양주",
-        "동두천",
-        "부천",
-        "성남",
-        "수원",
-        "시흥",
-        "안산",
-        "안성",
-        "양주",
-        "여주",
-        "양평",
-        "오산",
-        "용인",
-        "의정부",
-        "파주",
-        "평택",
-        "화성"
-      ],
-      "supplyCount": 150,
-      "applicationStart": "2026-06-30",
-      "applicationEnd": "2026-07-03",
-      "announcementDate": "2026-06-15",
-      "rolling": false,
-      "highlights": [
-        "기존주택 등 매입임대주택 자격완화 모집 (경기도 20개 시·군, 150호)",
-        "무주택 세대구성원으로 소득 등 순위별 자격요건 충족",
-        "접수기간 2026.06.30 ~ 2026.07.03 (인터넷 접수, 모바일 불가)",
-        "모집지역: 고양·광주·김포·남양주·동두천·부천·성남·수원·시흥·안산·안성·양주·여주·양평·오산·용인·의정부·파주·평택·화성"
-      ],
-      "applyMethod": "GH청약센터 온라인청약 (장애인·만65세 이상 사전예약 방문 가능)",
-      "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancRentHouseList.do",
-      "status": "upcoming",
-      "uncertain": true,
-      "uncertainNote": "접수기간(06.30~07.03)·공급호수(150)·모집지역은 공고 본문에서 직접 확인. 세부 순위별 신청자격은 첨부 공고문(PDF)에만 있어 priorityRules 생략.",
-      "sources": [
-        {
-          "name": "GH 매입임대 청약공고 (자격완화)",
-          "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do (pbancno=795)"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-22T07:45:00+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인(접수기간 06.30~07.03·공급호수 150·모집지역 명시)",
-        "sources": [
-          {
-            "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do (pbancno=795)"
           }
         ]
       }
