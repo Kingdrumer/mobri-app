@@ -1,0 +1,173 @@
+# -*- coding: utf-8 -*-
+"""7/3 06:00 KST 라이트 리포트 생성 + index/calendar 갱신 (미국 7/2 마감 캡처)."""
+import json, shutil
+
+BASE = "/sessions/funny-hopeful-gates/mnt/claude/portfolio-pwa/data"
+NOW = "2026-07-03T06:00:00+09:00"
+
+report = {
+ "date": "2026-07-03",
+ "session": "US_CLOSE",
+ "title": "7월 3일 (금) 미국 마감 캡처 — 다우 사상 최고(+1.1%), 나스닥은 반도체 이틀째 차익실현에 하락 / 메타 -4.9% 되돌림 / 7/3 휴장",
+ "marketStatus": "🔴 7/2(목) 미국 정규장 마감 — 다우 사상 최고, 반도체·AI 하드웨어는 이틀째 차익실현. 7/3(금) 독립기념일 휴장.",
+ "generatedAt": NOW,
+ "lastUpdated": NOW,
+ "marketSummary": {
+   "dow":   {"close": 52900.07, "change": 1.14, "note": "사상 최고 마감(+594.83p). 약한 고용에 은행·통신 등 비기술주로 매수세가 돌았어요."},
+   "sp500": {"close": 7483.24, "change": 0.0,  "note": "보합 마감. 기술주 약세와 비기술주 강세가 상쇄됐어요."},
+   "nasdaq":{"close": 25832.67,"change": -0.80,"note": "반도체·AI 하드웨어 차익실현에 이틀째 하락했어요."},
+   "sox":   {"note": "필라델피아 반도체지수·반도체 ETF(SMH) 약 -4.5% — 반도체가 이틀째 크게 빠졌어요.", "approx": True},
+   "vix":   {"close": 16.6, "change": 0.2, "note": "공포지수. 16선 중반으로 여전히 안정권이에요(낮을수록 안정)."},
+   "wti":   {"price": 67.59, "change": -1.44, "note": "WTI(미국 대표 원유). 미·이란 회담 진전 소식에 하락했어요."},
+   "gold":  {"price": 4110, "change": 0.7, "note": "금값. 안전자산 선호로 소폭 올랐어요.", "approx": True},
+   "fearGreed": {"value": 31, "label": "공포(Fear)", "note": "0=극단적 공포, 100=극단적 탐욕. 31은 '공포' 구간이에요."},
+   "nikkei": {"close": 70062, "change": 0.86, "note": "일본 니케이 — 사상 최고 수준(7/2 종가)."},
+   "kospi":  {"close": 7648.09, "change": -7.89, "note": "코스피 -7.89% 폭락, 종가 기준 8,000선 붕괴(7/2). 삼성전자·SK하이닉스 급락이 주도했어요."},
+   "hangseng": {"note": "홍콩 항셍 7/2 데이터 미확인(직전 7/1은 특별행정구 수립 기념일 휴장이었어요)."},
+   "ust10y": {"yield": 4.49, "change": 0.0, "note": "미 10년 국채 금리. 약한 고용에도 4.5% 부근에서 크게 안 움직였어요."}
+ },
+ "dataQualityNote": "라이트 업데이트예요. 지수·주요 반도체 종가는 확인된 값이고, 일부 고변동 보유주(GOOG·SNDK·DELL·LITE·CRDO·TLN)는 마감 직전~마감 시점의 최신 체결가 기준이라 공식 종가와 소폭 차이가 있을 수 있어요. 금·필라델피아 반도체지수는 근사치예요.",
+ "news": [
+   # ---- 미국 증시 (2) ----
+   {
+     "category": "미국 증시",
+     "headline": "다우 52,900 사상 최고 마감(+1.1%) — 약한 고용에 '금리 부담 완화' 기대",
+     "oneLineSummary": "미국 다우지수가 594포인트(+1.1%) 올라 52,900으로 사상 최고를 새로 썼어요. 6월 고용이 예상보다 약하게 나오면서 '금리를 더 올릴 필요가 줄었다'는 안도감에, 그동안 덜 오른 은행·통신 같은 종목으로 돈이 옮겨갔기 때문이에요.",
+     "summary": "다우존스 산업평균지수가 7/2 +594.83p(+1.14%) 오른 52,900.07로 사상 최고 마감했습니다. 6월 비농업 고용(NFP)이 5.7만 명으로 예상(11.3만 명)을 크게 밑돌면서 금리 인상 우려가 완화됐고, 금융(+2.2%)·통신(+2.4%) 등 비기술 업종으로 순환매가 유입됐습니다. 반면 기술 업종(XLK)은 -2.6%로 부진해 지수 간 차별화가 뚜렷했습니다.",
+     "ourImpact": "다우엔 보유 빅테크가 거의 없어 사상 최고 소식이 내 계좌에 곧바로 도움이 되진 않았어요. 오히려 내 포트폴리오는 반도체·AI 하드웨어 비중이 커서, 이날은 지수 최고가와 반대로 하락한 종목이 더 많았어요.",
+     "impact": "neutral",
+     "sources": [
+       {"name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-2-2026"},
+       {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-2-132600808.html"}
+     ]
+   },
+   {
+     "category": "미국 증시",
+     "headline": "나스닥 -0.8% — 반도체·AI 하드웨어 이틀째 차익실현",
+     "oneLineSummary": "기술주가 많은 나스닥은 -0.8% 내렸어요. 올 상반기 80% 넘게 급등했던 반도체·AI 하드웨어 종목에서 '오른 김에 일부 팔자'는 차익실현이 이틀째 이어졌기 때문이에요. 반도체를 모은 ETF(SMH)는 하루에 약 -4.5% 빠졌어요.",
+     "summary": "나스닥 종합지수가 7/2 -0.80% 내린 25,832.67로 마감했습니다. 상반기 급등했던 반도체·AI 하드웨어에서 차익실현이 이틀째 지속되며 반도체 ETF(SMH)가 약 -4.5% 하락했습니다. 마벨 -9.8%, 샌디스크 -11%, 마이크론 -5.5%, 어플라이드머티리얼즈 -10% 등 낙폭이 컸습니다. S&P500은 기술주 약세와 비기술주 강세가 맞물려 7,483.24로 보합 마감했습니다.",
+     "ourImpact": "내 포트폴리오의 핵심인 반도체·AI 하드웨어가 직접 타격을 받은 날이에요. 다만 이들은 올해 크게 오른 종목이라 이번 하락은 그동안의 급등을 되돌리는 조정 성격이 커요. 변동이 큰 구간이라 흐름만 가볍게 지켜보면 좋아요.",
+     "impact": "negative",
+     "sources": [
+       {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/01/chip-stocks-notched-record-rallies-in-second-quarter-start-q3-with-dud.html"},
+       {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-2-132600808.html"}
+     ]
+   },
+   # ---- 아시아 증시 (2) ----
+   {
+     "category": "아시아 증시",
+     "headline": "코스피 -7.89% 폭락, 8,000선 붕괴 — 반도체 쇼크(7/2)",
+     "oneLineSummary": "한국 코스피가 7/2 하루에 -7.89% 폭락해 8,000선이 무너졌어요(종가 7,648). 개장 7분 만에 매도 사이드카(급락 시 매도 주문을 잠깐 멈추는 장치)가 걸릴 만큼 충격이 컸고, 삼성전자 -9%·SK하이닉스 -14.6% 같은 반도체 대장주가 급락을 주도했어요.",
+     "summary": "코스피는 7/2 -7.89%(-655.32p) 급락한 7,648.09로 마감해 종가 기준 8,000선이 붕괴됐습니다. 개장 7분 만에 매도 사이드카가 발동(올해 6번째)됐고, 코스닥도 -6.74%(866.72) 급락했습니다. 삼성전자 -9.06%(28만6천원), SK하이닉스 -14.57%(218만7천원) 등 반도체가 하락을 이끌었습니다. 외국인이 코스피에서 약 5.5조원 순매도했습니다.",
+     "ourImpact": "직접 보유한 한국 종목은 없지만, 한국 반도체(삼성·SK하이닉스)의 급락은 미국 반도체 심리에도 영향을 줘요. 같은 메모리·AI 흐름을 타는 내 보유주 MU·SNDK와 방향이 비슷해, 반도체 전반의 조정 분위기를 함께 보여줬어요.",
+     "impact": "negative",
+     "sources": [
+       {"name": "Mobri 아시아 마감(7/2)", "url": "https://mobri-app.netlify.app"}
+     ]
+   },
+   {
+     "category": "아시아 증시",
+     "headline": "니케이는 사상 최고권 유지 (+0.9%, 7/2)",
+     "oneLineSummary": "일본 니케이지수는 7/2 +0.9% 올라 70,062로 사상 최고 수준을 지켰어요. 한국 증시가 반도체 급락으로 크게 흔들린 것과 달리, 일본은 엔화 약세와 수출주 강세 덕분에 상대적으로 안정적인 모습을 보였어요.",
+     "summary": "닛케이225 지수는 7/2 +0.86% 오른 70,062로 사상 최고 수준을 유지했습니다. 반도체 급락으로 -7.89% 폭락한 코스피와 뚜렷이 대비됐으며, 엔화 약세에 따른 수출주 강세가 지수를 지지했습니다.",
+     "ourImpact": "직접 보유한 일본 종목은 없어요. 다만 같은 아시아 시장인데도 일본은 강하고 한국은 급락한 '차별화'는, 이번 하락이 시장 전체가 아니라 반도체에 집중된 조정임을 보여줘요.",
+     "impact": "neutral",
+     "sources": [
+       {"name": "Mobri 아시아 마감(7/2)", "url": "https://mobri-app.netlify.app"}
+     ]
+   },
+   # ---- 개별 종목 (2) ----
+   {
+     "category": "개별 종목",
+     "headline": "META -4.9% $582.90 — 전날 +9% 급등분 하루 만에 되돌림",
+     "oneLineSummary": "보유 종목 메타(META)가 -4.9% 내렸어요. 전날 '남는 AI 계산능력을 파는 클라우드 사업 진출' 기대로 +9% 급등했는데, 하루 만에 그 상승분을 상당 부분 반납했어요. 저커버그가 사내 회의에서 'AI 개발이 기대만큼 빠르지 않다'고 말한 점도 부담이 됐어요.",
+     "summary": "메타 플랫폼스(META)가 7/2 -4.90% 내린 $582.90로 마감했습니다(정규장 이후 시간외 보합). 전일 클라우드 진출 기대로 +9% 급등했던 것을 하루 만에 되돌렸으며, 저커버그가 town hall에서 'AI 에이전트 개발이 예상만큼 가속되지 않았다'고 언급한 점, 클라우드 진출에 대한 경쟁·마진 우려가 겹쳤습니다. 그래도 애널리스트 평균 목표가는 $828로 상승 여력은 여전히 큽니다.",
+     "ourImpact": "보유 빅테크 중 이날 가장 크게 빠진 종목이에요. 다만 전날 급등의 되돌림 성격이 커서, 하락 자체보다는 클라우드 사업이 실제로 어떻게 구체화되는지가 앞으로의 관전 포인트예요. 7/29 2분기 실적이 다음 분기점이에요.",
+     "impact": "negative",
+     "sources": [
+       {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/02/metas-push-into-cloud-computing-means-wall-street-has-to-prepare-for-lower-margins.html"},
+       {"name": "Reuters", "url": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/"}
+     ]
+   },
+   {
+     "category": "개별 종목",
+     "headline": "AI 하드웨어 무더기 급락 — MRVL -9.8%·SNDK -11%·LITE -10.8%·CLS -9%·DELL -7.9%",
+     "oneLineSummary": "AI 관련 하드웨어 보유주가 무더기로 급락했어요. 마벨(MRVL) -9.8%, 샌디스크(SNDK) -11%, 루멘텀(LITE) -10.8%, 셀레스티카(CLS) -9%, 델(DELL) -7.9%, 마이크론(MU) -5.5%였어요. 나쁜 소식이 있어서가 아니라, 올 상반기 워낙 많이 오른 데 따른 차익실현(오른 김에 파는 것)이 이틀째 이어진 거예요.",
+     "summary": "AI 하드웨어(메모리·광통신·서버) 보유주가 7/2 일제히 급락했습니다. 마벨 -9.84%($245.29), 샌디스크 -11%(2일 합계 약 -20%), 루멘텀 -10.83%($714.38), 셀레스티카 -9.04%($329.28), 델 -7.94%($391.50, Arrow 유통계약 종료 소식 겹침), 마이크론 -5.49%($975.56), 크레도 -5.13%($245.80). 개별 악재보다는 상반기 급등 후 차익실현 성격이 큽니다.",
+     "ourImpact": "내 포트폴리오에서 비중이 큰 AI 하드웨어가 집중적으로 조정받은 날이에요. 이들은 베타(시장보다 크게 움직이는 정도)가 높아 오를 때도, 내릴 때도 폭이 커요. 반면 전력주 TLN은 +3%대로 홀로 강세라 방어 역할을 했어요. 변동이 큰 구간이니 흐름만 지켜보면 좋아요.",
+     "impact": "negative",
+     "sources": [
+       {"name": "TipRanks", "url": "https://www.tipranks.com/news/why-mu-sndk-nvda-and-amd-stocks-are-falling-today"},
+       {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/01/chip-stocks-notched-record-rallies-in-second-quarter-start-q3-with-dud.html"}
+     ]
+   },
+   # ---- 정책·금리 (2) ----
+   {
+     "category": "정책·금리",
+     "headline": "6월 고용 약세(일자리 5.7만) 확인 — 금리 부담 완화, 10년물 4.5%",
+     "oneLineSummary": "6월 미국 일자리 증가가 5만7천 개로, 예상(11만3천 개)의 절반 수준에 그친 게 이날 장 흐름을 갈랐어요. '고용이 식으니 중앙은행이 금리를 서둘러 올릴 이유가 줄었다'는 해석에, 금리에 민감한 은행·통신주로 돈이 옮겨가며 다우가 사상 최고를 찍었어요.",
+     "summary": "미 노동부가 발표한 6월 비농업 신규고용(NFP)은 5.7만 명으로 컨센서스 11.3만 명을 크게 하회했고 실업률은 4.2%였습니다. 금리 인상 우려 완화로 미 10년물 국채금리는 4.49% 부근에서 안정됐고, 금융·통신 등 금리 민감 업종이 강세를 보였습니다. 케빈 워시 Fed 의장은 '인플레이션 위험이 상당히 낮아졌다'고 언급했습니다.",
+     "ourImpact": "금리 부담이 줄면 원래는 변동이 큰 성장주(반도체)에 우호적이에요. 하지만 이날은 그동안 급등한 반도체의 차익실현이 더 강해서, 금리 호재가 내 보유주엔 곧바로 반영되지 않았어요. 다음 관전 포인트는 다음 물가·고용 지표예요.",
+     "impact": "positive",
+     "sources": [
+       {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-2-132600808.html"},
+       {"name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-2-2026"}
+     ]
+   },
+   {
+     "category": "정책·금리",
+     "headline": "7/3(금) 미국 독립기념일 휴장 — 다음 장은 7/6(월)",
+     "oneLineSummary": "7/3(금)은 미국 독립기념일(7/4)이 토요일이라 하루 앞당겨 증시가 쉬어요. 이번 주 미국 정규장은 7/2가 마지막이었고, 다음 거래일은 7/6(월)이에요. 거래가 없는 날이라 새로운 가격 변화도 없어요.",
+     "summary": "미국 증시는 7/3(금) 독립기념일(관측) 휴장입니다. 7/4가 토요일이라 연방 공휴일이 7/3로 앞당겨졌습니다. 이번 주 마지막 정규장은 7/2였으며 다음 개장일은 7/6(월)입니다.",
+     "ourImpact": "휴장일이라 내 포트폴리오 가격은 7/2 종가에서 멈춰 있어요. 주말 동안 유럽·아시아 뉴스나 유가 변화가 7/6(월) 개장 분위기를 좌우할 수 있으니, 급하게 대응할 일은 없어요.",
+     "impact": "neutral",
+     "sources": [
+       {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-closed-fourth-july-173527672.html"}
+     ]
+   },
+   # ---- 글로벌·지정학 (1) ----
+   {
+     "category": "글로벌·지정학",
+     "headline": "국제유가 하락 — 미·이란 회담 진전, WTI $67.6",
+     "oneLineSummary": "미국 대표 원유(WTI) 가격이 -1.4% 내려 배럴당 67.6달러가 됐어요. 미국과 이란이 카타르에서 중재를 통해 대화를 이어가며 긴장이 누그러졌기 때문이에요. 트럼프 대통령은 '이란 비핵화 논의가 잘 진행되고 있다'고 말했어요.",
+     "summary": "WTI 유가는 7/2 -1.44% 내린 배럴당 $67.59로 마감했습니다. 미·이란이 카타르에서 중재자를 통해 협상을 재개하며 지정학 리스크가 완화됐고, 트럼프 대통령이 '이란 비핵화가 잘 진행되고 있다'고 언급했습니다.",
+     "ourImpact": "유가 하락은 물가·금리 부담을 낮춰 전반적으로 증시에 우호적이에요. 다만 내 보유 전력주 TLN(탈렌에너지)은 유가보다 전력 수요에 더 민감해서, 유가 하락과 무관하게 이날 +3%대 강세를 보였어요.",
+     "impact": "positive",
+     "sources": [
+       {"name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-2-2026"}
+     ]
+   }
+ ],
+ "weekAhead": [
+   {"date": "2026-07-03", "event": "미국 독립기념일 — 증시 휴장", "impact": "거래 없음"},
+   {"date": "2026-07-06", "event": "미국 정규장 재개(월)", "impact": "반도체 차익실현 진정 여부가 관건이에요"},
+   {"date": "2026-07-16", "event": "TSMC(TSM) 2분기 실적 발표", "impact": "보유 종목 TSMC의 다음 분기점이에요"},
+   {"date": "2026-07-22", "event": "알파벳(GOOG) 2분기 실적 발표", "impact": "보유 빅테크 실적 시즌의 시작이에요"},
+   {"date": "2026-07-29", "event": "메타(META) 2분기 실적 발표", "impact": "클라우드 진출 구체화 여부가 관심이에요"}
+ ],
+ "scheduleNote": "라이트 업데이트 — 미국 7/2 정규장 마감 캡처. 7/3(금)은 휴장이라 다음 미국 장은 7/6(월)이에요.",
+ "afterHoursNote": "7/2 정규장 이후 시간외에 발표된 대형 기술주(빅테크) 실적은 없었어요. 빅테크 2분기 실적 시즌은 7월 하순(7/22 구글, 7/29 메타 등)부터 본격 시작돼요.",
+ "asiaSummary": json.load(open(f"{BASE}/reports/2026-07-02.json", encoding="utf-8"))["asiaSummary"]
+}
+
+json.dump(report, open(f"{BASE}/reports/2026-07-03.json","w",encoding="utf-8"), ensure_ascii=False, indent=2)
+print("report 2026-07-03.json written, news items:", len(report['news']))
+
+# ---- index.json ----
+idx = json.load(open(f"{BASE}/reports/index.json", encoding="utf-8"))
+entry = {
+  "date": "2026-07-03",
+  "title": "7월 3일 (금) 미국 마감 캡처 — 다우 사상 최고(+1.1%)·나스닥 반도체 이틀째 차익실현 하락 / 메타 -4.9% / 7/3 휴장",
+  "summary": "다우 52,900.07(+1.14%) 사상 최고·S&P 7,483.24(보합)·나스닥 25,832.67(-0.80%). 약한 6월 고용(NFP 5.7만)에 비기술주로 순환매. 반도체·AI 하드웨어 이틀째 급락(MRVL -9.8%·SNDK -11%·LITE -10.8%·CLS -9%·DELL -7.9%·MU -5.5%), META -4.9%(전날 +9% 되돌림). 7/3 독립기념일 휴장."
+}
+# replace if exists else append
+idx['reports'] = [r for r in idx['reports'] if r.get('date') != '2026-07-03']
+idx['reports'].append(entry)
+json.dump(idx, open(f"{BASE}/reports/index.json","w",encoding="utf-8"), ensure_ascii=False, indent=2)
+print("index.json updated, total reports:", len(idx['reports']))
+
+# ---- calendar-events.json (light: lastUpdated only) ----
+cal = json.load(open(f"{BASE}/calendar-events.json", encoding="utf-8"))
+cal['lastUpdated'] = NOW
+json.dump(cal, open(f"{BASE}/calendar-events.json","w",encoding="utf-8"), ensure_ascii=False, indent=2)
+print("calendar lastUpdated ->", NOW)
