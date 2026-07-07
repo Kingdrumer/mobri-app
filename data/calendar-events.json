@@ -4495,8 +4495,53 @@
         ],
         "importance": "high"
       }
+    ],
+    "2026-07-08": [
+      {
+        "type": "negative",
+        "label": "美 반도체 급락",
+        "color": "red",
+        "mood": "🔴",
+        "time": "06:00 KST 미국 마감 캡처",
+        "title": "🔴 삼성 실적 실망+딥시크 자체 칩에 반도체 투매 — SOX -6%대·나스닥 -1.16%(25,819), 다우 -0.25%(52,925)",
+        "description": "7/7 미국 정규장이 반도체 투매로 4대 지수 동반 하락 마감. 삼성전자 2분기 실적이 시장의 높은 AI 기대엔 못 미친다는 해석과 중국 딥시크 자체 추론 칩 개발 보도가 겹쳤어요.",
+        "impact": "삼성 실적 실망이 미국 메모리 회사(MU·SNDK)까지 번졌고, 딥시크 자체 칩 보도가 반도체 전반 심리를 눌렀어요. 다만 딥시크 칩은 '추론'용이라 엔비디아 주력(학습 GPU)과는 겹침이 제한적이라는 해석이에요.",
+        "ourImpact": "메모리·AI 칩 비중이 커 이날 낙폭이 컸어요(SNDK -11%·MU -8%·AMD -5.6%). 반면 엔비디아(+0.7%)·탈렌(+1.5%)이 일부 방어했어요.",
+        "stockImpacts": [
+          {
+            "ticker": "SNDK",
+            "tone": "negative",
+            "magnitude": "-11%",
+            "text": "삼성 실적 실망·낸드 투매 직격, 보유 중 최대 낙폭"
+          },
+          {
+            "ticker": "MU",
+            "tone": "negative",
+            "magnitude": "-8%",
+            "text": "HBM 대장주, $900선 위협"
+          },
+          {
+            "ticker": "AMD",
+            "tone": "negative",
+            "magnitude": "-5.6%",
+            "text": "딥시크 자체 칩 우려에 약세"
+          },
+          {
+            "ticker": "NVDA",
+            "tone": "positive",
+            "magnitude": "+0.7%",
+            "text": "딥시크 칩이 추론용이라 주력과 겹침 제한적 — 홀로 강세"
+          },
+          {
+            "ticker": "TLN",
+            "tone": "positive",
+            "magnitude": "+1.5%",
+            "text": "전력·원자력주, 기술주 이탈 자금 유입"
+          }
+        ]
+      }
     ]
   },
   "realestate": {},
-  "lastUpdated": "2026-07-07T15:45:00+09:00"
+  "lastUpdated": "2026-07-08T06:00:00+09:00"
 }
