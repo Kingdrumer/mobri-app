@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T07:36:58+09:00",
+  "lastUpdated": "2026-07-13T16:52:00+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -444,511 +444,6 @@
       "status": "upcoming"
     },
     {
-      "id": "lh-2026-gimpohangang-ac01a-10yr-public",
-      "agency": "LH",
-      "title": "김포한강 Ac-01a블록(데세리브) 10년 공공임대주택리츠 예비입주자 모집 공고",
-      "shortTitle": "LH 김포한강 10년공공임대",
-      "type": "공공임대",
-      "category": [
-        "일반",
-        "신혼"
-      ],
-      "household": [
-        "1인_일반",
-        "신혼",
-        "예비_신혼"
-      ],
-      "region": [
-        "경기"
-      ],
-      "districts": [
-        "김포시 구래동(김포한강 데세리브)"
-      ],
-      "supplyCount": null,
-      "applicationStart": "2026-07-07",
-      "applicationEnd": "2026-07-08",
-      "announcementDate": "2026-06-19",
-      "rolling": false,
-      "highlights": [
-        "전용 51.93~59.91㎡ · 총 434세대 (공가세대 예비입주자 모집)",
-        "수도권(서울·인천·경기) 거주 무주택 세대구성원, 만 19세 이상, 1세대 1주택",
-        "청약저축 가입 여부·소득·자산기준과 무관하게 신청 가능",
-        "신청접수 2026.07.07 10:00 ~ 07.08 16:00 (인터넷·모바일만, 현장접수 불가)"
-      ],
-      "applyMethod": "LH청약플러스 인터넷·모바일",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061106&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
-      "status": "closing-today",
-      "sources": [
-        {
-          "name": "LH청약플러스 공고문 (김포한강 Ac-01a 10년 공공임대)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061106&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-20T07:42:00+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "sources": [
-          {
-            "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061106&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026"
-          }
-        ]
-      }
-    },
-    {
-      "id": "lh-2026-seoul-2nd-youth-maeip",
-      "agency": "LH",
-      "title": "[서울지역본부] 26년 2차 청년 매입임대주택 예비입주자 모집공고",
-      "shortTitle": "LH 서울 청년 매입임대 2차",
-      "type": "매입임대",
-      "category": [
-        "청년"
-      ],
-      "household": [
-        "1인_청년"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "강남구",
-        "강동구",
-        "강북구",
-        "강서구",
-        "관악구",
-        "광진구",
-        "구로구",
-        "노원구",
-        "도봉구",
-        "동대문구",
-        "동작구",
-        "마포구",
-        "서대문구",
-        "서초구",
-        "성동구",
-        "성북구",
-        "송파구",
-        "영등포구",
-        "은평구",
-        "종로구",
-        "중구",
-        "중랑구"
-      ],
-      "supplyCount": 493,
-      "applicationStart": "2026-07-06",
-      "applicationEnd": "2026-07-08",
-      "announcementDate": "2026-06-25",
-      "ageRange": [
-        19,
-        39
-      ],
-      "rolling": false,
-      "highlights": [
-        "공급호수 493호 (모집인원 1,362명)",
-        "공고일 현재 무주택 미혼 청년(만 19~39세, 1986.06.26~2007.06.25 출생)·대학생·취업준비생(졸업·중퇴 2년 내 미취업)",
-        "임대료 시중시세 40~50% 수준",
-        "최초 2년 + 재계약 4회(최장 10년)",
-        "접수기간 2026.07.06 10:00 ~ 2026.07.08 16:00"
-      ],
-      "applyMethod": "LH청약플러스 인터넷·모바일",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020210&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "closing-today",
-      "priorityRules": [
-        {
-          "rank": "1순위",
-          "label": "생계·의료·주거급여 수급자 / 한부모가족 / 차상위계층",
-          "match": {
-            "supportType": [
-              "수급자",
-              "한부모",
-              "차상위"
-            ]
-          }
-        },
-        {
-          "rank": "2순위",
-          "label": "본인+부모 월평균소득 도시근로자 100% 이하 + 국민임대 자산기준",
-          "match": {
-            "income": [
-              "100%이하"
-            ]
-          }
-        },
-        {
-          "rank": "3순위",
-          "label": "본인 월평균소득 1인가구 100% 이하 + 행복주택(청년) 자산기준",
-          "match": {
-            "income": [
-              "100%이하"
-            ]
-          }
-        }
-      ],
-      "sources": [
-        {
-          "name": "LH청약플러스 공고문 (서울 26년 2차 청년 매입임대)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020210&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-26T11:02:14+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "접수기간·공급호수·모집지역·1·2·3순위 자격 본문 직접 인용"
-      }
-    },
-    {
-      "id": "lh-2026-seoul-2nd-dormitory-youth",
-      "agency": "LH",
-      "title": "[서울지역본부] 26년 2차 기숙사형 청년주택 예비입주자 모집 공고",
-      "shortTitle": "LH 서울 기숙사형 청년주택 2차",
-      "type": "매입임대",
-      "category": [
-        "청년",
-        "대학생"
-      ],
-      "household": [
-        "1인_청년"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "서울 전역"
-      ],
-      "supplyCount": null,
-      "applicationStart": "2026-07-06",
-      "applicationEnd": "2026-07-08",
-      "announcementDate": "2026-06-25",
-      "ageRange": [
-        19,
-        39
-      ],
-      "rolling": false,
-      "highlights": [
-        "공고일 현재 무주택 미혼 청년 대학생·대학원생(입학·복학 예정자 포함)",
-        "만 19~39세(1986.06.26~2007.06.25)는 3순위에 한해 신청 가능",
-        "임대료 시중시세 40%, 임대보증금 60만원",
-        "최초 2년 + 재계약 4회(최장 10년)",
-        "접수기간 2026.07.06 10:00 ~ 2026.07.08 16:00"
-      ],
-      "applyMethod": "LH청약플러스 인터넷·모바일",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020211&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "closing-today",
-      "sources": [
-        {
-          "name": "LH청약플러스 공고문 (서울 26년 2차 기숙사형 청년주택)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020211&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-26T11:02:14+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "접수기간·공통자격·임대조건 본문 직접 인용. 공급호수는 첨부 주택목록 참조로 null"
-      }
-    },
-    {
-      "id": "lh-2026-seoul-2nd-shinhon-shinsaenga-maeip-1",
-      "agency": "LH",
-      "title": "[서울지역본부] 26년 2차 신혼·신생아 매입임대Ⅰ 예비입주자 모집공고",
-      "shortTitle": "LH 서울 신혼·신생아 매입Ⅰ 2차",
-      "type": "매입임대",
-      "category": [
-        "신혼",
-        "신생아",
-        "한부모"
-      ],
-      "household": [
-        "신혼",
-        "예비_신혼",
-        "신생아",
-        "한부모"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "서울 전역"
-      ],
-      "supplyCount": null,
-      "applicationStart": "2026-07-06",
-      "applicationEnd": "2026-07-08",
-      "announcementDate": "2026-06-25",
-      "maritalRequired": true,
-      "marriedYears": 7,
-      "rolling": false,
-      "highlights": [
-        "공고일 현재 무주택세대구성원 대상 (신혼·신생아 매입임대Ⅰ 소득·자산기준 충족)",
-        "신혼부부: 혼인 7년 이내(혼인신고일 2019.6.25~2026.6.25)",
-        "예비신혼부부·만6세 이하 자녀 한부모가족 포함",
-        "임대료 시중임대료 30~40% 수준 · 최장 20년 거주",
-        "접수기간 2026.07.06 10:00 ~ 2026.07.08 16:00"
-      ],
-      "applyMethod": "LH청약플러스 인터넷·모바일",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020214&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "closing-today",
-      "sources": [
-        {
-          "name": "LH청약플러스 공고문 (서울 26년 2차 신혼·신생아 매입임대Ⅰ)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020214&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-26T11:02:14+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "접수기간·공통자격(혼인7년/예비/한부모)·임대조건 본문 직접 인용. 세부 순위는 첨부 공고문 참조로 priorityRules 생략"
-      }
-    },
-    {
-      "id": "lh-2026-seoul-2nd-shinhon-shinsaenga-maeip-2-jeonse",
-      "agency": "LH",
-      "title": "[서울지역본부] 26년 2차 신혼·신생아매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
-      "shortTitle": "LH 서울 신혼·신생아 매입Ⅱ(전세형) 2차",
-      "type": "매입임대",
-      "category": [
-        "신혼",
-        "신생아"
-      ],
-      "household": [
-        "신혼",
-        "예비_신혼",
-        "신생아"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "강남구",
-        "강동구",
-        "강북구",
-        "강서구",
-        "관악구",
-        "광진구",
-        "구로구",
-        "노원구",
-        "도봉구",
-        "동대문구",
-        "동작구",
-        "마포구",
-        "서대문구",
-        "서초구",
-        "성북구",
-        "송파구",
-        "양천구",
-        "은평구",
-        "중랑구"
-      ],
-      "supplyCount": null,
-      "applicationStart": "2026-07-06",
-      "applicationEnd": "2026-07-08",
-      "announcementDate": "2026-06-25",
-      "maritalRequired": true,
-      "marriedYears": 7,
-      "rolling": false,
-      "highlights": [
-        "전세형(준전세) 신혼·신생아 매입임대Ⅱ",
-        "공고일 현재 무주택세대구성원 신혼·예비신혼·신생아 가구 대상",
-        "접수기간 2026.07.06 10:00 ~ 2026.07.08 16:00"
-      ],
-      "applyMethod": "LH청약플러스 인터넷·모바일",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020216&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "closing-today",
-      "sources": [
-        {
-          "name": "LH청약플러스 공고문 (서울 26년 2차 신혼·신생아 매입임대Ⅱ 전세형)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020216&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-26T11:02:14+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "접수기간·모집지역 본문 직접 확인. 세부 순위는 첨부 공고문 참조로 priorityRules 생략"
-      }
-    },
-    {
-      "id": "lh-2026-yangju-okjeong-10yr-public-musunwi",
-      "agency": "LH",
-      "title": "양주옥정 10년 공공임대주택리츠 예비입주자 모집(무순위)",
-      "shortTitle": "LH 양주옥정 10년공공임대 무순위",
-      "type": "공공임대",
-      "category": [
-        "일반"
-      ],
-      "household": [
-        "1인_일반",
-        "신혼",
-        "예비_신혼"
-      ],
-      "region": [
-        "경기"
-      ],
-      "districts": [
-        "양주시 옥정동"
-      ],
-      "supplyCount": null,
-      "applicationStart": "2026-07-08",
-      "applicationEnd": "2026-07-09",
-      "announcementDate": "2026-06-24",
-      "rolling": false,
-      "highlights": [
-        "양주옥정 10년 공공임대주택리츠 무순위(잔여) 예비입주자 모집",
-        "신청접수 2026.07.08 10:00 ~ 2026.07.09 16:00 (인터넷·모바일만)",
-        "당첨자 발표 2026.07.16 · 서류제출 2026.07.20~07.22"
-      ],
-      "applyMethod": "LH청약플러스 인터넷·모바일 (방문청약 불가)",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061107&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
-      "status": "open",
-      "sources": [
-        {
-          "name": "LH청약플러스 공고문 (양주옥정 10년 공공임대 무순위)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061107&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-26T11:02:14+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "무순위 접수기간·발표일 본문 직접 확인. 무순위 모집이라 순위·세부자격 없음"
-      }
-    },
-    {
-      "id": "sh-2026-hwagok-youth-grang-remainder",
-      "agency": "SH",
-      "title": "2026년 화곡동 청년 협동조합주택(그랑) 잔여세대 입주자 모집공고(2026. 6. 24.)",
-      "shortTitle": "SH 화곡동 청년 그랑 잔여",
-      "type": "매입임대",
-      "category": [
-        "청년"
-      ],
-      "household": [
-        "1인_청년"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "강서구 화곡동"
-      ],
-      "supplyCount": 4,
-      "applicationStart": "2026-07-06",
-      "applicationEnd": "2026-07-08",
-      "announcementDate": "2026-06-24",
-      "ageRange": [
-        19,
-        35
-      ],
-      "rolling": false,
-      "highlights": [
-        "화곡동 청년 협동조합주택(그랑) 잔여세대 총 4호",
-        "공고일 현재 서울시 주민등록 1인 가구 무주택, 만 19~35세(1990.6.24~2007.6.24 출생) 청년·대학교 졸업예정자",
-        "소득·총자산·자동차 기준 충족 + 조합 가입 동의",
-        "인터넷접수 2026.07.06 10:00 ~ 2026.07.08 17:00",
-        "당첨자 발표 2026.10.14"
-      ],
-      "applyMethod": "SH 인터넷청약시스템",
-      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306065&multi_itm_seq=2",
-      "status": "closing-today",
-      "sources": [
-        {
-          "name": "SH 인터넷청약시스템 공고문 (화곡동 청년 그랑 잔여)",
-          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306065&multi_itm_seq=2"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-26T11:02:14+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "공급호수·신청자격·접수일 본문 직접 인용. 세부 단지별 호수는 첨부 공고문 참조"
-      }
-    },
-    {
-      "id": "sh-2026-gayang-childcare-ieumchae-remainder",
-      "agency": "SH",
-      "title": "2026년 가양동 육아 협동조합주택(이음채) 잔여세대 입주자 모집공고(2026. 6. 23.)",
-      "shortTitle": "SH 가양동 육아 이음채 잔여",
-      "type": "매입임대",
-      "category": [
-        "신생아",
-        "다자녀"
-      ],
-      "household": [
-        "신생아"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "강서구 가양동"
-      ],
-      "supplyCount": 5,
-      "applicationStart": "2026-07-06",
-      "applicationEnd": "2026-07-08",
-      "announcementDate": "2026-06-23",
-      "rolling": false,
-      "highlights": [
-        "가양동 육아 협동조합주택(이음채) 잔여세대 총 5호",
-        "공고일 현재 서울시 주민등록 성년 무주택세대구성원, 만 7세 미만(2019.6.24 이후 출생) 양육 자녀를 둔 자",
-        "소득·총자산·자동차 기준 충족 + 육아협동조합 가입 동의",
-        "인터넷접수 2026.07.06 10:00 ~ 2026.07.08 17:00",
-        "당첨자 발표 2026.10.14"
-      ],
-      "applyMethod": "SH 인터넷청약시스템",
-      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306011&multi_itm_seq=2",
-      "status": "closing-today",
-      "sources": [
-        {
-          "name": "SH 인터넷청약시스템 공고문 (가양동 육아 이음채 잔여)",
-          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306011&multi_itm_seq=2"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-26T11:02:14+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "공급호수·신청자격·접수일 본문 직접 인용"
-      }
-    },
-    {
-      "id": "sh-2026-mallidong-artist-makcoop-remainder",
-      "agency": "SH",
-      "title": "2026년 만리동 예술인 협동조합주택(막쿱) 잔여세대 입주자 모집공고(2026. 6. 25.)",
-      "shortTitle": "SH 만리동 예술인 막쿱 잔여",
-      "type": "매입임대",
-      "category": [
-        "예술인"
-      ],
-      "household": [
-        "1인_일반"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "중구 만리동"
-      ],
-      "supplyCount": 1,
-      "applicationStart": "2026-07-09",
-      "applicationEnd": "2026-07-10",
-      "announcementDate": "2026-06-25",
-      "rolling": false,
-      "highlights": [
-        "만리동 예술인 협동조합주택(막쿱) 잔여세대 총 1호",
-        "공고일 현재 서울시 주민등록 성년·2인 이상 무주택세대구성원으로 문화예술 분야 종사(예술활동증명 발급 가능)",
-        "소득·총자산·자동차 기준 충족 + 예술인협동조합 가입 동의",
-        "인터넷접수 2026.07.09 10:00 ~ 2026.07.10 17:00",
-        "당첨자 발표 2026.10.21"
-      ],
-      "applyMethod": "SH 인터넷청약시스템",
-      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306066&multi_itm_seq=2",
-      "status": "upcoming",
-      "sources": [
-        {
-          "name": "SH 인터넷청약시스템 공고문 (만리동 예술인 막쿱 잔여)",
-          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306066&multi_itm_seq=2"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-26T11:02:14+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "공급호수·신청자격·접수일 본문 직접 인용"
-      }
-    },
-    {
       "id": "sh-2026-1st-youth-maeip",
       "agency": "SH",
       "title": "2026년 1차 청년 매입임대주택 입주자 모집공고(2026. 6. 26.)",
@@ -980,7 +475,7 @@
       ],
       "applyMethod": "SH 인터넷청약시스템 (인터넷만)",
       "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306214&multi_itm_seq=2",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "SH 인터넷청약시스템 공고문 (2026년 1차 청년 매입임대주택)",
@@ -1026,7 +521,7 @@
       ],
       "applyMethod": "SH 인터넷청약시스템 (인터넷만)",
       "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306218&multi_itm_seq=2",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "SH 인터넷청약시스템 공고문 (2026년 1차 기숙사형 청년주택)",
@@ -1037,51 +532,6 @@
         "fetchedAt": "2026-06-27T07:37:51+09:00",
         "method": "Claude in Chrome 공고 상세 본문 직접 확인",
         "note": "공급호수·접수기간·신청자격·일정 본문 직접 인용. 1~3순위 세부 자격기준은 첨부 공고문 참조로 priorityRules 생략"
-      }
-    },
-    {
-      "id": "sh-2026-2nd-sadang-oneroom-remainder",
-      "agency": "SH",
-      "title": "2026-2차 사당동원룸 잔여세대 입주자모집공고(26. 6. 26.)",
-      "shortTitle": "SH 사당동원룸 잔여 2차",
-      "type": "매입임대",
-      "category": [
-        "청년",
-        "대학생"
-      ],
-      "household": [
-        "1인_청년"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "동작구 사당동"
-      ],
-      "supplyCount": 13,
-      "applicationStart": "2026-07-09",
-      "applicationEnd": "2026-07-10",
-      "announcementDate": "2026-06-26",
-      "rolling": false,
-      "highlights": [
-        "사당동 원룸 잔여세대 13호",
-        "신청자격: 중소제조업체 청년근로자 또는 대학생",
-        "인터넷접수 2026.7.9 ~ 7.10 10:00~17:00 (등기우편·방문 불가)",
-        "서류심사대상자 발표 2026.7.20 · 당첨자 발표 2026.9.28"
-      ],
-      "applyMethod": "SH 인터넷청약시스템 (인터넷만)",
-      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306205&multi_itm_seq=2",
-      "status": "upcoming",
-      "sources": [
-        {
-          "name": "SH 인터넷청약시스템 공고문 (2026-2차 사당동원룸 잔여세대)",
-          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306205&multi_itm_seq=2"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-06-27T07:37:51+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "공급호수·접수기간·신청자격·일정 본문 직접 인용. 세부 단지·자격은 첨부 공고문 참조"
       }
     },
     {
@@ -1114,7 +564,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷·모바일",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020240&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (경기남부 26년 2차 청년 매입임대)",
@@ -1158,7 +608,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷·모바일",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020241&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (화성·군포·안산 26년 1차 기숙사형 청년주택)",
@@ -1205,7 +655,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷·모바일",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020239&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (경기남부 신혼·신생아 매입임대Ⅰ)",
@@ -1252,7 +702,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷·모바일",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020255&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (경기남부 신혼·신생아 매입임대Ⅱ 전세형)",
@@ -1301,7 +751,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷·모바일",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020297&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (서울대방 신혼희망타운 행복주택 정정)",
@@ -1312,6 +762,96 @@
         "fetchedAt": "2026-07-08T07:35:00+09:00",
         "method": "Claude in Chrome 공고 상세 본문 직접 확인",
         "note": "공고일·접수기간·소재지·세대수·전용면적·대상·일정 본문 직접 인용. 임대보증금/월임대료는 공고문 확인 항목이라 생략"
+      }
+    },
+    {
+      "id": "sh-2026-eunpyeong-youth-startup-house-add",
+      "agency": "SH",
+      "title": "은평구 청년 창업인의 집(수요자맞춤형) 추가 입주자 모집 공고",
+      "shortTitle": "SH 은평 청년 창업인의집",
+      "type": "매입임대",
+      "category": [
+        "청년"
+      ],
+      "household": [
+        "1인_청년"
+      ],
+      "region": [
+        "서울"
+      ],
+      "districts": [
+        "은평구"
+      ],
+      "supplyCount": 5,
+      "applicationStart": "2026-07-13",
+      "applicationEnd": "2026-07-31",
+      "announcementDate": "2026-07-13",
+      "ageRange": null,
+      "rolling": false,
+      "highlights": [
+        "청년 창업인 대상 수요자맞춤형 매입임대 추가모집, 공급호수 총 5세대",
+        "모집공고일 2026.07.13 · 세부 신청자격은 첨부 공고문 참조",
+        "접수기간 2026.07.13(월) ~ 07.31(금) 18:00 (이메일 접수, 방문·우편 불가)",
+        "당첨자발표 2026.10.02 은평구청 홈페이지 공고"
+      ],
+      "applyMethod": "이메일 접수 (은평구청 청장년희망과 ☎02-351-6884)",
+      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306908&multi_itm_seq=2",
+      "status": "open",
+      "sources": [
+        {
+          "name": "SH 인터넷청약시스템 공고문 (은평구 청년 창업인의 집 추가모집)",
+          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306908&multi_itm_seq=2"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-07-13T16:52:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·공급호수·접수기간·발표일 본문 직접 인용. 세부 신청자격은 첨부 PDF 참조라 ageRange·priorityRules 생략"
+      }
+    },
+    {
+      "id": "sh-2026-seongbuk-theater-artist-remainder",
+      "agency": "SH",
+      "title": "2026년 성북구 연극인주택 잔여세대 입주자 모집공고(26. 7. 8.)",
+      "shortTitle": "SH 성북구 연극인주택 잔여",
+      "type": "매입임대",
+      "category": [
+        "예술인"
+      ],
+      "household": [
+        "1인_일반"
+      ],
+      "region": [
+        "서울"
+      ],
+      "districts": [
+        "성북구"
+      ],
+      "supplyCount": 9,
+      "applicationStart": "2026-07-20",
+      "applicationEnd": "2026-07-21",
+      "announcementDate": "2026-07-08",
+      "ageRange": null,
+      "rolling": false,
+      "highlights": [
+        "성북구 연극인주택 잔여세대 9호",
+        "공고일(2026.7.8) 현재 서울 거주 만50세 이하 무주택세대구성원, 문화예술진흥법상 연극분야 종사자, 소득·자산기준 충족",
+        "인터넷접수 2026.7.20(월) 10:00 ~ 7.21(화) 17:00 (방문·등기우편 불가)",
+        "서류심사대상자 발표 2026.7.31 · 당첨자발표 2026.10.8"
+      ],
+      "applyMethod": "SH 인터넷청약시스템 (인터넷만)",
+      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306722&multi_itm_seq=2",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "SH 인터넷청약시스템 공고문 (성북구 연극인주택 잔여세대)",
+          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306722&multi_itm_seq=2"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-07-13T16:52:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·공급호수·신청자격·접수일·발표일 본문 직접 인용"
       }
     }
   ],
