@@ -4552,8 +4552,28 @@
         "ourImpact": "보유 포트폴리오는 반도체·비반도체가 갈려 낙폭이 지수보다 분산됐어요. 오늘 밤 FOMC 의사록(연준 회의 기록)에서 금리 인하 힌트가 나오면 반등 재료가 될 수 있어요.",
         "stockImpacts": "SNDK·MU·MRVL·CRDO·LITE·AMD·TSM 반도체 조정 / NVDA·DELL·META·AMZN 강세"
       }
+    ],
+    "2026-07-16": [
+      {
+        "type": "neutral",
+        "label": "TSMC 실적",
+        "color": "blue",
+        "time": "장전(미국)",
+        "title": "TSMC 2분기 실적 발표",
+        "description": "보유 종목 TSMC(세계 1위 반도체 수탁 제조사)의 2분기 실적 발표예요. AI 칩 수요와 올해 투자(CapEx) 계획이 핵심 관전 포인트예요.",
+        "impact": "TSMC 실적과 가이던스(회사가 직접 하는 다음 분기 예상)는 반도체 업종 전체 분위기를 좌우해요.",
+        "ourImpact": "보유 TSM 직접 영향. AI 관련 NVDA·AVGO·AMD도 함께 움직일 수 있어요.",
+        "stockImpacts": [
+          {
+            "ticker": "TSM",
+            "tone": "neutral",
+            "magnitude": "실적 이벤트",
+            "text": "2분기 실적·CapEx 가이던스 직접 영향"
+          }
+        ]
+      }
     ]
   },
   "realestate": {},
-  "lastUpdated": "2026-07-08T08:00:00+09:00"
+  "lastUpdated": "2026-07-13T06:00:00+09:00"
 }
