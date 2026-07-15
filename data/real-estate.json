@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T16:52:00+09:00",
+  "lastUpdated": "2026-07-15T11:03:16+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -475,7 +475,7 @@
       ],
       "applyMethod": "SH 인터넷청약시스템 (인터넷만)",
       "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306214&multi_itm_seq=2",
-      "status": "open",
+      "status": "closing-today",
       "sources": [
         {
           "name": "SH 인터넷청약시스템 공고문 (2026년 1차 청년 매입임대주택)",
@@ -521,7 +521,7 @@
       ],
       "applyMethod": "SH 인터넷청약시스템 (인터넷만)",
       "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306218&multi_itm_seq=2",
-      "status": "open",
+      "status": "closing-today",
       "sources": [
         {
           "name": "SH 인터넷청약시스템 공고문 (2026년 1차 기숙사형 청년주택)",
@@ -564,7 +564,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷·모바일",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020240&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (경기남부 26년 2차 청년 매입임대)",
@@ -608,7 +608,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷·모바일",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020241&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (화성·군포·안산 26년 1차 기숙사형 청년주택)",
@@ -655,7 +655,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷·모바일",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020239&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (경기남부 신혼·신생아 매입임대Ⅰ)",
@@ -702,7 +702,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷·모바일",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020255&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (경기남부 신혼·신생아 매입임대Ⅱ 전세형)",
@@ -751,7 +751,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷·모바일",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020297&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (서울대방 신혼희망타운 행복주택 정정)",
