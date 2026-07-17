@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T12:11:07+09:00",
+  "lastUpdated": "2026-07-18T07:36:38+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -531,6 +531,99 @@
         "fetchedAt": "2026-07-13T16:52:00+09:00",
         "method": "Claude in Chrome 공고 상세 본문 직접 확인",
         "note": "공고일·공급호수·신청자격·접수일·발표일 본문 직접 인용"
+      }
+    },
+    {
+      "id": "sh-2026-chungsindong-doorae-theater-remainder",
+      "agency": "SH",
+      "title": "2026-2차 충신동 두레주택 잔여세대 입주자모집공고(26. 7. 15.)",
+      "shortTitle": "SH 충신동 연극인 두레주택 잔여",
+      "type": "매입임대",
+      "category": [
+        "예술인"
+      ],
+      "household": [
+        "1인_일반"
+      ],
+      "region": [
+        "서울"
+      ],
+      "districts": [
+        "종로구 충신동"
+      ],
+      "supplyCount": 5,
+      "applicationStart": "2026-07-27",
+      "applicationEnd": "2026-07-29",
+      "announcementDate": "2026-07-15",
+      "ageRange": null,
+      "rolling": false,
+      "highlights": [
+        "충신동 연극인 두레주택 잔여세대 5호",
+        "공고일(26.7.15) 현재 서울 거주 만50세 이하 무주택 단독세대주, 문화예술진흥법상 연극분야 종사자, 소득·무주택 요건 충족",
+        "접수 2026.7.27(월) 10:00 ~ 7.29(수) 17:00 (이메일/등기우편/방문접수 택1, 인터넷청약 없음)",
+        "서류심사대상자 발표 2026.8.6 · 당첨자발표 2026.9.16"
+      ],
+      "applyMethod": "이메일/등기우편/방문접수 (SH 콜센터 ☎1600-3456, 맞춤주택공급부 02-3410-8546)",
+      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306986&multi_itm_seq=2",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "SH 인터넷청약시스템 공고문 (충신동 연극인 두레주택 잔여세대)",
+          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306986&multi_itm_seq=2"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-07-18T07:35:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·공급호수·신청자격·접수기간·발표일 본문 직접 인용"
+      }
+    },
+    {
+      "id": "lh-2026-gwanak-bongcheon-happy-house",
+      "agency": "LH",
+      "title": "서울관악봉천 H-1ㆍ2ㆍ3BL 행복주택 예비입주자 모집공고(2026.07.15)",
+      "shortTitle": "LH 관악봉천 행복주택",
+      "type": "행복주택",
+      "category": [
+        "청년"
+      ],
+      "household": [
+        "1인_청년"
+      ],
+      "region": [
+        "서울"
+      ],
+      "districts": [
+        "관악구 봉천동"
+      ],
+      "supplyCount": null,
+      "applicationStart": "2026-07-27",
+      "applicationEnd": "2026-07-28",
+      "announcementDate": "2026-07-15",
+      "ageRange": [
+        19,
+        39
+      ],
+      "rolling": false,
+      "highlights": [
+        "관악구 봉천동(인헌16가길 38) 관악봉천 H-1·2·3BL 행복주택 예비입주자, 전용 17~20㎡",
+        "접수기간 2026.07.27~07.28, 인터넷청약(LH청약플러스 PC·모바일)",
+        "서류제출대상자 발표 2026.08.04 · 서류접수 2026.08.10~08.14 · 당첨자발표 2026.11.12",
+        "계층별 공급(대학생·청년 등) — 세부 계층·자격·모집호수는 공고문 참조"
+      ],
+      "applyMethod": "LH청약플러스 인터넷(PC·모바일) / 접수처 LH서울남부권주거복지지사 ☎1600-1004",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020326&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (서울관악봉천 행복주택 예비입주자)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020326&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-07-18T07:35:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·접수기간·발표일·소재지 본문 직접 인용. 계층별 모집호수·세부자격은 첨부 공고문 참조라 supplyCount·priorityRules 생략"
       }
     }
   ],
