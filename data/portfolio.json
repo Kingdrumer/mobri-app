@@ -646,9 +646,10 @@
       "recentNews": [
         {
           "date": "2026-07-17",
-          "headline": "TSM -7.3% — 시설 투자 확대 부담에 급락, 보유주 중 최대 낙폭",
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/quote/TSM/"
+          "headline": "TSM(ADR) -2.8% — AI 반도체 조정에 동반 하락",
+          "easySummary": "보유 종목 TSM(대만 반도체 미국 주식)이 -2.8% 내렸어요. AI 반도체 전반의 차익실현 매물에 함께 눌렸어요. 참고로 대만에 상장된 TSMC 본주는 아시아 세션에서 더 크게 빠졌어요.",
+          "source": "네이버 금융",
+          "url": "https://m.stock.naver.com/worldstock/stock/TSM"
         },
         {
           "date": "2026-07-08",
@@ -950,9 +951,10 @@
       "recentNews": [
         {
           "date": "2026-07-17",
-          "headline": "MU +3.3% $835 — 급락 뒤 저가 매수 반등(HBM 수요 기대)",
-          "source": "TradingKey",
-          "url": "https://www.tradingkey.com/news/market-movers/262038267-market-movers-mu-20260717"
+          "headline": "MU -0.5% $849 — 약세장에도 선방한 메모리 대표주",
+          "easySummary": "보유 종목 MU(마이크론)가 -0.5% 소폭 하락에 그쳤어요. 반도체지수가 약세장에 들어선 와중에도 메모리 대표주로 비교적 잘 버텼어요.",
+          "source": "네이버 금융",
+          "url": "https://m.stock.naver.com/worldstock/stock/MU.O"
         },
         {
           "date": "2026-07-15",
@@ -1460,9 +1462,10 @@
       "recentNews": [
         {
           "date": "2026-07-17",
-          "headline": "SNDK +5.2% — 낸드·SSD 값 회복 기대에 반등",
-          "source": "TradingKey",
-          "url": "https://www.tradingkey.com/news/market-movers/262038270-market-movers-sndk-20260717"
+          "headline": "SNDK -4.0% $1,355 — 최근 급등 뒤 차익실현 조정",
+          "easySummary": "보유 종목 SNDK(샌디스크)가 -4.0% 내렸어요. 낸드 메모리주로 최근 크게 오른 뒤 차익실현(오른 김에 일부 파는 것) 매물이 나온 조정이에요.",
+          "source": "네이버 금융",
+          "url": "https://m.stock.naver.com/worldstock/stock/SNDK.O"
         },
         {
           "date": "2026-07-15",
