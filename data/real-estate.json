@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T10:58:08+09:00",
+  "lastUpdated": "2026-07-28T07:37:22+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -568,7 +568,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷(PC·모바일) / 접수처 LH서울남부권주거복지지사 ☎1600-1004",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020326&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "open",
+      "status": "closing-today",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (서울관악봉천 행복주택 예비입주자)",
@@ -628,6 +628,60 @@
         "fetchedAt": "2026-07-27T10:58:00+09:00",
         "method": "Claude in Chrome 공고 상세 본문 직접 확인",
         "note": "공고일·접수기간·발표일·소재지·전용면적·금회공급 세대수 본문 직접 인용. 혼인기간·연령 등 세부 신청자격은 첨부 공고문(PDF)이라 marriedYears·ageRange 생략"
+      }
+    },
+    {
+      "id": "lh-2026-osan-happy-house-relaxed",
+      "agency": "LH",
+      "title": "오산시 행복주택 입주자격완화 예비입주자 모집(2026.07.27)",
+      "shortTitle": "LH 오산 행복주택",
+      "type": "행복주택",
+      "category": [
+        "청년",
+        "신혼",
+        "고령자",
+        "한부모"
+      ],
+      "household": [
+        "1인_청년",
+        "신혼",
+        "예비_신혼",
+        "고령자",
+        "한부모"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "오산시 세교동",
+        "오산시 청학동",
+        "오산시 청호동"
+      ],
+      "supplyCount": null,
+      "applicationStart": "2026-08-11",
+      "applicationEnd": "2026-08-13",
+      "announcementDate": "2026-07-27",
+      "ageRange": null,
+      "rolling": false,
+      "highlights": [
+        "오산세교·청학·청호 5개 단지 행복주택, 전용 16.54~36.92㎡ (입주자격완화: 소득·자산 배제)",
+        "주택형별 계층: 16·26A형(대학생·청년·주거급여수급자), 26B형(고령자 주거약자), 36A형(신혼부부·한부모·청년)",
+        "청약접수 2026.08.11(화)~08.13(목) 3일간, 인터넷청약(LH청약플러스 PC·모바일)",
+        "서류제출대상자 발표 2026.08.19 · 서류접수 08.20~08.26 · 당첨자발표 2026.10.28"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일) 또는 현장접수",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020387&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (오산시 행복주택 입주자격완화 예비입주자)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020387&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-07-28T07:37:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·청약접수기간·발표일정·소재지·전용면적·주택형별 계층 본문 직접 인용. 총 공급세대수 및 연령·혼인 세부요건은 첨부 공고문(PDF) 참조라 supplyCount·ageRange·marriedYears 생략"
       }
     }
   ],
