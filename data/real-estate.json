@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T07:36:38+09:00",
+  "lastUpdated": "2026-07-27T10:58:08+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -489,51 +489,6 @@
       }
     },
     {
-      "id": "sh-2026-seongbuk-theater-artist-remainder",
-      "agency": "SH",
-      "title": "2026년 성북구 연극인주택 잔여세대 입주자 모집공고(26. 7. 8.)",
-      "shortTitle": "SH 성북구 연극인주택 잔여",
-      "type": "매입임대",
-      "category": [
-        "예술인"
-      ],
-      "household": [
-        "1인_일반"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "성북구"
-      ],
-      "supplyCount": 9,
-      "applicationStart": "2026-07-20",
-      "applicationEnd": "2026-07-21",
-      "announcementDate": "2026-07-08",
-      "ageRange": null,
-      "rolling": false,
-      "highlights": [
-        "성북구 연극인주택 잔여세대 9호",
-        "공고일(2026.7.8) 현재 서울 거주 만50세 이하 무주택세대구성원, 문화예술진흥법상 연극분야 종사자, 소득·자산기준 충족",
-        "인터넷접수 2026.7.20(월) 10:00 ~ 7.21(화) 17:00 (방문·등기우편 불가)",
-        "서류심사대상자 발표 2026.7.31 · 당첨자발표 2026.10.8"
-      ],
-      "applyMethod": "SH 인터넷청약시스템 (인터넷만)",
-      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306722&multi_itm_seq=2",
-      "status": "upcoming",
-      "sources": [
-        {
-          "name": "SH 인터넷청약시스템 공고문 (성북구 연극인주택 잔여세대)",
-          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306722&multi_itm_seq=2"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-07-13T16:52:00+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "공고일·공급호수·신청자격·접수일·발표일 본문 직접 인용"
-      }
-    },
-    {
       "id": "sh-2026-chungsindong-doorae-theater-remainder",
       "agency": "SH",
       "title": "2026-2차 충신동 두레주택 잔여세대 입주자모집공고(26. 7. 15.)",
@@ -565,7 +520,7 @@
       ],
       "applyMethod": "이메일/등기우편/방문접수 (SH 콜센터 ☎1600-3456, 맞춤주택공급부 02-3410-8546)",
       "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?seq=306986&multi_itm_seq=2",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "SH 인터넷청약시스템 공고문 (충신동 연극인 두레주택 잔여세대)",
@@ -613,7 +568,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷(PC·모바일) / 접수처 LH서울남부권주거복지지사 ☎1600-1004",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020326&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (서울관악봉천 행복주택 예비입주자)",
@@ -624,6 +579,55 @@
         "fetchedAt": "2026-07-18T07:35:00+09:00",
         "method": "Claude in Chrome 공고 상세 본문 직접 확인",
         "note": "공고일·접수기간·발표일·소재지 본문 직접 인용. 계층별 모집호수·세부자격은 첨부 공고문 참조라 supplyCount·priorityRules 생략"
+      }
+    },
+    {
+      "id": "lh-2026-bucheon-daejang-shinhon-hope-a5a6",
+      "agency": "LH",
+      "title": "부천대장 A5·A6블록 신혼희망타운 행복주택 입주자 최초모집(2026.07.23)",
+      "shortTitle": "LH 부천대장 신혼희망타운",
+      "type": "신혼희망타운",
+      "category": [
+        "신혼",
+        "신생아"
+      ],
+      "household": [
+        "신혼",
+        "예비_신혼",
+        "신생아"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "부천시 오정구 오정동"
+      ],
+      "supplyCount": 537,
+      "applicationStart": "2026-08-11",
+      "applicationEnd": "2026-08-13",
+      "announcementDate": "2026-07-23",
+      "maritalRequired": true,
+      "rolling": false,
+      "highlights": [
+        "부천대장 공공주택지구 A5·A6블록 신혼희망타운 행복주택, 금회공급 총 537세대(A5 312·A6 225)",
+        "소재지 경기 부천시 오정구 오정동 일원, 전용 46~55㎡, 입주예정 2027.11",
+        "청약접수 2026.08.11~08.13 (인터넷 apply.lh.or.kr·모바일 LH청약플러스)",
+        "서류제출대상자 발표 2026.08.24 · 서류접수 08.25~08.28 · 당첨자발표 2026.12.17",
+        "'46형'·'55형' 공급형별 통합접수, '일반'·'주거약자' 선택(세부 신청자격은 공고문 참조)"
+      ],
+      "applyMethod": "LH청약플러스 인터넷(PC·모바일) 또는 현장접수",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020448&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (부천대장 A5·A6블록 신혼희망타운 행복주택)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020448&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-07-27T10:58:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·접수기간·발표일·소재지·전용면적·금회공급 세대수 본문 직접 인용. 혼인기간·연령 등 세부 신청자격은 첨부 공고문(PDF)이라 marriedYears·ageRange 생략"
       }
     }
   ],
