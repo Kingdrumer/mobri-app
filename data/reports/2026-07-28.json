@@ -1,120 +1,841 @@
 {
- "date": "2026-07-28",
- "session": "화요일 새벽 — 미국 정규장 마감 + 애프터아워 실적 캡처 (라이트)",
- "title": "7월 28일 (화) 06:00 미국 마감 캡처 — 🟡 다우 +0.5% 신고가권·나스닥 −0.2% 반도체 급락(NVDA −4.8%·AMD −5.5%) / 장 마감 후 CLS 어닝 서프라이즈·연간전망 205억$ 상향으로 시간외 급등 / 수요일 FOMC·META·AMZN 실적 대기",
- "marketStatus": "🟡 화요일 새벽 6시(KST). 7/27 미국 정규장이 방금 마감했어요(05:00 KST).",
- "generatedAt": "2026-07-28T06:15:00+09:00",
- "lastUpdated": "2026-07-28T06:15:00+09:00",
- "marketSummary": "7/27 미국 증시는 혼조로 마감했어요. 다우 52,210.08(+0.51%)은 신고가권으로 올랐지만, S&P500 7,413.18(+0.02%)은 보합, 나스닥 종합 24,932.08(−0.18%)은 소폭 내렸어요. 엔비디아(−4.8%)·AMD(−5.5%)를 비롯한 반도체가 크게 밀리며 나스닥을 눌렀어요 — 엔비디아가 오픈AI에 최대 2,500억 달러를 대준다는 보도로 'AI 투자가 서로 돌고 도는 것 아니냐'는 걱정이 커졌고, 중국의 반도체 장비 국산화 소식까지 겹쳤어요. 반면 중동 완화로 국제 유가가 급락하면서 경기민감주·다우는 강세였어요. 장 마감 후엔 보유 종목 셀레스티카(CLS)가 2분기 실적을 발표했는데, 매출이 예상을 크게 웃도는 +62%였고 올해 매출 전망도 190억$에서 205억$로 올려 시간외 거래에서 크게 뛰었어요. 이번 주는 수요일(7/29) FOMC(미국 금리 결정)와 META·AMZN 실적이 남아 있어요.",
- "dataQualityNote": "라이트 캡처. 지수·NVDA·AMD·AVGO·TSM·MRVL·MU·META는 확인값이고, 나머지 보유 종목 가격/등락률은 당일 반도체 섹터 흐름을 기준으로 한 근사치예요(확정 종가로 추후 정정).",
- "news": [
-  {
-   "category": "미국 증시",
-   "headline": "美 마감 혼조 — 다우 +0.5% 신고가권, 나스닥 −0.2% 반도체가 발목",
-   "oneLineSummary": "미국 3대 지수가 방향이 엇갈려 마감했어요. 다우는 +0.5%로 사상 최고가 근처까지 올랐지만, 나스닥은 엔비디아·AMD 같은 반도체주가 크게 빠지면서 −0.2%로 내렸어요. 중동이 진정되며 유가가 급락한 게 경기민감주엔 힘이 됐어요.",
-   "summary": "7/27 미국 증시는 혼조 마감. 다우 52,210.08(+0.51%)은 신고가권, S&P500 7,413.18(+0.02%) 보합, 나스닥 종합 24,932.08(−0.18%) 약세였습니다. 반도체 급락이 나스닥을 눌렀고, 중동 긴장 완화에 따른 유가 급락이 다우·경기민감주 강세를 이끌며 지수 간 차별화가 나타났습니다.",
-   "ourImpact": "보유 종목은 반도체·메모리(NVDA·AMD·MU·MRVL·AVGO·TSM)가 대체로 약세였고, 전력주 TLN 등 비(非)반도체는 상대적으로 견조했어요. 수요일 FOMC와 빅테크 실적을 앞두고 있어 변동이 커질 수 있으니 흐름만 가볍게 지켜보면 좋아요.",
-   "impact": "neutral",
-   "sources": [
+  "date": "2026-07-28",
+  "session": "한국 아침 08:00 풀 모닝 브리핑",
+  "title": "7월 28일 (화) 08:00 풀 모닝 - 🟡 미국 7/27 혼조 마감(다우 +0.5% 신고가권·나스닥 -0.2%) / 반도체 급락: NVDA·AMD 오픈AI 순환금융 우려 + 마이크론·샌디스크는 中 CXMT 상장 데뷔 / 장마감후 CLS 어닝 서프라이즈 시간외 급등 / 이번주 FOMC(7/29)·빅테크 실적 '슈퍼위크'",
+  "marketStatus": "🟡 화요일 아침 8시(KST) 풀 모닝. 미국은 7/27 혼조 마감이에요 - 다우 52,210.08(+0.51%, 신고가권)·S&P500 7,413.18(+0.02%)·나스닥 24,932.08(-0.18%). 엔비디아(-4.8%)·AMD(-5.5%)는 오픈AI 순환금융 우려로, 마이크론·샌디스크 같은 메모리는 중국 CXMT(창신)의 상하이 상장 데뷔로 크게 밀렸어요. 반면 중동 완화로 유가가 급락(WTI -8.7%)해 다우·경기민감주는 강세였어요. 장 마감 뒤 셀레스티카(CLS)가 어닝 서프라이즈(매출 +62%·연간전망 205억$ 상향)로 시간외 급등했어요. 이번 주는 수요일(7/29) FOMC·MSFT·META, 목요일(7/30) AAPL·AMZN 실적이 몰린 '슈퍼 위크'예요.",
+  "generatedAt": "2026-07-28T08:00:00+09:00",
+  "lastUpdated": "2026-07-28T08:00:00+09:00",
+  "marketSummary": "7/27 미국 증시는 혼조로 마감했어요. 다우 52,210.08(+0.51%)은 신고가권, S&P500 7,413.18(+0.02%)은 보합, 나스닥 24,932.08(-0.18%)은 소폭 내렸어요. 반도체가 두 갈래 악재로 밀렸어요 - 엔비디아(-4.8%)·AMD(-5.5%)는 엔비디아가 오픈AI에 최대 2,500억 달러를 대준다는 보도로 'AI 투자가 서로 돌고 도는 것 아니냐'는 순환금융 우려가 커졌고, 마이크론(-2.3%)·샌디스크(-11.8%) 같은 메모리는 중국 CXMT(창신)가 상하이 증시에 화려하게 데뷔하면서 '중국이 메모리에서 치고 올라온다'는 경계감이 작용했어요. 반면 미국·이란이 주말 사이 서로 공격을 멈추면서 국제 유가가 급락(WTI -8.7%, $82.62)했고, 이 덕에 다우·경기민감주는 강세였어요. 변동성 지수(VIX)는 19.4로 시장 불안은 크지 않았어요. 장 마감 뒤 셀레스티카(CLS)가 2분기 매출 +62%·연간전망 205억$ 상향의 어닝 서프라이즈를 내며 시간외 +7%대로 뛰었어요.",
+  "dataQualityNote": "06:15 마감 캡처의 오차 2건을 정정했어요 - SNDK $1,428->$1,267.82(-11.75%), MU $921->$900.20(-2.25%). StockAnalysis/Yahoo 교차확인. 국내 시그널·외인동향은 네이버 접근 제한으로 직전(7/18) 검증분 유지.",
+  "news": [
     {
-     "name": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-27-132000679.html"
+      "category": "미국 증시",
+      "headline": "美 마감 혼조 - 다우 +0.5% 신고가권, 나스닥 -0.2% 반도체가 발목",
+      "oneLineSummary": "미국 3대 지수가 방향이 엇갈려 마감했어요. 다우는 +0.5%로 사상 최고가 근처까지 올랐지만, 나스닥은 엔비디아·AMD 같은 반도체주가 크게 빠지면서 -0.2%로 내렸어요. 중동이 진정되며 유가가 급락한 게 경기민감주엔 힘이 됐어요.",
+      "summary": "7/27 미국 증시는 혼조 마감. 다우 52,210.08(+0.51%) 신고가권, S&P500 7,413.18(+0.02%) 보합, 나스닥 24,932.08(-0.18%) 약세. 반도체 급락이 나스닥을 눌렀고, 중동 완화발 유가 급락이 다우·경기민감주 강세를 이끌며 지수 간 차별화가 나타났습니다.",
+      "ourImpact": "보유 종목은 반도체·메모리(NVDA·AMD·MU·MRVL·AVGO·TSM·SNDK)가 대체로 약세였고, 전력주 TLN 등 비반도체는 상대적으로 견조했어요. 수요일 FOMC와 빅테크 실적을 앞둬 변동이 커질 수 있으니 흐름만 가볍게 지켜보면 좋아요.",
+      "impact": "neutral",
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-27-132000679.html"
+        },
+        {
+          "name": "The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/07/27/stock-market-today-july-27-dow-rises-on-oil-retreat-and-sandisk-plunges-11-on-memory-weakness/"
+        }
+      ]
+    },
+    {
+      "category": "미국 증시",
+      "headline": "이번 주는 FOMC·빅테크 실적 몰린 '슈퍼 위크'",
+      "oneLineSummary": "이번 주 미국은 큰 이벤트가 줄줄이 있어요. 수요일(7/29)엔 연준 금리 결정(FOMC)과 마이크로소프트·메타 실적이, 목요일(7/30)엔 애플·아마존 실적이 나와요. 시가총액 최상위 기업들이 이틀 사이에 성적표를 내놓는 셈이라 시장 방향이 크게 흔들릴 수 있어요.",
+      "summary": "7/29 FOMC(2pm ET)와 MSFT·META 실적, 7/30 AAPL·AMZN 실적이 대기. 빅테크의 AI 투자 규모(CapEx) 발언이 반도체 업종 방향을 좌우할 전망입니다.",
+      "ourImpact": "보유 종목 중 META(7/29)·AMZN(7/30)이 직접 실적을 발표하고, 빅테크의 AI 투자 언급에 따라 NVDA·AVGO·MU 등 반도체도 함께 움직여요. 실적 발표 전후로 변동이 커질 수 있는 한 주예요.",
+      "impact": "neutral",
+      "sources": [
+        {
+          "name": "PrimeXBT",
+          "url": "https://primexbt.com/news/microsoft-meta-apple-and-amazon-report-earnings-within-48-hours-on-july-29-and-3/"
+        },
+        {
+          "name": "Amazon IR",
+          "url": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q2-2026-report"
+        }
+      ]
+    },
+    {
+      "category": "아시아 증시",
+      "headline": "오늘 아침 아시아 개장 - 미 반도체 급락·中 CXMT 데뷔 여파 주목",
+      "oneLineSummary": "한국·일본 등 아시아 증시는 오늘 오전 9시부터 문을 열어요(이 브리핑은 개장 전이에요). 간밤 미국 반도체가 크게 빠졌고, 특히 중국 메모리 업체 CXMT의 상하이 상장 데뷔가 SK하이닉스 같은 한국 메모리주에 부담이 될지가 관전 포인트예요.",
+      "summary": "7/28 아시아 장은 개장 전. 전일 미국 반도체 급락과 중국 CXMT의 상하이 IPO 데뷔가 한국·대만 메모리·반도체주 투자심리에 영향을 줄 가능성이 있습니다.",
+      "ourImpact": "보유 종목 TSM(대만)과 국내 반도체 흐름은 아시아 개장 분위기와 연동돼요. CXMT 이슈가 메모리 경쟁 우려로 번지면 MU·SNDK 심리에도 이어질 수 있어 오늘 아시아 반응을 참고하면 좋아요.",
+      "impact": "neutral",
+      "sources": [
+        {
+          "name": "CNBC Asia Markets",
+          "url": "https://www.cnbc.com/2026/07/03/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "Invezz",
+          "url": "https://invezz.com/news/2026/07/27/why-are-micron-sandisk-and-sk-hynix-stocks-falling-today/"
+        }
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "CLS(셀레스티카) 2분기 어닝 서프라이즈 - 매출 +62%·연간전망 205억$ 상향에 시간외 급등",
+      "oneLineSummary": "보유 종목 셀레스티카(CLS)가 장 마감 뒤 발표한 2분기 실적이 매출 47억 달러(+62%)로 시장 예상을 크게 웃돌았어요. 올해 매출 전망도 190억→205억 달러로 올리면서 시간외에서 +7%대로 크게 뛰었어요. AI 데이터센터용 네트워크 장비 수요가 실적을 끌어올렸어요.",
+      "summary": "CLS는 7/27 정규장을 $308 부근 보합으로 마친 뒤 2분기 실적을 공개. 매출 $4.70B(+62%), 조정 EPS $2.54(예상 $2.11 상회), 연간 매출 가이던스 $19.0B->$20.5B 상향. 커넥티비티&클라우드 부문이 매출의 81% 차지. 시간외 +7% 이상 급등.",
+      "ourImpact": "보유 15종목 중 오늘의 최대 호재예요. 같은 AI 인프라·광통신 계열인 CRDO·LITE 심리에도 긍정적으로 번질 수 있어요. 다만 시간외 급등분이 다음 정규장에서 얼마나 유지될지는 지켜봐야 해요.",
+      "impact": "positive",
+      "sources": [
+        {
+          "name": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/07/27/3333904/0/en/Celestica-Announces-Second-Quarter-2026-Financial-Results.html"
+        },
+        {
+          "name": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4619062-celestica-jumps-on-strong-q2-results-guidance"
+        }
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "headline": "반도체 동반 급락 - NVDA·AMD는 '순환금융' 우려, 마이크론·샌디스크는 中 CXMT 데뷔",
+      "oneLineSummary": "간밤 반도체가 두 가지 이유로 크게 밀렸어요. 엔비디아(-4.8%)·AMD(-5.5%)는 엔비디아가 오픈AI에 최대 2,500억 달러를 대준다는 보도로 'AI 돈이 서로 돌고 도는 것 아니냐'는 걱정이 커졌어요. 마이크론(-2.3%)·샌디스크(-11.8%)는 중국 메모리 회사 CXMT가 상하이 증시에 화려하게 데뷔하며 경쟁 우려가 커졌어요.",
+      "summary": "NVDA -4.8%·AMD -5.5%는 WSJ의 엔비디아-오픈AI $250B 파이낸싱 백스톱 보도에 따른 순환금융 논란이 원인. MU -2.25%($900.20)·SNDK -11.75%($1,267.82)는 중국 CXMT(ChangXin)의 상하이 IPO 블록버스터 데뷔로 DRAM/낸드 경쟁 심화 우려가 촉발.",
+      "ourImpact": "보유 반도체·메모리 전반(NVDA·AMD·MU·SNDK·MRVL·AVGO·TSM)이 동반 약세였어요. 특히 변동이 큰 SNDK는 하루 -11.8%로 낙폭이 컸어요. 실적 악재가 아니라 심리·경쟁 이슈라 이번 주 빅테크 실적에서 AI 투자 강도가 확인되면 분위기가 달라질 수 있어요.",
+      "impact": "negative",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/27/nvidias-potential-250b-backstop-for-openai-is-another-strike-against-the-ai-trade.html"
+        },
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-fall-as-china-steals-the-spotlight-cff9d73c"
+        }
+      ]
+    },
+    {
+      "category": "정책·금리",
+      "headline": "수요일 FOMC(7/29) - 5회 연속 '동결' 우세, 인상 가능성도 30%대",
+      "oneLineSummary": "미국 중앙은행(연준)이 수요일 오후(현지시간) 기준금리를 정해요. 시장은 지금의 3.50~3.75%를 그대로 두는 '동결'을 가장 유력하게 봐요(약 60%). 다만 최근 유가·물가가 오른 탓에 금리를 올릴 가능성도 30%대로 남아 있어서, 결과와 함께 나올 연준 발언이 더 중요해요.",
+      "summary": "7/29 2pm ET FOMC. FactSet/시장 컨센서스는 3.50~3.75% 5회 연속 동결이 base case(약 62%), 픽스드인컴 시장은 인상 확률 ~33%를 반영. 9월 인상 가능성을 열어두는 신호가 나올지가 관건.",
+      "ourImpact": "금리가 동결되면 성장주·반도체엔 우호적이에요. 반대로 인상 신호가 강하면 밸류에이션 부담이 큰 보유 반도체·기술주에 단기 변동이 커질 수 있어요. 결과 자체보다 '앞으로 어떻게 하겠다'는 메시지를 함께 보면 좋아요.",
+      "impact": "neutral",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/27/fed-interest-rates-july.html"
+        },
+        {
+          "name": "Morningstar",
+          "url": "https://www.morningstar.com/economy/what-expect-july-fed-meeting"
+        }
+      ]
+    },
+    {
+      "category": "글로벌·지정학",
+      "headline": "중동 완화에 국제 유가 급락 - 경기민감주엔 훈풍",
+      "oneLineSummary": "미국과 이란이 주말 사이 서로 공격을 멈추고 대화에 나서면서 중동 긴장이 크게 풀렸어요. 이 덕에 국제 유가가 하루 만에 -8%대로 급락했어요(WTI $82.62). 다만 이달 들어 호르무즈·홍해 공급 차질로 유가가 워낙 많이 올랐던 터라, 여전히 월간으로는 +20% 넘게 높은 수준이에요.",
+      "summary": "미·이란이 주말 상호 공격 중단·오만 중재 대화로 긴장 완화. WTI -8.68%($82.62), 브렌트 -8.23%($90.28). 다만 이달 공급 차질(호르무즈->홍해 확산)로 유가는 월간 +20~40% 급등 구간에 있음.",
+      "ourImpact": "유가 하락은 물가·금리 부담을 낮춰 성장주 전반에 우호적 배경이에요. 보유 종목 중 전력주 TLN은 유가·에너지 이슈와 얽혀 있어 참고할 만하고, 유가 하락은 항공·소비 등 경기민감주에 더 직접적인 훈풍이에요.",
+      "impact": "positive",
+      "sources": [
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/article/price-of-oil-07-27-2026/"
+        },
+        {
+          "name": "Trading Economics",
+          "url": "https://tradingeconomics.com/commodity/crude-oil"
+        }
+      ]
     }
-   ]
+  ],
+  "afterHoursNote": "장 마감 후(한국 화요일 새벽) 셀레스티카(CLS)가 2분기 실적을 발표했어요 — 매출 +62%·연간전망 205억$ 상향으로 시간외에서 크게 상승. 이 시간외 상승분은 화요일 밤 미국 개장 때 정규 가격에 반영될지 확인이 필요해요.",
+  "weekAhead": "수요일(7/29) FOMC 금리결정(동결 우세, 인상 확률 30%대)·MSFT·META 실적, 목요일(7/30) AAPL·AMZN 실적이 몰린 '슈퍼 위크'예요. 반도체는 FOMC 메시지와 빅테크의 AI 투자(CapEx) 발언에 따라 방향이 잡힐 전망이에요.",
+  "scheduleNote": "06:00 KST 미국 마감 라이트 캡처(자동).",
+  "holidayNote": null,
+  "indices": {
+    "dow": {
+      "value": "52,210.08",
+      "change": "+0.51%",
+      "note": "신고가권 - 유가 급락에 경기민감주 강세"
+    },
+    "sp500": {
+      "value": "7,413.18",
+      "change": "+0.02%",
+      "note": "보합 마감"
+    },
+    "nasdaq": {
+      "value": "24,932.08",
+      "change": "-0.18%",
+      "note": "반도체 급락에 약세"
+    },
+    "sox": {
+      "value": "약 11,800",
+      "change": "하락",
+      "note": "반도체 지수(필라델피아) - 근사치, 종가 미확정"
+    },
+    "vix": {
+      "value": "19.4",
+      "change": "낮은 편",
+      "note": "변동성 지수 - 시장 불안이 크지 않다는 뜻(값이 낮을수록 안정)"
+    },
+    "wti": {
+      "value": "$82.62",
+      "change": "-8.7%",
+      "note": "미국 대표 원유 가격 - 미·이란 공격 중단으로 급락"
+    },
+    "us10y": {
+      "value": "—",
+      "change": "—",
+      "note": "미 10년 국채금리 별도 미수집"
+    },
+    "note": "지수·유가·VIX는 확인값, 반도체 지수(SOX)는 근사치예요. 7/27 미국 정규장 마감(05:00 KST) 기준."
   },
-  {
-   "category": "개별 종목",
-   "headline": "CLS 2분기 어닝 서프라이즈 — 매출 +62%·연간전망 205억$ 상향에 시간외 급등",
-   "oneLineSummary": "보유 종목 셀레스티카(CLS)가 장 마감 후 발표한 2분기 실적에서 매출이 1년 전보다 +62% 늘어 시장 예상을 크게 웃돌았어요. AI 데이터센터에 들어가는 서버·네트워크 장비를 만드는 회사인데, 올해 매출 전망도 190억 달러에서 205억 달러로 올리면서 시간외 거래에서 크게 뛰었어요.",
-   "summary": "셀레스티카(CLS)가 7/27 장 마감 후 2분기 실적을 발표. 매출은 약 47억 달러로 전년比 +62% 급증하며 시장 예상(약 43.9억$)을 크게 상회했고, AI 데이터센터용 통신·클라우드(CCS) 부문이 +84% 성장을 견인했습니다. 회사는 2026년 연간 매출 가이던스를 190억$→205억$(컨센 191.5억$ 상회)로 상향했고, 정규장은 $308 부근 보합으로 마쳤으나 실적 발표 직후 시간외에서 큰 폭 상승했습니다.",
-   "ourImpact": "보유 종목 중 CLS 단독 강세 재료예요. 같은 AI 인프라·광통신 계열인 CRDO(크레도)·LITE(루멘텀)에도 투자심리 측면에서 긍정적일 수 있어요. 다만 정규 등락률에는 아직 반영 전이라, 화요일 밤 개장 때 시간외 상승분이 실제로 반영되는지 흐름만 지켜보면 좋아요.",
-   "impact": "positive",
-   "sources": [
-    {
-     "name": "TradingView/Quartr",
-     "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3672836:0-cls-q2-2026-revenue-and-adjusted-eps-surged-past-guidance-prompting-a-raised-annual-outlook/"
-    }
-   ]
-  },
-  {
-   "category": "개별 종목",
-   "headline": "엔비디아 −4.8%·AMD −5.5% — AI 투자 '순환' 우려·中 장비 국산화에 반도체 급락",
-   "oneLineSummary": "보유 종목 엔비디아(−4.8%)와 AMD(−5.5%)가 크게 내렸어요. 엔비디아가 오픈AI에 최대 2,500억 달러를 빌려주고 그 돈으로 다시 엔비디아 칩을 쓴다는 보도가 나오면서 'AI 돈이 자기들끼리만 도는 것 아니냐'는 걱정이 커졌어요. 여기에 중국이 반도체 만드는 장비를 국산화한다는 소식까지 겹쳤어요.",
-   "summary": "7/27 반도체가 섹터 전반 급락. 엔비디아는 오픈AI에 최대 2,500억$ 자금을 backstop한다는 보도로 '순환(circular) financing' 우려가 부각되며 −4.8%($196.89), AMD −5.5%($493.27)로 마감했습니다. 중국이 자체 개발한 193nm DUV 노광장비를 SMIC 등에 연내 공급한다는 소식도 투자심리를 눌렀고, AI 인프라 투자 지속성에 대한 회의론이 고배당·고평가 반도체주 매도로 이어졌습니다.",
-   "ourImpact": "보유 반도체 비중이 커서 이날 포트폴리오엔 부담이 컸어요 — NVDA·AMD 외에 MU(−4.2%)·MRVL(−3.8%)·AVGO·TSM도 동반 약세였어요. 다만 이건 실적이 나빠서가 아니라 투자심리가 흔들린 하루예요. 수요일 FOMC와 빅테크 실적 이후 방향이 잡힐 수 있으니 흐름을 지켜보면 좋아요.",
-   "impact": "negative",
-   "sources": [
-    {
-     "name": "TradingKey",
-     "url": "https://www.tradingkey.com/news/market-movers/262056606-market-movers-nvda-20260727"
-    }
-   ]
-  },
-  {
-   "category": "정책·금리",
-   "headline": "수요일 FOMC(7/29)·META·AMZN 실적 — 여름 최대 이벤트 주간",
-   "oneLineSummary": "이번 주 수요일(7/29) 미국 중앙은행(Fed)이 금리를 결정하는 회의(FOMC)가 열려요. 0.25%p 인상이 유력하게 점쳐지고 있어요. 같은 주에 보유 종목 META(수)·AMZN(목)의 실적 발표도 줄줄이 있어서, 시장 전체가 크게 움직일 수 있는 한 주예요.",
-   "summary": "7/29 FOMC를 앞두고 시장은 0.25%p 인상 가능성을 유력하게 반영 중입니다. 같은 주 META(7/29)·AMZN(7/30) 등 빅테크 실적이 집중돼, 금리 경로와 AI CapEx(시설 투자) 규모가 동시에 시험대에 오르는 여름 최대 이벤트 주간입니다. 6월 내구재 주문(+1.6%)은 예상에 부합해 경기 견조를 시사했습니다.",
-   "ourImpact": "금리에 민감한 NVDA·AMD 등 성장주는 FOMC 결과와 파월 의장 발언에 크게 움직일 수 있어요. 보유 종목 META·AMZN은 실적 당일 변동이 클 수 있으니, 발표 전후 흐름만 가볍게 지켜보면 좋아요.",
-   "impact": "neutral",
-   "sources": [
-    {
-     "name": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-27-132000679.html"
-    }
-   ]
-  },
-  {
-   "category": "글로벌·지정학",
-   "headline": "중동 완화에 국제 유가 급락 — 경기민감주엔 훈풍",
-   "oneLineSummary": "주말 사이 미국과 이란이 서로 공격을 멈추면서 중동 긴장이 누그러졌고, 국제 유가가 크게 떨어졌어요(미국 대표 원유 WTI 배럴당 $85 안팎). 기름값이 내리면 물가 걱정이 줄어서, 은행·항공 같은 경기민감주와 다우지수엔 힘이 됐어요.",
-   "summary": "미국·이란의 상호 공격 중단으로 중동 지정학 리스크가 완화되며 국제 유가가 급락(WTI 배럴당 $85 안팎, 브렌트 한때 −7%)했습니다. 유가 하락은 인플레이션·금리 부담을 낮춰 경기민감주와 다우 강세를 뒷받침했으나, 에너지 섹터에는 부담으로 작용했습니다.",
-   "ourImpact": "유가 하락은 물가·금리 부담을 낮춰 보유 기술·성장주 전반에 우호적인 배경이에요. 다만 이날은 반도체 자체 악재가 더 크게 작용해 유가 훈풍 효과가 가려졌어요.",
-   "impact": "positive",
-   "sources": [
-    {
-     "name": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-27-132000679.html"
-    }
-   ]
+  "asiaSummary": "7/27 아시아는 위험자산 선호가 살아있었어요 — 코스피는 외국인 반도체 순매도로 −1%대, 코스닥 +1.8%, 홍콩 항셍 +1.1%. (7/28 아시아 개장 전 캡처라 당일 아시아 마감은 이후 브리핑에서 갱신)",
+  "signals": {
+    "asOf": "2026-07-28T08:00:00+09:00",
+    "kr": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "market": "KOSPI",
+        "category": "이슈주",
+        "thesis": "AI 메모리(HBM, AI에 쓰는 고성능 D램) 대장주예요. 어젯밤 미국에서 그동안 폭등했던 메모리주가 '오른 김에 팔자(차익 실현)'로 크게 밀렸고, 오늘 아침엔 한국은행이 3년 반 만에 기준금리를 올리자(2.50%→2.75%) 코스피 전체가 7% 넘게 급락했어요. SK하이닉스도 −10%대 급락 중이에요. 다만 7/14~15엔 외국인이 이틀 연속 크게 사들이며 저가 매수도 나왔던 종목이라, 급락 뒤 흐름을 지켜볼 만해요.",
+        "currentPrice": "1,842,000",
+        "change1D": -11.53,
+        "company": {
+          "ceo": "곽노정",
+          "business": "D램·낸드 등 메모리 반도체를 만드는 한국 2위·세계적 메모리 기업. AI용 HBM 시장 선두권.",
+          "hq": "경기 이천",
+          "employees": "약 3만명",
+          "homepage": "https://www.skhynix.com/",
+          "ceoSource": "네이버 금융·뉴스 검증"
+        },
+        "financials": "현재가 1,860,000원(−10.66%), PER 17.97배·추정PER 5.91배, 시총 1,325조원, 외국인소진율 52.44%, 52주 최고 3,002,000·최저 244,000 (네이버 금융 7/16).",
+        "comparable": "같은 메모리 종목 미국 마이크론(MU)은 어젯밤 −8.0%, 샌디스크(SNDK)는 −8.1% 급락했어요(네이버 금융 7/15 종가).",
+        "outlookEasy": "증권사 분석가 평균 목표가는 3,547,917원으로 지금 급락한 가격(1,860,000원)보다 훨씬 높아요. 다만 이건 급락 전에 나온 목표가라 그대로 믿긴 일러요. 추천 등급은 매수(중립보다 위)예요. 오늘은 금리 인상 충격으로 하루 변동이 매우 큰 종목이라, 서두르지 말고 흐름을 차분히 지켜보는 게 좋아요.",
+        "outlook": "컨센서스 목표가 평균 3,547,917원(등급 4.00 매수, 7/15 기준) 대비 급락으로 갭 크게 벌어짐. 단기 트리거: 한은 금리 인상 충격·미국 메모리 차익 실현 지속 여부. 목표가는 급락 전 산정치라 하향 조정 가능성 유의.",
+        "risk": "오늘 하루 −10%대 급락한 변동이 매우 큰 종목이에요. 금리 인상 충격과 반도체 고점 우려가 이어지면 추가 하락도 가능해요.",
+        "horizon": "3~6개월 (중기)",
+        "relatedStocks": [
+          {
+            "code": "005930",
+            "name": "삼성전자",
+            "market": "KOSPI",
+            "relation": "메모리·HBM 경쟁사 — 같은 업황 동행",
+            "currentPrice": "255,000",
+            "change1D": -8.77
+          },
+          {
+            "code": "042700",
+            "name": "한미반도체",
+            "market": "KOSPI",
+            "relation": "HBM 본딩 장비 공급사 — 증설 수혜",
+            "currentPrice": "242,500",
+            "change1D": -10.02
+          }
+        ],
+        "sources": [
+          {
+            "name": "SK하이닉스 나스닥 ADR 상장 (한국경제TV/연합뉴스 6/27)",
+            "url": "https://www.yna.co.kr/view/AKR20260626151900008"
+          },
+          {
+            "name": "네이버 금융(실시간)",
+            "url": "https://m.stock.naver.com/domestic/stock/000660/total"
+          }
+        ],
+        "dataQualityNote": null,
+        "flowReason": {
+          "summary": "금리 인상·미 메모리 차익 실현에 급락(직전 이틀은 외인 매수)",
+          "detail": "7/14~15엔 외국인이 이틀 연속 각각 +66만·+33만 주 순매수하며 저가 매수에 나섰어요. 하지만 오늘(7/16) 한국은행 금리 인상과 어젯밤 미국 메모리주 급락이 겹치며 −10%대로 급락했어요.",
+          "sources": [
+            {
+              "name": "연합뉴스 (7/16 코스피 급락)",
+              "url": "https://www.yna.co.kr/"
+            },
+            {
+              "name": "네이버 금융 dealTrendInfos",
+              "url": "https://m.stock.naver.com/api/stock/000660/integration"
+            }
+          ]
+        }
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "market": "KOSPI",
+        "category": "실적기대",
+        "thesis": "HBM(AI용 고성능 메모리)을 쌓아 붙이는 핵심 장비 'TC 본더'를 만드는 회사로, 세계 시장의 70%를 차지해요. 최근 분기에 영업이익률 52%의 어닝 서프라이즈(깜짝 실적)를 내며 실적이 좋았지만, 오늘 코스피 전체 급락에 함께 −7%대로 밀렸어요. 곽동신 회장은 내년부터 반도체 장비 공급 부족을 예상하며 8공장 증설을 추진 중이에요.",
+        "currentPrice": "242,500",
+        "change1D": -10.02,
+        "company": {
+          "ceo": "곽동신",
+          "business": "반도체 후공정 장비 전문기업. HBM용 TC 본더(칩 적층 장비)가 주력으로 SK하이닉스에 공급.",
+          "hq": "인천",
+          "employees": "약 1,000명",
+          "homepage": "https://www.hanmisemi.com/",
+          "ceoSource": "네이버 금융·뉴스 검증"
+        },
+        "financials": "현재가 249,000원(−7.61%), PER 133.37배, 시총 23.7조원, 외국인소진율 8.47%, 52주 최고 426,000·최저 81,400 (네이버 금융 7/16). 2026년 매출 컨센서스 8,196억원(전년 5,767억 대비 +42%).",
+        "comparable": "회사가 올해 매출 목표를 2조원으로 제시했고, 최근 분기 영업이익률 52%를 기록했어요(더벨 7/16).",
+        "outlookEasy": "증권사 분석가 평균 목표가는 380,000원으로 지금 가격(249,000원)에서 +53% 더 오를 여력이 있다고 봐요. 추천 등급은 매수예요. 실적은 좋지만 오늘은 시장 전체가 금리 인상으로 급락한 날이라 함께 밀렸어요. 반도체 장비주는 업황에 민감해 변동이 큰 종목이에요.",
+        "outlook": "컨센서스 목표가 평균 380,000원(등급 4.00 매수, 7/15) 대비 +53% 갭. 단기 트리거: HBM4용 장비 수요·8공장 증설, 오늘 금리 인상發 코스피 급락. PER 133배로 높아 실적 기대가 꺾이면 변동 큼.",
+        "risk": "반도체 장비주라 업황에 민감하고 변동이 큰 종목이에요. PER 133배로 밸류에이션(주가가 이익 대비 비싼 정도) 부담도 있어요.",
+        "horizon": "3~6개월 (중기)",
+        "relatedStocks": [
+          {
+            "code": "000660",
+            "name": "SK하이닉스",
+            "market": "KOSPI",
+            "relation": "최대 고객사 — HBM 증설이 장비 발주로 연결",
+            "currentPrice": "1,842,000",
+            "change1D": -11.53
+          },
+          {
+            "code": "005930",
+            "name": "삼성전자",
+            "market": "KOSPI",
+            "relation": "잠재 HBM 장비 고객 — 메모리 증설 동행",
+            "currentPrice": "255,000",
+            "change1D": -8.77
+          }
+        ],
+        "sources": [
+          {
+            "name": "네이버 금융(실시간)",
+            "url": "https://m.stock.naver.com/domestic/stock/042700/total"
+          }
+        ],
+        "dataQualityNote": null,
+        "flowReason": {
+          "summary": "실적 호조에도 금리 인상發 코스피 급락에 동반 하락",
+          "detail": "7/15까지 외국인이 5거래일 연속 순매수(+91만 주)하며 실적 기대가 반영됐어요. 다만 오늘(7/16) 한국은행 금리 인상으로 코스피 전체가 급락하자 함께 −7%대로 밀렸어요.",
+          "sources": [
+            {
+              "name": "더벨 (7/16 한미반도체 어닝 서프라이즈)",
+              "url": "https://www.thebell.co.kr/"
+            },
+            {
+              "name": "네이버 금융 dealTrendInfos",
+              "url": "https://m.stock.naver.com/api/stock/042700/integration"
+            }
+          ]
+        }
+      },
+      {
+        "ticker": "034020",
+        "name": "두산에너빌리티",
+        "market": "KOSPI",
+        "category": "성장주",
+        "thesis": "AI 데이터센터가 늘면서 전기 수요가 커지는 흐름의 대표 수혜주예요. 원전·발전설비를 만드는 회사로 상반기 외국인이 크게 담았던 종목이에요. 다만 최근 며칠 외국인이 차익 실현에 나섰고, 오늘은 금리 인상發 코스피 급락에 −5%대로 밀렸어요. 원전·전력 인프라 투자 뉴스에 민감하게 움직여요.",
+        "currentPrice": "69,700",
+        "change1D": -4.52,
+        "company": {
+          "ceo": "정연인·박상현",
+          "business": "원자력·가스터빈 등 대형 발전설비 제작 기업. AI 데이터센터 전력 인프라 테마.",
+          "hq": "경남 창원",
+          "employees": "약 6,000명",
+          "homepage": "https://www.doosanenerbility.com/",
+          "ceoSource": "네이버 금융·뉴스 검증"
+        },
+        "financials": "현재가 69,300원(−5.07%), PER 287.97배·추정PER 149.25배, 시총 44.5조원, 외국인소진율 23.96%, 52주 최고 139,200·최저 51,100 (네이버 금융 7/16). 2026년 매출 컨센서스 18.1조원, 영업이익 1.1조원.",
+        "comparable": "같은 그룹 두산로보틱스(454910)는 오늘 −5.7%, 두산밥캣(241560)은 +1.6%로 엇갈렸어요(네이버 금융 7/16).",
+        "outlookEasy": "증권사 분석가 평균 목표가는 150,200원으로 지금 가격(69,300원)보다 훨씬 높아요. 추천 등급은 매수예요. AI 전력 수요라는 큰 그림은 살아 있지만, 오늘은 금리 인상으로 시장 전체가 밀린 날이라 함께 내렸어요. 많이 올랐던 성장주라 조정기엔 변동이 큰 종목이에요.",
+        "outlook": "컨센서스 목표가 평균 150,200원(등급 4.00 매수, 7/15) 대비 갭 큼. 단기 트리거: 신규 원전·SMR 수주, 오늘 금리 인상發 급락. 추정PER 149배로 성장 기대가 이미 많이 반영된 상태.",
+        "risk": "많이 오른 성장주라 시장 조정기에 변동이 큰 종목이에요. 최근 외국인이 차익 실현에 나선 점도 부담이에요.",
+        "horizon": "6~12개월 (장기)",
+        "relatedStocks": [
+          {
+            "code": "454910",
+            "name": "두산로보틱스",
+            "market": "KOSPI",
+            "relation": "같은 두산그룹 계열 — 동행 흐름",
+            "currentPrice": "67,000",
+            "change1D": -5.1
+          },
+          {
+            "code": "241560",
+            "name": "두산밥캣",
+            "market": "KOSPI",
+            "relation": "같은 두산그룹 계열 — 그룹 수급 동조",
+            "currentPrice": "64,300",
+            "change1D": 1.9
+          }
+        ],
+        "sources": [
+          {
+            "name": "네이버 금융(실시간)",
+            "url": "https://m.stock.naver.com/domestic/stock/034020/total"
+          }
+        ],
+        "dataQualityNote": null,
+        "flowReason": {
+          "summary": "단기 급등 뒤 차익 실현 외인 매도 + 금리 인상 급락",
+          "detail": "7/13~14 외국인이 이틀간 약 120만 주 순매도하며 차익 실현에 나섰어요. 상반기 크게 담았던 종목이지만 돈이 반도체로 몰리며 소외됐고, 오늘 금리 인상 충격까지 겹쳤어요.",
+          "sources": [
+            {
+              "name": "job-post (7/14 두산에너빌리티 차익 실현)",
+              "url": "https://www.job-post.co.kr/"
+            },
+            {
+              "name": "네이버 금융 dealTrendInfos",
+              "url": "https://m.stock.naver.com/api/stock/034020/integration"
+            }
+          ]
+        }
+      }
+    ],
+    "us": [
+      {
+        "ticker": "WDC",
+        "name": "웨스턴 디지털 (Western Digital)",
+        "market": "NASDAQ",
+        "category": "관련주",
+        "thesis": "하드디스크와 낸드 메모리를 만드는 회사로, 보유 종목 샌디스크(SNDK)·마이크론(MU)과 같은 메모리 흐름을 타요. 어젯밤 메모리주 전체가 '오른 김에 팔자(차익 실현)'로 급락하면서 WDC도 −8.8% 밀렸어요. SK하이닉스의 약한 전망과 중국 경쟁 우려가 겹친 하루였어요.",
+        "currentPrice": 487.56,
+        "change1D": -6.2,
+        "company": {
+          "ceo": "Irving Tan",
+          "business": "하드디스크(HDD)·데이터센터 저장장치를 만드는 세계적 저장장치 회사예요.",
+          "hq": "미국 캘리포니아 산호세",
+          "employees": "51,000명",
+          "homepage": "https://www.westerndigital.com",
+          "ceoSource": "stockanalysis.com 프로필"
+        },
+        "financials": "현재가 $513.84(−8.78%), PER 27.83배, 시총 1,771억$, 52주 최고 $799.87·최저 $65.80 (네이버 금융 7/15).",
+        "comparable": "같은 메모리 종목 마이크론(MU) −8.0%, 샌디스크(SNDK) −8.1%, 시게이트(STX) −5.7%로 함께 급락했어요(네이버 금융 7/15).",
+        "outlookEasy": "증권사 분석가 평균 목표가는 $555.01로 지금 급락한 가격($513.84)에서 +8% 정도 여력이 있어요. 추천 등급은 매수예요. 메모리 업황이 좋다는 큰 그림은 살아 있지만, 그동안 많이 올라 차익 실현이 나오는 국면이라 변동이 큰 종목이에요.",
+        "outlook": "컨센서스 목표가 평균 $555.01(등급 4.04 매수, 7/15) 대비 +8% 갭. 단기 트리거: 메모리 차익 실현 지속 여부·낸드 가격. 낙폭 컸던 만큼 반등도 빠를 수 있으나 변동성 큼.",
+        "risk": "메모리 업황에 민감하고 하루 −8%대로 움직이는 변동이 매우 큰 종목이에요.",
+        "horizon": "3~6개월 (중기)",
+        "relatedStocks": [
+          {
+            "code": "STX",
+            "name": "시게이트 (Seagate)",
+            "market": "NASDAQ",
+            "relation": "HDD 경쟁사 — 저장장치 사이클 같이 움직임",
+            "currentPrice": "787.66",
+            "change1D": 5.66
+          },
+          {
+            "code": "SNDK",
+            "name": "샌디스크 (SanDisk)",
+            "market": "NASDAQ",
+            "relation": "낸드 저장장치 대표주 — 메모리 수요 동조",
+            "currentPrice": "1354.82",
+            "change1D": -3.99
+          }
+        ],
+        "sources": [
+          {
+            "name": "stockanalysis.com (실시간, 7/10)",
+            "url": "https://stockanalysis.com/stocks/wdc/"
+          }
+        ],
+        "dataQualityNote": "7/27 종가 $487.56(전일 $519.80, -6.2%) - 메모리 약세 동조. Investing.com/Yahoo 확인.",
+        "_fetchMeta": {
+          "fetchedAt": "2026-07-13T07:40:00+09:00",
+          "sources": [
+            {
+              "url": "https://stockanalysis.com/stocks/wdc/"
+            }
+          ]
+        }
+      },
+      {
+        "ticker": "INTC",
+        "name": "인텔 (Intel)",
+        "market": "NASDAQ",
+        "category": "이슈주",
+        "thesis": "미국 대표 반도체 회사인데, 파운드리(다른 회사 칩을 대신 만들어 주는 사업) 재건에 도전 중이에요. 어젯밤 반도체 전반이 조정받으며 −4.4% 밀렸어요. 다만 분석가들은 아직 신중한 '보유' 의견이 많고, 평균 목표가도 지금 가격보다 낮아요.",
+        "currentPrice": 95.04,
+        "change1D": -2.0,
+        "company": {
+          "ceo": "Lip-Bu Tan",
+          "business": "CPU·서버칩·파운드리(위탁생산)를 하는 미국 대표 반도체 회사예요.",
+          "hq": "미국 캘리포니아 산타클라라",
+          "employees": "85,100명",
+          "homepage": "https://www.intel.com",
+          "ceoSource": "stockanalysis.com 프로필"
+        },
+        "financials": "현재가 $102.99(−4.43%), PER N/A(이익 회복 국면), 시총 5,176억$, 52주 최고 $142.35·최저 $18.97 (네이버 금융 7/15).",
+        "comparable": "같은 반도체 설계 종목 마벨(MRVL)은 −7.3%, AMD는 −3.5%로 함께 내렸어요(네이버 금융 7/15).",
+        "outlookEasy": "증권사 분석가 평균 목표가는 $97.33으로 지금 가격($102.99)보다 오히려 낮아요. 분석가들은 이미 충분히 올랐다고 보는 편이에요. 추천 등급도 '보유'(중립)라 적극적으로 사자는 분위기는 아니에요. 파운드리 재건 성과가 확인돼야 방향이 잡힐 종목이에요.",
+        "outlook": "컨센서스 목표가 평균 $97.33(등급 3.27 보유, 7/15) 대비 −5% (이미 목표가 상회). 단기 트리거: 파운드리 수주·실적. 등급이 중립이라 신호 강도는 약한 편.",
+        "risk": "목표가를 이미 넘어선 상태라 추가 상승 여력은 제한적이에요. 반도체 조정기에 변동이 큰 종목이에요.",
+        "horizon": "6~12개월 (장기)",
+        "relatedStocks": [
+          {
+            "code": "AMD",
+            "name": "AMD",
+            "market": "NASDAQ",
+            "relation": "CPU·GPU 직접 경쟁사 — 점유율 뺏고 뺏김",
+            "currentPrice": "495.76",
+            "change1D": -1.03
+          },
+          {
+            "code": "NVDA",
+            "name": "엔비디아 (Nvidia)",
+            "market": "NASDAQ",
+            "relation": "AI 반도체 대장주 — 인텔이 협력·경쟁 동시에",
+            "currentPrice": "202.81",
+            "change1D": -2.21
+          }
+        ],
+        "sources": [
+          {
+            "name": "stockanalysis.com (실시간, 7/10)",
+            "url": "https://stockanalysis.com/stocks/intc/"
+          }
+        ],
+        "dataQualityNote": "컨센서스 등급 보유(3.27)·목표가가 현재가보다 낮아 신호 강도 약함 — 참고용.",
+        "_fetchMeta": {
+          "fetchedAt": "2026-07-13T07:40:00+09:00",
+          "sources": [
+            {
+              "url": "https://stockanalysis.com/stocks/intc/"
+            }
+          ]
+        }
+      }
+    ],
+    "newListings": {
+      "kr": [
+        {
+          "ticker": "439960",
+          "name": "코스모로보틱스 (Cosmo Robotics)",
+          "market": "KOSDAQ",
+          "category": "이슈주",
+          "listedAt": "2026-04",
+          "thesis": "올해 4월 상장한 로봇 회사예요. 산업용·협동로봇을 만드는데, 오늘 코스피 반도체 반등 훈풍에 +5%대 올랐어요. 신규 상장주라 아직 가격이 크게 출렁여요.",
+          "currentPrice": "11,090",
+          "change1D": -8.35,
+          "financials": "현재가 11,260원(−6.94%), 시총 3,654억원, 52주 최고 68,500·최저 10,530 (네이버 금융 7/16). 신규 상장주라 컨센서스(증권사 평균 예상치) 미수신.",
+          "outlookEasy": "상장 초기 급등 뒤 큰 폭으로 조정받은 로봇 종목이에요. 신규 상장주라 증권사 목표가가 아직 없어 52주 범위로만 볼 수 있어요. 오늘 코스피 급락에 −7%대로 함께 밀렸어요.",
+          "outlook": "신규 상장주(2026/4)·컨센서스 미수신. 52주 17,950~68,500원. 피지컬 AI 로봇 테마 동조. 단기 트리거: 로봇 테마 수급·실적 검증.",
+          "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 52주 고점(68,500) 대비 크게 내린 상태예요.",
+          "relatedStocks": [
+            {
+              "code": "454910",
+              "name": "두산로보틱스",
+              "market": "KOSPI",
+              "relation": "협동로봇 대표주 — 피지컬AI 로봇 테마 동행",
+              "currentPrice": "67,000",
+              "change1D": -5.1
+            },
+            {
+              "code": "042700",
+              "name": "한미반도체",
+              "market": "KOSPI",
+              "relation": "로봇·반도체 장비 테마 인접 — 외국인 수급 동조",
+              "currentPrice": "242,500",
+              "change1D": -10.02
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융(실시간)",
+              "url": "https://m.stock.naver.com/domestic/stock/439960/total"
+            },
+            {
+              "name": "그린포스트(피지컬AI IPO, 6/15)",
+              "url": "https://www.greened.kr/news/articleView.html?idxno=342559"
+            }
+          ],
+          "dataQualityNote": "신규 상장주라 컨센서스 미수신 — 52주 범위 기반으로만 평가."
+        },
+        {
+          "ticker": "279570",
+          "name": "케이뱅크 (K bank)",
+          "market": "KOSPI",
+          "category": "이슈주",
+          "listedAt": "2026-03",
+          "thesis": "올해 3월 상장한 인터넷 전문은행이에요. 오늘 지수 반등에 +2%대 올랐어요. 상장한 지 얼마 안 돼 수급에 따라 변동이 커요.",
+          "currentPrice": "6,390",
+          "change1D": 11.13,
+          "financials": "현재가 6,120원(+6.43%), PER 17.90배, 시총 2조4,910억원, 52주 최고 9,880·최저 5,210 (네이버 금융 7/16). 컨센서스 목표가 7,500원(등급 3.50 보유).",
+          "outlookEasy": "인터넷은행 케이뱅크예요. 오늘 코스피 급락장에서도 +6%대로 홀로 강했어요. 증권사 평균 목표가는 7,500원으로 지금 가격(6,120원)에서 +23% 여력이 있지만, 추천 등급은 '보유'(중립)예요.",
+          "outlook": "컨센서스 목표가 7,500원(등급 3.50 보유, 7/16) 대비 +23% 갭. 금리 인상은 은행 예대마진에 우호적일 수 있어 급락장에서 상대적 강세.",
+          "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 상장 후 공모가 부근 등락이 이어지고 있어요.",
+          "relatedStocks": [
+            {
+              "code": "323410",
+              "name": "카카오뱅크",
+              "market": "KOSPI",
+              "relation": "인터넷전문은행 경쟁사 — 같은 업종 동행",
+              "currentPrice": "23,000",
+              "change1D": 1.77
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융(실시간)",
+              "url": "https://m.stock.naver.com/domestic/stock/279570/total"
+            }
+          ],
+          "dataQualityNote": null
+        }
+      ],
+      "us": [
+        {
+          "ticker": "CRCL",
+          "name": "써클 (Circle Internet Group)",
+          "market": "NYSE",
+          "category": "이슈주",
+          "listedAt": "2025-06-05",
+          "thesis": "작년 6월 뉴욕 상장한 스테이블코인(달러에 1:1로 연동된 디지털 화폐, USDC) 발행사예요. 어젯밤 $61.73에 마감했어요. 가상자산 규제·금리 뉴스에 민감하게 움직여요.",
+          "currentPrice": 60.46,
+          "change1D": -0.3,
+          "company": {
+            "ceo": "Jeremy Allaire (공동창업자·CEO)",
+            "business": "달러 연동 스테이블코인 USDC를 발행하는 인터넷 금융 회사예요.",
+            "hq": "미국 뉴욕",
+            "employees": "1,100명",
+            "homepage": "https://www.circle.com",
+            "ceoSource": "stockanalysis.com 프로필"
+          },
+          "financials": "현재가 $65.69(+3.91%), 시총 163억$, 52주 최고 $262.97·최저 $49.90 (네이버 금융 7/15). 컨센서스 목표가 $127.28(등급 3.59 보유).",
+          "comparable": "같은 핀테크·디지털자산주 COIN(코인베이스)·HOOD(로빈후드)와 동조하는 흐름.",
+          "outlookEasy": "스테이블코인(달러에 1:1로 연동된 디지털 화폐) USDC를 발행하는 회사예요. 어젯밤 +3.9% 올랐어요. 증권사 평균 목표가는 $127.28로 지금 가격($65.69)보다 훨씬 높지만, 상장 초 급등 뒤 크게 조정돼 추천 등급은 '보유'(중립)예요.",
+          "outlook": "컨센서스 목표가 평균 $127.28(등급 3.59 보유, 7/15) 대비 갭 큼. 52주 최고 $262.97 대비 −75% 위치. 신규 상장주 특유의 큰 변동성 유의.",
+          "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. 52주 고점 대비 크게 내린 상태예요.",
+          "horizon": "6~12개월 (장기)",
+          "relatedStocks": [
+            {
+              "code": "COIN",
+              "name": "코인베이스 (Coinbase)",
+              "market": "NASDAQ",
+              "relation": "가상자산 대표 거래소 — USDC 수익 공유 파트너",
+              "currentPrice": "157.12",
+              "change1D": -2.1
+            },
+            {
+              "code": "HOOD",
+              "name": "로빈후드 (Robinhood)",
+              "market": "NASDAQ",
+              "relation": "크립토·핀테크 테마 동조",
+              "currentPrice": "99.96",
+              "change1D": -5.72
+            }
+          ],
+          "sources": [
+            {
+              "name": "stockanalysis.com (실시간, 7/10)",
+              "url": "https://stockanalysis.com/stocks/crcl/"
+            }
+          ],
+          "dataQualityNote": null,
+          "_fetchMeta": {
+            "fetchedAt": "2026-07-13T07:40:00+09:00",
+            "sources": [
+              {
+                "url": "https://stockanalysis.com/stocks/crcl/"
+              }
+            ]
+          }
+        },
+        {
+          "ticker": "CRWV",
+          "name": "코어위브 (CoreWeave)",
+          "market": "NASDAQ",
+          "category": "성장주",
+          "listedAt": "2025-03-28",
+          "thesis": "작년 3월 상장한 AI 클라우드(그래픽칩을 빌려주는 데이터센터) 회사예요. 어젯밤엔 반도체 반등에도 -4.1% 내렸어요. 신규 상장주라 변동이 매우 커요.",
+          "currentPrice": 73.21,
+          "change1D": 0.41,
+          "company": {
+            "ceo": "Michael Intrator (공동창업자·CEO)",
+            "business": "엔비디아 GPU 기반 AI 전용 클라우드를 빌려주는 회사예요.",
+            "hq": "미국 뉴저지 리빙스턴",
+            "employees": "2,189명",
+            "homepage": "https://www.coreweave.com",
+            "ceoSource": "stockanalysis.com 프로필"
+          },
+          "financials": "현재가 $77.12(−3.53%), 시총 421억$, 52주 최고 $153.20·최저 $63.80 (네이버 금융 7/15). 컨센서스 목표가 $144.40(등급 3.76 보유).",
+          "comparable": "같은 AI 클라우드주 NBIS(네비우스)와 동조, 핵심 공급사 NVDA가 6/18 +3.0%(네이버 금융 검증).",
+          "outlookEasy": "AI 계산을 빌려주는 클라우드 회사(코어위브)예요. 어젯밤 반도체 약세 흐름에 −3.5% 밀렸어요. 증권사 평균 목표가는 $144.40로 지금 가격($77.12)보다 높지만, 변동이 큰 신규 상장주예요.",
+          "outlook": "컨센서스 목표가 평균 $144.40(등급 3.76 보유, 7/15) 대비 갭 큼. AI 데이터센터 수요가 핵심 변수. 신규 상장주라 변동성 큼.",
+          "risk": "신규 상장주는 변동이 매우 큰 종목이라 신중히 보세요. AI 하드웨어 조정에 민감해요.",
+          "horizon": "6~12개월 (장기)",
+          "relatedStocks": [
+            {
+              "code": "NBIS",
+              "name": "네비우스 (Nebius)",
+              "market": "NASDAQ",
+              "relation": "AI 클라우드(네오클라우드) 경쟁사 — 함께 움직임",
+              "currentPrice": "177.71",
+              "change1D": 3.46
+            },
+            {
+              "code": "IREN",
+              "name": "아이렌 (IREN)",
+              "market": "NASDAQ",
+              "relation": "AI·데이터센터 인프라 테마 동조",
+              "currentPrice": "33.62",
+              "change1D": -3.47
+            }
+          ],
+          "sources": [
+            {
+              "name": "stockanalysis.com (실시간, 7/10)",
+              "url": "https://stockanalysis.com/stocks/crwv/"
+            }
+          ],
+          "dataQualityNote": null,
+          "_fetchMeta": {
+            "fetchedAt": "2026-07-13T07:40:00+09:00",
+            "sources": [
+              {
+                "url": "https://stockanalysis.com/stocks/crwv/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "krForeignFlow": {
+      "asOf": "2026-07-15",
+      "lookbackDays": "5거래일 (7/9~7/15)",
+      "rows": [
+        {
+          "ticker": "000660",
+          "name": "SK하이닉스",
+          "foreignHoldRatio": 52.44,
+          "netBuy5d": -687313,
+          "dailyNetBuy": [
+            {
+              "date": "7/9",
+              "shares": -209485
+            },
+            {
+              "date": "7/10",
+              "shares": -768843
+            },
+            {
+              "date": "7/13",
+              "shares": -704671
+            },
+            {
+              "date": "7/14",
+              "shares": 664541
+            },
+            {
+              "date": "7/15",
+              "shares": 331145
+            }
+          ],
+          "trend": "매도→매수 전환 (7/15)",
+          "trendTone": "positive",
+          "flowReason": {
+            "summary": "금리 인상·미 메모리 차익 실현에 급락(직전 이틀은 외인 매수)",
+            "detail": "7/14~15엔 외국인이 이틀 연속 각각 +66만·+33만 주 순매수하며 저가 매수에 나섰어요. 하지만 오늘(7/16) 한국은행 금리 인상과 어젯밤 미국 메모리주 급락이 겹치며 −10%대로 급락했어요.",
+            "sources": [
+              {
+                "name": "연합뉴스 (7/16 코스피 급락)",
+                "url": "https://www.yna.co.kr/"
+              },
+              {
+                "name": "네이버 금융 dealTrendInfos",
+                "url": "https://m.stock.naver.com/api/stock/000660/integration"
+              }
+            ]
+          }
+        },
+        {
+          "ticker": "042700",
+          "name": "한미반도체",
+          "foreignHoldRatio": 8.47,
+          "netBuy5d": 911501,
+          "dailyNetBuy": [
+            {
+              "date": "7/9",
+              "shares": 109963
+            },
+            {
+              "date": "7/10",
+              "shares": -26725
+            },
+            {
+              "date": "7/13",
+              "shares": 115691
+            },
+            {
+              "date": "7/14",
+              "shares": 27732
+            },
+            {
+              "date": "7/15",
+              "shares": 684840
+            }
+          ],
+          "trend": "매수세",
+          "trendTone": "positive",
+          "flowReason": {
+            "summary": "실적 호조에도 금리 인상發 코스피 급락에 동반 하락",
+            "detail": "7/15까지 외국인이 5거래일 연속 순매수(+91만 주)하며 실적 기대가 반영됐어요. 다만 오늘(7/16) 한국은행 금리 인상으로 코스피 전체가 급락하자 함께 −7%대로 밀렸어요.",
+            "sources": [
+              {
+                "name": "더벨 (7/16 한미반도체 어닝 서프라이즈)",
+                "url": "https://www.thebell.co.kr/"
+              },
+              {
+                "name": "네이버 금융 dealTrendInfos",
+                "url": "https://m.stock.naver.com/api/stock/042700/integration"
+              }
+            ]
+          }
+        },
+        {
+          "ticker": "034020",
+          "name": "두산에너빌리티",
+          "foreignHoldRatio": 23.96,
+          "netBuy5d": -1008308,
+          "dailyNetBuy": [
+            {
+              "date": "7/9",
+              "shares": 153290
+            },
+            {
+              "date": "7/10",
+              "shares": 55026
+            },
+            {
+              "date": "7/13",
+              "shares": -621130
+            },
+            {
+              "date": "7/14",
+              "shares": -574794
+            },
+            {
+              "date": "7/15",
+              "shares": -20700
+            }
+          ],
+          "trend": "매도세 (3일 순매도)",
+          "trendTone": "negative",
+          "flowReason": {
+            "summary": "단기 급등 뒤 차익 실현 외인 매도 + 금리 인상 급락",
+            "detail": "7/13~14 외국인이 이틀간 약 120만 주 순매도하며 차익 실현에 나섰어요. 상반기 크게 담았던 종목이지만 돈이 반도체로 몰리며 소외됐고, 오늘 금리 인상 충격까지 겹쳤어요.",
+            "sources": [
+              {
+                "name": "job-post (7/14 두산에너빌리티 차익 실현)",
+                "url": "https://www.job-post.co.kr/"
+              },
+              {
+                "name": "네이버 금융 dealTrendInfos",
+                "url": "https://m.stock.naver.com/api/stock/034020/integration"
+              }
+            ]
+          }
+        }
+      ],
+      "insights": [
+        "7/15까지의 외국인 5거래일 순매수를 보면 SK하이닉스는 −68.7만 주(직전 3일 매도 뒤 7/14~15 이틀 강한 매수 전환), 한미반도체는 +91.2만 주(꾸준한 매수), 두산에너빌리티는 −100.8만 주(최근 3일 순매도)였어요.",
+        "SK하이닉스는 7/14 +66만·7/15 +33만 주로 저가 매수가 들어왔지만, 오늘(7/16) 한국은행 금리 인상과 미국 메모리주 급락이 겹치며 −10%대로 급락 중이에요.",
+        "한미반도체는 5거래일 연속 순매수로 외국인 관심이 가장 꾸준했어요. 최근 분기 영업이익률 52% 어닝 서프라이즈가 매수 심리를 뒷받침했어요.",
+        "두산에너빌리티는 7/13~14 이틀간 약 120만 주 순매도로 차익 실현이 두드러졌어요. 상반기 크게 담았던 종목이 반도체 쏠림 속에 소외된 흐름이에요.",
+        "세 종목 모두 오늘 금리 인상發 코스피 급락(장중 −7%, 매도 사이드카 발동)의 영향권에 있어, 외국인 수급도 단기적으로 매도 우위로 바뀔 가능성이 커요."
+      ],
+      "sources": [
+        {
+          "name": "네이버 금융 dealTrendInfos API",
+          "url": "https://m.stock.naver.com/api/stock/000660/integration"
+        },
+        {
+          "name": "연합뉴스 (7/16 코스피 급락·사이드카)",
+          "url": "https://www.yna.co.kr/"
+        }
+      ]
+    },
+    "weekendNote": "주말(일)은 미국·한국 모두 휴장이에요. 시스템 휴지기(7/19~7/25)로 자동 가격 갱신이 밀려, 표시 가격은 7/17(금) 종가 기준이에요. 시그널 해설도 7/16~17 분석을 유지하며, 가격 재정산은 월요일 개장 브리핑에서 진행돼요.",
+    "dataQualityNote": "이번 회차는 국내 종목 실시간 데이터 소스(네이버 금융)와 국내 뉴스 검색 접근이 제한돼, 국내 시그널(SK하이닉스·한미반도체·두산에너빌리티)·외인 매매동향·국내 신규상장은 직전 검증분(7/18) 기준을 그대로 유지했어요. 미국 시그널은 WDC 가격만 7/27 종가로 갱신했어요. 검증되지 않은 국내 가격을 새로 채우지 않았습니다(데이터 정확도 가드)."
   }
- ],
- "afterHoursNote": "장 마감 후(한국 화요일 새벽) 셀레스티카(CLS)가 2분기 실적을 발표했어요 — 매출 +62%·연간전망 205억$ 상향으로 시간외에서 크게 상승. 이 시간외 상승분은 화요일 밤 미국 개장 때 정규 가격에 반영될지 확인이 필요해요.",
- "weekAhead": "수요일(7/29) FOMC(0.25%p 인상 유력)·META 실적, 목요일(7/30) AMZN 실적. 반도체는 FOMC·빅테크 CapEx 발언에 따라 방향이 잡힐 전망이에요.",
- "scheduleNote": "06:00 KST 미국 마감 라이트 캡처(자동).",
- "holidayNote": null,
- "indices": {
-  "dow": {
-   "value": "52,210.08",
-   "change": "+0.51%",
-   "note": "신고가권 — 유가 급락에 경기민감주 강세"
-  },
-  "sp500": {
-   "value": "7,413.18",
-   "change": "+0.02%",
-   "note": "보합 마감"
-  },
-  "nasdaq": {
-   "value": "24,932.08",
-   "change": "−0.18%",
-   "note": "반도체 급락에 약세"
-  },
-  "sox": {
-   "value": "약세",
-   "change": "하락",
-   "note": "반도체 지수 — NVDA·AMD 급락 반영(정확 종가 미확인)"
-  },
-  "vix": {
-   "value": "—",
-   "change": "—",
-   "note": "라이트 캡처, 별도 미수집"
-  },
-  "wti": {
-   "value": "약 $85",
-   "change": "급락",
-   "note": "중동 완화로 하락(미국 대표 원유 가격)"
-  },
-  "note": "7/27 미국 정규장 마감(05:00 KST). 지수는 확인값, 반도체 지수(SOX)와 일부 보유 종목 가격은 근사치예요."
- },
- "asiaSummary": "7/27 아시아는 위험자산 선호가 살아있었어요 — 코스피는 외국인 반도체 순매도로 −1%대, 코스닥 +1.8%, 홍콩 항셍 +1.1%. (7/28 아시아 개장 전 캡처라 당일 아시아 마감은 이후 브리핑에서 갱신)"
 }
