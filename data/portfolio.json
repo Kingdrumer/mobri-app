@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-08-03T11:10:00+09:00",
+ "lastUpdated": "2026-08-03T11:11:00+09:00",
  "us": [
   {
    "ticker": "GOOG",
@@ -7,14 +7,14 @@
    "sector": "빅테크",
    "price": 356.65,
    "change1D": 6.88,
-   "change1W": 11.8,
-   "change1M": -0.3,
+   "change1W": 11.77,
+   "change1M": -0.35,
    "changeYTD": 13.4,
    "beta": 1.15,
    "signal": "green",
-   "note": "+6.88% (green)",
+   "note": "6.88% (green)",
    "simpleExplain": "구글 모회사. 검색·광고에서 안정적인 캐시카우, 클라우드+AI에서 구조적 성장 동력. 변동성은 빅테크 평균 수준.",
-   "todayWhy": "아마존 클라우드 호실적에 AI 투자 심리가 살아나며 +6.9% 크게 올랐어요. 광고·클라우드 실적 기대가 함께 붙었어요.",
+   "todayWhy": "구글 클라우드 호실적에 +6.88% 급등했어요. 'AI 투자(CapEx)를 매출로 잘 방어했다'는 평가를 받으며 실적발 조정분을 되돌렸어요.",
    "outlook": {
     "rating": "매수",
     "targetPrice": 419,
@@ -88,8 +88,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -102,12 +102,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $418.93로 지금 가격($370.21)에서 +13% 오를 여력이 있어요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/GOOG.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/goog/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -160,8 +160,8 @@
     ]
    },
    "financialStatementsEasy": "알파벳 (구글) 매출이 2022.12. 434.9조원에서 2025.12. 619.4조원으로 +42% 변했어요. 영업이익(본업으로 번 돈)은 115.1조원에서 198.4조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 32%로 굉장히 높아요.",
-   "afterHoursPrice": 334.89,
-   "afterHoursChange1D": 0.69
+   "afterHoursPrice": 354.37,
+   "afterHoursChange1D": -0.64
   },
   {
    "ticker": "META",
@@ -169,14 +169,14 @@
    "sector": "빅테크",
    "price": 556.71,
    "change1D": 3.28,
-   "change1W": -6.5,
-   "change1M": -9.2,
+   "change1W": -6.47,
+   "change1M": -9.17,
    "changeYTD": -16.4,
    "beta": 1.49,
    "signal": "green",
-   "note": "+3.28% (green)",
+   "note": "3.28% (green)",
    "simpleExplain": "페이스북·인스타그램 모회사. 광고 매출이 본업, AI·메타버스 투자가 미래. 광고 사이클·AI 수익화 시점이 핵심.",
-   "todayWhy": "빅테크 반등 분위기에 +3.3% 올랐어요. 다만 최근 한 달은 광고·AI 지출 부담 우려로 약세 흐름이 이어지고 있어요.",
+   "todayWhy": "7/30 실적 실망으로 -7.95% 급락했다가 7/31 +3.28% 반등했어요. 다만 막대한 AI 데이터센터 투자비 부담 논쟁은 계속되고 있어요.",
    "outlook": {
     "rating": "매수",
     "targetPrice": 825,
@@ -258,8 +258,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -272,12 +272,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $825.41로 지금 가격($681.31)에서 +21% 오를 여력이 있어요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/META.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/meta/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -330,8 +330,8 @@
     ]
    },
    "financialStatementsEasy": "메타 매출이 2022.12. 179.3조원에서 2025.12. 309.1조원으로 +72% 변했어요. 영업이익(본업으로 번 돈)은 44.5조원에서 128.1조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 41%로 굉장히 높아요.",
-   "afterHoursPrice": 597.37,
-   "afterHoursChange1D": 0.67
+   "afterHoursPrice": 553.88,
+   "afterHoursChange1D": -0.51
   },
   {
    "ticker": "AMZN",
@@ -340,13 +340,13 @@
    "price": 271.58,
    "change1D": 15.32,
    "change1W": 17.0,
-   "change1M": 12.4,
+   "change1M": 12.36,
    "changeYTD": 16.8,
    "beta": 1.47,
    "signal": "green",
-   "note": "+15.32% (green)",
+   "note": "15.32% (green)",
    "simpleExplain": "이커머스+AWS 클라우드. AI 시대엔 AWS가 캐시카우 + 성장엔진 동시 역할. 단기 사고는 단발성, 펀더멘털 견조.",
-   "todayWhy": "클라우드(AWS) 매출이 4년여 만에 가장 빠르게(+37%) 늘어난 어닝 서프라이즈로 +15.3% 폭등했어요. 분기 매출도 사상 처음 특정 기록을 넘어섰어요.",
+   "todayWhy": "2분기 어닝 서프라이즈와 클라우드(AWS) +37% 성장에 +15.32% 폭등하며 지수를 끌어올렸어요.",
    "outlook": {
     "rating": "매수",
     "targetPrice": 309,
@@ -414,8 +414,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -428,12 +428,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $309.12로 지금 가격($254.96)에서 +21% 오를 여력이 있어요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/AMZN.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/amzn/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -486,8 +486,8 @@
     ]
    },
    "financialStatementsEasy": "아마존 매출이 2022.12. 790.2조원에서 2025.12. 1102.3조원으로 +39% 변했어요. 영업이익(본업으로 번 돈)은 18.8조원에서 123.0조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 11%로 평균 수준이에요.",
-   "afterHoursPrice": 232.03,
-   "afterHoursChange1D": 0.51
+   "afterHoursPrice": 270.5,
+   "afterHoursChange1D": -0.4
   },
   {
    "ticker": "NVDA",
@@ -495,14 +495,14 @@
    "sector": "반도체",
    "price": 200.75,
    "change1D": 2.93,
-   "change1W": -2.9,
+   "change1W": -2.94,
    "change1M": 1.6,
    "changeYTD": 7.0,
    "beta": 2.21,
    "signal": "green",
-   "note": "+2.93% (green)",
+   "note": "2.93% (green)",
    "simpleExplain": "AI GPU 압도적 1위. AI 시대의 핵심 인프라 공급사. 5/20 Q1 실적이 단기 가장 큰 이벤트.",
-   "todayWhy": "아마존발 AI 훈풍에 +2.9% 반등했어요. 전날까지 이어진 반도체 매도세에서 벗어나는 모습이었어요.",
+   "todayWhy": "아마존 급등과 AI 인프라(데이터센터) 수요 회복 기대에 +2.93%로 사흘 연속 반등했어요.",
    "outlook": {
     "rating": "매수",
     "targetPrice": 297,
@@ -591,8 +591,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -605,12 +605,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $296.80로 지금 가격($212.50)에서 +40% 더 오를 여력이 크다고 봐요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/NVDA.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/nvda/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -663,8 +663,8 @@
     ]
    },
    "financialStatementsEasy": "엔비디아 매출이 2023.01.29 41.5조원에서 2026.01.25 332.1조원으로 +701% 변했어요. 영업이익(본업으로 번 돈)은 6.5조원에서 200.5조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 60%로 굉장히 높아요.",
-   "afterHoursPrice": 197.64,
-   "afterHoursChange1D": 0.32
+   "afterHoursPrice": 198.95,
+   "afterHoursChange1D": -0.9
   },
   {
    "ticker": "TSM",
@@ -672,14 +672,14 @@
    "sector": "반도체",
    "price": 404.25,
    "change1D": 0.23,
-   "change1W": 0.2,
+   "change1W": 0.21,
    "change1M": -9.0,
    "changeYTD": 34.9,
    "beta": 1.12,
    "signal": "yellow",
-   "note": "+0.23% (yellow)",
+   "note": "0.23% (yellow)",
    "simpleExplain": "세계 최대 반도체 위탁생산. NVDA·AMD·AAPL이 모두 고객. AI 호황의 가장 안전한 노출 — 변동성도 가장 낮음.",
-   "todayWhy": "보합권(+0.2%)에서 마감했어요. 반도체 대형주 변동성 속에 방향을 크게 잡지 못했어요.",
+   "todayWhy": "+0.23% 강보합. 7/30 하루 +7.6% 급등(마이크로소프트發 AI칩 훈풍) 뒤 숨고르기예요.",
    "outlook": {
     "rating": "매수",
     "targetPrice": 479,
@@ -746,8 +746,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -760,12 +760,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $478.87로 지금 가격($419.48)에서 +14% 오를 여력이 있어요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/TSM.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/tsm/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -818,8 +818,8 @@
     ]
    },
    "financialStatementsEasy": "TSMC 매출이 2022.12. 109.3조원에서 2025.12. 183.9조원으로 +68% 변했어요. 영업이익(본업으로 번 돈)은 54.1조원에서 93.4조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 51%로 굉장히 높아요.",
-   "afterHoursPrice": 394.72,
-   "afterHoursChange1D": 0.61
+   "afterHoursPrice": 404.0,
+   "afterHoursChange1D": -0.06
   },
   {
    "ticker": "AVGO",
@@ -827,14 +827,14 @@
    "sector": "반도체",
    "price": 389.28,
    "change1D": 0.37,
-   "change1W": 1.9,
+   "change1W": 1.93,
    "change1M": 5.4,
    "changeYTD": 11.3,
    "beta": 1.46,
    "signal": "yellow",
-   "note": "+0.37% (yellow)",
+   "note": "0.37% (yellow)",
    "simpleExplain": "맞춤형 AI 칩 설계 회사. 메타·구글의 자체 AI 칩 핵심 파트너. 베타 2.44로 변동성 큼.",
-   "todayWhy": "소폭(+0.4%) 올랐어요. AI 반도체 반등에 살짝 붙었지만 큰 움직임은 없었어요.",
+   "todayWhy": "+0.37% 강보합. 애플과 300억 달러 규모 계약·삼성과의 MOU 등 수주 모멘텀이 받쳐줬어요.",
    "outlook": {
     "rating": "매수",
     "targetPrice": 510,
@@ -901,8 +901,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -915,12 +915,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $509.84로 지금 가격($394.28)에서 +29% 오를 여력이 있어요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/AVGO.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/avgo/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -973,8 +973,8 @@
     ]
    },
    "financialStatementsEasy": "브로드컴 매출이 2022.10.30 51.0조원에서 2025.11.02 98.2조원으로 +92% 변했어요. 영업이익(본업으로 번 돈)은 21.9조원에서 39.2조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 40%로 굉장히 높아요.",
-   "afterHoursPrice": 384.25,
-   "afterHoursChange1D": 0.88
+   "afterHoursPrice": 387.45,
+   "afterHoursChange1D": -0.47
   },
   {
    "ticker": "MU",
@@ -982,14 +982,14 @@
    "sector": "반도체",
    "price": 823.03,
    "change1D": -5.9,
-   "change1W": -10.6,
-   "change1M": -20.3,
+   "change1W": -10.63,
+   "change1M": -20.27,
    "changeYTD": 181.3,
    "beta": 2.14,
    "signal": "red",
-   "note": "-5.90% (red)",
+   "note": "-5.9% (red)",
    "simpleExplain": "메모리 반도체. NVDA·AMD GPU에 들어가는 HBM 메모리 핵심 공급. AI 호황 = 메모리 호황 공식.",
-   "todayWhy": "키옥시아(경쟁사) 실적 부진과 미국 국채금리 상승이 겹쳐 메모리주가 눌리며 -5.9% 내렸어요. 전날에 이어 약세가 이어졌어요.",
+   "todayWhy": "장중 급등분을 반납하며 -5.90%로 마감했어요. 메모리(저장용 반도체) 가격 논쟁 속 변동성이 크지만 7/30엔 +18% 급등했었어요.",
    "outlook": {
     "rating": "매수",
     "targetPrice": 1449,
@@ -1090,8 +1090,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -1104,12 +1104,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $1,449.24로 지금 가격($904.28)에서 +60% 더 오를 여력이 크다고 봐요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/MU.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/mu/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -1162,8 +1162,8 @@
     ]
    },
    "financialStatementsEasy": "마이크론 매출이 2022.09.01 47.3조원에서 2025.08.28 57.5조원으로 +22% 변했어요. 영업이익(본업으로 번 돈)은 14.8조원에서 15.0조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 26%로 양호한 편이에요.",
-   "afterHoursPrice": 830.75,
-   "afterHoursChange1D": 1.25
+   "afterHoursPrice": 812.5,
+   "afterHoursChange1D": -1.28
   },
   {
    "ticker": "MRVL",
@@ -1171,14 +1171,14 @@
    "sector": "반도체",
    "price": 187.56,
    "change1D": 2.32,
-   "change1W": -3.4,
-   "change1M": -31.1,
+   "change1W": -3.43,
+   "change1M": -31.06,
    "changeYTD": 116.2,
    "beta": 2.2,
    "signal": "green",
-   "note": "+2.32% (green)",
+   "note": "2.32% (green)",
    "simpleExplain": "맞춤형 칩(ASIC) 설계. 구글 TPU 공동개발 + NVDA $2B 투자. 1개월 +50% 폭주 후 단기 차익실현 정상.",
-   "todayWhy": "AI 반등 분위기에 +2.3% 올랐어요. 다만 최근 한 달은 -31%로 낙폭이 컸던 종목이에요.",
+   "todayWhy": "+2.32% 반등. 7/30 +12% 급등 흐름을 이어갔어요(AI 맞춤형 반도체 수요 기대).",
    "outlook": {
     "rating": "매수",
     "targetPrice": 246,
@@ -1273,8 +1273,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -1287,12 +1287,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $245.76로 지금 가격($206.26)에서 +19% 오를 여력이 있어요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/MRVL.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/mrvl/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -1345,8 +1345,8 @@
     ]
    },
    "financialStatementsEasy": "마벨 매출이 2023.01.28 9.1조원에서 2026.01. 12.6조원으로 +38% 변했어요. 영업이익(본업으로 번 돈)은 3,659억원에서 4.8조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 38%로 굉장히 높아요.",
-   "afterHoursPrice": 177.0,
-   "afterHoursChange1D": 1.45
+   "afterHoursPrice": 185.58,
+   "afterHoursChange1D": -1.06
   },
   {
    "ticker": "AMD",
@@ -1354,14 +1354,14 @@
    "sector": "반도체",
    "price": 476.15,
    "change1D": -1.9,
-   "change1W": -8.8,
-   "change1M": -12.0,
+   "change1W": -8.77,
+   "change1M": -11.97,
    "changeYTD": 121.1,
    "beta": 2.47,
    "signal": "yellow",
-   "note": "-1.90% (yellow)",
+   "note": "-1.9% (yellow)",
    "simpleExplain": "NVDA의 직접 경쟁사. MI 시리즈 GPU로 AI 시장 점유율 빠르게 확대 중. 5/7 어닝 폭발, 1개월 +91%.",
-   "todayWhy": "8/4(현지) 실적 발표를 앞두고 관망세에 -1.9% 소폭 내렸어요. 반도체 전반이 눌린 영향도 있었어요.",
+   "todayWhy": "장초반 급등분을 반납해 -1.90%로 밀렸어요. 8/4(화) 실적 발표를 앞두고 관망세예요(7/30엔 +13%).",
    "outlook": {
     "rating": "매수",
     "targetPrice": 506,
@@ -1460,8 +1460,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -1474,12 +1474,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $506.23로 지금 가격($529.14)보다 낮아요. 분석가들은 단기적으론 이미 충분히 올랐다고 봐요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/AMD.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/amd/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -1532,8 +1532,8 @@
     ]
    },
    "financialStatementsEasy": "AMD 매출이 2022.12. 36.3조원에서 2025.12.27 53.3조원으로 +47% 변했어요. 영업이익(본업으로 번 돈)은 1.9조원에서 5.7조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 11%로 평균 수준이에요.",
-   "afterHoursPrice": 460.48,
-   "afterHoursChange1D": 1.29
+   "afterHoursPrice": 472.12,
+   "afterHoursChange1D": -0.85
   },
   {
    "ticker": "SNDK",
@@ -1541,14 +1541,14 @@
    "sector": "반도체",
    "price": 1214.83,
    "change1D": -5.09,
-   "change1W": -15.4,
-   "change1M": -40.2,
+   "change1W": -15.43,
+   "change1M": -40.22,
    "changeYTD": 405.7,
    "beta": 2.41,
    "signal": "red",
    "note": "-5.09% (red)",
    "simpleExplain": "낸드 플래시 메모리 회사. AI 데이터센터 스토리지 수요 폭발의 1차 수혜. 1년 +3,300% 누적 차익실현 위험.",
-   "todayWhy": "메모리(낸드) 업황 우려와 차익실현이 겹쳐 -5.1% 내렸어요. 최근 한 달 -40%로 변동이 매우 큰 종목이에요.",
+   "todayWhy": "장중 고점에서 밀리며 -5.09% 마감. 8/5(수) 실적을 앞둔 변동성이에요(7/30엔 +26% 폭등).",
    "outlook": {
     "rating": "매수",
     "targetPrice": 2054,
@@ -1650,8 +1650,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -1664,12 +1664,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $2,053.68로 지금 가격($1,615.00)에서 +27% 오를 여력이 있어요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/SNDK.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/sndk/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -1722,8 +1722,8 @@
     ]
    },
    "financialStatementsEasy": "샌디스크 매출이 2022.07.01 15.0조원에서 2025.06.27 11.3조원으로 -25% 변했어요. 영업이익(본업으로 번 돈)은 -2.1조원이에요.",
-   "afterHoursPrice": 1121.01,
-   "afterHoursChange1D": 2.27
+   "afterHoursPrice": 1205.0,
+   "afterHoursChange1D": -0.81
   },
   {
    "ticker": "DELL",
@@ -1731,14 +1731,14 @@
    "sector": "AI 인프라",
    "price": 405.37,
    "change1D": 0.14,
-   "change1W": -7.3,
-   "change1M": -4.7,
+   "change1W": -7.34,
+   "change1M": -4.67,
    "changeYTD": 216.9,
    "beta": 1.96,
    "signal": "yellow",
-   "note": "+0.14% (yellow)",
+   "note": "0.14% (yellow)",
    "simpleExplain": "AI 서버 OEM. NVDA GPU를 받아 기업 데이터센터에 납품하는 시스템 통합사. AI 백로그 $18.4B 사상 최대.",
-   "todayWhy": "보합(+0.1%)으로 마감했어요. AI 서버 수요 기대와 반도체 부담이 맞물려 방향을 못 잡았어요.",
+   "todayWhy": "+0.14% 보합. 7/30 +9.5% 반등(AI 서버 수혜 기대) 뒤 숨고르기예요.",
    "outlook": {
     "rating": "매수",
     "targetPrice": 482,
@@ -1824,8 +1824,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(Tiingo)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -1838,12 +1838,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $482.08로 지금 가격($412.68)에서 +17% 오를 여력이 있어요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/DELL.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/dell/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -1896,8 +1896,8 @@
     ]
    },
    "financialStatementsEasy": "델 매출이 2023.02.03 157.3조원에서 2026.01.30 174.6조원으로 +11% 변했어요. 영업이익(본업으로 번 돈)은 7.5조원에서 12.9조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 7%로 평균 수준이에요.",
-   "afterHoursPrice": 391.96,
-   "afterHoursChange1D": -0.04
+   "afterHoursPrice": 402.38,
+   "afterHoursChange1D": -0.74
   },
   {
    "ticker": "LITE",
@@ -1905,14 +1905,14 @@
    "sector": "AI 인프라",
    "price": 713.94,
    "change1D": 2.99,
-   "change1W": -6.4,
-   "change1M": -10.9,
+   "change1W": -6.43,
+   "change1M": -10.89,
    "changeYTD": 92.3,
    "beta": 2.38,
    "signal": "green",
-   "note": "+2.99% (green)",
+   "note": "2.99% (green)",
    "simpleExplain": "AI 데이터센터 광통신 핵심 부품. NVDA GPU와 GPU를 연결하는 광학 모듈 공급. CPO·OCS 수직 진출.",
-   "todayWhy": "AI 데이터센터 광통신 수요 기대에 +3.0% 반등했어요. 아마존발 AI 훈풍에 함께 붙었어요.",
+   "todayWhy": "+2.99% 반등. 광통신(데이터센터 연결) 수요 기대가 이어졌어요(7/30 +15%).",
    "outlook": {
     "rating": "매수",
     "targetPrice": 1108,
@@ -1998,8 +1998,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -2012,12 +2012,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $1,108.27로 지금 가격($752.00)에서 +47% 더 오를 여력이 크다고 봐요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/LITE.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/lite/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -2070,8 +2070,8 @@
     ]
    },
    "financialStatementsEasy": "루멘텀 매출이 2022.07.02 2.6조원에서 2025.06.28 2.5조원으로 -4% 변했어요. 영업이익(본업으로 번 돈)은 -2,769억원이에요.",
-   "afterHoursPrice": 660.09,
-   "afterHoursChange1D": 1.25
+   "afterHoursPrice": 706.48,
+   "afterHoursChange1D": -1.04
   },
   {
    "ticker": "CLS",
@@ -2079,14 +2079,14 @@
    "sector": "AI 인프라",
    "price": 331.44,
    "change1D": -6.0,
-   "change1W": 8.6,
-   "change1M": -8.3,
+   "change1W": 8.57,
+   "change1M": -8.35,
    "changeYTD": 10.7,
    "beta": 1.52,
    "signal": "red",
-   "note": "-6.00% (red)",
+   "note": "-6.0% (red)",
    "simpleExplain": "AI 서버·스위치 시스템 통합 제조. 하이퍼스케일러(아마존·구글·메타) 맞춤형 인프라 공급. 1.6T CPO 이더넷 스위치 양산 대기.",
-   "todayWhy": "전날 큰 폭 상승(+10%)에 따른 차익실현으로 -6.0% 되돌림했어요. AI 서버 조립 수요는 여전히 강한 편이에요.",
+   "todayWhy": "-6.00% 조정. 2분기 실적 호조·목표가 상향에도 단기 급등 뒤 차익 실현이 나왔어요(7/28 +10%).",
    "outlook": {
     "rating": "매수",
     "targetPrice": 434,
@@ -2160,8 +2160,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -2174,12 +2174,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $433.91로 지금 가격($334.77)에서 +30% 오를 여력이 있어요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/CLS.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/cls/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -2232,8 +2232,8 @@
     ]
    },
    "financialStatementsEasy": "셀레스티카 매출이 2022.12. 11.1조원에서 2025.12. 19.1조원으로 +71% 변했어요. 영업이익(본업으로 번 돈)은 4,048억원에서 1.6조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 8%로 평균 수준이에요.",
-   "afterHoursPrice": 349.1,
-   "afterHoursChange1D": -0.31
+   "afterHoursPrice": 330.0,
+   "afterHoursChange1D": -0.43
   },
   {
    "ticker": "CRDO",
@@ -2241,14 +2241,14 @@
    "sector": "AI 인프라",
    "price": 206.99,
    "change1D": 2.94,
-   "change1W": -2.9,
-   "change1M": -20.1,
+   "change1W": -2.89,
+   "change1M": -20.11,
    "changeYTD": 42.8,
    "beta": 3.2,
    "signal": "green",
-   "note": "+2.94% (green)",
+   "note": "2.94% (green)",
    "simpleExplain": "AI 데이터센터 고속 데이터 전송 칩. NVDA·AMD GPU 클러스터 연결의 핵심 부품. 베타 3.43으로 우리 포트폴리오 변동성 1위.",
-   "todayWhy": "AI 데이터센터 광통신(칩끼리 연결) 수요 기대에 +2.9% 올랐어요. 같은 광통신 종목 LITE와 함께 반등했어요.",
+   "todayWhy": "+2.94% 반등. AI 연결용 반도체 수요 기대가 살아났어요(7/30 +13%).",
    "outlook": {
     "rating": "매수",
     "targetPrice": 278,
@@ -2341,8 +2341,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -2355,12 +2355,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $278.46로 지금 가격($226.74)에서 +23% 오를 여력이 있어요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/CRDO.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/crdo/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -2413,8 +2413,8 @@
     ]
    },
    "financialStatementsEasy": "크레도 매출이 2023.04.29 2,832억원에서 2026.05.02 2.1조원으로 +625% 변했어요. 영업이익(본업으로 번 돈)은 적자에서 흑자로 돌아섰어요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 33%로 굉장히 높아요.",
-   "afterHoursPrice": 195.94,
-   "afterHoursChange1D": 1.9
+   "afterHoursPrice": 205.0,
+   "afterHoursChange1D": -0.96
   },
   {
    "ticker": "TLN",
@@ -2422,14 +2422,14 @@
    "sector": "AI 전력",
    "price": 334.1,
    "change1D": 0.47,
-   "change1W": -7.2,
+   "change1W": -7.17,
    "change1M": -7.4,
    "changeYTD": -11.8,
    "beta": 1.62,
    "signal": "yellow",
-   "note": "+0.47% (yellow)",
+   "note": "0.47% (yellow)",
    "simpleExplain": "원전·천연가스 발전사. AI 데이터센터가 늘수록 전력 수요도 같이 폭발. AWS와 18B$ 장기 PPA(전력 공급) 계약 체결.",
-   "todayWhy": "보합(+0.5%)으로 마감했어요. AI 전력 수요 테마 종목인데 이날은 큰 움직임 없었어요.",
+   "todayWhy": "+0.47% 강보합. 8/5(수) 실적과 원전(데이터센터 전력) 테마 기대가 유지됐어요.",
    "outlook": {
     "rating": "매수",
     "targetPrice": 459,
@@ -2478,8 +2478,8 @@
     }
    ],
    "priceSourcedFrom": [
-    "Naver(7/31 close)",
-    "Yahoo Finance"
+    "StockAnalysis(S&P Global Market Intelligence)",
+    "WebSearch 교차확인"
    ],
    "dataQualityNote": null,
    "company": {
@@ -2492,12 +2492,12 @@
    },
    "outlookEasy": "증권사 분석가들이 본 평균 목표가가 $458.77로 지금 가격($400.12)에서 +15% 오를 여력이 있어요. 추천 등급은 매수예요.",
    "_fetchMeta": {
-    "fetchedAt": "2026-08-03T11:10:00+09:00",
+    "fetchedAt": "2026-08-03T11:11:00+09:00",
     "tradedAt": "2026-07-31T16:00:00-04:00",
     "sources": [
      {
-      "url": "https://api.stock.naver.com/stock/TLN.O/basic",
-      "note": "CNBC/Yahoo 교차검증 일치"
+      "url": "https://stockanalysis.com/stocks/tln/history/",
+      "note": "7/31 미국 정규장 종가·시간외, S&P Global/Tiingo"
      }
     ]
    },
@@ -2532,8 +2532,8 @@
     ]
    },
    "financialStatementsEasy": "탈렌에너지 매출이 2024.12. 3.3조원에서 2025.12. 4.0조원으로 +22% 변했어요. 영업이익(본업으로 번 돈)은 -1,384억원이에요.",
-   "afterHoursPrice": 332.22,
-   "afterHoursChange1D": 1.89
+   "afterHoursPrice": 338.75,
+   "afterHoursChange1D": 1.39
   }
  ],
  "kr": [],
@@ -3248,7 +3248,7 @@
   "weekendNote": "주말(일)은 미국·한국 모두 휴장이에요. 시스템 휴지기(7/19~7/25)로 자동 가격 갱신이 밀려, 표시 가격은 7/17(금) 종가 기준이에요. 시그널 해설도 7/16~17 분석을 유지하며, 가격 재정산은 월요일 개장 브리핑에서 진행돼요.",
   "dataQualityNote": "오늘(7/29)은 반도체 급락 대응(보유 15종목 가격·뉴스 갱신)에 집중해 시그널 섹션은 갱신하지 않았어요 (직전 검증분 유지). 다음 갱신에서 새로고침됩니다."
  },
- "marketSession": "미국장 마감(7/31 금) · 한국시간 8/3(월) 오전 갱신",
- "holidayNote": null,
- "dataNote": "8/3(월) 풀 모닝 실행. 보유 15종목 가격을 7/31(금) 미국 종가로 갱신(Naver 실시간 + Yahoo 교차검증 일치). 지수·뉴스는 7/31 마감 및 8/3 오전 한국장 실시간 확인."
+ "marketSession": "8/3(월) 오전 KST — 미국 정규장은 오늘 밤 22:30 KST 개장 예정(아직 미개장). 표시 가격은 직전 거래일 7/31(금) 미국 정규장 '종가'로 정산 완료. 지수: 다우 52,485.03(+0.53%)·S&P500 7,489.72(+0.7%)·나스닥 25,373.85(+1.0%).",
+ "holidayNote": "🟢 오늘은 8/3(월)이에요. 미국 정규장은 오늘 밤 22:30 KST에 열려요(현재 미개장). 지난 주말 브리핑에서 밀렸던 '7/31(금) 미국 종가'를 이번에 CNBC·야후와 교차한 전문 데이터(S&P Global)로 전 종목 정산했어요 — 아마존 +15.3%·구글 +6.9% 등 금요일 밤 급반등이 이제 앱에 반영됐어요.",
+ "dataNote": "8/3(월) 오전 자가복구(워치독) 정산 브리핑. 보유 15종목 가격을 7/31(금) 미국 정규장 종가로 전면 최신화했어요. 출처: StockAnalysis(S&P Global Market Intelligence, DELL은 Tiingo) + WebSearch 교차확인. 2출처 교차 결과 이상치(>5% 불일치) 없이 전 종목 정상(✓15)이며, dataQualityNote 경고 0건이에요. 지수·시장지표는 실시간 검색으로 확인한 7/31 미국 마감 기준(10년물 4.75%·VIX 15.99·WTI $89.31)."
 }
