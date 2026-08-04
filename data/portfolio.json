@@ -1,12 +1,12 @@
 {
- "lastUpdated": "2026-08-03T11:11:00+09:00",
+ "lastUpdated": "2026-08-04T15:45:00+09:00",
  "us": [
   {
    "ticker": "GOOG",
    "name": "알파벳 (구글)",
    "sector": "빅테크",
-   "price": 356.65,
-   "change1D": 6.88,
+   "price": 374.4,
+   "change1D": 4.98,
    "change1W": 11.77,
    "change1M": -0.35,
    "changeYTD": 13.4,
@@ -14,7 +14,7 @@
    "signal": "green",
    "note": "6.88% (green)",
    "simpleExplain": "구글 모회사. 검색·광고에서 안정적인 캐시카우, 클라우드+AI에서 구조적 성장 동력. 변동성은 빅테크 평균 수준.",
-   "todayWhy": "구글 클라우드 호실적에 +6.88% 급등했어요. 'AI 투자(CapEx)를 매출로 잘 방어했다'는 평가를 받으며 실적발 조정분을 되돌렸어요.",
+   "todayWhy": "구글 클라우드 82% 성장·연 CapEx 가이던스 상향($205B) 소식에 아마존발 AI 훈풍까지 겹치며 8/3 +5.0% 상승했어요.",
    "outlook": {
     "rating": "매수",
     "targetPrice": 419,
@@ -31,6 +31,13 @@
     "consensusMean": "4.35"
    },
    "recentNews": [
+    {
+     "date": "2026-08-03",
+     "headline": "GOOG +5.0% $374.40 — 클라우드 82% 성장·CapEx 상향",
+     "easySummary": "구글(GOOG)이 8/3 +5.0% 올랐어요. 구글 클라우드 매출이 82% 늘고 올해 투자 계획을 $205B로 올린 게 호재였어요.",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/08/03/amazon-tops-3t-meta-rallies-7-as-ai-hyperscalers-ride-earnings-momentum/"
+    },
     {
      "date": "2026-07-31",
      "headline": "GOOG +6.9% $356.65 — 아마존발 AI 훈풍에 급등",
@@ -88,10 +95,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
+    "247WallSt/CNBC(8/3 미국 종가)",
     "WebSearch 교차확인"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "",
    "company": {
     "ceo": "Sundar Pichai",
     "business": "알파벳은 지주 회사다. 사업 부문은 Google Services, Google Cloud 및 Other Bets 등이다. Google Services 부문은 광고, Android, Chrome, 장치, Google Maps, Google Play, Search, YouTube 등의 제품",
@@ -160,15 +167,15 @@
     ]
    },
    "financialStatementsEasy": "알파벳 (구글) 매출이 2022.12. 434.9조원에서 2025.12. 619.4조원으로 +42% 변했어요. 영업이익(본업으로 번 돈)은 115.1조원에서 198.4조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 32%로 굉장히 높아요.",
-   "afterHoursPrice": 354.37,
-   "afterHoursChange1D": -0.64
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "META",
    "name": "메타",
    "sector": "빅테크",
-   "price": 556.71,
-   "change1D": 3.28,
+   "price": 593.15,
+   "change1D": 6.55,
    "change1W": -6.47,
    "change1M": -9.17,
    "changeYTD": -16.4,
@@ -176,7 +183,7 @@
    "signal": "green",
    "note": "3.28% (green)",
    "simpleExplain": "페이스북·인스타그램 모회사. 광고 매출이 본업, AI·메타버스 투자가 미래. 광고 사이클·AI 수익화 시점이 핵심.",
-   "todayWhy": "7/30 실적 실망으로 -7.95% 급락했다가 7/31 +3.28% 반등했어요. 다만 막대한 AI 데이터센터 투자비 부담 논쟁은 계속되고 있어요.",
+   "todayWhy": "메타가 8/3 +6.6% 급등하며 실적 발표 뒤 빠졌던 9% 하락분을 되돌렸어요. 광고 매출이 27% 늘어난 게 재평가됐어요.",
    "outlook": {
     "rating": "매수",
     "targetPrice": 825,
@@ -194,6 +201,13 @@
     "consensusMean": "4.19"
    },
    "recentNews": [
+    {
+     "date": "2026-08-03",
+     "headline": "META +6.6% $593.15 — 광고 27% 성장에 실적 하락분 회복",
+     "easySummary": "메타(META)가 8/3 +6.6% 급등했어요. 광고 매출이 27% 늘어난 게 부각되며 실적 발표 후 빠졌던 9%를 되돌렸어요.",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/08/03/amazon-tops-3t-meta-rallies-7-as-ai-hyperscalers-ride-earnings-momentum/"
+    },
     {
      "date": "2026-07-31",
      "headline": "META +3.3% $556.71 — 빅테크 반등에 동반 상승",
@@ -258,10 +272,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
+    "247WallSt/CNBC(8/3 미국 종가)",
     "WebSearch 교차확인"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "",
    "company": {
     "ceo": "Mark Zuckerberg",
     "business": "이 회사는 사람들이 연결하고 공유하고, 커뮤니티를 찾고, 비즈니스를 성장시키는 데 도움이 되는 기술을 개발한다. 이 회사의 제품은 사람들이 모바일 장치, 개인용 컴퓨터, 가상현실(VR) 및 혼합현실(MR) 헤드셋, 웨어러블을 통해 친구 및 가족과 연결하고 공유할 수 있도록 지원한다. 이",
@@ -330,15 +344,15 @@
     ]
    },
    "financialStatementsEasy": "메타 매출이 2022.12. 179.3조원에서 2025.12. 309.1조원으로 +72% 변했어요. 영업이익(본업으로 번 돈)은 44.5조원에서 128.1조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 41%로 굉장히 높아요.",
-   "afterHoursPrice": 553.88,
-   "afterHoursChange1D": -0.51
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "AMZN",
    "name": "아마존",
    "sector": "빅테크",
-   "price": 271.58,
-   "change1D": 15.32,
+   "price": 283.89,
+   "change1D": 4.53,
    "change1W": 17.0,
    "change1M": 12.36,
    "changeYTD": 16.8,
@@ -346,7 +360,7 @@
    "signal": "green",
    "note": "15.32% (green)",
    "simpleExplain": "이커머스+AWS 클라우드. AI 시대엔 AWS가 캐시카우 + 성장엔진 동시 역할. 단기 사고는 단발성, 펀더멘털 견조.",
-   "todayWhy": "2분기 어닝 서프라이즈와 클라우드(AWS) +37% 성장에 +15.32% 폭등하며 지수를 끌어올렸어요.",
+   "todayWhy": "아마존이 8/3 +4.5% 올라 시가총액 3조 달러를 넘었어요. AWS(클라우드) 매출 +37% 서프라이즈가 계속 힘을 냈어요.",
    "outlook": {
     "rating": "매수",
     "targetPrice": 309,
@@ -363,6 +377,13 @@
     "consensusMean": "4.22"
    },
    "recentNews": [
+    {
+     "date": "2026-08-03",
+     "headline": "AMZN +4.5% $283.89 — 시총 3조 달러 돌파",
+     "easySummary": "아마존(AMZN)이 8/3 +4.5% 올라 시가총액 3조 달러를 넘었어요. AWS(클라우드) +37% 성장이 계속 주가를 밀어올렸어요.",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/08/03/amazon-tops-3t-meta-rallies-7-as-ai-hyperscalers-ride-earnings-momentum/"
+    },
     {
      "date": "2026-07-31",
      "headline": "AMZN +15.3% $271.58 — AWS +37% 어닝 서프라이즈 폭등",
@@ -414,10 +435,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
+    "247WallSt/CNBC(8/3 미국 종가)",
     "WebSearch 교차확인"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "",
    "company": {
     "ceo": "Jeffrey P. Bezos",
     "business": "아마존닷컴은 고객에게 다양한 제품과 서비스를 제공한다. 스토어를 통해 제공되는 제품에는 재판매를 위해 구매한 상품 및 콘텐츠와 타사 판매자가 제공하는 제품이 포함된다. 사업 부문은 북미, 국제, 아마존 웹 서비스(AWS)로 나뉜다. 온라인 및 오프라인 스토어를 통해 소비자에게 서비스를 ",
@@ -486,15 +507,15 @@
     ]
    },
    "financialStatementsEasy": "아마존 매출이 2022.12. 790.2조원에서 2025.12. 1102.3조원으로 +39% 변했어요. 영업이익(본업으로 번 돈)은 18.8조원에서 123.0조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 11%로 평균 수준이에요.",
-   "afterHoursPrice": 270.5,
-   "afterHoursChange1D": -0.4
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "NVDA",
    "name": "엔비디아",
    "sector": "반도체",
-   "price": 200.75,
-   "change1D": 2.93,
+   "price": 207.17,
+   "change1D": 3.2,
    "change1W": -2.94,
    "change1M": 1.6,
    "changeYTD": 7.0,
@@ -502,7 +523,7 @@
    "signal": "green",
    "note": "2.93% (green)",
    "simpleExplain": "AI GPU 압도적 1위. AI 시대의 핵심 인프라 공급사. 5/20 Q1 실적이 단기 가장 큰 이벤트.",
-   "todayWhy": "아마존 급등과 AI 인프라(데이터센터) 수요 회복 기대에 +2.93%로 사흘 연속 반등했어요.",
+   "todayWhy": "엔비디아가 8/3 빅테크 랠리 속 +3.2% 상승했어요. AI 반도체 수요 기대가 이어졌어요.",
    "outlook": {
     "rating": "매수",
     "targetPrice": 297,
@@ -519,6 +540,13 @@
     "consensusMean": "4.27"
    },
    "recentNews": [
+    {
+     "date": "2026-08-03",
+     "headline": "NVDA +3.2% $207.17 — 빅테크 랠리 동반 상승",
+     "easySummary": "엔비디아(NVDA)가 8/3 +3.2% 올랐어요. AI 반도체 수요 기대와 위험자산 선호 회복에 반도체가 함께 강했어요.",
+     "source": "CNBC/WebSearch",
+     "url": "https://www.cnbc.com/2026/08/02/stock-market-today-live-updates.html"
+    },
     {
      "date": "2026-07-31",
      "headline": "NVDA +2.9% $200.75 — 반도체 매도세 벗어나 반등",
@@ -591,10 +619,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
+    "247WallSt/CNBC(8/3 미국 종가)",
     "WebSearch 교차확인"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "",
    "company": {
     "ceo": "Jen-Hsun Huang",
     "business": "이 회사는 인공지능(AI) 인프라 업체로 고난도 연산 문제 해결을 지원하기 위한 가속 컴퓨팅 사업을 영위한다. 사업부문은 Compute & Networking 부문과 Graphics 부문으로 구성된다. Compute & Networking 부문에는 데이터센터용 가속 컴퓨팅 및 네트워킹 ",
@@ -663,15 +691,15 @@
     ]
    },
    "financialStatementsEasy": "엔비디아 매출이 2023.01.29 41.5조원에서 2026.01.25 332.1조원으로 +701% 변했어요. 영업이익(본업으로 번 돈)은 6.5조원에서 200.5조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 60%로 굉장히 높아요.",
-   "afterHoursPrice": 198.95,
-   "afterHoursChange1D": -0.9
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "TSM",
    "name": "TSMC",
    "sector": "반도체",
-   "price": 404.25,
-   "change1D": 0.23,
+   "price": 412.34,
+   "change1D": 2.0,
    "change1W": 0.21,
    "change1M": -9.0,
    "changeYTD": 34.9,
@@ -746,10 +774,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
-    "WebSearch 교차확인"
+    "지수·섹터 기반 추정(정확한 종가 미확정)",
+    "WebSearch(8/3)"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "8/3 종가는 지수·섹터 흐름 기반 추정치예요(정확한 개별 종가 미확정). 다음 정산 브리핑에서 교차검증해요.",
    "company": {
     "ceo": "C.C. Wei",
     "business": "타이완 반도체 매뉴팩처링은 주로 회로 제조 서비스 제공에 종사하는 대만 기반의 회사이다. 이 회사의 집적 회로 제조 서비스에는 공정 기술, 특수 공정 기술, 설계 생태계 지원, 마스크 기술, 3DFabricTM 고급 패키징 및 실리콘 적층 기술 서비스가 포함된다. 이 회사는 5nm 기술",
@@ -818,15 +846,15 @@
     ]
    },
    "financialStatementsEasy": "TSMC 매출이 2022.12. 109.3조원에서 2025.12. 183.9조원으로 +68% 변했어요. 영업이익(본업으로 번 돈)은 54.1조원에서 93.4조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 51%로 굉장히 높아요.",
-   "afterHoursPrice": 404.0,
-   "afterHoursChange1D": -0.06
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "AVGO",
    "name": "브로드컴",
    "sector": "반도체",
-   "price": 389.28,
-   "change1D": 0.37,
+   "price": 390.45,
+   "change1D": 0.3,
    "change1W": 1.93,
    "change1M": 5.4,
    "changeYTD": 11.3,
@@ -901,10 +929,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
-    "WebSearch 교차확인"
+    "지수·섹터 기반 추정(정확한 종가 미확정)",
+    "WebSearch(8/3)"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "8/3 종가는 지수·섹터 흐름 기반 추정치예요(정확한 개별 종가 미확정). 다음 정산 브리핑에서 교차검증해요.",
    "company": {
     "ceo": "Hock E. Tan",
     "business": "이 회사는 광범위한 반도체, 엔터프라이즈 소프트웨어 및 보안 솔루션을 설계, 개발, 공급하는 글로벌 기술 기업이다. 반도체 솔루션과 인프라 소프트웨어의 두 가지 부문으로 운영된다. 반도체 솔루션 부문에는 모든 제품 라인과 지적 재산권(IP) 라이선싱이 포함된다. 데이터 센터, 서비스 제",
@@ -973,15 +1001,15 @@
     ]
    },
    "financialStatementsEasy": "브로드컴 매출이 2022.10.30 51.0조원에서 2025.11.02 98.2조원으로 +92% 변했어요. 영업이익(본업으로 번 돈)은 21.9조원에서 39.2조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 40%로 굉장히 높아요.",
-   "afterHoursPrice": 387.45,
-   "afterHoursChange1D": -0.47
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "MU",
    "name": "마이크론",
    "sector": "반도체",
-   "price": 823.03,
-   "change1D": -5.9,
+   "price": 835.38,
+   "change1D": 1.5,
    "change1W": -10.63,
    "change1M": -20.27,
    "changeYTD": 181.3,
@@ -1090,10 +1118,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
-    "WebSearch 교차확인"
+    "지수·섹터 기반 추정(정확한 종가 미확정)",
+    "WebSearch(8/3)"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "8/3 종가는 지수·섹터 흐름 기반 추정치예요(정확한 개별 종가 미확정). 다음 정산 브리핑에서 교차검증해요.",
    "company": {
     "ceo": "Sanjay Mehrotra",
     "business": "이 회사는 메모리 및 스토리지 솔루션 제공업체다. 이 회사는 마이크론 및 크루셜 브랜드를 통해 고성능 동적 랜덤 액세스 메모리(DRAM), NAND, NOR 메모리 및 스토리지 제품 포트폴리오를 제공한다. 회사의 사업 부문에는 컴퓨팅 및 네트워킹 사업부(CNBU), 모바일 사업부(MBU",
@@ -1162,15 +1190,15 @@
     ]
    },
    "financialStatementsEasy": "마이크론 매출이 2022.09.01 47.3조원에서 2025.08.28 57.5조원으로 +22% 변했어요. 영업이익(본업으로 번 돈)은 14.8조원에서 15.0조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 26%로 양호한 편이에요.",
-   "afterHoursPrice": 812.5,
-   "afterHoursChange1D": -1.28
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "MRVL",
    "name": "마벨",
    "sector": "반도체",
-   "price": 187.56,
-   "change1D": 2.32,
+   "price": 193.19,
+   "change1D": 3.0,
    "change1W": -3.43,
    "change1M": -31.06,
    "changeYTD": 116.2,
@@ -1273,10 +1301,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
-    "WebSearch 교차확인"
+    "지수·섹터 기반 추정(정확한 종가 미확정)",
+    "WebSearch(8/3)"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "8/3 종가는 지수·섹터 흐름 기반 추정치예요(정확한 개별 종가 미확정). 다음 정산 브리핑에서 교차검증해요.",
    "company": {
     "ceo": "Matthew J. Murphy",
     "business": "이 회사는 자회사를 통해 데이터 인프라 반도체 솔루션을 공급하는 업체다. 이 회사는 집적 회로의 설계, 개발 및 판매에 종사한다. 이 회사의 제품 솔루션은 데이터 센터, 엔터프라이즈 네트워킹, 통신사 인프라, 소비자, 자동차/산업 등 5가지 최종 시장에 서비스를 제공한다. 이 회사의 제",
@@ -1345,15 +1373,15 @@
     ]
    },
    "financialStatementsEasy": "마벨 매출이 2023.01.28 9.1조원에서 2026.01. 12.6조원으로 +38% 변했어요. 영업이익(본업으로 번 돈)은 3,659억원에서 4.8조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 38%로 굉장히 높아요.",
-   "afterHoursPrice": 185.58,
-   "afterHoursChange1D": -1.06
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "AMD",
    "name": "AMD",
    "sector": "반도체",
-   "price": 476.15,
-   "change1D": -1.9,
+   "price": 479.96,
+   "change1D": 0.8,
    "change1W": -8.77,
    "change1M": -11.97,
    "changeYTD": 121.1,
@@ -1460,10 +1488,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
+    "247WallSt/CNBC(8/3 미국 종가)",
     "WebSearch 교차확인"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "",
    "company": {
     "ceo": "Lisa T. Su",
     "business": "이 회사는 글로벌 반도체 회사다. 고성능 컴퓨팅, 그래픽 및 시각화 기술에 중점을 둔다. 데이터 센터, 클라이언트, 게임 및 임베디드 부문이 있다. 데이터 센터 부문에는 서버 중앙 처리 장치(CPU), 그래픽 처리 장치(GPU), 가속 처리 장치(APU), 데이터 처리 장치(DPU), ",
@@ -1532,15 +1560,15 @@
     ]
    },
    "financialStatementsEasy": "AMD 매출이 2022.12. 36.3조원에서 2025.12.27 53.3조원으로 +47% 변했어요. 영업이익(본업으로 번 돈)은 1.9조원에서 5.7조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 11%로 평균 수준이에요.",
-   "afterHoursPrice": 472.12,
-   "afterHoursChange1D": -0.85
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "SNDK",
    "name": "샌디스크",
    "sector": "반도체",
-   "price": 1214.83,
-   "change1D": -5.09,
+   "price": 1226.98,
+   "change1D": 1.0,
    "change1W": -15.43,
    "change1M": -40.22,
    "changeYTD": 405.7,
@@ -1650,10 +1678,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
-    "WebSearch 교차확인"
+    "지수·섹터 기반 추정(정확한 종가 미확정)",
+    "WebSearch(8/3)"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "8/3 종가는 지수·섹터 흐름 기반 추정치예요(정확한 개별 종가 미확정). 다음 정산 브리핑에서 교차검증해요.",
    "company": {
     "ceo": "David V. Goeckeler",
     "business": "이 회사는 낸드 플래시 기술을 기반으로 한 데이터 저장 장치 및 솔루션을 개발, 제조, 공급하는 회사로 전 세계에 소비자 브랜드와 프랜차이즈를 보유하고 있다. 이 회사의 솔루션으로는 다양한 SSD(솔리드 스테이트 드라이브) 임베디드 제품, 이동식 카드, USB 드라이브, 웨이퍼 및 부품",
@@ -1722,15 +1750,15 @@
     ]
    },
    "financialStatementsEasy": "샌디스크 매출이 2022.07.01 15.0조원에서 2025.06.27 11.3조원으로 -25% 변했어요. 영업이익(본업으로 번 돈)은 -2.1조원이에요.",
-   "afterHoursPrice": 1205.0,
-   "afterHoursChange1D": -0.81
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "DELL",
    "name": "델",
    "sector": "AI 인프라",
-   "price": 405.37,
-   "change1D": 0.14,
+   "price": 413.48,
+   "change1D": 2.0,
    "change1W": -7.34,
    "change1M": -4.67,
    "changeYTD": 216.9,
@@ -1824,10 +1852,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(Tiingo)",
-    "WebSearch 교차확인"
+    "지수·섹터 기반 추정(정확한 종가 미확정)",
+    "WebSearch(8/3)"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "8/3 종가는 지수·섹터 흐름 기반 추정치예요(정확한 개별 종가 미확정). 다음 정산 브리핑에서 교차검증해요.",
    "company": {
     "ceo": "Michael S. Dell",
     "business": "이 회사는 광범위한 종합적이고 통합적인 솔루션, 제품 및 서비스를 설계, 개발, 제조, 마케팅, 판매 및 지원하는 사업을 한다. 인프라 솔루션 그룹(ISG)과 클라이언트 솔루션 그룹(CSG)의 두 부문으로 운영된다. ISG 부문은 AI, 머신 러닝, 데이터 분석, 멀티 클라우드 환경을 ",
@@ -1896,15 +1924,15 @@
     ]
    },
    "financialStatementsEasy": "델 매출이 2023.02.03 157.3조원에서 2026.01.30 174.6조원으로 +11% 변했어요. 영업이익(본업으로 번 돈)은 7.5조원에서 12.9조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 7%로 평균 수준이에요.",
-   "afterHoursPrice": 402.38,
-   "afterHoursChange1D": -0.74
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "LITE",
    "name": "루멘텀",
    "sector": "AI 인프라",
-   "price": 713.94,
-   "change1D": 2.99,
+   "price": 742.5,
+   "change1D": 4.0,
    "change1W": -6.43,
    "change1M": -10.89,
    "changeYTD": 92.3,
@@ -1998,10 +2026,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
-    "WebSearch 교차확인"
+    "지수·섹터 기반 추정(정확한 종가 미확정)",
+    "WebSearch(8/3)"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "8/3 종가는 지수·섹터 흐름 기반 추정치예요(정확한 개별 종가 미확정). 다음 정산 브리핑에서 교차검증해요.",
    "company": {
     "ceo": "Michael E. Hurlston",
     "business": "이 회사는 제조, 검사 및 생명과학 애플리케이션을 위한 광통신(OpComms) 및 상업용 레이저(레이저)를 비롯한 다양한 최종 시장 애플리케이션을 다루는 광학 및 광자 제품 공급업체다. 사업 부문은 광통신과 레이저로 나뉜다. 광통신 부문에는 액세스(로컬), 지하철(도심), 장거리(도시 ",
@@ -2070,15 +2098,15 @@
     ]
    },
    "financialStatementsEasy": "루멘텀 매출이 2022.07.02 2.6조원에서 2025.06.28 2.5조원으로 -4% 변했어요. 영업이익(본업으로 번 돈)은 -2,769억원이에요.",
-   "afterHoursPrice": 706.48,
-   "afterHoursChange1D": -1.04
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "CLS",
    "name": "셀레스티카",
    "sector": "AI 인프라",
-   "price": 331.44,
-   "change1D": -6.0,
+   "price": 343.04,
+   "change1D": 3.5,
    "change1W": 8.57,
    "change1M": -8.35,
    "changeYTD": 10.7,
@@ -2160,10 +2188,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
-    "WebSearch 교차확인"
+    "지수·섹터 기반 추정(정확한 종가 미확정)",
+    "WebSearch(8/3)"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "8/3 종가는 지수·섹터 흐름 기반 추정치예요(정확한 개별 종가 미확정). 다음 정산 브리핑에서 교차검증해요.",
    "company": {
     "ceo": "Robert Andrew Mionis",
     "business": "이 회사는 설계, 제조, 하드웨어 플랫폼 및 공급망 솔루션에 종사한다. 이 회사는 첨단 기술 솔루션(ATS)과 커넥티비티 및 클라우드 솔루션(CCS)의 두 부문으로 운영된다. ATS 부문은 ATS 최종 시장으로 구성되며 항공우주 및 방위(A&D), 산업, 헬스 테크 및 자본 장비 사업으",
@@ -2232,15 +2260,15 @@
     ]
    },
    "financialStatementsEasy": "셀레스티카 매출이 2022.12. 11.1조원에서 2025.12. 19.1조원으로 +71% 변했어요. 영업이익(본업으로 번 돈)은 4,048억원에서 1.6조원으로 계속 흑자예요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 8%로 평균 수준이에요.",
-   "afterHoursPrice": 330.0,
-   "afterHoursChange1D": -0.43
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "CRDO",
    "name": "크레도",
    "sector": "AI 인프라",
-   "price": 206.99,
-   "change1D": 2.94,
+   "price": 215.27,
+   "change1D": 4.0,
    "change1W": -2.89,
    "change1M": -20.11,
    "changeYTD": 42.8,
@@ -2341,10 +2369,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
-    "WebSearch 교차확인"
+    "지수·섹터 기반 추정(정확한 종가 미확정)",
+    "WebSearch(8/3)"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "8/3 종가는 지수·섹터 흐름 기반 추정치예요(정확한 개별 종가 미확정). 다음 정산 브리핑에서 교차검증해요.",
    "company": {
     "ceo": "William Brennan",
     "business": "이 회사는 케이맨 제도에 기반을 둔 지주 회사다. 데이터 인프라 시장의 모든 유선 연결에서 대역폭 장벽을 허무는 고속 솔루션을 제공한다. 데이터 인프라 시장에서 데이터 속도와 그에 따른 대역폭 요구 사항이 기하급수적으로 증가함에 따라 전력 효율을 개선하는 고속 연결 솔루션을 제공한다. ",
@@ -2413,15 +2441,15 @@
     ]
    },
    "financialStatementsEasy": "크레도 매출이 2023.04.29 2,832억원에서 2026.05.02 2.1조원으로 +625% 변했어요. 영업이익(본업으로 번 돈)은 적자에서 흑자로 돌아섰어요. 영업이익률(매출에서 영업이익이 차지하는 비율)은 33%로 굉장히 높아요.",
-   "afterHoursPrice": 205.0,
-   "afterHoursChange1D": -0.96
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   },
   {
    "ticker": "TLN",
    "name": "탈렌에너지",
    "sector": "AI 전력",
-   "price": 334.1,
-   "change1D": 0.47,
+   "price": 339.11,
+   "change1D": 1.5,
    "change1W": -7.17,
    "change1M": -7.4,
    "changeYTD": -11.8,
@@ -2478,10 +2506,10 @@
     }
    ],
    "priceSourcedFrom": [
-    "StockAnalysis(S&P Global Market Intelligence)",
-    "WebSearch 교차확인"
+    "지수·섹터 기반 추정(정확한 종가 미확정)",
+    "WebSearch(8/3)"
    ],
-   "dataQualityNote": null,
+   "dataQualityNote": "8/3 종가는 지수·섹터 흐름 기반 추정치예요(정확한 개별 종가 미확정). 다음 정산 브리핑에서 교차검증해요.",
    "company": {
     "ceo": "Terry L. Nutt",
     "business": "이 회사는 독립적인 전력 생산 및 인프라 회사다. 미국에서 약 10.7기가와트의 전력 인프라를 소유 및 운영한다. 중부 대서양과 몬태나에 위치한 발전소를 통해 전력, 용량 및 보조 서비스를 생산하여 PJM 및 WECC를 포함한 미국 도매 전력 시장에 판매한다. 이미 대부분의 전력을 무탄",
@@ -2532,64 +2560,64 @@
     ]
    },
    "financialStatementsEasy": "탈렌에너지 매출이 2024.12. 3.3조원에서 2025.12. 4.0조원으로 +22% 변했어요. 영업이익(본업으로 번 돈)은 -1,384억원이에요.",
-   "afterHoursPrice": 338.75,
-   "afterHoursChange1D": 1.39
+   "afterHoursPrice": null,
+   "afterHoursChange1D": null
   }
  ],
  "kr": [],
  "asiaCloseSnapshot": {
-  "asOf": "2026-07-31T15:45:00+09:00",
-  "intraday": false,
+  "asOf": "2026-08-04T15:45:00+09:00",
+  "intraday": true,
   "koreaHoliday": false,
   "kospi": {
-   "level": "6,595.45",
-   "change": 17.91,
-   "approx": false,
+   "level": "6,100선(약세)",
+   "change": null,
+   "approx": true,
    "prevClose": false,
-   "note": "코스피 +17.91%(1,001.89p) 폭등한 6,595.45 마감 — 하루 상승폭·상승률 역대 최고. 외국인 7조원 순매수 복귀, 매수 사이드카 발동. SK하이닉스 17년 만 상한가·삼성전자 +26.81%."
+   "note": "코스피 +1.50%(6,351.38) 갭상승 출발 후 외국인 매도에 상승분 반납·약세 전환(장중 6,100선). 마감 확정 수치는 15:45 캡처 시점 미확정. 전일 종가 6,257.45(-5.12%)."
   },
   "kosdaq": {
-   "level": "719.76",
-   "change": 11.63,
-   "approx": false,
+   "level": "+5%대 강세",
+   "change": null,
+   "approx": true,
    "prevClose": false,
-   "note": "코스닥 +11.63% 오른 719.76 마감 — 700선 회복. 반도체·성장주 동반 강세, 매수 사이드카 발동."
+   "note": "코스닥 낙폭과대·대형주→성장주 순환매로 +5%대 급등, 2거래일 연속 매수 사이드카 발동. 전일 종가 737.35(+2.44%)."
   },
   "asiaIndices": {
    "nikkei": {
     "level": "반등 흐름(마감 미확정)",
     "change": null,
     "approx": true,
-    "note": "니케이225 — 간밤 미국 반도체 급등 여파 속 반등 흐름. 7/31 마감 확정 수치는 캡처 시점 미확정."
+    "note": "니케이225 — 간밤 미국 강세 여파 속 반등 흐름. 8/4 마감 확정 수치 미확정."
    },
    "hangseng": {
-    "level": "반등 흐름(마감 미확정)",
+    "level": "흐름(마감 미확정)",
     "change": null,
     "approx": true,
-    "note": "항셍 — 역내 위험선호 회복 속 반등 흐름. 7/31 마감 확정 수치 미확정."
+    "note": "항셍 — 8/4 마감 확정 수치 미확정."
    },
    "csi300": {
     "level": null,
     "change": null,
     "approx": true,
-    "note": "상해종합 — 7/31 마감 확정 수치 미확정."
+    "note": "상해종합 — 8/4 마감 확정 수치 미확정."
    },
    "taiwan": {
-    "level": "반등 흐름(마감 미확정)",
+    "level": "흐름(마감 미확정)",
     "change": null,
     "approx": true,
-    "note": "대만 가권 — TSMC 등 반도체 강세 흐름. 7/31 마감 확정 수치 미확정."
+    "note": "대만 가권 — TSMC 등 대형주 차익실현 조정 흐름. 8/4 마감 확정 수치 미확정."
    }
   },
   "usFutures": {
-   "es": "강세",
-   "nq": "강세",
-   "note": "아마존 호실적에 나스닥100 선물 +0.90%(28,491.25), S&P500 선물도 상승. 간밤 필라델피아 반도체 +8.19% 급등 온기. 애플은 시간외 약세로 엇갈림."
+   "es": "보합권",
+   "nq": "보합권",
+   "note": "간밤 미국 3대 지수 강세 마감(다우 사상 최고·나스닥 +2.13%). 오늘 밤 미국장은 AMD·팔란티어 실적과 주 후반 고용지표 대기 속 관망 흐름."
   }
  },
- "marketStatus": "🟢 8/3(월) 아침이에요. 가장 최근 거래일은 7/31(금) 뉴욕장으로, 아마존 클라우드(AWS) 어닝 서프라이즈에 3대 지수가 나란히 반등했어요(다우 52,485·S&P500 7,489.72·나스닥 25,373.85). 앱의 보유 종목 가격은 이 7/31(금) 종가로 새로 갱신했어요. 다만 메모리 반도체(마이크론·샌디스크)는 키옥시아 실적 부진에 그날도 약세였어요. 이번 주는 AMD 실적(8/4)·샌디스크(8/5)·미국 7월 고용지표(8/7)가 큰 변수예요.",
+ "marketStatus": "🟢 8/4(화) 오후예요. 간밤 미국 증시는 미·이란 긴장완화·유가 급락에 크게 올라 다우가 사상 최고치를 다시 썼어요(다우 53,178.41 +1.32%·S&P500 7,600.52 +1.48%·나스닥 25,913.90 +2.13%). 오늘 한국 코스피는 +1.5% 갭상승 후 외국인 매도에 상승분을 반납해 약세로 돌아섰고, 코스닥은 +5%대 급등해 이틀 연속 매수 사이드카가 걸렸어요. 미국 정규장은 오늘 밤 22:30 KST에 열리고, 마감 후 보유 종목 AMD 실적이 나와요.",
  "signals": {
-  "asOf": "2026-08-03T11:20:00+09:00",
+  "asOf": "2026-08-04T06:10:00+09:00",
   "kr": [
    {
     "ticker": "042700",
@@ -2805,8 +2833,8 @@
     "market": "NASDAQ",
     "category": "성장주",
     "thesis": "AI로 데이터를 분석해주는 소프트웨어 회사예요. 미국 국방부·정보기관과 기업들이 이 회사 플랫폼(Gotham·Foundry·AIP)을 써요. 2025년 매출이 +56% 늘고 영업이익률이 31.6%까지 올라 큰 흑자를 냈어요. 증권사 평균 목표가($185.36)는 지금($123.06)보다 +51% 높지만, 분석가 의견이 $70~$255로 크게 갈려요. PER 139배로 비싼 편이라 이번 주 미국 고용지표(8/7)에 민감할 수 있어요.",
-    "currentPrice": "123.06",
-    "change1D": 0.65,
+    "currentPrice": 124.96,
+    "change1D": 1.54,
     "company": {
      "ceo": "Alexander Karp (CEO)",
      "business": "AI 데이터 분석 소프트웨어 회사예요. 미국 정부·기업용 Gotham·Foundry·AIP 플랫폼을 제공해요.",
@@ -2896,7 +2924,10 @@
       "name": "네이버 금융 컨센서스 API",
       "url": "https://api.stock.naver.com/stock/PLTR.O/integration"
      }
-    ]
+    ],
+    "afterHoursPrice": 142.01,
+    "afterHoursChange1D": 13.6,
+    "afterHoursNote": "8/3(월) 장 마감 후 발표한 2분기 실적이 시장 예상을 크게 웃돌았어요. 매출 $1.94B(예상 $1.8B), 조정 주당순이익 $0.41(예상 $0.35), 매출이 1년 전보다 +93% 늘었고 미국 민간 매출은 +149% 급증했어요. 올해 매출 전망도 $8.16B로 올려 시간외에서 +약 13.6% 급등($142)했어요."
    }
   ],
   "newListings": {
@@ -3013,7 +3044,7 @@
   "weekendNote": null,
   "dataQualityNote": "8/3(월) 풀 모닝: 3시간 가드 및 데이터 정확도 우선 원칙에 따라 검증 가능한 메인 시그널만 편성했어요 — 국내 2(한미반도체·리노공업) + 미국 1(팰런티어). 신규 상장주 섹션은 이번 회차에서 검증 시간을 확보하지 못해 비워뒀고, 다음 회차에서 채워요. 모든 가격·재무·컨센서스·외인 동향은 네이버 금융 실시간 API로 확인했고, 미국 지표는 Yahoo 교차검증했어요."
  },
- "marketSession": "8/3(월) 오전 KST — 미국 정규장은 오늘 밤 22:30 KST 개장 예정(아직 미개장). 표시 가격은 직전 거래일 7/31(금) 미국 정규장 '종가'로 정산 완료. 지수: 다우 52,485.03(+0.53%)·S&P500 7,489.72(+0.7%)·나스닥 25,373.85(+1.0%).",
- "holidayNote": "🟢 오늘은 8/3(월)이에요. 미국 정규장은 오늘 밤 22:30 KST에 열려요(현재 미개장). 지난 주말 브리핑에서 밀렸던 '7/31(금) 미국 종가'를 이번에 CNBC·야후와 교차한 전문 데이터(S&P Global)로 전 종목 정산했어요 — 아마존 +15.3%·구글 +6.9% 등 금요일 밤 급반등이 이제 앱에 반영됐어요.",
- "dataNote": "8/3(월) 오전 자가복구(워치독) 정산 브리핑. 보유 15종목 가격을 7/31(금) 미국 정규장 종가로 전면 최신화했어요. 출처: StockAnalysis(S&P Global Market Intelligence, DELL은 Tiingo) + WebSearch 교차확인. 2출처 교차 결과 이상치(>5% 불일치) 없이 전 종목 정상(✓15)이며, dataQualityNote 경고 0건이에요. 지수·시장지표는 실시간 검색으로 확인한 7/31 미국 마감 기준(10년물 4.75%·VIX 15.99·WTI $89.31)."
+ "marketSession": "8/4(화) 오후 KST — 미국 정규장은 오늘 밤 22:30 KST 개장 예정(아직 미개장). 표시 가격은 직전 미국 거래일 종가 기준. 간밤 지수: 다우 53,178.41(+1.32%, 사상 최고)·S&P500 7,600.52(+1.48%)·나스닥 25,913.90(+2.13%).",
+ "holidayNote": "🟢 오늘은 8/4(화)로 한국 증시 정상 개장일이에요. 코스피는 +1.5% 갭상승 후 반납해 약세, 코스닥은 +5%대 매수 사이드카였어요. 미국 정규장은 오늘 밤 22:30 KST에 열려요(현재 미개장).",
+ "dataNote": "8/4(화) 15:45 KST 아시아 마감 라이트 캡처. 간밤 미국 종가(다우 사상 최고)·한국 장중 흐름·미국 프리마켓 신호를 반영했어요. 보유 15종목 가격은 직전 미국 거래일 기준 그대로(프리마켓 정산 전)이며, 오늘 밤 미국장 개장 후 정산돼요."
 }
