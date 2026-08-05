@@ -1,0 +1,603 @@
+{
+  "date": "2026-08-05",
+  "session": "full-morning",
+  "title": "8월 5일 (수) 풀 모닝",
+  "marketStatus": "🟢 8/4(화) 뉴욕증시가 나흘째 랠리하며 S&P500·다우가 사상 최고치를 새로 썼어요. 베선트 재무장관이 '호르무즈 해협 재개방 합의가 오늘내일 가능하다'고 밝히면서 국제유가가 이틀째 5%대 급락(WTI 약 $76), 위험자산 선호가 살아났어요. 다우 54,085.88(+1.71%)·S&P500 7,736.52(+1.79%)·나스닥 26,584.99(+2.59%). AI·반도체가 반등을 주도했고 팰런티어는 실적 서프라이즈로 +29% 폭등했어요. 미 10년물 국채금리는 4.62%로 하락, VIX는 16.50이에요.",
+  "generatedAt": "2026-08-05T09:58:00+09:00",
+  "lastUpdated": "2026-08-05T09:58:00+09:00",
+  "marketSummary": "8/4(화) 뉴욕증시는 나흘째 랠리하며 다우·S&P500이 사상 최고치를 경신했습니다(다우 54,085.88 +1.71%·S&P500 7,736.52 +1.79%·나스닥 26,584.99 +2.59%). 호르무즈 재개방 기대에 유가가 이틀째 5%대 급락(WTI 약 $76)하고 10년물 금리가 4.62%로 내리며 위험자산 선호가 살아났습니다. AI·반도체가 반등을 주도했고 팰런티어는 실적 서프라이즈로 +29% 폭등했습니다.",
+  "dataQualityNote": "보유 15종목 가격은 네이버 금융 실시간 API로 갱신 후 CNBC·Yahoo·뉴스로 교차검증했습니다. 지수·유가·금리는 네이버·CNN·연합인포맥스 교차확인. AMD 시간외 하락폭은 Yahoo/Benzinga 인용.",
+  "indices": {
+    "dow": {
+      "value": "54,085.88",
+      "change": 1.71
+    },
+    "sp500": {
+      "value": "7,736.52",
+      "change": 1.79
+    },
+    "nasdaq": {
+      "value": "26,584.99",
+      "change": 2.59
+    },
+    "vix": {
+      "value": "16.50",
+      "change": 4.04
+    },
+    "wti": {
+      "value": "약 76",
+      "change": -5.0
+    },
+    "ust10y": {
+      "value": "4.62",
+      "change": -0.14
+    },
+    "fearGreed": {
+      "value": 58,
+      "label": "탐욕(Greed)"
+    },
+    "usdkrw": {
+      "value": "1,431",
+      "change": 0.2
+    }
+  },
+  "news": [
+    {
+      "category": "미국 증시",
+      "impact": "positive",
+      "headline": "미 증시 나흘째 랠리…S&P500·다우 사상 최고",
+      "oneLineSummary": "8/4(화) 뉴욕증시가 나흘째 올랐어요. 다우와 S&P500이 사상 최고치를 새로 썼어요. 베선트 재무장관이 '호르무즈 해협이 곧 다시 열릴 거다'라고 말하면서 유가가 급락하고 위험자산을 사려는 분위기가 살아났어요.",
+      "summary": "현지 8/4 뉴욕증시는 3대 지수가 나란히 상승했습니다. 다우 54,085.88(+1.71%)·S&P500 7,736.52(+1.79%)·나스닥 26,584.99(+2.59%). 다우와 S&P500은 종가 기준 사상 최고치를 경신했습니다. 국제유가 급락과 미 국채금리 하락, AI·반도체 반등이 상승을 이끌었습니다.",
+      "ourImpact": "보유 반도체·AI주가 일제히 급등하며 포트폴리오에 크게 유리했어요. 마벨 +12.8%, 샌디스크 +10.8%, 크레도 +9.0% 등 대부분 종목이 올랐어요.",
+      "sources": [
+        {
+          "name": "토픽스타뉴스 (8/5)",
+          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16154993"
+        },
+        {
+          "name": "뉴스핌 글로벌마켓 (8/5)",
+          "url": "https://www.newspim.com/news/view/20260805000154"
+        }
+      ]
+    },
+    {
+      "category": "미국 증시",
+      "impact": "positive",
+      "headline": "팰런티어 +29% 실적 서프라이즈가 AI 소프트웨어 랠리 견인",
+      "oneLineSummary": "AI 소프트웨어 회사 팰런티어가 8/4 2분기 실적을 잘 내면서 +29% 폭등했어요. 정부·기업이 쓰는 AI 데이터 분석 수요가 계속 커진다는 게 확인됐고, 이 소식이 나스닥의 기술주 매수세를 더 키웠어요.",
+      "summary": "팰런티어(PLTR)가 8/4 2분기 실적 발표 후 +29.5% 급등해 $162.66에 마감했습니다. 매출·이익이 시장 예상을 웃돌며 AI 소프트웨어 수요 지속을 재확인시켰고, 나스닥(+2.59%) 강세의 촉매가 됐습니다.",
+      "ourImpact": "팰런티어는 보유 종목은 아니지만 우리 시그널 카드에 있어요. AI 수요 확인은 보유한 엔비디아·브로드컴 등 AI 반도체주 투자심리에도 도움이 됐어요.",
+      "sources": [
+        {
+          "name": "TheStreet (8/4)",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-4-2026"
+        }
+      ]
+    },
+    {
+      "category": "아시아 증시",
+      "impact": "neutral",
+      "headline": "코스피, 7월 롤러코스터 뒤 반등…반도체 대형주가 주도",
+      "oneLineSummary": "코스피가 7월 큰 변동성(급락 뒤 급반등)을 겪은 뒤 8월 들어 반등 흐름이에요. 7/31엔 SK하이닉스 +30%, 삼성전자 +27%가 지수를 끌어올렸어요. 반도체 실적 개선 기대가 배경이에요.",
+      "summary": "7월 국내 증시는 서킷브레이커까지 나온 급락 후 급반등하며 코스피가 한 달 +17.91%(6,595.45) 올랐습니다. 7/31 SK하이닉스 +29.95%·삼성전자 +26.81%가 반등을 주도했고, AI 반도체 순환매가 이어지고 있습니다.",
+      "ourImpact": "국내 반도체(SK하이닉스·삼성전자)는 우리 미국 보유 반도체주와 같은 AI 사이클로 움직여요. 간밤 미국 반도체 랠리는 8/5 국내 반도체주에도 훈풍이에요.",
+      "sources": [
+        {
+          "name": "세계비즈 주간증시전망 (7/31)",
+          "url": "http://www.segyebiz.com/newsView/20260731516982?OutUrl=naver"
+        }
+      ]
+    },
+    {
+      "category": "아시아 증시",
+      "impact": "neutral",
+      "headline": "증권사들, 코스피 눈높이 슬그머니 하향…금리가 변수",
+      "oneLineSummary": "증권사들이 코스피 전망치를 조금씩 낮추고 있어요. 다만 모건스탠리는 삼성전자·SK하이닉스 같은 반도체 대형주가 지수의 하단을 받쳐줄 거라고 봤어요. 이번 주는 실적보다 '금리'가 방향을 가를 거라는 분석이에요.",
+      "summary": "일부 증권사가 코스피 목표치를 하향했지만 모건스탠리·노무라 등은 반도체 대형주의 하방 지지력을 근거로 신중한 낙관론을 유지했습니다. 시장은 기업 실적보다 미국 금리 흐름에 더 민감하게 반응할 것으로 전망됩니다.",
+      "ourImpact": "금리 부담은 밸류에이션(주가가 비싼지)이 높은 성장·반도체주에 특히 민감해요. 보유 중 마벨·AMD처럼 PER이 높은 종목은 금리 뉴스에 변동이 클 수 있어요.",
+      "sources": [
+        {
+          "name": "아시아경제 (8/5)",
+          "url": "https://n.news.naver.com/mnews/article/277/0005798922?sid=101"
+        }
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "impact": "positive",
+      "headline": "보유 반도체·메모리·광통신주 일제히 급등",
+      "oneLineSummary": "보유 종목 중 AI 반도체 계열이 8/4 크게 올랐어요. 마벨 +12.8%, 샌디스크 +10.8%, 크레도 +9.0%, 델·루멘텀 각 +8.9%, 셀레스티카 +8.6%, 마이크론 +7.6%, AMD·브로드컴도 강세였어요. AI 데이터센터 투자 지속 기대가 배경이에요.",
+      "summary": "AI 인프라 수요 기대가 다시 살아나며 메모리(MU·SNDK)·광통신(LITE·CRDO)·AI서버(DELL·CLS)·맞춤형칩(MRVL·AVGO)이 동반 급등했습니다. 하이퍼스케일러의 데이터센터 투자가 현금흐름을 지나치게 갉아먹지 않는다는 안도감이 반도체 회복을 뒷받침했습니다.",
+      "ourImpact": "포트폴리오 15종목 중 12종목이 상승, 특히 AI 반도체 비중이 커서 하루 성과가 매우 좋았어요. 다만 짧은 기간 급등한 만큼 변동이 큰 구간이라 흐름을 가볍게 지켜보면 좋아요.",
+      "sources": [
+        {
+          "name": "조세일보 뉴욕증시 (8/5)",
+          "url": "https://n.news.naver.com/mnews/article/123/0002386279?sid=101"
+        }
+      ]
+    },
+    {
+      "category": "개별 종목",
+      "impact": "neutral",
+      "headline": "AMD 2분기 실적 예상 상회했지만 시간외 -8%",
+      "oneLineSummary": "AMD가 8/4 장 마감 뒤 2분기 실적을 발표했어요. 매출 115억 달러(+50%), 데이터센터 매출은 2배 넘게(+107%) 늘며 예상을 웃돌았어요. 그런데 기대가 이미 높았던 탓에 시간외 거래에서 오히려 약 8% 내렸어요.",
+      "summary": "AMD는 2분기 매출 $11.5B(+50% YoY), 데이터센터 $6.7B(+107%), 조정 EPS $1.66로 예상($11.3B·$1.62)을 모두 상회했습니다. 정규장은 +7.0% 마감했으나 높은 기대치에 시간외에서 8% 이상 하락했습니다.",
+      "ourImpact": "AMD는 보유 종목이에요. 정규장 +7% 이익에도 시간외 -8%라 8/5 밤 미국장 출발가는 낮을 수 있어요. 실적은 좋았으니 단기 흔들림인지 흐름을 지켜보면 좋아요.",
+      "sources": [
+        {
+          "name": "Benzinga (8/4)",
+          "url": "https://www.benzinga.com/markets/earnings/26/08/60931767/amd-delivers-double-beat-in-q2-as-data-center-revenue-more-than-doubles"
+        },
+        {
+          "name": "Yahoo Finance (8/4)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amd-q2-2026-earnings-record-202927876.html"
+        }
+      ]
+    },
+    {
+      "category": "정책·금리",
+      "impact": "positive",
+      "headline": "유가 급락에 美 국채금리 하락…9월 금리인상 확률 60% 아래로",
+      "oneLineSummary": "국제유가가 급락하면서 미국 국채금리도 이틀째 내렸어요. 10년물 금리는 4.62%예요. 선물시장에서 보는 9월 금리인상 가능성도 60% 아래로 낮아졌어요. 금리가 내리면 대체로 기술주엔 우호적이에요.",
+      "summary": "유가 급락이 인플레이션 우려를 낮추며 미 국채금리가 이틀 연속 하락(불 스티프닝)했습니다. 10년물은 4.62%. 9월 금리인상 확률은 60% 아래로 내려갔고, 이는 밸류에이션이 높은 성장·기술주에 우호적입니다.",
+      "ourImpact": "금리 하락은 보유한 고성장 반도체·AI주에 긍정적이에요. 마벨·AMD처럼 PER이 높은 종목일수록 금리 하락의 수혜를 상대적으로 크게 봐요.",
+      "sources": [
+        {
+          "name": "연합인포맥스 뉴욕채권 (8/5)",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428623"
+        }
+      ]
+    },
+    {
+      "category": "글로벌·지정학",
+      "impact": "positive",
+      "headline": "베선트 '호르무즈 곧 재개방 합의'…WTI 이틀째 5%대 급락",
+      "oneLineSummary": "미 재무장관 베선트가 '호르무즈 해협(중동 원유가 지나는 길목) 재개방 합의가 오늘내일 가능하다'고 말했어요. 이 기대에 국제유가(WTI)가 이틀 연속 5%대 급락해 약 $76까지 내렸어요. 중동 리스크가 줄면서 증시엔 호재였어요.",
+      "summary": "스콧 베선트 미 재무장관이 호르무즈 해협 재개방 합의 임박을 시사하자 WTI 9월물이 이틀 연속 5%대 급락하며 약 $76 선까지 하락했습니다. 중동 지정학 리스크 완화가 유가·금리를 끌어내리고 위험자산 선호를 자극했습니다.",
+      "ourImpact": "유가 하락과 지정학 안정은 증시 전반에 우호적이라 보유 종목 대부분에 간접 호재예요. 특히 전력주 탈렌에너지는 에너지 가격 변화에 민감하니 흐름을 지켜보면 좋아요.",
+      "sources": [
+        {
+          "name": "연합인포맥스 뉴욕마켓워치 (8/5)",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428644"
+        }
+      ]
+    }
+  ],
+  "signals": {
+    "asOf": "2026-08-05T09:58:00+09:00",
+    "kr": [
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "market": "KOSPI",
+        "category": "관련주",
+        "thesis": "AI 메모리(HBM, AI에 쓰는 고성능 D램)를 층층이 쌓아 붙이는 핵심 장비를 만드는 회사예요. 오늘(8/3) 코스피가 -5% 급락하는 와중에도 삼성전자(-6.9%)·SK하이닉스(-6.7%)보다 덜 빠진 -4.2%로 상대적으로 선방했어요(반도체 장비·소재주 강세, EBN 8/3). 곽동신 회장이 주가 방어를 위해 자사주를 계속 사들이고 있고, 외국인도 최근 5거래일 순매수(7/31 +42만주)로 저가 매수에 나섰어요.",
+        "currentPrice": "206,750",
+        "change1D": 1.85,
+        "company": {
+          "ceo": "곽동신 (회장)",
+          "business": "AI 메모리(HBM)용 본더 등 반도체 후공정 장비를 만드는 세계적 장비 회사예요.",
+          "hq": "인천",
+          "employees": "공시 기준(연차보고서 참조)",
+          "homepage": "https://www.hanmisemi.com/",
+          "ceoSource": "네이버 뉴스 검증 (2026/08/03 보도, 헤럴드경제·뉴스워커)"
+        },
+        "financials": "PER 109.53배, 시총 19조 4,913억원, 외국인소진율 8.21%, 52주 최고 426,000·최저 81,400 (네이버 금융 8/3).",
+        "financialStatements": {
+          "currency": "원",
+          "unit": "억원",
+          "annual": [
+            {
+              "period": "2023.12.",
+              "sales": 1590,
+              "salesFmt": "1,590억원",
+              "operatingIncome": 346,
+              "operatingIncomeFmt": "346억원",
+              "operatingMargin": 21.8,
+              "isConsensus": false
+            },
+            {
+              "period": "2024.12.",
+              "sales": 5589,
+              "salesFmt": "5,589억원",
+              "operatingIncome": 2554,
+              "operatingIncomeFmt": "2,554억원",
+              "operatingMargin": 45.7,
+              "isConsensus": false
+            },
+            {
+              "period": "2025.12.",
+              "sales": 5767,
+              "salesFmt": "5,767억원",
+              "operatingIncome": 2514,
+              "operatingIncomeFmt": "2,514억원",
+              "operatingMargin": 43.6,
+              "isConsensus": false
+            },
+            {
+              "period": "2026.12.",
+              "sales": 8196,
+              "salesFmt": "8,196억원",
+              "operatingIncome": 3822,
+              "operatingIncomeFmt": "3,822억원",
+              "operatingMargin": 46.6,
+              "isConsensus": true
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 finance/summary API",
+              "url": "https://m.stock.naver.com/api/stock/042700/finance/summary"
+            }
+          ]
+        },
+        "financialStatementsEasy": "매출이 2023년 1,590억원에서 2025년 5,767억원으로 크게 늘었어요. 증권사 분석가들은 2026년 매출이 8,196억원(+42%)까지 갈 거라고 추정해요. 영업이익률(매출에서 영업이익이 차지하는 비율)이 40%대 후반으로 굉장히 높은 편이에요. AI 메모리 장비 수요가 실적을 밀어올리고 있어요.",
+        "outlook": "컨센서스 목표가 평균 380,000원(recommMean 4.00, 매수) 대비 현재가 205,500원에서 +85% 갭. 외국인 5거래일 순매수(누적 +75만주)·곽동신 회장 자사주 매입이 하방 지지. 단기 변수: 8/3 코스피 급락 지속 여부, HBM 장비 수주 흐름. 52주 최고 426,000 도달 시 +107%, 최저 81,400 이탈 시 -60%.",
+        "outlookEasy": "증권사 분석가들이 본 평균 목표가는 380,000원으로 지금(205,500원)보다 +85% 더 오를 여력이 있다고 봐요. 추천 등급은 매수(4.00)예요. 외국인이 최근 5거래일 순매수했고 회장님도 자사주를 사고 있어 아래를 받쳐주는 힘이 있어요. 다만 오늘처럼 시장이 급락하면 같이 흔들릴 수 있어요.",
+        "risk": "오늘 코스피 급락처럼 시장 전체가 흔들리면 변동이 큰 종목이라 함께 크게 움직일 수 있어요. PER 109배로 기대가 이미 많이 반영된 점도 부담이에요.",
+        "horizon": "3~6개월 (중기)",
+        "relatedStocks": [
+          {
+            "code": "005930",
+            "name": "삼성전자",
+            "market": "KOSPI",
+            "relation": "HBM 큰손 고객 — 메모리 사이클 같이 움직임",
+            "currentPrice": "244,500",
+            "change1D": -6.86
+          },
+          {
+            "code": "000660",
+            "name": "SK하이닉스",
+            "market": "KOSPI",
+            "relation": "HBM 최대 고객사 — 장비 수주 연동",
+            "currentPrice": "1,603,000",
+            "change1D": -6.69
+          }
+        ],
+        "sources": [
+          {
+            "name": "네이버 금융 (실시간)",
+            "url": "https://m.stock.naver.com/domestic/stock/042700/total"
+          },
+          {
+            "name": "뉴스워커 (7/31)",
+            "url": "http://www.newsworker.co.kr/news/articleView.html?idxno=439322"
+          },
+          {
+            "name": "EBN (8/3)",
+            "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1718830"
+          }
+        ]
+      },
+      {
+        "ticker": "058470",
+        "name": "리노공업",
+        "market": "KOSDAQ",
+        "category": "실적기대",
+        "thesis": "반도체를 검사할 때 쓰는 테스트 부품(핀·소켓)을 만드는 부산 대표 반도체 회사예요. 주가가 52주 최저(44,000원) 부근인 62,800원인데, 증권사 평균 목표가는 136,000원으로 크게 높아요. 2026년 매출이 4,507억원(+21%)까지 늘 걸로 추정되고, 에코델타시티 신공장 가동으로 생산능력을 키우고 있어요. 다만 창사 첫 파업(성과급 갈등) 리스크가 있어 지켜봐야 해요.",
+        "currentPrice": "65,900",
+        "change1D": 2.33,
+        "company": {
+          "ceo": "이채윤 (대표이사 사장)",
+          "business": "반도체 검사용 테스트 핀·소켓을 만드는 회사예요. 부산 시가총액 1위 반도체 기업이에요.",
+          "hq": "부산",
+          "employees": "공시 기준(연차보고서 참조)",
+          "homepage": "https://www.leeno.com/",
+          "ceoSource": "네이버 뉴스 검증 (2026/07/28 보도, 비즈니스포스트)"
+        },
+        "financials": "PER 29.36배(추정PER 25.77배), 시총 4조 7,861억원, 외국인소진율 32.87%, 52주 최고 133,100·최저 44,000 (네이버 금융 8/3).",
+        "financialStatements": {
+          "currency": "원",
+          "unit": "억원",
+          "annual": [
+            {
+              "period": "2023.12.",
+              "sales": 2556,
+              "salesFmt": "2,556억원",
+              "operatingIncome": 1144,
+              "operatingIncomeFmt": "1,144억원",
+              "operatingMargin": 44.8,
+              "isConsensus": false
+            },
+            {
+              "period": "2024.12.",
+              "sales": 2782,
+              "salesFmt": "2,782억원",
+              "operatingIncome": 1242,
+              "operatingIncomeFmt": "1,242억원",
+              "operatingMargin": 44.6,
+              "isConsensus": false
+            },
+            {
+              "period": "2025.12.",
+              "sales": 3725,
+              "salesFmt": "3,725억원",
+              "operatingIncome": 1770,
+              "operatingIncomeFmt": "1,770억원",
+              "operatingMargin": 47.5,
+              "isConsensus": false
+            },
+            {
+              "period": "2026.12.",
+              "sales": 4507,
+              "salesFmt": "4,507억원",
+              "operatingIncome": 2183,
+              "operatingIncomeFmt": "2,183억원",
+              "operatingMargin": 48.4,
+              "isConsensus": true
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 finance/summary API",
+              "url": "https://m.stock.naver.com/api/stock/058470/finance/summary"
+            }
+          ]
+        },
+        "financialStatementsEasy": "매출이 2023년 2,556억원에서 2025년 3,725억원으로 꾸준히 늘었어요. 분석가들은 2026년 매출이 4,507억원(+21%)까지 갈 거라고 추정해요. 영업이익률(매출에서 영업이익 비율)이 45~48%로 굉장히 높아요. 이익을 아주 잘 남기는 회사예요.",
+        "outlook": "컨센서스 목표가 평균 136,000원(recommMean 4.00, 매수) 대비 현재가 62,800원에서 +117% 갭. 52주 최저(44,000) 부근으로 낙폭과대 구간. 외국인 5거래일 순매수 우위(누적 +38.6만주)이나 7/31 소폭 매도 전환. 단기 변수: 성과급 갈등 파업 해소 여부, 신공장 가동. 최고 133,100 도달 시 +112%.",
+        "outlookEasy": "증권사 분석가들이 본 평균 목표가는 136,000원으로 지금(62,800원)보다 +117% 높아요. 추천 등급은 매수(4.00)예요. 주가가 1년 중 가장 싼 구간 부근이라 여력이 커 보이지만, 창사 첫 파업이 진행 중이라 실적에 영향을 줄 수 있어 이 부분을 꼭 지켜봐야 해요.",
+        "risk": "창사 이래 첫 파업(성과급 갈등)으로 하루 약 20억원 손실이 날 수 있다고 보도됐어요. 오늘처럼 시장이 급락하면 함께 흔들릴 수 있는 종목이에요.",
+        "horizon": "6~12개월 (장기)",
+        "relatedStocks": [
+          {
+            "code": "005930",
+            "name": "삼성전자",
+            "market": "KOSPI",
+            "relation": "반도체 검사 부품 고객 — 반도체 업황 연동",
+            "currentPrice": "244,500",
+            "change1D": -6.86
+          },
+          {
+            "code": "000660",
+            "name": "SK하이닉스",
+            "market": "KOSPI",
+            "relation": "메모리 검사 수요처 — 사이클 동행",
+            "currentPrice": "1,603,000",
+            "change1D": -6.69
+          }
+        ],
+        "sources": [
+          {
+            "name": "네이버 금융 (실시간)",
+            "url": "https://m.stock.naver.com/domestic/stock/058470/total"
+          },
+          {
+            "name": "비즈니스포스트 이채윤 (7/28)",
+            "url": "https://www.businesspost.co.kr/BP?command=article_view&num=443146"
+          },
+          {
+            "name": "코리아스탁뉴스 파업 (7/23)",
+            "url": "http://www.koreastocknews.com/news/articleView.html?idxno=120008"
+          }
+        ]
+      }
+    ],
+    "us": [
+      {
+        "ticker": "PLTR",
+        "name": "팰런티어 (Palantir)",
+        "market": "NASDAQ",
+        "category": "성장주",
+        "thesis": "팰런티어가 8/4 2분기 실적 서프라이즈로 +29.5% 폭등했어요(종가 $162.66). AI 소프트웨어(정부·기업용 데이터 분석) 수요가 계속 커지고 있다는 게 확인됐어요. 다만 실적 발표로 이미 크게 올라 단기 과열 부담이 생겼어요.",
+        "currentPrice": 162.66,
+        "change1D": 29.45,
+        "company": {
+          "ceo": "Alexander Karp (CEO)",
+          "business": "AI 데이터 분석 소프트웨어 회사예요. 미국 정부·기업용 Gotham·Foundry·AIP 플랫폼을 제공해요.",
+          "hq": "미국 콜로라도 덴버",
+          "employees": "공시 기준(연차보고서 참조)",
+          "homepage": "https://www.palantir.com/",
+          "ceoSource": "네이버 금융 integration API summaries"
+        },
+        "financials": "PER 138.65배, 시총 2,950억 USD, 52주 최고 $207.52·최저 $106.37 (네이버 금융 7/31 종가 기준).",
+        "financialStatements": {
+          "currency": "USD환산원",
+          "unit": "억원",
+          "annual": [
+            {
+              "period": "2022.12.",
+              "sales": 27263,
+              "salesFmt": "2.7조원",
+              "operatingIncome": -2306,
+              "operatingIncomeFmt": "-2,306억원",
+              "operatingMargin": -8.46,
+              "isConsensus": false
+            },
+            {
+              "period": "2023.12.",
+              "sales": 31829,
+              "salesFmt": "3.2조원",
+              "operatingIncome": 1716,
+              "operatingIncomeFmt": "1,716억원",
+              "operatingMargin": 5.39,
+              "isConsensus": false
+            },
+            {
+              "period": "2024.12.",
+              "sales": 40991,
+              "salesFmt": "4.1조원",
+              "operatingIncome": 4440,
+              "operatingIncomeFmt": "4,440억원",
+              "operatingMargin": 10.83,
+              "isConsensus": false
+            },
+            {
+              "period": "2025.12.",
+              "sales": 64021,
+              "salesFmt": "6.4조원",
+              "operatingIncome": 20227,
+              "operatingIncomeFmt": "2.0조원",
+              "operatingMargin": 31.59,
+              "isConsensus": false
+            }
+          ],
+          "sources": [
+            {
+              "name": "네이버 금융 finance/summary API",
+              "url": "https://api.stock.naver.com/stock/PLTR.O/finance/summary"
+            }
+          ]
+        },
+        "financialStatementsEasy": "매출이 2024년 4.1조원에서 2025년 6.4조원으로 +56% 크게 늘었어요. 영업이익률(매출에서 영업이익 비율)이 2022년 적자에서 2025년 31.6%까지 올라 흑자로 완전히 돌아섰어요. AI 소프트웨어 수요가 실적을 빠르게 키우고 있어요.",
+        "outlook": "컨센서스 목표가 평균 $185.36(recommMean 3.88, 매수) 대비 현재가 $123.06에서 +51% 갭. 분포 $70~$255로 매우 넓어 의견 양분. 단기 트리거: 8/7 미국 7월 고용보고서, PER 139배 부담. 최고 $255 도달 시 +107%, 최저 $70 도달 시 -43%.",
+        "outlookEasy": "분석가들이 본 평균 목표가는 $185.36로 지금($123.06)보다 +51% 더 오를 여력이 있어요. 추천 등급은 매수(3.88)예요. 다만 분석가별 의견이 $70~$255로 너무 갈려서 누구 말이 맞을지 모르는 상태예요. PER 139배로 비싸서 이번 주 미국 고용지표 결과에 따라 크게 출렁일 수 있어요.",
+        "risk": "PER 139배로 기대가 많이 반영돼 있어 변동이 큰 종목이에요. 이번 주 고용지표(8/7)나 금리 뉴스가 나쁘면 크게 빠질 수 있어요.",
+        "horizon": "3~6개월 (중기)",
+        "relatedStocks": [
+          {
+            "code": "CRWD",
+            "name": "크라우드스트라이크 (CRWD)",
+            "market": "NASDAQ",
+            "relation": "AI 보안 소프트웨어 — 성장주 투심 동행",
+            "currentPrice": "190.86",
+            "change1D": 3.05
+          },
+          {
+            "code": "AI",
+            "name": "C3.ai (AI)",
+            "market": "NYSE",
+            "relation": "기업용 AI 소프트웨어 — 성장주 투심 동행",
+            "currentPrice": "9.18",
+            "change1D": 1.21
+          }
+        ],
+        "sources": [
+          {
+            "name": "네이버 금융 (실시간)",
+            "url": "https://m.stock.naver.com/worldstock/stock/PLTR.O"
+          },
+          {
+            "name": "네이버 금융 컨센서스 API",
+            "url": "https://api.stock.naver.com/stock/PLTR.O/integration"
+          }
+        ]
+      }
+    ],
+    "newListings": {
+      "kr": [],
+      "us": []
+    },
+    "krForeignFlow": {
+      "asOf": "2026-08-04",
+      "lookbackDays": "5거래일",
+      "rows": [
+        {
+          "ticker": "042700",
+          "name": "한미반도체",
+          "foreignHoldRatio": 7.91,
+          "netBuy5d": 494937,
+          "dailyNetBuy": [
+            {
+              "date": "7/29",
+              "shares": 254154
+            },
+            {
+              "date": "7/30",
+              "shares": 144393
+            },
+            {
+              "date": "7/31",
+              "shares": 427479
+            },
+            {
+              "date": "8/3",
+              "shares": -141437
+            },
+            {
+              "date": "8/4",
+              "shares": -189652
+            }
+          ],
+          "trend": "최근 2일 순매도 전환 (8/3~8/4)",
+          "trendTone": "negative",
+          "flowReason": {
+            "summary": "주 초반 강한 매수 뒤 반도체 차익실현 매물",
+            "detail": "7/29~31 외국인이 크게 순매수했다가 8/3·8/4 이틀 연속 순매도로 돌아섰어요. 7월 반도체 대형주 급등 뒤 차익실현과 8월 미국 반도체 실적·금리 경계심리가 겹친 영향으로 풀이돼요.",
+            "sources": [
+              {
+                "name": "머니투데이 (8/3) 8월 증시 전망",
+                "url": "https://n.news.naver.com/mnews/article/008/0005394429?sid=101"
+              }
+            ]
+          }
+        },
+        {
+          "ticker": "058470",
+          "name": "리노공업",
+          "foreignHoldRatio": 32.5,
+          "netBuy5d": 274060,
+          "dailyNetBuy": [
+            {
+              "date": "7/29",
+              "shares": 255625
+            },
+            {
+              "date": "7/30",
+              "shares": 117397
+            },
+            {
+              "date": "7/31",
+              "shares": -50852
+            },
+            {
+              "date": "8/3",
+              "shares": -19277
+            },
+            {
+              "date": "8/4",
+              "shares": -28833
+            }
+          ],
+          "trend": "최근 3일 순매도 (7/31~8/4)",
+          "trendTone": "negative",
+          "flowReason": {
+            "summary": "3거래일 연속 소폭 순매도",
+            "detail": "7/31부터 3거래일 외국인이 순매도했지만 규모는 하루 2~5만 주로 크지 않아요. 반도체 업종 전반의 차익실현 흐름에 동조한 것으로 보여요.",
+            "sources": [
+              {
+                "name": "비즈니스포스트 (8/2) 반도체 편중·변동성",
+                "url": "https://www.businesspost.co.kr/BP?command=article_view&num=443698"
+              }
+            ]
+          }
+        }
+      ],
+      "insights": [
+        "두 종목 모두 주 초반(7/29~30)엔 외국인이 강하게 순매수했지만, 최근 2~3거래일 들어 순매도로 방향을 틀었어요.",
+        "한미반도체는 5일 합계로는 +494,937주 순매수지만, 8/3·8/4 이틀 연속 순매도(-14만·-19만 주)로 전환했어요. 외인 보유율은 7.91%예요.",
+        "리노공업은 최근 3거래일(7/31~8/4) 연속 순매도했어요. 5일 합계는 +274,060주로 아직 순매수지만 매도 압력이 붙었어요. 외인 보유율은 32.5%예요.",
+        "7월 반도체 대형주 급등 뒤 차익실현과 8월 미국 반도체 실적·금리 경계심리가 겹친 것으로 보여요.",
+        "다만 8/5 국내장은 미국 반도체 랠리 훈풍에 상승 출발했어요(한미 +1.9%, 리노 +2.3% 오전)."
+      ],
+      "sources": [
+        {
+          "name": "네이버 금융 dealTrendInfos API",
+          "url": "https://m.stock.naver.com/api/stock/042700/integration"
+        }
+      ]
+    },
+    "weekendNote": null,
+    "dataQualityNote": null
+  },
+  "weekAhead": [
+    {
+      "date": "2026-08-05",
+      "event": "웨스턴디지털·샌디스크 실적 발표 (현지)",
+      "impact": "보유 SNDK 관련 — 메모리 업황 확인 이벤트"
+    },
+    {
+      "date": "2026-08-06",
+      "event": "미 주간 실업수당 청구",
+      "impact": "고용·금리 방향 참고 지표"
+    },
+    {
+      "date": "2026-08-07",
+      "event": "주요 기업 실적 마무리 구간",
+      "impact": "실적 시즌 후반, 개별 변동성 주의"
+    }
+  ],
+  "scheduleNote": "이번 주는 미국 반도체 하드웨어 실적(샌디스크·웨스턴디지털)과 금리 흐름이 관전 포인트예요.",
+  "afterHoursNote": "AMD가 실적 발표 후 시간외에서 약 -8% 하락했어요(정규장은 +7.0% 마감). 실적 자체는 예상을 웃돌았어요.",
+  "asiaSummary": "코스피는 7월 급락·급반등 뒤 8월 반도체 대형주 주도로 반등 흐름. 8/5 오전 미국 반도체 랠리 훈풍에 상승 출발했어요."
+}
