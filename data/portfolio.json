@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-06T15:45:00+09:00",
+  "lastUpdated": "2026-08-06T22:45:00+09:00",
   "us": [
     {
       "ticker": "GOOG",
       "name": "알파벳 (구글)",
       "sector": "빅테크",
-      "price": 360.13,
-      "change1D": -4.05,
-      "change1W": 12.9,
-      "change1M": 2.9,
-      "changeYTD": 19.0,
+      "price": 359.55,
+      "change1D": -0.16,
+      "change1W": 7.83,
+      "change1M": -1.4,
+      "changeYTD": 14.66,
       "beta": 1.15,
       "signal": "green",
       "note": "AI 랠리 동참, 상승폭 제한",
       "simpleExplain": "구글 모회사. 검색·광고에서 안정적인 캐시카우, 클라우드+AI에서 구조적 성장 동력. 변동성은 빅테크 평균 수준.",
-      "todayWhy": "구글(알파벳)이 수석과학자 제프 딘 등 AI 핵심 연구인력 이탈 소식과 AI 투자비 경계에 -4.05% 하락했어요. 보유주 중 낙폭이 가장 컸어요.",
+      "todayWhy": "개장 초반 보합권이에요(-0.2%). 구글 딥마인드 수장 하사비스가 회장으로 물러나는 AI 조직 개편과 인력 이탈 우려가 이어졌지만, 어제 -4% 급락 뒤라 낙폭은 진정됐어요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 419,
@@ -60,9 +60,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -137,16 +136,16 @@
       "ticker": "META",
       "name": "메타",
       "sector": "빅테크",
-      "price": 588.77,
-      "change1D": 0.14,
-      "change1W": -0.9,
-      "change1M": -2.1,
-      "changeYTD": -9.6,
+      "price": 590.71,
+      "change1D": 0.33,
+      "change1W": 9.54,
+      "change1M": -1.64,
+      "changeYTD": -10.55,
       "beta": 1.49,
       "signal": "yellow",
       "note": "약보합, 올해 마이너스권",
       "simpleExplain": "페이스북·인스타그램 모회사. 광고 매출이 본업, AI·메타버스 투자가 미래. 광고 사이클·AI 수익화 시점이 핵심.",
-      "todayWhy": "메타는 빅테크 차익실현 흐름 속에서도 강보합(+0.14%)으로 선방했어요.",
+      "todayWhy": "개장 후 소폭 올랐어요(+0.3%). AI 모델이 보안 테스트 중 외부 시스템을 해킹했다는 소식이 있었지만 주가 영향은 제한적이에요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 825,
@@ -193,9 +192,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -270,16 +268,16 @@
       "ticker": "AMZN",
       "name": "아마존",
       "sector": "빅테크",
-      "price": 272.65,
-      "change1D": -1.72,
-      "change1W": 20.2,
-      "change1M": 13.6,
-      "changeYTD": 22.5,
+      "price": 274.1,
+      "change1D": 0.53,
+      "change1W": 16.56,
+      "change1M": 12.43,
+      "changeYTD": 18.93,
       "beta": 1.47,
       "signal": "yellow",
       "note": "급등 후 차익실현 조정",
       "simpleExplain": "이커머스+AWS 클라우드. AI 시대엔 AWS가 캐시카우 + 성장엔진 동시 역할. 단기 사고는 단발성, 펀더멘털 견조.",
-      "todayWhy": "아마존은 빅테크 매물에 -1.72% 하락했어요.",
+      "todayWhy": "개장 후 강보합이에요(+0.5%). 클라우드(AWS) 호실적 여운과 사상 최고가($287) 부근 흐름이 이어지고 있어요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 309,
@@ -325,9 +323,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -402,16 +399,16 @@
       "ticker": "NVDA",
       "name": "엔비디아",
       "sector": "반도체",
-      "price": 219.22,
-      "change1D": 3.43,
-      "change1W": 7.6,
-      "change1M": 8.4,
-      "changeYTD": 12.2,
+      "price": 223.05,
+      "change1D": 1.75,
+      "change1W": 14.14,
+      "change1M": 13.84,
+      "changeYTD": 19.37,
       "beta": 2.21,
       "signal": "green",
       "note": "AI 반도체 반등 +2.6%",
       "simpleExplain": "AI GPU 압도적 1위. AI 시대의 핵심 인프라 공급사. 5/20 Q1 실적이 단기 가장 큰 이벤트.",
-      "todayWhy": "엔비디아는 스페이스X가 'AI칩을 엔비디아만 쓰겠다'고 밝히며 +3.43% 올라 보유주 중 가장 강했어요.",
+      "todayWhy": "개장부터 강세예요(+1.8%). 스페이스X가 'AI 칩은 엔비디아만 쓰겠다'고 한 소식이 계속 호재로 작용하고 있어요. 보유주 중 상승폭이 가장 커요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 297,
@@ -457,9 +454,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -534,16 +530,16 @@
       "ticker": "TSM",
       "name": "TSMC",
       "sector": "반도체",
-      "price": 414.0,
-      "change1D": -0.76,
-      "change1W": 6.3,
-      "change1M": -7.7,
-      "changeYTD": 30.5,
+      "price": 414.77,
+      "change1D": 0.19,
+      "change1W": 2.37,
+      "change1M": -8.61,
+      "changeYTD": 35.86,
       "beta": 1.12,
       "signal": "green",
       "note": "반도체 랠리 동참",
       "simpleExplain": "세계 최대 반도체 위탁생산. NVDA·AMD·AAPL이 모두 고객. AI 호황의 가장 안전한 노출 — 변동성도 가장 낮음.",
-      "todayWhy": "TSMC는 반도체 차익실현에 -0.76% 소폭 하락했어요.",
+      "todayWhy": "개장 후 강보합이에요(+0.2%). 아시아 반도체 조정에도 JP모건이 'AI 투자 사이클은 안 꺾였다'고 하면서 안정적인 흐름이에요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 479,
@@ -592,9 +588,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -669,16 +664,16 @@
       "ticker": "AVGO",
       "name": "브로드컴",
       "sector": "반도체",
-      "price": 418.28,
-      "change1D": 0.03,
-      "change1W": 9.8,
-      "change1M": 11.8,
-      "changeYTD": 20.3,
+      "price": 415.43,
+      "change1D": -0.68,
+      "change1W": 7.08,
+      "change1M": 11.07,
+      "changeYTD": 19.99,
       "beta": 1.46,
       "signal": "green",
       "note": "AI 커스텀칩 기대 +6.6%",
       "simpleExplain": "맞춤형 AI 칩 설계 회사. 메타·구글의 자체 AI 칩 핵심 파트너. 베타 2.44로 변동성 큼.",
-      "todayWhy": "브로드컴은 보합(+0.03%)으로 전날 급등분을 지켰어요.",
+      "todayWhy": "개장 후 소폭 내렸어요(-0.7%). 전날 강세 뒤 반도체 전반이 쉬어가는 분위기에 동참했어요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 510,
@@ -722,9 +717,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -799,16 +793,16 @@
       "ticker": "MU",
       "name": "마이크론",
       "sector": "반도체",
-      "price": 893.19,
-      "change1D": 0.06,
-      "change1W": 8.8,
-      "change1M": -9.4,
-      "changeYTD": 183.0,
+      "price": 855.91,
+      "change1D": -4.17,
+      "change1W": -2.57,
+      "change1M": -13.46,
+      "changeYTD": 198.58,
       "beta": 2.14,
       "signal": "green",
       "note": "메모리·HBM 강세 +7.6%",
       "simpleExplain": "메모리 반도체. NVDA·AMD GPU에 들어가는 HBM 메모리 핵심 공급. AI 호황 = 메모리 호황 공식.",
-      "todayWhy": "마이크론은 메모리 조정 속에서도 보합(+0.06%)을 유지했어요.",
+      "todayWhy": "개장부터 4%대 하락이에요. 같은 메모리 회사 샌디스크·웨스턴디지털이 실적 실망에 급락하면서 메모리주 전반에 매물이 나왔어요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 1449,
@@ -854,9 +848,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -931,16 +924,16 @@
       "ticker": "MRVL",
       "name": "마벨",
       "sector": "반도체",
-      "price": 211.02,
-      "change1D": -3.46,
-      "change1W": 25.3,
-      "change1M": -12.3,
-      "changeYTD": 144.5,
+      "price": 207.55,
+      "change1D": -1.65,
+      "change1W": 13.33,
+      "change1M": -16.66,
+      "changeYTD": 144.45,
       "beta": 2.2,
       "signal": "green",
       "note": "보유주 최대 급등 +12.8%",
       "simpleExplain": "맞춤형 칩(ASIC) 설계. 구글 TPU 공동개발 + NVDA $2B 투자. 1개월 +50% 폭주 후 단기 차익실현 정상.",
-      "todayWhy": "마벨은 전날 +12.8% 급등에 따른 차익실현으로 -3.46% 되돌렸어요.",
+      "todayWhy": "개장 후 하락이에요(-1.7%). 반도체 조정 속에 최근 급등분(1주 +13%)에 대한 차익실현이 나왔어요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 246,
@@ -986,9 +979,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -1063,16 +1055,16 @@
       "ticker": "AMD",
       "name": "AMD",
       "sector": "반도체",
-      "price": 482.05,
-      "change1D": -7.04,
-      "change1W": 14.1,
-      "change1M": -6.1,
-      "changeYTD": 132.1,
+      "price": 479.02,
+      "change1D": -0.63,
+      "change1W": -1.07,
+      "change1M": -13.01,
+      "changeYTD": 124.23,
       "beta": 2.47,
       "signal": "yellow",
       "note": "실적 beat이나 시간외 -8%",
       "simpleExplain": "NVDA의 직접 경쟁사. MI 시리즈 GPU로 AI 시장 점유율 빠르게 확대 중. 5/7 어닝 폭발, 1개월 +91%.",
-      "todayWhy": "AMD는 2분기 실적이 예상을 웃돌았지만 '기대만큼 압도적이진 않다'는 평가와 스페이스X의 엔비디아 전환 소식이 겹쳐 -7.04% 하락했어요.",
+      "todayWhy": "개장 후 소폭 하락이에요(-0.6%). 다만 증권사들이 목표가를 줄줄이 올려서(아르거스 $625, 로젠블랫 $700) 낙폭은 제한적이에요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 506,
@@ -1117,9 +1109,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -1197,16 +1188,16 @@
       "ticker": "SNDK",
       "name": "샌디스크",
       "sector": "반도체",
-      "price": 1350.5,
-      "change1D": -5.4,
-      "change1W": 30.2,
-      "change1M": -18.2,
-      "changeYTD": 418.7,
+      "price": 1237.3,
+      "change1D": -8.38,
+      "change1W": -4.06,
+      "change1M": -29.6,
+      "changeYTD": 417.31,
       "beta": 2.41,
       "signal": "green",
       "note": "메모리 랠리 +10.8%",
       "simpleExplain": "낸드 플래시 메모리 회사. AI 데이터센터 스토리지 수요 폭발의 1차 수혜. 1년 +3,300% 누적 차익실현 위험.",
-      "todayWhy": "샌디스크는 전날 메모리 랠리(+10.8%) 되돌림과 실적 경계에 -5.40% 하락했어요.",
+      "todayWhy": "개장부터 8%대 급락이에요. 실적은 예상을 넘겼지만 다음 분기 매출 전망이 기대에 못 미쳐서 실망 매물이 쏟아졌어요. 보유주 중 낙폭이 가장 커요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 2054,
@@ -1252,9 +1243,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -1329,16 +1319,16 @@
       "ticker": "DELL",
       "name": "델",
       "sector": "AI 인프라",
-      "price": 462.7,
-      "change1D": -0.98,
-      "change1W": 19.2,
-      "change1M": 13.5,
-      "changeYTD": 265.6,
+      "price": 432.99,
+      "change1D": -6.42,
+      "change1W": 5.54,
+      "change1M": 3.75,
+      "changeYTD": 239.41,
       "beta": 1.96,
       "signal": "green",
       "note": "AI 서버 수요 +8.9%",
       "simpleExplain": "AI 서버 OEM. NVDA GPU를 받아 기업 데이터센터에 납품하는 시스템 통합사. AI 백로그 $18.4B 사상 최대.",
-      "todayWhy": "델은 AI서버 차익실현에 -0.98% 소폭 하락했어요.",
+      "todayWhy": "개장부터 6%대 하락이에요. 어제 사상 최고가를 찍은 뒤, 샌디스크발 메모리 조정에 저장장치·서버 업체까지 매물이 번졌어요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 482,
@@ -1386,9 +1376,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -1463,16 +1452,16 @@
       "ticker": "LITE",
       "name": "루멘텀",
       "sector": "AI 인프라",
-      "price": 826.26,
-      "change1D": -2.73,
-      "change1W": 30.3,
-      "change1M": 16.2,
-      "changeYTD": 120.0,
+      "price": 816.11,
+      "change1D": -1.23,
+      "change1W": 16.86,
+      "change1M": 10.78,
+      "changeYTD": 119.78,
       "beta": 2.38,
       "signal": "green",
       "note": "광통신 수요 +8.9%",
       "simpleExplain": "AI 데이터센터 광통신 핵심 부품. NVDA GPU와 GPU를 연결하는 광학 모듈 공급. CPO·OCS 수직 진출.",
-      "todayWhy": "루멘텀은 광통신주 차익실현에 -2.73% 하락했어요.",
+      "todayWhy": "개장 후 소폭 내렸어요(-1.2%). 8/11 실적 발표를 앞두고 반도체 조정에 동참했지만 낙폭은 작아요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 1108,
@@ -1517,9 +1506,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -1594,16 +1582,16 @@
       "ticker": "CLS",
       "name": "셀레스티카",
       "sector": "AI 인프라",
-      "price": 362.76,
-      "change1D": -2.26,
-      "change1W": 6.0,
-      "change1M": 6.0,
-      "changeYTD": 22.7,
+      "price": 313.45,
+      "change1D": -13.59,
+      "change1W": -11.58,
+      "change1M": -10.98,
+      "changeYTD": 5.46,
       "beta": 1.52,
       "signal": "green",
       "note": "AI 서버 ODM +8.6%",
       "simpleExplain": "AI 서버·스위치 시스템 통합 제조. 하이퍼스케일러(아마존·구글·메타) 맞춤형 인프라 공급. 1.6T CPO 이더넷 스위치 양산 대기.",
-      "todayWhy": "셀레스티카는 AI서버 조정에 -2.26% 하락했어요.",
+      "todayWhy": "개장부터 13%대 급락이에요. 회사가 30억 달러어치 새 주식(신주)을 주당 $310에 발행한다고 밝히면서, 주식 수가 늘어 1주당 가치가 옅어진 게 이유예요. 보유주 중 낙폭이 가장 컸어요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 434,
@@ -1648,9 +1636,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -1725,16 +1712,16 @@
       "ticker": "CRDO",
       "name": "크레도",
       "sector": "AI 인프라",
-      "price": 224.63,
-      "change1D": -5.59,
-      "change1W": 23.7,
-      "change1M": -10.4,
-      "changeYTD": 66.1,
+      "price": 219.25,
+      "change1D": -2.4,
+      "change1W": 8.15,
+      "change1M": -18.1,
+      "changeYTD": 51.14,
       "beta": 3.2,
       "signal": "green",
       "note": "광통신 칩 +9.0%",
       "simpleExplain": "AI 데이터센터 고속 데이터 전송 칩. NVDA·AMD GPU 클러스터 연결의 핵심 부품. 베타 3.43으로 우리 포트폴리오 변동성 1위.",
-      "todayWhy": "크레도는 전날 급등(+9.0%) 되돌림으로 -5.59% 하락했어요.",
+      "todayWhy": "개장 후 하락이에요(-2.4%). 반도체 조정 속에 변동이 큰 종목이라 시장보다 크게 움직였어요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 278,
@@ -1779,9 +1766,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
@@ -1856,16 +1842,16 @@
       "ticker": "TLN",
       "name": "탈렌에너지",
       "sector": "AI 전력",
-      "price": 329.84,
-      "change1D": -2.99,
-      "change1W": 4.3,
-      "change1M": -10.0,
-      "changeYTD": -14.3,
+      "price": 337.02,
+      "change1D": 2.18,
+      "change1W": 1.91,
+      "change1M": -10.29,
+      "changeYTD": -9.59,
       "beta": 1.62,
       "signal": "yellow",
       "note": "전력주 숨 고르기",
       "simpleExplain": "원전·천연가스 발전사. AI 데이터센터가 늘수록 전력 수요도 같이 폭발. AWS와 18B$ 장기 PPA(전력 공급) 계약 체결.",
-      "todayWhy": "탈렌에너지는 유가 하락·전력주 약세에 -2.99% 하락했어요.",
+      "todayWhy": "개장부터 2%대 강세예요. 어제 분기 실적을 낸 뒤 웰스파고가 목표가를 $501로 올렸고, 기술주가 흔들릴 때 전력주는 방어적이라 돈이 몰렸어요.",
       "outlook": {
         "rating": "매수",
         "targetPrice": 459,
@@ -1909,9 +1895,8 @@
         }
       ],
       "priceSourcedFrom": [
-        "Yahoo Finance(확정 종가)",
-        "CNBC",
-        "TheStreet"
+        "CNBC(실시간)",
+        "전일종가 대조검증"
       ],
       "dataQualityNote": null,
       "company": {
