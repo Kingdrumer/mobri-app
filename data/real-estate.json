@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T14:42:41+09:00",
+  "lastUpdated": "2026-08-07T07:35:00+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -782,6 +782,429 @@
         "fetchedAt": "2026-08-04T14:42:00+09:00",
         "method": "Claude in Chrome 공고 상세 본문 직접 확인",
         "note": "공고일·공급호수·신청자격·인터넷접수기간·발표일정 본문 직접 인용. 단지별 세부 순위 기준은 첨부 공고문 참조라 priorityRules 생략"
+      }
+    },
+    {
+      "id": "lh-2026-incheon-5th-shinhon-shinsaenga-1",
+      "agency": "LH",
+      "title": "[인천지역본부]26년 5차 신혼·신생아Ⅰ 예비입주자 모집공고(인천,부천)",
+      "shortTitle": "LH 인천 5차 신혼신생아 I",
+      "type": "매입임대",
+      "category": [
+        "신혼",
+        "신생아"
+      ],
+      "household": [
+        "신혼",
+        "예비_신혼",
+        "신생아"
+      ],
+      "region": [
+        "인천",
+        "경기"
+      ],
+      "districts": [
+        "인천 미추홀구",
+        "인천 남동구",
+        "인천 부평구",
+        "인천 서구",
+        "인천 검단구",
+        "부천시"
+      ],
+      "supplyCount": 88,
+      "applicationStart": "2026-08-10",
+      "applicationEnd": "2026-08-12",
+      "announcementDate": "2026-07-30",
+      "maritalRequired": true,
+      "rolling": false,
+      "highlights": [
+        "인천·부천 신혼·신생아 매입임대 Ⅰ형, 금회 공급 88호(모집인원 271명)",
+        "청약접수 2026.08.10 10:00~08.12 16:00 (인터넷) · 서류제출대상자 발표 08.13 · 당첨자발표 2026.10.15",
+        "임대기간 2년, 재계약 9회 가능(자격 유지시 최장 20년)",
+        "임대조건 시중 시세의 30~40% 수준"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020483&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (인천 26년 5차 신혼·신생아 매입임대 Ⅰ)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020483&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-07T07:35:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·공급호수(88)·접수기간·발표일정·임대기간·임대조건 본문 직접 인용. 세부 신청자격은 첨부 공고문 참조라 ageRange·marriedYears 생략"
+      }
+    },
+    {
+      "id": "lh-2026-incheon-5th-shinhon-shinsaenga-2",
+      "agency": "LH",
+      "title": "[인천지역본부]26년 5차 신혼·신생아Ⅱ(전세형) 예비입주자 모집공고(인천,부천)",
+      "shortTitle": "LH 인천 5차 신혼신생아 II 전세형",
+      "type": "매입임대",
+      "category": [
+        "신혼",
+        "신생아"
+      ],
+      "household": [
+        "신혼",
+        "예비_신혼",
+        "신생아"
+      ],
+      "region": [
+        "인천",
+        "경기"
+      ],
+      "districts": [
+        "인천",
+        "부천시"
+      ],
+      "supplyCount": 81,
+      "applicationStart": "2026-08-10",
+      "applicationEnd": "2026-08-12",
+      "announcementDate": "2026-07-30",
+      "maritalRequired": true,
+      "rolling": false,
+      "highlights": [
+        "인천·부천 신혼·신생아 매입임대 Ⅱ(전세형), 금회 공급 81호(모집인원 250명)",
+        "청약접수 2026.08.10 10:00~08.12 16:00 (인터넷) · 서류제출대상자 발표 08.13 · 당첨자발표 2026.10.15",
+        "Ⅰ형보다 보증금 비중이 큰 전세형"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020484&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (인천 26년 5차 신혼·신생아 매입임대 Ⅱ 전세형)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020484&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-07T07:35:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·공급호수(81)·접수기간·발표일정 본문 직접 인용. 세부 신청자격은 첨부 공고문 참조라 ageRange·marriedYears 생략"
+      }
+    },
+    {
+      "id": "lh-2026-richits-cheongnyeon-shinhon-incheon",
+      "agency": "LH",
+      "title": "[청년신혼부부매입임대리츠]_인천지역 입주자 모집",
+      "shortTitle": "LH 청년신혼부부 매입임대리츠 인천",
+      "type": "매입임대",
+      "category": [
+        "청년",
+        "신혼"
+      ],
+      "household": [
+        "1인_청년",
+        "신혼",
+        "예비_신혼"
+      ],
+      "region": [
+        "인천"
+      ],
+      "districts": [
+        "인천 남동구",
+        "인천 미추홀구",
+        "인천 영종구",
+        "인천 제물포구"
+      ],
+      "supplyCount": 6,
+      "applicationStart": "2026-08-18",
+      "applicationEnd": "2026-08-20",
+      "announcementDate": "2026-08-03",
+      "rolling": false,
+      "highlights": [
+        "인천지역 청년·신혼부부 매입임대 리츠, 기존주택 잔여 6호(남동·미추홀·영종·제물포)",
+        "청약접수 2026.08.18 10:00~08.20 16:00 (인터넷) · 서류제출대상자 발표 08.21 · 당첨자발표 2026.10.23",
+        "전용 46~59㎡, 임대기간 2년(2018년 최초매입 기준 총 10년 내 잔여기간 갱신)"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020486&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (청년신혼부부매입임대리츠 인천지역)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020486&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-07T07:35:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·공급호수(6)·소재지·접수기간·발표일정·전용면적 본문 직접 인용. 세부 신청자격은 첨부 공고문 참조라 ageRange 생략"
+      }
+    },
+    {
+      "id": "lh-2026-richits-cheongnyeon-shinhon-gyeonggi-south",
+      "agency": "LH",
+      "title": "[청년신혼부부매입임대리츠]_경기남부지역 예비입주자 모집",
+      "shortTitle": "LH 청년신혼부부 매입임대리츠 경기남부",
+      "type": "매입임대",
+      "category": [
+        "청년",
+        "신혼"
+      ],
+      "household": [
+        "1인_청년",
+        "신혼",
+        "예비_신혼"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "경기 남부"
+      ],
+      "supplyCount": 6,
+      "applicationStart": "2026-08-18",
+      "applicationEnd": "2026-08-20",
+      "announcementDate": "2026-08-03",
+      "rolling": false,
+      "highlights": [
+        "경기남부지역 청년·신혼부부 매입임대 리츠, 기존주택 잔여 6호",
+        "청약접수 2026.08.18 10:00~08.20 18:00 (인터넷) · 당첨자발표 2026.10.23"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020480&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (청년신혼부부매입임대리츠 경기남부지역)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020480&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-07T07:35:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·공급호수(6)·접수기간·발표일정 본문 직접 인용. 단지별 소재지·세부 신청자격은 첨부 공고문 참조"
+      }
+    },
+    {
+      "id": "lh-2026-richits-cheongnyeon-shinhon-gyeonggi-north",
+      "agency": "LH",
+      "title": "[청년신혼부부매입임대리츠]_경기북부지역 입주자 모집",
+      "shortTitle": "LH 청년신혼부부 매입임대리츠 경기북부",
+      "type": "매입임대",
+      "category": [
+        "청년",
+        "신혼"
+      ],
+      "household": [
+        "1인_청년",
+        "신혼",
+        "예비_신혼"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "경기 북부"
+      ],
+      "supplyCount": 6,
+      "applicationStart": "2026-08-18",
+      "applicationEnd": "2026-08-20",
+      "announcementDate": "2026-08-03",
+      "rolling": false,
+      "highlights": [
+        "경기북부지역 청년·신혼부부 매입임대 리츠, 기존주택 잔여 6호",
+        "청약접수 2026.08.18 10:00~08.20 18:00 (인터넷) · 당첨자발표 2026.10.23"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020487&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (청년신혼부부매입임대리츠 경기북부지역)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020487&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-07T07:35:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·공급호수(6)·접수기간·발표일정 본문 직접 인용. 단지별 소재지·세부 신청자격은 첨부 공고문 참조"
+      }
+    },
+    {
+      "id": "lh-2026-gimpo-happy-house-relaxed",
+      "agency": "LH",
+      "title": "김포시 행복주택 입주자격완화 예비입주자 모집('26.08.06.)",
+      "shortTitle": "LH 김포 행복주택 자격완화",
+      "type": "행복주택",
+      "category": [
+        "청년",
+        "신혼",
+        "고령자",
+        "한부모"
+      ],
+      "household": [
+        "1인_청년",
+        "신혼",
+        "예비_신혼",
+        "고령자",
+        "한부모"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "김포시 장기동"
+      ],
+      "supplyCount": null,
+      "applicationStart": "2026-08-18",
+      "applicationEnd": "2026-08-20",
+      "announcementDate": "2026-08-06",
+      "rolling": false,
+      "highlights": [
+        "김포한강1·장기11·한강한가람2 행복주택 입주자격완화(소득·자산 배제), 전용 16.69~44.68㎡",
+        "주택형별 계층: 16A·26A(대학생·청년), 26B(고령자), 37A(신혼·한부모/주거급여/청년), 44A(신혼·한부모)",
+        "청약접수 2026.08.18~08.20 (인터넷) · 당첨자발표 2026.12.02"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020525&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (김포시 행복주택 입주자격완화 예비입주자)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020525&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-07T07:35:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·접수기간·발표일·소재지·전용면적·주택형별 계층 본문 직접 인용. 총 세대수(443)는 단지 전체라 금회공급 세대수와 구분 불명확하여 supplyCount 생략(null)"
+      }
+    },
+    {
+      "id": "lh-2026-incheon-michuhol-yeongjong-happy-house",
+      "agency": "LH",
+      "title": "인천 미추홀구.영종구 행복주택 예비입주자 모집(2026.08.05)",
+      "shortTitle": "LH 인천 미추홀·영종 행복주택",
+      "type": "행복주택",
+      "category": [
+        "청년",
+        "신혼",
+        "고령자",
+        "한부모"
+      ],
+      "household": [
+        "1인_청년",
+        "신혼",
+        "예비_신혼",
+        "고령자",
+        "한부모"
+      ],
+      "region": [
+        "인천"
+      ],
+      "districts": [
+        "인천 미추홀구 용현동",
+        "인천 영종구",
+        "인천 주안역"
+      ],
+      "supplyCount": null,
+      "applicationStart": "2026-08-24",
+      "applicationEnd": "2026-08-25",
+      "announcementDate": "2026-08-05",
+      "rolling": false,
+      "highlights": [
+        "인천용마루 3BL·인천영종 A2·인천주안역 행복주택, 전용 16.97~36.64㎡",
+        "청약접수 2026.08.24~08.25 (인터넷) · 당첨자발표 2026.12.24"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020411&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (인천 미추홀·영종 행복주택 예비입주자)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020411&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-07T07:35:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·접수기간·발표일·소재지·전용면적 본문 직접 인용. 총 세대수(1,500)는 단지 전체라 금회공급 세대수와 구분 불명확하여 supplyCount 생략(null)"
+      }
+    },
+    {
+      "id": "sh-2026-doshihyung-wonroom-remainder",
+      "agency": "SH",
+      "title": "(수정) 2026년 1~2인가구를 위한 도시형생활주택(건설형원룸) 잔여세대 입주자 모집공고(26. 8. 5.)",
+      "shortTitle": "SH 도시형생활주택 잔여(1~2인)",
+      "type": "매입임대",
+      "category": [
+        "청년"
+      ],
+      "household": [
+        "1인_청년",
+        "1인_일반",
+        "신혼"
+      ],
+      "region": [
+        "서울"
+      ],
+      "districts": [
+        "서울 전역"
+      ],
+      "supplyCount": 65,
+      "applicationStart": "2026-08-18",
+      "applicationEnd": "2026-08-20",
+      "announcementDate": "2026-08-05",
+      "rolling": false,
+      "highlights": [
+        "서울시 1~2인 무주택세대구성원 대상 도시형생활주택(건설형원룸) 잔여세대 65호",
+        "인터넷접수: 1순위(소득 50%이하)·우선공급 1,2순위(소득 70%이하) 2026.08.18~08.19 / 2순위(소득 70%이하) 08.20",
+        "서류심사대상자 발표 2026.08.31 · 당첨자발표 2026.11.20",
+        "우선공급은 중소기업확인서 발급 가능한 중소(제조)업체 근로자(공고일 기준 6개월 이상 근무)"
+      ],
+      "applyMethod": "SH 인터넷청약시스템 (콜센터 1600-3456)",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308167",
+      "status": "upcoming",
+      "priorityRules": [
+        {
+          "rank": "우선공급",
+          "label": "중소(제조)업체 근로자 (소득 70% 이하, 6개월 이상 근무)",
+          "match": {
+            "supportType": [
+              "일반"
+            ],
+            "income": [
+              "50%이하",
+              "70%이하"
+            ]
+          },
+          "hint": "중소기업확인서 발급 가능한 근로자 우선공급 1·2순위"
+        },
+        {
+          "rank": "1순위",
+          "label": "일반공급 1순위 (소득 50% 이하)",
+          "match": {
+            "income": [
+              "50%이하"
+            ]
+          }
+        },
+        {
+          "rank": "2순위",
+          "label": "일반공급 2순위 (소득 70% 이하)",
+          "match": {
+            "income": [
+              "70%이하"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "SH 공고문 (2026년 1~2인가구 도시형생활주택 잔여세대 입주자 모집)",
+          "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308167"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-07T07:35:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·공급호수(65)·신청자격·인터넷접수기간·발표일정·우선공급 자격 본문 직접 인용. 단지별 세부 순위·소득기준 상세는 첨부 공고문 참조"
       }
     }
   ],
