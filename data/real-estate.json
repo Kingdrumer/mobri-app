@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T07:34:00+09:00",
+  "lastUpdated": "2026-08-09T07:37:00+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -409,39 +409,6 @@
       "applyMethod": "동작구청 (☎02-820-9347) / SH",
       "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=303729",
       "status": "open"
-    },
-    {
-      "id": "sh-2026-wuiguk-cheongnyeon",
-      "agency": "SH",
-      "title": "2026년 위국헌신청년주택 (부상제대군인 청년 매입임대주택) 입주자 모집공고",
-      "shortTitle": "위국헌신청년주택",
-      "type": "매입임대",
-      "category": [
-        "청년",
-        "부상제대군인"
-      ],
-      "household": [
-        "1인_청년"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "강동구 천호동"
-      ],
-      "supplyCount": 26,
-      "applicationStart": "2026-08-01",
-      "applicationEnd": "2026-08-08",
-      "announcementDate": "2026-05-15",
-      "rolling": false,
-      "highlights": [
-        "신축 매입임대 26호, 강동역·강동성심병원 도보 10분",
-        "군 복무 중 부상으로 전역, 국가유공자 미해당 청년 대상",
-        "보증금 200만/월세 53만 (저소득층 100만/32만)"
-      ],
-      "applyMethod": "서울시 청년부상제대군인상담센터",
-      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/list.do?multi_itm_seq=2",
-      "status": "closing-today"
     },
     {
       "id": "lh-2026-bucheon-daejang-shinhon-hope-a5a6",
@@ -1444,6 +1411,55 @@
         "fetchedAt": "2026-08-08T07:34:00+09:00",
         "method": "Claude in Chrome 공고 상세 본문 직접 확인",
         "note": "모집공고일·공급호수(7)·접수기간·당첨자발표·접수방법 본문 직접 인용. 예술인 대상 수요자맞춤형이라 category 일반 분류에 해당 없어 빈 배열. 세부 신청자격은 첨부 공고문 참조"
+      }
+    },
+    {
+      "id": "lh-2026-siheung-geomo-a5-shinhon-hope-sale",
+      "agency": "LH",
+      "title": "시흥거모 A-5 블록 신혼희망타운(공공분양) 입주자모집공고문",
+      "shortTitle": "LH 시흥거모 신혼희망타운 분양",
+      "type": "공공분양",
+      "category": [
+        "신혼",
+        "신생아"
+      ],
+      "household": [
+        "신혼",
+        "예비_신혼",
+        "신생아",
+        "한부모"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "시흥시 거모지구"
+      ],
+      "supplyCount": 290,
+      "applicationStart": "2026-08-18",
+      "applicationEnd": "2026-08-26",
+      "announcementDate": "2026-08-07",
+      "maritalRequired": true,
+      "rolling": false,
+      "highlights": [
+        "시흥거모지구 A-5블록 신혼희망타운 공공분양 290세대(55A형 225·55B형 65), 전용 55.45~55.77㎡, 나머지 145세대는 행복주택 향후 공급",
+        "평균분양가 55A형 4억4,522만·55B형 4억4,085만, 동·호는 무작위 전산추첨",
+        "인터넷청약: 사전청약당첨자 2026.08.18 / 예비신혼부부·신혼부부·한부모가족 2026.08.25~08.26 (10:00~17:00)",
+        "당첨자발표 2026.09.02 · 서류제출 09.10~09.13 · 계약체결 2026.12.01~12.03"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061152&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (시흥거모 A-5블록 신혼희망타운 공공분양)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061152&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-09T07:37:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·금회공급 공공분양 세대수(290=55A 225+55B 65)·전용면적·평균분양가·공급일정(그룹별 접수일)·발표·계약일정 본문 직접 인용. 소재지는 '시흥거모지구 A-5블록' 본문 표기 그대로. 세부 신청자격(혼인기간·자녀·소득·자산)은 첨부 공고문(PDF)이라 marriedYears·ageRange·priorityRules 생략. applicationStart는 최초 접수(사전청약당첨자 08.18), End는 최종 접수(08.26)"
       }
     }
   ],
