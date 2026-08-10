@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T07:30:00+09:00",
+  "lastUpdated": "2026-08-11T07:42:00+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -446,7 +446,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷(PC·모바일) 또는 현장접수",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020448&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (부천대장 A5·A6블록 신혼희망타운 행복주택)",
@@ -500,7 +500,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약(PC·모바일) 또는 현장접수",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020387&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (오산시 행복주택 입주자격완화 예비입주자)",
@@ -594,7 +594,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020471&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (과천지식정보타운 신혼희망타운 행복주택 예비입주자)",
@@ -738,7 +738,7 @@
       ],
       "applyMethod": "SH 인터넷청약시스템",
       "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=307835",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "SH 공고문 (2026년 2차 청년안심주택 공공임대 입주자 모집공고)",
@@ -1460,6 +1460,142 @@
         "fetchedAt": "2026-08-09T07:37:00+09:00",
         "method": "Claude in Chrome 공고 상세 본문 직접 확인",
         "note": "공고일·금회공급 공공분양 세대수(290=55A 225+55B 65)·전용면적·평균분양가·공급일정(그룹별 접수일)·발표·계약일정 본문 직접 인용. 소재지는 '시흥거모지구 A-5블록' 본문 표기 그대로. 세부 신청자격(혼인기간·자녀·소득·자산)은 첨부 공고문(PDF)이라 marriedYears·ageRange·priorityRules 생략. applicationStart는 최초 접수(사전청약당첨자 08.18), End는 최종 접수(08.26)"
+      }
+    },
+    {
+      "id": "lh-2026-seongnam-bokjeong2-a1-shinhon-hope-sale",
+      "agency": "LH",
+      "title": "성남복정2 A1블록 신혼희망타운(공공분양) 입주자모집공고",
+      "shortTitle": "LH 성남복정2 신혼희망 분양",
+      "type": "공공분양",
+      "category": [
+        "신혼",
+        "신생아"
+      ],
+      "household": [
+        "신혼",
+        "예비_신혼",
+        "신생아",
+        "한부모"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "성남시 수정구 신흥동"
+      ],
+      "supplyCount": 594,
+      "applicationStart": "2026-08-31",
+      "applicationEnd": "2026-09-08",
+      "announcementDate": "2026-08-10",
+      "maritalRequired": true,
+      "rolling": false,
+      "highlights": [
+        "성남복정2 A1블록 신혼희망타운 공공분양, 금회공급 594세대(55.97A 496·55.97B 40·55.98C 22·56.94T 36), 총 892세대",
+        "소재지 경기 성남시 수정구 신흥동 일원, 전용 55.97~56.94㎡, 입주예정 2030.05",
+        "평균분양가 55.97A형 7억9,297만·56.94T형 8억1,214만원",
+        "공급일정: 사전청약당첨자 2026.08.31~09.01 / 예비신혼·신혼부부·한부모가족 2026.09.07~09.08 (인터넷접수)",
+        "당첨자발표 2026.09.17 · 서류제출 09.29~10.01 · 계약체결 2026.12.07~12.10"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061125&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (성남복정2 A1블록 신혼희망타운 공공분양)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061125&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-11T07:41:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·금회공급 세대수(594=496+40+22+36)·총세대수(892)·소재지·전용면적·평균분양가·공급일정(그룹별 접수일)·발표·서류·계약일정 본문 직접 인용. 세부 신청자격(혼인기간·자녀·소득·자산)은 첨부 공고문(PDF)이라 marriedYears·ageRange·priorityRules 생략. applicationStart는 최초접수(사전청약당첨자 08.31), End는 최종접수(09.08)"
+      }
+    },
+    {
+      "id": "lh-2026-gimpo-gochon2-a1-public-sale-remainder",
+      "agency": "LH",
+      "title": "김포고촌2 A1블록 공공분양주택 잔여세대 추가입주자 모집공고",
+      "shortTitle": "LH 김포고촌2 공공분양 잔여",
+      "type": "공공분양",
+      "category": [],
+      "household": [
+        "1인_일반",
+        "신혼",
+        "예비_신혼"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "김포시 고촌읍 신곡리",
+        "김포시 고촌읍 풍곡리"
+      ],
+      "supplyCount": 41,
+      "applicationStart": "2026-08-10",
+      "applicationEnd": "2026-08-11",
+      "announcementDate": "2026-07-30",
+      "rolling": false,
+      "highlights": [
+        "김포고촌2 A1블록 공공분양 잔여세대 무순위, 공급대상 41세대(전용 59㎡ 2세대·74㎡ 39세대)",
+        "소재지 경기 김포시 고촌읍 신곡리·풍곡리 일원, 전용 59.64~74.84㎡, 입주예정 2028.07",
+        "소득·자산·청약저축·과거당첨 무관, 공고일(2026.07.30) 현재 수도권(서울·경기·인천) 거주 만 19세이상 무주택세대구성원, 1세대 1주택, 전매제한 3년",
+        "무순위 인터넷접수 2026.08.10 10:00~08.11 17:00 · 당첨자발표 08.20 · 서류제출 08.24~08.25 · 계약 2026.09.11~09.14"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061133&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "status": "closing-today",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (김포고촌2 A1블록 공공분양 잔여세대 추가입주자)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061133&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-11T07:41:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "공고일·공급대상(41세대)·소재지·전용면적·신청자격·무순위 접수기간(08.10~08.11)·발표·서류·계약일정 본문 직접 인용. 최초모집(2025.12.29) 후 잔여세대 무순위 공급이라 소득·자산·청약저축 무관"
+      }
+    },
+    {
+      "id": "sh-2026-okryuseowon-social-housing-4",
+      "agency": "SH",
+      "title": "[토지임대부 사회주택] 옥류서원 입주자 모집 공고문 4차",
+      "shortTitle": "옥류서원 사회주택 4차",
+      "type": "사회주택",
+      "category": [],
+      "household": [
+        "1인_일반"
+      ],
+      "region": [
+        "서울"
+      ],
+      "districts": [
+        "종로구 옥인동"
+      ],
+      "supplyCount": 2,
+      "applicationStart": "2026-08-11",
+      "applicationEnd": "2026-08-19",
+      "announcementDate": "2026-08-10",
+      "rolling": false,
+      "highlights": [
+        "토지임대부 사회주택(민관협력형, SH 소유 아님·사업자 (주)브릭), 소재지 서울 종로구 옥인동 47-334 외 2필지, 모집호수 총 2호",
+        "신청자격: 모집공고일 현재 서울 거주 무주택자로 소득·자산·자동차가액 기준 모두 충족",
+        "모집신청일 2026.08.11~08.19, 이메일 접수(bricksocial7@gmail.com)"
+      ],
+      "applyMethod": "이메일 접수 (사업자 (주)브릭, bricksocial7@gmail.com)",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308337",
+      "status": "open",
+      "sources": [
+        {
+          "name": "SH 공고 (옥류서원 토지임대부 사회주택 4차)",
+          "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308337"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-11T07:41:00+09:00",
+        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
+        "note": "등록일·소재지·모집호수(2)·신청자격·모집신청일(08.11~08.19)·접수방법 본문 직접 인용. 민관협력형 사회주택으로 SH 소유 아니며 입주자 선정 권한은 사업자 (주)브릭. 소득·자산 상세기준은 첨부 공고문 참조"
       }
     }
   ],
