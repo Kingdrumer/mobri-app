@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T11:03:13+09:00",
+  "lastUpdated": "2026-08-18T07:35:00+09:00",
   "schemaVersion": 2,
   "notices": [
     {
@@ -411,159 +411,6 @@
       "status": "open"
     },
     {
-      "id": "lh-2026-bucheon-daejang-shinhon-hope-a5a6",
-      "agency": "LH",
-      "title": "부천대장 A5·A6블록 신혼희망타운 행복주택 입주자 최초모집(2026.07.23)",
-      "shortTitle": "LH 부천대장 신혼희망타운",
-      "type": "신혼희망타운",
-      "category": [
-        "신혼",
-        "신생아"
-      ],
-      "household": [
-        "신혼",
-        "예비_신혼",
-        "신생아"
-      ],
-      "region": [
-        "경기"
-      ],
-      "districts": [
-        "부천시 오정구 오정동"
-      ],
-      "supplyCount": 537,
-      "applicationStart": "2026-08-11",
-      "applicationEnd": "2026-08-13",
-      "announcementDate": "2026-07-23",
-      "maritalRequired": true,
-      "rolling": false,
-      "highlights": [
-        "부천대장 공공주택지구 A5·A6블록 신혼희망타운 행복주택, 금회공급 총 537세대(A5 312·A6 225)",
-        "소재지 경기 부천시 오정구 오정동 일원, 전용 46~55㎡, 입주예정 2027.11",
-        "청약접수 2026.08.11~08.13 (인터넷 apply.lh.or.kr·모바일 LH청약플러스)",
-        "서류제출대상자 발표 2026.08.24 · 서류접수 08.25~08.28 · 당첨자발표 2026.12.17",
-        "'46형'·'55형' 공급형별 통합접수, '일반'·'주거약자' 선택(세부 신청자격은 공고문 참조)"
-      ],
-      "applyMethod": "LH청약플러스 인터넷(PC·모바일) 또는 현장접수",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020448&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
-      "status": "closing-today",
-      "sources": [
-        {
-          "name": "LH청약플러스 공고문 (부천대장 A5·A6블록 신혼희망타운 행복주택)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020448&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-07-27T10:58:00+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "공고일·접수기간·발표일·소재지·전용면적·금회공급 세대수 본문 직접 인용. 혼인기간·연령 등 세부 신청자격은 첨부 공고문(PDF)이라 marriedYears·ageRange 생략"
-      }
-    },
-    {
-      "id": "lh-2026-osan-happy-house-relaxed",
-      "agency": "LH",
-      "title": "오산시 행복주택 입주자격완화 예비입주자 모집(2026.07.27)",
-      "shortTitle": "LH 오산 행복주택",
-      "type": "행복주택",
-      "category": [
-        "청년",
-        "신혼",
-        "고령자",
-        "한부모"
-      ],
-      "household": [
-        "1인_청년",
-        "신혼",
-        "예비_신혼",
-        "고령자",
-        "한부모"
-      ],
-      "region": [
-        "경기"
-      ],
-      "districts": [
-        "오산시 세교동",
-        "오산시 청학동",
-        "오산시 청호동"
-      ],
-      "supplyCount": null,
-      "applicationStart": "2026-08-11",
-      "applicationEnd": "2026-08-13",
-      "announcementDate": "2026-07-27",
-      "ageRange": null,
-      "rolling": false,
-      "highlights": [
-        "오산세교·청학·청호 5개 단지 행복주택, 전용 16.54~36.92㎡ (입주자격완화: 소득·자산 배제)",
-        "주택형별 계층: 16·26A형(대학생·청년·주거급여수급자), 26B형(고령자 주거약자), 36A형(신혼부부·한부모·청년)",
-        "청약접수 2026.08.11(화)~08.13(목) 3일간, 인터넷청약(LH청약플러스 PC·모바일)",
-        "서류제출대상자 발표 2026.08.19 · 서류접수 08.20~08.26 · 당첨자발표 2026.10.28"
-      ],
-      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일) 또는 현장접수",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020387&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "closing-today",
-      "sources": [
-        {
-          "name": "LH청약플러스 공고문 (오산시 행복주택 입주자격완화 예비입주자)",
-          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020387&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-07-28T07:37:00+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "공고일·청약접수기간·발표일정·소재지·전용면적·주택형별 계층 본문 직접 인용. 총 공급세대수 및 연령·혼인 세부요건은 첨부 공고문(PDF) 참조라 supplyCount·ageRange·marriedYears 생략"
-      }
-    },
-    {
-      "id": "sh-2026-2nd-youth-safe-public",
-      "agency": "SH",
-      "title": "2026년 2차 청년안심주택(공공임대) 입주자 모집공고",
-      "shortTitle": "SH 청년안심주택 공공임대 2차",
-      "type": "청년안심주택",
-      "category": [
-        "청년",
-        "신혼"
-      ],
-      "household": [
-        "1인_청년",
-        "신혼",
-        "예비_신혼"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "서울 전역"
-      ],
-      "supplyCount": 581,
-      "applicationStart": "2026-08-11",
-      "applicationEnd": "2026-08-13",
-      "announcementDate": "2026-07-31",
-      "ageRange": [
-        19,
-        39
-      ],
-      "rolling": false,
-      "highlights": [
-        "공급호수 581세대 (신규공급 349세대·재공급 232세대)",
-        "공고일(2026.07.31) 현재 만 19~39세 무주택, 계층별 소득·총자산 요건 충족 청년 및 신혼부부",
-        "인터넷접수 2026.08.11 10:00~08.13 17:00 · 서류심사대상자 발표 08.21 · 당첨자발표 2026.12.11 예정"
-      ],
-      "applyMethod": "SH 인터넷청약시스템",
-      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=307835",
-      "status": "closing-today",
-      "sources": [
-        {
-          "name": "SH 공고문 (2026년 2차 청년안심주택 공공임대 입주자 모집공고)",
-          "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=307835"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-08-04T14:42:00+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "공고일·공급호수·신청자격·인터넷접수기간·발표일정 본문 직접 인용. 단지별 세부 순위 기준은 첨부 공고문 참조라 priorityRules 생략"
-      }
-    },
-    {
       "id": "lh-2026-richits-cheongnyeon-shinhon-incheon",
       "agency": "LH",
       "title": "[청년신혼부부매입임대리츠]_인천지역 입주자 모집",
@@ -599,7 +446,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020486&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (청년신혼부부매입임대리츠 인천지역)",
@@ -644,7 +491,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020480&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (청년신혼부부매입임대리츠 경기남부지역)",
@@ -689,7 +536,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020487&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (청년신혼부부매입임대리츠 경기북부지역)",
@@ -739,7 +586,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020525&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (김포시 행복주택 입주자격완화 예비입주자)",
@@ -836,7 +683,7 @@
       ],
       "applyMethod": "SH 인터넷청약시스템 (콜센터 1600-3456)",
       "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308167",
-      "status": "upcoming",
+      "status": "open",
       "priorityRules": [
         {
           "rank": "우선공급",
@@ -920,7 +767,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020512&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (파주시 행복주택 예비입주자 모집)",
@@ -972,7 +819,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020536&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (구리·남양주시 행복주택 예비입주자 모집 정정공고)",
@@ -1023,7 +870,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020537&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (남양주 장현5 2BL 행복주택 입주자격완화 모집 정정공고)",
@@ -1034,51 +881,6 @@
         "fetchedAt": "2026-08-08T07:34:00+09:00",
         "method": "Claude in Chrome 공고 상세 본문 직접 확인",
         "note": "공고일(08.05)·접수기간(정정)·발표일정·소재지·전용면적 본문 직접 인용. 입주자격완화(소득·자산 배제) 유형. 금회공급 세대수 불명확하여 supplyCount 생략(null)"
-      }
-    },
-    {
-      "id": "sh-2026-seongdong-space-public-support",
-      "agency": "SH",
-      "title": "성동스페이스 공공지원민간임대주택 임차인 모집공고",
-      "shortTitle": "성동스페이스 공공지원민간임대",
-      "type": "공공지원민간임대",
-      "category": [
-        "신혼"
-      ],
-      "household": [
-        "1인_일반",
-        "신혼",
-        "예비_신혼"
-      ],
-      "region": [
-        "서울"
-      ],
-      "districts": [
-        "성동구"
-      ],
-      "supplyCount": 40,
-      "applicationStart": "2026-08-12",
-      "applicationEnd": "2026-08-14",
-      "announcementDate": "2026-08-06",
-      "rolling": false,
-      "highlights": [
-        "성동스페이스 공공지원민간임대 40세대 (SH 소유 아님, 임대사업자 소유·선정)",
-        "청약자격: 공고일(2026.08.06) 기준 무주택세대구성원(일반공급), 신혼부부 무주택·소득요건 충족(특별공급)",
-        "청약접수 2026.08.12~08.14 09:00~17:30 (청약홈 PC·모바일), 청약신청금 10만원"
-      ],
-      "applyMethod": "청약홈(PC·모바일)",
-      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308134",
-      "status": "open",
-      "sources": [
-        {
-          "name": "SH 공고문 (성동스페이스 공공지원민간임대주택 임차인 모집공고)",
-          "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308134"
-        }
-      ],
-      "_fetchMeta": {
-        "fetchedAt": "2026-08-08T07:34:00+09:00",
-        "method": "Claude in Chrome 공고 상세 본문 직접 확인",
-        "note": "공고일·공급세대수(40)·청약자격·청약접수기간·신청금 본문 직접 인용. 임대사업자((주)서울도시재생공간지원위탁관리부동산투자회사) 운영, 세부 소득·평면은 임차인 모집공고문 참조"
       }
     },
     {
@@ -1158,7 +960,7 @@
       ],
       "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061152&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
-      "status": "upcoming",
+      "status": "open",
       "sources": [
         {
           "name": "LH청약플러스 공고문 (시흥거모 A-5블록 신혼희망타운 공공분양)",
@@ -1260,6 +1062,416 @@
         "fetchedAt": "2026-08-11T07:41:00+09:00",
         "method": "Claude in Chrome 공고 상세 본문 직접 확인",
         "note": "등록일·소재지·모집호수(2)·신청자격·모집신청일(08.11~08.19)·접수방법 본문 직접 인용. 민관협력형 사회주택으로 SH 소유 아니며 입주자 선정 권한은 사업자 (주)브릭. 소득·자산 상세기준은 첨부 공고문 참조"
+      }
+    },
+    {
+      "id": "lh-2026-seongnam-geumto-a4-happy-house",
+      "agency": "LH",
+      "title": "성남금토 A-4블록 신혼희망타운 행복주택 입주자 모집공고",
+      "shortTitle": "LH 성남금토 신혼희망 행복주택",
+      "type": "행복주택",
+      "category": [
+        "신혼",
+        "신생아"
+      ],
+      "household": [
+        "신혼",
+        "예비_신혼",
+        "신생아",
+        "한부모"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "성남시 수정구 금토동"
+      ],
+      "supplyCount": 187,
+      "applicationStart": "2026-08-24",
+      "applicationEnd": "2026-08-26",
+      "announcementDate": "2026-08-11",
+      "rolling": false,
+      "highlights": [
+        "성남금토 A-4블록 신혼희망타운 행복주택, 소재지 경기도 성남시 수정구 금토동 417-4, 전용 55.83~55.99㎡, 총 세대수 384, 입주예정 2027.11",
+        "금회공급 187세대(55A 24·55AS 3·55B 49·55BS 10·55C 42·55CS 2·55D 23·55E 24·55F 10)",
+        "접수기간 2026.08.24~08.26 · 서류제출대상자 발표 2026.09.07 · 서류접수 09.08~09.14 · 당첨자발표 2027.01.07 · 계약 2027.01.19~01.21",
+        "인터넷 신청이 어려운 고령자(65세 이상)·장애인 등은 2026.08.25 10:00~16:00 LH 경기남부지역본부 1층 대강당 현장접수 지원"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020534&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (성남금토 A-4블록 신혼희망타운 행복주택)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020534&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-18T07:35:00+09:00",
+        "method": "web_fetch 공고 상세 본문 직접 확인",
+        "note": "공고일·소재지·전용면적·총세대수·입주예정월·주택형별 금회공급 세대수·공급일정 본문 직접 인용. supplyCount는 주택형 안내 표의 금회공급 세대수 합계(187). 세부 신청자격은 첨부 공고문(hwpx/pdf)이라 ageRange·marriedYears·priorityRules 생략"
+      }
+    },
+    {
+      "id": "lh-2026-uiwang-gocheon-anyang-myeonghak-happy-house",
+      "agency": "LH",
+      "title": "의왕고천A-1BL[리츠]·안양명학A-1BL 행복주택 예비입주자 모집",
+      "shortTitle": "LH 의왕고천·안양명학 행복주택",
+      "type": "행복주택",
+      "category": [
+        "청년"
+      ],
+      "household": [
+        "1인_청년"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "의왕시 고천동",
+        "안양시 만안구 안양동"
+      ],
+      "supplyCount": 60,
+      "applicationStart": "2026-08-24",
+      "applicationEnd": "2026-08-25",
+      "announcementDate": "2026-08-14",
+      "rolling": false,
+      "highlights": [
+        "의왕고천 A-1BL 행복주택리츠(경기 의왕시 행복마을3로 18, 전용 16.95~44.56㎡) · 안양명학 A-1블록 행복주택(경기 안양시 만안구 명학로 15, 전용 21.77㎡)",
+        "금회공급 60호 — 의왕고천 16A형(대학생·청년) 50호 + 안양명학 21A형 10호",
+        "접수기간 2026.08.24~08.25 · 서류제출대상자 발표 2026.08.28 · 서류접수 09.01~09.02 · 당첨자발표 2026.11.20",
+        "모집대상 주택에 대하여 1세대 1주택 신청 원칙, 중복 신청 시 전부 무효처리"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020552&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (의왕고천A-1BL·안양명학A-1BL 행복주택 예비입주자 모집)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020552&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-18T07:35:00+09:00",
+        "method": "서브에이전트 web_fetch 공고 상세 본문 직접 확인",
+        "note": "공고일·소재지·전용면적·주택형별 금회공급 세대수·공급일정 본문 직접 인용. supplyCount=금회공급 합계(50+10=60). 단지별 총 세대수(2,200/24)는 단지 전체라 별도 기재 안 함. 주택형별 계층은 의왕고천 16A만 대학생·청년으로 명시되어 household 청년만 기재, 세부 자격은 첨부 공고문 참조"
+      }
+    },
+    {
+      "id": "lh-2026-namyangju-jinjeop2-a4-happy-house",
+      "agency": "LH",
+      "title": "남양주진접2 A-4BL 신혼희망타운 행복주택 최초 입주자 모집공고('26.08.13)",
+      "shortTitle": "LH 남양주진접2 신혼희망 행복주택",
+      "type": "행복주택",
+      "category": [
+        "신혼",
+        "신생아"
+      ],
+      "household": [
+        "신혼",
+        "예비_신혼",
+        "신생아",
+        "한부모"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "남양주시 진접읍 연평리"
+      ],
+      "supplyCount": 192,
+      "applicationStart": "2026-08-25",
+      "applicationEnd": "2026-08-28",
+      "announcementDate": "2026-08-13",
+      "rolling": false,
+      "highlights": [
+        "남양주진접2 A-4BL 신혼희망타운 행복주택, 소재지 경기도 남양주시 진접읍 연평리 237, 전용 55.86~55.98㎡, 총 세대수 193, 입주예정 2028.04",
+        "금회공급 192세대(55A 98 · 55AS(주거약자) 16 · 55B 78)",
+        "접수기간 2026.08.25~08.28 · 서류제출대상자 발표 2026.09.07 · 서류접수 09.08~09.11 · 당첨자발표 2026.12.22 · 계약 2027.01.13~01.14",
+        "동·호는 전산 프로그램으로 무작위 추첨하여 배정되며 변경 불가"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020545&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (남양주진접2 A-4BL 신혼희망타운 행복주택 최초 입주자 모집)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020545&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-18T07:35:00+09:00",
+        "method": "서브에이전트 web_fetch 공고 상세 본문 직접 확인",
+        "note": "공고일·소재지·전용면적·총세대수(193)·입주예정월·주택형별 금회공급 세대수·공급일정 본문 직접 인용. supplyCount는 금회공급 합계(98+16+78=192)로 총세대수 193과 1호 차이가 있으나 공고문에 설명 없어 본문 값 그대로 기재. 세부 신청자격은 첨부 공고문 참조"
+      }
+    },
+    {
+      "id": "lh-2026-icheon-janghowon-b2-integrated",
+      "agency": "LH",
+      "title": "이천장호원 B2블록 통합공공임대주택 예비입주자 모집공고",
+      "shortTitle": "LH 이천장호원 B2 통합공공임대",
+      "type": "통합공공임대",
+      "category": [],
+      "household": [
+        "1인_청년",
+        "1인_일반",
+        "신혼",
+        "고령자",
+        "한부모"
+      ],
+      "region": [
+        "경기"
+      ],
+      "districts": [
+        "이천시 장호원읍"
+      ],
+      "supplyCount": 300,
+      "applicationStart": "2026-08-25",
+      "applicationEnd": "2026-08-27",
+      "announcementDate": "2026-08-13",
+      "rolling": false,
+      "highlights": [
+        "이천장호원 B2블록 통합공공임대주택, 소재지 경기도 이천시 장호원읍 서동대로8829번길 26-22, 전용 26.18~51.98㎡, 총 세대수 620, 입주예정 2026.11",
+        "금회공급 300세대(26A 250 · 26AS 50)",
+        "접수기간 2026.08.25~08.27 · 서류제출대상자 발표 2026.09.03 · 서류접수 09.04~09.09 · 당첨자발표 2026.12.08",
+        "인터넷 신청이 어려운 고령자(65세 이상)·장애인 등은 2026.08.25 10:00~16:00 LH 경기남부지역본부 1층 대강당 현장접수 지원"
+      ],
+      "applyMethod": "LH청약플러스 인터넷청약(PC·모바일)",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020531&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
+      "status": "upcoming",
+      "sources": [
+        {
+          "name": "LH청약플러스 공고문 (이천장호원 B2블록 통합공공임대주택 예비입주자 모집)",
+          "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020531&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-18T07:35:00+09:00",
+        "method": "서브에이전트 web_fetch 공고 상세 본문 직접 확인",
+        "note": "공고일·소재지·전용면적·총세대수(620)·입주예정월·주택형별 금회공급 세대수·공급일정 본문 직접 인용. household는 통합공공임대 유형 특성상 넓게 표기했으나 계층별 세부 자격은 첨부 공고문 참조라 priorityRules 생략"
+      }
+    },
+    {
+      "id": "sh-2026-geumcheon-youth-special-maeip",
+      "agency": "SH",
+      "title": "[청년형] 특화형 매입임대주택(금천구) 입주자 모집 공고(운영기관 : 한지붕 협동조합)",
+      "shortTitle": "금천구 청년 특화형 매입임대",
+      "type": "매입임대",
+      "category": [
+        "청년"
+      ],
+      "household": [
+        "1인_청년"
+      ],
+      "region": [
+        "서울"
+      ],
+      "districts": [
+        "금천구"
+      ],
+      "supplyCount": 1,
+      "applicationStart": "2026-08-18",
+      "applicationEnd": "2026-08-19",
+      "announcementDate": "2026-08-18",
+      "ageRange": [
+        19,
+        39
+      ],
+      "rolling": false,
+      "highlights": [
+        "청년형 특화형 매입임대주택 1호 (서울 금천구 시흥대로88길 18, 소담 204호), 운영기관 한지붕 협동조합",
+        "공고일(2026.08.18) 현재 미혼의 청년(만 19~39세, 출생일 1986.08.19~2007.08.18) 1인 단독거주 대상, 기혼자·외국인 신청 불가",
+        "월평균소득 전년도 도시근로자 가구원수별 100% 이하 + 행복주택 자산기준(총자산 34,500만원 이하, 자동차 4,542만원 이하) 충족",
+        "접수 2026.08.18~08.19, 이메일 접수(oneroof.coop.sh@gmail.com) · 입주자 발표는 개별안내"
+      ],
+      "applyMethod": "이메일 접수 (운영기관 한지붕 협동조합)",
+      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?multi_itm_seq=2&seq=308549",
+      "status": "open",
+      "sources": [
+        {
+          "name": "SH 공고문 ([청년형] 특화형 매입임대주택(금천구) 입주자 모집)",
+          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?multi_itm_seq=2&seq=308549"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-18T07:35:00+09:00",
+        "method": "서브에이전트 공고 상세 본문 + 첨부 공고문 직접 확인",
+        "note": "공고일·공급호수(1)·소재지·연령/혼인/소득/자산 요건·접수기간·접수방법 본문 직접 인용. 서류심사대상자 발표 단계가 공고에 없어 생략"
+      }
+    },
+    {
+      "id": "sh-2026-yangcheon-youth-coop",
+      "agency": "SH",
+      "title": "양천구 청년협동조합(수요자맞춤형) 추가 입주자 모집 공고",
+      "shortTitle": "양천구 청년협동조합 추가모집",
+      "type": "매입임대",
+      "category": [
+        "청년"
+      ],
+      "household": [
+        "1인_청년"
+      ],
+      "region": [
+        "서울"
+      ],
+      "districts": [
+        "양천구"
+      ],
+      "supplyCount": 19,
+      "applicationStart": "2026-08-18",
+      "applicationEnd": "2026-08-28",
+      "announcementDate": "2026-08-14",
+      "ageRange": [
+        19,
+        39
+      ],
+      "rolling": false,
+      "highlights": [
+        "양천구 청년협동조합(수요자맞춤형) 추가 모집 19호 — 오목로23길 25-1(가동)·오목로23길 25(나동)·중앙로54길 7(다동)",
+        "공고일(2026.08.14) 현재 서울시 주민등록 무주택세대구성원, 만 19~39세 혼인 중이 아닌 1인 가구",
+        "취업준비생 또는 근로(사업)소득자(대학생 제외, 졸업까지 한 학기 남은 경우 가능), 소득 도시근로자 70% 이하, 자산 24,500만원·자동차 4,542만원 이하",
+        "접수 2026.08.18 09:00~08.28 18:00 (이메일·등기우편·양천구청 2층 주택과 방문) · 당첨자발표 2026.11.25 예정",
+        "청년협동조합 조합원으로 가입하고 성실히 활동할 것에 동의하는 자"
+      ],
+      "applyMethod": "이메일(ekgp0520@yangcheon.go.kr)·등기우편·방문 접수 (양천구청 주택과)",
+      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?multi_itm_seq=2&seq=308571",
+      "status": "open",
+      "sources": [
+        {
+          "name": "SH 공고문 (양천구 청년협동조합(수요자맞춤형) 추가 입주자 모집)",
+          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?multi_itm_seq=2&seq=308571"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-18T07:35:00+09:00",
+        "method": "서브에이전트 공고 상세 본문 + 첨부 공고문 직접 확인",
+        "note": "공고일·공급호수(19)·소재지·신청자격·소득/자산기준·접수기간·접수방법·당첨자발표 본문 직접 인용"
+      }
+    },
+    {
+      "id": "sh-2026-yangcheon-newlywed",
+      "agency": "SH",
+      "title": "양천구 신혼부부(수요자맞춤형) 추가 입주자 모집 공고",
+      "shortTitle": "양천구 신혼부부 추가모집",
+      "type": "매입임대",
+      "category": [
+        "신혼"
+      ],
+      "household": [
+        "신혼",
+        "예비_신혼"
+      ],
+      "region": [
+        "서울"
+      ],
+      "districts": [
+        "양천구"
+      ],
+      "supplyCount": 9,
+      "applicationStart": "2026-08-18",
+      "applicationEnd": "2026-08-28",
+      "announcementDate": "2026-08-14",
+      "maritalRequired": true,
+      "marriedYears": 7,
+      "rolling": false,
+      "highlights": [
+        "양천구 신혼부부(수요자맞춤형) 추가 모집 9호 — 서울 양천구 중앙로54길 9 1~5층",
+        "공고일(2026.08.14) 현재 서울시 주민등록 무주택세대구성원으로 혼인 7년 이내 신혼부부 또는 예비신혼부부(입주일 전까지 혼인신고)",
+        "월평균소득 전년도 도시근로자 100% 이하, 외국인 신청 불가",
+        "접수 2026.08.18 09:00~08.28 18:00 (이메일·등기우편·양천구청 2층 주택과 방문) · 당첨자발표 2026.11.25 예정",
+        "1세대 1주택 원칙, 예비신혼부부는 대표 신청자 1명 지정, 중복신청 시 전부 무효"
+      ],
+      "applyMethod": "이메일(ekgp0520@yangcheon.go.kr)·등기우편·방문 접수 (양천구청 주택과)",
+      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?multi_itm_seq=2&seq=308569",
+      "status": "open",
+      "sources": [
+        {
+          "name": "SH 공고문 (양천구 신혼부부(수요자맞춤형) 추가 입주자 모집)",
+          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?multi_itm_seq=2&seq=308569"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-18T07:35:00+09:00",
+        "method": "서브에이전트 공고 상세 본문 + 첨부 공고문 직접 확인",
+        "note": "공고일·공급호수(9)·소재지·혼인요건(7년)·소득기준·접수기간·접수방법·당첨자발표 본문 직접 인용"
+      }
+    },
+    {
+      "id": "sh-2026-mirinaejip-1st-general",
+      "agency": "SH",
+      "title": "2026년 1차 일반주택형 미리내집(신혼신생아매입임대주택Ⅱ) 입주자 모집공고(2026.08.14.)",
+      "shortTitle": "SH 미리내집 1차 일반주택형",
+      "type": "매입임대",
+      "category": [
+        "신혼",
+        "신생아",
+        "한부모"
+      ],
+      "household": [
+        "신혼",
+        "예비_신혼",
+        "신생아",
+        "한부모"
+      ],
+      "region": [
+        "서울"
+      ],
+      "districts": [
+        "강북구",
+        "구로구",
+        "금천구",
+        "송파구",
+        "도봉구",
+        "중랑구"
+      ],
+      "supplyCount": 128,
+      "applicationStart": "2026-08-31",
+      "applicationEnd": "2026-09-02",
+      "announcementDate": "2026-08-14",
+      "maritalRequired": false,
+      "marriedYears": 7,
+      "rolling": false,
+      "highlights": [
+        "2026년 1차 일반주택형 미리내집(신혼·신생아 매입임대주택Ⅱ) 128호 — 강북 9호·구로 7호·금천 52호·송파 10호·도봉 30호·중랑 20호",
+        "공고일(2026.08.14) 현재 무주택세대구성원으로 월평균소득 도시근로자 130% 이하(맞벌이 200%), 소득·자산 기준 충족",
+        "신생아가구(2024.08.15 이후 출생 자녀·태아, 혼인여부 무관) / 신혼부부(혼인신고 2019.08.15~2026.08.14) / 예비신혼부부(입주일 전일까지 혼인신고)",
+        "인터넷 접수 2026.08.31 10:00~09.02 17:00 (1~5순위 동시접수, 우편 불가) · 서류심사대상자 발표 2026.09.07 17:00 · 당첨자발표 2027.01.07 16:00",
+        "1세대 1주택형만 신청 가능, 복수 주택형 중복 신청 시 전부 무효"
+      ],
+      "applyMethod": "SH 인터넷청약시스템(www.i-sh.co.kr/app) PC·모바일",
+      "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?multi_itm_seq=2&seq=308644",
+      "status": "upcoming",
+      "priorityRules": [
+        {
+          "rank": "1순위",
+          "label": "2년 이내 출생 자녀 또는 태아가 있는 신생아 가구 / 지원대상 한부모가족",
+          "match": {
+            "$or": [
+              {
+                "children": [
+                  "신생아"
+                ]
+              },
+              {
+                "supportType": [
+                  "한부모"
+                ]
+              }
+            ]
+          },
+          "hint": "공고문 1순위: 신생아 가구 또는 지원대상 한부모가족"
+        }
+      ],
+      "sources": [
+        {
+          "name": "SH 공고문 (2026년 1차 일반주택형 미리내집(신혼신생아매입임대주택Ⅱ))",
+          "url": "https://www.i-sh.co.kr/app/lay2/program/S48T1581C563/www/brd/m_247/view.do?multi_itm_seq=2&seq=308644"
+        }
+      ],
+      "_fetchMeta": {
+        "fetchedAt": "2026-08-18T07:35:00+09:00",
+        "method": "서브에이전트 공고 상세 본문 + 첨부 공고문 직접 확인",
+        "note": "공고일·공급호수(128)·자치구별 소재지·소득기준·신청자격·접수일정·발표일정 본문 직접 인용. priorityRules는 공고문에 명시된 1순위만 기재하고 2~5순위는 본문에서 직접 인용 못해 생략"
       }
     }
   ],
